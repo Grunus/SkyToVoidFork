@@ -1,0 +1,89 @@
+{
+	title: "Hunt: Soulless Flesh",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "cfm:item_flesh",
+		tag: {
+			ench: [{
+				lvl: 10,
+				id: 10
+			}],
+			display: {
+				Lore: [
+					"Holding it sobs with a greenish liquid.",
+					"Who knows what comes out if you squeeze it..."
+				],
+				Name: "Juicy Flesh"
+			}
+		}
+	},
+	x: -12.5d,
+	y: 4.0d,
+	shape: "pentagon",
+	description: "''At night a powerful creature awakes fueled by an unknown serum. If you can get me this I could understand what this prison's ultimate goal was...''",
+	can_repeat: true,
+	hide_dependency_lines: true,
+	dependencies: [
+		"46793e20",
+		"2b00bb4e"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	optional: true,
+	tasks: [{
+		uid: "25c02dad",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "cfm:item_flesh",
+			tag: {
+				ench: [{
+					lvl: 10s,
+					id: 10s
+				}],
+				display: {
+					Lore: [
+						"Holding it sobs with a greenish liquid.",
+						"Who knows what comes out if you squeeze it..."
+					],
+					Name: "Juicy Flesh"
+				}
+			}
+		}],
+		count: 32L,
+		consume_items: true,
+		ignore_nbt: 2b
+	}],
+	rewards: [{
+		uid: "3d04a587",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "camscurrency:denarius"
+		},
+		count: 12
+	},
+	{
+		uid: "dd1623e4",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:iron_block"
+		},
+		count: 3
+	},
+	{
+		uid: "3ae728ff",
+		type: "ftbmoney:money",
+		ftb_money: 20L,
+		random_bonus: 30
+	}]
+}

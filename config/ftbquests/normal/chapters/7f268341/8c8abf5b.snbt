@@ -1,0 +1,47 @@
+{
+	title: "Really Bottomless",
+	x: 17.5d,
+	y: 11.0d,
+	shape: "square",
+	dependencies: [
+		"6a026f47"
+	],
+	hide: true,
+	tasks: [{
+		uid: "228c757b",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "industrialforegoing:black_hole_controller_reworked"
+		}]
+	}],
+	rewards: [{
+		uid: "f0364c10",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thermalfoundation:storage_alloy",
+			Damage: 7s
+		}
+	},
+	{
+		uid: "f8357e0f",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:ender_pearl"
+		},
+		count: 6
+	},
+	{
+		uid: "921ef937",
+		type: "loot",
+		table: 33
+	}]
+}

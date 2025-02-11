@@ -1,0 +1,33 @@
+{
+	title: "Fishing With S u p r e m e",
+	x: 4.0d,
+	y: 6.0d,
+	shape: "square",
+	text: [
+		"Supreme Supreme Supreme Supreme Supreme Supreme Supreme Supreme Supreme Supreme Supreme Supreme Supreme Supreme Supreme Supreme Supreme Supreme"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"f23bf935",
+		"3ee3aab5"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "c670815b",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "mysticalagriculture:supremium_fishing_rod"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "faa4d59e",
+		type: "loot",
+		table: 3
+	}]
+}

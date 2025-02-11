@@ -1,0 +1,147 @@
+{
+	title: "Kayla & Moar Biomes",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "biomesoplenty:terrarium"
+	},
+	x: 15.0d,
+	y: 12.0d,
+	shape: "diamond",
+	description: "''I've heard there's some other beautiful places out there! Looks like there is variety afterall. Can you let me know what's out there? I especially love Mesa biomes! Grab me some of the clay too!''",
+	text: [
+		"Wow! I'm gonna need to use the tram and venture out sometime."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"01e13a18",
+		"52fffa66"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "32e77c6b",
+		type: "biome",
+		title: "Visit a Swampland Island",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "biomesoplenty:sapling_2",
+			Damage: 3s
+		},
+		biome: "minecraft:swampland"
+	},
+	{
+		uid: "22979a3f",
+		type: "biome",
+		title: "Visit a Taiga Island",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:sapling",
+			Damage: 1s
+		},
+		biome: "minecraft:taiga"
+	},
+	{
+		uid: "215077ec",
+		type: "biome",
+		title: "Visit a Desert Island",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:deadbush"
+		},
+		biome: "minecraft:desert"
+	},
+	{
+		uid: "5845556d",
+		type: "biome",
+		title: "Visit a Hell Island",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "extrautils2:ironwood_sapling",
+			Damage: 1s
+		},
+		biome: "minecraft:hell"
+	},
+	{
+		uid: "9d02cf34",
+		type: "biome",
+		title: "Visit an Ocean Island",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "biomesoplenty:sapling_2",
+			Damage: 1s
+		},
+		biome: "minecraft:ocean"
+	},
+	{
+		uid: "4ff057b6",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:hardened_clay"
+		}],
+		count: 10L,
+		consume_items: true
+	},
+	{
+		uid: "ab1f9abf",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:stained_hardened_clay",
+			Damage: 7s
+		}],
+		count: 10L,
+		consume_items: true
+	},
+	{
+		uid: "56e305d7",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:stained_hardened_clay",
+			Damage: 6s
+		}],
+		count: 10L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "56846102",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "enderio:block_holier_fog"
+		},
+		count: 4,
+		random_bonus: 3
+	},
+	{
+		uid: "1010dd75",
+		type: "loot",
+		table: 10
+	},
+	{
+		uid: "cd4330f9",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

@@ -1,0 +1,57 @@
+{
+	title: "Ooooo- Shiny!",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "thermalfoundation:material",
+		Damage: 134s
+	},
+	x: -8.0d,
+	y: -2.0d,
+	dependencies: [
+		"74337ab7"
+	],
+	hide: true,
+	tasks: [{
+		uid: "5a0fc5f9",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "ingotPlatinum",
+					id: "ore"
+				},
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any ingotPlatinum"
+				}
+			}
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "62aab166",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "metallurgy:mithril_ingot"
+		},
+		count: 4
+	},
+	{
+		uid: "52efc9c2",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "tconstruct:cast_custom"
+		}
+	}]
+}

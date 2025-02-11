@@ -1,0 +1,30 @@
+{
+	title: "De_cache",
+	x: -6.0d,
+	y: -5.0d,
+	description: "A cache can store 20k of one item.",
+	dependencies: [
+		"8583634b"
+	],
+	hide: true,
+	tasks: [{
+		uid: "dc00a22a",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thermalexpansion:cache",
+			tag: {
+				Facing: 3,
+				Level: 0
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "14c41d46",
+		type: "loot",
+		table: 7
+	}]
+}

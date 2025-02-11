@@ -1,0 +1,45 @@
+{
+	title: "Bob's Certified Hunting License",
+	x: 4.0d,
+	y: -7.5d,
+	shape: "pentagon",
+	description: "''After showing me your strength I'll help you out. If you do my services I'll pay you handsomly.''",
+	text: [
+		"I may not be able to hunt, but I still want the rest of these islands safe and livable.",
+		"",
+		"This is our lives now hunter, we must protect what's left.",
+		"",
+		"================================",
+		"",
+		"Explore islands to discover repeatable hunting quests and observation quests."
+	],
+	dependencies: [
+		"4b230ad7"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "3a376d82",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ftbquests:book"
+		}],
+		consume_items: true,
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "764c336f",
+		type: "item",
+		title: "Unlock re-playable quests around islands.",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ftbquests:book"
+		}
+	}]
+}

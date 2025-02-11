@@ -1,0 +1,43 @@
+{
+	title: "Power Production",
+	x: -5.0d,
+	y: -2.0d,
+	description: "Runs on flux.",
+	text: [
+		""
+	],
+	dependencies: [
+		"ac7427ca"
+	],
+	hide: true,
+	tasks: [{
+		uid: "e83532bf",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thermalexpansion:machine",
+			tag: {
+				RSControl: 0b,
+				Facing: 3b,
+				Energy: 0,
+				SideCache: [B;
+					1b,
+					1b,
+					2b,
+					2b,
+					2b,
+					2b
+				],
+				Level: 0b
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "b2b2b187",
+		type: "loot",
+		table: 7
+	}]
+}

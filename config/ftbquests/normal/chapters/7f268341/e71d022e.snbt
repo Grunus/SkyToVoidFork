@@ -1,0 +1,29 @@
+{
+	title: "Woah, Big Loot",
+	x: -3.0d,
+	y: -1.0d,
+	dependencies: [
+		"0937a02c"
+	],
+	hide: true,
+	tasks: [{
+		uid: "6e5cc1d6",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thermalexpansion:satchel",
+			tag: {
+				Accessible: 1
+			},
+			Damage: 3s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "a53746db",
+		type: "loot",
+		table: 8
+	}]
+}

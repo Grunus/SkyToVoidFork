@@ -1,0 +1,49 @@
+{
+	title: "Open the End Temple",
+	x: -6.5d,
+	y: -19.0d,
+	shape: "diamond",
+	description: "''Now, with some of my more powerful abilities, I can unlock the bedrock temple at that End island. Travel over there and I'll be able to clear the obstruction in front of you.''",
+	text: [
+		""
+	],
+	dependencies: [
+		"8f3cff82"
+	],
+	hide: true,
+	tasks: [{
+		uid: "519dbb04",
+		type: "location",
+		title: "Step up the bedrock stairs at The End is Nigh.",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "bedrockplus:bedrock_stairs"
+		},
+		location: [I;
+			0,
+			-217,
+			112,
+			1252,
+			5,
+			5,
+			5
+		]
+	}],
+	rewards: [{
+		uid: "22dc194b",
+		type: "command",
+		title: "Open Bedrock Seal",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "extrautils2:decorativebedrock",
+			Damage: 2s
+		},
+		team_reward: true,
+		auto: "enabled",
+		command: "/fill -216 112 1255 -214 114 1255 minecraft:air"
+	}]
+}

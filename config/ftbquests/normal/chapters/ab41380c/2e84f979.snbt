@@ -1,0 +1,40 @@
+{
+	title: "Cloud Service: Duster II",
+	x: 3.0d,
+	y: -3.0d,
+	shape: "octagon",
+	description: "Unlocks items within the quest book shop.",
+	hide_dependency_lines: true,
+	dependencies: [
+		"52fffa66",
+		"6b8566de"
+	],
+	hide: true,
+	tasks: [{
+		uid: "a575b10a",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "contenttweaker:pylon",
+			tag: {
+				display: {
+					Lore: [
+						"Unlocks special Cloud Service items inside",
+						"the quest book shop from specific traders.",
+						"Complete quests from NPCs to reveal Cloud",
+						"Service quests."
+					],
+					Name: "Cloud Service Pylon"
+				}
+			}
+		}],
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "631818fc",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

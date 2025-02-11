@@ -1,0 +1,13 @@
+{
+	title: "Watching Closely",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "extrautils2:ingredients",
+		Damage: 2s
+	},
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

@@ -1,0 +1,26 @@
+{
+	x: 2.5d,
+	y: 10.0d,
+	dependencies: [
+		"ec0c5b6a"
+	],
+	hide: true,
+	tasks: [{
+		uid: "5064db48",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "cyclicmagic:ender_blaze",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "304f6034",
+		type: "loot",
+		table: 53
+	}]
+}

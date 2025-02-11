@@ -1,0 +1,47 @@
+{
+	title: "Islands II",
+	x: 0.0d,
+	y: 3.5d,
+	dependencies: [
+		"0a1ceb17"
+	],
+	tasks: [{
+		uid: "b84d9b99",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "metallurgy:deep_iron_ore"
+		}],
+		count: 16L,
+		consume_items: true
+	},
+	{
+		uid: "625d57ad",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "harvestcraft:dragonfruititem"
+		}],
+		count: 6L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "1d079d2b",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "artifacts:thorn_pendant"
+		}
+	},
+	{
+		uid: "6e6cae24",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

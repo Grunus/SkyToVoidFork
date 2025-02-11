@@ -1,0 +1,50 @@
+{
+	title: "Lawn Mower",
+	x: 5.5d,
+	y: 6.5d,
+	description: "Brush Scythe destroy grass and other foliage. Tree Scythe destroys chunks of leaves.",
+	text: [
+		""
+	],
+	dependencies: [
+		"9375ae25"
+	],
+	hide: true,
+	tasks: [{
+		uid: "c1634e7b",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "cyclicmagic:tool_harvest_weeds"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "60e8b8c0",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "cyclicmagic:tool_harvest_leaves"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "5090f47c",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:tallgrass",
+			Damage: 1s
+		},
+		count: 64,
+		random_bonus: 64
+	}]
+}

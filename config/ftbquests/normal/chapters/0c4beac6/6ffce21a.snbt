@@ -1,0 +1,35 @@
+{
+	title: "Ender IO Tier II Reward",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "enderio:block_alloy_smelter"
+	},
+	x: -10.0d,
+	y: 4.5d,
+	can_repeat: true,
+	dependencies: [
+		"4a597abd",
+		"b5e0e8b0",
+		"f01a32d5"
+	],
+	hide: true,
+	optional: true,
+	tasks: [{
+		uid: "d42b0fc0",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "camscurrency:denarius"
+		}],
+		count: 14L
+	}],
+	rewards: [{
+		uid: "fc532358",
+		type: "loot",
+		table: 35
+	}]
+}

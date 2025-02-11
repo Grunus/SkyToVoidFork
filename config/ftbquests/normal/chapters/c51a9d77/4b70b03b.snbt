@@ -1,0 +1,65 @@
+{
+	title: "Crystal Gear",
+	x: 2.5d,
+	y: 12.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"ec0c5b6a"
+	],
+	hide: true,
+	tasks: [{
+		uid: "2c129266",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "cyclicmagic:purple_helmet"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "b9e530d9",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "cyclicmagic:purple_leggings"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "a83081a2",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "cyclicmagic:purple_chestplate"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "49a2f0fc",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "cyclicmagic:purple_boots"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "83d61752",
+		type: "loot",
+		table: 53
+	}]
+}

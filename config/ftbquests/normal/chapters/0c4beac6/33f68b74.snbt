@@ -1,0 +1,37 @@
+{
+	title: "Applied Energistics Tier III Reward",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "appliedenergistics2:material",
+		Damage: 10s
+	},
+	x: -11.0d,
+	y: 5.5d,
+	can_repeat: true,
+	dependencies: [
+		"b2b3fb3a",
+		"48a1cc73",
+		"36765d12",
+		"1fb93c14"
+	],
+	hide: true,
+	optional: true,
+	tasks: [{
+		uid: "113e19c2",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "camscurrency:denarius"
+		}],
+		count: 32L
+	}],
+	rewards: [{
+		uid: "ef366da3",
+		type: "loot",
+		table: 16
+	}]
+}

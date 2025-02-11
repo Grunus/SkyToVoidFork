@@ -1,0 +1,70 @@
+{
+	title: "Even More Powerful!",
+	x: -1.5d,
+	y: -8.5d,
+	shape: "diamond",
+	description: "''A Verdant Temple? Yes! I'll become even more powerful! Give me this and I'll give you something you'll need.''",
+	text: [
+		"Perfect! Just what I wanted!"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"bbc6a150",
+		"0d83479c"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "ab8ca659",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ebwizardry:magic_crystal",
+			tag: {
+				ench: [{
+					lvl: 5s,
+					id: 60s
+				},
+				{
+					lvl: 3s,
+					id: 59s
+				}],
+				display: {
+					Lore: [
+						"You look inside the crystal and see swirling",
+						"flesh and blood."
+					],
+					Name: "Exceptional Crystal of Plague"
+				},
+				AttributeModifiers: [{
+					UUIDMost: 9089288085206026481L,
+					UUIDLeast: -5616473269080783756L,
+					Amount: 3.0d,
+					Slot: "offhand",
+					AttributeName: "generic.attackSpeed",
+					Operation: 0,
+					Name: "generic.attackSpeed"
+				}]
+			},
+			Damage: 5s
+		}],
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "4d63cc14",
+		type: "loot",
+		table: 43
+	},
+	{
+		uid: "24f84341",
+		type: "loot",
+		table: 43
+	},
+	{
+		uid: "351f6426",
+		type: "loot",
+		table: 43
+	}]
+}

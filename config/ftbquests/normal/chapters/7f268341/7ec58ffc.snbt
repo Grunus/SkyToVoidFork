@@ -1,0 +1,34 @@
+{
+	title: "With These Upgrades, You Never Stood a Chance",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "thermalfoundation:upgrade"
+	},
+	x: -7.0d,
+	y: 0.0d,
+	description: "using upgrade kits, you can upgrade certain blocks or machines.",
+	text: [
+		""
+	],
+	dependencies: [
+		"58961e37"
+	],
+	hide: true,
+	tasks: [{
+		uid: "eaa6005c",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thermalfoundation:upgrade"
+		}]
+	}],
+	rewards: [{
+		uid: "32b8b638",
+		type: "loot",
+		table: 7
+	}]
+}

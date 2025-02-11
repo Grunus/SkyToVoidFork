@@ -1,0 +1,43 @@
+{
+	title: "Change the Time of Day",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "minecraft:clock"
+	},
+	x: -1.0d,
+	y: -5.5d,
+	description: "''I demostrated to you my ability to even change the time of day.''",
+	text: [
+		"You can change the time between the beginning of the day or night."
+	],
+	dependencies: [
+		"f0ba6cef"
+	],
+	hide: true,
+	tasks: [{
+		uid: "4396d18b",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "camscurrency:aureus"
+		}],
+		count: 3L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "10e6bedb",
+		type: "custom",
+		title: "Unlocks the Ability to Change the Time to Day or Night",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:command_block"
+		},
+		auto: "enabled"
+	}]
+}

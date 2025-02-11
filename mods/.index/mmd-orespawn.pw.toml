@@ -1,0 +1,17 @@
+filename = 'OreSpawn-1.12-3.3.1.179.jar'
+name = 'MMD OreSpawn'
+side = 'both'
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'OreSpawn 3.3.1.179'
+
+[download]
+hash = 'a2d8e4666a5c1ff7cc47fa62995cdfeffc18947f'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 2913786
+project-id = 245586

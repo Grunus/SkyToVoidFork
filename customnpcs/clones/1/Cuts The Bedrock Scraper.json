@@ -1,0 +1,757 @@
+{
+    "ReturnToStart": 1b,
+    "NpcInv": [
+        {
+            "Slot": 0b,
+            "ForgeCaps": {
+                "customnpcs:itemscripteddata": {
+                }
+            },
+            "id": "thermalfoundation:rockwool",
+            "Count": 1b,
+            "tag": {
+                "ench": [
+                    {
+                        "lvl": 1s,
+                        "id": 40s
+                    }
+                ],
+                "RepairCost": 1,
+                "display": {
+                    "Name": "III. Mark of Sloth"
+                }
+            },
+            "Damage": 6s
+        },
+        {
+            "Slot": 1b,
+            "ForgeCaps": {
+                "customnpcs:itemscripteddata": {
+                }
+            },
+            "id": "tconstruct:crossbow",
+            "Count": 1b,
+            "tag": {
+                "StatsOriginal": {
+                    "AttackSpeedMultiplier": 1.0f,
+                    "MiningSpeed": 10.12f,
+                    "DrawSpeed": 1.97f,
+                    "FreeModifiers": 3,
+                    "ProjectileBonusDamage": 9.0f,
+                    "Durability": 1434,
+                    "HarvestLevel": 3,
+                    "Attack": 6.84f,
+                    "Range": 2.26f
+                },
+                "display": {
+                    "Name": "Shock Vitalizer"
+                },
+                "ResetFlag": 0b,
+                "Stats": {
+                    "AttackSpeedMultiplier": 1.0f,
+                    "MiningSpeed": 10.12f,
+                    "DrawSpeed": 2.561f,
+                    "FreeModifiers": 0,
+                    "ProjectileBonusDamage": 9.0f,
+                    "Durability": 1434,
+                    "HarvestLevel": 3,
+                    "Attack": 7.482605f,
+                    "Range": 2.26f
+                },
+                "Special": {
+                    "Categories": [
+                        "launcher",
+                        "tool"
+                    ]
+                },
+                "TinkerData": {
+                    "UsedModifiers": 4,
+                    "Materials": [
+                        "vulcanite",
+                        "peridot",
+                        "black_steel",
+                        "slimevine_purple"
+                    ],
+                    "Modifiers": [
+                        "toolleveling",
+                        "haste",
+                        "creative",
+                        "sharpness"
+                    ]
+                },
+                "Modifiers": [
+                    {
+                        "identifier": "superheat",
+                        "color": -10217175,
+                        "level": 1
+                    },
+                    {
+                        "identifier": "shock",
+                        "color": -15341515,
+                        "level": 1
+                    },
+                    {
+                        "identifier": "toolleveling",
+                        "color": 16777215,
+                        "level": 1
+                    },
+                    {
+                        "identifier": "haste",
+                        "current": 150,
+                        "color": 9502720,
+                        "level": 3,
+                        "max": 150,
+                        "extraInfo": "149 / 150"
+                    },
+                    {
+                        "identifier": "creative",
+                        "color": 0,
+                        "level": 1
+                    },
+                    {
+                        "identifier": "sharpness",
+                        "current": 20,
+                        "color": 16774902,
+                        "level": 1,
+                        "max": 72,
+                        "extraInfo": "19 / 72"
+                    }
+                ],
+                "Traits": [
+                    "superheat",
+                    "shock",
+                    "toolleveling"
+                ],
+                "Loaded": 0b
+            },
+            "Damage": 0s
+        },
+        {
+            "Slot": 2b,
+            "ForgeCaps": {
+                "customnpcs:itemscripteddata": {
+                }
+            },
+            "id": "tconstruct:bolt",
+            "Count": 1b,
+            "tag": {
+                "StatsOriginal": {
+                    "AttackSpeedMultiplier": 1.0f,
+                    "Accuracy": 1.0f,
+                    "MiningSpeed": 6.0f,
+                    "FreeModifiers": 3,
+                    "Durability": 154,
+                    "HarvestLevel": 2,
+                    "Attack": 4.0f
+                },
+                "display": {
+                    "Name": "Magnet Bolt"
+                },
+                "Stats": {
+                    "AttackSpeedMultiplier": 1.0f,
+                    "Accuracy": 1.0f,
+                    "MiningSpeed": 6.0f,
+                    "FreeModifiers": 0,
+                    "Durability": 154,
+                    "HarvestLevel": 2,
+                    "Attack": 4.0f
+                },
+                "Special": {
+                    "Categories": [
+                        "projectile",
+                        "no_melee",
+                        "tool"
+                    ]
+                },
+                "TinkerData": {
+                    "UsedModifiers": 3,
+                    "Materials": [
+                        "blaze",
+                        "iron",
+                        "feather"
+                    ],
+                    "Modifiers": [
+                        "toolleveling",
+                        "reinforced",
+                        "fins"
+                    ]
+                },
+                "Modifiers": [
+                    {
+                        "identifier": "hovering",
+                        "color": -16128,
+                        "level": 1
+                    },
+                    {
+                        "identifier": "magnetic",
+                        "color": -3487030,
+                        "level": 2,
+                        "magnetic2": 1b
+                    },
+                    {
+                        "identifier": "toolleveling",
+                        "color": 16777215,
+                        "level": 1
+                    },
+                    {
+                        "identifier": "reinforced",
+                        "color": 5254787,
+                        "level": 2
+                    },
+                    {
+                        "identifier": "fins",
+                        "color": 11259375,
+                        "level": 1
+                    }
+                ],
+                "Traits": [
+                    "hovering",
+                    "magnetic2",
+                    "toolleveling",
+                    "reinforced",
+                    "fins"
+                ]
+            },
+            "Damage": 0s
+        },
+        {
+            "Slot": 3b,
+            "ForgeCaps": {
+                "customnpcs:itemscripteddata": {
+                }
+            },
+            "id": "minecraft:diamond_block",
+            "Count": 1b,
+            "Damage": 0s
+        },
+        {
+            "Slot": 4b,
+            "ForgeCaps": {
+                "customnpcs:itemscripteddata": {
+                }
+            },
+            "id": "thermalexpansion:florb",
+            "Count": 3b,
+            "tag": {
+                "Fluid": "obsidian"
+            },
+            "Damage": 1s
+        },
+        {
+            "Slot": 5b,
+            "ForgeCaps": {
+                "customnpcs:itemscripteddata": {
+                }
+            },
+            "id": "minecraft:potion",
+            "Count": 1b,
+            "tag": {
+                "Potion": "potioncore:diamond_skin"
+            },
+            "Damage": 0s
+        },
+        {
+            "Slot": 6b,
+            "ForgeCaps": {
+                "customnpcs:itemscripteddata": {
+                }
+            },
+            "id": "appliedenergistics2:crystal_seed",
+            "Count": 1b,
+            "tag": {
+                "progress": 0
+            },
+            "Damage": 0s
+        },
+        {
+            "Slot": 7b,
+            "ForgeCaps": {
+                "customnpcs:itemscripteddata": {
+                }
+            },
+            "id": "appliedenergistics2:crystal_seed",
+            "Count": 1b,
+            "tag": {
+                "progress": 1200
+            },
+            "Damage": 1200s
+        },
+        {
+            "Slot": 8b,
+            "ForgeCaps": {
+                "customnpcs:itemscripteddata": {
+                }
+            },
+            "id": "ebwizardry:scroll",
+            "Count": 1b,
+            "Damage": 36s
+        }
+    ],
+    "BossColor": 0,
+    "PotionEffect": 0,
+    "Size": 5,
+    "stopAndInteract": 1b,
+    "Resistances": {
+        "Arrow": 2.0f,
+        "Explosion": 2.0f,
+        "Knockback": 2.0f,
+        "Melee": 0.8873239f
+    },
+    "BossBar": 2b,
+    "RespawnTime": 480,
+    "NpcAngrySound": "",
+    "ReactsToFire": 0b,
+    "IgnoreCobweb": 0b,
+    "PositionOffsetZ": 5.0f,
+    "PositionOffsetY": 5.0f,
+    "PositionOffsetX": 5.0f,
+    "LootMode": 0,
+    "TransformHasAI": 0b,
+    "AttackStrenght": 0,
+    "PersistenceRequired": 0b,
+    "id": "customnpcs:customnpc",
+    "IsStatue": 0b,
+    "MovingPatern": 0,
+    "NpcLines": {
+        "Lines": [
+        ]
+    },
+    "DefendFaction": 0b,
+    "FireIndirect": 0,
+    "NpcVisible": 0,
+    "LinkedNpcName": "",
+    "NpcScenes": {
+        "Scenes": [
+        ]
+    },
+    "HitSound": "",
+    "FindShelter": 2,
+    "Air": 300s,
+    "TacticalVariant": 1,
+    "Orientation": 0,
+    "ScriptLanguage": "ECMAScript",
+    "HandItems": [
+        {
+        },
+        {
+        }
+    ],
+    "KnockBack": 0,
+    "TransformHasJob": 0b,
+    "ArmorDropChances": [
+        0.085f,
+        0.085f,
+        0.085f,
+        0.085f
+    ],
+    "BurnInSun": 0b,
+    "StandingState": 0,
+    "AttackInvisible": 0b,
+    "NpcInteractNPCLines": {
+        "Lines": [
+        ]
+    },
+    "HurtTime": 0s,
+    "WalkingRange": 10,
+    "ShotCount": 1,
+    "pDur": 10,
+    "AttackRange": 1,
+    "NpcKillLines": {
+        "Lines": [
+            {
+                "Line": "Stay above the surface where you belong.",
+                "Song": "",
+                "Slot": 0
+            },
+            {
+                "Line": "Get back down into the Void you.",
+                "Song": "",
+                "Slot": 1
+            },
+            {
+                "Line": "I open passages to the Void, how about you jump down next time?",
+                "Song": "",
+                "Slot": 2
+            }
+        ]
+    },
+    "PotionImmune": 1b,
+    "AvoidsSun": 0b,
+    "Texture": "thermalfoundation:textures/entity/basalz_xmas.png",
+    "NpcJob": 0,
+    "BurstCount": 10,
+    "NpcAttackLines": {
+        "Lines": [
+            {
+                "Line": "Worship. You didn't come to worship me.",
+                "Song": "",
+                "Slot": 0
+            },
+            {
+                "Line": "Nothing stands a chance, not even bedrock.",
+                "Song": "",
+                "Slot": 1
+            },
+            {
+                "Line": "I am shielded by this bedrock. Nothing can stop me.",
+                "Song": "",
+                "Slot": 2
+            },
+            {
+                "Line": "You think your arrows can do anything against. me?",
+                "Song": "",
+                "Slot": 3
+            }
+        ]
+    },
+    "pSpeed": 25,
+    "pArea": 0,
+    "DeathTime": 0s,
+    "pImpact": 3,
+    "MoveState": 0,
+    "pRender3D": 1b,
+    "Motion": [
+        0.0d,
+        -0.0784000015258789d,
+        0.0d
+    ],
+    "CombatRegen": 5,
+    "NpcsTimers": [
+    ],
+    "pEffect": 7,
+    "DistanceToMelee": 0,
+    "NpcStepSound": "",
+    "FireRate": 2,
+    "LeftHanded": 0b,
+    "pEffAmp": 0,
+    "OnGround": 1b,
+    "Dimension": 0,
+    "ImmuneToFire": 1b,
+    "NpcKilledLines": {
+        "Lines": [
+            {
+                "Line": "My soul must find a new host. You can never kill me for good.",
+                "Song": "",
+                "Slot": 0
+            },
+            {
+                "Line": "Death is not problem, I must find a new host for my soul.",
+                "Song": "",
+                "Slot": 1
+            },
+            {
+                "Line": "My soul will carry on.",
+                "Song": "",
+                "Slot": 2
+            }
+        ]
+    },
+    "Fire": -1s,
+    "ArmorItems": [
+        {
+        },
+        {
+        },
+        {
+        },
+        {
+        }
+    ],
+    "DisablePitch": 0b,
+    "pPhysics": 0b,
+    "TransformHasInv": 0b,
+    "NpcInteractLines": {
+        "Lines": [
+            {
+                "Line": "Hello @p",
+                "Song": "",
+                "Slot": 0
+            }
+        ]
+    },
+    "HurtByTimestamp": 37577,
+    "pSpin": 0b,
+    "NpcHurtSound": "minecraft:entity.blaze.hurt",
+    "pTrail": 1,
+    "CreatureType": 0,
+    "Attributes": [
+        {
+            "Base": 1.0d,
+            "Name": "potioncore.projectileDamage"
+        },
+        {
+            "Base": 1.0d,
+            "Name": "potioncore.magicDamage"
+        },
+        {
+            "Base": 1.0d,
+            "Name": "potioncore.jumpHeight"
+        },
+        {
+            "Base": 1.0d,
+            "Name": "potioncore.damageResistance"
+        },
+        {
+            "Base": 0.0d,
+            "Name": "potioncore.magicShielding"
+        },
+        {
+            "Base": 50.0d,
+            "Name": "generic.maxHealth"
+        },
+        {
+            "Base": 0.0d,
+            "Name": "generic.knockbackResistance"
+        },
+        {
+            "Base": 0.0d,
+            "Name": "generic.movementSpeed"
+        },
+        {
+            "Base": 0.0d,
+            "Name": "generic.armor"
+        },
+        {
+            "Base": 0.0d,
+            "Name": "generic.armorToughness"
+        },
+        {
+            "Base": 1.0d,
+            "Name": "forge.swimSpeed"
+        },
+        {
+            "Base": 32.0d,
+            "Name": "generic.followRange"
+        },
+        {
+            "Base": 0.0d,
+            "Name": "generic.attackDamage"
+        },
+        {
+            "Base": 0.0d,
+            "Name": "generic.flyingSpeed"
+        }
+    ],
+    "Invulnerable": 0b,
+    "TransformHasDisplay": 0b,
+    "NoFallDamage": 0b,
+    "AbsorptionAmount": 0.0f,
+    "TransformHasRole": 0b,
+    "Name": "Cuts The Bedrock Scraper",
+    "FallDistance": 0.0f,
+    "SkinColor": 1118481,
+    "NpcIdleSound": "",
+    "Weapons": [
+        {
+            "Slot": 1b,
+            "ForgeCaps": {
+                "customnpcs:itemscripteddata": {
+                }
+            },
+            "id": "minecraft:bedrock",
+            "Count": 1b,
+            "Damage": 0s
+        }
+    ],
+    "NPCDialogOptions": [
+    ],
+    "AggroRange": 50,
+    "DirectLOS": 1b,
+    "HealthRegen": 5,
+    "ForgeCaps": {
+        "tinkertoolleveling:entityxp": [
+        ],
+        "metallurgy:punch_effect": {
+            "hasAiDisabled": 1b,
+            "knockbackTicks": 0,
+            "ticks": 0
+        }
+    },
+    "HandDropChances": [
+        0.085f,
+        0.085f
+    ],
+    "NpcModelData": {
+        "LegsConfig": {
+            "NotShared": 0b,
+            "ScaleZ": 1.0f,
+            "TransZ": 0.0f,
+            "TransY": 0.0f,
+            "TransX": 0.012000002f,
+            "ScaleY": 1.0f,
+            "ScaleX": 1.0f
+        },
+        "BodyConfig": {
+            "NotShared": 0b,
+            "ScaleZ": 1.0f,
+            "TransZ": 0.0f,
+            "TransY": 0.0f,
+            "TransX": 0.0f,
+            "ScaleY": 1.0f,
+            "ScaleX": 1.0f
+        },
+        "Eyes": {
+            "Pattern": 0b,
+            "Glint": 1b,
+            "Type": 0b,
+            "PositionY": 1,
+            "SkinColor": 11830381,
+            "PlayerTexture": 0b,
+            "Color": 10987431,
+            "BrowColor": 5982516,
+            "BrowThickness": 4
+        },
+        "EntityClass": "cofh.thermalfoundation.entity.monster.EntityBasalz",
+        "LegParts": {
+            "Pattern": 0b,
+            "Type": 0b,
+            "PlayerTexture": 0b,
+            "Color": 16777215
+        },
+        "Parts": [
+        ],
+        "ArmsConfig": {
+            "NotShared": 0b,
+            "ScaleZ": 1.0f,
+            "TransZ": 0.0f,
+            "TransY": 0.0f,
+            "TransX": -0.0f,
+            "ScaleY": 1.0f,
+            "ScaleX": 1.0f
+        },
+        "ExtraData": {
+        },
+        "HeadConfig": {
+            "NotShared": 0b,
+            "ScaleZ": 1.0f,
+            "TransZ": 0.0f,
+            "TransY": 0.0f,
+            "TransX": 0.0f,
+            "ScaleY": 1.0f,
+            "ScaleX": 1.0f
+        }
+    },
+    "minDelay": 6,
+    "DoorInteract": 0,
+    "MoveSpeed": 0,
+    "TransformEditingModus": 0b,
+    "UsingSkinUrl": 0b,
+    "Leashed": 0b,
+    "SkinUrl": "",
+    "CanSwim": 1b,
+    "GroundSound": "",
+    "MaxHealth": 50,
+    "HideBodyWhenKilled": 1b,
+    "AttackSpeed": 20,
+    "PotionDuration": 5,
+    "maxDelay": 6,
+    "ScriptEnabled": 0b,
+    "Role": 0,
+    "DropChance": [
+        {
+            "Integer": 100,
+            "Slot": 0
+        },
+        {
+            "Integer": 33,
+            "Slot": 1
+        },
+        {
+            "Integer": 33,
+            "Slot": 2
+        },
+        {
+            "Integer": 80,
+            "Slot": 3
+        },
+        {
+            "Integer": 80,
+            "Slot": 4
+        },
+        {
+            "Integer": 90,
+            "Slot": 5
+        },
+        {
+            "Integer": 40,
+            "Slot": 6
+        },
+        {
+            "Integer": 2,
+            "Slot": 7
+        },
+        {
+            "Integer": 28,
+            "Slot": 8
+        }
+    ],
+    "FactionPoints": {
+        "DecreaseFaction1Points": 0b,
+        "OptionFaction2Points": 100,
+        "OptionFactions1": -1,
+        "OptionFactions2": -1,
+        "OptionFaction1Points": 100,
+        "DecreaseFaction2Points": 0b
+    },
+    "pDamage": 15,
+    "KilledTime": 0L,
+    "AimWhileShooting": 0b,
+    "CanPickUpLoot": 0b,
+    "AttackOtherFactions": 0b,
+    "CanDrown": 0b,
+    "pSize": 5,
+    "CanSprint": 0b,
+    "CanLeap": 0b,
+    "TransformIsActive": 0b,
+    "ForgeData": {
+        "cnpcmarkdata": {
+            "marks": [
+            ]
+        },
+        "Potion Core - Health Fix": 50.0f,
+        "Potion Core - Projectile Invulnerability": 0,
+        "Potion Core - Jump Boost Updated": 1b
+    },
+    "MovingState": 0,
+    "MovingPos": 0,
+    "PotionAmp": 0,
+    "OnAttack": 0,
+    "TacticalRadius": 50,
+    "FallFlying": 0b,
+    "MaxExp": 30,
+    "OrderedLines": 0b,
+    "PortalCooldown": 0,
+    "pGlows": 0b,
+    "TransformHasAdvanced": 0b,
+    "TransformHasStats": 0b,
+    "MovementType": 0,
+    "FiringSound": "elevatorid:teleport",
+    "ModRev": 18,
+    "Accuracy": 100,
+    "MinExp": 20,
+    "Armor": [
+    ],
+    "CloakTexture": "",
+    "GlowTexture": "",
+    "MaxFiringRange": 50,
+    "pXlr8": 0b,
+    "Scripts": [
+    ],
+    "Health": 50.0f,
+    "pStick": 0b,
+    "MovingPause": 1b,
+    "NpcDeathSound": "minecraft:entity.blaze.death",
+    "FactionID": 2,
+    "Title": "Temple's Worship",
+    "TotalTicksAlive": 115947L,
+    "Rotation": [
+        89.999985f,
+        0.0f
+    ],
+    "ShowName": 0,
+    "npcInteracting": 1b,
+    "UpdateBlocked": 0b,
+    "AvoidsWater": 0b,
+    "NoLivingAnimation": 0b,
+    "SpawnCycle": 0
+}

@@ -1,0 +1,38 @@
+{
+	title: "The Villagers Final",
+	x: 2.5d,
+	y: 13.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"62f9b999"
+	],
+	tasks: [{
+		uid: "94276f0b",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:obsidian"
+		}],
+		count: 80L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "f533cb5a",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "artifacts:shiny_red_balloon"
+		}
+	},
+	{
+		uid: "96c45440",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	}]
+}

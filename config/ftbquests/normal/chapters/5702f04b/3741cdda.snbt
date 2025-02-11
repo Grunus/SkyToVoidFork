@@ -1,0 +1,55 @@
+{
+	title: "Holy Shard!",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "mysticalagriculture:crafting",
+		Damage: 5s
+	},
+	x: 3.0d,
+	y: 2.0d,
+	shape: "circle",
+	description: "Prosperity shards are necessary to start working with Mystical Agriculture.",
+	dependencies: [
+		"d4a6b60f"
+	],
+	hide: true,
+	tasks: [{
+		uid: "56af7523",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "mysticalagriculture:crafting",
+			Damage: 5s
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "2f1f5a18",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "tconstruct:tough_binding",
+			tag: {
+				Material: "ma.prosperity"
+			}
+		}
+	},
+	{
+		uid: "54e1e9c1",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "mysticalagriculture:storage",
+			Damage: 5s
+		},
+		random_bonus: 4
+	}]
+}

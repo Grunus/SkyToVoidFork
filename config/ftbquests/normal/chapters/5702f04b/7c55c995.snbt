@@ -1,0 +1,34 @@
+{
+	title: "It's Never Too Early to Start With Magical Seeds",
+	x: 1.0d,
+	y: 3.0d,
+	text: [
+		"Mobs have a chance to drop inferium. Inferium is used to create special seeds like certain resources or mob parts."
+	],
+	dependencies: [
+		"db711c5d"
+	],
+	hide: true,
+	tasks: [{
+		uid: "c5ffb30f",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "mysticalagriculture:crafting"
+		}],
+		count: 12L
+	}],
+	rewards: [{
+		uid: "1617e65f",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "mysticalagriculture:inferium_arrow"
+		},
+		count: 4
+	}]
+}

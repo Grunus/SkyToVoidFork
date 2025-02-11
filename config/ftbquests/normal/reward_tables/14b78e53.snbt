@@ -1,0 +1,39 @@
+{
+	title: "Havey Oak Sieve Choice",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "excompressum:heavy_sieve"
+	},
+	loot_size: 1,
+	hide_tooltip: true,
+	use_title: true,
+	rewards: [{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "extrautils2:compressedgravel"
+		},
+		count: 2
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "extrautils2:compressedsand"
+		},
+		count: 2
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "excompressum:compressed_block"
+		},
+		count: 2
+	}]
+}

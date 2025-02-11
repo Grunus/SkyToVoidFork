@@ -1,0 +1,53 @@
+{
+	title: "Computer Energy",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "mysticalagriculture:certus_quartz_essence"
+	},
+	x: -12.0d,
+	y: 11.0d,
+	dependencies: [
+		"87d5e414"
+	],
+	hide: true,
+	tasks: [{
+		uid: "c2850686",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "mysticalagriculture:certus_quartz_essence"
+		}],
+		count: 20L
+	},
+	{
+		uid: "10e59ceb",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "mysticalagriculture:certus_quartz_seeds"
+		}],
+		count: 2L
+	}],
+	rewards: [{
+		uid: "40bcb09c",
+		type: "loot",
+		table: 10
+	},
+	{
+		uid: "45b57a85",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "hammercore:quartz_bordered_cobblestone"
+		},
+		count: 4
+	}]
+}

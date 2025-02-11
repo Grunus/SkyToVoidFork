@@ -1,0 +1,37 @@
+{
+	title: "Ice Summoning",
+	x: 0.0d,
+	y: -3.0d,
+	description: "With a freezing doll you can summon a Blizz.",
+	text: [
+		"It is used to create Cryotheum to upgrade some Thermal Expansion items."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"19b6504b",
+		"ec19fa8f"
+	],
+	hide: true,
+	tasks: [{
+		uid: "09f5b34f",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "exnihilocreatio:item_doll",
+			Damage: 4s
+		}]
+	}],
+	rewards: [{
+		uid: "8dbe5570",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "harvestcraft:applesnowitem"
+		},
+		count: 16
+	}]
+}

@@ -1,0 +1,70 @@
+{
+	title: "Uhh- is it a Metal?",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "tconstruct:ingots",
+		Damage: 4s
+	},
+	x: -6.5d,
+	y: 6.0d,
+	shape: "diamond",
+	description: "''Yeah can you give me some of whatever this is? I found one of these from Elbow. He actually threw it at me. Also get me some bacon as well.''",
+	text: [
+		"I'm more excited for the bacon than this weird metal. Thank you!"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"7503417b",
+		"a150f2c8"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "162455aa",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "tconstruct:ingots",
+			Damage: 4s
+		}],
+		count: 16L,
+		consume_items: true
+	},
+	{
+		uid: "23058953",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "tconstruct:edible"
+		}],
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "f030f1a4",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "harvestcraft:chocolatebaconitem"
+		},
+		count: 16,
+		random_bonus: 600
+	},
+	{
+		uid: "be17243e",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "d5f63f25",
+		type: "xp_levels",
+		xp_levels: 12
+	}]
+}

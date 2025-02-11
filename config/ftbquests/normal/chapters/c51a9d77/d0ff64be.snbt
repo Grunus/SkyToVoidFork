@@ -1,0 +1,42 @@
+{
+	title: "9 to 5 Construction Worker",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "openblocks:crane_backpack"
+	},
+	x: -7.5d,
+	y: 4.5d,
+	description: "Pickup blocks and entities for your construction needs!",
+	text: [
+		"Picing up unbreakable blocks is highly not recommended..."
+	],
+	dependencies: [
+		"a2d990d3"
+	],
+	tasks: [{
+		uid: "6c8f4285",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "openblocks:crane_backpack"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "4a90cbea",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "openblocks:crane_control"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,33 @@
+{
+	title: "Libcardo's Compressed Sand",
+	x: -1.0d,
+	y: -3.0d,
+	shape: "diamond",
+	description: "''You can compress cobblestone alright, how about sand?''",
+	text: [
+		"So you can compress sand, hmm."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"23fe0153"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "20969da3",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "extrautils2:compressedsand",
+			Damage: 1s
+		}],
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "8680e822",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

@@ -1,0 +1,36 @@
+{
+	title: "Observation: Cave Spider",
+	x: 4.0d,
+	y: 6.5d,
+	shape: "pentagon",
+	hide_dependency_lines: true,
+	dependencies: [
+		"46793e20",
+		"838f6260"
+	],
+	hide: true,
+	tasks: [{
+		uid: "a22d4628",
+		type: "observation",
+		title: "Observe a Cave Spider",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:spawn_egg",
+			tag: {
+				EntityTag: {
+					id: "minecraft:cave_spider"
+				}
+			}
+		},
+		match_type: "entity_id",
+		match: "minecraft:cave_spider",
+		timer: 100L
+	}],
+	rewards: [{
+		uid: "0cec1798",
+		type: "ftbmoney:money",
+		ftb_money: 35L
+	}]
+}

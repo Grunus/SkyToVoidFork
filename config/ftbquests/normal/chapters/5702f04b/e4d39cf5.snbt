@@ -1,0 +1,28 @@
+{
+	title: "Slight of Hand",
+	x: 2.5d,
+	y: 11.0d,
+	description: "Increases attack speed.",
+	text: [
+		""
+	],
+	dependencies: [
+		"60cb9e69"
+	],
+	hide: true,
+	tasks: [{
+		uid: "8a33f705",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "conarm:gauntlet_mat_speed"
+		}]
+	}],
+	rewards: [{
+		uid: "192306c7",
+		type: "loot",
+		table: 48
+	}]
+}

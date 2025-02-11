@@ -1,0 +1,42 @@
+{
+	title: "Wood Gems",
+	x: 1.0d,
+	y: 10.0d,
+	description: "Using the Melter to melt acacia wood (somehow), solidify enough of it turn into amber!",
+	text: [
+		""
+	],
+	dependencies: [
+		"558db4b0"
+	],
+	hide: true,
+	tasks: [{
+		uid: "68075535",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "gemAmber",
+					id: "ore"
+				},
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any gemAmber"
+				}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "d367c283",
+		type: "loot",
+		table: 52
+	},
+	{
+		uid: "cf1e73fd",
+		type: "loot",
+		table: 52
+	}]
+}

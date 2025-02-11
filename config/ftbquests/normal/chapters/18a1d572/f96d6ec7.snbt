@@ -1,0 +1,38 @@
+{
+	title: "Open The Kingdom of Gods",
+	x: 0.0d,
+	y: 0.0d,
+	text: [
+		"''It is rumored that the gods may hold Aureus, a special currency you could possibly use to aid yourself.''"
+	],
+	dependencies: [
+		"7131ef1f"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "bfaad007",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "3f964d53",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "contenttweaker:6_thekingdomofgods",
+			tag: {
+				display: {
+					Lore: [
+						"Gain access to The Kingdom of Gods.",
+						"",
+						"",
+						"Can be used on the door in Mission Hub."
+					],
+					Name: "The Key to the Kingdom"
+				}
+			}
+		}
+	}]
+}

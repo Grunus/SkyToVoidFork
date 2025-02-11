@@ -1,0 +1,65 @@
+{
+	title: "Corrupted Key",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "contenttweaker:extra1_sunkenfactory_devoid",
+		tag: {
+			display: {
+				Lore: [
+					"Gain access to Sunken Factory: Devoid Mission",
+					"",
+					"",
+					"Can be used on the door in Mission Hub."
+				],
+				Name: "Corrupted Key"
+			}
+		}
+	},
+	x: -7.0d,
+	y: -1.5d,
+	shape: "diamond",
+	description: "You can now buy Corrupted Key, if needed.",
+	text: [
+		""
+	],
+	dependencies: [
+		"aeb457c5"
+	],
+	hide: true,
+	optional: true,
+	tasks: [{
+		uid: "f2397b9a",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "camscurrency:denarius"
+		}],
+		count: 16L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "d8258895",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "contenttweaker:extra1_sunkenfactory_devoid",
+			tag: {
+				display: {
+					Lore: [
+						"Gain access to Sunken Factory: Devoid Mission",
+						"",
+						"",
+						"Can be used on the door in Mission Hub."
+					],
+					Name: "Corrupted Key"
+				}
+			}
+		}
+	}]
+}

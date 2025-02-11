@@ -1,0 +1,111 @@
+{
+	title: "Change of Scenery",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "minecraft:sapling",
+		Damage: 5s
+	},
+	x: 4.0d,
+	y: -3.0d,
+	shape: "diamond",
+	description: "''You know living in the desert for this long has made me too comfortable. Think I need some change. That forest close to me got some fresh looking trees and vegetation. Can you bring some to me?''",
+	text: [
+		"Gonna start growing some of this right away! Thank you."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"ff181550",
+		"2e84f979"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "8f25e500",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:sapling",
+			Damage: 5s
+		}],
+		count: 16L,
+		consume_items: true
+	},
+	{
+		uid: "c1754f75",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:reeds"
+		}],
+		count: 64L,
+		consume_items: true
+	},
+	{
+		uid: "3307ae07",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:dirt",
+			Damage: 2s
+		}],
+		count: 4L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "918d8a0e",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "harvestcraft:sugarcookieitem"
+		},
+		count: 16
+	},
+	{
+		uid: "fabcecc3",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "harvestcraft:strawberryjellysandwichitem"
+		},
+		count: 16
+	},
+	{
+		uid: "7d02e7e1",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "harvestcraft:strawberryseeditem"
+		},
+		count: 16
+	},
+	{
+		uid: "f872c4a2",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "harvestcraft:breadfruit_sapling"
+		},
+		count: 2
+	},
+	{
+		uid: "786273a0",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

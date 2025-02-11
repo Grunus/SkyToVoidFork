@@ -1,0 +1,111 @@
+{
+	title: "The Villagers I",
+	x: -0.5d,
+	y: 13.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"00ab44da"
+	],
+	hide: true,
+	tasks: [{
+		uid: "edc117ca",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "harvestcraft:jellydonutitem"
+		}],
+		count: 16L,
+		consume_items: true
+	},
+	{
+		uid: "313120b4",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "harvestcraft:powdereddonutitem"
+		}],
+		count: 16L,
+		consume_items: true
+	},
+	{
+		uid: "db454e9e",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "harvestcraft:chocolatedonutitem"
+		}],
+		count: 16L,
+		consume_items: true
+	},
+	{
+		uid: "3267070a",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "harvestcraft:donutitem"
+		}],
+		count: 16L
+	},
+	{
+		uid: "5e9fcb56",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "harvestcraft:frosteddonutitem"
+		}],
+		count: 16L,
+		consume_items: true
+	},
+	{
+		uid: "66125339",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "harvestcraft:cinnamonsugardonutitem"
+		}],
+		count: 16L,
+		consume_items: true
+	},
+	{
+		uid: "00e8c2c9",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "harvestcraft:chilidonutitem"
+		}],
+		count: 16L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "ffc29c3f",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "camscurrency:denarius"
+		},
+		count: 32
+	},
+	{
+		uid: "99a0178c",
+		type: "ftbmoney:money",
+		ftb_money: 15L
+	}]
+}

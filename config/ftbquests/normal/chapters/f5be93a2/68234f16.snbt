@@ -1,0 +1,36 @@
+{
+	title: "Slavender II",
+	x: 0.5d,
+	y: 5.5d,
+	dependencies: [
+		"f64375d8"
+	],
+	tasks: [{
+		uid: "ebb013f7",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:diamond_block"
+		}],
+		count: 16L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "2b5fe673",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "camscurrency:denarius"
+		},
+		count: 32
+	},
+	{
+		uid: "13bd3709",
+		type: "ftbmoney:money",
+		ftb_money: 125L
+	}]
+}

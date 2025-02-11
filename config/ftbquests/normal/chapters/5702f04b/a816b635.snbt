@@ -1,0 +1,47 @@
+{
+	title: "That's Some Big Log",
+	x: 3.0d,
+	y: 7.0d,
+	dependencies: [
+		"cebcaaf7"
+	],
+	hide: true,
+	tasks: [{
+		uid: "5d1df9b4",
+		type: "item",
+		title: "Any logWood",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:log"
+		},
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "logWood",
+					id: "ore"
+				},
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "itemfilters:filter"
+		}],
+		count: 128L
+	}],
+	rewards: [{
+		uid: "4feaa42f",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:sapling"
+		},
+		count: 64
+	},
+	{
+		uid: "d1b52926",
+		type: "loot",
+		table: 1
+	}]
+}

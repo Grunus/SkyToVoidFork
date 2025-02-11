@@ -1,0 +1,17 @@
+filename = 'totaltinkers-0.6.0.jar'
+name = 'Total Tinkers'
+side = 'both'
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'totaltinkers-0.6.0.jar'
+
+[download]
+hash = '3c66940e1d1cec679890862dc9f5c2069d68882d'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 3243998
+project-id = 320903

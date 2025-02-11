@@ -1,0 +1,105 @@
+{
+	title: "Nytemart's Battery Life",
+	x: -13.0d,
+	y: -4.5d,
+	shape: "diamond",
+	description: "''Hey so you know, you obviously watch my streams, I can't go anywhere anymore cause you know, everything is floating :monkaS:. Could you grab me some more power? Just connect ducts into this task screen next to me. I'm near empty :pepehands:.''",
+	text: [
+		"YOU MY GOD :POGCHAMP: :POGCHAMP: you saved my career! Thank you!",
+		"",
+		"I will be streaming shortly, please sub with Twitch Prime :POGCHAMP:!"
+	],
+	dependencies: [
+		"452714e6"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "9ff0428d",
+		type: "forge_energy",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thermalexpansion:frame",
+			Damage: 146s
+		},
+		value: 500000L
+	}],
+	rewards: [{
+		uid: "49aecb45",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thermalfoundation:armor.helmet_electrum",
+			tag: {
+				ench: [{
+					lvl: 5s,
+					id: 7s
+				},
+				{
+					lvl: 2s,
+					id: 23s
+				}],
+				Unbreakable: 1b,
+				display: {
+					Name: "The Electric Sting"
+				},
+				AttributeModifiers: [{
+					UUIDMost: 4403262889361820854L,
+					UUIDLeast: -8963926160041810458L,
+					Amount: 1.0d,
+					Slot: "head",
+					AttributeName: "generic.attackDamage",
+					Operation: 0,
+					Name: "generic.attackDamage"
+				},
+				{
+					UUIDMost: 3086076556416732775L,
+					UUIDLeast: -5150312587563650736L,
+					Amount: 6.0d,
+					Slot: "head",
+					AttributeName: "generic.armor",
+					Operation: 0,
+					Name: "generic.armor"
+				},
+				{
+					UUIDMost: 5176159561595700653L,
+					UUIDLeast: -5373852195619784816L,
+					Amount: 2.0d,
+					Slot: "head",
+					AttributeName: "generic.maxHealth",
+					Operation: 0,
+					Name: "generic.maxHealth"
+				},
+				{
+					UUIDMost: -2465104008619802354L,
+					UUIDLeast: -5471639572220378681L,
+					Amount: -2.0d,
+					Slot: "head",
+					AttributeName: "generic.knockbackResistance",
+					Operation: 0,
+					Name: "generic.knockbackResistance"
+				}]
+			}
+		}
+	},
+	{
+		uid: "b868ae6a",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "camscurrency:denarius"
+		},
+		count: 15
+	},
+	{
+		uid: "da014cd2",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

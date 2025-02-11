@@ -1,0 +1,30 @@
+{
+	title: "Meet Cilitou",
+	x: -5.0d,
+	y: 4.0d,
+	shape: "diamond",
+	dependencies: [
+		"c79642c1"
+	],
+	hide: true,
+	tasks: [{
+		uid: "76234e4f",
+		type: "location",
+		title: "-97 88 120",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:iron_sword"
+		},
+		location: [I;
+			0,
+			-98,
+			88,
+			120,
+			2,
+			2,
+			2
+		]
+	}]
+}

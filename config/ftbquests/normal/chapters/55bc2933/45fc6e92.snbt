@@ -1,0 +1,296 @@
+{
+	title: "Loot Pool",
+	x: 0.5d,
+	y: 1.5d,
+	shape: "rsquare",
+	description: "Reveals possible loot that can be found or dropped by mobs. Does not reveal loot behind Void Gateways.",
+	text: [
+		"Focused Rang: Chest",
+		"Epic Trident: The Nytemart Drop",
+		"RC Sling: Bird Outside the Window Drop",
+		"9 Lives (Give or Take): Neighbor's Cat Drop"
+	],
+	dependencies: [
+		"def9843c"
+	],
+	hide: true,
+	optional: true,
+	min_width: 300,
+	tasks: [{
+		uid: "f314726f",
+		type: "item",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "contenttweaker:mission_loot",
+			tag: {
+				display: {
+					Name: "Loot Pool"
+				}
+			}
+		},
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:structure_void",
+			tag: {
+				display: {
+					Lore: [
+						"This quest shows all possible loot that can",
+						"be found or dropped by mobs.",
+						"",
+						"Does not include loot behind Void Gateways."
+					],
+					Name: "QUEST CANNOT BE COMPLETED"
+				}
+			}
+		}],
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "8e600b87",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "extrautils2:boomerang",
+			tag: {
+				ench: [{
+					lvl: 4s,
+					id: 12s
+				},
+				{
+					lvl: 2s,
+					id: 13s
+				},
+				{
+					lvl: 5s,
+					id: 14s
+				}],
+				display: {
+					Lore: [
+						"Stop. Focus your throw. Fire."
+					],
+					Name: "Focused Rang"
+				},
+				AttributeModifiers: [{
+					UUIDMost: -1967445256202072504L,
+					UUIDLeast: -6911153212330531387L,
+					Amount: -5.0d,
+					Slot: "mainhand",
+					AttributeName: "generic.movementSpeed",
+					Operation: 0,
+					Name: "generic.movementSpeed"
+				}]
+			}
+		}
+	},
+	{
+		uid: "9780abd5",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "futuremc:trident",
+			tag: {
+				ench: [{
+					lvl: 2s,
+					id: 106s
+				},
+				{
+					lvl: 1s,
+					id: 105s
+				}],
+				display: {
+					Name: "Epic Trident"
+				},
+				AttributeModifiers: [{
+					UUIDMost: -3801225194067177672L,
+					UUIDLeast: -6586624321849018929L,
+					Amount: 12.0d,
+					Slot: "mainhand",
+					AttributeName: "generic.attackDamage",
+					Operation: 0,
+					Name: "generic.attackDamage"
+				},
+				{
+					UUIDMost: -422425648963762075L,
+					UUIDLeast: -5756800103171642205L,
+					Amount: -2.9000000953674316d,
+					Slot: "mainhand",
+					AttributeName: "generic.attackSpeed",
+					Operation: 0,
+					Name: "generic.attackSpeed"
+				},
+				{
+					UUIDMost: 1361610782924030001L,
+					UUIDLeast: -5894708817755129515L,
+					Amount: 2.0d,
+					Slot: "mainhand",
+					AttributeName: "generic.armor",
+					Operation: 0,
+					Name: "generic.armor"
+				}]
+			}
+		}
+	},
+	{
+		uid: "97d65b63",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "tconstruct:slimesling",
+			tag: {
+				ench: [{
+					lvl: 2s,
+					id: 16s
+				},
+				{
+					lvl: 3s,
+					id: 19s
+				}],
+				display: {
+					Lore: [
+						"with 511% more fun!"
+					],
+					Name: "RC Sling"
+				},
+				AttributeModifiers: [{
+					UUIDMost: -6549318424419087766L,
+					UUIDLeast: -7854790439603923938L,
+					Amount: 7.0d,
+					Slot: "mainhand",
+					AttributeName: "generic.attackDamage",
+					Operation: 0,
+					Name: "generic.attackDamage"
+				},
+				{
+					UUIDMost: -3785661780690253098L,
+					UUIDLeast: -5368689476455039029L,
+					Amount: 8.0d,
+					Slot: "mainhand",
+					AttributeName: "potioncore.jumpHeight",
+					Operation: 0,
+					Name: "potioncore.jumpHeight"
+				}]
+			},
+			Damage: 3s
+		}
+	},
+	{
+		uid: "43a30adc",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "yoyos:yoyo",
+			tag: {
+				StatsOriginal: {
+					AttackSpeedMultiplier: 1.0f,
+					MiningSpeed: 0.0f,
+					FreeModifiers: 3,
+					ChordLength: 6.0f,
+					Durability: 750,
+					HarvestLevel: 0,
+					Duration: 39,
+					Attack: 6.595f,
+					Weight: 6.7f
+				},
+				display: {
+					Name: "9 Lives (Give or Take)"
+				},
+				Stats: {
+					AttackSpeedMultiplier: 1.0f,
+					MiningSpeed: 0.0f,
+					FreeModifiers: 1,
+					ChordLength: 8.0f,
+					Durability: 750,
+					HarvestLevel: 0,
+					Duration: 39,
+					Attack: 6.595f,
+					Weight: 6.1f
+				},
+				Special: {
+					Categories: [
+						"harvest",
+						"no_melee",
+						"weapon",
+						"projectile",
+						"tool"
+					]
+				},
+				TinkerData: {
+					UsedModifiers: 3,
+					Materials: [
+						"string",
+						"netherrack",
+						"enderium",
+						"cactus"
+					],
+					Modifiers: [
+						"extension",
+						"collecting",
+						"floating",
+						"creative"
+					]
+				},
+				Modifiers: [{
+					identifier: "aridiculous",
+					color: -4698289,
+					level: 1
+				},
+				{
+					identifier: "hellish",
+					color: -4698289,
+					level: 1
+				},
+				{
+					identifier: "endermagnetic",
+					color: -16748959,
+					level: 1
+				},
+				{
+					identifier: "spiky",
+					color: -16735985,
+					level: 1
+				},
+				{
+					identifier: "extension",
+					current: 6,
+					color: 5233919,
+					level: 1,
+					max: 8,
+					extraInfo: "5 / 8"
+				},
+				{
+					identifier: "collecting",
+					color: 3158064,
+					level: 1
+				},
+				{
+					identifier: "floating",
+					color: 65497,
+					level: 1
+				},
+				{
+					identifier: "creative",
+					color: 0,
+					level: 1
+				}],
+				Traits: [
+					"aridiculous",
+					"hellish",
+					"endermagnetic",
+					"spiky"
+				]
+			}
+		}
+	}]
+}

@@ -1,0 +1,40 @@
+{
+	title: "Disgustingly Great",
+	x: 20.5d,
+	y: 9.0d,
+	description: "Kill mobs to collect liquid meat... and Pink Slime.",
+	text: [
+		""
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"0d5b0cb0"
+	],
+	hide: true,
+	tasks: [{
+		uid: "ad20b41e",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "industrialforegoing:mob_slaughter_factory"
+		}]
+	}],
+	rewards: [{
+		uid: "d51efc19",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "harvestcraft:swedishmeatballsitem"
+		},
+		count: 32
+	},
+	{
+		uid: "f8357899",
+		type: "loot",
+		table: 32
+	}]
+}

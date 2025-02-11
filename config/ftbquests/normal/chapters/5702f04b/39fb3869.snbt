@@ -1,0 +1,74 @@
+{
+	title: "Rack 'Em Up",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "tconstruct:rack",
+		tag: {
+			textureBlock: {
+				ForgeCaps: {
+					"customnpcs:itemscripteddata": {}
+				},
+				id: "minecraft:wooden_slab",
+				Count: 1,
+				Damage: 0
+			}
+		},
+		Damage: 1s
+	},
+	x: 1.0d,
+	y: 2.0d,
+	description: "With a drying rack you can collect rotten flesh and hang them to dry. ",
+	text: [
+		"You can also place some items on there as trophies. If you'd like to gloat."
+	],
+	dependencies: [
+		"db711c5d"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "ec49b8dc",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "tconstruct:rack",
+			tag: {
+				textureBlock: {
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": {}
+					},
+					id: "minecraft:wooden_slab",
+					Count: 1b,
+					Damage: 0s
+				}
+			},
+			Damage: 1s
+		}]
+	}],
+	rewards: [{
+		uid: "57484506",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "tconstruct:rack",
+			tag: {
+				textureBlock: {
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": {}
+					},
+					id: "minecraft:wooden_slab",
+					Count: 1,
+					Damage: 0
+				}
+			},
+			Damage: 1s
+		},
+		count: 3
+	}]
+}

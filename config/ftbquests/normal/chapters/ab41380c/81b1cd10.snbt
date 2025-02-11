@@ -1,0 +1,62 @@
+{
+	title: "Shara's Knowledge of the Metals",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "metallurgy:haderoth_ingot"
+	},
+	x: 4.0d,
+	y: 8.0d,
+	shape: "diamond",
+	description: "''I've noticed your book is lacking some information about metal, do you mind if I write some stuff down for you?''",
+	text: [
+		"Noticed in your book you're trying to activate the Obelisk? Haven't heard about it in years. I thought that like, destroys everything if you mess with it... well, everything is destroyed, we have nothing to lose now.",
+		"",
+		"",
+		"================================",
+		"Unmlock a new group of quests in chapter 1, discovering metallurgy ores and alloys."
+	],
+	dependencies: [
+		"640381b7"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "fb19116c",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ftbquests:book"
+		}],
+		consume_items: true,
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "c9efaf36",
+		type: "item",
+		title: "Unlock a section in Chapter 1",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ftbquests:book"
+		}
+	},
+	{
+		uid: "96874c58",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:potion",
+			tag: {
+				Potion: "minecraft:long_fire_resistance"
+			}
+		}
+	}]
+}

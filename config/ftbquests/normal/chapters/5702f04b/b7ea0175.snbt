@@ -1,0 +1,27 @@
+{
+	title: "Totalitarianism",
+	x: -11.0d,
+	y: 5.5d,
+	shape: "square",
+	dependencies: [
+		"4d4bbce3"
+	],
+	hide: true,
+	tasks: [{
+		uid: "42e41ac5",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "mysticalagriculture:master_infusion_crystal"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "92b45782",
+		type: "loot",
+		table: 11
+	}]
+}

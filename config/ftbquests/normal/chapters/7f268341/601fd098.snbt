@@ -1,0 +1,28 @@
+{
+	title: "Knowledge in a Stick",
+	x: 18.0d,
+	y: 0.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"6dae248c"
+	],
+	hide: true,
+	tasks: [{
+		uid: "48d396be",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "enderio:item_xp_transfer"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "624c3aa6",
+		type: "loot",
+		table: 35
+	}]
+}

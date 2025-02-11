@@ -1,0 +1,43 @@
+{
+	title: "Cloud Service: Libcardo I",
+	x: -1.8928571428571388d,
+	y: -3.085714285714289d,
+	shape: "octagon",
+	description: "Unlocks items within the quest book shop.",
+	text: [
+		""
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"52fffa66",
+		"df57cab5"
+	],
+	hide: true,
+	tasks: [{
+		uid: "3600a41c",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "contenttweaker:pylon",
+			tag: {
+				display: {
+					Lore: [
+						"Unlocks special Cloud Service items inside",
+						"the quest book shop from specific traders.",
+						"Complete quests from NPCs to reveal Cloud",
+						"Service quests."
+					],
+					Name: "Cloud Service Pylon"
+				}
+			}
+		}],
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "37f00b85",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

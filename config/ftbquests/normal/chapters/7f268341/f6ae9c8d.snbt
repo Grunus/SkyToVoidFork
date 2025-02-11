@@ -1,0 +1,23 @@
+{
+	x: 18.0d,
+	y: -4.0d,
+	dependencies: [
+		"46a52eee"
+	],
+	hide: true,
+	tasks: [{
+		uid: "b9e6aadb",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "enderio:block_tank"
+		}]
+	}],
+	rewards: [{
+		uid: "df3f4b8a",
+		type: "loot",
+		table: 34
+	}]
+}

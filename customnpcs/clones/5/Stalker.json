@@ -1,0 +1,648 @@
+{
+    "ReturnToStart": 1b,
+    "PuppetHead": {
+        "RotationY": 0.0f,
+        "RotationX": 0.0f,
+        "RotationZ": 0.0f,
+        "Disabled": 0b
+    },
+    "NpcInv": [
+        {
+            "Slot": 0b,
+            "ForgeCaps": {
+                "customnpcs:itemscripteddata": {
+                }
+            },
+            "id": "cyclicmagic:ender_eye_orb",
+            "Count": 1b,
+            "Damage": 0s
+        },
+        {
+            "Slot": 1b,
+            "ForgeCaps": {
+                "customnpcs:itemscripteddata": {
+                }
+            },
+            "id": "minecraft:ender_eye",
+            "Count": 3b,
+            "Damage": 0s
+        },
+        {
+            "Slot": 2b,
+            "ForgeCaps": {
+                "customnpcs:itemscripteddata": {
+                }
+            },
+            "id": "minecraft:ender_eye",
+            "Count": 1b,
+            "Damage": 0s
+        },
+        {
+            "Slot": 3b,
+            "ForgeCaps": {
+                "customnpcs:itemscripteddata": {
+                }
+            },
+            "id": "enderio:item_dark_steel_sword",
+            "Count": 1b,
+            "tag": {
+                "ench": [
+                    {
+                        "lvl": 3s,
+                        "id": 79s
+                    },
+                    {
+                        "lvl": 3s,
+                        "id": 68s
+                    },
+                    {
+                        "lvl": 2s,
+                        "id": 20s
+                    },
+                    {
+                        "lvl": 1s,
+                        "id": 70s
+                    },
+                    {
+                        "lvl": 1s,
+                        "id": 40s
+                    }
+                ],
+                "display": {
+                    "Lore": [
+                        "Cities to vaporize"
+                    ],
+                    "Name": "First Impressions of Earth"
+                },
+                "AttributeModifiers": [
+                    {
+                        "UUIDMost": -3801225194067177672L,
+                        "UUIDLeast": -6586624321849018929L,
+                        "Amount": 9.0d,
+                        "Slot": "mainhand",
+                        "AttributeName": "generic.attackDamage",
+                        "Operation": 0,
+                        "Name": "generic.attackDamage"
+                    },
+                    {
+                        "UUIDMost": -422425648963762075L,
+                        "UUIDLeast": -5756800103171642205L,
+                        "Amount": -2.6d,
+                        "Slot": "mainhand",
+                        "AttributeName": "generic.attackSpeed",
+                        "Operation": 0,
+                        "Name": "generic.attackSpeed"
+                    },
+                    {
+                        "UUIDMost": -3569696490686362849L,
+                        "UUIDLeast": -9075590821831023511L,
+                        "Amount": -1.0d,
+                        "Slot": "mainhand",
+                        "AttributeName": "generic.reachDistance",
+                        "Operation": 0,
+                        "Name": "generic.reachDistance"
+                    }
+                ]
+            },
+            "Damage": 0s
+        },
+        {
+            "Slot": 4b,
+            "ForgeCaps": {
+                "customnpcs:itemscripteddata": {
+                }
+            },
+            "id": "excompressum:compressed_block",
+            "Count": 64b,
+            "Damage": 10s
+        },
+        {
+            "Slot": 5b,
+            "ForgeCaps": {
+                "customnpcs:itemscripteddata": {
+                }
+            },
+            "id": "enderio:block_alloy",
+            "Count": 1b,
+            "Damage": 8s
+        },
+        {
+            "Slot": 6b,
+            "ForgeCaps": {
+                "customnpcs:itemscripteddata": {
+                }
+            },
+            "id": "enderio:item_material",
+            "Count": 1b,
+            "Damage": 44s
+        },
+        {
+            "Slot": 7b,
+            "ForgeCaps": {
+                "customnpcs:itemscripteddata": {
+                }
+            },
+            "id": "mysticalagriculture:chunk",
+            "Count": 1b,
+            "Damage": 19s
+        }
+    ],
+    "BossColor": 0,
+    "PotionEffect": 4,
+    "Size": 5,
+    "stopAndInteract": 1b,
+    "Resistances": {
+        "Arrow": 1.2535211f,
+        "Explosion": 1.0f,
+        "Knockback": 1.084507f,
+        "Melee": 0.8169014f
+    },
+    "BossBar": 0b,
+    "RespawnTime": 600,
+    "NpcAngrySound": "",
+    "ReactsToFire": 0b,
+    "IgnoreCobweb": 0b,
+    "PositionOffsetZ": 5.0f,
+    "PositionOffsetY": 5.0f,
+    "PositionOffsetX": 5.0f,
+    "PuppetRArm2": {
+        "RotationY": 0.0f,
+        "RotationX": 0.0f,
+        "RotationZ": 0.0f,
+        "Disabled": 0b
+    },
+    "LootMode": 0,
+    "TransformHasAI": 0b,
+    "AttackStrenght": 10,
+    "PersistenceRequired": 0b,
+    "id": "customnpcs:customnpc",
+    "IsStatue": 0b,
+    "MovingPatern": 0,
+    "NpcLines": {
+        "Lines": [
+        ]
+    },
+    "DefendFaction": 0b,
+    "FireIndirect": 0,
+    "NpcVisible": 0,
+    "LinkedNpcName": "",
+    "PuppetLLeg": {
+        "RotationY": 0.0f,
+        "RotationX": 0.0f,
+        "RotationZ": 0.0f,
+        "Disabled": 0b
+    },
+    "NpcScenes": {
+        "Scenes": [
+        ]
+    },
+    "HitSound": "minecraft:entity.endereye.death",
+    "FindShelter": 2,
+    "Air": 300s,
+    "TacticalVariant": 0,
+    "Orientation": 0,
+    "ScriptLanguage": "ECMAScript",
+    "HandItems": [
+        {
+        },
+        {
+        }
+    ],
+    "KnockBack": 1,
+    "TransformHasJob": 0b,
+    "ArmorDropChances": [
+        0.085f,
+        0.085f,
+        0.085f,
+        0.085f
+    ],
+    "PuppetHead2": {
+        "RotationY": 0.0f,
+        "RotationX": 0.0f,
+        "RotationZ": 0.0f,
+        "Disabled": 0b
+    },
+    "BurnInSun": 0b,
+    "StandingState": 0,
+    "AttackInvisible": 0b,
+    "NpcInteractNPCLines": {
+        "Lines": [
+        ]
+    },
+    "HurtTime": 0s,
+    "WalkingRange": 14,
+    "PuppetMoving": 1b,
+    "ShotCount": 1,
+    "pDur": 5,
+    "PuppetBody": {
+        "RotationY": 0.0f,
+        "RotationX": 0.0f,
+        "RotationZ": 0.0f,
+        "Disabled": 0b
+    },
+    "AttackRange": 3,
+    "NpcKillLines": {
+        "Lines": [
+        ]
+    },
+    "PotionImmune": 0b,
+    "AvoidsSun": 0b,
+    "Texture": "enderio:entity/lovechild.png",
+    "NpcJob": 9,
+    "BurstCount": 1,
+    "NpcAttackLines": {
+        "Lines": [
+        ]
+    },
+    "pSpeed": 18,
+    "pArea": 0,
+    "DeathTime": 0s,
+    "pImpact": 0,
+    "MoveState": 0,
+    "pRender3D": 0b,
+    "Motion": [
+        0.0d,
+        -0.0784000015258789d,
+        0.0d
+    ],
+    "CombatRegen": 0,
+    "NpcsTimers": [
+    ],
+    "MarkovGender": 0,
+    "pEffect": 0,
+    "DistanceToMelee": 16,
+    "NpcStepSound": "",
+    "FireRate": 5,
+    "PuppetRLeg2": {
+        "RotationY": 0.0f,
+        "RotationX": 0.0f,
+        "RotationZ": 0.0f,
+        "Disabled": 0b
+    },
+    "LeftHanded": 0b,
+    "pEffAmp": 0,
+    "OnGround": 1b,
+    "Dimension": 0,
+    "ImmuneToFire": 0b,
+    "NpcKilledLines": {
+        "Lines": [
+        ]
+    },
+    "Fire": -1s,
+    "ArmorItems": [
+        {
+        },
+        {
+        },
+        {
+        },
+        {
+        }
+    ],
+    "DisablePitch": 0b,
+    "pPhysics": 1b,
+    "PuppetLArm2": {
+        "RotationY": 0.0f,
+        "RotationX": 0.0f,
+        "RotationZ": 0.0f,
+        "Disabled": 0b
+    },
+    "TransformHasInv": 0b,
+    "PuppetAnimationSpeed": 4,
+    "NpcInteractLines": {
+        "Lines": [
+            {
+                "Line": "Hello @p",
+                "Song": "",
+                "Slot": 0
+            }
+        ]
+    },
+    "HurtByTimestamp": 40526,
+    "pSpin": 0b,
+    "NpcHurtSound": "minecraft:entity.player.hurt",
+    "pTrail": 2,
+    "CreatureType": 0,
+    "Attributes": [
+        {
+            "Base": 1.0d,
+            "Name": "potioncore.projectileDamage"
+        },
+        {
+            "Base": 1.0d,
+            "Name": "potioncore.magicDamage"
+        },
+        {
+            "Base": 1.0d,
+            "Name": "potioncore.jumpHeight"
+        },
+        {
+            "Base": 1.0d,
+            "Name": "potioncore.damageResistance"
+        },
+        {
+            "Base": 0.0d,
+            "Name": "potioncore.magicShielding"
+        },
+        {
+            "Base": 42.0d,
+            "Name": "generic.maxHealth"
+        },
+        {
+            "Base": 0.0d,
+            "Name": "generic.knockbackResistance"
+        },
+        {
+            "Base": 0.30000001192092896d,
+            "Name": "generic.movementSpeed"
+        },
+        {
+            "Base": 0.0d,
+            "Name": "generic.armor"
+        },
+        {
+            "Base": 0.0d,
+            "Name": "generic.armorToughness"
+        },
+        {
+            "Base": 1.0d,
+            "Name": "forge.swimSpeed"
+        },
+        {
+            "Base": 64.0d,
+            "Name": "generic.followRange"
+        },
+        {
+            "Base": 10.0d,
+            "Name": "generic.attackDamage"
+        },
+        {
+            "Base": 0.6000000238418579d,
+            "Name": "generic.flyingSpeed"
+        }
+    ],
+    "Invulnerable": 0b,
+    "TransformHasDisplay": 0b,
+    "NoFallDamage": 0b,
+    "AbsorptionAmount": 0.0f,
+    "TransformHasRole": 0b,
+    "Name": "Stalker",
+    "FallDistance": 0.0f,
+    "PuppetAnimate": 0b,
+    "SkinColor": 16777215,
+    "PuppetLArm": {
+        "RotationY": 0.0f,
+        "RotationX": 0.0f,
+        "RotationZ": 0.0f,
+        "Disabled": 0b
+    },
+    "NpcIdleSound": "",
+    "Weapons": [
+        {
+            "Slot": 0b,
+            "ForgeCaps": {
+                "customnpcs:itemscripteddata": {
+                }
+            },
+            "id": "cyclicmagic:ender_eye_orb",
+            "Count": 1b,
+            "Damage": 0s
+        },
+        {
+            "Slot": 1b,
+            "ForgeCaps": {
+                "customnpcs:itemscripteddata": {
+                }
+            },
+            "id": "minecraft:ender_eye",
+            "Count": 1b,
+            "Damage": 0s
+        }
+    ],
+    "NPCDialogOptions": [
+    ],
+    "AggroRange": 26,
+    "DirectLOS": 1b,
+    "HealthRegen": 0,
+    "ForgeCaps": {
+        "everlastingabilities:org.cyclops.everlastingabilities.api.capability.imutableabilitystore": [
+        ],
+        "metallurgy:punch_effect": {
+            "hasAiDisabled": 1b,
+            "knockbackTicks": 0,
+            "ticks": 0
+        }
+    },
+    "HandDropChances": [
+        0.085f,
+        0.085f
+    ],
+    "NpcModelData": {
+        "LegsConfig": {
+            "NotShared": 0b,
+            "ScaleZ": 1.0f,
+            "TransZ": 0.0f,
+            "TransY": 0.0f,
+            "TransX": 0.012000002f,
+            "ScaleY": 1.0f,
+            "ScaleX": 1.0f
+        },
+        "BodyConfig": {
+            "NotShared": 0b,
+            "ScaleZ": 1.0f,
+            "TransZ": 0.0f,
+            "TransY": 0.0f,
+            "TransX": 0.0f,
+            "ScaleY": 1.0f,
+            "ScaleX": 1.0f
+        },
+        "Eyes": {
+            "Pattern": 0b,
+            "Glint": 1b,
+            "Type": -1b,
+            "PositionY": 1,
+            "SkinColor": 11830381,
+            "PlayerTexture": 0b,
+            "Color": 3361970,
+            "BrowColor": 5982516,
+            "BrowThickness": 4
+        },
+        "LegParts": {
+            "Pattern": 0b,
+            "Type": 0b,
+            "PlayerTexture": 0b,
+            "Color": 16777215
+        },
+        "Parts": [
+        ],
+        "ArmsConfig": {
+            "NotShared": 0b,
+            "ScaleZ": 1.0f,
+            "TransZ": 0.0f,
+            "TransY": 0.0f,
+            "TransX": -0.0f,
+            "ScaleY": 1.0f,
+            "ScaleX": 1.0f
+        },
+        "ExtraData": {
+        },
+        "HeadConfig": {
+            "NotShared": 0b,
+            "ScaleZ": 1.0f,
+            "TransZ": 0.0f,
+            "TransY": 0.0f,
+            "TransX": 0.0f,
+            "ScaleY": 1.0f,
+            "ScaleX": 1.0f
+        }
+    },
+    "minDelay": 4,
+    "DoorInteract": 1,
+    "MoveSpeed": 6,
+    "TransformEditingModus": 0b,
+    "UsingSkinUrl": 0b,
+    "Leashed": 0b,
+    "SkinUrl": "",
+    "PuppetRArm": {
+        "RotationY": 0.0f,
+        "RotationX": -0.52112675f,
+        "RotationZ": -0.07042253f,
+        "Disabled": 0b
+    },
+    "CanSwim": 1b,
+    "GroundSound": "minecraft:entity.endereye.death",
+    "MaxHealth": 42,
+    "HideBodyWhenKilled": 1b,
+    "AttackSpeed": 10,
+    "PotionDuration": 2,
+    "maxDelay": 4,
+    "ScriptEnabled": 0b,
+    "Role": 0,
+    "DropChance": [
+        {
+            "Integer": 1,
+            "Slot": 0
+        },
+        {
+            "Integer": 30,
+            "Slot": 1
+        },
+        {
+            "Integer": 40,
+            "Slot": 2
+        },
+        {
+            "Integer": 3,
+            "Slot": 3
+        },
+        {
+            "Integer": 1,
+            "Slot": 4
+        },
+        {
+            "Integer": 1,
+            "Slot": 5
+        },
+        {
+            "Integer": 1,
+            "Slot": 6
+        },
+        {
+            "Integer": 10,
+            "Slot": 7
+        },
+        {
+            "Integer": 100,
+            "Slot": 8
+        }
+    ],
+    "FactionPoints": {
+        "DecreaseFaction1Points": 0b,
+        "OptionFaction2Points": 100,
+        "OptionFactions1": -1,
+        "OptionFactions2": -1,
+        "OptionFaction1Points": 100,
+        "DecreaseFaction2Points": 0b
+    },
+    "pDamage": 8,
+    "KilledTime": 0L,
+    "AimWhileShooting": 0b,
+    "CanPickUpLoot": 0b,
+    "AttackOtherFactions": 0b,
+    "CanDrown": 1b,
+    "pSize": 5,
+    "CanSprint": 0b,
+    "CanLeap": 0b,
+    "TransformIsActive": 0b,
+    "ForgeData": {
+        "cnpcmarkdata": {
+            "marks": [
+            ]
+        },
+        "Potion Core - Health Fix": 42.0f,
+        "Potion Core - Jump Boost Updated": 1b
+    },
+    "MovingState": 1,
+    "MovingPos": 0,
+    "PuppetAttacking": 1b,
+    "PotionAmp": 7,
+    "PuppetBody2": {
+        "RotationY": 0.0f,
+        "RotationX": 0.0f,
+        "RotationZ": 0.0f,
+        "Disabled": 0b
+    },
+    "OnAttack": 0,
+    "TacticalRadius": 8,
+    "FallFlying": 0b,
+    "MaxExp": 8,
+    "OrderedLines": 0b,
+    "PuppetStanding": 0b,
+    "PortalCooldown": 0,
+    "pGlows": 0b,
+    "TransformHasAdvanced": 0b,
+    "TransformHasStats": 0b,
+    "MovementType": 0,
+    "FiringSound": "minecraft:block.dispenser.launch",
+    "ModRev": 18,
+    "Accuracy": 100,
+    "MinExp": 2,
+    "Armor": [
+    ],
+    "CloakTexture": "",
+    "GlowTexture": "",
+    "MaxFiringRange": 22,
+    "pXlr8": 0b,
+    "MarkovGeneratorId": 6,
+    "Scripts": [
+    ],
+    "Health": 42.0f,
+    "pStick": 0b,
+    "MovingPause": 1b,
+    "NpcDeathSound": "minecraft:entity.player.hurt",
+    "FactionID": 18,
+    "Title": "",
+    "PuppetRLeg": {
+        "RotationY": -0.07042253f,
+        "RotationX": 0.2957747f,
+        "RotationZ": 0.0f,
+        "Disabled": 0b
+    },
+    "TotalTicksAlive": 40564L,
+    "PuppetLLeg2": {
+        "RotationY": 0.0f,
+        "RotationX": 0.0f,
+        "RotationZ": 0.0f,
+        "Disabled": 0b
+    },
+    "Rotation": [
+        257.2383f,
+        0.0f
+    ],
+    "ShowName": 0,
+    "npcInteracting": 0b,
+    "UpdateBlocked": 0b,
+    "AvoidsWater": 1b,
+    "NoLivingAnimation": 0b,
+    "SpawnCycle": 0
+}

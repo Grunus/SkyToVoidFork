@@ -1,0 +1,60 @@
+{
+	title: "Grand Ocean Temple",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "chisel:prismarine1",
+		Damage: 6s
+	},
+	x: -13.5d,
+	y: -8.5d,
+	description: "Deep diving!",
+	hide_dependency_lines: true,
+	dependencies: [
+		"02b464cc"
+	],
+	hide: true,
+	tasks: [{
+		uid: "aa197314",
+		type: "location",
+		title: "-698 105 -500",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "chisel:prismarine1",
+			Damage: 6s
+		},
+		location: [I;
+			0,
+			-702,
+			105,
+			-503,
+			5,
+			5,
+			5
+		]
+	}],
+	rewards: [{
+		uid: "b45e236f",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:spawn_egg",
+			tag: {
+				EntityTag: {
+					id: "minecraft:guardian"
+				}
+			}
+		},
+		count: 16
+	},
+	{
+		uid: "d05b2d67",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	}]
+}

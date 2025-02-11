@@ -1,0 +1,31 @@
+{
+	title: "Burning Magic",
+	x: -8.5d,
+	y: 18.0d,
+	description: "Use Spectral Dust and light these up!",
+	text: [
+		""
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"659354d2",
+		"d6fc2739"
+	],
+	hide: true,
+	tasks: [{
+		uid: "263b2e56",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ebwizardry:receptacle"
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "d1d64ff2",
+		type: "loot",
+		table: 23
+	}]
+}

@@ -1,0 +1,73 @@
+{
+	title: "The Enhanced World",
+	x: 14.5d,
+	y: 0.5d,
+	shape: "square",
+	text: [
+		""
+	],
+	dependencies: [
+		"eb701149"
+	],
+	hide: true,
+	tasks: [{
+		uid: "28a24586",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "enderio:block_enhanced_alloy_smelter"
+		}]
+	},
+	{
+		uid: "86c4ba1a",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "enderio:block_enhanced_sag_mill"
+		}]
+	},
+	{
+		uid: "79a803c9",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "enderio:block_enhanced_combustion_generator"
+		}]
+	},
+	{
+		uid: "38725e0f",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "enderio:block_enhanced_wired_charger"
+		}]
+	},
+	{
+		uid: "3599c132",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "enderio:block_enhanced_vat"
+		}]
+	}],
+	rewards: [{
+		uid: "1d19604e",
+		type: "loot",
+		table: 37
+	},
+	{
+		uid: "8e263db8",
+		type: "loot",
+		table: 36
+	}]
+}

@@ -1,0 +1,36 @@
+{
+	title: "Psi Tier II Reward",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "psi:cad_colorizer_",
+		Damage: 16s
+	},
+	x: -6.0d,
+	y: 4.5d,
+	can_repeat: true,
+	dependencies: [
+		"55807f08",
+		"a5fa6e14",
+		"276da89f"
+	],
+	hide: true,
+	optional: true,
+	tasks: [{
+		uid: "a6321bbd",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "camscurrency:denarius"
+		}],
+		count: 32L
+	}],
+	rewards: [{
+		uid: "6f6dfa72",
+		type: "loot",
+		table: 50
+	}]
+}

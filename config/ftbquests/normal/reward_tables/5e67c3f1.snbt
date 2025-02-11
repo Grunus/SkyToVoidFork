@@ -1,0 +1,371 @@
+{
+	title: "Cyclic Tier I Reward",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "cyclicmagic:peat_fuel"
+	},
+	loot_size: 1,
+	hide_tooltip: true,
+	use_title: true,
+	rewards: [{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:potion",
+			tag: {
+				Potion: "cyclicmagic:hunger"
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:splash_potion",
+			tag: {
+				Potion: "cyclicmagic:swim2"
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:potion",
+			tag: {
+				Potion: "cyclicmagic:healthboost"
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:tipped_arrow",
+			tag: {
+				Potion: "cyclicmagic:wither"
+			}
+		},
+		count: 16
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "cyclicmagic:tool_harvest_crops",
+			tag: {
+				ench: [{
+					lvl: 2s,
+					id: 32s
+				}],
+				Unbreakable: 1b,
+				display: {
+					Lore: [
+						"The harvest is bountiful this year."
+					],
+					Name: "Prospering Fields"
+				},
+				AttributeModifiers: [{
+					UUIDMost: -6095846890385095461L,
+					UUIDLeast: -7643010427912534130L,
+					Amount: 2.0d,
+					Slot: "mainhand",
+					AttributeName: "generic.attackDamage",
+					Operation: 0,
+					Name: "generic.attackDamage"
+				},
+				{
+					UUIDMost: 6353953601741538179L,
+					UUIDLeast: -6277283136689930227L,
+					Amount: 7.0d,
+					Slot: "mainhand",
+					AttributeName: "generic.attackSpeed",
+					Operation: 0,
+					Name: "generic.attackSpeed"
+				}]
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "cyclicmagic:apple"
+		},
+		count: 8
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "cyclicmagic:sprout_seed"
+		},
+		count: 3
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "cyclicmagic:water_candle"
+		},
+		count: 2
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "cyclicmagic:ender_wool"
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "cyclicmagic:tool_rotate",
+			tag: {
+				ench: [{
+					lvl: 1s,
+					id: 60s
+				}],
+				Unbreakable: 1b,
+				display: {
+					Lore: [
+						"Arrragghh  aarrjg blaahh baaac dla dla deee "
+					],
+					Name: "Club from Cave Mam"
+				},
+				AttributeModifiers: [{
+					UUIDMost: -2139738891595071422L,
+					UUIDLeast: -6348218207945893595L,
+					Amount: 6.0d,
+					Slot: "mainhand",
+					AttributeName: "generic.attackDamage",
+					Operation: 0,
+					Name: "generic.attackDamage"
+				},
+				{
+					UUIDMost: 7991252230537691188L,
+					UUIDLeast: -9076459524911310626L,
+					Amount: -0.1d,
+					Slot: "mainhand",
+					AttributeName: "generic.attackSpeed",
+					Operation: 1,
+					Name: "generic.attackSpeed"
+				},
+				{
+					UUIDMost: -7253807970555311704L,
+					UUIDLeast: -6987437280862077718L,
+					Amount: 0.05d,
+					Slot: "mainhand",
+					AttributeName: "generic.maxHealth",
+					Operation: 1,
+					Name: "generic.maxHealth"
+				}]
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "cyclicmagic:dynamite_safe"
+		},
+		count: 6
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "cyclicmagic:water_spreader"
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "cyclicmagic:sleeping_mat",
+			tag: {}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "cyclicmagic:sandstone_pickaxe"
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "cyclicmagic:fan"
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "cyclicmagic:plate_vector",
+			tag: {
+				vectorYaw: 90,
+				vectorAngle: 45,
+				sound: 1,
+				vectorPower: 60
+			}
+		},
+		count: 3
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "cyclicmagic:plate_push_slowest_corner"
+		},
+		count: 16
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "cyclicmagic:peat_fuel"
+		},
+		count: 16
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "cyclicmagic:block_fragile"
+		},
+		count: 128
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "cyclicmagic:netherbrick_spade"
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "cyclicmagic:slingshot_weapon",
+			tag: {}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "cyclicmagic:stone_pebble"
+		},
+		count: 16,
+		random_bonus: 170
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "tconstruct:shuriken",
+			tag: {
+				StatsOriginal: {
+					AttackSpeedMultiplier: 1.0f,
+					Accuracy: 1.0f,
+					MiningSpeed: 4.0f,
+					FreeModifiers: 3,
+					Durability: 140,
+					HarvestLevel: 1,
+					Attack: 4.0f
+				},
+				display: {
+					Name: "$2.99 Shrikens"
+				},
+				Stats: {
+					AttackSpeedMultiplier: 1.0f,
+					Accuracy: 1.0f,
+					MiningSpeed: 4.0f,
+					FreeModifiers: 0,
+					Durability: 182,
+					HarvestLevel: 2,
+					Attack: 4.0f
+				},
+				Special: {
+					Categories: [
+						"projectile",
+						"no_melee",
+						"tool"
+					]
+				},
+				TinkerData: {
+					UsedModifiers: 3,
+					Materials: [
+						"stone",
+						"stone",
+						"stone",
+						"stone"
+					],
+					Modifiers: [
+						"fins",
+						"emerald",
+						"beheading"
+					]
+				},
+				Modifiers: [{
+					identifier: "cheapskate",
+					color: -6710887,
+					level: 1
+				},
+				{
+					identifier: "cheap",
+					color: -6710887,
+					level: 1
+				},
+				{
+					identifier: "fins",
+					color: 11259375,
+					level: 1
+				},
+				{
+					identifier: "emerald",
+					color: 4322180
+				},
+				{
+					identifier: "beheading",
+					color: 1070923,
+					level: 1
+				}],
+				Traits: [
+					"cheapskate",
+					"cheap",
+					"fins"
+				]
+			}
+		}
+	}]
+}

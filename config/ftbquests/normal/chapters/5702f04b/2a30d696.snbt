@@ -1,0 +1,28 @@
+{
+	title: "Budget Infinity Gauntlet",
+	x: 1.5d,
+	y: 11.0d,
+	description: "Increases attack power.",
+	text: [
+		""
+	],
+	dependencies: [
+		"60cb9e69"
+	],
+	hide: true,
+	tasks: [{
+		uid: "8f37c052",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "conarm:gauntlet_mat_attack"
+		}]
+	}],
+	rewards: [{
+		uid: "44569f88",
+		type: "loot",
+		table: 48
+	}]
+}

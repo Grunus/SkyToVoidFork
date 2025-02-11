@@ -1,0 +1,35 @@
+{
+	title: "Cyclic Tier II Reward",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "cyclicmagic:crystallized_amber"
+	},
+	x: -13.0d,
+	y: 4.5d,
+	can_repeat: true,
+	dependencies: [
+		"64aacf06",
+		"da7458b0",
+		"9d123279"
+	],
+	hide: true,
+	optional: true,
+	tasks: [{
+		uid: "ad0ee151",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "camscurrency:denarius"
+		}],
+		count: 12L
+	}],
+	rewards: [{
+		uid: "60703139",
+		type: "loot",
+		table: 52
+	}]
+}

@@ -1,0 +1,33 @@
+[
+    {
+        "dimension": 43,
+        "message": "The strength of The Void is too strong...",
+        "result": "deny"
+    },
+    {
+        "block": "enderportaldecoration:gateway",
+        "message": "Once collected, it can't be placed.",
+        "result": "deny"
+    },
+    {
+        "block": "chisel:voidstone",
+        "message": "Once collected, it can't be placed.",
+        "result": "deny"
+    },
+    {
+        "block": "chisel:energizedvoidstone",
+        "message": "Once collected, it can't be placed.",
+        "result": "deny"
+    },
+    {
+        "block": "morelights:purple_light",
+        "message": "Once collected, it can't be placed.",
+        "result": "deny"
+    }
+    ,
+    {
+        "block": "morelights:lit_purple_light",
+        "message": "Once collected, it can't be placed.",
+        "result": "deny"
+    }
+]

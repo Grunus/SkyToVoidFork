@@ -1,0 +1,52 @@
+{
+	title: "Estate Lost In Time",
+	x: 7.0d,
+	y: 1.0d,
+	description: "Pretty spooky...",
+	dependencies: [
+		"6bae85c1"
+	],
+	hide: true,
+	tasks: [{
+		uid: "abd4089f",
+		type: "location",
+		title: "264 109 29",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:planks",
+			Damage: 1s
+		},
+		location: [I;
+			0,
+			261,
+			109,
+			27,
+			5,
+			5,
+			5
+		]
+	}],
+	rewards: [{
+		uid: "07665233",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:enchanted_book",
+			tag: {
+				StoredEnchantments: [{
+					lvl: 3,
+					id: 2
+				}]
+			}
+		}
+	},
+	{
+		uid: "6b65b484",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	}]
+}

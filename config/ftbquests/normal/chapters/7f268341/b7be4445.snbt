@@ -1,0 +1,47 @@
+{
+	title: "Programmer",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "psi:programmer"
+	},
+	x: -2.0d,
+	y: 13.0d,
+	description: "Create the Spell Programmer",
+	text: [
+		"You can start programming your spells! Right click Spell Bullets on the Spell Programmer to copy the spell into the bullet.",
+		"",
+		"Go to the CAD Assembler and put your Casting Assistant in upper left slot. Place your Spell Bullet in one of the lower slots and now pressing C with the Casting Assistant will allow you to select your new bullet."
+	],
+	dependencies: [
+		"575924e4"
+	],
+	hide: true,
+	tasks: [{
+		uid: "5857e088",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "psi:programmer"
+		}]
+	},
+	{
+		uid: "adde180e",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "psi:spell_bullet"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "b5557ddf",
+		type: "loot",
+		table: 49
+	}]
+}

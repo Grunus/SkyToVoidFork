@@ -1,0 +1,99 @@
+{
+	title: "The Machinery!",
+	x: -0.5d,
+	y: 7.5d,
+	shape: "square",
+	text: [
+		""
+	],
+	dependencies: [
+		"0cd96b09",
+		"98670d24"
+	],
+	hide: true,
+	tasks: [{
+		uid: "95b5151b",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "cyclicmagic:builder_block"
+		}]
+	},
+	{
+		uid: "012ba0fc",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "cyclicmagic:block_miner_smart"
+		}]
+	},
+	{
+		uid: "104109b6",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "cyclicmagic:block_vacuum"
+		}]
+	},
+	{
+		uid: "cd86f25e",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "cyclicmagic:harvester_block"
+		}]
+	},
+	{
+		uid: "77315a6f",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "cyclicmagic:block_user"
+		}]
+	},
+	{
+		uid: "7252c270",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "cyclicmagic:fire_starter"
+		}]
+	},
+	{
+		uid: "77295caf",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "cyclicmagic:block_forester"
+		}]
+	},
+	{
+		uid: "45d5cd9a",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "cyclicmagic:block_miner"
+		}]
+	}],
+	rewards: [{
+		uid: "d4d635d7",
+		type: "loot",
+		table: 53
+	}]
+}

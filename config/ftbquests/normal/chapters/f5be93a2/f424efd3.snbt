@@ -1,0 +1,39 @@
+{
+	title: "Wambo III",
+	x: 1.0d,
+	y: 8.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"3ebe9629"
+	],
+	tasks: [{
+		uid: "e42d81b9",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thermalfoundation:coin",
+			Damage: 101s
+		}],
+		count: 32L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "15dfb57c",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "artifacts:feral_claws"
+		}
+	},
+	{
+		uid: "4c904c1a",
+		type: "ftbmoney:money",
+		ftb_money: 150L
+	}]
+}

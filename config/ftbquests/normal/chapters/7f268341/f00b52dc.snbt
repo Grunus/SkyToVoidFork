@@ -1,0 +1,37 @@
+{
+	title: "Sluurrrrpppp!",
+	x: 19.5d,
+	y: 7.0d,
+	dependencies: [
+		"0d5b0cb0"
+	],
+	hide: true,
+	tasks: [{
+		uid: "8072bceb",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "industrialforegoing:straw"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "d1828b41",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "camscurrency:denarius"
+		},
+		count: 8
+	},
+	{
+		uid: "f252c5c6",
+		type: "loot",
+		table: 32
+	}]
+}

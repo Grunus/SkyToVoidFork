@@ -1,0 +1,34 @@
+{
+	title: "Smart Backpack",
+	x: -10.5d,
+	y: 8.5d,
+	description: "A portable cell that acts like a backpack.",
+	text: [
+		"Place in a Charger to recharge the cell."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"7ca24d77",
+		"5c79f4a8",
+		"5bd6697d"
+	],
+	hide: true,
+	tasks: [{
+		uid: "e2681ef6",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "appliedenergistics2:portable_cell",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "fa6bb56c",
+		type: "loot",
+		table: 15
+	}]
+}

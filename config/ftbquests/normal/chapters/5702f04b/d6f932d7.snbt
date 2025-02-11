@@ -1,0 +1,32 @@
+{
+	title: "The Most Mending of Mending Gems",
+	x: -6.0d,
+	y: 8.5d,
+	shape: "square",
+	dependencies: [
+		"00bb7233"
+	],
+	hide: true,
+	tasks: [{
+		uid: "c07fa843",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "mendinggems:mending_gem",
+			Damage: 3s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "45672949",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:nether_star"
+		}
+	}]
+}

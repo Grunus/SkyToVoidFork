@@ -1,0 +1,84 @@
+{
+	title: "More Bang For Your Buck",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "thermalexpansion:machine",
+		tag: {
+			RSControl: 0,
+			Facing: 3,
+			Energy: 0,
+			SideCache: [B;
+				3b,
+				1b,
+				2b,
+				2b,
+				2b,
+				2b
+			],
+			Level: 0
+		},
+		Damage: 1s
+	},
+	x: -6.0d,
+	y: -4.0d,
+	description: "Pulverizers are... well its in the title. Putting ores inside the pulverizer will spit out two. Double the profit!",
+	text: [
+		"You can also pulverize many other items in the pack.",
+		"",
+		"With Itemducts you can filter in items to automatically pulverize."
+	],
+	dependencies: [
+		"74337ab7"
+	],
+	hide: true,
+	tasks: [{
+		uid: "282eaa76",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thermaldynamics:duct_32"
+		},
+		{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thermaldynamics:duct_32",
+			Damage: 1s
+		}]
+	},
+	{
+		uid: "d259a373",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thermalexpansion:machine",
+			tag: {
+				RSControl: 0b,
+				Facing: 3b,
+				Energy: 0,
+				SideCache: [B;
+					3b,
+					1b,
+					2b,
+					2b,
+					2b,
+					2b
+				],
+				Level: 0b
+			},
+			Damage: 1s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "964338f5",
+		type: "loot",
+		table: 7
+	}]
+}

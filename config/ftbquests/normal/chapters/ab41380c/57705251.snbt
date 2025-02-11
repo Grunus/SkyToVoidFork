@@ -1,0 +1,62 @@
+{
+	title: "Chim's Arcane Table",
+	x: -2.0d,
+	y: -7.0d,
+	shape: "diamond",
+	description: "'Create an arcane table. An arcane table can apply books and spells into your wand. If you show me your worth I'll give you a free spell you can use.'",
+	text: [
+		"Beauty..."
+	],
+	dependencies: [
+		"afeab033"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "699d9c1c",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ebwizardry:arcane_workbench"
+		}]
+	}],
+	rewards: [{
+		uid: "de878a43",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "camscurrency:denarius"
+		},
+		count: 12
+	},
+	{
+		uid: "837b3a43",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ebwizardry:spell_book",
+			Damage: 1s
+		}
+	},
+	{
+		uid: "6f5bd090",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ebwizardry:grand_crystal"
+		}
+	},
+	{
+		uid: "1615e4f2",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	}]
+}

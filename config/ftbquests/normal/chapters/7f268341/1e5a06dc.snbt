@@ -1,0 +1,31 @@
+{
+	title: "Security System",
+	x: -14.5d,
+	y: 10.5d,
+	description: "The ME Security Terminal can be configured to who has permission to use the terminal, but most notably, you can link Wireless Terminals to it.",
+	text: [
+		""
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"5c79f4a8",
+		"7ca24d77",
+		"5bd6697d"
+	],
+	hide: true,
+	tasks: [{
+		uid: "41b5959d",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "appliedenergistics2:security_station"
+		}]
+	}],
+	rewards: [{
+		uid: "8878f9aa",
+		type: "loot",
+		table: 15
+	}]
+}

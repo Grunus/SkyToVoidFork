@@ -1,0 +1,640 @@
+{
+	title: "Tinkers' Tier I Reward",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "tconstruct:tooltables",
+		Damage: 3s
+	},
+	loot_size: 3,
+	hide_tooltip: true,
+	use_title: true,
+	rewards: [{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "tconstruct:pick_head",
+			tag: {
+				Material: "paper"
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "tconstruct:pick_head",
+			tag: {
+				Material: "wood"
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "tconstruct:pick_head",
+			tag: {
+				Material: "flint"
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "tconstruct:pick_head",
+			tag: {
+				Material: "copper"
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "tconstruct:pick_head",
+			tag: {
+				Material: "cactus"
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "tconstruct:pick_head",
+			tag: {
+				Material: "stone"
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "tconstruct:pick_head",
+			tag: {
+				Material: "sponge"
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "tconstruct:sword_blade",
+			tag: {
+				Material: "sponge"
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "tconstruct:sword_blade",
+			tag: {
+				Material: "paper"
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "tconstruct:sword_blade",
+			tag: {
+				Material: "iron"
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "tconstruct:sword_blade",
+			tag: {
+				Material: "endstone"
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "tconstruct:sword_blade",
+			tag: {
+				Material: "bone"
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "tconstruct:sword_blade",
+			tag: {
+				Material: "cactus"
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "tconstruct:sword_blade",
+			tag: {
+				Material: "flint"
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "tconstruct:sword_blade",
+			tag: {
+				Material: "wood"
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "tconstruct:sword_blade",
+			tag: {
+				Material: "stone"
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "tconstruct:knife_blade",
+			tag: {
+				Material: "aluminum"
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "tconstruct:knife_blade",
+			tag: {
+				Material: "sponge"
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "tconstruct:knife_blade",
+			tag: {
+				Material: "prismarine"
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "tconstruct:knife_blade",
+			tag: {
+				Material: "xu_magical_wood"
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "tconstruct:tool_rod",
+			tag: {
+				Material: "wood"
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "tconstruct:tool_rod",
+			tag: {
+				Material: "iron"
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "tconstruct:tool_rod",
+			tag: {
+				Material: "paper"
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "tconstruct:shovel_head",
+			tag: {
+				Material: "flint"
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "tconstruct:shovel_head",
+			tag: {
+				Material: "cactus"
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "tconstruct:shovel_head",
+			tag: {
+				Material: "prismarine"
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "tconstruct:shovel_head",
+			tag: {
+				Material: "bone"
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "tconstruct:shovel_head",
+			tag: {
+				Material: "certus"
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "tconstruct:shovel_head",
+			tag: {
+				Material: "ma.base_essence"
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "tconstruct:axe_head",
+			tag: {
+				Material: "nickel"
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "tconstruct:axe_head",
+			tag: {
+				Material: "flint"
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "tconstruct:axe_head",
+			tag: {
+				Material: "xu_magical_wood"
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "tconstruct:axe_head",
+			tag: {
+				Material: "electrum"
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "tconstruct:axe_head",
+			tag: {
+				Material: "copper"
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "tconstruct:axe_head",
+			tag: {
+				Material: "stone"
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "tconstruct:axe_head",
+			tag: {
+				Material: "cactus"
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "tconstruct:wide_guard",
+			tag: {
+				Material: "cactus"
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "tconstruct:wide_guard",
+			tag: {
+				Material: "paper"
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "tconstruct:wide_guard",
+			tag: {
+				Material: "prismarine"
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "tconstruct:wide_guard",
+			tag: {
+				Material: "copper"
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "tconstruct:wide_guard",
+			tag: {
+				Material: "electrum"
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "tconstruct:wide_guard",
+			tag: {
+				Material: "bone"
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "tconstruct:wide_guard",
+			tag: {
+				Material: "endstone"
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "tconstruct:cross_guard",
+			tag: {
+				Material: "paper"
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "tconstruct:cross_guard",
+			tag: {
+				Material: "endstone"
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "tconstruct:cross_guard",
+			tag: {
+				Material: "cactus"
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "tconstruct:cross_guard",
+			tag: {
+				Material: "flint"
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "tconstruct:cross_guard",
+			tag: {
+				Material: "copper"
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "tconstruct:cross_guard",
+			tag: {
+				Material: "iron"
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "tconstruct:cross_guard",
+			tag: {
+				Material: "xu_enchanted_metal"
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "tconstruct:hand_guard",
+			tag: {
+				Material: "firewood"
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "tconstruct:hand_guard",
+			tag: {
+				Material: "paper"
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "tconstruct:hand_guard",
+			tag: {
+				Material: "netherrack"
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "tconstruct:hand_guard",
+			tag: {
+				Material: "stone"
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "tconstruct:hand_guard",
+			tag: {
+				Material: "wood"
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "tconstruct:hand_guard",
+			tag: {
+				Material: "prismarine"
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "tconstruct:hand_guard",
+			tag: {
+				Material: "rubber"
+			}
+		}
+	}]
+}

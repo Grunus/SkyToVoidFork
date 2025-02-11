@@ -1,0 +1,28 @@
+{
+	title: "Ocean's Haunted",
+	x: 21.5d,
+	y: 0.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"1a72440f"
+	],
+	hide: true,
+	tasks: [{
+		uid: "f2a2bc6b",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "enderio:item_material",
+			Damage: 56s
+		}]
+	}],
+	rewards: [{
+		uid: "42fcd926",
+		type: "loot",
+		table: 36
+	}]
+}

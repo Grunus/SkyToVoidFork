@@ -1,0 +1,34 @@
+{
+	title: "Freezing Facility!",
+	x: 2.5d,
+	y: -6.5d,
+	shape: "diamond",
+	text: [
+		""
+	],
+	dependencies: [
+		"cece1bf9"
+	],
+	hide: true,
+	tasks: [{
+		uid: "0bac03a8",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "contenttweaker:2_cryoemergency",
+			tag: {
+				display: {
+					Lore: [
+						"Gain access to Cryo-Emergency Mission.",
+						"",
+						"",
+						"Can be used on the door in Mission Hub."
+					],
+					Name: "Frozen Key"
+				}
+			}
+		}]
+	}]
+}

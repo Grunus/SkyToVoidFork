@@ -1,0 +1,35 @@
+{
+	x: 19.5d,
+	y: -0.5d,
+	dependencies: [
+		"5878bdb4"
+	],
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "62079390",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "enderio:item_material",
+			Damage: 53s
+		}]
+	},
+	{
+		uid: "06da2fd1",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "enderio:item_material",
+			Damage: 52s
+		}]
+	}],
+	rewards: [{
+		uid: "1b8df896",
+		type: "loot",
+		table: 34
+	}]
+}

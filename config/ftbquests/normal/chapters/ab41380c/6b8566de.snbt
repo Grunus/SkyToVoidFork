@@ -1,0 +1,57 @@
+{
+	title: "Duster's Spikes",
+	x: 2.0d,
+	y: -3.0d,
+	shape: "diamond",
+	description: "''Stranger could you get me some new, fresh spikes? Looking at my spikes they're all crumbly and all dull.''",
+	text: [
+		"Beautiful. thank you stranger."
+	],
+	dependencies: [
+		"785c1232"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "3c75cfb3",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "extrautils2:spike_iron"
+		}],
+		count: 10L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "b900f1c7",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "camscurrency:denarius"
+		},
+		count: 64,
+		random_bonus: 64
+	},
+	{
+		uid: "e4aad976",
+		type: "gamestage",
+		title: "Unlock the Simple Cobblestone Generator",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "simplecobblegen:cobblegen"
+		},
+		auto: "no_toast",
+		stage: "cobblegen_stage"
+	},
+	{
+		uid: "37831816",
+		type: "ftbmoney:money",
+		ftb_money: 30L
+	}]
+}

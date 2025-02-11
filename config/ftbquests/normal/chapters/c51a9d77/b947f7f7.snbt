@@ -1,0 +1,45 @@
+{
+	title: "Now That's a Big Chest Brother",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "ironchest:diamond_crystal_chest_upgrade"
+	},
+	x: -3.0d,
+	y: 1.0d,
+	shape: "square",
+	dependencies: [
+		"2397bc78"
+	],
+	hide: true,
+	tasks: [{
+		uid: "efba6cdb",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ironchest:diamond_obsidian_chest_upgrade"
+		},
+		{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ironchest:diamond_crystal_chest_upgrade"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "5516f25f",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:obsidian"
+		},
+		count: 12
+	}]
+}

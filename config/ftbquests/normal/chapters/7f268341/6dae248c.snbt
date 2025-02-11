@@ -1,0 +1,27 @@
+{
+	title: "Hype Ingot",
+	x: 17.0d,
+	y: 1.5d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"9aceafba"
+	],
+	hide: true,
+	tasks: [{
+		uid: "e396a757",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "enderio:item_alloy_ingot",
+			Damage: 1s
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "47324a88",
+		type: "loot",
+		table: 34
+	}]
+}

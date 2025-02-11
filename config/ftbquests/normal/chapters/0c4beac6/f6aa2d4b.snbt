@@ -1,0 +1,42 @@
+{
+	title: "The True Followers Faction",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "extrautils2:goldenlasso"
+	},
+	x: 15.0d,
+	y: 2.5d,
+	description: "''Slaying the false prophet is the best thing you could've done for those sick people.''",
+	text: [
+		"Every purchase you will receive one random reward from the following entities.",
+		"",
+		"- ''A Votery''",
+		"- ''A Savant''",
+		"- ''Clairvoyant''",
+		"- ''Knight of Truth''",
+		"- ''The False Prophet''"
+	],
+	dependencies: [
+		"f6f9b103",
+		"1e5a827d"
+	],
+	hide: true,
+	tasks: [{
+		uid: "4028c315",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "camscurrency:aureus"
+		}],
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "2bc2cc2d",
+		type: "loot",
+		table: 66
+	}]
+}

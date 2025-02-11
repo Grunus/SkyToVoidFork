@@ -1,0 +1,40 @@
+{
+	title: "Cloud Service: Alþrúðr II",
+	x: -11.41462585034013d,
+	y: -16.548979591836726d,
+	shape: "octagon",
+	description: "Unlocks items within the quest book shop.",
+	hide_dependency_lines: true,
+	dependencies: [
+		"7a85e06d",
+		"52fffa66"
+	],
+	hide: true,
+	tasks: [{
+		uid: "3177e922",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "contenttweaker:pylon",
+			tag: {
+				display: {
+					Lore: [
+						"Unlocks special Cloud Service items inside",
+						"the quest book shop from specific traders.",
+						"Complete quests from NPCs to reveal Cloud",
+						"Service quests."
+					],
+					Name: "Cloud Service Pylon"
+				}
+			}
+		}],
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "465db8fd",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

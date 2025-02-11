@@ -1,0 +1,34 @@
+{
+	title: "Orichalcum",
+	x: 15.5d,
+	y: 11.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"81b1cd10"
+	],
+	hide: true,
+	tasks: [{
+		uid: "fc6d952f",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "metallurgy:orichalcum_ingot"
+		}],
+		count: 10L
+	}],
+	rewards: [{
+		uid: "7fca0198",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "camscurrency:denarius"
+		},
+		count: 10
+	}]
+}

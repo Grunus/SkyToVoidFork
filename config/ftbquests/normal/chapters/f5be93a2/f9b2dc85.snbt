@@ -1,0 +1,40 @@
+{
+	title: "Wambo IV",
+	x: 2.0d,
+	y: 8.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"f424efd3"
+	],
+	tasks: [{
+		uid: "c5f10f1d",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thermalfoundation:material",
+			Damage: 657s
+		}],
+		count: 72L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "43c09ef3",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "camscurrency:denarius"
+		},
+		count: 32
+	},
+	{
+		uid: "f430323c",
+		type: "ftbmoney:money",
+		ftb_money: 15L
+	}]
+}

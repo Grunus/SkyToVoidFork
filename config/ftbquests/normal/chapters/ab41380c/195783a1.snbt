@@ -1,0 +1,40 @@
+{
+	title: "Cloud Service: Char",
+	x: 0.0d,
+	y: -14.5d,
+	shape: "octagon",
+	description: "Unlocks items within the quest book shop.",
+	hide_dependency_lines: true,
+	dependencies: [
+		"0f0c0d24",
+		"52fffa66"
+	],
+	hide: true,
+	tasks: [{
+		uid: "6e3e866a",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "contenttweaker:pylon",
+			tag: {
+				display: {
+					Lore: [
+						"Unlocks special Cloud Service items inside",
+						"the quest book shop from specific traders.",
+						"Complete quests from NPCs to reveal Cloud",
+						"Service quests."
+					],
+					Name: "Cloud Service Pylon"
+				}
+			}
+		}],
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "21dbdcb4",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

@@ -1,0 +1,44 @@
+{
+	title: "Travel Time",
+	x: 2.5d,
+	y: 5.5d,
+	description: "There are 3 different Transfer Nodes.",
+	text: [
+		"You can still use Conduits from Thermal Expansion.",
+		"Use a Wrench to configure Transfer Pipes."
+	],
+	dependencies: [
+		"ef38a701"
+	],
+	hide: true,
+	tasks: [{
+		uid: "9f71855f",
+		type: "item",
+		title: "One of the three transfer nodes",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "extrautils2:grocket"
+		},
+		{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "extrautils2:grocket",
+			Damage: 2s
+		},
+		{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "extrautils2:grocket",
+			Damage: 6s
+		}]
+	}],
+	rewards: [{
+		uid: "3bd5cbba",
+		type: "loot",
+		table: 17
+	}]
+}

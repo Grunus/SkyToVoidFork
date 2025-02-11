@@ -1,0 +1,47 @@
+{
+	title: "Seebalt",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "mysticalagriculture:cobalt_essence"
+	},
+	x: -11.0d,
+	y: 10.0d,
+	dependencies: [
+		"4d4bbce3"
+	],
+	hide: true,
+	tasks: [{
+		uid: "b7f8a1ab",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "mysticalagriculture:cobalt_essence"
+		}],
+		count: 20L
+	},
+	{
+		uid: "bd95eb36",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "mysticalagriculture:cobalt_seeds"
+		}],
+		count: 2L
+	}],
+	rewards: [{
+		uid: "81350f68",
+		type: "loot",
+		table: 10
+	},
+	{
+		uid: "dd6f503c",
+		type: "loot",
+		table: 11
+	}]
+}

@@ -1,0 +1,731 @@
+{
+	title: "Cyclic Tier II Reward",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "cyclicmagic:crystallized_amber"
+	},
+	loot_size: 1,
+	hide_tooltip: true,
+	use_title: true,
+	rewards: [{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "cyclicmagic:crystallized_amber"
+		},
+		count: 2
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "cyclicmagic:fire_killer",
+			tag: {
+				ench: [{
+					lvl: 1s,
+					id: 60s
+				}],
+				Unbreakable: 1b,
+				HideFlags: 1,
+				display: {
+					Name: "Oppression"
+				},
+				AttributeModifiers: [{
+					UUIDMost: -5005606851709221037L,
+					UUIDLeast: -5755072409362664872L,
+					Amount: 0.15d,
+					Slot: "offhand",
+					AttributeName: "generic.attackSpeed",
+					Operation: 1,
+					Name: "generic.attackSpeed"
+				},
+				{
+					UUIDMost: 5500802514422547093L,
+					UUIDLeast: -9216229846998726856L,
+					Amount: 0.15d,
+					Slot: "offhand",
+					AttributeName: "generic.armor",
+					Operation: 1,
+					Name: "generic.armor"
+				}]
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:enchanted_book",
+			tag: {
+				StoredEnchantments: [{
+					lvl: 3s,
+					id: 120s
+				}]
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "cyclicmagic:sprout_seed"
+		},
+		count: 12
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "cyclicmagic:shears_obsidian"
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "cyclicmagic:tool_launcher",
+			tag: {}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "cyclicmagic:glove_climb",
+			tag: {}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "cyclicmagic:storage_bag",
+			tag: {
+				isOpen: 0b,
+				guiID: "32823734-2385-4e25-9fad-45c500ff81dc",
+				ItemInventory: [{
+					Slot: 1,
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": {}
+					},
+					id: "appliedenergistics2:material",
+					Count: 1b,
+					Damage: 16s
+				},
+				{
+					Slot: 2,
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": {}
+					},
+					id: "bibliocraft:typewriter",
+					Count: 1b,
+					Damage: 14s
+				},
+				{
+					Slot: 3,
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": {}
+					},
+					id: "biomesoplenty:crystal",
+					Count: 1b,
+					Damage: 0s
+				},
+				{
+					Slot: 4,
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": {}
+					},
+					id: "chisel:diamond",
+					Count: 1b,
+					Damage: 4s
+				},
+				{
+					Slot: 5,
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": {}
+					},
+					id: "minecraft:potion",
+					Count: 1b,
+					tag: {
+						Potion: "cofhcore:levitation+"
+					},
+					Damage: 0s
+				},
+				{
+					Slot: 6,
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": {}
+					},
+					id: "conarm:armor_trim",
+					Count: 1b,
+					tag: {
+						Material: "vulcanite"
+					},
+					Damage: 0s
+				},
+				{
+					Slot: 7,
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": {}
+					},
+					id: "tombstone:scroll_of_knowledge",
+					Count: 1b,
+					Damage: 0s
+				},
+				{
+					Slot: 8,
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": {}
+					},
+					id: "cyclicmagic:fire_dark",
+					Count: 1b,
+					Damage: 0s
+				},
+				{
+					Slot: 9,
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": {}
+					},
+					id: "darkutils:lore_tag",
+					Count: 1b,
+					Damage: 12s
+				},
+				{
+					Slot: 12,
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": {}
+					},
+					id: "densemetals:dense_nether_lapis_ore",
+					Count: 1b,
+					Damage: 0s
+				},
+				{
+					Slot: 13,
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": {}
+					},
+					id: "ebwizardry:blast_upgrade",
+					Count: 1b,
+					Damage: 0s
+				},
+				{
+					Slot: 14,
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": {}
+					},
+					id: "enderio:item_basic_capacitor",
+					Count: 1b,
+					Damage: 2s
+				},
+				{
+					Slot: 15,
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": {}
+					},
+					id: "enderstorage:ender_storage",
+					Count: 1b,
+					Damage: 1s
+				},
+				{
+					Slot: 16,
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": {}
+					},
+					id: "everlastingabilities:ability_bottle",
+					Count: 1b,
+					tag: {
+						"everlastingabilities:abilityStoreStack": []
+					},
+					Damage: 0s
+				},
+				{
+					Slot: 17,
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": {}
+					},
+					id: "excompressum:compressed_hammer_iron",
+					Count: 1b,
+					Damage: 0s
+				},
+				{
+					Slot: 18,
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": {}
+					},
+					id: "minecraft:enchanted_book",
+					Count: 1b,
+					tag: {
+						StoredEnchantments: [{
+							lvl: 3s,
+							id: 52s
+						}]
+					},
+					Damage: 0s
+				},
+				{
+					Slot: 19,
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": {}
+					},
+					id: "extrautils2:ingredients",
+					Count: 1b,
+					Damage: 8s
+				},
+				{
+					Slot: 20,
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": {}
+					},
+					id: "futuremc:bell",
+					Count: 1b,
+					Damage: 0s
+				},
+				{
+					Slot: 23,
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": {}
+					},
+					id: "gachashroom:devilsbrew",
+					Count: 1b,
+					Damage: 0s
+				},
+				{
+					Slot: 24,
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": {}
+					},
+					id: "industrialforegoing:range_addon",
+					Count: 1b,
+					Damage: 5s
+				},
+				{
+					Slot: 25,
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": {}
+					},
+					id: "inventorypets:holiday_cookie",
+					Count: 1b,
+					Damage: 0s
+				},
+				{
+					Slot: 26,
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": {}
+					},
+					id: "ironchest:iron_gold_shulker_upgrade",
+					Count: 1b,
+					Damage: 0s
+				},
+				{
+					Slot: 27,
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": {}
+					},
+					id: "metallurgy:vyroxeres_block",
+					Count: 1b,
+					Damage: 0s
+				},
+				{
+					Slot: 28,
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": {}
+					},
+					id: "morelights:lightpowder",
+					Count: 1b,
+					Damage: 0s
+				},
+				{
+					Slot: 29,
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": {}
+					},
+					id: "cfm:printer",
+					Count: 1b,
+					Damage: 0s
+				},
+				{
+					Slot: 30,
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": {}
+					},
+					id: "mysticalagriculture:gear",
+					Count: 1b,
+					Damage: 2s
+				},
+				{
+					Slot: 31,
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": {}
+					},
+					id: "netherendingores:ore_nether_modded_1",
+					Count: 1b,
+					Damage: 0s
+				},
+				{
+					Slot: 34,
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": {}
+					},
+					id: "netherite:ancient_debris",
+					Count: 1b,
+					Damage: 0s
+				},
+				{
+					Slot: 35,
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": {}
+					},
+					id: "openblocks:glyph",
+					Count: 1b,
+					Damage: 122s
+				},
+				{
+					Slot: 36,
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": {}
+					},
+					id: "harvestcraft:stuffedduckitem",
+					Count: 1b,
+					Damage: 0s
+				},
+				{
+					Slot: 37,
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": {}
+					},
+					id: "weeeflowers:blackseeditem",
+					Count: 1b,
+					Damage: 0s
+				},
+				{
+					Slot: 38,
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": {}
+					},
+					id: "minecraft:potion",
+					Count: 1b,
+					tag: {
+						Potion: "potioncore:long_drown"
+					},
+					Damage: 0s
+				},
+				{
+					Slot: 39,
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": {}
+					},
+					id: "psi:cad_battery",
+					Count: 1b,
+					Damage: 1s
+				},
+				{
+					Slot: 40,
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": {}
+					},
+					id: "secretroomsmod:torch_lever",
+					Count: 1b,
+					Damage: 0s
+				},
+				{
+					Slot: 41,
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": {}
+					},
+					id: "storagedrawers:upgrade_conversion",
+					Count: 1b,
+					Damage: 0s
+				},
+				{
+					Slot: 42,
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": {}
+					},
+					id: "thermalexpansion:augment",
+					Count: 1b,
+					Damage: 673s
+				},
+				{
+					Slot: 45,
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": {}
+					},
+					id: "thermalfoundation:tool.shield_diamond",
+					Count: 1b,
+					Damage: 0s
+				},
+				{
+					Slot: 46,
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": {}
+					},
+					id: "tconstruct:materials",
+					Count: 1b,
+					Damage: 14s
+				},
+				{
+					Slot: 47,
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": {}
+					},
+					id: "totaltinkers:fullguard",
+					Count: 1b,
+					tag: {
+						Material: "bone"
+					},
+					Damage: 0s
+				},
+				{
+					Slot: 48,
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": {}
+					},
+					id: "minecraft:enchanted_book",
+					Count: 1b,
+					tag: {
+						StoredEnchantments: [{
+							lvl: 3s,
+							id: 73s
+						}]
+					},
+					Damage: 0s
+				},
+				{
+					Slot: 49,
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": {}
+					},
+					id: "waterstrainer:bait_pot",
+					Count: 1b,
+					Damage: 0s
+				},
+				{
+					Slot: 50,
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": {}
+					},
+					id: "xtones:lair",
+					Count: 1b,
+					Damage: 6s
+				},
+				{
+					Slot: 51,
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": {}
+					},
+					id: "yoyos:yoyo_cord",
+					Count: 1b,
+					tag: {
+						Material: "vine"
+					},
+					Damage: 0s
+				}],
+				display: {
+					Name: "An Item From Almost Every Mod"
+				},
+				COLOUR: 1908001
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "cyclicmagic:entity_detector"
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "cyclicmagic:glowing_helmet",
+			tag: {}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "cyclicmagic:wand_hypno"
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "cyclicmagic:charm_void",
+			tag: {}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "cyclicmagic:charm_wing",
+			tag: {}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "cyclicmagic:block_anvil"
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "cyclicmagic:plate_push_fast"
+		},
+		count: 32
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "cyclicmagic:crystallized_amber"
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "cyclicmagic:crystallized_amber"
+		},
+		count: 4
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "cyclicmagic:ender_eye_orb"
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "cyclicmagic:ender_tnt_5"
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "cyclicmagic:glass_strong"
+		},
+		count: 16
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "cyclicmagic:apple_emerald"
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "tconstruct:battlesign",
+			tag: {
+				StatsOriginal: {
+					AttackSpeedMultiplier: 1.0f,
+					MiningSpeed: 10.12f,
+					FreeModifiers: 3,
+					Durability: 1010,
+					HarvestLevel: 3,
+					Attack: 6.84f
+				},
+				display: {
+					Name: "Red Light, Green Light"
+				},
+				Stats: {
+					AttackSpeedMultiplier: 1.0f,
+					MiningSpeed: 10.12f,
+					FreeModifiers: 0,
+					Durability: 1010,
+					HarvestLevel: 3,
+					Attack: 9.260321f
+				},
+				Special: {
+					Categories: [
+						"weapon",
+						"tool"
+					]
+				},
+				TinkerData: {
+					UsedModifiers: 3,
+					Materials: [
+						"ma.supremium",
+						"peridot"
+					],
+					Modifiers: [
+						"sharpness",
+						"glowing",
+						"webbed"
+					]
+				},
+				Modifiers: [{
+					identifier: "prosperous",
+					color: -3932160,
+					level: 1
+				},
+				{
+					identifier: "shock",
+					color: -15341515,
+					level: 1
+				},
+				{
+					identifier: "sharpness",
+					current: 72,
+					color: 16774902,
+					level: 1,
+					max: 72,
+					extraInfo: "71 / 72"
+				},
+				{
+					identifier: "glowing",
+					color: 16777130,
+					level: 1
+				},
+				{
+					identifier: "webbed",
+					color: 16777215,
+					level: 1
+				}],
+				Traits: [
+					"prosperous",
+					"shock",
+					"glowing",
+					"webbed"
+				]
+			}
+		}
+	}]
+}

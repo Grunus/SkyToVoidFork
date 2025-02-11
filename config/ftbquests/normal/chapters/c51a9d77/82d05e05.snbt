@@ -1,0 +1,24 @@
+{
+	x: -3.5d,
+	y: 6.5d,
+	description: "Collects items and XP close to the Hopper.",
+	dependencies: [
+		"f8b14dc2"
+	],
+	hide: true,
+	tasks: [{
+		uid: "85bdfac9",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "openblocks:vacuum_hopper"
+		}]
+	}],
+	rewards: [{
+		uid: "cc5ecb6f",
+		type: "loot",
+		table: 31
+	}]
+}

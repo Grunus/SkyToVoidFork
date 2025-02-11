@@ -1,0 +1,59 @@
+{
+	title: "Ender IO",
+	x: 12.5d,
+	y: 0.5d,
+	description: "Standard Machinery.",
+	text: [
+		"Some machines need Capacitors!"
+	],
+	dependencies: [
+		"b7636150"
+	],
+	hide: true,
+	tasks: [{
+		uid: "9b81917d",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "enderio:block_sag_mill"
+		}]
+	},
+	{
+		uid: "a0dd3f0c",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "enderio:block_stirling_generator"
+		}]
+	},
+	{
+		uid: "b96bd2cd",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "enderio:block_alloy_smelter"
+		}]
+	},
+	{
+		uid: "fcfa94ef",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "enderio:item_basic_capacitor"
+		}],
+		count: 3L
+	}],
+	rewards: [{
+		uid: "f5d2c3b0",
+		type: "loot",
+		table: 35
+	}]
+}

@@ -1,0 +1,46 @@
+{
+	title: "Islands III",
+	x: 1.0d,
+	y: 3.5d,
+	dependencies: [
+		"2e5ce1d8",
+		"02b464cc"
+	],
+	tasks: [{
+		uid: "4c9580b0",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "darkutils:monolith"
+		}]
+	},
+	{
+		uid: "b2234e4e",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "gachashroom:glowstoolblock"
+		}],
+		count: 32L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "1011c528",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "artifacts:flame_pendant"
+		}
+	},
+	{
+		uid: "0d4436e3",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	}]
+}

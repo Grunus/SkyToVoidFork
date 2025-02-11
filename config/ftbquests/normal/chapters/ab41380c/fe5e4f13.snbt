@@ -1,0 +1,84 @@
+{
+	title: "Liam's Generous Information",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "minecraft:book"
+	},
+	x: -1.5d,
+	y: 6.0d,
+	shape: "diamond",
+	description: "''If you're really trying to make fuss with the Obelisk, I'll give you some information about it. But if you can, I lost a few books after the Rapture, will you get them back for me?''",
+	text: [
+		"Thank you for your help! I shall write what you will need to know!",
+		"",
+		"================================",
+		"",
+		"New information will be stored inside the \"Watching Closely\" chapter."
+	],
+	dependencies: [
+		"c9dee3d1"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "9a399126",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:bookshelf"
+		}],
+		count: 6L,
+		consume_items: true
+	},
+	{
+		uid: "89fc5b1d",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:paper"
+		}],
+		count: 30L,
+		consume_items: true
+	},
+	{
+		uid: "4e7f6c12",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ftbquests:book"
+		}],
+		consume_items: true,
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "fe0412c5",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "camscurrency:denarius"
+		},
+		count: 12
+	},
+	{
+		uid: "c7ee064c",
+		type: "item",
+		title: "Unlock quests that reveals what you need to progress in Chapter 3.",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ftbquests:book"
+		}
+	}]
+}

@@ -1,0 +1,72 @@
+{
+	title: "Controlling the Elements",
+	x: 7.0d,
+	y: 4.5d,
+	description: "You can use mills for basic power gain.",
+	text: [
+		"When mills and other generators of power are placed near each other they are in the same grid power. The more generators the higher grid power and energy output."
+	],
+	dependencies: [
+		"1bf9acaa"
+	],
+	hide: true,
+	tasks: [{
+		uid: "26284b3f",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "extrautils2:passivegenerator",
+			Damage: 2s
+		}]
+	},
+	{
+		uid: "d095c73e",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "extrautils2:passivegenerator",
+			Damage: 4s
+		}]
+	},
+	{
+		uid: "50e44c5c",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "extrautils2:passivegenerator",
+			Damage: 3s
+		}]
+	},
+	{
+		uid: "59f4557d",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "extrautils2:passivegenerator",
+			Damage: 5s
+		}]
+	}],
+	rewards: [{
+		uid: "43975846",
+		type: "loot",
+		table: 18
+	},
+	{
+		uid: "65112c25",
+		type: "loot",
+		table: 18
+	},
+	{
+		uid: "eb21a508",
+		type: "loot",
+		table: 17
+	}]
+}

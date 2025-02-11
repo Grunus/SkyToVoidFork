@@ -1,0 +1,35 @@
+{
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "contenttweaker:obj_quests",
+		tag: {
+			display: {
+				Name: "Quests"
+			}
+		}
+	},
+	x: 4.5d,
+	y: -7.5d,
+	text: [
+		"You think you can reach us? Go back to helping the other damned souls..."
+	],
+	hide_dependency_lines: true,
+	min_required_dependencies: 4,
+	dependencies: [
+		"91968a66",
+		"fb5558b7",
+		"5e8db4db",
+		"4fb160f7",
+		"6848ae91",
+		"2801b8d8",
+		"b437fe3a"
+	],
+	hide: true,
+	tasks: [{
+		uid: "56042660",
+		type: "checkmark",
+		title: "Destructive Forces of Evil"
+	}]
+}

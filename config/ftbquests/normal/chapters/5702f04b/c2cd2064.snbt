@@ -1,0 +1,27 @@
+{
+	title: "Life Steal",
+	x: 6.5d,
+	y: 12.0d,
+	shape: "square",
+	description: "Apply onto weapons for life steal abilities.",
+	dependencies: [
+		"8f28541f"
+	],
+	hide: true,
+	tasks: [{
+		uid: "bd79946f",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "tconstruct:materials",
+			Damage: 17s
+		}]
+	}],
+	rewards: [{
+		uid: "97368be8",
+		type: "loot",
+		table: 6
+	}]
+}

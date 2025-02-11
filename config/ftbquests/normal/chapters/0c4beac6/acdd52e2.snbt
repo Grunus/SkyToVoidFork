@@ -1,0 +1,41 @@
+{
+	title: "Fetid Creeps Faction",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "minecraft:poisonous_potato"
+	},
+	x: 14.0d,
+	y: 2.5d,
+	description: "''I almost feel bad about. I said almost 'cause I'm about to steal their items when I get the chance.''",
+	text: [
+		"Every purchase you will receive one random reward from the following entities.",
+		"",
+		"- ''Fetor''",
+		"- ''Fetid Coagulation''",
+		"- ''Weeping Fungus''",
+		"- ''The Mountain Man''"
+	],
+	dependencies: [
+		"661eab9e",
+		"f6f9b103"
+	],
+	hide: true,
+	tasks: [{
+		uid: "22e1d8a2",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "camscurrency:aureus"
+		}],
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "6de9df4e",
+		type: "loot",
+		table: 57
+	}]
+}

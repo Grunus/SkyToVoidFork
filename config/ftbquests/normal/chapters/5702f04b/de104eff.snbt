@@ -1,0 +1,88 @@
+{
+	title: "Plate Casting That's Not For Your Meals",
+	x: 5.5d,
+	y: 16.0d,
+	dependencies: [
+		"e0cf37fc"
+	],
+	hide: true,
+	tasks: [{
+		uid: "b3fdab5e",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "tconstruct:cast_custom",
+			Damage: 3s
+		}]
+	}],
+	rewards: [{
+		uid: "87f7fe6e",
+		type: "loot",
+		table: 5
+	},
+	{
+		uid: "8a8875df",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thermalfoundation:armor.plate_silver",
+			tag: {
+				ench: [{
+					lvl: 1s,
+					id: 70s
+				},
+				{
+					lvl: 3s,
+					id: 0s
+				}],
+				Unbreakable: 1b,
+				display: {
+					Lore: [
+						"Only for the richest."
+					],
+					Name: "Wealthy Plate"
+				},
+				AttributeModifiers: [{
+					UUIDMost: 6910615205999953575L,
+					UUIDLeast: -6893302874709624304L,
+					Amount: -1.0d,
+					Slot: "chest",
+					AttributeName: "generic.attackDamage",
+					Operation: 0,
+					Name: "generic.attackDamage"
+				},
+				{
+					UUIDMost: -6972338111383059132L,
+					UUIDLeast: -8978659762232839026L,
+					Amount: 6.0d,
+					Slot: "chest",
+					AttributeName: "generic.armor",
+					Operation: 0,
+					Name: "generic.armor"
+				},
+				{
+					UUIDMost: 914727486047995481L,
+					UUIDLeast: -4967068200876142773L,
+					Amount: -1.0d,
+					Slot: "chest",
+					AttributeName: "generic.knockbackResistance",
+					Operation: 0,
+					Name: "generic.knockbackResistance"
+				},
+				{
+					UUIDMost: 4268490812637923138L,
+					UUIDLeast: -7088661200347439282L,
+					Amount: 3.0d,
+					Slot: "chest",
+					AttributeName: "generic.luck",
+					Operation: 0,
+					Name: "generic.luck"
+				}]
+			}
+		}
+	}]
+}

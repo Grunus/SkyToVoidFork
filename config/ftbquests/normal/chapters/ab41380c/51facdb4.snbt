@@ -1,0 +1,51 @@
+{
+	title: "Cloud Service: Northern Void",
+	x: -18.5d,
+	y: -19.5d,
+	shape: "octagon",
+	description: "Unlocks items within the quest book shop.",
+	text: [
+		"Includes all of the southern NPC traders, such as:",
+		"",
+		"- Libcardo",
+		"- Claudia",
+		"- Chim",
+		"- Char",
+		"- Alþrúðr",
+		"- Duster"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"4b0eb1da",
+		"52fffa66"
+	],
+	hide: true,
+	size: 1.5d,
+	tasks: [{
+		uid: "135caaff",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "contenttweaker:pylon",
+			tag: {
+				display: {
+					Lore: [
+						"Unlocks special Cloud Service items inside",
+						"the quest book shop from specific traders.",
+						"Complete quests from NPCs to reveal Cloud",
+						"Service quests."
+					],
+					Name: "Cloud Service Pylon"
+				}
+			}
+		}],
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "ba49974f",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

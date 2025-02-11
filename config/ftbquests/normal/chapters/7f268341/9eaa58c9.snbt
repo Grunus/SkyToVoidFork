@@ -1,0 +1,33 @@
+{
+	title: "Energy Slash!",
+	x: 3.0d,
+	y: -1.0d,
+	description: "Flux weapons deal 1 Flux Damage. Flux Damage ignores armor.",
+	text: [
+		""
+	],
+	dependencies: [
+		"132ebcac"
+	],
+	hide: true,
+	tasks: [{
+		uid: "542294f8",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "redstonearsenal:tool.sword_flux",
+			tag: {
+				Energy: 0
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "05a7a735",
+		type: "loot",
+		table: 7
+	}]
+}

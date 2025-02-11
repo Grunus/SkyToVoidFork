@@ -1,0 +1,41 @@
+{
+	title: "Deactivated",
+	x: 0.0d,
+	y: -1.0d,
+	description: "Smelt redstone ore to obtain destabilized redstone.",
+	text: [
+		""
+	],
+	dependencies: [
+		"035c34dc"
+	],
+	hide: true,
+	tasks: [{
+		uid: "030922d5",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "redstone",
+				Amount: 1000
+			}
+		}],
+		ignore_damage: true
+	}],
+	rewards: [{
+		uid: "156d192b",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thermalexpansion:florb",
+			tag: {
+				Fluid: "redstone"
+			}
+		}
+	}]
+}

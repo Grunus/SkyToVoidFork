@@ -1,0 +1,30 @@
+{
+	x: -6.5d,
+	y: 7.0d,
+	dependencies: [
+		"a2d990d3"
+	],
+	hide: true,
+	tasks: [{
+		uid: "1bd7f4a0",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "openblocks:pencil_glasses"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "6a97f60d",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "chisel:iron",
+			Damage: 14s
+		}
+	}]
+}

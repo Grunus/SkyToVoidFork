@@ -1,0 +1,94 @@
+{
+	title: "Worthless Opponent",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "metallurgy:brass_ingot"
+	},
+	x: 3.5d,
+	y: -6.0d,
+	text: [
+		"You? Challenging us? Go ahead, you've already lost."
+	],
+	dependencies: [
+		"6bae85c1"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "73ba0c22",
+		type: "item",
+		title: "Any ingotSilver",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "ingotSilver",
+					id: "ore"
+				},
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "itemfilters:filter"
+		}],
+		count: 15L
+	},
+	{
+		uid: "f2b5e790",
+		type: "item",
+		title: "Brass Ingot",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "metallurgy:brass_ingot"
+		},
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "ingotBrass",
+					id: "ore"
+				},
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "itemfilters:filter"
+		}],
+		count: 15L
+	},
+	{
+		uid: "9ab3d068",
+		type: "item",
+		title: "Any ingotSteel",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "ingotSteel",
+					id: "ore"
+				},
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "itemfilters:filter"
+		}],
+		count: 15L
+	}],
+	rewards: [{
+		uid: "08bcb2ac",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "camscurrency:denarius"
+		},
+		count: 6
+	},
+	{
+		uid: "8af5fd1b",
+		type: "loot",
+		table: 17
+	},
+	{
+		uid: "29396cfa",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

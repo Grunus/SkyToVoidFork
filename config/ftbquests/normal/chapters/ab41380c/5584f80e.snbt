@@ -1,0 +1,70 @@
+{
+	title: "Elbow's Economic Sin",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "minecraft:knowledge_book",
+		tag: {
+			ench: [{
+				lvl: 1,
+				id: 3
+			}],
+			RepairCost: 1,
+			display: {
+				Name: "The Communist Manifesto"
+			}
+		}
+	},
+	x: -5.0d,
+	y: 3.0d,
+	shape: "diamond",
+	description: "''The true devil! All knowledge of Marx must be burned! These practices excite me with rage, but also fear that our land could become corrupted, horrid with ill minds.''",
+	text: [
+		"Yes! Burn the books! All communism will be destroyed!"
+	],
+	dependencies: [
+		"ff8eeace"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "bc5419c6",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:knowledge_book",
+			tag: {
+				ench: [{
+					lvl: 1,
+					id: 3
+				}],
+				RepairCost: 1,
+				display: {
+					Name: "The Communist Manifesto"
+				}
+			}
+		}],
+		consume_items: true,
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "eef74145",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "camscurrency:denarius"
+		},
+		count: 12
+	},
+	{
+		uid: "ebd47441",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	}]
+}

@@ -1,0 +1,63 @@
+{
+	title: "Trident of Clout",
+	x: -16.0d,
+	y: -3.5d,
+	shape: "diamond",
+	description: "''You know what would really get my viewers talking? Thats right! a Trident behind me in my face cam! That would be so sicko mode! Get me a Trident! :D''",
+	text: [
+		"Awesome! Wait... I have an idea! When people donate I'll put their username on the handle :pepeflower:!"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"48815cba"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "c7cba8e9",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "futuremc:trident"
+		}],
+		consume_items: true,
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "25a78056",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "camscurrency:dupondius"
+		},
+		count: 32,
+		random_bonus: 32
+	},
+	{
+		uid: "430f2648",
+		type: "ftbmoney:money",
+		ftb_money: 32L,
+		random_bonus: 32
+	},
+	{
+		uid: "a8d26008",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:enchanted_book",
+			tag: {
+				StoredEnchantments: [{
+					lvl: 1s,
+					id: 105s
+				}]
+			}
+		}
+	}]
+}

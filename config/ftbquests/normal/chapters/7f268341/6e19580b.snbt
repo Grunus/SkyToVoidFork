@@ -1,0 +1,31 @@
+{
+	title: "Directly Through the Veins",
+	x: -7.0d,
+	y: -5.0d,
+	description: "Stores multiple doses of potions.",
+	text: [
+		"To store a potion, craft a potion with the Hypoinfuser."
+	],
+	dependencies: [
+		"300bfa32"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "310019ff",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thermalinnovation:injector",
+			tag: {}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "f3d3eb1d",
+		type: "loot",
+		table: 7
+	}]
+}

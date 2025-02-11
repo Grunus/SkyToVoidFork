@@ -1,0 +1,31 @@
+{
+	title: "Void Fishing",
+	x: 2.0d,
+	y: 5.0d,
+	dependencies: [
+		"c340fde7"
+	],
+	hide: true,
+	tasks: [{
+		uid: "774c181e",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:fishing_rod"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "89ad9571",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:carrot_on_a_stick"
+		}
+	}]
+}

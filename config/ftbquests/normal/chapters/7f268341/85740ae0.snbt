@@ -1,0 +1,54 @@
+{
+	title: "Going Simple",
+	x: 17.0d,
+	y: -4.0d,
+	description: "Create these simple machines to get you started in Ender IO.",
+	hide_dependency_lines: true,
+	dependencies: [
+		"f506efd7"
+	],
+	hide: true,
+	tasks: [{
+		uid: "56812918",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "enderio:block_simple_alloy_smelter"
+		}]
+	},
+	{
+		uid: "9b1ee5ac",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "enderio:block_simple_stirling_generator"
+		}]
+	},
+	{
+		uid: "466c6396",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "enderio:block_simple_sag_mill"
+		}]
+	}],
+	rewards: [{
+		uid: "91da0daf",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "enderio:item_material",
+			Damage: 20s
+		},
+		count: 2,
+		random_bonus: 6
+	}]
+}

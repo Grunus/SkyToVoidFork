@@ -1,0 +1,56 @@
+{
+	title: "Fire Flowers",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "mysticalagriculture:fire_essence"
+	},
+	x: -13.0d,
+	y: 10.0d,
+	description: "With fire essence you can grow your own lava!",
+	dependencies: [
+		"59b5e6d0"
+	],
+	hide: true,
+	tasks: [{
+		uid: "d94a1775",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "mysticalagriculture:fire_essence"
+		}],
+		count: 20L
+	},
+	{
+		uid: "079bc458",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "mysticalagriculture:fire_seeds"
+		}],
+		count: 2L
+	}],
+	rewards: [{
+		uid: "22f07db1",
+		type: "loot",
+		table: 9
+	},
+	{
+		uid: "06d40ca8",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:splash_potion",
+			tag: {
+				Potion: "extrautils2:xu2.greek.fire"
+			}
+		}
+	}]
+}

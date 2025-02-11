@@ -1,0 +1,34 @@
+{
+	title: "Cutting the Cords",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "appliedenergistics2:material",
+		Damage: 41s
+	},
+	x: -11.5d,
+	y: 9.0d,
+	shape: "square",
+	dependencies: [
+		"ef292405"
+	],
+	hide: true,
+	tasks: [{
+		uid: "e9c70885",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "appliedenergistics2:material",
+			Damage: 42s
+		}],
+		count: 64L
+	}],
+	rewards: [{
+		uid: "5676d9bd",
+		type: "loot",
+		table: 16
+	}]
+}

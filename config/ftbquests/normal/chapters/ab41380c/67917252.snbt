@@ -1,0 +1,26 @@
+{
+	title: "Libcardo's Quest II",
+	x: -2.0d,
+	y: -2.0d,
+	shape: "diamond",
+	description: "''9 ain't enough, give me more cobblestone, but pack it more...''",
+	text: [
+		""
+	],
+	dependencies: [
+		"0f62924f"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "8d0e7760",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "extrautils2:compressedcobblestone",
+			Damage: 1s
+		}]
+	}]
+}

@@ -1,0 +1,33 @@
+{
+	title: "Fairy Tale Wood",
+	x: 0.0d,
+	y: 9.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"7cc154ad"
+	],
+	hide: true,
+	tasks: [{
+		uid: "c3815767",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "extrautils2:decorativesolidwood",
+			Damage: 1s
+		}]
+	}],
+	rewards: [{
+		uid: "70f52bed",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "extrautils2:book"
+		}
+	}]
+}

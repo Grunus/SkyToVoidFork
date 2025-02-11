@@ -1,0 +1,68 @@
+{
+	title: "Infinity Drill",
+	x: 21.5d,
+	y: 11.0d,
+	shape: "square",
+	dependencies: [
+		"89f7ecdd"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "28e05886",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "industrialforegoing:infinity_drill",
+			tag: {
+				Energy: 0,
+				Fluid: {
+					FluidName: "biofuel",
+					Amount: 0
+				},
+				Special: 0,
+				Selected: "POOR"
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "85ba43ba",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:spawn_egg",
+			tag: {
+				EntityTag: {
+					id: "minecraft:wither_skeleton"
+				}
+			}
+		},
+		count: 4
+	},
+	{
+		uid: "024e0f4a",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:spawn_egg",
+			tag: {
+				EntityTag: {
+					id: "minecraft:wither_skeleton"
+				}
+			}
+		},
+		count: 4
+	},
+	{
+		uid: "7a28d99e",
+		type: "loot",
+		table: 33
+	}]
+}

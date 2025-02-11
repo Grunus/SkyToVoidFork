@@ -1,0 +1,31 @@
+{
+	x: 11.5d,
+	y: 14.5d,
+	dependencies: [
+		"1bd37edf"
+	],
+	hide: true,
+	tasks: [{
+		uid: "fa92bcee",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "metallurgy:zinc_buckler"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "4a93407b",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "camscurrency:denarius"
+		},
+		count: 15
+	}]
+}

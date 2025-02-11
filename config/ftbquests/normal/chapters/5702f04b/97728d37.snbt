@@ -1,0 +1,28 @@
+{
+	title: "Extendo",
+	x: 0.5d,
+	y: 11.0d,
+	description: "Increases reach.",
+	text: [
+		""
+	],
+	dependencies: [
+		"60cb9e69"
+	],
+	hide: true,
+	tasks: [{
+		uid: "e2543059",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "conarm:gauntlet_mat_reach"
+		}]
+	}],
+	rewards: [{
+		uid: "f1b00d1c",
+		type: "loot",
+		table: 48
+	}]
+}

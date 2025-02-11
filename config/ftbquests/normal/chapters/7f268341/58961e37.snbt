@@ -1,0 +1,42 @@
+{
+	title: "Path of the Alloy",
+	x: -7.0d,
+	y: -1.0d,
+	description: "Invar is created by adding iron and nickel together, by blend or by a smeltery.",
+	dependencies: [
+		"1fd81e05"
+	],
+	hide: true,
+	tasks: [{
+		uid: "5e0eec52",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thermalfoundation:material",
+			Damage: 162s
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "97911355",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thermalfoundation:armor.plate_invar"
+		}
+	},
+	{
+		uid: "1dd39089",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thermalfoundation:armor.legs_invar"
+		}
+	}]
+}

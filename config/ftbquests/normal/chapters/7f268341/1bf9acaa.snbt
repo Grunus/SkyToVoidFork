@@ -1,0 +1,32 @@
+{
+	title: "Major Transition",
+	x: 6.0d,
+	y: 4.5d,
+	description: "Burnt stone can create a variety of useful items, such as mills.",
+	dependencies: [
+		"8315b5a5"
+	],
+	hide: true,
+	tasks: [{
+		uid: "1538cc93",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "extrautils2:decorativesolid",
+			Damage: 3s
+		}]
+	}],
+	rewards: [{
+		uid: "9e6bfbdf",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:stone"
+		},
+		count: 54
+	}]
+}

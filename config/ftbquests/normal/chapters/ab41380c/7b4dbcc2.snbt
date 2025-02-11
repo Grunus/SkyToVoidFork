@@ -1,0 +1,44 @@
+{
+	title: "Bonnet Wants The End!",
+	x: 15.0d,
+	y: 13.0d,
+	shape: "diamond",
+	description: "''I know Wambo doesn't have a tram station everywhere. Some of them are too hostile or too destroyed even, but that doesn't stop me from dreaming about The End! I heard rumors of some chunks of End Stone in this Void close by, mind getting some for me?''",
+	text: [
+		"Wow, there it is! End Stone. I'm touching it right now! I never thought I would live the day to see this!"
+	],
+	dependencies: [
+		"182dd896"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "d1c91e3b",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:end_stone"
+		}],
+		count: 64L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "46b1f7c8",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thermalfoundation:material",
+			Damage: 167s
+		},
+		count: 6
+	},
+	{
+		uid: "a37e315e",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

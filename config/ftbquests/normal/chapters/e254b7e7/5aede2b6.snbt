@@ -1,0 +1,46 @@
+{
+	title: "Acceptance of the Void",
+	x: 3.0d,
+	y: -10.0d,
+	text: [
+		"Growing your own resources? Impressive that you're at least trying."
+	],
+	dependencies: [
+		"02b464cc"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "6b06f23f",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "mysticalagriculture:crafting",
+			Damage: 19s
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "b8d61f70",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "camscurrency:denarius"
+		},
+		count: 6
+	},
+	{
+		uid: "22181bfe",
+		type: "loot",
+		table: 10
+	},
+	{
+		uid: "b6e95f1c",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	}]
+}

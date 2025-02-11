@@ -1,0 +1,957 @@
+{
+    "ReturnToStart": 1b,
+    "NpcInv": [
+        {
+            "Slot": 0b,
+            "ForgeCaps": {
+                "customnpcs:itemscripteddata": {
+                }
+            },
+            "id": "psi:psimetal_axe",
+            "Count": 1b,
+            "tag": {
+                "ench": [
+                    {
+                        "lvl": 3s,
+                        "id": 79s
+                    },
+                    {
+                        "lvl": 2s,
+                        "id": 20s
+                    },
+                    {
+                        "lvl": 1s,
+                        "id": 70s
+                    }
+                ],
+                "display": {
+                    "Name": "Lightbeam Axe"
+                },
+                "AttributeModifiers": [
+                    {
+                        "UUIDMost": -3801225194067177672L,
+                        "UUIDLeast": -6586624321849018929L,
+                        "Amount": 8.0d,
+                        "Slot": "mainhand",
+                        "AttributeName": "generic.attackDamage",
+                        "Operation": 0,
+                        "Name": "generic.attackDamage"
+                    },
+                    {
+                        "UUIDMost": -422425648963762075L,
+                        "UUIDLeast": -5756800103171642205L,
+                        "Amount": -2.0d,
+                        "Slot": "mainhand",
+                        "AttributeName": "generic.attackSpeed",
+                        "Operation": 0,
+                        "Name": "generic.attackSpeed"
+                    },
+                    {
+                        "UUIDMost": -5657891484341746595L,
+                        "UUIDLeast": -9012456152954247269L,
+                        "Amount": -0.2d,
+                        "Slot": "mainhand",
+                        "AttributeName": "generic.armor",
+                        "Operation": 1,
+                        "Name": "generic.armor"
+                    }
+                ]
+            },
+            "Damage": 0s
+        }
+    ],
+    "BossColor": 0,
+    "PotionEffect": 4,
+    "Size": 5,
+    "stopAndInteract": 1b,
+    "Resistances": {
+        "Arrow": 1.1267606f,
+        "Explosion": 1.0f,
+        "Knockback": 1.2535211f,
+        "Melee": 0.87323946f
+    },
+    "BossBar": 0b,
+    "RespawnTime": 600,
+    "NpcAngrySound": "",
+    "ReactsToFire": 0b,
+    "IgnoreCobweb": 1b,
+    "PositionOffsetZ": 5.0f,
+    "PositionOffsetY": 5.0f,
+    "PositionOffsetX": 5.0f,
+    "LootMode": 0,
+    "TransformHasAI": 0b,
+    "AttackStrenght": 14,
+    "PersistenceRequired": 0b,
+    "id": "customnpcs:customnpc",
+    "IsStatue": 0b,
+    "MovingPatern": 0,
+    "NpcLines": {
+        "Lines": [
+        ]
+    },
+    "DefendFaction": 0b,
+    "FireIndirect": 0,
+    "NpcVisible": 0,
+    "LinkedNpcName": "",
+    "NpcScenes": {
+        "Scenes": [
+        ]
+    },
+    "HitSound": "cyclicmagic:crack",
+    "FindShelter": 2,
+    "Air": 300s,
+    "TacticalVariant": 0,
+    "Orientation": 0,
+    "ScriptLanguage": "ECMAScript",
+    "HandItems": [
+        {
+        },
+        {
+        }
+    ],
+    "KnockBack": 3,
+    "TransformHasJob": 0b,
+    "ArmorDropChances": [
+        0.085f,
+        0.085f,
+        0.085f,
+        0.085f
+    ],
+    "BurnInSun": 0b,
+    "TraderSold": {
+        "NpcMiscInv": [
+            {
+                "Slot": 0b,
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "appliedenergistics2:quartz_fixture",
+                "Count": 5b,
+                "Damage": 0s
+            },
+            {
+                "Slot": 1b,
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "appliedenergistics2:network_tool",
+                "Count": 1b,
+                "Damage": 0s
+            },
+            {
+                "Slot": 3b,
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "appliedenergistics2:material",
+                "Count": 1b,
+                "Damage": 36s
+            },
+            {
+                "Slot": 4b,
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "appliedenergistics2:spatial_pylon",
+                "Count": 2b,
+                "Damage": 0s
+            },
+            {
+                "Slot": 6b,
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "appliedenergistics2:fluid_storage_cell_4k",
+                "Count": 1b,
+                "tag": {
+                },
+                "Damage": 0s
+            },
+            {
+                "Slot": 7b,
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "appliedenergistics2:material",
+                "Count": 16b,
+                "Damage": 6s
+            },
+            {
+                "Slot": 9b,
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "appliedenergistics2:portable_cell",
+                "Count": 1b,
+                "tag": {
+                    "internalMaxPower": 20000.0d,
+                    "internalCurrentPower": 20000.0d
+                },
+                "Damage": 0s
+            },
+            {
+                "Slot": 10b,
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "appliedenergistics2:part",
+                "Count": 32b,
+                "Damage": 13s
+            },
+            {
+                "Slot": 12b,
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "appliedenergistics2:charged_staff",
+                "Count": 1b,
+                "tag": {
+                    "internalMaxPower": 8000.0d,
+                    "internalCurrentPower": 8000.0d
+                },
+                "Damage": 0s
+            },
+            {
+                "Slot": 15b,
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "appliedenergistics2:storage_cell_1k",
+                "Count": 1b,
+                "tag": {
+                },
+                "Damage": 0s
+            },
+            {
+                "Slot": 17b,
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "openblocks:sonic_glasses",
+                "Count": 1b,
+                "tag": {
+                    "ench": [
+                        {
+                            "lvl": 1s,
+                            "id": 60s
+                        },
+                        {
+                            "lvl": 2s,
+                            "id": 3s
+                        }
+                    ],
+                    "display": {
+                        "Lore": [
+                            "Best quality headset for Minecraft!"
+                        ],
+                        "Name": "Rezar Squid Headphones"
+                    },
+                    "AttributeModifiers": [
+                        {
+                            "UUIDMost": 3086076556416732775L,
+                            "UUIDLeast": -5150312587563650736L,
+                            "Amount": 5.0d,
+                            "Slot": "head",
+                            "AttributeName": "generic.armor",
+                            "Operation": 0,
+                            "Name": "generic.armor"
+                        },
+                        {
+                            "UUIDMost": 3086076556416732775L,
+                            "UUIDLeast": -5150312587563650736L,
+                            "Amount": -2.0d,
+                            "Slot": "head",
+                            "AttributeName": "generic.armorToughness",
+                            "Operation": 0,
+                            "Name": "generic.armorToughness"
+                        },
+                        {
+                            "UUIDMost": 8462567372841697502L,
+                            "UUIDLeast": -5148139882300710602L,
+                            "Amount": -2.0d,
+                            "Slot": "head",
+                            "AttributeName": "generic.followRange",
+                            "Operation": 0,
+                            "Name": "generic.followRange"
+                        }
+                    ]
+                },
+                "Damage": 0s
+            }
+        ]
+    },
+    "StandingState": 0,
+    "AttackInvisible": 0b,
+    "NpcInteractNPCLines": {
+        "Lines": [
+        ]
+    },
+    "HurtTime": 0s,
+    "WalkingRange": 10,
+    "ShotCount": 1,
+    "pDur": 5,
+    "TraderIgnoreDamage": 0b,
+    "AttackRange": 2,
+    "NpcKillLines": {
+        "Lines": [
+        ]
+    },
+    "PotionImmune": 1b,
+    "AvoidsSun": 0b,
+    "Texture": "customnpcs:textures/entity/humanmale/tuxedosteve.png",
+    "NpcJob": 0,
+    "BurstCount": 1,
+    "NpcAttackLines": {
+        "Lines": [
+        ]
+    },
+    "pSpeed": 50,
+    "pArea": 0,
+    "DeathTime": 0s,
+    "pImpact": 0,
+    "MoveState": 0,
+    "pRender3D": 0b,
+    "Motion": [
+        0.0d,
+        -0.0784000015258789d,
+        0.0d
+    ],
+    "CombatRegen": 0,
+    "NpcsTimers": [
+    ],
+    "MarkovGender": 0,
+    "pEffect": 8,
+    "DistanceToMelee": 2,
+    "NpcStepSound": "",
+    "FireRate": 5,
+    "LeftHanded": 0b,
+    "pEffAmp": 0,
+    "OnGround": 1b,
+    "Dimension": 0,
+    "ImmuneToFire": 1b,
+    "NpcKilledLines": {
+        "Lines": [
+        ]
+    },
+    "TraderMarket": "",
+    "Fire": -1s,
+    "ArmorItems": [
+        {
+        },
+        {
+        },
+        {
+        },
+        {
+        }
+    ],
+    "DisablePitch": 0b,
+    "pPhysics": 0b,
+    "TransformHasInv": 0b,
+    "NpcInteractLines": {
+        "Lines": [
+            {
+                "Line": "Got any spare Crypto?",
+                "Song": "",
+                "Slot": 0
+            },
+            {
+                "Line": "Takes a lot of energy to mine... and I'm not talking about physical mining.",
+                "Song": "",
+                "Slot": 1
+            },
+            {
+                "Line": "Ha! Look at that guy! I shot his face off!",
+                "Song": "",
+                "Slot": 2
+            },
+            {
+                "Line": "Man I could use some ammo right about now...",
+                "Song": "",
+                "Slot": 3
+            },
+            {
+                "Line": "Ever heard of Psi? yeah, only rumors.",
+                "Song": "",
+                "Slot": 4
+            }
+        ]
+    },
+    "HurtByTimestamp": 29571,
+    "TraderCurrency": {
+        "NpcMiscInv": [
+            {
+                "Slot": 0b,
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "camscurrency:dupondius",
+                "Count": 5b,
+                "Damage": 0s
+            },
+            {
+                "Slot": 1b,
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "camscurrency:dupondius",
+                "Count": 8b,
+                "Damage": 0s
+            },
+            {
+                "Slot": 3b,
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "camscurrency:denarius",
+                "Count": 64b,
+                "Damage": 0s
+            },
+            {
+                "Slot": 4b,
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "camscurrency:denarius",
+                "Count": 16b,
+                "Damage": 0s
+            },
+            {
+                "Slot": 6b,
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "camscurrency:denarius",
+                "Count": 64b,
+                "Damage": 0s
+            },
+            {
+                "Slot": 7b,
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "camscurrency:denarius",
+                "Count": 8b,
+                "Damage": 0s
+            },
+            {
+                "Slot": 9b,
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "camscurrency:denarius",
+                "Count": 64b,
+                "Damage": 0s
+            },
+            {
+                "Slot": 10b,
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "camscurrency:dupondius",
+                "Count": 16b,
+                "Damage": 0s
+            },
+            {
+                "Slot": 12b,
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "camscurrency:dupondius",
+                "Count": 16b,
+                "Damage": 0s
+            },
+            {
+                "Slot": 15b,
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "camscurrency:dupondius",
+                "Count": 64b,
+                "Damage": 0s
+            },
+            {
+                "Slot": 17b,
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "camscurrency:denarius",
+                "Count": 64b,
+                "Damage": 0s
+            },
+            {
+                "Slot": 18b,
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "appliedenergistics2:material",
+                "Count": 2b,
+                "Damage": 0s
+            },
+            {
+                "Slot": 19b,
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "industrialforegoing:plastic",
+                "Count": 8b,
+                "Damage": 0s
+            },
+            {
+                "Slot": 21b,
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "appliedenergistics2:material",
+                "Count": 1b,
+                "Damage": 35s
+            },
+            {
+                "Slot": 22b,
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "industrialforegoing:plastic",
+                "Count": 32b,
+                "Damage": 0s
+            },
+            {
+                "Slot": 24b,
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "appliedenergistics2:material",
+                "Count": 3b,
+                "Damage": 43s
+            },
+            {
+                "Slot": 25b,
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "industrialforegoing:plastic",
+                "Count": 8b,
+                "Damage": 0s
+            },
+            {
+                "Slot": 27b,
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "appliedenergistics2:material",
+                "Count": 4b,
+                "Damage": 12s
+            },
+            {
+                "Slot": 28b,
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "appliedenergistics2:quartz_glass",
+                "Count": 8b,
+                "Damage": 0s
+            },
+            {
+                "Slot": 30b,
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "appliedenergistics2:certus_quartz_wrench",
+                "Count": 1b,
+                "Damage": 0s
+            },
+            {
+                "Slot": 33b,
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "appliedenergistics2:part",
+                "Count": 1b,
+                "Damage": 380s
+            },
+            {
+                "Slot": 35b,
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "appliedenergistics2:material",
+                "Count": 1b,
+                "Damage": 41s
+            }
+        ]
+    },
+    "pSpin": 0b,
+    "NpcHurtSound": "minecraft:entity.player.hurt",
+    "pTrail": 6,
+    "CreatureType": 0,
+    "Attributes": [
+        {
+            "Base": 1.0d,
+            "Name": "potioncore.projectileDamage"
+        },
+        {
+            "Base": 1.0d,
+            "Name": "potioncore.magicDamage"
+        },
+        {
+            "Base": 1.0d,
+            "Name": "potioncore.jumpHeight"
+        },
+        {
+            "Base": 1.0d,
+            "Name": "potioncore.damageResistance"
+        },
+        {
+            "Base": 0.0d,
+            "Name": "potioncore.magicShielding"
+        },
+        {
+            "Base": 40.0d,
+            "Name": "generic.maxHealth"
+        },
+        {
+            "Base": 0.0d,
+            "Name": "generic.knockbackResistance"
+        },
+        {
+            "Base": 0.20000000298023224d,
+            "Name": "generic.movementSpeed"
+        },
+        {
+            "Base": 0.0d,
+            "Name": "generic.armor"
+        },
+        {
+            "Base": 0.0d,
+            "Name": "generic.armorToughness"
+        },
+        {
+            "Base": 1.0d,
+            "Name": "forge.swimSpeed"
+        },
+        {
+            "Base": 64.0d,
+            "Name": "generic.followRange"
+        },
+        {
+            "Base": 14.0d,
+            "Name": "generic.attackDamage"
+        },
+        {
+            "Base": 0.4000000059604645d,
+            "Name": "generic.flyingSpeed"
+        }
+    ],
+    "Invulnerable": 0b,
+    "TransformHasDisplay": 0b,
+    "NoFallDamage": 0b,
+    "AbsorptionAmount": 0.0f,
+    "TransformHasRole": 0b,
+    "Name": "Alþrúðr",
+    "FallDistance": 0.0f,
+    "SkinColor": 14524927,
+    "NpcIdleSound": "",
+    "Weapons": [
+        {
+            "Slot": 0b,
+            "ForgeCaps": {
+                "Parent": {
+                    "Memory": [
+                    ],
+                    "Battery": 0,
+                    "Time": 0
+                },
+                "customnpcs:itemscripteddata": {
+                }
+            },
+            "id": "psi:cad",
+            "Count": 1b,
+            "tag": {
+                "componentASSEMBLY": {
+                    "ForgeCaps": {
+                        "customnpcs:itemscripteddata": {
+                        }
+                    },
+                    "id": "psi:cad_assembly",
+                    "Count": 1b,
+                    "Damage": 0s
+                }
+            },
+            "Damage": 0s
+        },
+        {
+            "Slot": 1b,
+            "ForgeCaps": {
+                "customnpcs:itemscripteddata": {
+                }
+            },
+            "id": "appliedenergistics2:paint_ball",
+            "Count": 1b,
+            "Damage": 29s
+        },
+        {
+            "Slot": 2b,
+            "ForgeCaps": {
+                "customnpcs:itemscripteddata": {
+                }
+            },
+            "id": "psi:psimetal_axe",
+            "Count": 1b,
+            "Damage": 0s
+        }
+    ],
+    "NPCDialogOptions": [
+        {
+            "NPCDialog": {
+                "DialogCommand": "",
+                "Dialog": 62,
+                "Title": "1st",
+                "DialogColor": 14737632,
+                "OptionType": 1
+            },
+            "DialogSlot": 0
+        }
+    ],
+    "AggroRange": 64,
+    "DirectLOS": 1b,
+    "HealthRegen": 1,
+    "ForgeCaps": {
+        "everlastingabilities:org.cyclops.everlastingabilities.api.capability.imutableabilitystore": [
+        ],
+        "metallurgy:punch_effect": {
+            "hasAiDisabled": 1b,
+            "knockbackTicks": 0,
+            "ticks": 0
+        }
+    },
+    "HandDropChances": [
+        0.085f,
+        0.085f
+    ],
+    "NpcModelData": {
+        "LegsConfig": {
+            "NotShared": 0b,
+            "ScaleZ": 1.0f,
+            "TransZ": 0.0f,
+            "TransY": 0.0f,
+            "TransX": 0.012000002f,
+            "ScaleY": 1.0f,
+            "ScaleX": 1.0f
+        },
+        "BodyConfig": {
+            "NotShared": 0b,
+            "ScaleZ": 1.0f,
+            "TransZ": 0.0f,
+            "TransY": 0.0f,
+            "TransX": 0.0f,
+            "ScaleY": 1.0f,
+            "ScaleX": 1.0f
+        },
+        "Eyes": {
+            "Pattern": 0b,
+            "Glint": 1b,
+            "Type": 0b,
+            "PositionY": 1,
+            "SkinColor": 11830381,
+            "PlayerTexture": 0b,
+            "Color": 8375321,
+            "BrowColor": 5982516,
+            "BrowThickness": 4
+        },
+        "LegParts": {
+            "Pattern": 0b,
+            "Type": 0b,
+            "PlayerTexture": 0b,
+            "Color": 16777215
+        },
+        "Parts": [
+        ],
+        "ArmsConfig": {
+            "NotShared": 0b,
+            "ScaleZ": 1.0f,
+            "TransZ": 0.0f,
+            "TransY": 0.0f,
+            "TransX": -0.0f,
+            "ScaleY": 1.0f,
+            "ScaleX": 1.0f
+        },
+        "ExtraData": {
+        },
+        "HeadConfig": {
+            "NotShared": 0b,
+            "ScaleZ": 1.0f,
+            "TransZ": 0.0f,
+            "TransY": 0.0f,
+            "TransX": 0.0f,
+            "ScaleY": 1.0f,
+            "ScaleX": 1.0f
+        }
+    },
+    "minDelay": 30,
+    "DoorInteract": 2,
+    "MoveSpeed": 4,
+    "TransformEditingModus": 0b,
+    "UsingSkinUrl": 0b,
+    "Leashed": 0b,
+    "SkinUrl": "",
+    "CanSwim": 1b,
+    "TraderIgnoreNBT": 0b,
+    "GroundSound": "psi:cad_shoot",
+    "MaxHealth": 40,
+    "HideBodyWhenKilled": 1b,
+    "AttackSpeed": 30,
+    "PotionDuration": 8,
+    "maxDelay": 40,
+    "ScriptEnabled": 0b,
+    "Role": 1,
+    "DropChance": [
+        {
+            "Integer": 5,
+            "Slot": 0
+        },
+        {
+            "Integer": 100,
+            "Slot": 1
+        },
+        {
+            "Integer": 100,
+            "Slot": 2
+        },
+        {
+            "Integer": 100,
+            "Slot": 3
+        },
+        {
+            "Integer": 100,
+            "Slot": 4
+        },
+        {
+            "Integer": 100,
+            "Slot": 5
+        },
+        {
+            "Integer": 100,
+            "Slot": 6
+        },
+        {
+            "Integer": 100,
+            "Slot": 7
+        },
+        {
+            "Integer": 100,
+            "Slot": 8
+        }
+    ],
+    "FactionPoints": {
+        "DecreaseFaction1Points": 0b,
+        "OptionFaction2Points": 100,
+        "OptionFactions1": -1,
+        "OptionFactions2": -1,
+        "OptionFaction1Points": 100,
+        "DecreaseFaction2Points": 0b
+    },
+    "pDamage": 16,
+    "KilledTime": 0L,
+    "AimWhileShooting": 1b,
+    "CanPickUpLoot": 0b,
+    "AttackOtherFactions": 0b,
+    "CanDrown": 1b,
+    "pSize": 5,
+    "CanSprint": 0b,
+    "CanLeap": 0b,
+    "TransformIsActive": 0b,
+    "ForgeData": {
+        "cnpcmarkdata": {
+            "marks": [
+            ]
+        },
+        "Potion Core - Health Fix": 40.0f,
+        "Potion Core - Jump Boost Updated": 1b
+    },
+    "MovingState": 0,
+    "MovingPos": 0,
+    "PotionAmp": 4,
+    "OnAttack": 0,
+    "TacticalRadius": 8,
+    "FallFlying": 0b,
+    "MaxExp": 50,
+    "OrderedLines": 0b,
+    "PortalCooldown": 0,
+    "pGlows": 0b,
+    "TransformHasAdvanced": 0b,
+    "TransformHasStats": 0b,
+    "MovementType": 0,
+    "FiringSound": "psi:cad_shoot",
+    "ModRev": 18,
+    "Accuracy": 100,
+    "MinExp": 20,
+    "Armor": [
+        {
+            "Slot": 0b,
+            "ForgeCaps": {
+                "customnpcs:itemscripteddata": {
+                }
+            },
+            "id": "psi:psimetal_exosuit_helmet",
+            "Count": 1b,
+            "Damage": 0s
+        }
+    ],
+    "CloakTexture": "",
+    "GlowTexture": "",
+    "MaxFiringRange": 64,
+    "pXlr8": 0b,
+    "MarkovGeneratorId": 5,
+    "Scripts": [
+    ],
+    "Health": 40.0f,
+    "pStick": 0b,
+    "MovingPause": 1b,
+    "NpcDeathSound": "minecraft:entity.player.hurt",
+    "FactionID": 32,
+    "Title": "Umbra",
+    "TotalTicksAlive": 354038L,
+    "Rotation": [
+        7.9233627f,
+        0.0f
+    ],
+    "ShowName": 0,
+    "npcInteracting": 1b,
+    "UpdateBlocked": 0b,
+    "AvoidsWater": 0b,
+    "NoLivingAnimation": 0b,
+    "SpawnCycle": 0
+}

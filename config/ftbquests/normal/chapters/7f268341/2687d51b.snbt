@@ -1,0 +1,30 @@
+{
+	title: "End Loot",
+	x: -2.0d,
+	y: -1.0d,
+	shape: "square",
+	dependencies: [
+		"e71d022e"
+	],
+	hide: true,
+	tasks: [{
+		uid: "bd7c010c",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thermalexpansion:satchel",
+			tag: {
+				Accessible: 1
+			},
+			Damage: 4s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "39d18a52",
+		type: "loot",
+		table: 70
+	}]
+}

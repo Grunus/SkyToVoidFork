@@ -1,0 +1,39 @@
+{
+	title: "Tinkers' Resources",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "tconstruct:materials"
+	},
+	x: -4.0d,
+	y: 8.5d,
+	can_repeat: true,
+	dependencies: [
+		"ada5f823",
+		"e26b1ebc",
+		"c2cd2064",
+		"b95d7004",
+		"34a6b45c",
+		"e39513ee",
+		"a90b4e17"
+	],
+	hide: true,
+	optional: true,
+	tasks: [{
+		uid: "6566b7e0",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "camscurrency:denarius"
+		}],
+		count: 20L
+	}],
+	rewards: [{
+		uid: "a2c5bfd5",
+		type: "loot",
+		table: 5
+	}]
+}

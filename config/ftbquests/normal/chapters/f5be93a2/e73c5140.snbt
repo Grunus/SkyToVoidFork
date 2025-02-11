@@ -1,0 +1,60 @@
+{
+	title: "Finde III",
+	x: 1.5d,
+	y: 7.5d,
+	dependencies: [
+		"6fc82c65"
+	],
+	tasks: [{
+		uid: "69831a3b",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:ender_pearl"
+		}],
+		count: 32L,
+		consume_items: true
+	},
+	{
+		uid: "a04e9612",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:bone"
+		}],
+		count: 128L,
+		consume_items: true
+	},
+	{
+		uid: "d23000d4",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:rotten_flesh"
+		}],
+		count: 64L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "3704ef33",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "camscurrency:denarius"
+		},
+		count: 32
+	},
+	{
+		uid: "44979278",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	}]
+}

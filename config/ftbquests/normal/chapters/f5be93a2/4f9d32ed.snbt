@@ -1,0 +1,51 @@
+{
+	title: "Bob I",
+	x: -1.0d,
+	y: 9.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"a0967f50"
+	],
+	hide: true,
+	tasks: [{
+		uid: "fed7f7a8",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "gachashroom:chaga",
+			tag: {
+				ench: [{
+					lvl: 1s,
+					id: 10s
+				}],
+				display: {
+					Lore: [
+						"Stained black, like the void..."
+					],
+					Name: "Envoked Flesh"
+				}
+			}
+		}],
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "56609055",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "camscurrency:denarius"
+		},
+		count: 32
+	},
+	{
+		uid: "049b941b",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	}]
+}

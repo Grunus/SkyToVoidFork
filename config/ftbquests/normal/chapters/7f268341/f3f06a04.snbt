@@ -1,0 +1,32 @@
+{
+	x: 6.5d,
+	y: 14.0d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"18751084",
+		"af691d08",
+		"bb7fd11d",
+		"ec1173d7",
+		"215a300d",
+		"8456f92e",
+		"6d5dc3c7",
+		"7c588c23"
+	],
+	hide: true,
+	tasks: [{
+		uid: "33a2f026",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "extrautils2:rainbowgenerator",
+			Damage: 1s
+		}]
+	}],
+	rewards: [{
+		uid: "6f517efd",
+		type: "loot",
+		table: 19
+	}]
+}

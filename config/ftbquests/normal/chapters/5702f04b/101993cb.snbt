@@ -1,0 +1,34 @@
+{
+	title: "Blast Power",
+	x: 6.5d,
+	y: 16.0d,
+	description: "Can put TNT in Hammers.",
+	text: [
+		""
+	],
+	dependencies: [
+		"d9be03b7"
+	],
+	hide: true,
+	tasks: [{
+		uid: "e1fe01db",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:tnt"
+		}],
+		count: 3L
+	}],
+	rewards: [{
+		uid: "e90a5ba1",
+		type: "loot",
+		table: 1
+	},
+	{
+		uid: "3dc19139",
+		type: "loot",
+		table: 5
+	}]
+}

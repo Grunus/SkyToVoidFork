@@ -1,0 +1,37 @@
+{
+	title: "Thermal Expansion Tier III Reward",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "thermalfoundation:upgrade",
+		Damage: 35s
+	},
+	x: -7.0d,
+	y: 5.5d,
+	can_repeat: true,
+	dependencies: [
+		"2687d51b",
+		"53f2b65f",
+		"8729ff54",
+		"acc45a23"
+	],
+	hide: true,
+	optional: true,
+	tasks: [{
+		uid: "619f861e",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "camscurrency:denarius"
+		}],
+		count: 32L
+	}],
+	rewards: [{
+		uid: "896a4bb7",
+		type: "loot",
+		table: 70
+	}]
+}

@@ -1,0 +1,34 @@
+{
+	title: "Super Organized",
+	x: -1.5d,
+	y: 0.0d,
+	dependencies: [
+		"59e6e167"
+	],
+	hide: true,
+	tasks: [{
+		uid: "477f5902",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "storagedrawers:basicdrawers",
+			tag: {
+				material: "oak"
+			},
+			Damage: 2s
+		}]
+	}],
+	rewards: [{
+		uid: "3d1650b2",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "harvestcraft:waterchestnutseeditem"
+		},
+		count: 2
+	}]
+}

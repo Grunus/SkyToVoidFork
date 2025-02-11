@@ -1,0 +1,54 @@
+{
+	title: "Fiji Crystal",
+	x: -18.5d,
+	y: 6.5d,
+	shape: "square",
+	description: "It's good to understand these crystals as some recipes do require them.",
+	text: [
+		"I HIGHLY recommend just crafting these crystals"
+	],
+	min_required_dependencies: 1,
+	dependencies: [
+		"6b93c11b",
+		"49bea768"
+	],
+	hide: true,
+	tasks: [{
+		uid: "4be12000",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "appliedenergistics2:material",
+			Damage: 10s
+		}]
+	},
+	{
+		uid: "399eb6f7",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "appliedenergistics2:material",
+			Damage: 12s
+		}]
+	},
+	{
+		uid: "91288090",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "appliedenergistics2:material",
+			Damage: 11s
+		}]
+	}],
+	rewards: [{
+		uid: "e39508c7",
+		type: "loot",
+		table: 16
+	}]
+}

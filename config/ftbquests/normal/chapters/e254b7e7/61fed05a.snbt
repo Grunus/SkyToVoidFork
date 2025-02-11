@@ -1,0 +1,60 @@
+{
+	title: "Simulation of Killing a God",
+	x: 5.5d,
+	y: -18.0d,
+	text: [
+		"How brutal is your mind? What sense of accomplishment will you feel in the end?",
+		"",
+		"You're just dooming the freed souls."
+	],
+	dependencies: [
+		"05faa4f9"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "80948d5f",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "appliedenergistics2:storage_cell_16k",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "ad45b5f2",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "appliedenergistics2:part",
+			Damage: 360s
+		}]
+	},
+	{
+		uid: "c503b09c",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "appliedenergistics2:material",
+			Damage: 12s
+		}]
+	}],
+	rewards: [{
+		uid: "696a123e",
+		type: "loot",
+		table: 16
+	},
+	{
+		uid: "87c85426",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

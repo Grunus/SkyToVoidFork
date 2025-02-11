@@ -1,0 +1,61 @@
+{
+	title: "The Cage and Steve",
+	x: 8.0d,
+	y: 6.0d,
+	description: "Auto Sieve",
+	dependencies: [
+		"5eea1b73"
+	],
+	hide: true,
+	tasks: [{
+		uid: "2781b956",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "excompressum:auto_sieve"
+		}]
+	}],
+	rewards: [{
+		uid: "ba1d52f6",
+		type: "loot",
+		table: 1
+	},
+	{
+		uid: "f70e10ba",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:gravel"
+		},
+		count: 10,
+		random_bonus: 10
+	},
+	{
+		uid: "af5976ed",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:sand"
+		},
+		count: 10,
+		random_bonus: 10
+	},
+	{
+		uid: "8c86b6e9",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "exnihilocreatio:block_dust"
+		},
+		count: 10,
+		random_bonus: 10
+	}]
+}

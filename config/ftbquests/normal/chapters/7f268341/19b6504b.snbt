@@ -1,0 +1,40 @@
+{
+	title: "Sugma _____",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "thermalfoundation:material",
+		Damage: 165s
+	},
+	x: -6.5d,
+	y: 1.0d,
+	dependencies: [
+		"ab4aa859"
+	],
+	hide: true,
+	tasks: [{
+		uid: "1a9cb3c9",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thermalfoundation:material",
+			Damage: 165s
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "f5c8c0ed",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thermaldynamics:duct_0",
+			Damage: 3s
+		},
+		count: 16
+	}]
+}

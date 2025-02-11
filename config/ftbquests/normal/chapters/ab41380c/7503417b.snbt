@@ -1,0 +1,213 @@
+{
+	title: "Discovery of New Metals",
+	x: -6.0d,
+	y: 6.5d,
+	shape: "diamond",
+	description: "''Listen, I've been hearing about these new, weird metals. They're stronger than the stuff that I got. Could you find these? I'd like to research them.''",
+	text: [
+		"Thank you. These are very unique visually. I'll have to see how well these will do."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"c5aa451a"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "ce4348a8",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thermalfoundation:material",
+			Damage: 165s
+		}],
+		consume_items: true
+	},
+	{
+		uid: "3188fa9c",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thermalfoundation:material",
+			Damage: 164s
+		}],
+		consume_items: true
+	},
+	{
+		uid: "16d3b7a6",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thermalfoundation:material",
+			Damage: 134s
+		}],
+		consume_items: true
+	},
+	{
+		uid: "83e04ba3",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thermalfoundation:material",
+			Damage: 161s
+		}],
+		consume_items: true
+	},
+	{
+		uid: "d701d464",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thermalfoundation:material",
+			Damage: 167s
+		}],
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "90b0a41e",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "tconstruct:excavator",
+			tag: {
+				StatsOriginal: {
+					AttackSpeedMultiplier: 1.0f,
+					MiningSpeed: 4.865f,
+					FreeModifiers: 3,
+					Durability: 2427,
+					HarvestLevel: 2,
+					Attack: 4.05f
+				},
+				display: {
+					Lore: [
+						"Can fling yourself with it too!"
+					],
+					Name: "Flimsy Excavator"
+				},
+				Stats: {
+					AttackSpeedMultiplier: 1.0f,
+					MiningSpeed: 4.865f,
+					FreeModifiers: 3,
+					Durability: 2427,
+					HarvestLevel: 2,
+					Attack: 4.05f
+				},
+				Special: {
+					Categories: [
+						"harvest",
+						"aoe",
+						"tool"
+					],
+					RepairCount: 1
+				},
+				TinkerData: {
+					Materials: [
+						"ref_lavium",
+						"ref_invar",
+						"blueslime",
+						"slime"
+					],
+					Modifiers: []
+				},
+				Modifiers: [{
+					identifier: "ref_snowball",
+					color: -5905056,
+					level: 1
+				},
+				{
+					identifier: "hellish",
+					color: -6118230,
+					level: 1
+				},
+				{
+					identifier: "slimey_blue",
+					color: -9123641,
+					level: 1
+				},
+				{
+					identifier: "slimey_green",
+					color: -8206221,
+					level: 1
+				}],
+				Traits: [
+					"ref_snowball",
+					"hellish",
+					"slimey_blue",
+					"slimey_green"
+				],
+				AttributeModifiers: [{
+					UUIDMost: -3801225194067177672L,
+					UUIDLeast: -6586624321849018929L,
+					Amount: 5.0625d,
+					Slot: "mainhand",
+					AttributeName: "generic.attackDamage",
+					Operation: 0,
+					Name: "generic.attackDamage"
+				},
+				{
+					UUIDMost: -422425648963762075L,
+					UUIDLeast: -5756800103171642205L,
+					Amount: -3.300000011920929d,
+					Slot: "mainhand",
+					AttributeName: "generic.attackSpeed",
+					Operation: 0,
+					Name: "generic.attackSpeed"
+				},
+				{
+					UUIDMost: -7940463100322494121L,
+					UUIDLeast: -6207278122973088429L,
+					Amount: 3.0d,
+					Slot: "mainhand",
+					AttributeName: "potioncore.jumpHeight",
+					Operation: 0,
+					Name: "potioncore.jumpHeight"
+				}]
+			}
+		}
+	},
+	{
+		uid: "57eea32b",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "camscurrency:denarius"
+		},
+		count: 16
+	},
+	{
+		uid: "7343cfb3",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "contenttweaker:objectives",
+			tag: {
+				ench: [{
+					lvl: 1s,
+					id: 10s
+				}],
+				display: {
+					Lore: [
+						"Statue of Denial would be pleased."
+					],
+					Name: "Mark of Friendship - Island Layer 1"
+				}
+			}
+		}
+	}]
+}

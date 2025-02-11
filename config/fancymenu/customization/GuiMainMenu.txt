@@ -1,0 +1,190 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.GuiMainMenu
+  renderorder = foreground
+}
+
+customization {
+  path = resources/mainmenu.png
+  action = texturizebackground
+}
+
+customization {
+  identifier = %id=400322%
+  orientation = bottom-right
+  x = -196
+  action = movebutton
+  y = -84
+}
+
+customization {
+  identifier = %id=400322%
+  width = 175
+  action = resizebutton
+  height = 25
+}
+
+customization {
+  identifier = %id=400322%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=400322%
+  action = setbuttontexture
+  backgroundhovered = resources/mphover.png
+  backgroundnormal = resources/mptext.png
+}
+
+customization {
+  identifier = %id=400382%
+  orientation = bottom-right
+  x = -196
+  action = movebutton
+  y = -56
+}
+
+customization {
+  identifier = %id=400382%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=400382%
+  action = setbuttontexture
+  backgroundhovered = resources/ophover.png
+  backgroundnormal = resources/optext.png
+}
+
+customization {
+  identifier = %id=502382%
+  orientation = bottom-right
+  x = -81
+  action = movebutton
+  y = -32
+}
+
+customization {
+  identifier = %id=502382%
+  width = 60
+  action = resizebutton
+  height = 22
+}
+
+customization {
+  identifier = %id=502382%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=502382%
+  action = setbuttontexture
+  backgroundhovered = resources/quithover.png
+  backgroundnormal = resources/quittext.png
+}
+
+customization {
+  identifier = %id=376382%
+  orientation = bottom-left
+  x = 4
+  action = movebutton
+  y = -96
+}
+
+customization {
+  identifier = %id=400298%
+  orientation = bottom-right
+  x = -218
+  action = movebutton
+  y = -160
+}
+
+customization {
+  identifier = %id=400298%
+  width = 217
+  action = resizebutton
+  height = 75
+}
+
+customization {
+  identifier = %id=400298%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=400298%
+  action = setbuttontexture
+  backgroundhovered = resources/beginhover.png
+  backgroundnormal = resources/begintext.png
+}
+
+customization {
+  identifier = %id=400298%
+  action = sethoverlabel
+  label = 
+}
+
+customization {
+  identifier = %id=400346%
+  orientation = bottom-right
+  x = -81
+  action = movebutton
+  y = -57
+}
+
+customization {
+  identifier = %id=400346%
+  width = 60
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=400346%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=400346%
+  action = setbuttontexture
+  backgroundhovered = resources/modshover.png
+  backgroundnormal = resources/modstext.png
+}
+
+customization {
+  identifier = %id=502346%
+  action = hidebutton
+}
+
+customization {
+  path = resources/skytovoidsplash2.png
+  orientation = top-centered
+  x = -243
+  width = 486
+  action = addtexture
+  y = 0
+  height = 87
+}
+
+customization {
+  orientation = top-left
+  buttonaction = openlink
+  backgroundhovered = resources/cube.png
+  description = Use promo code ''parade'' for 25% off of your first month!
+  label = 
+  hoverlabel = Rent a server!
+  x = 18
+  width = 36
+  action = addbutton
+  y = 211
+  backgroundnormal = resources/cube.png
+  value = https://www.bisecthosting.com/
+  height = 36
+}
+

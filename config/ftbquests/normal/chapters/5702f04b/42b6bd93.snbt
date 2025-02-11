@@ -1,0 +1,47 @@
+{
+	title: "Let it Rip!",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "mysticalagriculture:blaze_essence"
+	},
+	x: -11.0d,
+	y: 9.0d,
+	dependencies: [
+		"4d4bbce3"
+	],
+	hide: true,
+	tasks: [{
+		uid: "5cd2c1fa",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "mysticalagriculture:blaze_essence"
+		}],
+		count: 20L
+	},
+	{
+		uid: "180f6188",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "mysticalagriculture:blaze_seeds"
+		}],
+		count: 2L
+	}],
+	rewards: [{
+		uid: "09fbe987",
+		type: "loot",
+		table: 10
+	},
+	{
+		uid: "6a8b04fe",
+		type: "loot",
+		table: 11
+	}]
+}

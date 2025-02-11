@@ -1,0 +1,38 @@
+{
+	title: "Mine-Life",
+	x: 2.5d,
+	y: 8.0d,
+	text: [
+		"With a Crow Bar, you can break sealed crates on other islands."
+	],
+	dependencies: [
+		"cebcaaf7"
+	],
+	hide: true,
+	tasks: [{
+		uid: "263b0353",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "cfm:item_crow_bar"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "0e9180cd",
+		type: "loot",
+		table: 0
+	},
+	{
+		uid: "bf940135",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "cfm:item_crow_bar"
+		}
+	}]
+}

@@ -1,0 +1,29 @@
+{
+	title: "Sleepy Time!",
+	x: -4.0d,
+	y: 5.0d,
+	description: "Allows you to sleep anywhere in the world!",
+	text: [
+		""
+	],
+	dependencies: [
+		"248e2598"
+	],
+	hide: true,
+	tasks: [{
+		uid: "e138242c",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "comforts:sleeping_bag"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "30864362",
+		type: "loot",
+		table: 0
+	}]
+}

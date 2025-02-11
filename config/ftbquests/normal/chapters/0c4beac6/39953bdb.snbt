@@ -1,0 +1,38 @@
+{
+	title: "Mystical Agriculture Tier I Reward",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "mysticalagriculture:crafting",
+		Damage: 1s
+	},
+	x: -5.0d,
+	y: 3.5d,
+	text: [
+		""
+	],
+	can_repeat: true,
+	dependencies: [
+		"ef3ff65c",
+		"b7ea0175"
+	],
+	hide: true,
+	optional: true,
+	tasks: [{
+		uid: "c0c3f660",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "camscurrency:denarius"
+		}],
+		count: 8L
+	}],
+	rewards: [{
+		uid: "a32965de",
+		type: "loot",
+		table: 9
+	}]
+}

@@ -1,0 +1,64 @@
+{
+	title: "The Abnormal Cliff",
+	x: -12.5d,
+	y: -13.5d,
+	description: "Secret society unveiled by the gods.",
+	text: [
+		""
+	],
+	dependencies: [
+		"05faa4f9"
+	],
+	hide: true,
+	tasks: [{
+		uid: "a5b0201d",
+		type: "location",
+		title: "-591 115 -809",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "appliedenergistics2:facade",
+			tag: {
+				damage: 0,
+				item: "minecraft:dirt"
+			}
+		},
+		location: [I;
+			0,
+			-593,
+			115,
+			-813,
+			5,
+			5,
+			5
+		]
+	}],
+	rewards: [{
+		uid: "9518745a",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "exnihilocreatio:block_andesite_crushed"
+		},
+		count: 16
+	},
+	{
+		uid: "31e7e9e9",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "appliedenergistics2:storage_cell_4k",
+			tag: {}
+		}
+	},
+	{
+		uid: "723074ca",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

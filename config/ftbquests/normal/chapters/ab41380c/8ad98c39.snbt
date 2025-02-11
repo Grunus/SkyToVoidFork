@@ -1,0 +1,55 @@
+{
+	title: "Wambo's Energy Situation",
+	x: 9.0d,
+	y: -5.5d,
+	shape: "diamond",
+	description: "''My energy is runnin' low. if you could possibly help me, get me some energy please!''",
+	text: [
+		"Power maxed! fuel high! lets ride!"
+	],
+	dependencies: [
+		"18bf2782"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "e8177f73",
+		type: "forge_energy",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thermalexpansion:frame",
+			Damage: 128s
+		},
+		value: 2500L
+	}],
+	rewards: [{
+		uid: "5944f629",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "camscurrency:denarius"
+		},
+		count: 15
+	},
+	{
+		uid: "704a39bb",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thermaldynamics:duct_0",
+			Damage: 2s
+		},
+		count: 32
+	},
+	{
+		uid: "303a79c4",
+		type: "ftbmoney:money",
+		ftb_money: 45L
+	}]
+}

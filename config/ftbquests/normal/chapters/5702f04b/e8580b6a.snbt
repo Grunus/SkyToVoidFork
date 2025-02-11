@@ -1,0 +1,40 @@
+{
+	title: "Accessories",
+	x: 2.0d,
+	y: 13.0d,
+	description: "You can apply an accessory onto armor, which gives an activation ability for each armor piece.",
+	text: [
+		"You can only have one accessory per armor. View your controls to see how to activate your accessories."
+	],
+	dependencies: [
+		"60cb9e69"
+	],
+	hide: true,
+	tasks: [{
+		uid: "f66aed49",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "conarm:travel_cloak"
+		},
+		{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "conarm:travel_goggles_base"
+		},
+		{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "conarm:travel_belt_base"
+		}]
+	}],
+	rewards: [{
+		uid: "78384a78",
+		type: "loot",
+		table: 46
+	}]
+}

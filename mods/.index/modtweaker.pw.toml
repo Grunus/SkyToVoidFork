@@ -1,0 +1,17 @@
+filename = 'modtweaker-4.0.20.5.jar'
+name = 'ModTweaker'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'modtweaker-4.0.20.5.jar'
+
+[download]
+hash = '4e1e9795f8344ffa76718ece16dc4692d0f630cf'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 3488553
+project-id = 220954

@@ -1,0 +1,57 @@
+{
+	title: "Growing Fossil Fuel",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "mysticalagriculture:coal_essence"
+	},
+	x: -13.0d,
+	y: 9.0d,
+	text: [
+		"Well that doesn't make sense..."
+	],
+	dependencies: [
+		"59b5e6d0"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "6d554f4e",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "mysticalagriculture:coal_essence"
+		}],
+		count: 20L
+	},
+	{
+		uid: "5fd83bae",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "mysticalagriculture:coal_seeds"
+		}],
+		count: 2L
+	}],
+	rewards: [{
+		uid: "d50c8b4d",
+		type: "loot",
+		table: 9
+	},
+	{
+		uid: "a896568f",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "mysticalagriculture:coal",
+			Damage: 1s
+		}
+	}]
+}

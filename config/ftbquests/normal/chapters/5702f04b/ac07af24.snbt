@@ -1,0 +1,72 @@
+{
+	title: "1.16",
+	x: -3.0d,
+	y: 10.0d,
+	description: "Collect Ancient Debri beyond Tribulation.",
+	text: [
+		""
+	],
+	dependencies: [
+		"64621c3b"
+	],
+	hide: true,
+	tasks: [{
+		uid: "59b16ce6",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "netherite:netherite_scrap"
+		}],
+		count: 12L
+	}],
+	rewards: [{
+		uid: "f6b313f5",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "netherite:netherite_hoe",
+			tag: {
+				ench: [{
+					lvl: 1s,
+					id: 20s
+				},
+				{
+					lvl: 2s,
+					id: 19s
+				},
+				{
+					lvl: 2s,
+					id: 34s
+				}],
+				display: {
+					Lore: [
+						"Filled with dark spirits."
+					],
+					Name: "Blackened Hoe"
+				},
+				AttributeModifiers: [{
+					UUIDMost: -3801225194067177672L,
+					UUIDLeast: -6586624321849018929L,
+					Amount: 2.0d,
+					Slot: "mainhand",
+					AttributeName: "generic.attackDamage",
+					Operation: 0,
+					Name: "generic.attackDamage"
+				},
+				{
+					UUIDMost: -422425648963762075L,
+					UUIDLeast: -5756800103171642205L,
+					Amount: 4.0d,
+					Slot: "mainhand",
+					AttributeName: "generic.attackSpeed",
+					Operation: 0,
+					Name: "generic.attackSpeed"
+				}]
+			}
+		}
+	}]
+}

@@ -1,0 +1,42 @@
+{
+	title: "Radiants Faction",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "contenttweaker:extra2_radianttemple"
+	},
+	x: 16.0d,
+	y: 2.5d,
+	description: "''The Strongest elemental wizardry out there. Creating and nurturing life''",
+	text: [
+		"Every purchase you will receive one random reward from the following entities.",
+		"",
+		"- ''Brilliant Protector''",
+		"- ''Brilliant Savior''",
+		"- ''Radiaknight''",
+		"- ''Golden Fish''",
+		"- ''Bringer of Vitality''"
+	],
+	dependencies: [
+		"d18b7edb",
+		"f6f9b103"
+	],
+	hide: true,
+	tasks: [{
+		uid: "f2d150fb",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "camscurrency:aureus"
+		}],
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "7b9795c1",
+		type: "loot",
+		table: 63
+	}]
+}

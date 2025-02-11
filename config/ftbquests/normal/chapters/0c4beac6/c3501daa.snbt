@@ -1,0 +1,35 @@
+{
+	title: "Extra Utilities Tier I Reward",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "extrautils2:ingredients",
+		Damage: 6s
+	},
+	x: -8.0d,
+	y: 3.5d,
+	can_repeat: true,
+	dependencies: [
+		"2eca35c7",
+		"b651f7ac"
+	],
+	hide: true,
+	optional: true,
+	tasks: [{
+		uid: "414c83b3",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "camscurrency:denarius"
+		}],
+		count: 8L
+	}],
+	rewards: [{
+		uid: "8500f3b1",
+		type: "loot",
+		table: 17
+	}]
+}

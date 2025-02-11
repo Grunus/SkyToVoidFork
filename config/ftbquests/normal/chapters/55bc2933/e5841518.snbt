@@ -1,0 +1,156 @@
+{
+	title: "Lowest Point",
+	x: 5.0d,
+	y: -5.0d,
+	shape: "octagon",
+	description: "Stealth Mission",
+	text: [
+		"It is here that a strange voidling controls the darkest areas of the black void.",
+		"",
+		"",
+		"-----------------------------",
+		"Recommended to not bring breakable armor until bossfight.",
+		"Recommended Armor Value: 20+",
+		"Bow Needed",
+		"Boss Respawn Time: 10 Minutes"
+	],
+	dependencies: [
+		"cd740e59"
+	],
+	hide: true,
+	size: 2.5d,
+	tasks: [{
+		uid: "6d23eea3",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "industrialforegoing:black_hole_label",
+			tag: {
+				ench: [{
+					lvl: 1s,
+					id: 10s
+				}],
+				display: {
+					Lore: [
+						"It may be gone...",
+						"But the Void...",
+						"It can never be defeated..."
+					],
+					Name: "Champion of the Void"
+				}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "ef94b258",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "tconstruct:bolt",
+			tag: {
+				StatsOriginal: {
+					AttackSpeedMultiplier: 1.0f,
+					Accuracy: 0.5f,
+					MiningSpeed: 6.0f,
+					FreeModifiers: 3,
+					Durability: 232,
+					HarvestLevel: 2,
+					Attack: 4.0f
+				},
+				Unbreakable: 1b,
+				display: {
+					Name: "Iron Giant Nerf"
+				},
+				Stats: {
+					AttackSpeedMultiplier: 1.0f,
+					Accuracy: 0.5f,
+					MiningSpeed: 6.5f,
+					FreeModifiers: 0,
+					Durability: 848,
+					HarvestLevel: 3,
+					Attack: 15.552394f
+				},
+				Special: {
+					Categories: [
+						"tool",
+						"no_melee",
+						"projectile"
+					]
+				},
+				TinkerData: {
+					UsedModifiers: 13,
+					Materials: [
+						"ice",
+						"iron",
+						"leaf"
+					],
+					Modifiers: [
+						"creative",
+						"sharpness",
+						"fins",
+						"diamond",
+						"emerald",
+						"reinforced"
+					]
+				},
+				Modifiers: [{
+					identifier: "freezing",
+					color: -6826016,
+					level: 1
+				},
+				{
+					identifier: "magnetic",
+					color: -3487030,
+					level: 2,
+					magnetic2: 1b
+				},
+				{
+					identifier: "creative",
+					color: 0,
+					level: 10
+				},
+				{
+					identifier: "sharpness",
+					current: 360,
+					color: 16774902,
+					level: 5,
+					max: 360,
+					extraInfo: "359 / 360"
+				},
+				{
+					identifier: "fins",
+					color: 11259375,
+					level: 1
+				},
+				{
+					identifier: "diamond",
+					color: 9237730
+				},
+				{
+					identifier: "emerald",
+					color: 4322180
+				},
+				{
+					identifier: "reinforced",
+					color: 5254787,
+					level: 5
+				}],
+				Traits: [
+					"freezing",
+					"magnetic2",
+					"fins",
+					"reinforced"
+				]
+			}
+		}
+	},
+	{
+		uid: "7acd9646",
+		type: "ftbmoney:money",
+		ftb_money: 750L
+	}]
+}

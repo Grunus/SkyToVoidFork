@@ -1,0 +1,42 @@
+{
+	title: "Consuming Quests",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "harvestcraft:starfruititem"
+	},
+	x: -0.5d,
+	y: 4.0d,
+	shape: "diamond",
+	text: [
+		"For quests that needs an item to be consumed, click on the item of that quest and press \"submit\"."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"56904fde",
+		"01437c64"
+	],
+	hide: true,
+	tasks: [{
+		uid: "f39a88e3",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:stick"
+		}],
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "4b35d0ab",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:iron_ingot"
+		}
+	}]
+}

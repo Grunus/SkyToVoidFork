@@ -1,0 +1,2223 @@
+{
+	title: "The Kingdom",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "extrautils2:klein"
+	},
+	loot_size: 1,
+	hide_tooltip: true,
+	use_title: true,
+	rewards: [{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ebwizardry:scroll",
+			Damage: 171s
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:splash_potion",
+			tag: {
+				Potion: "potioncore:long_slow_fall"
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "tconstruct:crossbow",
+			tag: {
+				StatsOriginal: {
+					AttackSpeedMultiplier: 1.0f,
+					MiningSpeed: 0.51f,
+					DrawSpeed: 1.5f,
+					FreeModifiers: 3,
+					ProjectileBonusDamage: -3.0f,
+					Durability: 3,
+					HarvestLevel: 0,
+					Attack: 0.05f,
+					Range: 0.4f
+				},
+				display: {
+					Name: "Rapid Intent"
+				},
+				ResetFlag: 0b,
+				Stats: {
+					AttackSpeedMultiplier: 1.0f,
+					MiningSpeed: 0.51f,
+					DrawSpeed: 2.25f,
+					FreeModifiers: 2,
+					ProjectileBonusDamage: -3.0f,
+					Durability: 3,
+					HarvestLevel: 0,
+					Attack: 12.897717f,
+					Range: 0.4f
+				},
+				Special: {
+					Categories: [
+						"tool",
+						"launcher"
+					]
+				},
+				TinkerData: {
+					UsedModifiers: 10,
+					Materials: [
+						"netherrack",
+						"paper",
+						"knightslime",
+						"rubber"
+					],
+					Modifiers: [
+						"haste",
+						"creative",
+						"sharpness"
+					]
+				},
+				Modifiers: [{
+					identifier: "hellish",
+					color: -4698289,
+					level: 1
+				},
+				{
+					identifier: "writable",
+					color: -1,
+					level: 2,
+					writable2: 1b,
+					writable1: 1b
+				},
+				{
+					identifier: "unnatural",
+					color: -946192,
+					level: 1
+				},
+				{
+					identifier: "sling",
+					color: -10727601,
+					level: 1
+				},
+				{
+					identifier: "haste",
+					current: 250,
+					color: 9502720,
+					level: 5,
+					max: 250,
+					extraInfo: "249 / 250"
+				},
+				{
+					identifier: "creative",
+					color: 0,
+					level: 7
+				},
+				{
+					identifier: "sharpness",
+					current: 360,
+					color: 16774902,
+					level: 5,
+					max: 360,
+					extraInfo: "359 / 360"
+				}],
+				Traits: [
+					"hellish",
+					"writable1",
+					"writable2",
+					"unnatural",
+					"sling"
+				],
+				Loaded: 0b
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "totaltinkers:battleaxe",
+			tag: {
+				StatsOriginal: {
+					AttackSpeedMultiplier: 1.0f,
+					MiningSpeed: 6.0550003f,
+					FreeModifiers: 3,
+					Durability: 754,
+					HarvestLevel: 4,
+					Attack: 6.61f
+				},
+				display: {
+					Name: "Born to Battle"
+				},
+				Stats: {
+					AttackSpeedMultiplier: 1.0f,
+					MiningSpeed: 6.0550003f,
+					FreeModifiers: 0,
+					Durability: 1131,
+					HarvestLevel: 4,
+					Attack: 9.068251f
+				},
+				Special: {
+					Categories: [
+						"tool",
+						"aoe",
+						"weapon"
+					]
+				},
+				TinkerData: {
+					UsedModifiers: 4,
+					Materials: [
+						"shadow_iron",
+						"manyullyn",
+						"bone",
+						"manyullyn"
+					],
+					Modifiers: [
+						"sharpness",
+						"fiery",
+						"creative",
+						"emerald"
+					]
+				},
+				Modifiers: [{
+					identifier: "obscure_trait",
+					color: -12108480,
+					level: 1
+				},
+				{
+					identifier: "insatiable",
+					color: -6202120,
+					level: 1
+				},
+				{
+					identifier: "splintering",
+					color: -1186113,
+					level: 1
+				},
+				{
+					identifier: "coldblooded",
+					color: -6202120,
+					level: 1
+				},
+				{
+					identifier: "sharpness",
+					current: 72,
+					color: 16774902,
+					level: 1,
+					max: 72,
+					extraInfo: "71 / 72"
+				},
+				{
+					identifier: "fiery",
+					current: 50,
+					color: 15375922,
+					level: 2,
+					max: 50,
+					extraInfo: "49 / 50"
+				},
+				{
+					identifier: "creative",
+					color: 0,
+					level: 1
+				},
+				{
+					identifier: "emerald",
+					color: 4322180
+				}],
+				Traits: [
+					"obscure_trait",
+					"insatiable",
+					"splintering",
+					"coldblooded",
+					"fiery"
+				]
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				Parent: {
+					Memory: [],
+					Battery: 0,
+					Time: 0
+				},
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "psi:cad",
+			tag: {
+				componentCORE: {
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": {}
+					},
+					id: "psi:cad_core",
+					Count: 1b,
+					Damage: 3s
+				},
+				componentASSEMBLY: {
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": {}
+					},
+					id: "psi:cad_assembly",
+					Count: 1b,
+					Damage: 4s
+				},
+				componentSOCKET: {
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": {}
+					},
+					id: "psi:cad_socket",
+					Count: 1b,
+					Damage: 3s
+				},
+				componentBATTERY: {
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": {}
+					},
+					id: "psi:cad_battery",
+					Count: 1b,
+					Damage: 2s
+				}
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "inventorypets:april_fool_pet"
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "tconstruct:scythe",
+			tag: {
+				StatsOriginal: {
+					AttackSpeedMultiplier: 1.0f,
+					MiningSpeed: 5.24f,
+					FreeModifiers: 3,
+					Durability: 3979,
+					HarvestLevel: 4,
+					Attack: 11.04f
+				},
+				display: {
+					Name: "Impurity Defector"
+				},
+				Stats: {
+					AttackSpeedMultiplier: 1.0f,
+					MiningSpeed: 5.24f,
+					FreeModifiers: 1,
+					Durability: 3979,
+					HarvestLevel: 4,
+					Attack: 18.709349f
+				},
+				Special: {
+					Categories: [
+						"aoe",
+						"tool",
+						"weapon",
+						"harvest"
+					]
+				},
+				TinkerData: {
+					UsedModifiers: 10,
+					Materials: [
+						"vyroxeres",
+						"refinedobsidian",
+						"midasium",
+						"vyroxeres"
+					],
+					Modifiers: [
+						"sharpness",
+						"creative",
+						"fiery",
+						"mending_moss"
+					]
+				},
+				Modifiers: [{
+					identifier: "poisonous",
+					color: -13893888,
+					level: 1
+				},
+				{
+					identifier: "duritos",
+					color: -9230744,
+					level: 1
+				},
+				{
+					identifier: "darkness",
+					color: -9230744,
+					level: 1
+				},
+				{
+					identifier: "writable",
+					color: -2783702,
+					level: 1,
+					writable2: 1b
+				},
+				{
+					identifier: "duplication_trait",
+					color: -2783702,
+					level: 1
+				},
+				{
+					identifier: "sharpness",
+					current: 360,
+					color: 16774902,
+					level: 5,
+					max: 360,
+					extraInfo: "359 / 360"
+				},
+				{
+					identifier: "creative",
+					color: 0,
+					level: 7
+				},
+				{
+					identifier: "fiery",
+					current: 100,
+					color: 15375922,
+					level: 4,
+					max: 100,
+					extraInfo: "99 / 100"
+				},
+				{
+					identifier: "mending_moss",
+					color: 4434738,
+					level: 1
+				}],
+				Traits: [
+					"poisonous",
+					"duritos",
+					"darkness",
+					"writable2",
+					"duplication_trait",
+					"fiery",
+					"mending_moss"
+				]
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "netherite:netherite_ingot",
+			tag: {
+				display: {
+					Lore: [
+						"All I do is lose my form."
+					],
+					Name: "Warping Ingot"
+				},
+				AttributeModifiers: [{
+					UUIDMost: 8489314272506037665L,
+					UUIDLeast: -6430519600595923267L,
+					Amount: 0.1d,
+					Slot: "offhand",
+					AttributeName: "generic.attackDamage",
+					Operation: 1,
+					Name: "generic.attackDamage"
+				},
+				{
+					UUIDMost: 1252655522655847339L,
+					UUIDLeast: -7787320768468635361L,
+					Amount: 0.1d,
+					Slot: "offhand",
+					AttributeName: "generic.armor",
+					Operation: 1,
+					Name: "generic.armor"
+				},
+				{
+					UUIDMost: -2463699053974698641L,
+					UUIDLeast: -7460865179221242061L,
+					Amount: 0.1d,
+					Slot: "offhand",
+					AttributeName: "generic.maxHealth",
+					Operation: 1,
+					Name: "generic.maxHealth"
+				},
+				{
+					UUIDMost: 5723012414788816435L,
+					UUIDLeast: -5918452716789258264L,
+					Amount: 0.1d,
+					Slot: "offhand",
+					AttributeName: "generic.movementSpeed",
+					Operation: 1,
+					Name: "generic.movementSpeed"
+				}]
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "metallurgy:vulcanite_chestplate",
+			tag: {
+				ench: [{
+					lvl: 50s,
+					id: 0s
+				}],
+				display: {
+					Lore: [
+						"Go nowhere baby!"
+					],
+					Name: "Tank Module"
+				},
+				AttributeModifiers: [{
+					UUIDMost: 6932098745422401327L,
+					UUIDLeast: -6454261363487178279L,
+					Amount: -5000.0d,
+					Slot: "chest",
+					AttributeName: "generic.attackDamage",
+					Operation: 0,
+					Name: "generic.attackDamage"
+				},
+				{
+					UUIDMost: -7333625872295575456L,
+					UUIDLeast: -6325258537462819396L,
+					Amount: -5000.0d,
+					Slot: "chest",
+					AttributeName: "generic.attackSpeed",
+					Operation: 0,
+					Name: "generic.attackSpeed"
+				},
+				{
+					UUIDMost: -6972338111383059132L,
+					UUIDLeast: -8978659762232839026L,
+					Amount: 7000.0d,
+					Slot: "chest",
+					AttributeName: "generic.armor",
+					Operation: 0,
+					Name: "generic.armor"
+				},
+				{
+					UUIDMost: -6972338111383059132L,
+					UUIDLeast: -8978659762232839026L,
+					Amount: 4.0d,
+					Slot: "chest",
+					AttributeName: "generic.armorToughness",
+					Operation: 0,
+					Name: "generic.armorToughness"
+				},
+				{
+					UUIDMost: -9116802019152478112L,
+					UUIDLeast: -6044938102539651535L,
+					Amount: -5000.0d,
+					Slot: "chest",
+					AttributeName: "generic.movementSpeed",
+					Operation: 0,
+					Name: "generic.movementSpeed"
+				},
+				{
+					UUIDMost: -4891080321621736255L,
+					UUIDLeast: -5896397655288453092L,
+					Amount: 1000.0d,
+					Slot: "chest",
+					AttributeName: "generic.knockbackResistance",
+					Operation: 0,
+					Name: "generic.knockbackResistance"
+				},
+				{
+					UUIDMost: 2762081515231923040L,
+					UUIDLeast: -7619005705423929742L,
+					Amount: -1.0d,
+					Slot: "chest",
+					AttributeName: "generic.reachDistance",
+					Operation: 0,
+					Name: "generic.reachDistance"
+				}]
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "totaltinkers:cutlass",
+			tag: {
+				StatsOriginal: {
+					AttackSpeedMultiplier: 1.0f,
+					MiningSpeed: 8.31f,
+					FreeModifiers: 3,
+					Durability: 1212,
+					HarvestLevel: 4,
+					Attack: 11.19f
+				},
+				display: {
+					Name: "The Intermission"
+				},
+				Stats: {
+					AttackSpeedMultiplier: 1.0f,
+					MiningSpeed: 8.31f,
+					FreeModifiers: 0,
+					Durability: 1212,
+					HarvestLevel: 4,
+					Attack: 14.386754f
+				},
+				Special: {
+					Categories: [
+						"tool",
+						"weapon"
+					]
+				},
+				TinkerData: {
+					UsedModifiers: 5,
+					Materials: [
+						"manyullyn",
+						"enderium",
+						"advancedalloy"
+					],
+					Modifiers: [
+						"sharpness",
+						"creative",
+						"webbed",
+						"knockback"
+					]
+				},
+				Modifiers: [{
+					identifier: "coldblooded",
+					color: -6202120,
+					level: 1
+				},
+				{
+					identifier: "endermagnetic",
+					color: -16748959,
+					level: 1
+				},
+				{
+					identifier: "sharpness",
+					current: 144,
+					color: 16774902,
+					level: 2,
+					max: 144,
+					extraInfo: "143 / 144"
+				},
+				{
+					identifier: "creative",
+					color: 0,
+					level: 2
+				},
+				{
+					identifier: "webbed",
+					color: 16777215,
+					level: 2
+				},
+				{
+					identifier: "knockback",
+					current: 10,
+					color: 10461087,
+					level: 1,
+					max: 10,
+					extraInfo: "9 / 10"
+				}],
+				Traits: [
+					"coldblooded",
+					"endermagnetic",
+					"webbed",
+					"knockback"
+				]
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "tconstruct:arrow",
+			tag: {
+				StatsOriginal: {
+					AttackSpeedMultiplier: 1.0f,
+					Accuracy: 0.5f,
+					MiningSpeed: 6.0f,
+					FreeModifiers: 3,
+					Durability: 185,
+					HarvestLevel: 3,
+					Attack: 9.0f
+				},
+				display: {
+					Name: "Arrows from the Horns of a Beast"
+				},
+				Stats: {
+					AttackSpeedMultiplier: 1.0f,
+					Accuracy: 0.5f,
+					MiningSpeed: 6.5f,
+					FreeModifiers: 0,
+					Durability: 777,
+					HarvestLevel: 3,
+					Attack: 10.0f
+				},
+				Special: {
+					Categories: [
+						"projectile",
+						"no_melee",
+						"tool"
+					]
+				},
+				TinkerData: {
+					UsedModifiers: 6,
+					Materials: [
+						"bone",
+						"shadow_steel",
+						"leaf"
+					],
+					Modifiers: [
+						"luck",
+						"diamond",
+						"emerald",
+						"creative",
+						"bane_of_arthopods"
+					]
+				},
+				Modifiers: [{
+					identifier: "splitting",
+					color: -1186113,
+					level: 1
+				},
+				{
+					identifier: "luck",
+					current: 60,
+					color: 2970082,
+					level: 1,
+					max: 60,
+					modifierUsed: 1b,
+					extraInfo: "59 / 60"
+				},
+				{
+					identifier: "diamond",
+					color: 9237730
+				},
+				{
+					identifier: "emerald",
+					color: 4322180
+				},
+				{
+					identifier: "creative",
+					color: 0,
+					level: 3
+				},
+				{
+					identifier: "bane_of_arthopods",
+					current: 72,
+					color: 6404681,
+					level: 3,
+					max: 72,
+					extraInfo: "71 / 72"
+				}],
+				Traits: [
+					"splitting",
+					"luck",
+					"bane_of_arthopods"
+				]
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "totaltinkers:javelin",
+			tag: {
+				StatsOriginal: {
+					AttackSpeedMultiplier: 1.0f,
+					Accuracy: 1.0f,
+					MiningSpeed: 16.0f,
+					FreeModifiers: 3,
+					Durability: 282,
+					HarvestLevel: 8,
+					Attack: 10.0f
+				},
+				display: {
+					Name: "The Pricker"
+				},
+				Stats: {
+					AttackSpeedMultiplier: 1.0f,
+					Accuracy: 1.0f,
+					MiningSpeed: 16.0f,
+					FreeModifiers: 0,
+					Durability: 423,
+					HarvestLevel: 8,
+					Attack: 14.850354f
+				},
+				Special: {
+					Categories: [
+						"weapon",
+						"projectile",
+						"tool"
+					]
+				},
+				TinkerData: {
+					UsedModifiers: 5,
+					Materials: [
+						"cactus",
+						"tartarite",
+						"cactus"
+					],
+					Modifiers: [
+						"sharpness",
+						"creative",
+						"emerald",
+						"knockback"
+					]
+				},
+				Modifiers: [{
+					identifier: "spiky",
+					color: -16735985,
+					level: 1
+				},
+				{
+					identifier: "wither_trait",
+					color: -3503566,
+					level: 1
+				},
+				{
+					identifier: "sharpness",
+					current: 216,
+					color: 16774902,
+					level: 3,
+					max: 216,
+					extraInfo: "215 / 216"
+				},
+				{
+					identifier: "creative",
+					color: 0,
+					level: 2
+				},
+				{
+					identifier: "emerald",
+					color: 4322180
+				},
+				{
+					identifier: "knockback",
+					current: 10,
+					color: 10461087,
+					level: 1,
+					max: 10,
+					extraInfo: "9 / 10"
+				}],
+				Traits: [
+					"spiky",
+					"wither_trait",
+					"knockback"
+				]
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "totaltinkers:greatblade",
+			tag: {
+				StatsOriginal: {
+					AttackSpeedMultiplier: 1.0f,
+					MiningSpeed: 8.62f,
+					FreeModifiers: 3,
+					Durability: 833,
+					HarvestLevel: 4,
+					Attack: 14.085f
+				},
+				display: {
+					Lore: [
+						"Slay them all."
+					],
+					Name: "The Crucible"
+				},
+				Stats: {
+					AttackSpeedMultiplier: 1.0f,
+					MiningSpeed: 8.62f,
+					FreeModifiers: 1,
+					Durability: 833,
+					HarvestLevel: 4,
+					Attack: 18.512573f
+				},
+				Special: {
+					Categories: [
+						"tool",
+						"weapon"
+					]
+				},
+				TinkerData: {
+					UsedModifiers: 5,
+					Materials: [
+						"stone",
+						"redmatter",
+						"xu_demonic_metal",
+						"ma.supremium",
+						"obsidian"
+					],
+					Modifiers: [
+						"sharpness",
+						"creative",
+						"fiery"
+					]
+				},
+				Modifiers: [{
+					identifier: "cheap",
+					color: -6710887,
+					level: 1
+				},
+				{
+					identifier: "weee",
+					color: -1900544,
+					level: 1
+				},
+				{
+					identifier: "xu_whispering",
+					color: -6079744,
+					level: 1
+				},
+				{
+					identifier: "prosperous",
+					color: -3932160,
+					level: 1
+				},
+				{
+					identifier: "duritos",
+					color: -10478396,
+					level: 1
+				},
+				{
+					identifier: "sharpness",
+					current: 216,
+					color: 16774902,
+					level: 3,
+					max: 216,
+					extraInfo: "215 / 216"
+				},
+				{
+					identifier: "creative",
+					color: 0,
+					level: 3
+				},
+				{
+					identifier: "fiery",
+					current: 50,
+					color: 15375922,
+					level: 2,
+					max: 50,
+					extraInfo: "49 / 50"
+				}],
+				Traits: [
+					"cheap",
+					"weee",
+					"xu_whispering",
+					"prosperous",
+					"duritos",
+					"fiery"
+				]
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "psi:psimetal_axe",
+			tag: {
+				ench: [{
+					lvl: 3s,
+					id: 79s
+				},
+				{
+					lvl: 2s,
+					id: 20s
+				},
+				{
+					lvl: 1s,
+					id: 70s
+				}],
+				display: {
+					Name: "Lightbeam Axe"
+				},
+				AttributeModifiers: [{
+					UUIDMost: -3801225194067177672L,
+					UUIDLeast: -6586624321849018929L,
+					Amount: 8.0d,
+					Slot: "mainhand",
+					AttributeName: "generic.attackDamage",
+					Operation: 0,
+					Name: "generic.attackDamage"
+				},
+				{
+					UUIDMost: -422425648963762075L,
+					UUIDLeast: -5756800103171642205L,
+					Amount: -2.0d,
+					Slot: "mainhand",
+					AttributeName: "generic.attackSpeed",
+					Operation: 0,
+					Name: "generic.attackSpeed"
+				},
+				{
+					UUIDMost: -5657891484341746595L,
+					UUIDLeast: -9012456152954247269L,
+					Amount: -0.2d,
+					Slot: "mainhand",
+					AttributeName: "generic.armor",
+					Operation: 1,
+					Name: "generic.armor"
+				}]
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "totaltinkers:scimitar",
+			tag: {
+				StatsOriginal: {
+					AttackSpeedMultiplier: 1.0f,
+					MiningSpeed: 7.0f,
+					FreeModifiers: 3,
+					Durability: 925,
+					HarvestLevel: 3,
+					Attack: 7.0f
+				},
+				display: {
+					Name: "Zen Automaton"
+				},
+				Stats: {
+					AttackSpeedMultiplier: 1.28f,
+					MiningSpeed: 7.0f,
+					FreeModifiers: 1,
+					Durability: 925,
+					HarvestLevel: 3,
+					Attack: 16.043472f
+				},
+				Special: {
+					Categories: [
+						"weapon",
+						"tool"
+					]
+				},
+				TinkerData: {
+					UsedModifiers: 10,
+					Materials: [
+						"ardite",
+						"steel",
+						"electrical_steel"
+					],
+					Modifiers: [
+						"fiery",
+						"smite",
+						"creative",
+						"shulking",
+						"sharpness",
+						"haste"
+					]
+				},
+				Modifiers: [{
+					identifier: "petramor",
+					color: -3063280,
+					level: 1
+				},
+				{
+					identifier: "sharp",
+					color: -5789785,
+					level: 1
+				},
+				{
+					identifier: "lightweight",
+					color: -5658199,
+					level: 1
+				},
+				{
+					identifier: "fiery",
+					current: 25,
+					color: 15375922,
+					level: 1,
+					max: 25,
+					extraInfo: "24 / 25"
+				},
+				{
+					identifier: "smite",
+					current: 48,
+					color: 15258880,
+					level: 2,
+					max: 48,
+					extraInfo: "47 / 48"
+				},
+				{
+					identifier: "creative",
+					color: 0,
+					level: 8
+				},
+				{
+					identifier: "shulking",
+					current: 50,
+					color: 11193599,
+					level: 1,
+					max: 50,
+					extraInfo: "49 / 50"
+				},
+				{
+					identifier: "sharpness",
+					current: 360,
+					color: 16774902,
+					level: 5,
+					max: 360,
+					extraInfo: "359 / 360"
+				},
+				{
+					identifier: "haste",
+					current: 45,
+					color: 9502720,
+					level: 1,
+					max: 50,
+					extraInfo: "44 / 50"
+				}],
+				Traits: [
+					"petramor",
+					"sharp",
+					"lightweight",
+					"fiery",
+					"smite",
+					"shulking"
+				],
+				AttributeModifiers: [{
+					UUIDMost: -3801225194067177672L,
+					UUIDLeast: -6586624321849018929L,
+					Amount: 7.219562530517578d,
+					Slot: "mainhand",
+					AttributeName: "generic.attackDamage",
+					Operation: 0,
+					Name: "generic.attackDamage"
+				},
+				{
+					UUIDMost: -422425648963762075L,
+					UUIDLeast: -5756800103171642205L,
+					Amount: -1.8240001201629639d,
+					Slot: "mainhand",
+					AttributeName: "generic.attackSpeed",
+					Operation: 0,
+					Name: "generic.attackSpeed"
+				},
+				{
+					UUIDMost: -2679502809233731929L,
+					UUIDLeast: -7181935858630000310L,
+					Amount: 4.0d,
+					Slot: "mainhand",
+					AttributeName: "generic.armor",
+					Operation: 0,
+					Name: "generic.armor"
+				},
+				{
+					UUIDMost: -4187277064236481214L,
+					UUIDLeast: -5387819621008543810L,
+					Amount: 1.0d,
+					Slot: "mainhand",
+					AttributeName: "generic.reachDistance",
+					Operation: 0,
+					Name: "generic.reachDistance"
+				}]
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "totaltinkers:explosive_bow",
+			tag: {
+				StatsOriginal: {
+					AttackSpeedMultiplier: 1.0f,
+					MiningSpeed: 8.045f,
+					DrawSpeed: 1.3973577f,
+					FreeModifiers: 3,
+					ProjectileBonusDamage: 6.1666665f,
+					Durability: 945,
+					HarvestLevel: 7,
+					Attack: 5.115f,
+					Range: 0.84333336f
+				},
+				display: {
+					Name: "NO FUTURE"
+				},
+				ResetFlag: 1b,
+				Stats: {
+					AttackSpeedMultiplier: 1.3840001f,
+					MiningSpeed: 8.045f,
+					DrawSpeed: 1.6656504f,
+					FreeModifiers: 1,
+					ProjectileBonusDamage: 6.1666665f,
+					Durability: 945,
+					HarvestLevel: 7,
+					Attack: 10.119768f,
+					Range: 0.84333336f
+				},
+				Special: {
+					Categories: [
+						"launcher",
+						"weapon",
+						"tool"
+					]
+				},
+				TinkerData: {
+					UsedModifiers: 4,
+					Materials: [
+						"blutonium",
+						"eximite",
+						"ma.intermedium",
+						"slimevine_blue"
+					],
+					Modifiers: [
+						"sharpness",
+						"haste",
+						"creative"
+					]
+				},
+				Modifiers: [{
+					identifier: "radioactive",
+					color: -14083900,
+					level: 3,
+					radioactive3: 1b
+				},
+				{
+					identifier: "enderference",
+					color: -10600047,
+					level: 1
+				},
+				{
+					identifier: "prosperous",
+					color: -4765440,
+					level: 1
+				},
+				{
+					identifier: "sharpness",
+					current: 144,
+					color: 16774902,
+					level: 2,
+					max: 144,
+					extraInfo: "143 / 144"
+				},
+				{
+					identifier: "haste",
+					current: 96,
+					color: 9502720,
+					level: 2,
+					max: 100,
+					extraInfo: "95 / 100"
+				},
+				{
+					identifier: "creative",
+					color: 0,
+					level: 2
+				}],
+				Traits: [
+					"radioactive3",
+					"enderference",
+					"prosperous"
+				]
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "metallurgy:etherium_chestplate",
+			tag: {
+				ench: [{
+					lvl: 1s,
+					id: 71s
+				},
+				{
+					lvl: 3s,
+					id: 4s
+				},
+				{
+					lvl: 5s,
+					id: 7s
+				}],
+				RepairCost: 1,
+				display: {
+					Lore: [
+						"Go for miles baby!"
+					],
+					Name: "Bullet Module"
+				},
+				AttributeModifiers: [{
+					UUIDMost: -7512832761984630729L,
+					UUIDLeast: -8294531714118131498L,
+					Amount: -5000.0d,
+					Slot: "chest",
+					AttributeName: "generic.attackDamage",
+					Operation: 0,
+					Name: "generic.attackDamage"
+				},
+				{
+					UUIDMost: 2730196379949944230L,
+					UUIDLeast: -7963895656309663546L,
+					Amount: -5000.0d,
+					Slot: "chest",
+					AttributeName: "generic.attackSpeed",
+					Operation: 0,
+					Name: "generic.attackSpeed"
+				},
+				{
+					UUIDMost: -6972338111383059132L,
+					UUIDLeast: -8978659762232839026L,
+					Amount: 6.0d,
+					Slot: "chest",
+					AttributeName: "generic.armor",
+					Operation: 0,
+					Name: "generic.armor"
+				},
+				{
+					UUIDMost: -9116802019152478112L,
+					UUIDLeast: -6044938102539651535L,
+					Amount: 20.0d,
+					Slot: "chest",
+					AttributeName: "generic.movementSpeed",
+					Operation: 1,
+					Name: "generic.movementSpeed"
+				},
+				{
+					UUIDMost: -4891080321621736255L,
+					UUIDLeast: -5896397655288453092L,
+					Amount: -5000.0d,
+					Slot: "chest",
+					AttributeName: "generic.knockbackResistance",
+					Operation: 0,
+					Name: "generic.knockbackResistance"
+				},
+				{
+					UUIDMost: 2313692678334664359L,
+					UUIDLeast: -8168416891035705659L,
+					Amount: -2.0d,
+					Slot: "chest",
+					AttributeName: "generic.reachDistance",
+					Operation: 0,
+					Name: "generic.reachDistance"
+				}]
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "cyclicmagic:sword_ender",
+			tag: {
+				ench: [{
+					lvl: 4s,
+					id: 79s
+				},
+				{
+					lvl: 3s,
+					id: 22s
+				},
+				{
+					lvl: 4s,
+					id: 67s
+				},
+				{
+					lvl: 1s,
+					id: 71s
+				}],
+				display: {
+					Lore: [
+						"Once obliterated from a Time Mine.",
+						"It has unknowingly returned."
+					],
+					Name: "Fractured Blade"
+				},
+				AttributeModifiers: [{
+					UUIDMost: -3801225194067177672L,
+					UUIDLeast: -6586624321849018929L,
+					Amount: 9.0d,
+					Slot: "mainhand",
+					AttributeName: "generic.attackDamage",
+					Operation: 0,
+					Name: "generic.attackDamage"
+				},
+				{
+					UUIDMost: -422425648963762075L,
+					UUIDLeast: -5756800103171642205L,
+					Amount: -2.4000000953674316d,
+					Slot: "mainhand",
+					AttributeName: "generic.attackSpeed",
+					Operation: 0,
+					Name: "generic.attackSpeed"
+				},
+				{
+					UUIDMost: 5953797954548941041L,
+					UUIDLeast: -7055697118160008328L,
+					Amount: 2.0d,
+					Slot: "mainhand",
+					AttributeName: "generic.reachDistance",
+					Operation: 0,
+					Name: "generic.reachDistance"
+				}]
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:tipped_arrow",
+			tag: {
+				CustomPotionColor: 9765031,
+				CustomPotionEffects: [{
+					Ambient: 0b,
+					CurativeItems: [{
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": {}
+						},
+						id: "minecraft:milk_bucket",
+						Count: 1b,
+						Damage: 0s
+					}],
+					ShowParticles: 1b,
+					Duration: 9600,
+					Id: 24b,
+					Amplifier: 0b
+				},
+				{
+					Ambient: 0b,
+					CurativeItems: [{
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": {}
+						},
+						id: "minecraft:milk_bucket",
+						Count: 1b,
+						Damage: 0s
+					}],
+					ShowParticles: 1b,
+					Duration: 9600,
+					Id: 60b,
+					Amplifier: 3b
+				},
+				{
+					Ambient: 0b,
+					CurativeItems: [{
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": {}
+						},
+						id: "minecraft:milk_bucket",
+						Count: 1b,
+						Damage: 0s
+					}],
+					ShowParticles: 1b,
+					Duration: 9600,
+					Id: 27b,
+					Amplifier: 1b
+				},
+				{
+					Ambient: 0b,
+					CurativeItems: [{
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": {}
+						},
+						id: "minecraft:milk_bucket",
+						Count: 1b,
+						Damage: 0s
+					}],
+					ShowParticles: 1b,
+					Duration: 9600,
+					Id: 90b,
+					Amplifier: 4b
+				},
+				{
+					Ambient: 0b,
+					CurativeItems: [{
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": {}
+						},
+						id: "minecraft:milk_bucket",
+						Count: 1b,
+						Damage: 0s
+					}],
+					ShowParticles: 1b,
+					Duration: 1,
+					Id: 7b,
+					Amplifier: 2b
+				},
+				{
+					Ambient: 0b,
+					CurativeItems: [{
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": {}
+						},
+						id: "minecraft:milk_bucket",
+						Count: 1b,
+						Damage: 0s
+					}],
+					ShowParticles: 1b,
+					Duration: 1,
+					Id: 80b,
+					Amplifier: 0b
+				},
+				{
+					Ambient: 0b,
+					CurativeItems: [{
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": {}
+						},
+						id: "minecraft:milk_bucket",
+						Count: 1b,
+						Damage: 0s
+					}],
+					ShowParticles: 1b,
+					Duration: 9600,
+					Id: 76b,
+					Amplifier: 0b
+				},
+				{
+					Ambient: 0b,
+					CurativeItems: [{
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": {}
+						},
+						id: "minecraft:milk_bucket",
+						Count: 1b,
+						Damage: 0s
+					}],
+					ShowParticles: 1b,
+					Duration: 9600,
+					Id: 18b,
+					Amplifier: 0b
+				},
+				{
+					Ambient: 0b,
+					CurativeItems: [{
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": {}
+						},
+						id: "minecraft:milk_bucket",
+						Count: 1b,
+						Damage: 0s
+					}],
+					ShowParticles: 1b,
+					Duration: 9600,
+					Id: 20b,
+					Amplifier: 0b
+				}],
+				display: {
+					Name: "Infectious Knowledge"
+				}
+			}
+		},
+		count: 8
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "conarm:chestplate",
+			tag: {
+				StatsOriginal: {
+					Toughness: 0.0f,
+					FreeModifiers: 3,
+					Durability: 1173,
+					Defense: 2.0f
+				},
+				display: {
+					Name: "The Uberglob"
+				},
+				Stats: {
+					Toughness: 0.0f,
+					FreeModifiers: 1,
+					Durability: 1173,
+					Defense: 2.0f
+				},
+				TinkerData: {
+					UsedModifiers: 2,
+					Materials: [
+						"slime",
+						"celenegil",
+						"knightslime"
+					],
+					Modifiers: [
+						"resistant_armor",
+						"travel_slowfall_armor"
+					]
+				},
+				AttributeModifiers: [{
+					UUIDMost: -6972338111383059132L,
+					UUIDLeast: -8978659762232839026L,
+					Amount: 0.4d,
+					Slot: "chest",
+					AttributeName: "generic.armor",
+					Operation: 1,
+					Name: "generic.armor"
+				}],
+				Modifiers: [{
+					identifier: "slimey_green_armor",
+					color: -8206221,
+					level: 1
+				},
+				{
+					identifier: "bouncy_armor",
+					color: -8206221,
+					level: 1
+				},
+				{
+					identifier: "resistance_armor",
+					color: -11544973,
+					level: 1
+				},
+				{
+					identifier: "invigorating_armor",
+					color: -946192,
+					level: 1
+				},
+				{
+					identifier: "resistant_armor",
+					color: 16774902,
+					level: 1,
+					modifierUsed: 1b
+				},
+				{
+					identifier: "travel_slowfall_armor",
+					color: 16046914,
+					level: 1
+				}],
+				Traits: [
+					"slimey_green_armor",
+					"bouncy_armor",
+					"resistance_armor",
+					"invigorating_armor",
+					"resistant_armor",
+					"travel_slowfall_armor"
+				]
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:bucket",
+			tag: {
+				Unbreakable: 1b,
+				display: {
+					Lore: [
+						"Don't worry! As long as you have this bucket,",
+						"everything will be okay."
+					],
+					Name: "Reassurance Bucket"
+				},
+				AttributeModifiers: [{
+					UUIDMost: -2013061932897187557L,
+					UUIDLeast: -8694307596868441696L,
+					Amount: 0.25d,
+					Slot: "offhand",
+					AttributeName: "generic.armor",
+					Operation: 1,
+					Name: "generic.armor"
+				},
+				{
+					UUIDMost: 3131104668875638947L,
+					UUIDLeast: -9022638414812021275L,
+					Amount: 1.0d,
+					Slot: "offhand",
+					AttributeName: "generic.armorToughness",
+					Operation: 0,
+					Name: "generic.armorToughness"
+				},
+				{
+					UUIDMost: -144864979375930431L,
+					UUIDLeast: -5565760396054100748L,
+					Amount: 0.25d,
+					Slot: "offhand",
+					AttributeName: "generic.maxHealth",
+					Operation: 1,
+					Name: "generic.maxHealth"
+				},
+				{
+					UUIDMost: -3985301129492019980L,
+					UUIDLeast: -4790584754699878885L,
+					Amount: 0.5d,
+					Slot: "offhand",
+					AttributeName: "generic.knockbackResistance",
+					Operation: 1,
+					Name: "generic.knockbackResistance"
+				},
+				{
+					UUIDMost: 5934255549026158123L,
+					UUIDLeast: -4911447968865103620L,
+					Amount: -0.3d,
+					Slot: "offhand",
+					AttributeName: "generic.followRange",
+					Operation: 1,
+					Name: "generic.followRange"
+				}]
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ebwizardry:master_ice_wand",
+			tag: {
+				display: {
+					Lore: [
+						"You showed her the power of destruction."
+					],
+					Name: "Char's Mastered Wand"
+				},
+				spells: [I;
+					89,
+					95,
+					150,
+					174,
+					2
+				],
+				upgrades: {
+					blast: 1
+				},
+				AttributeModifiers: [{
+					UUIDMost: 2305322696069304312L,
+					UUIDLeast: -7095249824820521453L,
+					Amount: -0.12d,
+					Slot: "mainhand",
+					AttributeName: "generic.movementSpeed",
+					Operation: 1,
+					Name: "generic.movementSpeed"
+				},
+				{
+					UUIDMost: 1048683910019697354L,
+					UUIDLeast: -5500686763103486570L,
+					Amount: -4.0d,
+					Slot: "mainhand",
+					AttributeName: "generic.reachDistance",
+					Operation: 0,
+					Name: "generic.reachDistance"
+				}]
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thermalinnovation:saw",
+			tag: {
+				ench: [{
+					lvl: 10s,
+					id: 32s
+				}],
+				Energy: 599600,
+				Mode: 1,
+				display: {
+					Lore: [
+						"RIP AND TEAR!"
+					],
+					Name: "Chainsaw"
+				},
+				AttributeModifiers: [{
+					UUIDMost: -3801225194067177672L,
+					UUIDLeast: -6586624321849018929L,
+					Amount: 12.0d,
+					Slot: "mainhand",
+					AttributeName: "generic.attackDamage",
+					Operation: 0,
+					Name: "generic.attackDamage"
+				},
+				{
+					UUIDMost: -422425648963762075L,
+					UUIDLeast: -5756800103171642205L,
+					Amount: -2.0d,
+					Slot: "mainhand",
+					AttributeName: "generic.attackSpeed",
+					Operation: 0,
+					Name: "generic.attackSpeed"
+				},
+				{
+					UUIDMost: -2534608780687356356L,
+					UUIDLeast: -7963295611209464106L,
+					Amount: 3.0d,
+					Slot: "mainhand",
+					AttributeName: "generic.reachDistance",
+					Operation: 0,
+					Name: "generic.reachDistance"
+				}]
+			},
+			Damage: 4s
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "totaltinkers:greatblade",
+			tag: {
+				ench: [{
+					lvl: 3s,
+					id: 21s
+				}],
+				StatsOriginal: {
+					AttackSpeedMultiplier: 1.0f,
+					MiningSpeed: 7.25f,
+					FreeModifiers: 3,
+					Durability: 1685,
+					HarvestLevel: 4,
+					Attack: 9.05f
+				},
+				display: {
+					Lore: [
+						"When everything is in its right place."
+					],
+					Name: "KID B"
+				},
+				Stats: {
+					AttackSpeedMultiplier: 1.0f,
+					MiningSpeed: 7.25f,
+					FreeModifiers: 1,
+					Durability: 1685,
+					HarvestLevel: 4,
+					Attack: 12.601895f
+				},
+				Special: {
+					Categories: [
+						"tool",
+						"weapon"
+					]
+				},
+				TinkerData: {
+					UsedModifiers: 5,
+					Materials: [
+						"ebonypsi",
+						"xu_demonic_metal",
+						"alduorite",
+						"xu_evil_metal",
+						"certus"
+					],
+					Modifiers: [
+						"shulking",
+						"creative",
+						"luck",
+						"soulbound",
+						"mending_moss",
+						"sharpness"
+					]
+				},
+				Modifiers: [{
+					identifier: "psieater",
+					color: -16119286,
+					level: 1
+				},
+				{
+					identifier: "xu_whispering",
+					color: -6079744,
+					level: 1
+				},
+				{
+					identifier: "unnatural",
+					color: -7170882,
+					level: 1
+				},
+				{
+					identifier: "shocking",
+					color: -3349264,
+					level: 1
+				},
+				{
+					identifier: "shulking",
+					current: 50,
+					color: 11193599,
+					level: 1,
+					max: 50,
+					extraInfo: "49 / 50"
+				},
+				{
+					identifier: "creative",
+					color: 0,
+					level: 3
+				},
+				{
+					identifier: "luck",
+					current: 360,
+					color: 2970082,
+					level: 3,
+					max: 360,
+					modifierUsed: 1b,
+					extraInfo: "359 / 360"
+				},
+				{
+					identifier: "soulbound",
+					color: 16120748
+				},
+				{
+					identifier: "mending_moss",
+					color: 4434738,
+					level: 1
+				},
+				{
+					identifier: "sharpness",
+					current: 144,
+					color: 16774902,
+					level: 2,
+					max: 144,
+					extraInfo: "143 / 144"
+				}],
+				Traits: [
+					"psieater",
+					"xu_whispering",
+					"unnatural",
+					"shocking",
+					"shulking",
+					"luck",
+					"mending_moss"
+				],
+				AttributeModifiers: [{
+					UUIDMost: -3801225194067177672L,
+					UUIDLeast: -6586624321849018929L,
+					Amount: 18.34d,
+					Slot: "mainhand",
+					AttributeName: "generic.attackDamage",
+					Operation: 0,
+					Name: "generic.attackDamage"
+				},
+				{
+					UUIDMost: -422425648963762075L,
+					UUIDLeast: -5756800103171642205L,
+					Amount: -3.100000023841858d,
+					Slot: "mainhand",
+					AttributeName: "generic.attackSpeed",
+					Operation: 0,
+					Name: "generic.attackSpeed"
+				},
+				{
+					UUIDMost: -6139067204824446751L,
+					UUIDLeast: -5040098771339377540L,
+					Amount: -2.0d,
+					Slot: "mainhand",
+					AttributeName: "generic.maxHealth",
+					Operation: 0,
+					Name: "generic.maxHealth"
+				}]
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "psi:psimetal_sword",
+			tag: {
+				ench: [{
+					lvl: 3s,
+					id: 16s
+				}],
+				display: {
+					Lore: [
+						"Something crawls within."
+					],
+					Name: "Blade of Extremity"
+				},
+				AttributeModifiers: [{
+					UUIDMost: -3801225194067177672L,
+					UUIDLeast: -6586624321849018929L,
+					Amount: 8.0d,
+					Slot: "mainhand",
+					AttributeName: "generic.attackDamage",
+					Operation: 0,
+					Name: "generic.attackDamage"
+				},
+				{
+					UUIDMost: -422425648963762075L,
+					UUIDLeast: -5756800103171642205L,
+					Amount: -2.4000000953674316d,
+					Slot: "mainhand",
+					AttributeName: "generic.attackSpeed",
+					Operation: 0,
+					Name: "generic.attackSpeed"
+				},
+				{
+					UUIDMost: -2129989027342365745L,
+					UUIDLeast: -6926967665718527331L,
+					Amount: 0.1d,
+					Slot: "mainhand",
+					AttributeName: "generic.armorToughness",
+					Operation: 1,
+					Name: "generic.armorToughness"
+				}]
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "tconstruct:materials",
+			Damage: 19s
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "futuremc:trident",
+			tag: {
+				ench: [{
+					lvl: 1s,
+					id: 105s
+				},
+				{
+					lvl: 3s,
+					id: 106s
+				},
+				{
+					lvl: 4s,
+					id: 107s
+				}],
+				Unbreakable: 1b,
+				display: {
+					Lore: [
+						":MONKAS: :PEPELAUGH: :BATCHEST: :OMGEGALUL: "
+					],
+					Name: ":POGCHAMP:"
+				},
+				AttributeModifiers: [{
+					UUIDMost: -3801225194067177672L,
+					UUIDLeast: -6586624321849018929L,
+					Amount: 12.0d,
+					Slot: "mainhand",
+					AttributeName: "generic.attackDamage",
+					Operation: 0,
+					Name: "generic.attackDamage"
+				},
+				{
+					UUIDMost: -422425648963762075L,
+					UUIDLeast: -5756800103171642205L,
+					Amount: -2.9000000953674316d,
+					Slot: "mainhand",
+					AttributeName: "generic.attackSpeed",
+					Operation: 0,
+					Name: "generic.attackSpeed"
+				}]
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "conarm:helmet",
+			tag: {
+				StatsOriginal: {
+					Toughness: 3.5f,
+					FreeModifiers: 3,
+					Durability: 152,
+					Defense: 17.0f
+				},
+				display: {
+					Name: "Miner's Helmet"
+				},
+				Stats: {
+					Toughness: 5.5f,
+					FreeModifiers: 1,
+					Durability: 302,
+					Defense: 21.0f
+				},
+				TinkerData: {
+					UsedModifiers: 4,
+					Materials: [
+						"platinum",
+						"adamantine",
+						"iron"
+					],
+					Modifiers: [
+						"sticky_armor",
+						"resistant_armor",
+						"diamond_armor",
+						"creative",
+						"shulkerweight_armor"
+					]
+				},
+				Modifiers: [{
+					identifier: "cat_eyes_armor",
+					color: -9333804,
+					level: 1
+				},
+				{
+					identifier: "foodly_armor",
+					color: -6087395,
+					level: 1
+				},
+				{
+					identifier: "magnetic_armor",
+					color: -3487030,
+					level: 1,
+					magnetic1_armor: 1b
+				},
+				{
+					identifier: "sticky_armor",
+					color: 16777215,
+					level: 1
+				},
+				{
+					identifier: "resistant_armor",
+					color: 16774902,
+					level: 1,
+					modifierUsed: 1b
+				},
+				{
+					identifier: "diamond_armor",
+					color: 9237730
+				},
+				{
+					identifier: "creative",
+					color: 0,
+					level: 2
+				},
+				{
+					identifier: "shulkerweight_armor",
+					current: 20,
+					color: 11193599,
+					level: 1,
+					max: 20,
+					extraInfo: "19 / 20"
+				}],
+				Traits: [
+					"cat_eyes_armor",
+					"foodly_armor",
+					"magnetic1_armor",
+					"sticky_armor",
+					"resistant_armor",
+					"shulkerweight_armor"
+				]
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "gachashroom:glowshroombow",
+			tag: {
+				ench: [{
+					lvl: 4s,
+					id: 48s
+				},
+				{
+					lvl: 2s,
+					id: 34s
+				},
+				{
+					lvl: 3s,
+					id: 57s
+				},
+				{
+					lvl: 1s,
+					id: 50s
+				},
+				{
+					lvl: 1s,
+					id: 51s
+				}],
+				display: {
+					Lore: [
+						"How... \"mush\" time is there left?",
+						"Ha heh ha... anyway."
+					],
+					Name: "Bad Puns"
+				}
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "enderio:item_dark_steel_upgrade",
+			tag: {
+				"enderio:dsu": "enderio:anvil2",
+				"enderio:enabled": 1b
+			},
+			Damage: 1s
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ebwizardry:master_wand",
+			tag: {
+				display: {
+					Lore: [
+						"You've shaped him into the perfect",
+						"killing machine."
+					],
+					Name: "Chim's Mastered Wand"
+				},
+				selectedSpell: 0,
+				spells: [I;
+					32,
+					125,
+					159,
+					97,
+					87
+				],
+				upgrades: {
+					cooldown: 1
+				},
+				AttributeModifiers: [{
+					UUIDMost: 8906836329731539872L,
+					UUIDLeast: -5460646623848325429L,
+					Amount: -2.0d,
+					Slot: "mainhand",
+					AttributeName: "generic.armor",
+					Operation: 0,
+					Name: "generic.armor"
+				},
+				{
+					UUIDMost: -4383271807922123692L,
+					UUIDLeast: -6507520729675272410L,
+					Amount: -6.0d,
+					Slot: "mainhand",
+					AttributeName: "generic.maxHealth",
+					Operation: 0,
+					Name: "generic.maxHealth"
+				}]
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ebwizardry:range_upgrade"
+		}
+	}]
+}

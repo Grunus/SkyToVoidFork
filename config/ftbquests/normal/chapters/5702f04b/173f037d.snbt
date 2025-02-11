@@ -1,0 +1,29 @@
+{
+	title: "Scrapping Seeds",
+	x: -12.0d,
+	y: 6.0d,
+	description: "Seed reprocessors scrap seeds for instant essences.",
+	text: [
+		"You can upgrade seed reprocessors to increase the speed of destroying the seeds."
+	],
+	dependencies: [
+		"59b5e6d0"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "bf01a0d5",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "mysticalagriculture:seed_reprocessor"
+		}]
+	}],
+	rewards: [{
+		uid: "9c3f0f26",
+		type: "loot",
+		table: 10
+	}]
+}

@@ -1,0 +1,34 @@
+{
+	title: "Barrels! Stone!",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "exnihilocreatio:block_barrel1"
+	},
+	x: -3.0d,
+	y: 3.0d,
+	description: "Stone Barrels are great for summoning enemies... you might not understand now but you'll see.",
+	text: [
+		""
+	],
+	dependencies: [
+		"426b052b"
+	],
+	hide: true,
+	tasks: [{
+		uid: "0a5f0213",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "exnihilocreatio:block_barrel1"
+		}]
+	}],
+	rewards: [{
+		uid: "4f69a436",
+		type: "loot",
+		table: 0
+	}]
+}

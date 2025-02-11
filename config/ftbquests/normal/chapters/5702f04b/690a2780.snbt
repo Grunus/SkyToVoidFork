@@ -1,0 +1,30 @@
+{
+	title: "I Know What I Have to do But I Don't Know if I Have the Strength to do it",
+	x: 7.0d,
+	y: 8.0d,
+	shape: "square",
+	text: [
+		""
+	],
+	dependencies: [
+		"64dc5cdb"
+	],
+	hide: true,
+	tasks: [{
+		uid: "8b8e00d7",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "excompressum:chicken_stick"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "ec30bdae",
+		type: "loot",
+		table: 3
+	}]
+}

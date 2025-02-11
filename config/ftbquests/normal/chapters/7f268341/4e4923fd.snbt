@@ -1,0 +1,28 @@
+{
+	title: "Recharged",
+	x: -15.5d,
+	y: 4.5d,
+	description: "Putting Certus Quartz into a Charger will charge it.",
+	text: [
+		"(Needs power to run)"
+	],
+	dependencies: [
+		"a09ed600"
+	],
+	hide: true,
+	tasks: [{
+		uid: "3dd08d81",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "appliedenergistics2:charger"
+		}]
+	}],
+	rewards: [{
+		uid: "0ce4891e",
+		type: "loot",
+		table: 14
+	}]
+}

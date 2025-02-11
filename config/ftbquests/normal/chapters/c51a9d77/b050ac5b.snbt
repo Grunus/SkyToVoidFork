@@ -1,0 +1,35 @@
+{
+	title: "Infinite Ender Pearls!",
+	x: 3.0d,
+	y: 10.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"ec0c5b6a"
+	],
+	hide: true,
+	tasks: [{
+		uid: "da29067a",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "cyclicmagic:ender_pearl_mounted"
+		},
+		{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "cyclicmagic:ender_pearl_reuse"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "35cd8720",
+		type: "loot",
+		table: 53
+	}]
+}

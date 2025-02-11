@@ -1,0 +1,584 @@
+{
+	title: "Nether Knights",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "enderio:item_material",
+		Damage: 72s
+	},
+	loot_size: 1,
+	hide_tooltip: true,
+	use_title: true,
+	rewards: [{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ebwizardry:scroll",
+			Damage: 83s
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "harvestcraft:cassouletitem"
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:enchanted_book",
+			tag: {
+				StoredEnchantments: [{
+					lvl: 1s,
+					id: 40s
+				}]
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "mysticalagriculture:crafting",
+			Damage: 38s
+		},
+		count: 12
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:golden_horse_armor"
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:golden_helmet"
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "mysticalagriculture:gold_essence"
+		},
+		count: 8
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thermalfoundation:material",
+			Damage: 2052s
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "extrautils2:decorativesolid",
+			Damage: 7s
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ebwizardry:amulet_wither_immunity"
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "harvestcraft:netherwingsitem"
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "metallurgy:ignatius_dust"
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thermalfoundation:material",
+			Damage: 1024s
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thermalfoundation:material",
+			Damage: 1024s
+		},
+		count: 2
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:blaze_rod"
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "metallurgy:flint_and_vulcanite"
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ebwizardry:spectral_dust",
+			Damage: 4s
+		},
+		count: 4
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "netherite:netherite_scrap"
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:lingering_potion",
+			tag: {
+				Potion: "cofhcore:wither3+"
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:gold_ingot"
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:blaze_powder"
+		},
+		count: 3
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:glowstone_dust"
+		},
+		count: 5
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ebwizardry:ring_fire_melee"
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:nether_wart"
+		},
+		count: 3
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:nether_wart"
+		},
+		count: 5
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thermalfoundation:material",
+			Damage: 894s
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:glowstone_dust"
+		},
+		count: 12
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:quartz"
+		},
+		count: 12
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ebwizardry:spectral_dust",
+			Damage: 4s
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "netherite:netherite_scrap"
+		},
+		count: 2
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "mysticalagriculture:crafting",
+			Damage: 38s
+		},
+		count: 4
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:gold_nugget"
+		},
+		count: 4
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:golden_carrot"
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "mysticalagriculture:gold_essence"
+		},
+		count: 3
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "tconstruct:scythe",
+			tag: {
+				StatsOriginal: {
+					AttackSpeedMultiplier: 1.0f,
+					MiningSpeed: 10.12f,
+					FreeModifiers: 3,
+					Durability: 2358,
+					HarvestLevel: 3,
+					Attack: 6.84f
+				},
+				display: {
+					Lore: [
+						"The Saddest Music in the World"
+					],
+					Name: "Famous Last Words"
+				},
+				Stats: {
+					AttackSpeedMultiplier: 1.0f,
+					MiningSpeed: 10.141f,
+					FreeModifiers: 1,
+					Durability: 2360,
+					HarvestLevel: 3,
+					Attack: 12.832393f
+				},
+				Special: {
+					Categories: [
+						"tool",
+						"weapon",
+						"harvest",
+						"aoe"
+					],
+					alienStatBonus: {
+						identifier: "",
+						color: 0,
+						attack: 0.01f,
+						durability: 2,
+						speed: 0.021000002f
+					},
+					alienStatPool: {
+						identifier: "",
+						color: 16777215,
+						attack: 1.4349989f,
+						durability: 255,
+						speed: 1.8059986f
+					}
+				},
+				TinkerData: {
+					UsedModifiers: 3,
+					Materials: [
+						"deep_iron",
+						"ruby",
+						"xu_evil_metal",
+						"gaia"
+					],
+					Modifiers: [
+						"sharpness",
+						"creative"
+					]
+				},
+				AttributeModifiers: [{
+					UUIDMost: -3801225194067177672L,
+					UUIDLeast: -6586624321849018929L,
+					Amount: 5.133749961853027d,
+					Slot: "mainhand",
+					AttributeName: "generic.attackDamage",
+					Operation: 0,
+					Name: "generic.attackDamage"
+				},
+				{
+					UUIDMost: -422425648963762075L,
+					UUIDLeast: -5756800103171642205L,
+					Amount: -3.100000023841858d,
+					Slot: "mainhand",
+					AttributeName: "generic.attackSpeed",
+					Operation: 0,
+					Name: "generic.attackSpeed"
+				},
+				{
+					UUIDMost: -3443364211816248216L,
+					UUIDLeast: -6820426861996591477L,
+					Amount: 3.0d,
+					Slot: "mainhand",
+					AttributeName: "generic.armor",
+					Operation: 0,
+					Name: "generic.armor"
+				}],
+				Modifiers: [{
+					identifier: "opistognathus_trait",
+					color: -13813425,
+					level: 1
+				},
+				{
+					identifier: "reflect",
+					color: -3211264,
+					level: 1
+				},
+				{
+					identifier: "alien",
+					color: -7252043,
+					level: 1
+				},
+				{
+					identifier: "payback",
+					color: -7252043,
+					level: 1
+				},
+				{
+					identifier: "sharpness",
+					current: 216,
+					color: 16774902,
+					level: 3,
+					max: 216,
+					extraInfo: "215 / 216"
+				},
+				{
+					identifier: "creative",
+					color: 0,
+					level: 1
+				}],
+				Traits: [
+					"opistognathus_trait",
+					"reflect",
+					"alien",
+					"payback"
+				]
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "metallurgy:haderoth_ingot"
+		},
+		count: 12
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "metallurgy:haderoth_ingot"
+		},
+		count: 4
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "netherite:netherite_scrap"
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ebwizardry:charm_hunger_casting"
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "totaltinkers:greatblade",
+			tag: {
+				StatsOriginal: {
+					AttackSpeedMultiplier: 1.0f,
+					MiningSpeed: 5.25f,
+					FreeModifiers: 3,
+					Durability: 602,
+					HarvestLevel: 6,
+					Attack: 10.05f
+				},
+				display: {
+					Name: "Hell's Retriever"
+				},
+				Stats: {
+					AttackSpeedMultiplier: 1.0f,
+					MiningSpeed: 5.75f,
+					FreeModifiers: 1,
+					Durability: 1102,
+					HarvestLevel: 6,
+					Attack: 14.325957f
+				},
+				Special: {
+					Categories: [
+						"weapon",
+						"tool"
+					]
+				},
+				TinkerData: {
+					UsedModifiers: 3,
+					Materials: [
+						"vyroxeres",
+						"xu_demonic_metal",
+						"vulcanite",
+						"xu_evil_metal",
+						"netherrack"
+					],
+					Modifiers: [
+						"sharpness",
+						"soulbound",
+						"diamond",
+						"creative"
+					]
+				},
+				Modifiers: [{
+					identifier: "poisonous",
+					color: -13893888,
+					level: 1
+				},
+				{
+					identifier: "xu_whispering",
+					color: -6079744,
+					level: 1
+				},
+				{
+					identifier: "vulcan_trait",
+					vulcan_trait1: 1b,
+					color: -10217175,
+					level: 1
+				},
+				{
+					identifier: "hellish",
+					color: -4698289,
+					level: 1
+				},
+				{
+					identifier: "sharpness",
+					current: 144,
+					color: 16774902,
+					level: 2,
+					max: 144,
+					extraInfo: "143 / 144"
+				},
+				{
+					identifier: "soulbound",
+					color: 16120748
+				},
+				{
+					identifier: "diamond",
+					color: 9237730
+				},
+				{
+					identifier: "creative",
+					color: 0,
+					level: 1
+				}],
+				Traits: [
+					"poisonous",
+					"xu_whispering",
+					"vulcan_trait1",
+					"hellish"
+				]
+			}
+		}
+	}]
+}

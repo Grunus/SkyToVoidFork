@@ -1,0 +1,34 @@
+{
+	title: "Addons Row",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "industrialforegoing:itemstack_transfer_addon_push"
+	},
+	x: -9.0d,
+	y: 2.5d,
+	description: "''Needs some addons for your industrial machines? Buy this row!''",
+	text: [
+		"Complete these 2 quests in Industiral Foregoing section to unlock all Addon Tier Rewards.",
+		"",
+		"- ''Really Bottomless''",
+		"- ''Infinity Drill''"
+	],
+	dependencies: [
+		"a72d59e9",
+		"0a4a6fec"
+	],
+	hide: true,
+	tasks: [{
+		uid: "ff8cf5bb",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "camscurrency:aureus"
+		}],
+		consume_items: true
+	}]
+}

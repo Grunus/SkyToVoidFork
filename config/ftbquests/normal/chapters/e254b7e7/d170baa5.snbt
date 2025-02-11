@@ -1,0 +1,220 @@
+{
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "tinkers_reforged:gladius",
+		tag: {
+			StatsOriginal: {
+				AttackSpeedMultiplier: 1.0f,
+				MiningSpeed: 12.2f,
+				FreeModifiers: 3,
+				Durability: 1836,
+				HarvestLevel: 4,
+				Attack: 12.7f
+			},
+			display: {
+				Name: "TopOfTheTop!"
+			},
+			Stats: {
+				AttackSpeedMultiplier: 1.0f,
+				MiningSpeed: 12.2f,
+				FreeModifiers: 1,
+				Durability: 1836,
+				HarvestLevel: 4,
+				Attack: 14.269239f
+			},
+			Special: {
+				Categories: [
+					"tool",
+					"weapon"
+				]
+			},
+			TinkerData: {
+				UsedModifiers: 3,
+				Materials: [
+					"ref_lavium",
+					"ref_qivium",
+					"ref_glowstone"
+				],
+				Modifiers: [
+					"sharpness",
+					"shulking",
+					"beheading",
+					"creative"
+				]
+			},
+			Modifiers: [{
+				identifier: "ref_snowball",
+				color: -5905056,
+				level: 1
+			},
+			{
+				identifier: "pyromancy",
+				color: -2583633,
+				level: 1
+			},
+			{
+				identifier: "ref_bright",
+				color: -16021,
+				level: 1
+			},
+			{
+				identifier: "sharpness",
+				current: 72,
+				color: 16774902,
+				level: 1,
+				max: 72,
+				extraInfo: "71 / 72"
+			},
+			{
+				identifier: "shulking",
+				current: 50,
+				color: 11193599,
+				level: 1,
+				max: 50,
+				extraInfo: "49 / 50"
+			},
+			{
+				identifier: "beheading",
+				color: 1070923,
+				level: 1
+			},
+			{
+				identifier: "creative",
+				color: 0,
+				level: 1
+			}],
+			Traits: [
+				"ref_snowball",
+				"pyromancy",
+				"ref_bright",
+				"shulking"
+			]
+		}
+	},
+	x: 4.5d,
+	y: -16.5d,
+	shape: "diamond",
+	description: "Completed all 7 progression quests in this island layer.",
+	dependencies: [
+		"61fed05a",
+		"e31d42e9",
+		"64f41492",
+		"b15e3fc6",
+		"b3c0d3da",
+		"ad34fd99",
+		"0b700bce"
+	],
+	hide: true,
+	size: 1.5d,
+	tasks: [{
+		uid: "38406820",
+		type: "checkmark",
+		title: "Layer 4 Quests Completed",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "contenttweaker:objectives"
+		}
+	}],
+	rewards: [{
+		uid: "eee6a398",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "tinkers_reforged:gladius",
+			tag: {
+				StatsOriginal: {
+					AttackSpeedMultiplier: 1.0f,
+					MiningSpeed: 12.2f,
+					FreeModifiers: 3,
+					Durability: 1836,
+					HarvestLevel: 4,
+					Attack: 12.7f
+				},
+				display: {
+					Name: "TopOfTheTop!"
+				},
+				Stats: {
+					AttackSpeedMultiplier: 1.0f,
+					MiningSpeed: 12.2f,
+					FreeModifiers: 1,
+					Durability: 1836,
+					HarvestLevel: 4,
+					Attack: 14.269239f
+				},
+				Special: {
+					Categories: [
+						"tool",
+						"weapon"
+					]
+				},
+				TinkerData: {
+					UsedModifiers: 3,
+					Materials: [
+						"ref_lavium",
+						"ref_qivium",
+						"ref_glowstone"
+					],
+					Modifiers: [
+						"sharpness",
+						"shulking",
+						"beheading",
+						"creative"
+					]
+				},
+				Modifiers: [{
+					identifier: "ref_snowball",
+					color: -5905056,
+					level: 1
+				},
+				{
+					identifier: "pyromancy",
+					color: -2583633,
+					level: 1
+				},
+				{
+					identifier: "ref_bright",
+					color: -16021,
+					level: 1
+				},
+				{
+					identifier: "sharpness",
+					current: 72,
+					color: 16774902,
+					level: 1,
+					max: 72,
+					extraInfo: "71 / 72"
+				},
+				{
+					identifier: "shulking",
+					current: 50,
+					color: 11193599,
+					level: 1,
+					max: 50,
+					extraInfo: "49 / 50"
+				},
+				{
+					identifier: "beheading",
+					color: 1070923,
+					level: 1
+				},
+				{
+					identifier: "creative",
+					color: 0,
+					level: 1
+				}],
+				Traits: [
+					"ref_snowball",
+					"pyromancy",
+					"ref_bright",
+					"shulking"
+				]
+			}
+		}
+	}]
+}

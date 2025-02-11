@@ -1,0 +1,45 @@
+{
+	title: "Cowarding in Fear",
+	x: 6.5d,
+	y: -18.0d,
+	text: [
+		"Mortal we may have tried to kill you, but you have to see that this is not for the better. Your efforts will ruin everything in the end. Ruin you in the end."
+	],
+	dependencies: [
+		"05faa4f9"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "8b139b2a",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "extrautils2:rainbowgenerator",
+			Damage: 2s
+		}]
+	}],
+	rewards: [{
+		uid: "412320c6",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "camscurrency:denarius"
+		},
+		count: 6
+	},
+	{
+		uid: "5ad1df47",
+		type: "loot",
+		table: 19
+	},
+	{
+		uid: "ca506e53",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

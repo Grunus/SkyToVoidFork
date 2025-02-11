@@ -1,0 +1,37 @@
+{
+	title: "Confinement",
+	x: 18.5d,
+	y: 10.0d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"0d5b0cb0"
+	],
+	hide: true,
+	tasks: [{
+		uid: "2ce5c335",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "industrialforegoing:mob_imprisonment_tool"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "63796a74",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "harvestcraft:mobsoupitem"
+		}
+	},
+	{
+		uid: "2fdbf692",
+		type: "loot",
+		table: 32
+	}]
+}

@@ -1,0 +1,27 @@
+{
+	title: "The Pulse",
+	x: 17.0d,
+	y: -0.5d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"9aceafba"
+	],
+	hide: true,
+	tasks: [{
+		uid: "cfac3710",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "enderio:item_alloy_ingot",
+			Damage: 5s
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "78d388eb",
+		type: "loot",
+		table: 34
+	}]
+}

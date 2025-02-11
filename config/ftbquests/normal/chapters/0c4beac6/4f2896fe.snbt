@@ -1,0 +1,34 @@
+{
+	title: "Addon Tier I Reward",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "industrialforegoing:range_addon"
+	},
+	x: -9.0d,
+	y: 3.5d,
+	can_repeat: true,
+	dependencies: [
+		"8c8abf5b",
+		"eeed15af"
+	],
+	hide: true,
+	optional: true,
+	tasks: [{
+		uid: "29947dc7",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "camscurrency:denarius"
+		}],
+		count: 6L
+	}],
+	rewards: [{
+		uid: "351b2e7d",
+		type: "loot",
+		table: 32
+	}]
+}

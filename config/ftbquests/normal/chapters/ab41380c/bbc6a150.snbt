@@ -1,0 +1,163 @@
+{
+	title: "Chim's Mark",
+	x: -0.5d,
+	y: -8.767857142857139d,
+	shape: "diamond",
+	description: "''Okay, fine. I didn't want to tell you this but I have a Mark of Sin... I wanted you to give up after you've check everywhere, cause they hold no meaning! I want you to see that it's all fake! But- I know you're so... desperately trying to find these symbols so if you give me those crystals I'll give you this Sin.''",
+	text: [
+		"Fantastic! Thank you for this my apprentice. You can have this Mark now and follow your cult and impressed your guru.",
+		"",
+		"If you find more of these unique crystals send them over and I'll give you some of my magic."
+	],
+	dependencies: [
+		"69351cb7"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	size: 1.8d,
+	tasks: [{
+		uid: "03f35617",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ebwizardry:magic_crystal",
+			tag: {
+				ench: [{
+					lvl: 5s,
+					id: 60s
+				},
+				{
+					lvl: 3s,
+					id: 20s
+				}],
+				display: {
+					Lore: [
+						"You look inside the crystal and see burning",
+						"as if it was disintegrating from the inside",
+						"out."
+					],
+					Name: "Legendary Crystal of Destruction"
+				},
+				AttributeModifiers: [{
+					UUIDMost: -6440462036519794588L,
+					UUIDLeast: -4690043724477336142L,
+					Amount: 5.0d,
+					Slot: "offhand",
+					AttributeName: "generic.armor",
+					Operation: 0,
+					Name: "generic.armor"
+				}]
+			},
+			Damage: 1s
+		}],
+		consume_items: true
+	},
+	{
+		uid: "e361d691",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ebwizardry:magic_crystal",
+			tag: {
+				ench: [{
+					lvl: 5s,
+					id: 60s
+				},
+				{
+					lvl: 2s,
+					id: 19s
+				}],
+				display: {
+					Lore: [
+						"You look inside the crystal and watch a",
+						"beautiful thunderstorm."
+					],
+					Name: "Mythical Crystal of Disaster"
+				},
+				AttributeModifiers: [{
+					UUIDMost: 466020513773799452L,
+					UUIDLeast: -8903125520837718564L,
+					Amount: 0.05d,
+					Slot: "offhand",
+					AttributeName: "generic.movementSpeed",
+					Operation: 0,
+					Name: "generic.movementSpeed"
+				}]
+			},
+			Damage: 3s
+		}],
+		consume_items: true
+	},
+	{
+		uid: "e5f8226c",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ebwizardry:magic_crystal",
+			tag: {
+				ench: [{
+					lvl: 5s,
+					id: 60s
+				},
+				{
+					lvl: 2s,
+					id: 36s
+				}],
+				display: {
+					Lore: [
+						"You look inside the crystal and see calm",
+						"flakes of snow.",
+						"",
+						"It's like a sharp snowglobe!"
+					],
+					Name: "Enchanted Crystal of Decay"
+				},
+				AttributeModifiers: [{
+					UUIDMost: 3704107904320882642L,
+					UUIDLeast: -8735904085091214641L,
+					Amount: 4.0d,
+					Slot: "offhand",
+					AttributeName: "generic.maxHealth",
+					Operation: 0,
+					Name: "generic.maxHealth"
+				}]
+			},
+			Damage: 2s
+		}],
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "86368c55",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thermalfoundation:rockwool",
+			tag: {
+				ench: [{
+					lvl: 5s,
+					id: 60s
+				},
+				{
+					lvl: 1s,
+					id: 10s
+				},
+				{
+					lvl: 6s,
+					id: 40s
+				}],
+				display: {
+					Name: "IV. Mark of Greed"
+				}
+			},
+			Damage: 11s
+		}
+	}]
+}

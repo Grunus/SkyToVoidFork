@@ -1,0 +1,49 @@
+{
+	title: "Libcardo's Quest VII",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "extrautils2:compressedcobblestone",
+		Damage: 6s
+	},
+	x: -3.5d,
+	y: -1.5d,
+	shape: "diamond",
+	description: "''This is the limit, the most packed piece of cobblestone to even be thought of. I've never seen any cobblestone this large before. Never in my lifetime...''",
+	text: [
+		""
+	],
+	dependencies: [
+		"ba83acf5"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "d287bd96",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "extrautils2:compressedcobblestone",
+			Damage: 6s
+		}]
+	}],
+	rewards: [{
+		uid: "f2aeeb9b",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "camscurrency:denarius"
+		},
+		count: 32
+	},
+	{
+		uid: "6dd0db45",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

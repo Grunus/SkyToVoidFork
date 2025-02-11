@@ -1,0 +1,17 @@
+filename = 'netherite-1.1.0.jar'
+name = 'Netherite Mod'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'Netherite v1.1.0 for MC 1.12.2'
+
+[download]
+hash = 'f8c9a4a178dfdacc8e8c384e049528f400fe6e61'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 2928772
+project-id = 365732

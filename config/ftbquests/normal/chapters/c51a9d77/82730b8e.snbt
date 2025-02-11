@@ -1,0 +1,56 @@
+{
+	title: "Cyclic's Liquid Method",
+	x: 2.0d,
+	y: 9.0d,
+	description: "Used to extract and move liquid from Cyclic's machinery.",
+	text: [
+		""
+	],
+	dependencies: [
+		"5944f1d8"
+	],
+	hide: true,
+	tasks: [{
+		uid: "509f276d",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "cyclicmagic:fluid_pump"
+		}]
+	},
+	{
+		uid: "4d5e67ca",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "cyclicmagic:fluid_pipe"
+		}],
+		count: 8L
+	},
+	{
+		uid: "506273b7",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "cyclicmagic:block_storeempty"
+		}]
+	}],
+	rewards: [{
+		uid: "9a86079e",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "cyclicmagic:fluid_pipe"
+		},
+		count: 16,
+		random_bonus: 16
+	}]
+}

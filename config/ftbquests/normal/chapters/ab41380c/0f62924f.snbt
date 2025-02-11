@@ -1,0 +1,25 @@
+{
+	title: "Libcardo's Cobble Quest",
+	x: -2.5d,
+	y: -1.5d,
+	shape: "diamond",
+	description: "''While you're here I guess, grab me some cobblestone...''",
+	text: [
+		""
+	],
+	dependencies: [
+		"8408ef21"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "0f65f758",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "extrautils2:compressedcobblestone"
+		}]
+	}]
+}

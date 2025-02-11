@@ -1,0 +1,111 @@
+{
+	title: "Flint Upgrade",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "tconstruct:pickaxe",
+		tag: {
+			StatsOriginal: {
+				AttackSpeedMultiplier: 1.0f,
+				MiningSpeed: 5.0f,
+				FreeModifiers: 3,
+				Durability: 54,
+				HarvestLevel: 1,
+				Attack: 2.9f
+			},
+			Stats: {
+				AttackSpeedMultiplier: 1.0f,
+				MiningSpeed: 5.0f,
+				FreeModifiers: 3,
+				Durability: 54,
+				HarvestLevel: 1,
+				Attack: 2.9f
+			},
+			Special: {
+				Categories: [
+					"tool",
+					"harvest",
+					"aoe"
+				]
+			},
+			TinkerData: {
+				Materials: [
+					"flint",
+					"flint",
+					"flint"
+				],
+				Modifiers: [
+					"toolleveling"
+				]
+			},
+			Modifiers: [{
+				identifier: "crude",
+				color: -9868951,
+				level: 3,
+				crude1: 1,
+				crude2: 1
+			},
+			{
+				identifier: "toolleveling",
+				color: 16777215,
+				level: 1
+			}],
+			Traits: [
+				"crude1",
+				"crude2",
+				"toolleveling"
+			]
+		}
+	},
+	x: 0.0d,
+	y: 6.0d,
+	shape: "hexagon",
+	text: [
+		"You can repair your tools in tool stations or tool forges."
+	],
+	dependencies: [
+		"38945b9d"
+	],
+	hide: true,
+	tasks: [{
+		uid: "a4db35b6",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "tconstruct:pick_head",
+			tag: {
+				Material: "flint"
+			}
+		}]
+	},
+	{
+		uid: "84f5614e",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "tconstruct:axe_head",
+			tag: {
+				Material: "flint"
+			}
+		},
+		{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "tconstruct:shovel_head",
+			tag: {
+				Material: "flint"
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "4cd7fdd5",
+		type: "loot",
+		table: 0
+	}]
+}

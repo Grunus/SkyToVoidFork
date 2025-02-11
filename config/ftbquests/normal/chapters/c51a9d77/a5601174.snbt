@@ -1,0 +1,30 @@
+{
+	title: "Versatile Builder's",
+	x: 5.5d,
+	y: 4.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"539c97d6"
+	],
+	hide: true,
+	tasks: [{
+		uid: "e67818a3",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "cyclicmagic:cyclic_wand_build",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "79435493",
+		type: "loot",
+		table: 51
+	}]
+}

@@ -1,0 +1,44 @@
+{
+	title: "The Villagers II",
+	x: 0.5d,
+	y: 13.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"2d0603cd"
+	],
+	tasks: [{
+		uid: "f14b0554",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:potion",
+			tag: {
+				Potion: "minecraft:strong_healing"
+			}
+		}],
+		count: 32L,
+		consume_items: true,
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "4d5a81a8",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "camscurrency:denarius"
+		},
+		count: 32
+	},
+	{
+		uid: "fe79c8b0",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

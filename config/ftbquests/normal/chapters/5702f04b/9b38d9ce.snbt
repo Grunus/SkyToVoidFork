@@ -1,0 +1,44 @@
+{
+	title: "Central Power",
+	x: -14.0d,
+	y: 8.0d,
+	text: [
+		"When you're trying to upgrade seeds you're going to have to upgrade inferium and other essences using this powerful crystal."
+	],
+	dependencies: [
+		"713bfccd"
+	],
+	hide: true,
+	tasks: [{
+		uid: "1dd32b9a",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "mysticalagriculture:infusion_crystal"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "f4373066",
+		type: "loot",
+		table: 9
+	},
+	{
+		uid: "38824e79",
+		type: "loot",
+		table: 9
+	},
+	{
+		uid: "c024ab5e",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "metallurgy:tin_crystals"
+		}
+	}]
+}

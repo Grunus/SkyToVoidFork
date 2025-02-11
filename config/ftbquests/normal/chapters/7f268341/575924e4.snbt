@@ -1,0 +1,53 @@
+{
+	title: "Spell Dust",
+	x: -3.0d,
+	y: 13.0d,
+	description: "You can now create psidust.",
+	text: [
+		"Throw a stack of redstone on the ground (not in block form) and right click with Casting Assistant. This will turn the dust into psidust!"
+	],
+	dependencies: [
+		"380f2d5f"
+	],
+	hide: true,
+	tasks: [{
+		uid: "90252a3f",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "psi:material"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "cdef67fc",
+		type: "loot",
+		table: 49
+	},
+	{
+		uid: "9c5e2ef1",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thermalfoundation:material",
+			Damage: 1024s
+		},
+		count: 4
+	},
+	{
+		uid: "4fccce2b",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thermalfoundation:material",
+			Damage: 1025s
+		},
+		count: 4
+	}]
+}

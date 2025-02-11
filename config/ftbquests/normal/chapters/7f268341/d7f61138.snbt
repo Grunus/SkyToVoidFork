@@ -1,0 +1,44 @@
+{
+	title: "Cheating Enchanting",
+	x: 12.0d,
+	y: -1.5d,
+	description: "Create the enchantments you want!",
+	text: [
+		""
+	],
+	dependencies: [
+		"49e3543d"
+	],
+	hide: true,
+	tasks: [{
+		uid: "bab2c691",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "enderio:block_enchanter"
+		}]
+	}],
+	rewards: [{
+		uid: "0708dd08",
+		type: "loot",
+		table: 34
+	},
+	{
+		uid: "1fd1e83d",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:enchanted_book",
+			tag: {
+				StoredEnchantments: [{
+					lvl: 4s,
+					id: 17s
+				}]
+			}
+		}
+	}]
+}

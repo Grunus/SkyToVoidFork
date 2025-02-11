@@ -1,0 +1,19 @@
+{
+	title: "Green Sponge.",
+	x: -7.5d,
+	y: 6.5d,
+	dependencies: [
+		"a2d990d3"
+	],
+	hide: true,
+	tasks: [{
+		uid: "0baef202",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "openblocks:sponge"
+		}]
+	}]
+}

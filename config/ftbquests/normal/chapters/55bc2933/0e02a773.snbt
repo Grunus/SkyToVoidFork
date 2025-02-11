@@ -1,0 +1,48 @@
+{
+	title: "Open the Upper Bedrock Seal",
+	x: -10.5d,
+	y: -4.5d,
+	description: "Return to The Obelisk and stand on the Endless gateway...",
+	text: [
+		""
+	],
+	dependencies: [
+		"c808612f"
+	],
+	hide: true,
+	size: 3.0d,
+	tasks: [{
+		uid: "5d1b0e26",
+		type: "location",
+		title: "9 72 103",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "enderportaldecoration:void"
+		},
+		location: [I;
+			0,
+			9,
+			72,
+			103,
+			4,
+			4,
+			4
+		]
+	}],
+	rewards: [{
+		uid: "ec51ecec",
+		type: "command",
+		title: "Break the Seal",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "openblocks:sky"
+		},
+		team_reward: true,
+		auto: "enabled",
+		command: "/fill 9 72 107 9 73 107 minecraft:air"
+	}]
+}

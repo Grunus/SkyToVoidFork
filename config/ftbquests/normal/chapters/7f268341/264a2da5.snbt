@@ -1,0 +1,24 @@
+{
+	x: 21.5d,
+	y: 3.5d,
+	dependencies: [
+		"cf32e0ee"
+	],
+	hide: true,
+	tasks: [{
+		uid: "f10f4e5f",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "enderio:item_redstone_conduit"
+		}],
+		count: 8L
+	}],
+	rewards: [{
+		uid: "cccd78a9",
+		type: "loot",
+		table: 35
+	}]
+}

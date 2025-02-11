@@ -1,0 +1,35 @@
+{
+	title: "Diamond Cut",
+	x: 2.5d,
+	y: 3.5d,
+	shape: "square",
+	dependencies: [
+		"88aeb5c1"
+	],
+	hide: true,
+	tasks: [{
+		uid: "2870283c",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "extrautils2:spike_diamond"
+		}],
+		count: 12L
+	}],
+	rewards: [{
+		uid: "76ad17b0",
+		type: "item",
+		auto: "invisible",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thermalfoundation:material",
+			Damage: 16s
+		},
+		count: 16,
+		random_bonus: 48
+	}]
+}

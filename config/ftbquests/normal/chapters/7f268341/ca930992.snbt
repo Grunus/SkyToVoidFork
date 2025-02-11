@@ -1,0 +1,26 @@
+{
+	x: 4.5d,
+	y: 8.5d,
+	description: "Consume food instantly.",
+	dependencies: [
+		"56942fdf"
+	],
+	hide: true,
+	tasks: [{
+		uid: "de1d8b33",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "darkutils:charm_gluttony"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "78954cbf",
+		type: "loot",
+		table: 20
+	}]
+}

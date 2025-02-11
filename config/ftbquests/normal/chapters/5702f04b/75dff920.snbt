@@ -1,0 +1,45 @@
+{
+	x: 11.5d,
+	y: 5.0d,
+	text: [
+		"Attracts items.",
+		"Shift and right click to change the magnet mode of the item."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"faeb538a",
+		"81b1cd10"
+	],
+	hide: true,
+	tasks: [{
+		uid: "81605818",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "metallurgy:electrum_magnet"
+		}]
+	}],
+	rewards: [{
+		uid: "8ad6f359",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thermalfoundation:tool.bow_electrum"
+		}
+	},
+	{
+		uid: "97d606c4",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "camscurrency:dupondius"
+		},
+		count: 10
+	}]
+}

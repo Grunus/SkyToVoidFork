@@ -1,0 +1,467 @@
+{
+	title: "Primitive Tier III Reward",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "tconstruct:shuriken",
+		tag: {
+			StatsOriginal: {
+				AttackSpeedMultiplier: 1.0f,
+				Accuracy: 1.0f,
+				MiningSpeed: 5.0f,
+				FreeModifiers: 3,
+				Durability: 190,
+				HarvestLevel: 1,
+				Attack: 3.9f
+			},
+			Stats: {
+				AttackSpeedMultiplier: 1.0f,
+				Accuracy: 1.0f,
+				MiningSpeed: 5.0f,
+				FreeModifiers: 3,
+				Durability: 190,
+				HarvestLevel: 1,
+				Attack: 3.9f
+			},
+			Special: {
+				Categories: [
+					"projectile",
+					"tool",
+					"no_melee"
+				]
+			},
+			TinkerData: {
+				Materials: [
+					"flint",
+					"flint",
+					"flint",
+					"flint"
+				],
+				Modifiers: []
+			},
+			Modifiers: [{
+				identifier: "crude",
+				color: -9868951,
+				level: 3,
+				crude1: 1,
+				crude2: 1
+			}],
+			Traits: [
+				"crude2",
+				"crude1"
+			]
+		}
+	},
+	loot_size: 3,
+	hide_tooltip: true,
+	use_title: true,
+	rewards: [{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "exnihilocreatio:item_doll",
+			Damage: 2s
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:potion",
+			tag: {
+				Potion: "extrautils2:xu2.second.chance"
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "exnihilocreatio:hammer_iron",
+			tag: {
+				ench: [{
+					lvl: 2,
+					id: 32
+				},
+				{
+					lvl: 100,
+					id: 51
+				},
+				{
+					lvl: 5,
+					id: 21
+				},
+				{
+					lvl: 12,
+					id: 16
+				},
+				{
+					lvl: 1,
+					id: 40
+				}],
+				Unbreakable: 1,
+				display: {
+					Name: "|Time|Hammer|"
+				},
+				AttributeModifiers: [{
+					UUIDMost: -3801225194067177672L,
+					UUIDLeast: -6586624321849018929L,
+					Amount: 2.0d,
+					Slot: "mainhand",
+					AttributeName: "generic.attackDamage",
+					Operation: 0,
+					Name: "generic.attackDamage"
+				},
+				{
+					UUIDMost: -422425648963762075L,
+					UUIDLeast: -5756800103171642205L,
+					Amount: -8.0d,
+					Slot: "mainhand",
+					AttributeName: "generic.attackSpeed",
+					Operation: 0,
+					Name: "generic.attackSpeed"
+				},
+				{
+					UUIDMost: 4602546656694978273L,
+					UUIDLeast: -6689434096274118604L,
+					Amount: -2.0d,
+					Slot: "mainhand",
+					AttributeName: "generic.reachDistance",
+					Operation: 0,
+					Name: "generic.reachDistance"
+				}]
+			}
+		},
+		weight: 5
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "exnihilocreatio:crook_blaze"
+		},
+		weight: 45
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "exnihilocreatio:hammer_diamond"
+		},
+		weight: 45
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "extrautils2:compressedcobblestone"
+		},
+		count: 9,
+		weight: 20
+	},
+	{
+		xp_levels: 30,
+		type: "xp_levels"
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "exnihilocreatio:block_crucible",
+			Damage: 1s
+		},
+		count: 2,
+		random_bonus: 2,
+		weight: 40
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "exnihilocreatio:item_ore_cobalt",
+			Damage: 2s
+		},
+		random_bonus: 4
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thermalexpansion:tank",
+			tag: {
+				RSControl: 0,
+				Creative: 0,
+				Fluid: {
+					FluidName: "lava",
+					Amount: 20000
+				},
+				Level: 0,
+				Lock: 0
+			}
+		},
+		weight: 5
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:diamond"
+		},
+		count: 3,
+		weight: 35
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "harvestcraft:baklavaitem"
+		},
+		count: 8,
+		weight: 4
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:tipped_arrow",
+			tag: {
+				Potion: "extrautils2:xu2.greek.fire"
+			}
+		},
+		count: 32,
+		weight: 10
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "exnihilocreatio:item_mesh",
+			tag: {
+				ench: [{
+					lvl: 5,
+					id: 47
+				},
+				{
+					lvl: 3,
+					id: 52
+				}]
+			},
+			Damage: 4s
+		},
+		weight: 10
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:golden_apple",
+			Damage: 1s
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:gold_block"
+		},
+		count: 2,
+		weight: 30
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:diamond_block"
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:ender_pearl"
+		},
+		count: 16,
+		weight: 25
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:anvil"
+		},
+		weight: 25
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:mossy_cobblestone"
+		},
+		count: 9,
+		random_bonus: 30,
+		weight: 13
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "harvestcraft:meatfeastpizzaitem"
+		},
+		count: 5,
+		weight: 15
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:coal_block"
+		},
+		count: 32,
+		weight: 15
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:glowstone"
+		},
+		count: 4,
+		random_bonus: 40,
+		weight: 25
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:totem_of_undying"
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "camscurrency:aureus"
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "yoyos:yoyo",
+			tag: {
+				StatsOriginal: {
+					AttackSpeedMultiplier: 1.0f,
+					MiningSpeed: 0.0f,
+					FreeModifiers: 3,
+					ChordLength: 8.0f,
+					Durability: 127,
+					HarvestLevel: 0,
+					Duration: 95,
+					Attack: 9.35f,
+					Weight: 4.9f
+				},
+				display: {
+					Name: "Whiplash"
+				},
+				Stats: {
+					AttackSpeedMultiplier: 1.0f,
+					MiningSpeed: 0.0f,
+					FreeModifiers: 0,
+					ChordLength: 10.0f,
+					Durability: 127,
+					HarvestLevel: 0,
+					Duration: 95,
+					Attack: 9.35f,
+					Weight: 3.7500002f
+				},
+				Special: {
+					Categories: [
+						"harvest",
+						"weapon",
+						"projectile",
+						"no_melee",
+						"tool"
+					]
+				},
+				TinkerData: {
+					UsedModifiers: 3,
+					Materials: [
+						"magmaslime",
+						"manyullyn",
+						"refinedglowstone",
+						"ice"
+					],
+					Modifiers: [
+						"floating",
+						"extension"
+					]
+				},
+				Modifiers: [{
+					identifier: "flammable",
+					color: -27123,
+					level: 1
+				},
+				{
+					identifier: "insatiable",
+					color: -6202120,
+					level: 1
+				},
+				{
+					identifier: "lightboost",
+					color: -988119,
+					level: 1
+				},
+				{
+					identifier: "freezing",
+					color: -6826016,
+					level: 1
+				},
+				{
+					identifier: "floating",
+					color: 65497,
+					level: 2
+				},
+				{
+					identifier: "extension",
+					current: 8,
+					color: 5233919,
+					level: 1,
+					max: 8,
+					extraInfo: "7 / 8"
+				}],
+				Traits: [
+					"flammable",
+					"insatiable",
+					"lightboost",
+					"freezing"
+				]
+			}
+		}
+	}]
+}

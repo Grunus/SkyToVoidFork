@@ -1,0 +1,49 @@
+{
+	title: "All Tied Up",
+	x: 1.5d,
+	y: -6.0d,
+	text: [
+		"Upgrading their equipment will do no help! The Void will suck them in eventually..."
+	],
+	dependencies: [
+		"6bae85c1"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "62d89be2",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thermalexpansion:tank",
+			tag: {
+				RSControl: 0b,
+				Level: 0b
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "759a8ce9",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "camscurrency:denarius"
+		},
+		count: 6
+	},
+	{
+		uid: "cf6286f5",
+		type: "loot",
+		table: 7
+	},
+	{
+		uid: "e4038d48",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

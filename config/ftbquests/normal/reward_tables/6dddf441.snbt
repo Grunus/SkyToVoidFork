@@ -1,0 +1,777 @@
+{
+	title: "Extra Utilities Tier I Reward",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "extrautils2:ingredients",
+		Damage: 6s
+	},
+	loot_size: 3,
+	hide_tooltip: true,
+	use_title: true,
+	rewards: [{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "extrautils2:compresseddirt",
+			Damage: 1s
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "extrautils2:compressedsand",
+			Damage: 1s
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "extrautils2:compressedcobblestone",
+			Damage: 1s
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "extrautils2:compressedgravel",
+			Damage: 1s
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "extrautils2:decorativesolid",
+			Damage: 4s
+		},
+		count: 16,
+		random_bonus: 16
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "extrautils2:decorativesolidwood"
+		},
+		count: 8
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "extrautils2:ingredients",
+			Damage: 1s
+		},
+		count: 4,
+		random_bonus: 4
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "extrautils2:decorativesolidwood",
+			Damage: 1s
+		},
+		count: 8
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "extrautils2:wateringcan"
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "extrautils2:sickle_diamond"
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "extrautils2:crafter"
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "extrautils2:scanner"
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "extrautils2:miner"
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "extrautils2:user"
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "extrautils2:pipe"
+		},
+		count: 8,
+		random_bonus: 16
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "extrautils2:magicapple"
+		},
+		count: 3
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "extrautils2:ingredients",
+			Damage: 4s
+		},
+		count: 2
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "extrautils2:itembuilderswand",
+			tag: {
+				ench: [{
+					lvl: 1s,
+					id: 33s
+				},
+				{
+					lvl: 3s,
+					id: 34s
+				}],
+				display: {
+					Lore: [
+						"You look around and reinforces you must fix",
+						"this..."
+					],
+					Name: "Inspiration"
+				},
+				AttributeModifiers: [{
+					UUIDMost: -5919670491278652067L,
+					UUIDLeast: -4622501727074776274L,
+					Amount: -2.0d,
+					Slot: "mainhand",
+					AttributeName: "generic.attackDamage",
+					Operation: 0,
+					Name: "generic.attackDamage"
+				},
+				{
+					UUIDMost: -2692504472584172829L,
+					UUIDLeast: -4764176127057265279L,
+					Amount: 4.0d,
+					Slot: "mainhand",
+					AttributeName: "generic.armor",
+					Operation: 0,
+					Name: "generic.armor"
+				},
+				{
+					UUIDMost: -3105955215012116898L,
+					UUIDLeast: -4774511490501138129L,
+					Amount: 4.0d,
+					Slot: "mainhand",
+					AttributeName: "generic.armorToughness",
+					Operation: 0,
+					Name: "generic.armorToughness"
+				},
+				{
+					UUIDMost: -3385191257229276496L,
+					UUIDLeast: -7097904917202187248L,
+					Amount: 4.0d,
+					Slot: "mainhand",
+					AttributeName: "generic.maxHealth",
+					Operation: 0,
+					Name: "generic.maxHealth"
+				},
+				{
+					UUIDMost: 2632944786421860738L,
+					UUIDLeast: -8122946076635201889L,
+					Amount: 0.5d,
+					Slot: "mainhand",
+					AttributeName: "generic.movementSpeed",
+					Operation: 2,
+					Name: "generic.movementSpeed"
+				},
+				{
+					UUIDMost: 6415059117846382471L,
+					UUIDLeast: -5157295725057469476L,
+					Amount: -2.0d,
+					Slot: "mainhand",
+					AttributeName: "generic.knockbackResistance",
+					Operation: 0,
+					Name: "generic.knockbackResistance"
+				},
+				{
+					UUIDMost: -5867480521761863416L,
+					UUIDLeast: -4749532760745340045L,
+					Amount: 2.0d,
+					Slot: "mainhand",
+					AttributeName: "generic.reachDistance",
+					Operation: 0,
+					Name: "generic.reachDistance"
+				},
+				{
+					UUIDMost: 4435418208437158555L,
+					UUIDLeast: -5874987597089033698L,
+					Amount: -5.0d,
+					Slot: "mainhand",
+					AttributeName: "generic.luck",
+					Operation: 0,
+					Name: "generic.luck"
+				}]
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "extrautils2:itemdestructionwand",
+			tag: {
+				ench: [{
+					lvl: 5s,
+					id: 36s
+				},
+				{
+					lvl: 1s,
+					id: 70s
+				},
+				{
+					lvl: 3s,
+					id: 16s
+				},
+				{
+					lvl: 3s,
+					id: 57s
+				}],
+				display: {
+					Lore: [
+						"You look around and everything seems right..."
+					],
+					Name: "Temptation"
+				},
+				AttributeModifiers: [{
+					UUIDMost: -567921321156197180L,
+					UUIDLeast: -4759920779771007001L,
+					Amount: 6.0d,
+					Slot: "mainhand",
+					AttributeName: "generic.attackDamage",
+					Operation: 0,
+					Name: "generic.attackDamage"
+				},
+				{
+					UUIDMost: -1558952488077471812L,
+					UUIDLeast: -8132815613818771218L,
+					Amount: 2.0d,
+					Slot: "mainhand",
+					AttributeName: "generic.attackSpeed",
+					Operation: 0,
+					Name: "generic.attackSpeed"
+				},
+				{
+					UUIDMost: -5147901427296549017L,
+					UUIDLeast: -8986806732437230358L,
+					Amount: -4.0d,
+					Slot: "mainhand",
+					AttributeName: "generic.armor",
+					Operation: 0,
+					Name: "generic.armor"
+				},
+				{
+					UUIDMost: -1107569579720618974L,
+					UUIDLeast: -7550744404712055953L,
+					Amount: -4.0d,
+					Slot: "mainhand",
+					AttributeName: "generic.maxHealth",
+					Operation: 0,
+					Name: "generic.maxHealth"
+				},
+				{
+					UUIDMost: 2184188129584629569L,
+					UUIDLeast: -4672142429856787423L,
+					Amount: 4.0d,
+					Slot: "mainhand",
+					AttributeName: "generic.knockbackResistance",
+					Operation: 0,
+					Name: "generic.knockbackResistance"
+				},
+				{
+					UUIDMost: 7837691474908170236L,
+					UUIDLeast: -6090196794057806888L,
+					Amount: 10.0d,
+					Slot: "mainhand",
+					AttributeName: "generic.followRange",
+					Operation: 0,
+					Name: "generic.followRange"
+				}]
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "extrautils2:angelblock"
+		},
+		count: 4
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "extrautils2:decorativesolid",
+			Damage: 7s
+		},
+		count: 2
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "extrautils2:ingredients",
+			Damage: 3s
+		},
+		count: 2
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "extrautils2:ingredients",
+			Damage: 9s
+		},
+		count: 4,
+		random_bonus: 4
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "extrautils2:drum",
+			Damage: 1s
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "extrautils2:largishchest"
+		},
+		count: 2
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "extrautils2:minichest"
+		},
+		count: 9
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "extrautils2:sickle_iron",
+			tag: {
+				ench: [{
+					lvl: 3s,
+					id: 20s
+				},
+				{
+					lvl: 2s,
+					id: 34s
+				},
+				{
+					lvl: 10s,
+					id: 32s
+				}],
+				display: {
+					Name: "The Sickle"
+				},
+				AttributeModifiers: [{
+					UUIDMost: -3801225194067177672L,
+					UUIDLeast: -6586624321849018929L,
+					Amount: 12.0d,
+					Slot: "mainhand",
+					AttributeName: "generic.attackDamage",
+					Operation: 0,
+					Name: "generic.attackDamage"
+				},
+				{
+					UUIDMost: -422425648963762075L,
+					UUIDLeast: -5756800103171642205L,
+					Amount: -6.0d,
+					Slot: "mainhand",
+					AttributeName: "generic.attackSpeed",
+					Operation: 0,
+					Name: "generic.attackSpeed"
+				},
+				{
+					UUIDMost: -3952447678532663707L,
+					UUIDLeast: -6158248030531643080L,
+					Amount: 4.0d,
+					Slot: "mainhand",
+					AttributeName: "generic.armor",
+					Operation: 0,
+					Name: "generic.armor"
+				},
+				{
+					UUIDMost: -8788903763668743554L,
+					UUIDLeast: -6163898850635061259L,
+					Amount: -6.0d,
+					Slot: "mainhand",
+					AttributeName: "generic.armorToughness",
+					Operation: 0,
+					Name: "generic.armorToughness"
+				},
+				{
+					UUIDMost: 3926874510698565462L,
+					UUIDLeast: -5353232944422146227L,
+					Amount: 6.0d,
+					Slot: "mainhand",
+					AttributeName: "generic.maxHealth",
+					Operation: 0,
+					Name: "generic.maxHealth"
+				},
+				{
+					UUIDMost: 1666714027417946827L,
+					UUIDLeast: -8226640324256939143L,
+					Amount: -5.0d,
+					Slot: "mainhand",
+					AttributeName: "generic.knockbackResistance",
+					Operation: 0,
+					Name: "generic.knockbackResistance"
+				},
+				{
+					UUIDMost: 8256918548842955799L,
+					UUIDLeast: -5009747499315031546L,
+					Amount: -2.0d,
+					Slot: "mainhand",
+					AttributeName: "generic.reachDistance",
+					Operation: 0,
+					Name: "generic.reachDistance"
+				}]
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "cfm:item_hammer",
+			tag: {
+				ench: [{
+					lvl: 8s,
+					id: 17s
+				},
+				{
+					lvl: 3s,
+					id: 57s
+				}],
+				display: {
+					Name: "The Hammer"
+				},
+				AttributeModifiers: [{
+					UUIDMost: 701231161496783573L,
+					UUIDLeast: -5573669979816578230L,
+					Amount: -12.0d,
+					Slot: "offhand",
+					AttributeName: "generic.attackDamage",
+					Operation: 0,
+					Name: "generic.attackDamage"
+				},
+				{
+					UUIDMost: 5501012747153654316L,
+					UUIDLeast: -5975733983803874294L,
+					Amount: 6.0d,
+					Slot: "offhand",
+					AttributeName: "generic.attackSpeed",
+					Operation: 0,
+					Name: "generic.attackSpeed"
+				},
+				{
+					UUIDMost: -8022594990524182915L,
+					UUIDLeast: -7369847199409937002L,
+					Amount: -4.0d,
+					Slot: "offhand",
+					AttributeName: "generic.armor",
+					Operation: 0,
+					Name: "generic.armor"
+				},
+				{
+					UUIDMost: 1507628199880642068L,
+					UUIDLeast: -5833903497476339697L,
+					Amount: 6.0d,
+					Slot: "offhand",
+					AttributeName: "generic.armorToughness",
+					Operation: 0,
+					Name: "generic.armorToughness"
+				},
+				{
+					UUIDMost: 3584743144686504434L,
+					UUIDLeast: -8230844456449172988L,
+					Amount: -6.0d,
+					Slot: "offhand",
+					AttributeName: "generic.maxHealth",
+					Operation: 0,
+					Name: "generic.maxHealth"
+				},
+				{
+					UUIDMost: 8286810636861850830L,
+					UUIDLeast: -5609418437002774248L,
+					Amount: 5.0d,
+					Slot: "offhand",
+					AttributeName: "generic.knockbackResistance",
+					Operation: 0,
+					Name: "generic.knockbackResistance"
+				},
+				{
+					UUIDMost: -741968658795641251L,
+					UUIDLeast: -4796347065202833182L,
+					Amount: 2.0d,
+					Slot: "offhand",
+					AttributeName: "generic.reachDistance",
+					Operation: 0,
+					Name: "generic.reachDistance"
+				}]
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "extrautils2:cursedearth"
+		},
+		count: 2
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "extrautils2:powermanager"
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thermalexpansion:satchel",
+			tag: {
+				display: {
+					Name: "Power to the Player"
+				},
+				Inventory: {
+					Slot2: {
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": {}
+						},
+						id: "extrautils2:ingredients",
+						Count: 1b,
+						Damage: 6s
+					},
+					Slot3: {
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": {}
+						},
+						id: "extrautils2:ingredients",
+						Count: 1b,
+						Damage: 7s
+					},
+					Slot4: {
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": {}
+						},
+						id: "extrautils2:ingredients",
+						Count: 1b,
+						Damage: 7s
+					},
+					Slot5: {
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": {}
+						},
+						id: "extrautils2:ingredients",
+						Count: 1b,
+						Damage: 7s
+					},
+					Slot0: {
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": {}
+						},
+						id: "extrautils2:ingredients",
+						Count: 1b,
+						Damage: 6s
+					},
+					Slot1: {
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": {}
+						},
+						id: "extrautils2:ingredients",
+						Count: 1b,
+						Damage: 6s
+					},
+					Slot6: {
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": {}
+						},
+						id: "extrautils2:ingredients",
+						Count: 1b,
+						Damage: 8s
+					},
+					Slot7: {
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": {}
+						},
+						id: "extrautils2:ingredients",
+						Count: 1b,
+						Damage: 8s
+					},
+					Slot8: {
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": {}
+						},
+						id: "extrautils2:ingredients",
+						Count: 1b,
+						Damage: 8s
+					}
+				},
+				Accessible: 1b
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "totaltinkers:dagger",
+			tag: {
+				StatsOriginal: {
+					AttackSpeedMultiplier: 1.0f,
+					Accuracy: 1.0f,
+					MiningSpeed: 4.0f,
+					FreeModifiers: 3,
+					Durability: 188,
+					HarvestLevel: 2,
+					Attack: 3.0f
+				},
+				display: {
+					Name: "Scorched Blade"
+				},
+				Stats: {
+					AttackSpeedMultiplier: 1.0f,
+					Accuracy: 1.0f,
+					MiningSpeed: 4.5f,
+					FreeModifiers: 0,
+					Durability: 688,
+					HarvestLevel: 3,
+					Attack: 4.0f
+				},
+				Special: {
+					Categories: [
+						"weapon",
+						"tool"
+					]
+				},
+				TinkerData: {
+					UsedModifiers: 3,
+					Materials: [
+						"flint",
+						"ignatius",
+						"dark_steel"
+					],
+					Modifiers: [
+						"bane_of_arthopods",
+						"diamond"
+					]
+				},
+				Modifiers: [{
+					identifier: "crude",
+					color: -9868951,
+					level: 1,
+					crude1: 1b
+				},
+				{
+					identifier: "vulcan_trait",
+					vulcan_trait0: 1b,
+					color: -3123663
+				},
+				{
+					identifier: "dense",
+					color: -9671572,
+					level: 1
+				},
+				{
+					identifier: "bane_of_arthopods",
+					current: 48,
+					color: 6404681,
+					level: 2,
+					max: 48,
+					extraInfo: "47 / 48"
+				},
+				{
+					identifier: "diamond",
+					color: 9237730
+				}],
+				Traits: [
+					"crude1",
+					"vulcan_trait0",
+					"dense",
+					"bane_of_arthopods"
+				]
+			}
+		}
+	}]
+}

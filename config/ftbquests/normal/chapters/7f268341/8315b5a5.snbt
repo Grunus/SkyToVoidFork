@@ -1,0 +1,25 @@
+{
+	title: "Grid User",
+	x: 5.0d,
+	y: 4.5d,
+	description: "Resonator uses the grid power to create items. Make sure you have enough GP before putting using.",
+	dependencies: [
+		"267db402"
+	],
+	hide: true,
+	tasks: [{
+		uid: "7953b3f1",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "extrautils2:resonator"
+		}]
+	}],
+	rewards: [{
+		uid: "055218bf",
+		type: "loot",
+		table: 17
+	}]
+}

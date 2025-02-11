@@ -1,0 +1,43 @@
+{
+	title: "Chim's Flasks",
+	x: -2.0d,
+	y: -6.0d,
+	shape: "diamond",
+	description: "'Mana flasks can recharge your wands. Make a few.'",
+	dependencies: [
+		"afeab033"
+	],
+	hide: true,
+	tasks: [{
+		uid: "b93fc8a7",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ebwizardry:small_mana_flask"
+		}],
+		count: 10L
+	}],
+	rewards: [{
+		uid: "3b041b16",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "camscurrency:denarius"
+		},
+		count: 2
+	},
+	{
+		uid: "3faad93b",
+		type: "loot",
+		table: 22
+	},
+	{
+		uid: "3bd9fc12",
+		type: "ftbmoney:money",
+		ftb_money: 5L
+	}]
+}

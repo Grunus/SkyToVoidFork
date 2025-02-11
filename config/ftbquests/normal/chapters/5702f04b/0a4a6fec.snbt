@@ -1,0 +1,29 @@
+{
+	x: 2.0d,
+	y: 9.0d,
+	dependencies: [
+		"cebcaaf7"
+	],
+	hide: true,
+	tasks: [{
+		uid: "3fb62e15",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thermalfoundation:material",
+			Damage: 24s
+		}]
+	}],
+	rewards: [{
+		uid: "6b654229",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "industrialforegoing:book_manual"
+		}
+	}]
+}

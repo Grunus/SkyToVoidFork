@@ -1,0 +1,25 @@
+{
+	title: "Assembly Line",
+	x: -3.0d,
+	y: 11.0d,
+	description: "Buy the CAD Assembler from The Hive...",
+	text: [
+		""
+	],
+	dependencies: [
+		"e305274f"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "826fdf32",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "psi:cad_assembler"
+		}],
+		ignore_nbt: 1b
+	}]
+}

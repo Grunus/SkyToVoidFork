@@ -1,0 +1,426 @@
+{
+	title: "Loot Pool",
+	x: -2.5d,
+	y: 1.5d,
+	shape: "rsquare",
+	description: "Reveals possible loot that can be found or dropped by mobs. Does not reveal loot behind Void Gateways.",
+	text: [
+		"Boney Sword: Crystallized Toiler Drop",
+		"Steel to Rust: Hostile Snow Drop",
+		"Ice Frontier: Polar Death Drop",
+		"Earth On a Popsicle Stick: Cryo-Genocide Drop",
+		"Down With the Fishing: Crate"
+	],
+	dependencies: [
+		"3a8163e7"
+	],
+	hide: true,
+	optional: true,
+	min_width: 300,
+	tasks: [{
+		uid: "16d4bf0e",
+		type: "item",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "contenttweaker:mission_loot",
+			tag: {
+				display: {
+					Name: "Loot Pool"
+				}
+			}
+		},
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:structure_void",
+			tag: {
+				display: {
+					Lore: [
+						"This quest shows all possible loot that can",
+						"be found or dropped by mobs.",
+						"",
+						"Does not include loot behind Void Gateways."
+					],
+					Name: "QUEST CANNOT BE COMPLETED"
+				}
+			}
+		}],
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "80a7597e",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "tombstone:bone_needle",
+			tag: {
+				ench: [{
+					lvl: 2s,
+					id: 19s
+				}],
+				display: {
+					Name: "Boney Sword"
+				},
+				AttributeModifiers: [{
+					UUIDMost: -335008949861398632L,
+					UUIDLeast: -5782173016744796941L,
+					Amount: 4.0d,
+					Slot: "mainhand",
+					AttributeName: "generic.attackDamage",
+					Operation: 0,
+					Name: "generic.attackDamage"
+				}]
+			}
+		}
+	},
+	{
+		uid: "3b82cb41",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "tconstruct:shortbow",
+			tag: {
+				StatsOriginal: {
+					AttackSpeedMultiplier: 1.0f,
+					MiningSpeed: 6.875f,
+					DrawSpeed: 0.95f,
+					FreeModifiers: 3,
+					ProjectileBonusDamage: 5.125f,
+					Durability: 242,
+					HarvestLevel: 3,
+					Attack: 3.625f,
+					Range: 1.45f
+				},
+				display: {
+					Lore: [
+						"Ash to Ashes",
+						"",
+						"",
+						"Dust to Dust"
+					],
+					Name: "Steel to Rust"
+				},
+				ResetFlag: 0b,
+				Stats: {
+					AttackSpeedMultiplier: 1.1f,
+					MiningSpeed: 6.875f,
+					DrawSpeed: 1.045f,
+					FreeModifiers: 1,
+					ProjectileBonusDamage: 5.125f,
+					Durability: 242,
+					HarvestLevel: 3,
+					Attack: 9.080699f,
+					Range: 1.45f
+				},
+				Special: {
+					Categories: [
+						"tool",
+						"launcher"
+					],
+					RepairCount: 1
+				},
+				TinkerData: {
+					UsedModifiers: 4,
+					Materials: [
+						"conductive_iron",
+						"steel",
+						"soularium"
+					],
+					Modifiers: [
+						"mending_moss",
+						"reinforced",
+						"sharpness",
+						"creative"
+					]
+				},
+				Modifiers: [{
+					identifier: "lightweight",
+					color: -5546657,
+					level: 1
+				},
+				{
+					identifier: "crude",
+					color: -5546657,
+					level: 2,
+					crude2: 1b
+				},
+				{
+					identifier: "stiff",
+					color: -5789785,
+					level: 1
+				},
+				{
+					identifier: "sharp",
+					color: -5789785,
+					level: 1
+				},
+				{
+					identifier: "writable",
+					color: -9872563,
+					level: 1,
+					writable1: 1b
+				},
+				{
+					identifier: "mending_moss",
+					color: 4434738,
+					level: 1
+				},
+				{
+					identifier: "reinforced",
+					color: 5254787,
+					level: 1
+				},
+				{
+					identifier: "sharpness",
+					current: 144,
+					color: 16774902,
+					level: 2,
+					max: 144,
+					extraInfo: "143 / 144"
+				},
+				{
+					identifier: "creative",
+					color: 0,
+					level: 1
+				}],
+				Traits: [
+					"lightweight",
+					"crude2",
+					"stiff",
+					"sharp",
+					"writable1",
+					"mending_moss",
+					"reinforced"
+				]
+			}
+		}
+	},
+	{
+		uid: "77584a85",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ebwizardry:battlemage_helmet_ice",
+			tag: {
+				ench: [{
+					lvl: 3s,
+					id: 0s
+				},
+				{
+					lvl: 4s,
+					id: 42s
+				},
+				{
+					lvl: 3s,
+					id: 43s
+				},
+				{
+					lvl: 2s,
+					id: 63s
+				}],
+				HideFlags: 32,
+				display: {
+					Lore: [
+						"Charge with icey intent!"
+					],
+					Name: "§bIce Frontier"
+				},
+				AttributeModifiers: [{
+					UUIDMost: 5396975080509556024L,
+					UUIDLeast: -6922059309344474922L,
+					Amount: -1.0d,
+					Slot: "head",
+					AttributeName: "generic.attackDamage",
+					Operation: 0,
+					Name: "generic.attackDamage"
+				},
+				{
+					UUIDMost: 3086076556416732775L,
+					UUIDLeast: -5150312587563650736L,
+					Amount: 6.0d,
+					Slot: "head",
+					AttributeName: "generic.armor",
+					Operation: 0,
+					Name: "generic.armor"
+				},
+				{
+					UUIDMost: 3086076556416732775L,
+					UUIDLeast: -5150312587563650736L,
+					Amount: 1.0d,
+					Slot: "head",
+					AttributeName: "generic.armorToughness",
+					Operation: 0,
+					Name: "generic.armorToughness"
+				},
+				{
+					UUIDMost: 4668295818345663242L,
+					UUIDLeast: -5854165795048337942L,
+					Amount: 2.0d,
+					Slot: "head",
+					AttributeName: "generic.maxHealth",
+					Operation: 0,
+					Name: "generic.maxHealth"
+				},
+				{
+					UUIDMost: -1529485834866963905L,
+					UUIDLeast: -5051797647515105899L,
+					Amount: 12.0d,
+					Slot: "head",
+					AttributeName: "generic.followRange",
+					Operation: 0,
+					Name: "generic.followRange"
+				}]
+			}
+		}
+	},
+	{
+		uid: "30bc7244",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "tconstruct:frypan",
+			tag: {
+				StatsOriginal: {
+					AttackSpeedMultiplier: 1.0f,
+					MiningSpeed: 3.63f,
+					FreeModifiers: 3,
+					Durability: 162,
+					HarvestLevel: 1,
+					Attack: 5.1f
+				},
+				display: {
+					Lore: [
+						"The more you lick it, the closer you get to",
+						"the point of no return!"
+					],
+					Name: "Earth On a Popsicle Stick"
+				},
+				Stats: {
+					AttackSpeedMultiplier: 1.0f,
+					MiningSpeed: 3.63f,
+					FreeModifiers: 2,
+					Durability: 162,
+					HarvestLevel: 1,
+					Attack: 10.109309f
+				},
+				Special: {
+					Categories: [
+						"tool",
+						"weapon"
+					]
+				},
+				TinkerData: {
+					UsedModifiers: 4,
+					Materials: [
+						"psi",
+						"nickel"
+					],
+					Modifiers: [
+						"sharpness",
+						"knockback",
+						"creative",
+						"webbed"
+					]
+				},
+				Modifiers: [{
+					identifier: "psirepair",
+					color: -13858615,
+					level: 1
+				},
+				{
+					identifier: "exploit",
+					color: -3615101,
+					level: 1
+				},
+				{
+					identifier: "sharpness",
+					current: 144,
+					color: 16774902,
+					level: 2,
+					max: 144,
+					extraInfo: "143 / 144"
+				},
+				{
+					identifier: "knockback",
+					current: 10,
+					color: 10461087,
+					level: 1,
+					max: 10,
+					extraInfo: "9 / 10"
+				},
+				{
+					identifier: "creative",
+					color: 0,
+					level: 3
+				},
+				{
+					identifier: "webbed",
+					color: 16777215,
+					level: 1
+				}],
+				Traits: [
+					"psirepair",
+					"exploit",
+					"knockback",
+					"webbed"
+				]
+			}
+		}
+	},
+	{
+		uid: "b7959aff",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thermalfoundation:tool.fishing_rod_platinum",
+			tag: {
+				ench: [{
+					lvl: 3s,
+					id: 61s
+				},
+				{
+					lvl: 1s,
+					id: 62s
+				}],
+				Unbreakable: 1b,
+				display: {
+					Lore: [
+						"Yeah!"
+					],
+					Name: "Down With the Fishing"
+				},
+				AttributeModifiers: [{
+					UUIDMost: 5410281848964989022L,
+					UUIDLeast: -5953848766527782896L,
+					Amount: 4.0d,
+					Slot: "mainhand",
+					AttributeName: "generic.armor",
+					Operation: 0,
+					Name: "generic.armor"
+				},
+				{
+					UUIDMost: 4371818521866685801L,
+					UUIDLeast: -5243270941329274890L,
+					Amount: 0.04d,
+					Slot: "mainhand",
+					AttributeName: "generic.movementSpeed",
+					Operation: 0,
+					Name: "generic.movementSpeed"
+				}]
+			}
+		}
+	}]
+}

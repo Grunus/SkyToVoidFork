@@ -1,0 +1,60 @@
+{
+	title: "fefeffewqqwqwwqd",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "harvestcraft:quesadillaitem"
+	},
+	x: 7.5d,
+	y: -18.0d,
+	text: [
+		"Oh... One of my messages got corrupted. Don't complete this quest, this wasn't meant to happen."
+	],
+	dependencies: [
+		"05faa4f9"
+	],
+	hide: true,
+	tasks: [{
+		uid: "e1148ad2",
+		type: "checkmark",
+		title: "fkwoejksa"
+	}],
+	rewards: [{
+		uid: "bbf8c914",
+		type: "loot",
+		table: 36
+	},
+	{
+		uid: "b7234a2d",
+		type: "loot",
+		table: 31
+	},
+	{
+		uid: "3e876568",
+		type: "loot",
+		table: 24
+	},
+	{
+		uid: "0ec19ba2",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "camscurrency:denarius"
+		},
+		count: 2
+	},
+	{
+		uid: "626e0c6f",
+		type: "ftbmoney:money",
+		ftb_money: 17L,
+		random_bonus: 49
+	},
+	{
+		uid: "b47d1ddc",
+		type: "loot",
+		table: 70
+	}]
+}

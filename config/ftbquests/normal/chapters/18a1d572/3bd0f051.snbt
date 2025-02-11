@@ -1,0 +1,34 @@
+{
+	title: "Obtain the Key",
+	x: 0.0d,
+	y: -6.0d,
+	shape: "diamond",
+	text: [
+		"Gain access to The Throne Room."
+	],
+	dependencies: [
+		"7fcb8e29"
+	],
+	hide: true,
+	tasks: [{
+		uid: "7a0479f2",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "contenttweaker:7_thethroneroom",
+			tag: {
+				display: {
+					Lore: [
+						"The key to finality.",
+						"",
+						"",
+						"Can be used in The Kingdom of Gods."
+					],
+					Name: "The Throne Room"
+				}
+			}
+		}]
+	}]
+}

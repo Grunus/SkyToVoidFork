@@ -1,0 +1,976 @@
+{
+	title: "Primitive Tier II Reward",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "minecraft:flint"
+	},
+	loot_size: 2,
+	hide_tooltip: true,
+	use_title: true,
+	rewards: [{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "woodenshears:wshears",
+			tag: {
+				ench: [{
+					lvl: 3,
+					id: 32
+				},
+				{
+					lvl: 8,
+					id: 34
+				}],
+				display: {
+					Lore: [
+						"Shears so powerful shearing a sheep will",
+						"make it bleed..."
+					],
+					Name: "Unholy Shears"
+				},
+				mType: 5
+			}
+		},
+		weight: 5
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "exnihilocreatio:crook_stone",
+			tag: {
+				ench: [{
+					lvl: 2,
+					id: 34
+				}],
+				RepairCost: 1,
+				display: {
+					Name: "Silky Goodness"
+				}
+			}
+		},
+		weight: 15
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:cod",
+			tag: {
+				ench: [{
+					lvl: 3,
+					id: 19
+				}],
+				display: {
+					Lore: [
+						"IN DA HOUSE BABY"
+					],
+					Name: "BKD FISH!"
+				}
+			}
+		},
+		weight: 14
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "mysticalagriculture:cow_essence"
+		},
+		count: 32,
+		random_bonus: 32,
+		weight: 10
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "waterstrainer:garden_trowel",
+			tag: {
+				ench: [{
+					lvl: 3,
+					id: 36
+				},
+				{
+					lvl: 2,
+					id: 16
+				},
+				{
+					lvl: 1,
+					id: 41
+				}],
+				display: {
+					Lore: [
+						"Feared by green"
+					],
+					Name: "Garden Reaper"
+				},
+				AttributeModifiers: [{
+					UUIDMost: -3801225194067177672L,
+					UUIDLeast: -6586624321849018929L,
+					Amount: 3.5d,
+					Slot: "mainhand",
+					AttributeName: "generic.attackDamage",
+					Operation: 0,
+					Name: "generic.attackDamage"
+				},
+				{
+					UUIDMost: -422425648963762075L,
+					UUIDLeast: -5756800103171642205L,
+					Amount: 5.0d,
+					Slot: "mainhand",
+					AttributeName: "generic.attackSpeed",
+					Operation: 0,
+					Name: "generic.attackSpeed"
+				}]
+			}
+		},
+		weight: 5
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "exnihilocreatio:item_material",
+			Damage: 2s
+		},
+		random_bonus: 5,
+		weight: 20
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "cfm:crate",
+			tag: {
+				Sealed: 1,
+				RepairCost: 0,
+				display: {
+					Name: "Special Delivery!!!!"
+				},
+				Items: [{
+					Slot: 1,
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": {}
+					},
+					id: "biomesoplenty:terrarium",
+					Count: 1,
+					tag: {
+						display: {
+							Name: "A Terrarium that sat in the dark way too long"
+						}
+					},
+					Damage: 9
+				},
+				{
+					Slot: 4,
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": {}
+					},
+					id: "cfm:toaster",
+					Count: 1,
+					tag: {
+						display: {
+							Name: "The Toaster you ordered on Amazon"
+						}
+					},
+					Damage: 0
+				},
+				{
+					Slot: 6,
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": {}
+					},
+					id: "minecraft:flint_and_steel",
+					Count: 1,
+					tag: {
+						display: {
+							Name: "The Flint and Steel you bought on EBay"
+						}
+					},
+					Damage: 0
+				},
+				{
+					Slot: 11,
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": {}
+					},
+					id: "minecraft:arrow",
+					Count: 4,
+					tag: {
+						display: {
+							Name: "You think you're good at Archery"
+						}
+					},
+					Damage: 0
+				},
+				{
+					Slot: 12,
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": {}
+					},
+					id: "camscurrency:dupondius",
+					Count: 4,
+					Damage: 0
+				},
+				{
+					Slot: 14,
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": {}
+					},
+					id: "minecraft:rotten_flesh",
+					Count: 12,
+					tag: {
+						display: {
+							Name: "12 slices of Beef you bought online..."
+						}
+					},
+					Damage: 0
+				}],
+				Lock: ""
+			}
+		},
+		weight: 10
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "cfm:crate_spruce",
+			tag: {
+				Sealed: 1,
+				RepairCost: 0,
+				display: {
+					Name: "Dusty Crate"
+				},
+				Items: [{
+					Slot: 5,
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": {}
+					},
+					id: "minecraft:dirt",
+					Count: 16,
+					Damage: 0
+				},
+				{
+					Slot: 6,
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": {}
+					},
+					id: "minecraft:sand",
+					Count: 16,
+					Damage: 0
+				},
+				{
+					Slot: 9,
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": {}
+					},
+					id: "exnihilocreatio:block_dust",
+					Count: 16,
+					Damage: 0
+				},
+				{
+					Slot: 10,
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": {}
+					},
+					id: "minecraft:gravel",
+					Count: 16,
+					Damage: 0
+				}],
+				Lock: ""
+			}
+		},
+		weight: 5
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:chainmail_chestplate",
+			tag: {
+				ench: [{
+					lvl: 6,
+					id: 3
+				},
+				{
+					lvl: 3,
+					id: 44
+				}],
+				Unbreakable: 1,
+				display: {
+					Name: "Apocalypse"
+				},
+				AttributeModifiers: [{
+					UUIDMost: -6972338111383059132L,
+					UUIDLeast: -8978659762232839026L,
+					Amount: 4.0d,
+					Slot: "chest",
+					AttributeName: "generic.armor",
+					Operation: 0,
+					Name: "generic.armor"
+				}]
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "waterstrainer:strainer_fisherman"
+		},
+		weight: 4
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "bibliocraft:lampgold"
+		},
+		weight: 30
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "camscurrency:dupondius"
+		},
+		count: 5,
+		random_bonus: 2,
+		weight: 10
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:stone"
+		},
+		count: 8,
+		random_bonus: 4,
+		weight: 30
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:sapling",
+			Damage: 5s
+		},
+		count: 4,
+		weight: 25
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:iron_ore"
+		},
+		weight: 20
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:wheat_seeds"
+		},
+		count: 32,
+		weight: 20
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:planks",
+			Damage: 2s
+		},
+		random_bonus: 127,
+		weight: 10
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "tconstruct:seared"
+		},
+		random_bonus: 3,
+		weight: 10
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:deadbush"
+		},
+		count: 64,
+		weight: 28
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:sapling"
+		},
+		random_bonus: 8,
+		weight: 90
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:sand",
+			Damage: 1s
+		},
+		count: 12,
+		weight: 35
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:web"
+		},
+		count: 4,
+		weight: 85
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:dirt"
+		},
+		count: 8,
+		weight: 90
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:red_mushroom"
+		},
+		random_bonus: 2,
+		weight: 90
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:log"
+		},
+		count: 16,
+		weight: 80
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "tconstruct:tooltables",
+			Damage: 4s
+		},
+		weight: 60
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "exnihilocreatio:block_barrel0"
+		},
+		count: 2,
+		weight: 45
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:coal_ore"
+		},
+		count: 8,
+		weight: 32
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:tnt"
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:sand"
+		},
+		count: 12,
+		weight: 35
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "appliedenergistics2:material",
+			Damage: 51s
+		},
+		count: 2,
+		weight: 8
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "appliedenergistics2:material",
+			Damage: 51s
+		},
+		count: 5
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "exnihilocreatio:block_sieve"
+		},
+		weight: 8
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:dirt",
+			Damage: 2s
+		},
+		count: 4,
+		weight: 90
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:melon_block"
+		},
+		weight: 5
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "harvestcraft:meatystewitem"
+		},
+		random_bonus: 1,
+		weight: 70
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:stone",
+			Damage: 1s
+		},
+		count: 10,
+		weight: 90
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "cfm:crate",
+			tag: {
+				Sealed: 1,
+				RepairCost: 0,
+				display: {
+					Name: "Want To See My Rock Colletion?"
+				},
+				Items: [{
+					Slot: 5,
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": {}
+					},
+					id: "minecraft:stone",
+					Count: 64,
+					Damage: 5
+				},
+				{
+					Slot: 6,
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": {}
+					},
+					id: "minecraft:cobblestone",
+					Count: 64,
+					Damage: 0
+				},
+				{
+					Slot: 9,
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": {}
+					},
+					id: "minecraft:stone",
+					Count: 64,
+					Damage: 3
+				},
+				{
+					Slot: 10,
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": {}
+					},
+					id: "minecraft:stone",
+					Count: 64,
+					Damage: 1
+				}],
+				Lock: ""
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:sandstone"
+		},
+		count: 10,
+		random_bonus: 10,
+		weight: 85
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:flint"
+		},
+		count: 16,
+		weight: 50
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "metallurgy:bitumen_block"
+		},
+		weight: 19
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:diamond"
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "darkutils:lore_tag"
+		},
+		weight: 4
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:red_flower",
+			Damage: 3s
+		},
+		count: 2,
+		weight: 75
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thermalexpansion:morb",
+			tag: {
+				Generic: 1,
+				id: "minecraft:rabbit"
+			}
+		},
+		weight: 5
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:dispenser"
+		},
+		weight: 25
+	},
+	{
+		xp_levels: 10,
+		type: "xp_levels",
+		weight: 16
+	},
+	{
+		command: "/say POGCHAMP",
+		type: "command",
+		weight: 25
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "exnihilocreatio:crook_tconstruct",
+			tag: {
+				StatsOriginal: {
+					AttackSpeedMultiplier: 1.0f,
+					MiningSpeed: 6.21f,
+					FreeModifiers: 3,
+					Durability: 672,
+					HarvestLevel: 2,
+					Attack: 3.87f
+				},
+				display: {
+					Name: "Cotten Candy Crook"
+				},
+				Stats: {
+					AttackSpeedMultiplier: 1.0f,
+					MiningSpeed: 18.681301f,
+					FreeModifiers: 0,
+					Durability: 1172,
+					HarvestLevel: 3,
+					Attack: 4.87f
+				},
+				Special: {
+					Categories: [
+						"harvest",
+						"aoe",
+						"tool"
+					]
+				},
+				TinkerData: {
+					UsedModifiers: 3,
+					Materials: [
+						"aluminum",
+						"manasteel",
+						"advancedalloy",
+						"ma.superium"
+					],
+					Modifiers: [
+						"haste",
+						"diamond"
+					]
+				},
+				Modifiers: [{
+					identifier: "manarepair",
+					color: -10296843,
+					level: 1
+				},
+				{
+					identifier: "prosperous",
+					color: -16744485,
+					level: 1
+				},
+				{
+					identifier: "haste",
+					current: 100,
+					color: 9502720,
+					level: 2,
+					max: 100,
+					extraInfo: "99 / 100"
+				},
+				{
+					identifier: "diamond",
+					color: 9237730
+				}],
+				Traits: [
+					"manarepair",
+					"prosperous"
+				]
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "yoyos:yoyo",
+			tag: {
+				StatsOriginal: {
+					AttackSpeedMultiplier: 1.0f,
+					MiningSpeed: 0.0f,
+					FreeModifiers: 3,
+					ChordLength: 8.0f,
+					Durability: 185,
+					HarvestLevel: 0,
+					Duration: 66,
+					Attack: 2.95f,
+					Weight: 1.3000001f
+				},
+				display: {
+					Lore: [
+						"Don't Shry! It's going to be OKAY!"
+					],
+					Name: "Sheary Eye"
+				},
+				Stats: {
+					AttackSpeedMultiplier: 1.0f,
+					MiningSpeed: 0.0f,
+					FreeModifiers: 0,
+					ChordLength: 8.0f,
+					Durability: 277,
+					HarvestLevel: 1,
+					Duration: 125,
+					Attack: 3.45f,
+					Weight: 1.5000001f
+				},
+				Special: {
+					Categories: [
+						"harvest",
+						"weapon",
+						"projectile",
+						"no_melee",
+						"tool"
+					]
+				},
+				TinkerData: {
+					UsedModifiers: 4,
+					Materials: [
+						"blueslime",
+						"flint",
+						"wood",
+						"bronze"
+					],
+					Modifiers: [
+						"emerald",
+						"gardening",
+						"collecting",
+						"creative",
+						"lubricated"
+					]
+				},
+				Modifiers: [{
+					identifier: "slimey_blue",
+					color: -9123641,
+					level: 1
+				},
+				{
+					identifier: "crude",
+					color: -9868951,
+					level: 2,
+					crude2: 1b
+				},
+				{
+					identifier: "ecological",
+					color: -7444965,
+					level: 1
+				},
+				{
+					identifier: "dense",
+					color: -1852056,
+					level: 1
+				},
+				{
+					identifier: "emerald",
+					color: 4322180
+				},
+				{
+					identifier: "gardening",
+					color: 9126710
+				},
+				{
+					identifier: "collecting",
+					color: 3158064,
+					level: 1
+				},
+				{
+					identifier: "creative",
+					color: 0,
+					level: 1
+				},
+				{
+					identifier: "lubricated",
+					color: 16776798,
+					level: 1
+				}],
+				Traits: [
+					"slimey_blue",
+					"crude2",
+					"ecological",
+					"dense"
+				]
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "bibliocraft:biblioclipboard",
+			tag: {
+				page1: {
+					title: "My Bucket List",
+					taskStates: [I;
+						1,
+						1,
+						1,
+						1,
+						1,
+						1,
+						0,
+						0,
+						0
+					],
+					tasks: {
+						task5: "Place with cool wizard",
+						task6: "Place between the sky",
+						task7: "and the Void",
+						task8: "",
+						task9: "",
+						task1: "Place with white sand",
+						task2: "Place that split apart",
+						task3: "Place where it burns",
+						task4: "Place with weird wizard"
+					}
+				},
+				totalPages: 1,
+				currentPage: 1
+			}
+		}
+	}]
+}

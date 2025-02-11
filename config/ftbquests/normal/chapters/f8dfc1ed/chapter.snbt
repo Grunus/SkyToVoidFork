@@ -1,0 +1,26 @@
+{
+	title: "Achievements",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "simple_trophies:trophy",
+		tag: {
+			TrophyColorGreen: 255,
+			TrophyVariant: "classic",
+			TrophyShowsTooltip: 1b,
+			TrophyItem: {
+				id: "minecraft:air",
+				Count: 1b,
+				Damage: 0s
+			},
+			TrophyColorBlue: 255,
+			TrophyColorRed: 255,
+			TrophyName: "",
+			TrophyEarnedAt: 1657699787L
+		}
+	},
+	always_invisible: false,
+	group: -172059742,
+	default_quest_shape: "rsquare"
+}

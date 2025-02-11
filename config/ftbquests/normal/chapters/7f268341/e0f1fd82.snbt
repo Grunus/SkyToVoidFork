@@ -1,0 +1,28 @@
+{
+	title: "Automate Crafting",
+	x: 11.5d,
+	y: -0.5d,
+	description: "Create a blueprint on the left crafting grid and put resources on the right.",
+	text: [
+		""
+	],
+	dependencies: [
+		"b7636150"
+	],
+	hide: true,
+	tasks: [{
+		uid: "79e73fc9",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "enderio:block_crafter"
+		}]
+	}],
+	rewards: [{
+		uid: "1058dcef",
+		type: "loot",
+		table: 34
+	}]
+}

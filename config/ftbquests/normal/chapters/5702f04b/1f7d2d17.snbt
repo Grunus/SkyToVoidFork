@@ -1,0 +1,76 @@
+{
+	title: "Healer Attire",
+	x: -6.5d,
+	y: 20.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"d18b7edb",
+		"659354d2"
+	],
+	hide: true,
+	tasks: [{
+		uid: "b98ac791",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ebwizardry:wizard_hat_healing"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "2a01c42f",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ebwizardry:wizard_robe_healing"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "3cdc895e",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ebwizardry:wizard_leggings_healing"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "e8624f36",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ebwizardry:wizard_boots_healing"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "cb3326d6",
+		type: "loot",
+		table: 45
+	},
+	{
+		uid: "d814c824",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ebwizardry:ring_paladin"
+		}
+	}]
+}

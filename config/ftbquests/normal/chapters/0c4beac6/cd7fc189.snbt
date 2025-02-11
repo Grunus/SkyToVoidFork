@@ -1,0 +1,36 @@
+{
+	title: "Weather Cycle Off",
+	x: -2.0d,
+	y: -7.0d,
+	can_repeat: true,
+	dependencies: [
+		"cdc0579e"
+	],
+	hide: true,
+	optional: true,
+	tasks: [{
+		uid: "58d2e5b4",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "camscurrency:dupondius"
+		}]
+	}],
+	rewards: [{
+		uid: "ec341f81",
+		type: "command",
+		title: "Weather Cycle = False",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "tconstruct:brownstone",
+			Damage: 4s
+		},
+		team_reward: true,
+		auto: "disabled",
+		command: "/gamerule doWeatherCycle false"
+	}]
+}

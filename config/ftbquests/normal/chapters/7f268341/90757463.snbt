@@ -1,0 +1,46 @@
+{
+	title: "Wait. Why Would I Waste Food?",
+	x: 7.0d,
+	y: 13.0d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"ae08ee94",
+		"c340fde7"
+	],
+	hide: true,
+	tasks: [{
+		uid: "6b0bf870",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "extrautils2:machine",
+			tag: {
+				Type: "extrautils2:generator_culinary"
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "6941357c",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "harvestcraft:minerstewitem"
+		},
+		random_bonus: 1
+	},
+	{
+		uid: "f3560b51",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "camscurrency:dupondius"
+		},
+		count: 16
+	}]
+}

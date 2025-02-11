@@ -1,0 +1,110 @@
+{
+	title: "Sunken Factory",
+	x: -6.25d,
+	y: 0.0d,
+	shape: "octagon",
+	description: "Side Mission",
+	text: [
+		"Upon opening this page, a note written on the mission briefing from Cilitou falls out of the Quest Book:",
+		"",
+		"''Upon further inspection with everyone else at the village, we come to the conclusion that this virus originated somewhere else.",
+		"Slavender suggested checking out an old factory where he used to work, as it was the first location to experience such a thing.",
+		"Elbow says to not ruin the factory as he owns it so uhh... don't ruin it, I guess?''",
+		"-----------------------------",
+		"Recommended Armor Value: 12+",
+		"Recommended Melee Value: 6+",
+		"Crow Bar Needed",
+		"Enemy Respawn Time: 10 Minutes"
+	],
+	dependencies: [
+		"cde44b99"
+	],
+	hide: true,
+	size: 2.5d,
+	tasks: [{
+		uid: "9f955e0f",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "gachashroom:chaga",
+			tag: {
+				ench: [{
+					lvl: 1s,
+					id: 10s
+				}],
+				display: {
+					Lore: [
+						"Stained black, like the void..."
+					],
+					Name: "Envoked Flesh"
+				}
+			}
+		}],
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "39d2665b",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "metallurgy:electrum_chestplate",
+			tag: {
+				ench: [{
+					lvl: 1s,
+					id: 5s
+				}],
+				display: {
+					Lore: [
+						"Can reach meters baby!"
+					],
+					Name: "Rifle Module"
+				},
+				AttributeModifiers: [{
+					UUIDMost: 5156253806804156674L,
+					UUIDLeast: -8797413293752207646L,
+					Amount: -5000.0d,
+					Slot: "chest",
+					AttributeName: "generic.attackDamage",
+					Operation: 0,
+					Name: "generic.attackDamage"
+				},
+				{
+					UUIDMost: -6972338111383059132L,
+					UUIDLeast: -8978659762232839026L,
+					Amount: -15.0d,
+					Slot: "chest",
+					AttributeName: "generic.armor",
+					Operation: 0,
+					Name: "generic.armor"
+				},
+				{
+					UUIDMost: 8327352495709046272L,
+					UUIDLeast: -5277848957662531749L,
+					Amount: -5.0d,
+					Slot: "chest",
+					AttributeName: "generic.maxHealth",
+					Operation: 0,
+					Name: "generic.maxHealth"
+				},
+				{
+					UUIDMost: 7832913920011751051L,
+					UUIDLeast: -8490877474199853002L,
+					Amount: 10.0d,
+					Slot: "chest",
+					AttributeName: "generic.reachDistance",
+					Operation: 0,
+					Name: "generic.reachDistance"
+				}]
+			}
+		}
+	},
+	{
+		uid: "1f2b5912",
+		type: "ftbmoney:money",
+		ftb_money: 250L
+	}]
+}

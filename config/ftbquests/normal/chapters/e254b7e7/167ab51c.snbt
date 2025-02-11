@@ -1,0 +1,55 @@
+{
+	title: "Lesser Gods Vanquished",
+	x: 1.0d,
+	y: -22.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"996ee067"
+	],
+	hide: true,
+	tasks: [{
+		uid: "376918da",
+		type: "kill",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:nether_star"
+		},
+		entity: "minecraft:wither",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "d595afb4",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "camscurrency:denarius"
+		},
+		count: 6
+	},
+	{
+		uid: "87ffeff7",
+		type: "loot",
+		table: 37
+	},
+	{
+		uid: "95df03d8",
+		type: "loot",
+		table: 12
+	},
+	{
+		uid: "c3af9d81",
+		type: "loot",
+		table: 25
+	},
+	{
+		uid: "549a18ac",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	}]
+}

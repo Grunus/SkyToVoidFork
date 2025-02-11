@@ -1,0 +1,30 @@
+{
+	title: "1823",
+	x: 21.5d,
+	y: -0.5d,
+	description: "Better generator.",
+	text: [
+		""
+	],
+	dependencies: [
+		"1a72440f",
+		"0bc9f9f7"
+	],
+	hide: true,
+	tasks: [{
+		uid: "560f7639",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "enderio:block_franken_zombie_generator"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "8f26e02f",
+		type: "loot",
+		table: 36
+	}]
+}

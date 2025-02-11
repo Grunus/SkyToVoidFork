@@ -1,0 +1,17 @@
+filename = 'WaterStrainer-1.12-3.3.0.jar'
+name = 'Water Strainer'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12', '1.12.1', '1.12.2' ]
+x-prismlauncher-release-type = 'beta'
+x-prismlauncher-version-number = 'WaterStrainer-1.12-3.3.0.jar'
+
+[download]
+hash = 'a408fe27b271be54397b65eff0dfaf62744a5eaa'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 3073795
+project-id = 246939

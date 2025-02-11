@@ -1,0 +1,47 @@
+{
+	title: "Clear Skies, All the Time.",
+	x: -12.5d,
+	y: -15.5d,
+	shape: "diamond",
+	description: "''This bridge will take a lot of power, if you could build me some solar panels, just a few, I can keep this bridge constantly on!''",
+	text: [
+		"Progress! I can feel it! Soon I can recollect the past..."
+	],
+	dependencies: [
+		"381381e1"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "13614aba",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "enderio:block_solar_panel",
+			Damage: 1s
+		}],
+		count: 4L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "9b1a3681",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "enderio:item_material",
+			Damage: 13s
+		},
+		count: 8,
+		random_bonus: 8
+	},
+	{
+		uid: "f1958723",
+		type: "ftbmoney:money",
+		ftb_money: 100L,
+		random_bonus: 200
+	}]
+}

@@ -1,0 +1,44 @@
+{
+	title: "NOT SO FAST!",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "minecraft:barrier"
+	},
+	x: 7.105427357601002E-15d,
+	y: -16.046428571428578d,
+	text: [
+		"Come to our kingdom, mortal. We have a great proposition for you."
+	],
+	dependencies: [
+		"d1789230"
+	],
+	hide: true,
+	size: 1.5d,
+	tasks: [{
+		uid: "b922a7fb",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "cdff6c3f",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "contenttweaker:3_thegreatchallenge",
+			tag: {
+				display: {
+					Lore: [
+						"Gain access to The Great Challenge Mission.",
+						"",
+						"",
+						"Can be used on the door in Mission Hub."
+					],
+					Name: "The Great Hand"
+				}
+			}
+		}
+	}]
+}

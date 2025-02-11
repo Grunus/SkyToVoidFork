@@ -1,0 +1,46 @@
+{
+	x: -13.5d,
+	y: 5.0d,
+	shape: "diamond",
+	dependencies: [
+		"c9cad6bb",
+		"2b00bb4e"
+	],
+	hide: true,
+	tasks: [{
+		uid: "3df179a4",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "tconstruct:edible",
+			tag: {
+				ench: [{
+					lvl: 1s,
+					id: 40s
+				},
+				{
+					lvl: 1s,
+					id: 51s
+				}],
+				display: {
+					Name: "Abyssal Droplet"
+				}
+			},
+			Damage: 32s
+		}],
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "8f01e4df",
+		type: "custom",
+		title: "Sunken Factory: Devoid Quest Path",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:filled_map"
+		}
+	}]
+}

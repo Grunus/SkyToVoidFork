@@ -1,0 +1,49 @@
+{
+	title: "''Yeah... I Got to The End...''",
+	x: -4.0d,
+	y: 3.0d,
+	text: [
+		"With lava and glowstone dust you can create end stone."
+	],
+	dependencies: [
+		"8008871c"
+	],
+	hide: true,
+	tasks: [{
+		uid: "65a08c9c",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:end_stone"
+		}]
+	}],
+	rewards: [{
+		uid: "018760d2",
+		type: "loot",
+		table: 1
+	},
+	{
+		uid: "30493520",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thermalfoundation:material",
+			Damage: 130s
+		}
+	},
+	{
+		uid: "4319792c",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thermalfoundation:material",
+			Damage: 132s
+		}
+	}]
+}

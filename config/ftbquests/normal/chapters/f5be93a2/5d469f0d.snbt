@@ -1,0 +1,49 @@
+{
+	title: "Mark of Lust",
+	x: 1.5d,
+	y: -3.0d,
+	shape: "square",
+	text: [
+		""
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"01437c64"
+	],
+	hide: true,
+	tasks: [{
+		uid: "83f71682",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thermalfoundation:rockwool",
+			tag: {
+				ench: [{
+					lvl: 7s,
+					id: 40s
+				}],
+				display: {
+					Name: "VI. Mark of Lust"
+				}
+			},
+			Damage: 9s
+		}]
+	}],
+	rewards: [{
+		uid: "4f2b6b41",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "cyclicmagic:heart_food"
+		}
+	},
+	{
+		uid: "8fe4005f",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

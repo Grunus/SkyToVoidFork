@@ -1,0 +1,25 @@
+{
+	title: "Hotel Worthy",
+	x: -7.5d,
+	y: 7.5d,
+	description: "Placing Elevators above/below other Elevators you can jump/shift down to each floor.",
+	dependencies: [
+		"a5d8173c"
+	],
+	hide: true,
+	tasks: [{
+		uid: "16073f93",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "elevatorid:elevator_white"
+		}]
+	}],
+	rewards: [{
+		uid: "703b466b",
+		type: "loot",
+		table: 31
+	}]
+}

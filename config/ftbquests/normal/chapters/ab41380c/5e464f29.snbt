@@ -1,0 +1,60 @@
+{
+	title: "Commence Bridge",
+	x: -12.5d,
+	y: -16.5d,
+	shape: "diamond",
+	text: [
+		"Finally! I can see what's left of our home. Reminisce of a time I used to roam in."
+	],
+	dependencies: [
+		"7a85e06d"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "9dcb0ca4",
+		type: "location",
+		title: "-606 84 -924",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "appliedenergistics2:quartz_vibrant_glass"
+		},
+		location: [I;
+			0,
+			-607,
+			84,
+			-925,
+			2,
+			2,
+			2
+		]
+	}],
+	rewards: [{
+		uid: "741b0031",
+		type: "command",
+		title: "Light Road",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "appliedenergistics2:molecular_assembler"
+		},
+		team_reward: true,
+		auto: "no_toast",
+		command: "/fill -609 83 -878 -605 83 -920 appliedenergistics2:quartz_vibrant_glass"
+	},
+	{
+		uid: "3f84de7d",
+		type: "custom",
+		title: "Alþrúðr Quest Trial",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:filled_map"
+		},
+		team_reward: true
+	}]
+}

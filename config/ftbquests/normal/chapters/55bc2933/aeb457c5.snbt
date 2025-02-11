@@ -1,0 +1,42 @@
+{
+	x: -7.5d,
+	y: -1.0d,
+	shape: "diamond",
+	dependencies: [
+		"ad30655e"
+	],
+	hide: true,
+	tasks: [{
+		uid: "3481c1f2",
+		type: "checkmark",
+		title: "Phantoms greet you into their dimension.",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ebwizardry:spectral_dust",
+			Damage: 4s
+		}
+	}],
+	rewards: [{
+		uid: "1821a205",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "contenttweaker:extra1_sunkenfactory_devoid",
+			tag: {
+				display: {
+					Lore: [
+						"Gain access to Sunken Factory: Devoid Mission",
+						"",
+						"",
+						"Can be used on the door in Mission Hub."
+					],
+					Name: "Corrupted Key"
+				}
+			}
+		}
+	}]
+}

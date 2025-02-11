@@ -1,0 +1,29 @@
+{
+	x: 13.5d,
+	y: 3.5d,
+	shape: "square",
+	dependencies: [
+		"0f56d10c"
+	],
+	hide: true,
+	tasks: [{
+		uid: "49717381",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "enderio:item_inventory_charger_vibrant"
+		}]
+	}],
+	rewards: [{
+		uid: "c15bd787",
+		type: "loot",
+		table: 37
+	},
+	{
+		uid: "0f901f0d",
+		type: "loot",
+		table: 37
+	}]
+}

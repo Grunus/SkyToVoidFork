@@ -1,0 +1,33 @@
+{
+	title: "There We Go...",
+	x: 17.5d,
+	y: 8.0d,
+	dependencies: [
+		"48aa9504"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "d11f3d61",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "industrialforegoing:dryrubber"
+		}],
+		count: 8L
+	}],
+	rewards: [{
+		uid: "7dfb048a",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "industrialforegoing:dryrubber"
+		},
+		count: 16,
+		random_bonus: 16
+	}]
+}

@@ -1,0 +1,30 @@
+{
+	title: "Meet Elbow",
+	x: -4.5d,
+	y: 3.5d,
+	shape: "diamond",
+	dependencies: [
+		"c79642c1"
+	],
+	hide: true,
+	tasks: [{
+		uid: "600d737f",
+		type: "location",
+		title: "162 88 118",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "camscurrency:dupondius"
+		},
+		location: [I;
+			0,
+			-163,
+			88,
+			118,
+			2,
+			2,
+			2
+		]
+	}]
+}

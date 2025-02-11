@@ -1,0 +1,40 @@
+{
+	title: "Cloud Service: Hullabaloo",
+	x: -12.5d,
+	y: 12.0d,
+	shape: "octagon",
+	description: "Unlocks items within the quest book shop.",
+	hide_dependency_lines: true,
+	dependencies: [
+		"52fffa66",
+		"a481a790"
+	],
+	hide: true,
+	tasks: [{
+		uid: "d25b4fe1",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "contenttweaker:pylon",
+			tag: {
+				display: {
+					Lore: [
+						"Unlocks special Cloud Service items inside",
+						"the quest book shop from specific traders.",
+						"Complete quests from NPCs to reveal Cloud",
+						"Service quests."
+					],
+					Name: "Cloud Service Pylon"
+				}
+			}
+		}],
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "1136a076",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

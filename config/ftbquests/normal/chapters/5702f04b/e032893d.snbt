@@ -1,0 +1,26 @@
+{
+	x: -5.5d,
+	y: 20.5d,
+	dependencies: [
+		"d18b7edb",
+		"659354d2"
+	],
+	hide: true,
+	tasks: [{
+		uid: "db4f460b",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ebwizardry:novice_healing_wand"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "46b5ff2d",
+		type: "loot",
+		table: 45
+	}]
+}

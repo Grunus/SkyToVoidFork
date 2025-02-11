@@ -1,0 +1,72 @@
+{
+	title: "Power Trip",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "thermalexpansion:frame",
+		Damage: 128s
+	},
+	x: -6.0d,
+	y: -3.0d,
+	description: "Uh oh... someone abused their discord powers again...",
+	text: [
+		"Energy Cells store energy. Should be clear enough.",
+		"",
+		"with Fluxducts you can connect the Energy Cell to other machines to power them."
+	],
+	dependencies: [
+		"74337ab7"
+	],
+	hide: true,
+	tasks: [{
+		uid: "feb816fd",
+		type: "item",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thermalexpansion:cell",
+			tag: {
+				Recv: 1000,
+				RSControl: 0,
+				Facing: 3,
+				Energy: 0,
+				SideCache: [B;
+					2b,
+					1b,
+					1b,
+					1b,
+					1b,
+					1b
+				],
+				Level: 0,
+				Send: 1000
+			}
+		},
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thermalexpansion:frame",
+			Damage: 128s
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "34c7c389",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thermaldynamics:duct_0"
+		}]
+	}],
+	rewards: [{
+		uid: "029c7967",
+		type: "loot",
+		table: 7
+	}]
+}

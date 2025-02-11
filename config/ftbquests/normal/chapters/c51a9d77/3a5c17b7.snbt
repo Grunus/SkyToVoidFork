@@ -1,0 +1,26 @@
+{
+	title: "Sleep on the Go!",
+	x: -8.5d,
+	y: 7.5d,
+	dependencies: [
+		"a5d8173c"
+	],
+	hide: true,
+	tasks: [{
+		uid: "289d63e0",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "openblocks:sleeping_bag"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "5a5a3ce2",
+		type: "loot",
+		table: 31
+	}]
+}

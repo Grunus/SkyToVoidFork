@@ -1,0 +1,55 @@
+{
+	title: "The Cloth",
+	x: 6.5d,
+	y: 14.0d,
+	dependencies: [
+		"3da1b8d2"
+	],
+	hide: true,
+	tasks: [{
+		uid: "c3f6a3e5",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "tconstruct:materials",
+			Damage: 15s
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "8dd1d13c",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "exnihilocreatio:item_material",
+			Damage: 2s
+		},
+		count: 8
+	},
+	{
+		uid: "446dc1b4",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ebwizardry:magic_silk"
+		},
+		count: 8
+	},
+	{
+		uid: "a0b9905e",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "harvestcraft:silkentofuitem"
+		},
+		count: 8
+	}]
+}

@@ -1,0 +1,30 @@
+{
+	title: "Experience",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "minecraft:experience_bottle"
+	},
+	x: 1.0d,
+	y: -7.5d,
+	description: "''I can transfer experience from myself to you!''",
+	text: [
+		"Purchase 10 levels of experience whenever needed."
+	],
+	dependencies: [
+		"f0ba6cef"
+	],
+	hide: true,
+	tasks: [{
+		uid: "6ca631da",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "camscurrency:aureus"
+		}],
+		consume_items: true
+	}]
+}

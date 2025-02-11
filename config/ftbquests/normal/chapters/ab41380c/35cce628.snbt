@@ -1,0 +1,49 @@
+{
+	title: "Gemcorn Zircon",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "biomesoplenty:gem_block",
+		Damage: 6s
+	},
+	x: 12.0d,
+	y: 7.5d,
+	description: "Some say shungite gives you magical abilities.",
+	hide_dependency_lines: true,
+	dependencies: [
+		"02b464cc"
+	],
+	hide: true,
+	tasks: [{
+		uid: "c0b2b1cc",
+		type: "location",
+		title: "679 173 351",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "biomesoplenty:gem_block",
+			Damage: 6s
+		},
+		location: [I;
+			0,
+			679,
+			173,
+			351,
+			10,
+			10,
+			10
+		]
+	}],
+	rewards: [{
+		uid: "9c6c0f92",
+		type: "loot",
+		table: 59
+	},
+	{
+		uid: "907de026",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

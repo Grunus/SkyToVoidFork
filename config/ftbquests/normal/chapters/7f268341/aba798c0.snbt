@@ -1,0 +1,51 @@
+{
+	title: "Tokens",
+	x: 20.0d,
+	y: -2.5d,
+	description: "Combining these Tokens into Fused Quartz can create block filters using different mob types.",
+	text: [
+		""
+	],
+	dependencies: [
+		"0bc9f9f7"
+	],
+	hide: true,
+	tasks: [{
+		uid: "aff7c73a",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "enderio:item_material",
+			Damage: 78s
+		}]
+	},
+	{
+		uid: "a1bfb5a7",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "enderio:item_material",
+			Damage: 79s
+		}]
+	},
+	{
+		uid: "044fc3fb",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "enderio:item_material",
+			Damage: 80s
+		}]
+	}],
+	rewards: [{
+		uid: "2f675caa",
+		type: "loot",
+		table: 35
+	}]
+}

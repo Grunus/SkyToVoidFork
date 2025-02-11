@@ -1,0 +1,58 @@
+{
+	title: "Bait n' Trick",
+	x: 7.0d,
+	y: 7.0d,
+	description: "You can create bait to spawn animals into the world.",
+	text: [
+		"Each bait needs certain requirements for them to spawn. Once you've met all of their requirements, step back and wait a few minutes for them to appear."
+	],
+	dependencies: [
+		"be627f93"
+	],
+	hide: true,
+	tasks: [{
+		uid: "4198b7c0",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "excompressum:bait",
+			Damage: 2s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "3f26a9b0",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "excompressum:bait",
+			Damage: 3s
+		}
+	},
+	{
+		uid: "19ac764f",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "excompressum:bait",
+			Damage: 4s
+		}
+	},
+	{
+		uid: "5dbd8402",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "excompressum:bait",
+			Damage: 8s
+		}
+	}]
+}

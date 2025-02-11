@@ -1,0 +1,31 @@
+{
+	title: "*Growing Intensifies*",
+	x: -16.0d,
+	y: 8.0d,
+	dependencies: [
+		"713bfccd"
+	],
+	hide: true,
+	tasks: [{
+		uid: "9edae060",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "mysticalagriculture:growth_accelerator"
+		}],
+		count: 9L
+	}],
+	rewards: [{
+		uid: "2c87c663",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "mysticalagriculture:growth_accelerator"
+		},
+		count: 2
+	}]
+}

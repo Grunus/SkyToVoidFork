@@ -1,0 +1,46 @@
+{
+	title: "Fade CAD",
+	x: -5.0d,
+	y: 13.0d,
+	shape: "square",
+	description: "You can change the colors on your Assistant.",
+	text: [
+		""
+	],
+	dependencies: [
+		"7bc3f5fa"
+	],
+	hide: true,
+	tasks: [{
+		uid: "e30e5c32",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "psi:cad_colorizer_",
+			Damage: 16s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "67a95c2f",
+		type: "loot",
+		table: 49
+	},
+	{
+		uid: "bcfb40b8",
+		type: "loot",
+		table: 49
+	},
+	{
+		uid: "b96f2145",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "harvestcraft:rainbowcurryitem"
+		}
+	}]
+}

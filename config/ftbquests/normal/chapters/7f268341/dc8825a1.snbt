@@ -1,0 +1,31 @@
+{
+	title: "Money Printer",
+	x: -4.0d,
+	y: -4.0d,
+	description: "if you upgrade your compactor, you can apply augments to it.",
+	text: [
+		""
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"b1b8d5b4",
+		"7ec58ffc"
+	],
+	hide: true,
+	tasks: [{
+		uid: "fe5755f4",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thermalexpansion:augment",
+			Damage: 336s
+		}]
+	}],
+	rewards: [{
+		uid: "65dc672c",
+		type: "loot",
+		table: 8
+	}]
+}

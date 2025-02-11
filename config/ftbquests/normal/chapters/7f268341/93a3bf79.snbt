@@ -1,0 +1,50 @@
+{
+	x: 7.5d,
+	y: 3.5d,
+	shape: "square",
+	dependencies: [
+		"384e4ea2"
+	],
+	hide: true,
+	tasks: [{
+		uid: "9e8eddad",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "extrautils2:passivegenerator",
+			Damage: 8s
+		}]
+	}],
+	rewards: [{
+		uid: "2a1ca819",
+		type: "loot",
+		table: 16
+	},
+	{
+		uid: "0eb5b700",
+		type: "loot",
+		table: 19
+	},
+	{
+		uid: "bffc26ce",
+		type: "loot",
+		table: 12
+	},
+	{
+		uid: "c2d5ee4d",
+		type: "loot",
+		table: 3
+	},
+	{
+		uid: "ab71e725",
+		type: "loot",
+		table: 72
+	},
+	{
+		uid: "2d8ba892",
+		type: "loot",
+		table: 6
+	}]
+}

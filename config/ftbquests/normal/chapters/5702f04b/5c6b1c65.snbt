@@ -1,0 +1,35 @@
+{
+	title: "Insane",
+	x: -9.0d,
+	y: 7.5d,
+	dependencies: [
+		"f23bf935"
+	],
+	hide: true,
+	tasks: [{
+		uid: "7f52975d",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "mysticalagradditions:insanium"
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "7d379110",
+		type: "loot",
+		table: 11
+	},
+	{
+		uid: "a92e3df7",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "mysticalagradditions:storage"
+		}
+	}]
+}

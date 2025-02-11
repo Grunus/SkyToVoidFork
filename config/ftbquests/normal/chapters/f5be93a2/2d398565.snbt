@@ -1,0 +1,41 @@
+{
+	title: "Slavender III",
+	x: 1.5d,
+	y: 5.5d,
+	dependencies: [
+		"68234f16"
+	],
+	tasks: [{
+		uid: "634a570a",
+		type: "item",
+		title: "Any blockSteel",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "blockSteel",
+					id: "ore"
+				},
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "itemfilters:filter"
+		}],
+		count: 8L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "a00e523e",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "camscurrency:denarius"
+		},
+		count: 32
+	},
+	{
+		uid: "186d67f8",
+		type: "ftbmoney:money",
+		ftb_money: 125L
+	}]
+}

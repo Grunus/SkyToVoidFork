@@ -1,0 +1,91 @@
+{
+	title: "LEVEL UP",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "minecraft:experience_bottle"
+	},
+	x: -2.0d,
+	y: 6.5d,
+	shape: "diamond",
+	description: "''Enchanting is very important. The only way to hone your skills of enchanting is simply trying again and again. Doing the same spells and symbols until you can be consistent. I'd like you to try and enchant a little on your own. Oh, and I'd like to see how fast you can gain experience.''",
+	text: [
+		"Excellent. I look forward to your new enchants."
+	],
+	dependencies: [
+		"fe5e4f13"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "c1527dfb",
+		type: "stat",
+		title: "Enchant 20 items",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:enchanted_book",
+			tag: {
+				StoredEnchantments: [{
+					lvl: 1s,
+					id: 0s
+				}]
+			}
+		},
+		stat: "stat.itemEnchanted",
+		value: 20
+	},
+	{
+		uid: "f45cb21d",
+		type: "xp",
+		title: "Submit 100 Levels",
+		value: 100L,
+		points: false
+	}],
+	rewards: [{
+		uid: "be9d1b36",
+		type: "custom",
+		title: "Liam's Quest Trial",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:filled_map"
+		},
+		team_reward: true,
+		auto: "enabled"
+	},
+	{
+		uid: "3c0e9071",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:enchanted_book",
+			tag: {
+				StoredEnchantments: [{
+					lvl: 5s,
+					id: 16s
+				}]
+			}
+		}
+	},
+	{
+		uid: "0e5b0959",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "tombstone:scroll_buff"
+		}
+	},
+	{
+		uid: "530c6ede",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

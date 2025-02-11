@@ -1,0 +1,34 @@
+{
+	title: "Ultimate Watering Can",
+	x: -8.0d,
+	y: 2.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"ea5a6b35"
+	],
+	hide: true,
+	tasks: [{
+		uid: "534c42be",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thermalcultivation:watering_can",
+			tag: {
+				Water: 60000,
+				Mode: 4
+			},
+			Damage: 4s
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "100e709c",
+		type: "loot",
+		table: 70
+	}]
+}

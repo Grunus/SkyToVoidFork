@@ -1,0 +1,49 @@
+{
+	title: "Labyrinth of the Devoid and the Fearless",
+	x: 14.5d,
+	y: -2.5d,
+	description: "A structure built by the Void Believers to transform and infect the world to their visions.",
+	text: [
+		""
+	],
+	dependencies: [
+		"05faa4f9"
+	],
+	hide: true,
+	tasks: [{
+		uid: "f2802e5a",
+		type: "location",
+		title: "898 138 -283",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "chisel:energizedvoidstone",
+			Damage: 7s
+		},
+		location: [I;
+			0,
+			896,
+			138,
+			-287,
+			5,
+			5,
+			5
+		]
+	}],
+	rewards: [{
+		uid: "4afe7cee",
+		type: "loot",
+		table: 19
+	},
+	{
+		uid: "ad97a8c0",
+		type: "loot",
+		table: 20
+	},
+	{
+		uid: "85d723d1",
+		type: "ftbmoney:money",
+		ftb_money: 125L
+	}]
+}

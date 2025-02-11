@@ -1,0 +1,4 @@
+#loader gamestagebooks
+import mods.gamestagebooks.Book;
+
+Book.addBook("ipets1_stage", "Basic Biology of Pets", "Inventory Pets I", "inventorypets:sheep_pet", 0xe0ae4a);

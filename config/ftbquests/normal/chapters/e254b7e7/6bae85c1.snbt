@@ -1,0 +1,45 @@
+{
+	x: 0.0d,
+	y: -6.0d,
+	shape: "gear",
+	text: [
+		"I feel... the Obelisk? They're trying to contact us... we'll see about that..."
+	],
+	dependencies: [
+		"1d149a04",
+		"c808612f"
+	],
+	hide_text_until_complete: true,
+	size: 1.5d,
+	tasks: [{
+		uid: "e999b1b2",
+		type: "checkmark",
+		title: "Stop Them.",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "extrautils2:ingredients",
+			Damage: 2s
+		}
+	}],
+	rewards: [{
+		uid: "3ed20fc2",
+		type: "command",
+		title: "Weaken Their Grasp",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "contenttweaker:worldborder",
+			tag: {
+				display: {
+					Name: "Worldborder"
+				}
+			}
+		},
+		team_reward: true,
+		auto: "enabled",
+		command: "/worldborder set 1200"
+	}]
+}

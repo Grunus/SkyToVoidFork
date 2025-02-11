@@ -1,0 +1,39 @@
+{
+	title: "Perfect Core",
+	x: -15.5d,
+	y: 7.5d,
+	description: "The controller of the computer.",
+	text: [
+		"Remember that Energy Acceptors can convert all kinds of powers."
+	],
+	dependencies: [
+		"5b652e28"
+	],
+	hide: true,
+	tasks: [{
+		uid: "0f5f7691",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "appliedenergistics2:controller"
+		}]
+	}],
+	rewards: [{
+		uid: "7cf58c13",
+		type: "loot",
+		table: 15
+	},
+	{
+		uid: "875c2057",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "appliedenergistics2:controller"
+		},
+		count: 4
+	}]
+}

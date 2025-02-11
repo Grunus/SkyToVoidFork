@@ -1,0 +1,44 @@
+{
+	title: "Thermal Induction",
+	x: -2.0d,
+	y: -2.0d,
+	description: "Induction Smelters can provide unique resources from smelting certain items together. Check the recipe list to see all of them.",
+	text: [
+		""
+	],
+	dependencies: [
+		"366e5677"
+	],
+	hide: true,
+	tasks: [{
+		uid: "59948013",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thermalexpansion:machine",
+			tag: {
+				RSControl: 0b,
+				Facing: 3b,
+				Energy: 0,
+				SideCache: [B;
+					3b,
+					1b,
+					2b,
+					2b,
+					2b,
+					2b
+				],
+				Level: 0b
+			},
+			Damage: 3s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "409e8fdc",
+		type: "loot",
+		table: 8
+	}]
+}

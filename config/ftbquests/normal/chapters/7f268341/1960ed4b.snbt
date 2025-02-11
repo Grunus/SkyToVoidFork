@@ -1,0 +1,55 @@
+{
+	title: "Master Creation",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "industrialforegoing:pink_slime_ingot"
+	},
+	x: 21.5d,
+	y: 9.0d,
+	description: "Use the Pink Slime to create Pink Slime ingots.",
+	text: [
+		""
+	],
+	dependencies: [
+		"29fbb223"
+	],
+	hide: true,
+	tasks: [{
+		uid: "04e63f2e",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "industrialforegoing:ore_sieve"
+		}]
+	},
+	{
+		uid: "f5c3cbf9",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "industrialforegoing:pink_slime_ingot"
+		}]
+	}],
+	rewards: [{
+		uid: "d05f6659",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:spawn_egg",
+			tag: {
+				EntityTag: {
+					id: "industrialforegoing:pink_slime"
+				}
+			}
+		},
+		count: 3
+	}]
+}

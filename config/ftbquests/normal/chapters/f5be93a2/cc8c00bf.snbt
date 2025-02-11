@@ -1,0 +1,62 @@
+{
+	title: "Finde Final",
+	x: 2.5d,
+	y: 7.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"e73c5140"
+	],
+	tasks: [{
+		uid: "eec66e56",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:blaze_rod"
+		}],
+		count: 128L,
+		consume_items: true
+	},
+	{
+		uid: "92f142d3",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:ender_pearl"
+		}],
+		count: 64L,
+		consume_items: true
+	},
+	{
+		uid: "eaa028f2",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:gunpowder"
+		}],
+		count: 128L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "d645b45a",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "artifacts:power_glove"
+		}
+	},
+	{
+		uid: "235308da",
+		type: "ftbmoney:money",
+		ftb_money: 150L
+	}]
+}

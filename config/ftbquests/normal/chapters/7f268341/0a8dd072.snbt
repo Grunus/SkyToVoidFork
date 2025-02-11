@@ -1,0 +1,48 @@
+{
+	title: "Fluxed Electrum",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "redstonearsenal:material",
+		Damage: 32s
+	},
+	x: 1.0d,
+	y: -2.0d,
+	description: "Craft the blend first using destabilized redstone, then with an Induction Smelter, craft fluxed electrum ingots.",
+	text: [
+		""
+	],
+	dependencies: [
+		"6c78d11b"
+	],
+	hide: true,
+	tasks: [{
+		uid: "189dd983",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "redstonearsenal:material"
+		}],
+		count: 4L
+	},
+	{
+		uid: "8032201b",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "redstonearsenal:material",
+			Damage: 32s
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "215e2b85",
+		type: "loot",
+		table: 8
+	}]
+}

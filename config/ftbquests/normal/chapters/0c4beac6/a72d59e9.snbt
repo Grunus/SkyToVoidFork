@@ -1,0 +1,25 @@
+{
+	title: "Modded Branch",
+	x: -3.0d,
+	y: 1.5d,
+	description: "''Completing quests in your 1st Chapter gives you some cool stuff, but you'll run out of cool stuff to get eventually. I can summon those rewards once again as if you did complete another quest from that specific mod.''",
+	text: [
+		"Complete quests in Chapter 1 to unlock the general Tier rewards from specific mods."
+	],
+	dependencies: [
+		"1004e263"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "e1f673a0",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "camscurrency:aureus"
+		}],
+		consume_items: true
+	}]
+}

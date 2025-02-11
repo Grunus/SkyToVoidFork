@@ -1,0 +1,28 @@
+{
+	title: "Natural Fur",
+	x: 5.5d,
+	y: 14.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"3da1b8d2"
+	],
+	hide: true,
+	tasks: [{
+		uid: "bc42b284",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "tconstruct:materials",
+			Damage: 18s
+		}]
+	}],
+	rewards: [{
+		uid: "cfe4e50b",
+		type: "loot",
+		table: 5
+	}]
+}

@@ -1,0 +1,35 @@
+{
+	title: "Day Time",
+	x: -2.0d,
+	y: -6.0d,
+	can_repeat: true,
+	dependencies: [
+		"fc78a9e4"
+	],
+	hide: true,
+	optional: true,
+	tasks: [{
+		uid: "26ae8ecc",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "camscurrency:dupondius"
+		}]
+	}],
+	rewards: [{
+		uid: "af2e4744",
+		type: "command",
+		title: "Day Time",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "inventorypets:sun_pet"
+		},
+		team_reward: true,
+		auto: "enabled",
+		command: "/time set day"
+	}]
+}

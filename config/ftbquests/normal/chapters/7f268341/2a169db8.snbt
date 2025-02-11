@@ -1,0 +1,26 @@
+{
+	title: "Happy Holidays!",
+	x: 5.5d,
+	y: 3.5d,
+	description: "With the snow globe, travel around the islands to make it happy!",
+	dependencies: [
+		"8315b5a5"
+	],
+	hide: true,
+	tasks: [{
+		uid: "7773d9e8",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "extrautils2:snowglobe"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "729518f1",
+		type: "loot",
+		table: 19
+	}]
+}

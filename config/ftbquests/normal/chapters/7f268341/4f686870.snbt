@@ -1,0 +1,33 @@
+{
+	title: "Converting",
+	x: -15.5d,
+	y: 5.5d,
+	description: "The Energy Acceptor can convert other types of energy into Fluix.",
+	text: [
+		"For example, running Flux Tubes into the an Energy Acceptor will convert it into Fluix for ME items."
+	],
+	dependencies: [
+		"a09ed600"
+	],
+	hide: true,
+	tasks: [{
+		uid: "d3a9f1f5",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "appliedenergistics2:energy_acceptor"
+		}]
+	}],
+	rewards: [{
+		uid: "bb151950",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "appliedenergistics2:energy_acceptor"
+		}
+	}]
+}

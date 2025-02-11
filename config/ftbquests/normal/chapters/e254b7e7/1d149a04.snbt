@@ -1,0 +1,46 @@
+{
+	title: "Enveloping",
+	x: 0.0d,
+	y: -3.0d,
+	text: [
+		"They're not planning to do what I think they're doing, right?"
+	],
+	dependencies: [
+		"e3c8e7bd"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "eff99125",
+		type: "kill",
+		entity: "minecraft:creeper",
+		value: 5L
+	}],
+	rewards: [{
+		uid: "2e96511b",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "camscurrency:denarius"
+		},
+		count: 8
+	},
+	{
+		uid: "787fc063",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "camscurrency:dupondius"
+		},
+		count: 12
+	},
+	{
+		uid: "8a532e6d",
+		type: "loot",
+		table: 3
+	}]
+}

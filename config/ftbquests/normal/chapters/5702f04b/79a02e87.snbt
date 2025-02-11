@@ -1,0 +1,35 @@
+{
+	title: "Desichalkos",
+	x: 13.5d,
+	y: 10.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"08c7dd25",
+		"24c76a55"
+	],
+	hide: true,
+	tasks: [{
+		uid: "8fb8e3e4",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "metallurgy:desichalkos_ingot"
+		}],
+		count: 10L
+	}],
+	rewards: [{
+		uid: "0365f035",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "camscurrency:denarius"
+		},
+		count: 15
+	}]
+}

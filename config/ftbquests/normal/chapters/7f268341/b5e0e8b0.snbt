@@ -1,0 +1,43 @@
+{
+	title: "Simple Glider",
+	x: 13.0d,
+	y: -2.5d,
+	shape: "square",
+	text: [
+		"Glide around the islands!"
+	],
+	dependencies: [
+		"49e3543d"
+	],
+	hide: true,
+	tasks: [{
+		uid: "6358dc0b",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "openblocks:hang_glider"
+		}]
+	}],
+	rewards: [{
+		uid: "ac048f04",
+		type: "loot",
+		table: 1
+	},
+	{
+		uid: "0678c243",
+		type: "loot",
+		table: 7
+	},
+	{
+		uid: "6e0f4675",
+		type: "loot",
+		table: 5
+	},
+	{
+		uid: "5f34126e",
+		type: "loot",
+		table: 35
+	}]
+}

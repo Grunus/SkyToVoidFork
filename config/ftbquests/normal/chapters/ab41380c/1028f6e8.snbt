@@ -1,0 +1,60 @@
+{
+	title: "Journey To Stop The Thought Police",
+	x: -5.5d,
+	y: 3.5d,
+	shape: "diamond",
+	description: "''My noble traveler! These books are everywhere, Very hard to find... unless you purchase my Communist Liberator Device, you can find all of them easily!''",
+	text: [
+		"Now flee, traveler! Scattered across this Void on the remaining islands are the books! grab these books, bring them to me, and I'll destroy them!"
+	],
+	dependencies: [
+		"5584f80e"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "311f2787",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "biomesoplenty:biome_finder",
+			tag: {
+				ench: [{
+					lvl: 1,
+					id: 6
+				}],
+				RepairCost: 1,
+				display: {
+					Name: "Communist Liberator Device"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "e4025fdc",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "camscurrency:dupondius"
+		},
+		count: 12
+	},
+	{
+		uid: "32a8aa00",
+		type: "custom",
+		title: "Collect Communist Manifesto books around islands.",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "mapgadgets:item_editor"
+		},
+		auto: "enabled"
+	}]
+}

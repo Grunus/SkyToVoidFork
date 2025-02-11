@@ -1,0 +1,34 @@
+{
+	title: "Damascus Steel",
+	x: 14.5d,
+	y: 13.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"857f67f7"
+	],
+	hide: true,
+	tasks: [{
+		uid: "992fba62",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "metallurgy:damascus_steel_ingot"
+		}],
+		count: 10L
+	}],
+	rewards: [{
+		uid: "9cc5e65b",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "camscurrency:denarius"
+		},
+		count: 5
+	}]
+}

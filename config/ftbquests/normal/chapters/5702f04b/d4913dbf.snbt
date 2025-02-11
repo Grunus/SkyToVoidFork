@@ -1,0 +1,31 @@
+{
+	title: "Aldourite",
+	x: 15.5d,
+	y: 7.0d,
+	dependencies: [
+		"81b1cd10"
+	],
+	hide: true,
+	tasks: [{
+		uid: "68258a30",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "metallurgy:alduorite_ingot"
+		}],
+		count: 10L
+	}],
+	rewards: [{
+		uid: "d24436f3",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "camscurrency:dupondius"
+		},
+		count: 10
+	}]
+}

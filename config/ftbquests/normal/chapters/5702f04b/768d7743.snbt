@@ -1,0 +1,76 @@
+{
+	title: "Storm Mage Attire",
+	x: -6.5d,
+	y: 19.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"659354d2",
+		"dd2ac9e8"
+	],
+	hide: true,
+	tasks: [{
+		uid: "e5640223",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ebwizardry:wizard_hat_lightning"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "24c3d6ad",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ebwizardry:wizard_robe_lightning"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "f6bb951c",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ebwizardry:wizard_leggings_lightning"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "ee8dfa7f",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ebwizardry:wizard_boots_lightning"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "f648af9b",
+		type: "loot",
+		table: 23
+	},
+	{
+		uid: "d90c9943",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ebwizardry:ring_lightning_melee"
+		}
+	}]
+}

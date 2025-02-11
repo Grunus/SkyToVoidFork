@@ -1,0 +1,35 @@
+{
+	title: "IT Guy",
+	x: -10.5d,
+	y: 7.5d,
+	description: "Use it to view information about your ME.",
+	hide_dependency_lines: true,
+	dependencies: [
+		"7ca24d77",
+		"5c79f4a8",
+		"5bd6697d"
+	],
+	hide: true,
+	tasks: [{
+		uid: "705b57bb",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "appliedenergistics2:network_tool"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "bd9d9412",
+		type: "loot",
+		table: 14
+	},
+	{
+		uid: "ecb68b8c",
+		type: "loot",
+		table: 15
+	}]
+}

@@ -1,0 +1,35 @@
+{
+	title: "Tier II Primitive Reward",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "minecraft:flint"
+	},
+	x: -3.0d,
+	y: 4.5d,
+	can_repeat: true,
+	dependencies: [
+		"0d6a75ca",
+		"3ee3aab5",
+		"0fa01cd3"
+	],
+	hide: true,
+	optional: true,
+	tasks: [{
+		uid: "55b8c763",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "camscurrency:denarius"
+		}],
+		count: 12L
+	}],
+	rewards: [{
+		uid: "5b282142",
+		type: "loot",
+		table: 1
+	}]
+}

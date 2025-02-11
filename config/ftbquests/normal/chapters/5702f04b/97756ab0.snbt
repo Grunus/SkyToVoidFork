@@ -1,0 +1,40 @@
+{
+	title: "Make Sure To Clean Your Computer",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "minecraft:clay"
+	},
+	x: -2.0d,
+	y: 4.0d,
+	shape: "hexagon",
+	description: "Putting dust into a fully filled container will transform into clay!",
+	dependencies: [
+		"426b052b",
+		"a80d9d94"
+	],
+	hide: true,
+	tasks: [{
+		uid: "d65ffc6d",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:clay_ball"
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "c44448b5",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:clay"
+		},
+		random_bonus: 1
+	}]
+}

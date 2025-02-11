@@ -1,0 +1,76 @@
+{
+	title: "Pyromancer Attire",
+	x: -6.5d,
+	y: 17.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"659354d2",
+		"4bce41dd"
+	],
+	hide: true,
+	tasks: [{
+		uid: "66340bfa",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ebwizardry:wizard_hat_fire"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "faf10fed",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ebwizardry:wizard_robe_fire"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "b13afdec",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ebwizardry:wizard_leggings_fire"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "f8f0dc90",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ebwizardry:wizard_boots_fire"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "799c0651",
+		type: "loot",
+		table: 26
+	},
+	{
+		uid: "17fc6987",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ebwizardry:ring_fire_melee"
+		}
+	}]
+}

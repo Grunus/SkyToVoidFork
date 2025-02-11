@@ -1,0 +1,781 @@
+{
+	title: "Heavenly Souls",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "tombstone:impregnated_diamond"
+	},
+	loot_size: 1,
+	hide_tooltip: true,
+	use_title: true,
+	rewards: [{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "harvestcraft:rainbowcurryitem",
+			tag: {
+				ench: [{
+					lvl: 1s,
+					id: 105s
+				}],
+				HideFlags: 32,
+				display: {
+					Lore: [
+						"Looks like those wires would be a",
+						"great snack!"
+					],
+					Name: "Rainbow Machinery"
+				}
+			}
+		},
+		count: 2
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ebwizardry:amulet_glide"
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ebwizardry:scroll",
+			Damage: 114s
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "tconstruct:materials",
+			Damage: 50s
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "enderio:item_material",
+			Damage: 42s
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thermalfoundation:upgrade",
+			Damage: 35s
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "appliedenergistics2:storage_cell_16k",
+			tag: {}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "harvestcraft:rainbowcurryitem",
+			tag: {
+				ench: [{
+					lvl: 1s,
+					id: 105s
+				}],
+				HideFlags: 32,
+				display: {
+					Lore: [
+						"Looks like those wires would be a",
+						"great snack!"
+					],
+					Name: "Rainbow Machinery"
+				}
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "metallurgy:quicksilver_leggings",
+			tag: {
+				ench: [{
+					lvl: 1s,
+					id: 70s
+				},
+				{
+					lvl: 4s,
+					id: 4s
+				},
+				{
+					lvl: 4s,
+					id: 43s
+				},
+				{
+					lvl: 4s,
+					id: 1s
+				},
+				{
+					lvl: 10s,
+					id: 3s
+				}],
+				display: {
+					Lore: [
+						"The Contender watches the Void for mortals.",
+						"Any mortal found, will be vanguished by an",
+						"aura of weakness."
+					],
+					Name: "The Contender"
+				},
+				AttributeModifiers: [{
+					UUIDMost: -4091607176221145167L,
+					UUIDLeast: -8392215736317348831L,
+					Amount: 12.0d,
+					Slot: "legs",
+					AttributeName: "generic.attackDamage",
+					Operation: 0,
+					Name: "generic.attackDamage"
+				},
+				{
+					UUIDMost: 3709665610832429326L,
+					UUIDLeast: -8746678509836701133L,
+					Amount: 2.0d,
+					Slot: "legs",
+					AttributeName: "generic.attackSpeed",
+					Operation: 0,
+					Name: "generic.attackSpeed"
+				},
+				{
+					UUIDMost: -2861585646493481178L,
+					UUIDLeast: -6113244764726669811L,
+					Amount: -7.0d,
+					Slot: "legs",
+					AttributeName: "generic.armor",
+					Operation: 0,
+					Name: "generic.armor"
+				},
+				{
+					UUIDMost: 713348387504735387L,
+					UUIDLeast: -5348500999181634713L,
+					Amount: 1.0d,
+					Slot: "legs",
+					AttributeName: "generic.movementSpeed",
+					Operation: 0,
+					Name: "generic.movementSpeed"
+				},
+				{
+					UUIDMost: -8592698976011270701L,
+					UUIDLeast: -5487442248506571915L,
+					Amount: -1.0d,
+					Slot: "legs",
+					AttributeName: "generic.knockbackResistance",
+					Operation: 0,
+					Name: "generic.knockbackResistance"
+				}]
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:splash_potion",
+			tag: {
+				Potion: "potioncore:strong_broken_armor"
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:lingering_potion",
+			tag: {
+				Potion: "cyclicmagic:waterwalk"
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ebwizardry:spell_book",
+			Damage: 96s
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "tconstruct:cleaver",
+			tag: {
+				StatsOriginal: {
+					AttackSpeedMultiplier: 1.0f,
+					MiningSpeed: 13.0f,
+					FreeModifiers: 3,
+					Durability: 1204,
+					HarvestLevel: 4,
+					Attack: 19.9f
+				},
+				display: {
+					Name: "Bucking Brancos"
+				},
+				Stats: {
+					AttackSpeedMultiplier: 1.0f,
+					MiningSpeed: 13.0f,
+					FreeModifiers: 0,
+					Durability: 1204,
+					HarvestLevel: 4,
+					Attack: 19.9f
+				},
+				Special: {
+					Categories: [
+						"weapon",
+						"tool"
+					]
+				},
+				TinkerData: {
+					UsedModifiers: 4,
+					Materials: [
+						"endstone",
+						"xu_evil_metal",
+						"xu_evil_metal",
+						"endstone"
+					],
+					Modifiers: [
+						"beheading_cleaver",
+						"shulking",
+						"webbed",
+						"creative"
+					]
+				},
+				Modifiers: [{
+					identifier: "enderference",
+					color: -2041712,
+					level: 1
+				},
+				{
+					identifier: "xu_withering",
+					color: -131160,
+					level: 1
+				},
+				{
+					identifier: "beheading_cleaver",
+					color: 1070923,
+					level: 2
+				},
+				{
+					identifier: "shulking",
+					current: 50,
+					color: 11193599,
+					level: 1,
+					max: 50,
+					extraInfo: "49 / 50"
+				},
+				{
+					identifier: "webbed",
+					color: 16777215,
+					level: 3
+				},
+				{
+					identifier: "creative",
+					color: 0,
+					level: 1
+				}],
+				Traits: [
+					"enderference",
+					"xu_withering",
+					"shulking",
+					"webbed"
+				]
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "harvestcraft:pizzasliceitem"
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ebwizardry:battlemage_helmet_ice",
+			tag: {
+				ench: [{
+					lvl: 3s,
+					id: 34s
+				},
+				{
+					lvl: 3s,
+					id: 7s
+				},
+				{
+					lvl: 6s,
+					id: 42s
+				}],
+				display: {
+					Lore: [
+						"Become a part of the Kingdom."
+					],
+					Name: "§bAngel's Crown"
+				},
+				AttributeModifiers: [{
+					UUIDMost: 3086076556416732775L,
+					UUIDLeast: -5150312587563650736L,
+					Amount: 6.0d,
+					Slot: "head",
+					AttributeName: "generic.armor",
+					Operation: 0,
+					Name: "generic.armor"
+				},
+				{
+					UUIDMost: 3086076556416732775L,
+					UUIDLeast: -5150312587563650736L,
+					Amount: 2.0d,
+					Slot: "head",
+					AttributeName: "generic.armorToughness",
+					Operation: 0,
+					Name: "generic.armorToughness"
+				}]
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:lingering_potion",
+			tag: {
+				Potion: "potioncore:flight"
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "tconstruct:longbow",
+			tag: {
+				ench: [{
+					lvl: 1s,
+					id: 33s
+				}],
+				StatsOriginal: {
+					AttackSpeedMultiplier: 1.0f,
+					MiningSpeed: 12.0f,
+					DrawSpeed: 0.75f,
+					FreeModifiers: 3,
+					ProjectileBonusDamage: 3.0f,
+					Durability: 1512,
+					HarvestLevel: 4,
+					Attack: 4.1f,
+					Range: 1.3f
+				},
+				display: {
+					Name: "Golden Gate"
+				},
+				Stats: {
+					AttackSpeedMultiplier: 1.1f,
+					MiningSpeed: 9.5f,
+					DrawSpeed: 0.99824995f,
+					FreeModifiers: 0,
+					ProjectileBonusDamage: 3.0f,
+					Durability: 2012,
+					HarvestLevel: 4,
+					Attack: 4.972194f,
+					Range: 1.3f
+				},
+				Special: {
+					Categories: [
+						"launcher",
+						"tool"
+					]
+				},
+				TinkerData: {
+					UsedModifiers: 4,
+					Materials: [
+						"cobalt",
+						"cobalt",
+						"cobalt",
+						"string"
+					],
+					Modifiers: [
+						"sharpness",
+						"silktouch",
+						"diamond",
+						"creative",
+						"reinforced"
+					]
+				},
+				Modifiers: [{
+					identifier: "lightweight",
+					color: -14122284,
+					level: 1
+				},
+				{
+					identifier: "momentum",
+					color: -14122284,
+					level: 1
+				},
+				{
+					identifier: "sharpness",
+					current: 72,
+					color: 16774902,
+					level: 1,
+					max: 72,
+					extraInfo: "71 / 72"
+				},
+				{
+					identifier: "silktouch",
+					color: 16507531
+				},
+				{
+					identifier: "diamond",
+					color: 9237730
+				},
+				{
+					identifier: "creative",
+					color: 0,
+					level: 1
+				},
+				{
+					identifier: "reinforced",
+					color: 5254787,
+					level: 1
+				}],
+				Traits: [
+					"lightweight",
+					"momentum",
+					"reinforced"
+				]
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ebwizardry:imbuement_altar",
+			tag: {
+				display: {
+					Lore: [
+						"ONCE PLACED, YOU CANNOT BREAK IT"
+					]
+				}
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "biomesoplenty:crystal"
+		},
+		count: 12
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "metallurgy:quicksilver_ingot"
+		},
+		count: 6
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thermalfoundation:coin",
+			tag: {
+				ench: [{
+					lvl: 1s,
+					id: 60s
+				}],
+				HideFlags: 33,
+				display: {
+					Lore: [
+						"Very peculiar indeed..."
+					],
+					Name: "Peculiar Coin"
+				}
+			},
+			Damage: 70s
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thermalfoundation:coin",
+			tag: {
+				ench: [{
+					lvl: 1s,
+					id: 60s
+				}],
+				HideFlags: 33,
+				display: {
+					Lore: [
+						"Very peculiar indeed..."
+					],
+					Name: "Peculiar Coin"
+				}
+			},
+			Damage: 70s
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "cyclicmagic:crystallized_obsidian"
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ebwizardry:amulet_lich"
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "darkutils:shulker_pearl"
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ebwizardry:spell_book",
+			Damage: 127s
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "metallurgy:meutoite_crystals"
+		},
+		count: 64
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "metallurgy:inolashite_crystals"
+		},
+		count: 64
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "camscurrency:aureus"
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "metallurgy:quicksilver_ingot"
+		},
+		count: 3
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "sand",
+				Amount: 1000
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "extrautils2:ingredients",
+			Damage: 5s
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ebwizardry:ring_full_moon"
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:spectral_arrow"
+		},
+		count: 16
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:diamond"
+		},
+		count: 6
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "tconstruct:cleaver",
+			tag: {
+				StatsOriginal: {
+					AttackSpeedMultiplier: 1.0f,
+					MiningSpeed: 6.0f,
+					FreeModifiers: 3,
+					Durability: 456,
+					HarvestLevel: 3,
+					Attack: 10.15f
+				},
+				display: {
+					Name: "Purist Blade"
+				},
+				Stats: {
+					AttackSpeedMultiplier: 1.0f,
+					MiningSpeed: 6.5f,
+					FreeModifiers: 0,
+					Durability: 956,
+					HarvestLevel: 3,
+					Attack: 11.15f
+				},
+				Special: {
+					Categories: [
+						"weapon",
+						"tool"
+					]
+				},
+				TinkerData: {
+					UsedModifiers: 5,
+					Materials: [
+						"netherrack",
+						"steel",
+						"silver",
+						"manyullyn"
+					],
+					Modifiers: [
+						"beheading_cleaver",
+						"smite",
+						"bane_of_arthopods",
+						"creative",
+						"diamond"
+					]
+				},
+				Modifiers: [{
+					identifier: "hellish",
+					color: -4698289,
+					level: 1
+				},
+				{
+					identifier: "sharp",
+					color: -5789785,
+					level: 1
+				},
+				{
+					identifier: "holy",
+					color: -3019530,
+					level: 1
+				},
+				{
+					identifier: "coldblooded",
+					color: -6202120,
+					level: 1
+				},
+				{
+					identifier: "beheading_cleaver",
+					color: 1070923,
+					level: 2
+				},
+				{
+					identifier: "smite",
+					current: 48,
+					color: 15258880,
+					level: 2,
+					max: 48,
+					extraInfo: "47 / 48"
+				},
+				{
+					identifier: "bane_of_arthopods",
+					current: 48,
+					color: 6404681,
+					level: 2,
+					max: 48,
+					extraInfo: "47 / 48"
+				},
+				{
+					identifier: "creative",
+					color: 0,
+					level: 2
+				},
+				{
+					identifier: "diamond",
+					color: 9237730
+				}],
+				Traits: [
+					"hellish",
+					"sharp",
+					"holy",
+					"coldblooded",
+					"smite",
+					"bane_of_arthopods"
+				]
+			}
+		}
+	}]
+}

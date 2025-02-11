@@ -1,0 +1,73 @@
+{
+	title: "Balls",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "thermalexpansion:machine",
+		tag: {
+			RSControl: 0,
+			Facing: 3,
+			Energy: 0,
+			SideCache: [B;
+				3b,
+				1b,
+				2b,
+				2b,
+				2b,
+				2b
+			],
+			Level: 0
+		},
+		Damage: 8s
+	},
+	x: -4.0d,
+	y: -3.0d,
+	description: "Fluid transporters fills up florbs. Florbs are like buckets, but you can stack florbs and throw them.",
+	dependencies: [
+		"e11dfe53"
+	],
+	hide: true,
+	tasks: [{
+		uid: "8004c03a",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thermalexpansion:florb"
+		}],
+		count: 4L
+	},
+	{
+		uid: "9272af88",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thermalexpansion:machine",
+			tag: {
+				RSControl: 0b,
+				Facing: 3b,
+				Energy: 0,
+				SideCache: [B;
+					3b,
+					1b,
+					2b,
+					2b,
+					2b,
+					2b
+				],
+				Level: 0b
+			},
+			Damage: 8s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "351cf4ca",
+		type: "loot",
+		table: 8
+	}]
+}

@@ -1,0 +1,34 @@
+{
+	title: "Mend the World Back Together",
+	x: -4.0d,
+	y: 9.0d,
+	description: "Mending gems allows repairing of tools and armor equipped.",
+	text: [
+		"a weak version of the mending gem will repair items slowly. Upgrade mending gems to increase their repair speed."
+	],
+	dependencies: [
+		"64621c3b"
+	],
+	hide: true,
+	tasks: [{
+		uid: "ac24f7c3",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "mendinggems:mending_gem"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7ac7277c",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:diamond"
+		}
+	}]
+}

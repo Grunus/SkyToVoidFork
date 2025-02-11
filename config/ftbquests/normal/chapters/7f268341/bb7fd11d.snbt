@@ -1,0 +1,49 @@
+{
+	title: "Magma Power Supreme",
+	x: 6.0d,
+	y: 11.0d,
+	dependencies: [
+		"485fa2fa"
+	],
+	hide: true,
+	tasks: [{
+		uid: "1dd1e25b",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "extrautils2:machine",
+			tag: {
+				Type: "extrautils2:generator_redstone"
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "40940a10",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "openblocks:tank",
+			tag: {
+				tank: {
+					FluidName: "lava",
+					Amount: 16000
+				}
+			}
+		}
+	},
+	{
+		uid: "5129403c",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "camscurrency:denarius"
+		},
+		count: 16
+	}]
+}

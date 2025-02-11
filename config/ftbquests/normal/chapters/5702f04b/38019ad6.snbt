@@ -1,0 +1,37 @@
+{
+	title: "Double Trouble",
+	x: 11.5d,
+	y: 4.0d,
+	description: "Putting both Gauntlets in each hand provides insane attack speed.",
+	text: [
+		""
+	],
+	dependencies: [
+		"8d13be67"
+	],
+	hide: true,
+	tasks: [{
+		uid: "d1666bc9",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "metallurgy:rubracium_gauntlet"
+		}],
+		count: 2L,
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "9c26a666",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "camscurrency:denarius"
+		},
+		count: 15
+	}]
+}

@@ -1,0 +1,66 @@
+{
+	title: "Cool Maneuvers",
+	x: -10.5d,
+	y: -14.0d,
+	shape: "diamond",
+	description: "''These corners I have to take for these stops are really difficult for me. Could you possibly help upgrade my jets?''",
+	text: [
+		"Fantasic! I can do donuts in the air now!"
+	],
+	dependencies: [
+		"c130ca8f"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "2d36574f",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thermalfoundation:upgrade",
+			Damage: 2s
+		}]
+	}],
+	rewards: [{
+		uid: "d4e408f3",
+		type: "custom",
+		title: "Wambo's Quest Trial",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:filled_map"
+		},
+		team_reward: true
+	},
+	{
+		uid: "df64c05a",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "camscurrency:denarius"
+		},
+		count: 32
+	},
+	{
+		uid: "7469ea54",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thermalinnovation:injector",
+			tag: {},
+			Damage: 2s
+		}
+	},
+	{
+		uid: "9e36c2da",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

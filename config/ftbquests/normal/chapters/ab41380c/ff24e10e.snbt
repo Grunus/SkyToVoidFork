@@ -1,0 +1,47 @@
+{
+	title: "The Final Mark",
+	x: -2.521428571428558d,
+	y: 20.742857142857147d,
+	description: "''This Dragon Egg will be our ticket to the Void, and then, we will be able to collect the final key to The Obelisk.''",
+	text: [
+		"It gets realer with every step you make. I can't wait to face them again."
+	],
+	dependencies: [
+		"be6fe277"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	size: 3.0d,
+	tasks: [{
+		uid: "87a4fdfe",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:dragon_egg"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "cfaa0113",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "contenttweaker:5_void",
+			tag: {
+				display: {
+					Lore: [
+						"Gain access to Locked Away Mission.",
+						"",
+						"",
+						"Can be used on the door in Mission Hub."
+					],
+					Name: "Void Capsule"
+				}
+			}
+		}
+	}]
+}

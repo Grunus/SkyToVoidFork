@@ -1,0 +1,50 @@
+{
+	title: "Classic Mob Grinder",
+	x: -10.5d,
+	y: 5.5d,
+	description: "When powered with redstone, pushes mobs and items.",
+	dependencies: [
+		"bc60a924"
+	],
+	hide: true,
+	tasks: [{
+		uid: "e7a4439f",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "openblocks:fan"
+		}]
+	}],
+	rewards: [{
+		uid: "0f61f4d5",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thermalexpansion:morb",
+			tag: {
+				Generic: 1b,
+				id: "enderiozoo:witherwitch"
+			}
+		}
+	},
+	{
+		uid: "3cb46a14",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:spawn_egg",
+			tag: {
+				EntityTag: {
+					id: "minecraft:creeper"
+				}
+			}
+		},
+		count: 5
+	}]
+}

@@ -1,0 +1,25 @@
+{
+	title: "Dragon Experiment",
+	x: -8.0d,
+	y: 5.5d,
+	shape: "square",
+	dependencies: [
+		"8d45bb21"
+	],
+	hide: true,
+	tasks: [{
+		uid: "0ffcadab",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "mysticalagradditions:dragon_egg_seeds"
+		}]
+	}],
+	rewards: [{
+		uid: "0bd58b33",
+		type: "loot",
+		table: 12
+	}]
+}

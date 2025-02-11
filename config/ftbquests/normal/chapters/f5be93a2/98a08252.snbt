@@ -1,0 +1,51 @@
+{
+	title: "Bob Final",
+	x: 3.0d,
+	y: 9.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"0be35fa2"
+	],
+	tasks: [{
+		uid: "55911ba4",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thermalfoundation:coin",
+			tag: {
+				ench: [{
+					lvl: 1s,
+					id: 10s
+				}],
+				display: {
+					Lore: [
+						"Achieved from killing Large Mind: Reborn in",
+						"Sunken Factory: Devoid"
+					],
+					Name: "Medal: Sunken Factory"
+				}
+			},
+			Damage: 103s
+		}],
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "f6b8014c",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "artifacts:everlasting_cooked_beef"
+		}
+	},
+	{
+		uid: "eda0504e",
+		type: "ftbmoney:money",
+		ftb_money: 250L
+	}]
+}

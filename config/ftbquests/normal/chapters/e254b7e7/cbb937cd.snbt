@@ -1,0 +1,70 @@
+{
+	title: "Virtualize Reality",
+	x: 1.0d,
+	y: -10.0d,
+	text: [
+		"In a Void filled with wires you can't connect the world together."
+	],
+	dependencies: [
+		"02b464cc"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "d3b39d50",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "appliedenergistics2:part",
+			Damage: 15s
+		}],
+		count: 16L
+	},
+	{
+		uid: "aad8d341",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "appliedenergistics2:part",
+			Damage: 50s
+		}],
+		count: 8L
+	},
+	{
+		uid: "6f953422",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "appliedenergistics2:material",
+			Damage: 46s
+		}],
+		count: 32L
+	}],
+	rewards: [{
+		uid: "8510d2b9",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "camscurrency:denarius"
+		},
+		count: 6
+	},
+	{
+		uid: "a907e542",
+		type: "loot",
+		table: 15
+	},
+	{
+		uid: "34f4fb31",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	}]
+}

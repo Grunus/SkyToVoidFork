@@ -1,0 +1,29 @@
+{
+	x: 18.0d,
+	y: -3.0d,
+	dependencies: [
+		"46a52eee"
+	],
+	hide: true,
+	tasks: [{
+		uid: "9b8c8a04",
+		type: "item",
+		title: "One Block Source Block",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "enderio:block_reservoir"
+		}]
+	}],
+	rewards: [{
+		uid: "97ae40e5",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "harvestcraft:watermelonjellysandwichitem"
+		}
+	}]
+}

@@ -1,0 +1,36 @@
+{
+	title: "Dark Utilities Reward",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "darkutils:sneaky_torch"
+	},
+	x: -8.0d,
+	y: 5.5d,
+	can_repeat: true,
+	dependencies: [
+		"023aef38",
+		"53908734",
+		"b651f7ac",
+		"2eca35c7"
+	],
+	hide: true,
+	optional: true,
+	tasks: [{
+		uid: "6c1270da",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "camscurrency:denarius"
+		}],
+		count: 20L
+	}],
+	rewards: [{
+		uid: "1723c0b5",
+		type: "loot",
+		table: 20
+	}]
+}

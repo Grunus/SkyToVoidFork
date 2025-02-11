@@ -1,0 +1,43 @@
+{
+	title: "Drones Faction",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "thermalfoundation:material",
+		Damage: 288s
+	},
+	x: 6.0d,
+	y: 2.5d,
+	description: "''After The Rapture, it seems they're still programmed to view over the prison.''",
+	text: [
+		"Every purchase you will receive one random reward from the following entities.",
+		"",
+		"- ''Confinement Drone''",
+		"- ''Instigator Drone''",
+		"- ''Creeper Drone''",
+		"- ''Soulless Experiment''"
+	],
+	dependencies: [
+		"55769c0b",
+		"f6f9b103",
+		"2b00bb4e"
+	],
+	hide: true,
+	tasks: [{
+		uid: "95fb0f2e",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "camscurrency:aureus"
+		}],
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "48fb4cf3",
+		type: "loot",
+		table: 56
+	}]
+}

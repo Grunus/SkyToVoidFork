@@ -1,0 +1,55 @@
+{
+	title: "Finde Needs Your Blade",
+	x: -11.5d,
+	y: 6.5d,
+	shape: "diamond",
+	description: "''Now these skeletons are super annoying! They clonk and clank, just makes my ears tangle! Eliminate!''",
+	text: [
+		"Ahh... peace and quiet."
+	],
+	dependencies: [
+		"f708591b"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "67353729",
+		type: "kill",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:skull"
+		},
+		entity: "minecraft:skeleton",
+		value: 50L
+	}],
+	rewards: [{
+		uid: "b7286388",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "camscurrency:denarius"
+		},
+		count: 8
+	},
+	{
+		uid: "12982816",
+		type: "custom",
+		title: "Finde's Quest Trial",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:filled_map",
+			Damage: 3s
+		}
+	},
+	{
+		uid: "eb29c6e6",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

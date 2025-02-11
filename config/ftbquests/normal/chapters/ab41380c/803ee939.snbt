@@ -1,0 +1,85 @@
+{
+	title: "The Choice",
+	x: 18.0d,
+	y: 3.5d,
+	shape: "diamond",
+	text: [
+		""
+	],
+	dependencies: [
+		"84fd23e7",
+		"1a2501af"
+	],
+	hide: true,
+	tasks: [{
+		uid: "66eaa3cc",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ebwizardry:magic_crystal",
+			tag: {
+				ench: [{
+					lvl: 5s,
+					id: 60s
+				},
+				{
+					lvl: 2s,
+					id: 78s
+				}],
+				display: {
+					Lore: [
+						"You look inside the crystal and see The Deep",
+						"Dark."
+					],
+					Name: "Magnificent Crystal of Devoidness"
+				},
+				AttributeModifiers: [{
+					UUIDMost: 1804236059172032347L,
+					UUIDLeast: -6511342312055235064L,
+					Amount: 0.1d,
+					Slot: "offhand",
+					AttributeName: "generic.armorToughness",
+					Operation: 1,
+					Name: "generic.armorToughness"
+				}]
+			},
+			Damage: 4s
+		}],
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "effd17c4",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "contenttweaker:extra2_radianttemple",
+			tag: {
+				display: {
+					Lore: [
+						"Gain access to Radiant Temple Mission.",
+						"",
+						"",
+						"Can be used on the door in Mission Hub."
+					],
+					Name: "Radiant Halo"
+				}
+			}
+		}
+	},
+	{
+		uid: "294d9607",
+		type: "choice",
+		title: "Choose",
+		team_reward: true,
+		table: 40
+	},
+	{
+		uid: "d7e800df",
+		type: "ftbmoney:money",
+		ftb_money: 200L
+	}]
+}

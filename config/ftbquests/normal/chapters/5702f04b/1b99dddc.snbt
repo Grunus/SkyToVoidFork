@@ -1,0 +1,48 @@
+{
+	title: "Iron Roots ",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "mysticalagriculture:iron_essence"
+	},
+	x: -12.0d,
+	y: 10.0d,
+	dependencies: [
+		"87d5e414"
+	],
+	hide: true,
+	tasks: [{
+		uid: "62c21b07",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "mysticalagriculture:iron_essence"
+		}],
+		count: 20L
+	},
+	{
+		uid: "b51ca35f",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "mysticalagriculture:iron_seeds"
+		}],
+		count: 2L
+	}],
+	rewards: [{
+		uid: "3ec5c249",
+		type: "loot",
+		table: 10
+	},
+	{
+		uid: "224dea5a",
+		type: "choice",
+		title: "A CHOICE! WHAT WILL YOU PICK?",
+		table: 13
+	}]
+}

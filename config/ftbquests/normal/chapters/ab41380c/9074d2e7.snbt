@@ -1,0 +1,59 @@
+{
+	title: "Solid Composite",
+	x: -16.5d,
+	y: -7.5d,
+	description: "Get rich quick!",
+	dependencies: [
+		"05faa4f9"
+	],
+	hide: true,
+	tasks: [{
+		uid: "5fa96287",
+		type: "location",
+		title: "-1073 36 -233",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "metallurgy:adamantine_engraved_block"
+		},
+		location: [I;
+			0,
+			-1075,
+			36,
+			-237,
+			5,
+			5,
+			5
+		]
+	}],
+	rewards: [{
+		uid: "f66e936d",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "tconstruct:cast",
+			tag: {
+				PartType: "tconstruct:hammer_head"
+			}
+		}
+	},
+	{
+		uid: "1d178c40",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:iron_block"
+		},
+		count: 4
+	},
+	{
+		uid: "5845d179",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

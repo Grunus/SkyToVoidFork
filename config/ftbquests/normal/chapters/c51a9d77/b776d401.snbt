@@ -1,0 +1,103 @@
+{
+	title: "God-Infused Bows!",
+	x: 2.0d,
+	y: 5.5d,
+	description: "Using the Imbue Station, you can infuse special properties into a bow with specific ingrediants",
+	text: [
+		""
+	],
+	dependencies: [
+		"5944f1d8"
+	],
+	hide: true,
+	tasks: [{
+		uid: "f8e301fc",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "cyclicmagic:imbuer"
+		}]
+	}],
+	rewards: [{
+		uid: "eaacd12e",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thermalfoundation:tool.bow_iron"
+		}
+	},
+	{
+		uid: "367e1106",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:blaze_powder"
+		}
+	},
+	{
+		uid: "aa842c4b",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:spider_eye"
+		}
+	},
+	{
+		uid: "cde22f86",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:feather"
+		}
+	},
+	{
+		uid: "e5bc38e4",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:tnt"
+		}
+	},
+	{
+		uid: "7e64f227",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:glass"
+		}
+	},
+	{
+		uid: "4a796a16",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:soul_sand"
+		}
+	},
+	{
+		uid: "5635064e",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:torch"
+		}
+	}]
+}

@@ -1,0 +1,28 @@
+{
+	title: "Birth of New Souls",
+	x: -3.0d,
+	y: 1.0d,
+	shape: "square",
+	text: [
+		"With witch water and sand you can create soul sand."
+	],
+	dependencies: [
+		"03e93de9"
+	],
+	hide: true,
+	tasks: [{
+		uid: "3b10a8ef",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:soul_sand"
+		}]
+	}],
+	rewards: [{
+		uid: "679f1534",
+		type: "loot",
+		table: 1
+	}]
+}

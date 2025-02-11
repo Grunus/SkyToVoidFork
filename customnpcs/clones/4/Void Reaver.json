@@ -1,0 +1,1014 @@
+{
+    "ReturnToStart": 1b,
+    "NpcInv": [
+        {
+            "Slot": 0b,
+            "ForgeCaps": {
+                "customnpcs:itemscripteddata": {
+                }
+            },
+            "id": "industrialforegoing:black_hole_label",
+            "Count": 1b,
+            "tag": {
+                "ench": [
+                    {
+                        "lvl": 1s,
+                        "id": 10s
+                    }
+                ],
+                "display": {
+                    "Lore": [
+                        "It may be gone...",
+                        "But the Void...",
+                        "It can never be defeated..."
+                    ],
+                    "Name": "Champion of the Void"
+                }
+            },
+            "Damage": 0s
+        },
+        {
+            "Slot": 1b,
+            "ForgeCaps": {
+                "customnpcs:itemscripteddata": {
+                }
+            },
+            "id": "minecraft:totem_of_undying",
+            "Count": 1b,
+            "Damage": 0s
+        },
+        {
+            "Slot": 2b,
+            "ForgeCaps": {
+                "customnpcs:itemscripteddata": {
+                }
+            },
+            "id": "tombstone:fishing_rod_of_misadventure",
+            "Count": 1b,
+            "tag": {
+                "enchant": 1b,
+                "ancient": 1b
+            },
+            "Damage": 0s
+        },
+        {
+            "Slot": 3b,
+            "ForgeCaps": {
+                "customnpcs:itemscripteddata": {
+                }
+            },
+            "id": "mysticalagriculture:crafting",
+            "Count": 4b,
+            "Damage": 38s
+        },
+        {
+            "Slot": 4b,
+            "ForgeCaps": {
+                "customnpcs:itemscripteddata": {
+                }
+            },
+            "id": "totaltinkers:battleaxe",
+            "Count": 1b,
+            "tag": {
+                "StatsOriginal": {
+                    "AttackSpeedMultiplier": 1.0f,
+                    "MiningSpeed": 9.62f,
+                    "FreeModifiers": 3,
+                    "Durability": 2216,
+                    "HarvestLevel": 4,
+                    "Attack": 9.02f
+                },
+                "display": {
+                    "Name": "Voidsent Blade"
+                },
+                "Stats": {
+                    "AttackSpeedMultiplier": 1.2f,
+                    "MiningSpeed": 9.829999f,
+                    "FreeModifiers": 1,
+                    "Durability": 2243,
+                    "HarvestLevel": 4,
+                    "Attack": 9.160004f
+                },
+                "Special": {
+                    "Categories": [
+                        "tool",
+                        "aoe",
+                        "weapon"
+                    ],
+                    "alienStatBonus": {
+                        "identifier": "",
+                        "color": 0,
+                        "attack": 0.14f,
+                        "durability": 27,
+                        "speed": 0.21f
+                    },
+                    "alienStatPool": {
+                        "identifier": "",
+                        "color": 16777215,
+                        "attack": 1.354999f,
+                        "durability": 262,
+                        "speed": 1.8689983f
+                    }
+                },
+                "TinkerData": {
+                    "UsedModifiers": 4,
+                    "Materials": [
+                        "gaia",
+                        "alduorite",
+                        "refinedobsidian",
+                        "darkmatter"
+                    ],
+                    "Modifiers": [
+                        "fiery",
+                        "creative",
+                        "beheading",
+                        "haste"
+                    ]
+                },
+                "Modifiers": [
+                    {
+                        "identifier": "alien",
+                        "color": -7252043,
+                        "level": 1
+                    },
+                    {
+                        "identifier": "payback",
+                        "color": -7252043,
+                        "level": 1
+                    },
+                    {
+                        "identifier": "unnatural",
+                        "color": -7170882,
+                        "level": 1
+                    },
+                    {
+                        "identifier": "duritos",
+                        "color": -9230744,
+                        "level": 1
+                    },
+                    {
+                        "identifier": "darkness",
+                        "color": -9230744,
+                        "level": 1
+                    },
+                    {
+                        "identifier": "fiery",
+                        "current": 50,
+                        "color": 15375922,
+                        "level": 2,
+                        "max": 50,
+                        "extraInfo": "49 / 50"
+                    },
+                    {
+                        "identifier": "creative",
+                        "color": 0,
+                        "level": 2
+                    },
+                    {
+                        "identifier": "beheading",
+                        "color": 1070923,
+                        "level": 1
+                    },
+                    {
+                        "identifier": "haste",
+                        "current": 50,
+                        "color": 9502720,
+                        "level": 1,
+                        "max": 50,
+                        "extraInfo": "49 / 50"
+                    }
+                ],
+                "Traits": [
+                    "alien",
+                    "payback",
+                    "unnatural",
+                    "duritos",
+                    "darkness",
+                    "fiery"
+                ]
+            },
+            "Damage": 0s
+        },
+        {
+            "Slot": 5b,
+            "ForgeCaps": {
+                "customnpcs:itemscripteddata": {
+                }
+            },
+            "id": "conarm:boots",
+            "Count": 1b,
+            "tag": {
+                "StatsOriginal": {
+                    "Toughness": 3.0f,
+                    "FreeModifiers": 3,
+                    "Durability": 270,
+                    "Defense": 20.0f
+                },
+                "display": {
+                    "Name": "Void Walkers"
+                },
+                "Stats": {
+                    "Toughness": 3.0f,
+                    "FreeModifiers": 2,
+                    "Durability": 270,
+                    "Defense": 20.0f
+                },
+                "TinkerData": {
+                    "UsedModifiers": 4,
+                    "Materials": [
+                        "manyullyn",
+                        "shadow_steel",
+                        "kalendrite"
+                    ],
+                    "Modifiers": [
+                        "frostwalker_armor",
+                        "projectile_resistant_armor",
+                        "parasitic_armor",
+                        "creative",
+                        "mending_armor"
+                    ]
+                },
+                "Modifiers": [
+                    {
+                        "identifier": "vengeful_armor",
+                        "color": -6202120,
+                        "level": 1
+                    },
+                    {
+                        "identifier": "blindness_armor",
+                        "color": -6843502,
+                        "level": 1
+                    },
+                    {
+                        "identifier": "strongly_armor",
+                        "color": -6733347,
+                        "strongly0_armor": 1b
+                    },
+                    {
+                        "identifier": "frostwalker_armor",
+                        "color": 39321,
+                        "level": 1
+                    },
+                    {
+                        "identifier": "projectile_resistant_armor",
+                        "color": 1070923,
+                        "level": 1,
+                        "modifierUsed": 1b
+                    },
+                    {
+                        "identifier": "parasitic_armor",
+                        "color": 6160384,
+                        "level": 1
+                    },
+                    {
+                        "identifier": "creative",
+                        "color": 0,
+                        "level": 3
+                    },
+                    {
+                        "identifier": "mending_armor",
+                        "color": 4434738,
+                        "level": 1
+                    }
+                ],
+                "Traits": [
+                    "vengeful_armor",
+                    "blindness_armor",
+                    "strongly0_armor",
+                    "frostwalker_armor",
+                    "projectile_resistant_armor",
+                    "parasitic_armor",
+                    "mending_armor"
+                ]
+            },
+            "Damage": 0s
+        },
+        {
+            "Slot": 6b,
+            "ForgeCaps": {
+                "customnpcs:itemscripteddata": {
+                }
+            },
+            "id": "thermalexpansion:satchel",
+            "Count": 1b,
+            "tag": {
+                "Inventory": {
+                    "Slot2": {
+                        "ForgeCaps": {
+                            "customnpcs:itemscripteddata": {
+                            }
+                        },
+                        "id": "enderio:item_soul_vial",
+                        "Count": 1b,
+                        "tag": {
+                            "entityId": "minecraft:endermite"
+                        },
+                        "Damage": 1s
+                    },
+                    "Slot4": {
+                        "ForgeCaps": {
+                            "customnpcs:itemscripteddata": {
+                            }
+                        },
+                        "id": "enderio:item_soul_vial",
+                        "Count": 1b,
+                        "tag": {
+                            "entityId": "enderiozoo:lovechild"
+                        },
+                        "Damage": 1s
+                    },
+                    "Slot0": {
+                        "ForgeCaps": {
+                            "customnpcs:itemscripteddata": {
+                            }
+                        },
+                        "id": "enderio:item_soul_vial",
+                        "Count": 1b,
+                        "tag": {
+                            "entityId": "minecraft:enderman"
+                        },
+                        "Damage": 1s
+                    },
+                    "Slot6": {
+                        "ForgeCaps": {
+                            "customnpcs:itemscripteddata": {
+                            }
+                        },
+                        "id": "enderio:item_soul_vial",
+                        "Count": 1b,
+                        "tag": {
+                            "entityId": "enderiozoo:fallenmount"
+                        },
+                        "Damage": 1s
+                    },
+                    "Slot8": {
+                        "ForgeCaps": {
+                            "customnpcs:itemscripteddata": {
+                            }
+                        },
+                        "id": "enderio:item_soul_vial",
+                        "Count": 1b,
+                        "tag": {
+                            "entityId": "minecraft:illusion_illager"
+                        },
+                        "Damage": 1s
+                    }
+                },
+                "Accessible": 1b
+            },
+            "Damage": 0s
+        },
+        {
+            "Slot": 7b,
+            "ForgeCaps": {
+                "customnpcs:itemscripteddata": {
+                }
+            },
+            "id": "thermalexpansion:satchel",
+            "Count": 1b,
+            "tag": {
+                "Inventory": {
+                    "Slot2": {
+                        "ForgeCaps": {
+                            "customnpcs:itemscripteddata": {
+                            }
+                        },
+                        "id": "enderio:item_soul_vial",
+                        "Count": 1b,
+                        "tag": {
+                            "entityId": "minecraft:zombie"
+                        },
+                        "Damage": 1s
+                    },
+                    "Slot4": {
+                        "ForgeCaps": {
+                            "customnpcs:itemscripteddata": {
+                            }
+                        },
+                        "id": "enderio:item_soul_vial",
+                        "Count": 1b,
+                        "tag": {
+                            "entityId": "minecraft:skeleton"
+                        },
+                        "Damage": 1s
+                    },
+                    "Slot0": {
+                        "ForgeCaps": {
+                            "customnpcs:itemscripteddata": {
+                            }
+                        },
+                        "id": "enderio:item_soul_vial",
+                        "Count": 1b,
+                        "tag": {
+                            "entityId": "minecraft:zombie_villager"
+                        },
+                        "Damage": 1s
+                    },
+                    "Slot6": {
+                        "ForgeCaps": {
+                            "customnpcs:itemscripteddata": {
+                            }
+                        },
+                        "id": "enderio:item_soul_vial",
+                        "Count": 1b,
+                        "tag": {
+                            "entityId": "minecraft:husk"
+                        },
+                        "Damage": 1s
+                    },
+                    "Slot8": {
+                        "ForgeCaps": {
+                            "customnpcs:itemscripteddata": {
+                            }
+                        },
+                        "id": "enderio:item_soul_vial",
+                        "Count": 1b,
+                        "tag": {
+                            "entityId": "minecraft:zombie_pigman"
+                        },
+                        "Damage": 1s
+                    }
+                },
+                "Accessible": 1b
+            },
+            "Damage": 0s
+        },
+        {
+            "Slot": 8b,
+            "ForgeCaps": {
+                "customnpcs:itemscripteddata": {
+                }
+            },
+            "id": "thermalexpansion:satchel",
+            "Count": 1b,
+            "tag": {
+                "Inventory": {
+                    "Slot2": {
+                        "ForgeCaps": {
+                            "customnpcs:itemscripteddata": {
+                            }
+                        },
+                        "id": "enderio:item_soul_vial",
+                        "Count": 1b,
+                        "tag": {
+                            "entityId": "minecraft:ghast"
+                        },
+                        "Damage": 1s
+                    },
+                    "Slot4": {
+                        "ForgeCaps": {
+                            "customnpcs:itemscripteddata": {
+                            }
+                        },
+                        "id": "enderio:item_soul_vial",
+                        "Count": 1b,
+                        "tag": {
+                            "entityId": "biomesoplenty:wasp"
+                        },
+                        "Damage": 1s
+                    },
+                    "Slot0": {
+                        "ForgeCaps": {
+                            "customnpcs:itemscripteddata": {
+                            }
+                        },
+                        "id": "enderio:item_soul_vial",
+                        "Count": 1b,
+                        "tag": {
+                            "entityId": "minecraft:blaze"
+                        },
+                        "Damage": 1s
+                    },
+                    "Slot6": {
+                        "ForgeCaps": {
+                            "customnpcs:itemscripteddata": {
+                            }
+                        },
+                        "id": "enderio:item_soul_vial",
+                        "Count": 1b,
+                        "tag": {
+                            "entityId": "minecraft:magma_cube"
+                        },
+                        "Damage": 1s
+                    },
+                    "Slot8": {
+                        "ForgeCaps": {
+                            "customnpcs:itemscripteddata": {
+                            }
+                        },
+                        "id": "enderio:item_soul_vial",
+                        "Count": 1b,
+                        "tag": {
+                            "entityId": "minecraft:wither_skeleton"
+                        },
+                        "Damage": 1s
+                    }
+                },
+                "Accessible": 1b
+            },
+            "Damage": 0s
+        }
+    ],
+    "BossColor": 0,
+    "PotionEffect": 0,
+    "Size": 30,
+    "stopAndInteract": 1b,
+    "Resistances": {
+        "Arrow": 0.87323946f,
+        "Explosion": 2.0f,
+        "Knockback": 2.0f,
+        "Melee": 1.4084507f
+    },
+    "BossBar": 1b,
+    "RespawnTime": 600,
+    "NpcAngrySound": "minecraft:entity.skeleton_horse.death",
+    "ReactsToFire": 0b,
+    "IgnoreCobweb": 1b,
+    "PositionOffsetZ": 5.0f,
+    "PositionOffsetY": 5.0f,
+    "PositionOffsetX": 5.0f,
+    "LootMode": 0,
+    "TransformHasAI": 0b,
+    "AttackStrenght": 5000,
+    "PersistenceRequired": 0b,
+    "id": "customnpcs:customnpc",
+    "IsStatue": 0b,
+    "MovingPatern": 0,
+    "NpcLines": {
+        "Lines": [
+        ]
+    },
+    "DefendFaction": 0b,
+    "FireIndirect": 0,
+    "NpcVisible": 0,
+    "LinkedNpcName": "",
+    "NpcScenes": {
+        "Scenes": [
+        ]
+    },
+    "HitSound": "minecraft:entity.vex.hurt",
+    "FindShelter": 2,
+    "Air": 300s,
+    "TacticalVariant": 0,
+    "Orientation": 0,
+    "ScriptLanguage": "ECMAScript",
+    "HandItems": [
+        {
+        },
+        {
+        }
+    ],
+    "KnockBack": 0,
+    "TransformHasJob": 0b,
+    "ArmorDropChances": [
+        0.085f,
+        0.085f,
+        0.085f,
+        0.085f
+    ],
+    "BurnInSun": 0b,
+    "StandingState": 0,
+    "AttackInvisible": 0b,
+    "NpcInteractNPCLines": {
+        "Lines": [
+        ]
+    },
+    "HurtTime": 0s,
+    "WalkingRange": 10,
+    "ShotCount": 2,
+    "pDur": 3,
+    "AttackRange": 3,
+    "NpcKillLines": {
+        "Lines": [
+        ]
+    },
+    "PotionImmune": 1b,
+    "AvoidsSun": 0b,
+    "Texture": "minecraft:textures/entity/end_portal.png",
+    "NpcJob": 0,
+    "BurstCount": 2,
+    "NpcAttackLines": {
+        "Lines": [
+        ]
+    },
+    "pSpeed": 5,
+    "pArea": 2,
+    "DeathTime": 0s,
+    "pImpact": 0,
+    "MoveState": 0,
+    "pRender3D": 1b,
+    "Motion": [
+        0.0d,
+        -0.0784000015258789d,
+        0.0d
+    ],
+    "CombatRegen": 0,
+    "NpcsTimers": [
+        {
+            "Ticks": 112,
+            "TimerTicks": 1,
+            "Repeat": 1b,
+            "ID": 1
+        }
+    ],
+    "MarkovGender": 0,
+    "pEffect": 7,
+    "DistanceToMelee": 4,
+    "NpcStepSound": "",
+    "FireRate": 10,
+    "LeftHanded": 0b,
+    "pEffAmp": 0,
+    "OnGround": 1b,
+    "Dimension": 43,
+    "ImmuneToFire": 1b,
+    "NpcKilledLines": {
+        "Lines": [
+        ]
+    },
+    "Fire": -1s,
+    "ArmorItems": [
+        {
+        },
+        {
+        },
+        {
+        },
+        {
+        }
+    ],
+    "DisablePitch": 0b,
+    "pPhysics": 0b,
+    "TransformHasInv": 0b,
+    "NpcInteractLines": {
+        "Lines": [
+            {
+                "Line": "Hello @p",
+                "Song": "",
+                "Slot": 0
+            }
+        ]
+    },
+    "HurtByTimestamp": 1635,
+    "pSpin": 1b,
+    "NpcHurtSound": "minecraft:entity.slime.death",
+    "pTrail": 1,
+    "CreatureType": 0,
+    "Attributes": [
+        {
+            "Base": 1.0d,
+            "Name": "potioncore.projectileDamage"
+        },
+        {
+            "Base": 1.0d,
+            "Name": "potioncore.magicDamage"
+        },
+        {
+            "Base": 1.0d,
+            "Name": "potioncore.jumpHeight"
+        },
+        {
+            "Base": 1.0d,
+            "Name": "potioncore.damageResistance"
+        },
+        {
+            "Base": 0.0d,
+            "Name": "potioncore.magicShielding"
+        },
+        {
+            "Base": 1.0d,
+            "Name": "artemislib.entityHeight"
+        },
+        {
+            "Base": 1.0d,
+            "Name": "artemislib.entityWidth"
+        },
+        {
+            "Base": 800.0d,
+            "Name": "generic.maxHealth"
+        },
+        {
+            "Base": 0.0d,
+            "Name": "generic.knockbackResistance"
+        },
+        {
+            "Base": 0.0d,
+            "Name": "generic.movementSpeed"
+        },
+        {
+            "Base": 0.0d,
+            "Name": "generic.armor"
+        },
+        {
+            "Base": 0.0d,
+            "Name": "generic.armorToughness"
+        },
+        {
+            "Base": 1.0d,
+            "Name": "forge.swimSpeed"
+        },
+        {
+            "Base": 64.0d,
+            "Name": "generic.followRange"
+        },
+        {
+            "Base": 5000.0d,
+            "Name": "generic.attackDamage"
+        },
+        {
+            "Base": 0.0d,
+            "Name": "generic.flyingSpeed"
+        }
+    ],
+    "Invulnerable": 0b,
+    "TransformHasDisplay": 0b,
+    "NoFallDamage": 0b,
+    "AbsorptionAmount": 0.0f,
+    "TransformHasRole": 0b,
+    "Name": "Void Reaver",
+    "FallDistance": 0.0f,
+    "SkinColor": 16777215,
+    "NpcIdleSound": "minecraft:entity.skeleton_horse.death",
+    "Weapons": [
+        {
+            "Slot": 1b,
+            "ForgeCaps": {
+                "customnpcs:itemscripteddata": {
+                }
+            },
+            "id": "enderio:block_infinity",
+            "Count": 1b,
+            "Damage": 0s
+        }
+    ],
+    "NPCDialogOptions": [
+    ],
+    "AggroRange": 64,
+    "DirectLOS": 0b,
+    "HealthRegen": 1,
+    "ForgeCaps": {
+        "artemislib:capability": {
+            "transformed": 0b
+        },
+        "everlastingabilities:org.cyclops.everlastingabilities.api.capability.imutableabilitystore": [
+        ],
+        "metallurgy:punch_effect": {
+            "hasAiDisabled": 1b,
+            "knockbackTicks": 0,
+            "ticks": 0
+        }
+    },
+    "HandDropChances": [
+        0.085f,
+        0.085f
+    ],
+    "NpcModelData": {
+        "LegsConfig": {
+            "NotShared": 0b,
+            "ScaleZ": 1.0f,
+            "TransZ": 0.0f,
+            "TransY": 0.0f,
+            "TransX": 0.012000002f,
+            "ScaleY": 1.0f,
+            "ScaleX": 1.0f
+        },
+        "BodyConfig": {
+            "NotShared": 0b,
+            "ScaleZ": 1.0f,
+            "TransZ": 0.0f,
+            "TransY": 0.0f,
+            "TransX": 0.0f,
+            "ScaleY": 1.0f,
+            "ScaleX": 1.0f
+        },
+        "Eyes": {
+            "Pattern": 0b,
+            "Glint": 1b,
+            "Type": 0b,
+            "PositionY": 1,
+            "SkinColor": 11830381,
+            "PlayerTexture": 0b,
+            "Color": 16247203,
+            "BrowColor": 5982516,
+            "BrowThickness": 4
+        },
+        "EntityClass": "crazypants.enderio.zoo.entity.EntityVoidSlime",
+        "LegParts": {
+            "Pattern": 0b,
+            "Type": 0b,
+            "PlayerTexture": 0b,
+            "Color": 16777215
+        },
+        "Parts": [
+        ],
+        "ArmsConfig": {
+            "NotShared": 0b,
+            "ScaleZ": 1.0f,
+            "TransZ": 0.0f,
+            "TransY": 0.0f,
+            "TransX": -0.0f,
+            "ScaleY": 1.0f,
+            "ScaleX": 1.0f
+        },
+        "ExtraData": {
+        },
+        "HeadConfig": {
+            "NotShared": 0b,
+            "ScaleZ": 1.0f,
+            "TransZ": 0.0f,
+            "TransY": 0.0f,
+            "TransX": 0.0f,
+            "ScaleY": 1.0f,
+            "ScaleX": 1.0f
+        }
+    },
+    "minDelay": 60,
+    "DoorInteract": 2,
+    "MoveSpeed": 0,
+    "TransformEditingModus": 0b,
+    "UsingSkinUrl": 0b,
+    "Leashed": 0b,
+    "SkinUrl": "",
+    "CanSwim": 1b,
+    "GroundSound": "minecraft:entity.vex.hurt",
+    "MaxHealth": 800,
+    "HideBodyWhenKilled": 1b,
+    "AttackSpeed": 20,
+    "PotionDuration": 5,
+    "maxDelay": 60,
+    "ScriptEnabled": 1b,
+    "Role": 0,
+    "DropChance": [
+        {
+            "Integer": 100,
+            "Slot": 0
+        },
+        {
+            "Integer": 100,
+            "Slot": 1
+        },
+        {
+            "Integer": 20,
+            "Slot": 2
+        },
+        {
+            "Integer": 80,
+            "Slot": 3
+        },
+        {
+            "Integer": 20,
+            "Slot": 4
+        },
+        {
+            "Integer": 20,
+            "Slot": 5
+        },
+        {
+            "Integer": 30,
+            "Slot": 6
+        },
+        {
+            "Integer": 30,
+            "Slot": 7
+        },
+        {
+            "Integer": 30,
+            "Slot": 8
+        }
+    ],
+    "FactionPoints": {
+        "DecreaseFaction1Points": 0b,
+        "OptionFaction2Points": 100,
+        "OptionFactions1": -1,
+        "OptionFactions2": -1,
+        "OptionFaction1Points": 100,
+        "DecreaseFaction2Points": 0b
+    },
+    "pDamage": 40,
+    "KilledTime": 0L,
+    "AimWhileShooting": 0b,
+    "CanPickUpLoot": 0b,
+    "AttackOtherFactions": 0b,
+    "CanDrown": 1b,
+    "pSize": 8,
+    "CanSprint": 0b,
+    "CanLeap": 0b,
+    "TransformIsActive": 0b,
+    "ForgeData": {
+        "cnpcmarkdata": {
+            "marks": [
+            ]
+        },
+        "Potion Core - Health Fix": 800.0f,
+        "Potion Core - Projectile Invulnerability": 0,
+        "Potion Core - Jump Boost Updated": 1b
+    },
+    "MovingState": 0,
+    "MovingPos": 0,
+    "PotionAmp": 0,
+    "OnAttack": 0,
+    "TacticalRadius": 8,
+    "FallFlying": 0b,
+    "MaxExp": 80,
+    "OrderedLines": 0b,
+    "PortalCooldown": 0,
+    "pGlows": 1b,
+    "TransformHasAdvanced": 0b,
+    "TransformHasStats": 0b,
+    "MovementType": 0,
+    "FiringSound": "minecraft:block.note.snare",
+    "ModRev": 18,
+    "Accuracy": 98,
+    "MinExp": 40,
+    "Armor": [
+    ],
+    "CloakTexture": "",
+    "GlowTexture": "",
+    "MaxFiringRange": 64,
+    "pXlr8": 1b,
+    "MarkovGeneratorId": 4,
+    "Scripts": [
+        {
+            "Script": "var AbilityAttemptTime = 20 //seconds
+var TrapDuration = 2
+var particle = 'smoke'
+var GrabRange = 3
+var TargetingDelay = 400 //ms
+var AppearDelay = 600 //ms
+
+
+function init(t){
+t.npc.timers.forceStart(1,AbilityAttemptTime*20,true)}
+
+function timer(t){
+if(t.id==1){
+if(t.npc.isAttacking() && t.npc.isAlive()){
+SphereTrap(t.npc)
+}}}
+
+function SphereTrap(npc){
+var Thread = Java.type(\"java.lang.Thread\");var HankThread = Java.extend(Thread,{run: function(){
+var targ = npc.getAttackTarget()
+if(targ == null)return;
+npc.world.spawnParticle(\"cloud\",npc.x,npc.y+1,npc.z, 0,0,0,0.2,10)
+npc.world.playSoundAt(targ.getPos(),\"minecraft:entity.evocation_illager.prepare_summon\",10,1)
+Thread.sleep(TargetingDelay)
+var x = targ.x
+var y = targ.y
+var z = targ.z
+Thread.sleep(AppearDelay)
+npc.world.playSoundAt(npc.world.getBlock(x,y,z).getPos(),\"minecraft:entity.blaze.shoot\",1,1)
+for(var e = 0;e<TrapDuration*5;++e){
+for(var j = -10;j<10;++j){
+for(var i = 0;i<40;++i){
+var d = FrontVectors(targ,i*9,j*9,GrabRange,0)
+npc.world.spawnParticle(particle,x+d[0],y+1+d[1],z+d[2], 0,0,0,0,1)}}
+var vics = npc.world.getNearbyEntities(x,y,z,GrabRange+1,5)
+for(var t=0;t<vics.length;++t){
+if(vics[t]!=npc && TrueDistanceCoord(x,y,z,vics[t].x,vics[t].y+1,vics[t].z) <= GrabRange){
+vics[t].setPosition(x,y,z)}}
+Thread.sleep(200)}
+}});var H = new HankThread();H.start();}
+
+function FrontVectors(entity,dr,dp,distance,mode){
+if(!mode)mode=0
+if(mode == 1){var angle = dr + entity.getRotation();var pitch = (-entity.getPitch()+dp)*Math.PI/180;if(dp==0)pitch=0;}
+if(mode == 0){var angle = dr;var pitch = (dp)*Math.PI/180}
+var dx = -Math.sin(angle*Math.PI/180)*(distance*Math.cos(pitch))
+var dy = Math.sin(pitch)*distance
+var dz = Math.cos(angle*Math.PI/180)*(distance*Math.cos(pitch))
+return [dx,dy,dz]}
+
+function TrueDistanceCoord(x1,y1,z1,x2,y2,z2){
+var dx = x1 - x2
+var dy = y1 - y2
+var dz = z1 - z2
+var R = Math.pow((dx*dx+dy*dy+dz*dz),0.5)
+return R;}
+
+
+
+//end",
+            "Console": [
+            ],
+            "ScriptList": [
+            ]
+        }
+    ],
+    "Health": 800.0f,
+    "pStick": 0b,
+    "MovingPause": 1b,
+    "NpcDeathSound": "minecraft:entity.wither.spawn",
+    "FactionID": 10,
+    "Title": "Devoid for Eons",
+    "TotalTicksAlive": 57685L,
+    "Rotation": [
+        272.9355f,
+        0.0f
+    ],
+    "ShowName": 0,
+    "npcInteracting": 1b,
+    "UpdateBlocked": 0b,
+    "AvoidsWater": 0b,
+    "NoLivingAnimation": 0b,
+    "SpawnCycle": 0
+}

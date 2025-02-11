@@ -1,0 +1,94 @@
+{
+	title: "Additional Tools Required",
+	x: -11.5d,
+	y: -15.5d,
+	shape: "diamond",
+	description: "''Looking at this Light Bridge, a lot of tools I used to have I'll need to fix this thing up. Too bad those tools fell into the Void.''",
+	text: [
+		"With all the tools, I can rebuild what's missing!"
+	],
+	dependencies: [
+		"33e5f048"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "b400e089",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "appliedenergistics2:certus_quartz_wrench"
+		}],
+		consume_items: true,
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "5f69ee0d",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "bibliocraft:handdrill"
+		}],
+		consume_items: true,
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "f80c93c6",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thermalfoundation:wrench"
+		}],
+		consume_items: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "a0bd179f",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thermalfoundation:meter"
+		}],
+		consume_items: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "25452972",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "bibliocraft:framingsaw"
+		}],
+		consume_items: true,
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "2e9fd78f",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "camscurrency:denarius"
+		},
+		count: 4
+	},
+	{
+		uid: "260e9618",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	}]
+}

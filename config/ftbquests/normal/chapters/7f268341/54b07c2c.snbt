@@ -1,0 +1,27 @@
+{
+	title: "Conductive Wave",
+	x: 17.0d,
+	y: 3.5d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"9aceafba"
+	],
+	hide: true,
+	tasks: [{
+		uid: "15fb8dde",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "enderio:item_alloy_ingot",
+			Damage: 4s
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "25e3e3c6",
+		type: "loot",
+		table: 34
+	}]
+}

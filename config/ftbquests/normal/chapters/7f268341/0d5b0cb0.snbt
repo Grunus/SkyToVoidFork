@@ -1,0 +1,46 @@
+{
+	title: "Much Better Thank You!!!",
+	x: 18.5d,
+	y: 8.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"97a70242"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "117544c3",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "industrialforegoing:plastic"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "c1112ade",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:iron_block"
+		},
+		count: 2
+	},
+	{
+		uid: "1a599fff",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "harvestcraft:epicbaconitem"
+		},
+		count: 4
+	}]
+}

@@ -1,0 +1,146 @@
+{
+	title: "Cloud Service",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "contenttweaker:drone"
+	},
+	x: -6.5d,
+	y: -2.0d,
+	shape: "octagon",
+	description: "''So my drone took a hefty bit of damage. No worries! If you can find me some materials I can get this thing up and running again!''",
+	text: [
+		"Great! I can finally launch my Cloud Service Program! You'll be my first customer!",
+		"",
+		"================================",
+		"You can now buy the ''Cloud Service Pylon'' from the FTB Quest shop (can be accessed at the top right of the Quest Book or player's inventory.",
+		"",
+		"Cloud Service Pylons can be used to unlock new shop items and extra NPC Quests. You can discover these quests by mainly completing Island Quests in Building Bridges."
+	],
+	dependencies: [
+		"54034303"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "a300c928",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "contenttweaker:broken_drone",
+			tag: {
+				display: {
+					Lore: [
+						"The blades are bent and the metal is warped.",
+						"",
+						"On the belly of the drone",
+						"it reads \"Propery of Claudia. Please return!\""
+					],
+					Name: "Broken Drone"
+				}
+			}
+		}],
+		consume_items: true
+	},
+	{
+		uid: "82c33e68",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:iron_ingot"
+		}],
+		count: 4L,
+		consume_items: true
+	},
+	{
+		uid: "6ad57f89",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:iron_nugget"
+		}],
+		count: 3L,
+		consume_items: true
+	},
+	{
+		uid: "8576d0ea",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:repeater"
+		}],
+		consume_items: true
+	},
+	{
+		uid: "a6e29989",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:glass_pane"
+		}],
+		count: 2L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "75d78f0e",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "3e9d2a5f",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "contenttweaker:pylon",
+			tag: {
+				display: {
+					Lore: [
+						"Unlocks special Cloud Service items inside",
+						"the quest book shop from specific traders.",
+						"Complete quests from NPCs to reveal Cloud",
+						"Service quests."
+					],
+					Name: "Cloud Service Pylon"
+				}
+			}
+		}
+	},
+	{
+		uid: "00159252",
+		type: "custom",
+		title: "Unlocks Cloud Service Quests",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ftbquests:book"
+		},
+		team_reward: true
+	},
+	{
+		uid: "4f38eef1",
+		type: "custom",
+		title: "Unlocks the FTB Quest Shop",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ftbquests:book"
+		},
+		team_reward: true,
+		auto: "enabled"
+	}]
+}

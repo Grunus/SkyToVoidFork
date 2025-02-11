@@ -1,0 +1,210 @@
+{
+	title: "Bonnet & Rare Artifacts",
+	x: 15.5d,
+	y: 11.5d,
+	shape: "diamond",
+	description: "''I enjoy collected rare artifacts throughout the Void, but there's some that are too trecherous to try and obtain. I'm not well equipped unlike you. I got a list of rumors here. Can you find them for me? I'll pay you well.''",
+	text: [
+		"Another item to put into my collection! I'll send over my goods."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"52fffa66",
+		"2da70da5"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "1ab40849",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "cfm:item_hammer",
+			tag: {
+				ench: [{
+					lvl: 1s,
+					id: 10s
+				},
+				{
+					lvl: 1s,
+					id: 90s
+				}],
+				Unbreakable: 1b,
+				display: {
+					Lore: [
+						"This channel is currently unavailable due to",
+						"a violation of Twitch's Community Guidelines",
+						"or Terms of Service"
+					],
+					Name: "Ban Hammer"
+				}
+			}
+		}],
+		consume_items: true
+	},
+	{
+		uid: "2567ea28",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:comparator",
+			tag: {
+				ench: [{
+					lvl: 1s,
+					id: 10s
+				}],
+				display: {
+					Lore: [
+						"The end of the meltdown.",
+						"The beginning of evac..."
+					],
+					Name: "Code: RED"
+				}
+			}
+		}],
+		consume_items: true
+	},
+	{
+		uid: "1dedf3c3",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "biomesoplenty:fleshchunk",
+			tag: {
+				ench: [{
+					lvl: 1s,
+					id: 3s
+				}],
+				RepairCost: 1,
+				display: {
+					Name: "Mayor's Heart"
+				}
+			}
+		}],
+		consume_items: true
+	},
+	{
+		uid: "1811531a",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "biomesoplenty:ash",
+			tag: {
+				ench: [{
+					lvl: 10s,
+					id: 71s
+				}],
+				display: {
+					Lore: [
+						"Pure darkness latched onto itself."
+					],
+					Name: "Physical Darkness"
+				}
+			}
+		}],
+		consume_items: true
+	},
+	{
+		uid: "f8b7092d",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "tconstruct:edible",
+			tag: {
+				ench: [{
+					lvl: 1s,
+					id: 40s
+				},
+				{
+					lvl: 1s,
+					id: 51s
+				}],
+				display: {
+					Name: "Abyssal Droplet"
+				}
+			},
+			Damage: 32s
+		}],
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "0f6778b4",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "netherite:netherite_ingot",
+			tag: {
+				display: {
+					Lore: [
+						"All I do is lose my form."
+					],
+					Name: "Warping Ingot"
+				},
+				AttributeModifiers: [{
+					UUIDMost: 8489314272506037665L,
+					UUIDLeast: -6430519600595923267L,
+					Amount: 0.1d,
+					Slot: "offhand",
+					AttributeName: "generic.attackDamage",
+					Operation: 1,
+					Name: "generic.attackDamage"
+				},
+				{
+					UUIDMost: 1252655522655847339L,
+					UUIDLeast: -7787320768468635361L,
+					Amount: 0.1d,
+					Slot: "offhand",
+					AttributeName: "generic.armor",
+					Operation: 1,
+					Name: "generic.armor"
+				},
+				{
+					UUIDMost: -2463699053974698641L,
+					UUIDLeast: -7460865179221242061L,
+					Amount: 0.1d,
+					Slot: "offhand",
+					AttributeName: "generic.maxHealth",
+					Operation: 1,
+					Name: "generic.maxHealth"
+				},
+				{
+					UUIDMost: 5723012414788816435L,
+					UUIDLeast: -5918452716789258264L,
+					Amount: 0.1d,
+					Slot: "offhand",
+					AttributeName: "generic.movementSpeed",
+					Operation: 1,
+					Name: "generic.movementSpeed"
+				}]
+			}
+		}
+	},
+	{
+		uid: "49f87810",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "tconstruct:materials",
+			Damage: 50s
+		}
+	},
+	{
+		uid: "58165757",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

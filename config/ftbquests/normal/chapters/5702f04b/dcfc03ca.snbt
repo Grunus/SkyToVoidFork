@@ -1,0 +1,29 @@
+{
+	title: "The Silky",
+	x: 7.5d,
+	y: 14.5d,
+	description: "Apply onto tools to add silk touch.",
+	text: [
+		""
+	],
+	dependencies: [
+		"d74ecd22"
+	],
+	hide: true,
+	tasks: [{
+		uid: "693c9b34",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "tconstruct:materials",
+			Damage: 16s
+		}]
+	}],
+	rewards: [{
+		uid: "4f6f5f85",
+		type: "loot",
+		table: 5
+	}]
+}

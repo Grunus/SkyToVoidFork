@@ -1,0 +1,34 @@
+{
+	title: "Sanguinite",
+	x: 15.5d,
+	y: 3.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"81b1cd10"
+	],
+	hide: true,
+	tasks: [{
+		uid: "6770468a",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "metallurgy:sanguinite_ingot"
+		}],
+		count: 10L
+	}],
+	rewards: [{
+		uid: "006b4e07",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "camscurrency:dupondius"
+		},
+		count: 10
+	}]
+}

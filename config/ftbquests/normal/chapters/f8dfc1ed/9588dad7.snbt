@@ -1,0 +1,102 @@
+{
+	title: "Acquire Every Affinity Token by Pleasing All Four Statues of Affinity",
+	x: 1.0d,
+	y: 0.0d,
+	text: [
+		"Complete the quests from each Statue of Affinity."
+	],
+	dependencies: [
+		"923a61c4",
+		"40e49e87"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "807bda12",
+		type: "checkmark",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "simple_trophies:trophy",
+			tag: {
+				TrophyColorGreen: 136,
+				TrophyVariant: "classic",
+				TrophyShowsTooltip: 1b,
+				TrophyItem: {
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": {}
+					},
+					id: "contenttweaker:pure_ascend",
+					Count: 1b,
+					tag: {
+						ench: [{
+							lvl: 1s,
+							id: 60s
+						}],
+						HideFlags: 1,
+						display: {
+							Lore: [
+								"Token for pleasing an Affinity Statue.",
+								"",
+								"Keep these for the Affinity Achievement!"
+							],
+							Name: "Affinity Token"
+						}
+					},
+					Damage: 0s
+				},
+				TrophyColorBlue: 68,
+				TrophyName: "Complete All Four Affinity Statues",
+				TrophyColorRed: 235,
+				TrophyEarnedAt: 1737773805L
+			}
+		}
+	}],
+	rewards: [{
+		uid: "e68679c7",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "simple_trophies:trophy",
+			tag: {
+				TrophyColorGreen: 136,
+				TrophyVariant: "classic",
+				TrophyShowsTooltip: 1b,
+				TrophyItem: {
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": {}
+					},
+					id: "contenttweaker:pure_ascend",
+					Count: 1b,
+					tag: {
+						ench: [{
+							lvl: 1s,
+							id: 60s
+						}],
+						HideFlags: 1,
+						display: {
+							Lore: [
+								"Token for pleasing an Affinity Statue.",
+								"",
+								"Keep these for the Affinity Achievement!"
+							],
+							Name: "Affinity Token"
+						}
+					},
+					Damage: 0s
+				},
+				TrophyColorBlue: 68,
+				TrophyName: "Complete All Four Affinity Statues",
+				TrophyColorRed: 235,
+				TrophyEarnedAt: 1737773805L
+			}
+		}
+	},
+	{
+		uid: "d15f978e",
+		type: "ftbmoney:money",
+		ftb_money: 500L
+	}]
+}

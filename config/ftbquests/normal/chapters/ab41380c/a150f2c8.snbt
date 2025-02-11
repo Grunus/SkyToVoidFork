@@ -1,0 +1,50 @@
+{
+	title: "Village in Completion",
+	x: 13.5d,
+	y: 14.5d,
+	description: "Still intact. Still thriving.",
+	hide_dependency_lines: true,
+	dependencies: [
+		"05faa4f9"
+	],
+	hide: true,
+	tasks: [{
+		uid: "2ecf72a5",
+		type: "location",
+		title: "856 65 825",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "chisel:obsidian",
+			Damage: 3s
+		},
+		location: [I;
+			0,
+			855,
+			65,
+			823,
+			5,
+			5,
+			5
+		]
+	}],
+	rewards: [{
+		uid: "9cd1a9cf",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thermalfoundation:material",
+			Damage: 770s
+		},
+		count: 32,
+		random_bonus: 32
+	},
+	{
+		uid: "af6218b9",
+		type: "ftbmoney:money",
+		ftb_money: 125L
+	}]
+}

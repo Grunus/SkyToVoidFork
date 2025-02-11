@@ -1,0 +1,27 @@
+{
+	title: "The Crucible",
+	x: -2.0d,
+	y: 5.0d,
+	shape: "hexagon",
+	description: "By putting cobblestone into the crucible with a heating source of some kind, you can create lava.",
+	dependencies: [
+		"0effaf9a"
+	],
+	hide: true,
+	tasks: [{
+		uid: "d74c634e",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "exnihilocreatio:block_crucible",
+			Damage: 1s
+		}]
+	}],
+	rewards: [{
+		uid: "ceb85fca",
+		type: "choice",
+		table: 2
+	}]
+}

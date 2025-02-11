@@ -1,0 +1,17 @@
+filename = 'SilentLib-1.12.2-3.0.14+168.jar'
+name = 'Silent Lib (silentlib)'
+side = 'both'
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'SilentLib-1.12.2-3.0.14+168.jar'
+
+[download]
+hash = '5fca3fcef48502fdb26d020eb1d8427516724cb9'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 2851111
+project-id = 242998

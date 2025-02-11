@@ -1,0 +1,37 @@
+{
+	title: "Weather Cycle On",
+	x: -2.0d,
+	y: -8.0d,
+	shape: "circle",
+	can_repeat: true,
+	dependencies: [
+		"cdc0579e"
+	],
+	hide: true,
+	optional: true,
+	tasks: [{
+		uid: "cc2fa13d",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "camscurrency:dupondius"
+		}],
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "6314fa34",
+		type: "command",
+		title: "Weather Cycle = True",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ebwizardry:charm_storm"
+		},
+		team_reward: true,
+		auto: "enabled",
+		command: "/gamerule doWeatherCycle true"
+	}]
+}

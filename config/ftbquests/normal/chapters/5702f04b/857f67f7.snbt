@@ -1,0 +1,43 @@
+{
+	title: "Bronze",
+	x: 13.5d,
+	y: 12.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"0492a53f"
+	],
+	hide: true,
+	tasks: [{
+		uid: "f7007495",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "ingotBronze",
+					id: "ore"
+				},
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any ingotBronze"
+				}
+			}
+		}],
+		count: 10L
+	}],
+	rewards: [{
+		uid: "9d086deb",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "camscurrency:dupondius"
+		},
+		count: 10
+	}]
+}

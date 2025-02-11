@@ -1,0 +1,59 @@
+{
+	title: "Tiny Cave",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "minecraft:stone"
+	},
+	x: -3.0d,
+	y: -2.0d,
+	description: "There is stone... and ores... and more stone- It's really great, I promise.",
+	text: [
+		""
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"2bd5aaf9",
+		"56904fde"
+	],
+	hide: true,
+	tasks: [{
+		uid: "5474dea8",
+		type: "location",
+		title: "-61 71 -33",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:stone"
+		},
+		location: [I;
+			0,
+			-65,
+			71,
+			-37,
+			5,
+			5,
+			5
+		]
+	}],
+	rewards: [{
+		uid: "a3ad2106",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "tconstruct:pick_head",
+			tag: {
+				Material: "flint"
+			}
+		}
+	},
+	{
+		uid: "4d55a0de",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

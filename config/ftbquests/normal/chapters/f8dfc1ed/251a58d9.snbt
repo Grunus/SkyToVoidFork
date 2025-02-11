@@ -1,0 +1,101 @@
+{
+	title: "Unlock Everything in External Aid Chapter",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "simple_trophies:trophy",
+		tag: {
+			TrophyColorGreen: 255,
+			TrophyVariant: "classic",
+			TrophyShowsTooltip: 1b,
+			TrophyItem: {
+				ForgeCaps: {
+					"customnpcs:itemscripteddata": {}
+				},
+				id: "minecraft:chain_command_block",
+				Count: 1b,
+				Damage: 0s
+			},
+			TrophyColorBlue: 255,
+			TrophyName: "Unlock Everything in External Aid",
+			TrophyColorRed: 255,
+			TrophyEarnedAt: 1737771779L
+		}
+	},
+	x: -7.0d,
+	y: 0.0d,
+	text: [
+		"Unlock all Command, Reward and Faction quests in External Aid Chapter."
+	],
+	dependencies: [
+		"935017d2",
+		"33f68b74",
+		"755b0fd0",
+		"2570c07c",
+		"73aa63e4",
+		"59dbbf94",
+		"6b95a5c5",
+		"b8a3c9b1",
+		"0aca5f92",
+		"54fedf64",
+		"fc78a9e4",
+		"f8745669",
+		"cdc0579e",
+		"86c23063",
+		"f6aa2d4b",
+		"295a74b8",
+		"558a1729",
+		"056d6fc8",
+		"48cef7a8",
+		"f7c4d5ec",
+		"f77e1816",
+		"1bd9e4f0",
+		"d2b6171c",
+		"90880465",
+		"d8c214f2",
+		"834051b2",
+		"c06d5895",
+		"48f4264c",
+		"890eb377",
+		"6ee7c5db",
+		"acdd52e2"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "285abe0f",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "10b38d73",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "simple_trophies:trophy",
+			tag: {
+				TrophyColorGreen: 255,
+				TrophyVariant: "classic",
+				TrophyShowsTooltip: 1b,
+				TrophyItem: {
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": {}
+					},
+					id: "minecraft:chain_command_block",
+					Count: 1b,
+					Damage: 0s
+				},
+				TrophyColorBlue: 255,
+				TrophyName: "Unlock Everything in External Aid",
+				TrophyColorRed: 255,
+				TrophyEarnedAt: 1737773403L
+			}
+		}
+	},
+	{
+		uid: "bf31e5ff",
+		type: "ftbmoney:money",
+		ftb_money: 500L
+	}]
+}

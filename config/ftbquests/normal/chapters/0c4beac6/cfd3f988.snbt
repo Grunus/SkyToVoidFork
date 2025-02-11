@@ -1,0 +1,63 @@
+{
+	title: "The Kingdom",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "extrautils2:klein"
+	},
+	x: 18.0d,
+	y: 2.5d,
+	description: "''Perfect...''",
+	text: [
+		"Every purchase you will receive one random reward from the following entities.",
+		"",
+		"- ''Alþrúðr Umbra''",
+		"- ''Bob Umbra''",
+		"- ''Char Umbra''",
+		"- ''Chim Umbra''",
+		"- ''Cilitou Umbra''",
+		"- ''Elbow Umbra''",
+		"- ''Glob Umbra''",
+		"- ''Hullabaloo Umbra''",
+		"- ''Lea Umbra''",
+		"- ''Liam Umbra''",
+		"- ''Libcardo Umbra''",
+		"- ''Lowsigh Umbra''",
+		"- ''Nytemart Umbra''",
+		"- ''Seally Umbra''",
+		"- ''Shara Umbra''",
+		"- ''Slavender Umbra''",
+		"- ''Sooly Umbra''",
+		"- ''Wambo Umbra''",
+		"- ''Denial''",
+		"- ''Anger''",
+		"- ''Automaton''",
+		"- ''Future Machine''",
+		"- ''Atelophobia''"
+	],
+	dependencies: [
+		"3f1e3e76",
+		"f6f9b103",
+		"76313507",
+		"303a4755",
+		"7bd3778c"
+	],
+	hide: true,
+	tasks: [{
+		uid: "0927ced4",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "camscurrency:aureus"
+		}],
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "2b23e9a9",
+		type: "loot",
+		table: 68
+	}]
+}

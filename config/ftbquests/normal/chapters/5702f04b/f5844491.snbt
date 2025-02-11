@@ -1,0 +1,27 @@
+{
+	title: "Superior Watering",
+	x: -10.0d,
+	y: 5.0d,
+	dependencies: [
+		"183c52ce",
+		"f23bf935"
+	],
+	hide: true,
+	tasks: [{
+		uid: "eb2936c8",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "mysticalagriculture:watering_can",
+			Damage: 4s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "a69f7008",
+		type: "loot",
+		table: 11
+	}]
+}

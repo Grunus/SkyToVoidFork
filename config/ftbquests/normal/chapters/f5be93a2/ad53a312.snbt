@@ -1,0 +1,51 @@
+{
+	title: "Bob III",
+	x: 1.0d,
+	y: 9.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"119f9021"
+	],
+	tasks: [{
+		uid: "ffa2d4ff",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thermalfoundation:material",
+			tag: {
+				ench: [{
+					lvl: 1s,
+					id: 6s
+				}],
+				HideFlags: 1,
+				display: {
+					Lore: [
+						"Sparkles of hope and serenity."
+					],
+					Name: "Particles from the Kingdom"
+				}
+			},
+			Damage: 1026s
+		}],
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "72b619b9",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "artifacts:everlasting_cooked_chicken"
+		}
+	},
+	{
+		uid: "907df74e",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

@@ -1,0 +1,480 @@
+{
+	title: "Loot Pool",
+	x: 6.2464285714285595d,
+	y: -3.5517857142857068d,
+	shape: "rsquare",
+	description: "Reveals possible loot that can be found or dropped by mobs. Does not reveal loot behind Void Gateways.",
+	text: [
+		"Void Reaver: Voidsent Blade",
+		"Void Reaver: Void Walkers",
+		"Void Reaver: Satchel",
+		"Void Reaver: Satchel",
+		"Void Reaver: Satchel"
+	],
+	dependencies: [
+		"e5841518"
+	],
+	hide: true,
+	optional: true,
+	tasks: [{
+		uid: "c96a7a17",
+		type: "item",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "contenttweaker:mission_loot",
+			tag: {
+				display: {
+					Name: "Loot Pool"
+				}
+			}
+		},
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:structure_void",
+			tag: {
+				display: {
+					Lore: [
+						"This quest shows all possible loot that can",
+						"be found or dropped by mobs.",
+						"",
+						"Does not include loot behind Void Gateways."
+					],
+					Name: "QUEST CANNOT BE COMPLETED"
+				}
+			}
+		}],
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "7cab0ac3",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "totaltinkers:battleaxe",
+			tag: {
+				StatsOriginal: {
+					AttackSpeedMultiplier: 1.0f,
+					MiningSpeed: 9.62f,
+					FreeModifiers: 3,
+					Durability: 2216,
+					HarvestLevel: 4,
+					Attack: 9.02f
+				},
+				display: {
+					Name: "Voidsent Blade"
+				},
+				Stats: {
+					AttackSpeedMultiplier: 1.2f,
+					MiningSpeed: 9.969998f,
+					FreeModifiers: 1,
+					Durability: 2263,
+					HarvestLevel: 4,
+					Attack: 9.255006f
+				},
+				Special: {
+					Categories: [
+						"tool",
+						"aoe",
+						"weapon"
+					],
+					alienStatBonus: {
+						identifier: "",
+						color: 0,
+						attack: 0.23499991f,
+						durability: 47,
+						speed: 0.35f
+					},
+					alienStatPool: {
+						identifier: "",
+						color: 16777215,
+						attack: 1.354999f,
+						durability: 262,
+						speed: 1.8689983f
+					}
+				},
+				TinkerData: {
+					UsedModifiers: 4,
+					Materials: [
+						"gaia",
+						"alduorite",
+						"refinedobsidian",
+						"darkmatter"
+					],
+					Modifiers: [
+						"fiery",
+						"creative",
+						"beheading",
+						"haste"
+					]
+				},
+				Modifiers: [{
+					identifier: "alien",
+					color: -7252043,
+					level: 1
+				},
+				{
+					identifier: "payback",
+					color: -7252043,
+					level: 1
+				},
+				{
+					identifier: "unnatural",
+					color: -7170882,
+					level: 1
+				},
+				{
+					identifier: "duritos",
+					color: -9230744,
+					level: 1
+				},
+				{
+					identifier: "darkness",
+					color: -9230744,
+					level: 1
+				},
+				{
+					identifier: "fiery",
+					current: 50,
+					color: 15375922,
+					level: 2,
+					max: 50,
+					extraInfo: "49 / 50"
+				},
+				{
+					identifier: "creative",
+					color: 0,
+					level: 2
+				},
+				{
+					identifier: "beheading",
+					color: 1070923,
+					level: 1
+				},
+				{
+					identifier: "haste",
+					current: 50,
+					color: 9502720,
+					level: 1,
+					max: 50,
+					extraInfo: "49 / 50"
+				}],
+				Traits: [
+					"alien",
+					"payback",
+					"unnatural",
+					"duritos",
+					"darkness",
+					"fiery"
+				]
+			}
+		}
+	},
+	{
+		uid: "519f68c4",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "conarm:boots",
+			tag: {
+				StatsOriginal: {
+					Toughness: 3.0f,
+					FreeModifiers: 3,
+					Durability: 270,
+					Defense: 20.0f
+				},
+				display: {
+					Name: "Void Walkers"
+				},
+				Stats: {
+					Toughness: 3.0f,
+					FreeModifiers: 2,
+					Durability: 270,
+					Defense: 20.0f
+				},
+				TinkerData: {
+					UsedModifiers: 4,
+					Materials: [
+						"manyullyn",
+						"shadow_steel",
+						"kalendrite"
+					],
+					Modifiers: [
+						"frostwalker_armor",
+						"projectile_resistant_armor",
+						"parasitic_armor",
+						"creative",
+						"mending_armor"
+					]
+				},
+				Modifiers: [{
+					identifier: "vengeful_armor",
+					color: -6202120,
+					level: 1
+				},
+				{
+					identifier: "blindness_armor",
+					color: -6843502,
+					level: 1
+				},
+				{
+					identifier: "strongly_armor",
+					color: -6733347,
+					strongly0_armor: 1b
+				},
+				{
+					identifier: "frostwalker_armor",
+					color: 39321,
+					level: 1
+				},
+				{
+					identifier: "projectile_resistant_armor",
+					color: 1070923,
+					level: 1,
+					modifierUsed: 1b
+				},
+				{
+					identifier: "parasitic_armor",
+					color: 6160384,
+					level: 1
+				},
+				{
+					identifier: "creative",
+					color: 0,
+					level: 3
+				},
+				{
+					identifier: "mending_armor",
+					color: 4434738,
+					level: 1
+				}],
+				Traits: [
+					"vengeful_armor",
+					"blindness_armor",
+					"strongly0_armor",
+					"frostwalker_armor",
+					"projectile_resistant_armor",
+					"parasitic_armor",
+					"mending_armor"
+				]
+			}
+		}
+	},
+	{
+		uid: "d866bfe5",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thermalexpansion:satchel",
+			tag: {
+				Inventory: {
+					Slot2: {
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": {}
+						},
+						id: "enderio:item_soul_vial",
+						Count: 1b,
+						tag: {
+							entityId: "minecraft:zombie"
+						},
+						Damage: 1s
+					},
+					Slot4: {
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": {}
+						},
+						id: "enderio:item_soul_vial",
+						Count: 1b,
+						tag: {
+							entityId: "minecraft:skeleton"
+						},
+						Damage: 1s
+					},
+					Slot0: {
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": {}
+						},
+						id: "enderio:item_soul_vial",
+						Count: 1b,
+						tag: {
+							entityId: "minecraft:zombie_villager"
+						},
+						Damage: 1s
+					},
+					Slot6: {
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": {}
+						},
+						id: "enderio:item_soul_vial",
+						Count: 1b,
+						tag: {
+							entityId: "minecraft:husk"
+						},
+						Damage: 1s
+					},
+					Slot8: {
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": {}
+						},
+						id: "enderio:item_soul_vial",
+						Count: 1b,
+						tag: {
+							entityId: "minecraft:zombie_pigman"
+						},
+						Damage: 1s
+					}
+				},
+				Accessible: 1b
+			}
+		}
+	},
+	{
+		uid: "946d095c",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thermalexpansion:satchel",
+			tag: {
+				Inventory: {
+					Slot2: {
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": {}
+						},
+						id: "enderio:item_soul_vial",
+						Count: 1b,
+						tag: {
+							entityId: "minecraft:ghast"
+						},
+						Damage: 1s
+					},
+					Slot4: {
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": {}
+						},
+						id: "enderio:item_soul_vial",
+						Count: 1b,
+						tag: {
+							entityId: "biomesoplenty:wasp"
+						},
+						Damage: 1s
+					},
+					Slot0: {
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": {}
+						},
+						id: "enderio:item_soul_vial",
+						Count: 1b,
+						tag: {
+							entityId: "minecraft:blaze"
+						},
+						Damage: 1s
+					},
+					Slot6: {
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": {}
+						},
+						id: "enderio:item_soul_vial",
+						Count: 1b,
+						tag: {
+							entityId: "minecraft:magma_cube"
+						},
+						Damage: 1s
+					},
+					Slot8: {
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": {}
+						},
+						id: "enderio:item_soul_vial",
+						Count: 1b,
+						tag: {
+							entityId: "minecraft:wither_skeleton"
+						},
+						Damage: 1s
+					}
+				},
+				Accessible: 1b
+			}
+		}
+	},
+	{
+		uid: "8d381bd9",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thermalexpansion:satchel",
+			tag: {
+				Inventory: {
+					Slot2: {
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": {}
+						},
+						id: "enderio:item_soul_vial",
+						Count: 1b,
+						tag: {
+							entityId: "minecraft:endermite"
+						},
+						Damage: 1s
+					},
+					Slot4: {
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": {}
+						},
+						id: "enderio:item_soul_vial",
+						Count: 1b,
+						tag: {
+							entityId: "enderiozoo:lovechild"
+						},
+						Damage: 1s
+					},
+					Slot0: {
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": {}
+						},
+						id: "enderio:item_soul_vial",
+						Count: 1b,
+						tag: {
+							entityId: "minecraft:enderman"
+						},
+						Damage: 1s
+					},
+					Slot6: {
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": {}
+						},
+						id: "enderio:item_soul_vial",
+						Count: 1b,
+						tag: {
+							entityId: "enderiozoo:fallenmount"
+						},
+						Damage: 1s
+					},
+					Slot8: {
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": {}
+						},
+						id: "enderio:item_soul_vial",
+						Count: 1b,
+						tag: {
+							entityId: "minecraft:illusion_illager"
+						},
+						Damage: 1s
+					}
+				},
+				Accessible: 1b
+			}
+		}
+	}]
+}

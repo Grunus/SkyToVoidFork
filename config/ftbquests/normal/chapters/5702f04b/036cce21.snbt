@@ -1,0 +1,53 @@
+{
+	title: "Growing Calcium",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "mysticalagriculture:skeleton_essence"
+	},
+	x: -12.0d,
+	y: 9.0d,
+	dependencies: [
+		"87d5e414"
+	],
+	hide: true,
+	tasks: [{
+		uid: "78484994",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "mysticalagriculture:skeleton_essence"
+		}],
+		count: 20L
+	},
+	{
+		uid: "620626a5",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "mysticalagriculture:skeleton_seeds"
+		}],
+		count: 2L
+	}],
+	rewards: [{
+		uid: "74f30df0",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "tconstruct:materials",
+			Damage: 17s
+		}
+	},
+	{
+		uid: "fb955eae",
+		type: "loot",
+		table: 10
+	}]
+}

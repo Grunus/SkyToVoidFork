@@ -1,0 +1,55 @@
+{
+	title: "Void War Z",
+	x: 2.0d,
+	y: -4.0d,
+	shape: "diamond",
+	description: "\"With your combat skills stranger, you'll be an excellent guard. Go out there and kill zombies, I'll send some gifts for you after I see improvement.\"",
+	text: [
+		"I can go outside at night again! As promised here you go!"
+	],
+	dependencies: [
+		"f1db80b3",
+		"785c1232"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "968f103d",
+		type: "kill",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:skull",
+			Damage: 2s
+		},
+		entity: "minecraft:zombie",
+		value: 50L
+	}],
+	rewards: [{
+		uid: "1f5b39f9",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "camscurrency:denarius"
+		},
+		count: 8
+	},
+	{
+		uid: "e0b3f20d",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "mysticalagriculture:zombie_seeds"
+		}
+	},
+	{
+		uid: "925e1c37",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

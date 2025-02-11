@@ -1,0 +1,64 @@
+{
+	title: "Power Surge",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "thermalexpansion:dynamo",
+		tag: {
+			RSControl: 0,
+			Facing: 1,
+			Energy: 0,
+			Level: 0
+		}
+	},
+	x: -6.0d,
+	y: -2.0d,
+	description: "Dynamos are used to power machines. you can also hook one up into a energy cell to store energy.",
+	text: [
+		"Using Fluiducts you can pour liquid into the dynamo automatically."
+	],
+	dependencies: [
+		"74337ab7"
+	],
+	hide: true,
+	tasks: [{
+		uid: "d94533f4",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thermaldynamics:duct_16"
+		},
+		{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thermaldynamics:duct_16",
+			Damage: 1s
+		}]
+	},
+	{
+		uid: "8ebd1898",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thermalexpansion:dynamo",
+			tag: {
+				RSControl: 0b,
+				Facing: 1b,
+				Energy: 0,
+				Level: 0b
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "0723116f",
+		type: "loot",
+		table: 7
+	}]
+}

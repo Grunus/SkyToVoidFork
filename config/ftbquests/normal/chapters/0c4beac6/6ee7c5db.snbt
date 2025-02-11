@@ -1,0 +1,40 @@
+{
+	title: "Corrupted Faction",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "industrialforegoing:laser_lens",
+		Damage: 10s
+	},
+	x: 3.0d,
+	y: 2.5d,
+	description: "''The Corrupted tortured that poor hunter, but maybe they have some interesting stuff.''",
+	text: [
+		"Every purchase you will receive one random reward from the following entities.",
+		"",
+		"- ''Deadlock Kin''",
+		"- ''Deranged''"
+	],
+	dependencies: [
+		"5ac60acc",
+		"f6f9b103"
+	],
+	hide: true,
+	tasks: [{
+		uid: "a6f15400",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "camscurrency:aureus"
+		}],
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "84b42e2f",
+		type: "loot",
+		table: 38
+	}]
+}

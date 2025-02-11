@@ -1,0 +1,30 @@
+{
+	title: "End Flux",
+	x: -11.0d,
+	y: -2.5d,
+	shape: "square",
+	dependencies: [
+		"7d78a880"
+	],
+	hide: true,
+	tasks: [{
+		uid: "d4923849",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thermalexpansion:capacitor",
+			tag: {
+				Energy: 25000000
+			},
+			Damage: 4s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e716c4a",
+		type: "loot",
+		table: 70
+	}]
+}

@@ -1,0 +1,25 @@
+{
+	title: "9+9",
+	x: -13.5d,
+	y: 9.0d,
+	dependencies: [
+		"1d5c893b"
+	],
+	hide: true,
+	tasks: [{
+		uid: "54e71b39",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "appliedenergistics2:drive"
+		}],
+		count: 9L
+	}],
+	rewards: [{
+		uid: "feaadd60",
+		type: "loot",
+		table: 16
+	}]
+}

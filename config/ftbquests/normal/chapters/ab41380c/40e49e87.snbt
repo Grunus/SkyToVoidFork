@@ -1,0 +1,106 @@
+{
+	title: "Curiosity in the Meadow",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "minecraft:red_mushroom"
+	},
+	x: 3.0d,
+	y: 5.0d,
+	shape: "diamond",
+	description: "''I've noticed this mycelium island from the distance and at night, it pulsates a green glow. Firstly, I'd like to get some mushrooms so I can start culturing some mushrooms, but I'm also curious on that strange light source. Can you go up there and collect whatever it is? I really do need some new lights, I'd take any color.''",
+	text: [
+		"Oh! Thank you! Think I can use this metal for new kitchen tiling? Lets see!"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"da309220",
+		"b14701e3"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "ae84efd1",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "psi:psi_decorative",
+			Damage: 5s
+		}],
+		count: 3L,
+		consume_items: true
+	},
+	{
+		uid: "6eeff831",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "psi:psi_decorative",
+			Damage: 6s
+		}],
+		consume_items: true
+	},
+	{
+		uid: "70d2478b",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:brown_mushroom"
+		}],
+		count: 6L,
+		consume_items: true
+	},
+	{
+		uid: "458dc6ad",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:red_mushroom"
+		}],
+		count: 6L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "d75cf357",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "harvestcraft:mushroomsteakitem"
+		},
+		count: 2
+	},
+	{
+		uid: "1ecf5b68",
+		type: "xp_levels",
+		xp_levels: 5
+	},
+	{
+		uid: "f0363801",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "mysticalagriculture:crafting",
+			Damage: 5s
+		},
+		count: 16,
+		random_bonus: 48
+	},
+	{
+		uid: "df23187e",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	}]
+}

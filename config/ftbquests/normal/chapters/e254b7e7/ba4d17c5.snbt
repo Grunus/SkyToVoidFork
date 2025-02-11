@@ -1,0 +1,65 @@
+{
+	title: "The Great Hand",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "contenttweaker:3_thegreatchallenge",
+		tag: {
+			display: {
+				Lore: [
+					"Gain access to The Great Challenge Mission.",
+					"",
+					"",
+					"Can be used on the door in Mission Hub."
+				],
+				Name: "The Great Hand"
+			}
+		}
+	},
+	x: 1.5547619047619108d,
+	y: -16.04761904761905d,
+	description: "You can now buy The Great Hand, if needed.",
+	text: [
+		""
+	],
+	can_repeat: true,
+	dependencies: [
+		"36bf2072"
+	],
+	hide: true,
+	optional: true,
+	tasks: [{
+		uid: "9ca015f8",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "camscurrency:denarius"
+		}],
+		count: 16L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "fcb2e070",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "contenttweaker:3_thegreatchallenge",
+			tag: {
+				display: {
+					Lore: [
+						"Gain access to The Great Challenge Mission.",
+						"",
+						"",
+						"Can be used on the door in Mission Hub."
+					],
+					Name: "The Great Hand"
+				}
+			}
+		}
+	}]
+}

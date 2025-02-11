@@ -1,0 +1,57 @@
+{
+	title: "Tools You Can Vanilla Craft",
+	x: -0.5d,
+	y: 3.5d,
+	description: "Sickles are great for clearing foliage and farming.",
+	dependencies: [
+		"267db402"
+	],
+	hide: true,
+	tasks: [{
+		uid: "7b069c0d",
+		type: "item",
+		title: "Sickle",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "extrautils2:sickle_diamond"
+		},
+		{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "extrautils2:sickle_wood"
+		},
+		{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "extrautils2:sickle_stone"
+		},
+		{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "extrautils2:sickle_iron"
+		},
+		{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "extrautils2:sickle_gold"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "98098655",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "exnihilocreatio:hammer_iron"
+		}
+	}]
+}

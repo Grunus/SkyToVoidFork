@@ -1,0 +1,30 @@
+{
+	title: "Slime Jumping!",
+	x: 5.5d,
+	y: 8.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"f637b00a"
+	],
+	hide: true,
+	tasks: [{
+		uid: "8520b848",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "cyclicmagic:tool_launcher",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "369feb96",
+		type: "loot",
+		table: 52
+	}]
+}

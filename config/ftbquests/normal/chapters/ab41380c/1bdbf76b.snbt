@@ -1,0 +1,44 @@
+{
+	title: "Hunt: Spider Trouble",
+	x: 10.5d,
+	y: 0.5d,
+	shape: "pentagon",
+	description: "''You know I may have been considered the best hunter, but I HATE SPIDERS!''",
+	can_repeat: true,
+	hide_dependency_lines: true,
+	dependencies: [
+		"46793e20",
+		"82ec08eb"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	optional: true,
+	tasks: [{
+		uid: "4c978343",
+		type: "kill",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:spider_eye"
+		},
+		entity: "minecraft:spider",
+		value: 50L
+	}],
+	rewards: [{
+		uid: "9c688b0d",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "camscurrency:denarius"
+		},
+		count: 12
+	},
+	{
+		uid: "bf57b04e",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	}]
+}

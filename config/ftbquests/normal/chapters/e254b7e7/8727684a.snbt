@@ -1,0 +1,44 @@
+{
+	title: "Empty the Thrones",
+	x: -2.0d,
+	y: -22.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"996ee067"
+	],
+	hide: true,
+	tasks: [{
+		uid: "5de7bf82",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thermalfoundation:upgrade",
+			Damage: 3s
+		}]
+	}],
+	rewards: [{
+		uid: "9a072402",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "camscurrency:denarius"
+		},
+		count: 6
+	},
+	{
+		uid: "16f1d49a",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	},
+	{
+		uid: "16adc27a",
+		type: "loot",
+		table: 70
+	}]
+}

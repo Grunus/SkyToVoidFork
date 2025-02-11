@@ -1,0 +1,49 @@
+{
+	title: "Ice Temple",
+	x: 9.5d,
+	y: 13.5d,
+	description: "The wizard would be impressed if you came here...",
+	text: [
+		"",
+		"Developer Note: I copied this placed and replaced everything at night.",
+		"When I came back the entire structure started melting, then I replaced everything to packed ice...",
+		"I was going to fix it but Ima keep it cause I think it's funny :)"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"02b464cc"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "e0e69f7f",
+		type: "location",
+		title: "414 155 619",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ebwizardry:crystal_block",
+			Damage: 2s
+		},
+		location: [I;
+			0,
+			412,
+			155,
+			618,
+			5,
+			5,
+			5
+		]
+	}],
+	rewards: [{
+		uid: "131efa48",
+		type: "loot",
+		table: 27
+	},
+	{
+		uid: "615210d0",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	}]
+}

@@ -1,0 +1,998 @@
+{
+    "ReturnToStart": 1b,
+    "NpcInv": [
+        {
+            "Slot": 0b,
+            "ForgeCaps": {
+                "customnpcs:itemscripteddata": {
+                }
+            },
+            "id": "minecraft:leather_chestplate",
+            "Count": 1b,
+            "Damage": 0s
+        },
+        {
+            "Slot": 1b,
+            "ForgeCaps": {
+                "customnpcs:itemscripteddata": {
+                }
+            },
+            "id": "minecraft:leather_leggings",
+            "Count": 1b,
+            "Damage": 0s
+        },
+        {
+            "Slot": 2b,
+            "ForgeCaps": {
+                "customnpcs:itemscripteddata": {
+                }
+            },
+            "id": "minecraft:leather_boots",
+            "Count": 1b,
+            "Damage": 0s
+        },
+        {
+            "Slot": 3b,
+            "ForgeCaps": {
+                "customnpcs:itemscripteddata": {
+                }
+            },
+            "id": "tconstruct:hammer",
+            "Count": 1b,
+            "tag": {
+                "StatsOriginal": {
+                    "AttackSpeedMultiplier": 1.0f,
+                    "MiningSpeed": 6.535f,
+                    "FreeModifiers": 3,
+                    "Durability": 975,
+                    "HarvestLevel": 4,
+                    "Attack": 4.85f
+                },
+                "display": {
+                    "Name": "Bomb Lance"
+                },
+                "Stats": {
+                    "AttackSpeedMultiplier": 1.0f,
+                    "MiningSpeed": 6.535f,
+                    "FreeModifiers": 0,
+                    "Durability": 975,
+                    "HarvestLevel": 4,
+                    "Attack": 11.738858f
+                },
+                "Special": {
+                    "Categories": [
+                        "weapon",
+                        "harvest",
+                        "tool",
+                        "aoe"
+                    ]
+                },
+                "TinkerData": {
+                    "UsedModifiers": 5,
+                    "Materials": [
+                        "dark_steel",
+                        "obsidian",
+                        "steel",
+                        "silver"
+                    ],
+                    "Modifiers": [
+                        "blasting",
+                        "sharpness",
+                        "creative",
+                        "smite"
+                    ]
+                },
+                "Modifiers": [
+                    {
+                        "identifier": "unnatural",
+                        "color": -9671572,
+                        "level": 1
+                    },
+                    {
+                        "identifier": "duritos",
+                        "color": -10478396,
+                        "level": 1
+                    },
+                    {
+                        "identifier": "sharp",
+                        "color": -5789785,
+                        "level": 1
+                    },
+                    {
+                        "identifier": "holy",
+                        "color": -3019530,
+                        "level": 1
+                    },
+                    {
+                        "identifier": "blasting",
+                        "color": 16755235,
+                        "level": 3,
+                        "modifierUsed": 1b
+                    },
+                    {
+                        "identifier": "sharpness",
+                        "current": 216,
+                        "color": 16774902,
+                        "level": 3,
+                        "max": 216,
+                        "extraInfo": "215 / 216"
+                    },
+                    {
+                        "identifier": "creative",
+                        "color": 0,
+                        "level": 2
+                    },
+                    {
+                        "identifier": "smite",
+                        "current": 24,
+                        "color": 15258880,
+                        "level": 1,
+                        "max": 24,
+                        "extraInfo": "23 / 24"
+                    }
+                ],
+                "Traits": [
+                    "unnatural",
+                    "duritos",
+                    "sharp",
+                    "holy",
+                    "blasting",
+                    "smite"
+                ]
+            },
+            "Damage": 0s
+        },
+        {
+            "Slot": 4b,
+            "ForgeCaps": {
+                "customnpcs:itemscripteddata": {
+                }
+            },
+            "id": "tconstruct:bolt",
+            "Count": 1b,
+            "tag": {
+                "StatsOriginal": {
+                    "AttackSpeedMultiplier": 1.0f,
+                    "Accuracy": 1.0f,
+                    "MiningSpeed": 7.0f,
+                    "FreeModifiers": 3,
+                    "Durability": 60,
+                    "HarvestLevel": 4,
+                    "Attack": 7.0f
+                },
+                "display": {
+                    "Name": "Poison Bolts"
+                },
+                "Stats": {
+                    "AttackSpeedMultiplier": 1.0f,
+                    "Accuracy": 1.0f,
+                    "MiningSpeed": 7.0f,
+                    "FreeModifiers": 1,
+                    "Durability": 60,
+                    "HarvestLevel": 4,
+                    "Attack": 13.663814f
+                },
+                "Special": {
+                    "Categories": [
+                        "tool",
+                        "projectile",
+                        "no_melee"
+                    ]
+                },
+                "TinkerData": {
+                    "UsedModifiers": 5,
+                    "Materials": [
+                        "wood",
+                        "vyroxeres",
+                        "feather"
+                    ],
+                    "Modifiers": [
+                        "sharpness",
+                        "creative",
+                        "fins"
+                    ]
+                },
+                "Modifiers": [
+                    {
+                        "identifier": "ecological",
+                        "color": -7444965,
+                        "level": 1
+                    },
+                    {
+                        "identifier": "poisonous",
+                        "color": -13893888,
+                        "level": 1
+                    },
+                    {
+                        "identifier": "sharpness",
+                        "current": 256,
+                        "color": 16774902,
+                        "level": 4,
+                        "max": 288,
+                        "extraInfo": "255 / 288"
+                    },
+                    {
+                        "identifier": "creative",
+                        "color": 0,
+                        "level": 3
+                    },
+                    {
+                        "identifier": "fins",
+                        "color": 11259375,
+                        "level": 1
+                    }
+                ],
+                "Traits": [
+                    "ecological",
+                    "poisonous",
+                    "fins"
+                ]
+            },
+            "Damage": 0s
+        },
+        {
+            "Slot": 5b,
+            "ForgeCaps": {
+                "customnpcs:itemscripteddata": {
+                }
+            },
+            "id": "tconstruct:crossbow",
+            "Count": 1b,
+            "tag": {
+                "StatsOriginal": {
+                    "AttackSpeedMultiplier": 1.0f,
+                    "MiningSpeed": 2.0f,
+                    "DrawSpeed": 1.0f,
+                    "FreeModifiers": 3,
+                    "ProjectileBonusDamage": 0.0f,
+                    "Durability": 344,
+                    "HarvestLevel": 0,
+                    "Attack": 2.0f,
+                    "Range": 1.0f
+                },
+                "display": {
+                    "Name": "Heavy Crossbow"
+                },
+                "Stats": {
+                    "AttackSpeedMultiplier": 1.0f,
+                    "MiningSpeed": 2.5f,
+                    "DrawSpeed": 1.0f,
+                    "FreeModifiers": 1,
+                    "ProjectileBonusDamage": 0.0f,
+                    "Durability": 844,
+                    "HarvestLevel": 1,
+                    "Attack": 14.678277f,
+                    "Range": 1.0f
+                },
+                "Special": {
+                    "Categories": [
+                        "tool",
+                        "launcher"
+                    ]
+                },
+                "TinkerData": {
+                    "UsedModifiers": 12,
+                    "Materials": [
+                        "black_steel",
+                        "wood",
+                        "refinediron",
+                        "vine"
+                    ],
+                    "Modifiers": [
+                        "sharpness",
+                        "creative",
+                        "diamond",
+                        "bane_of_arthopods",
+                        "smite"
+                    ]
+                },
+                "Modifiers": [
+                    {
+                        "identifier": "ecological",
+                        "color": -7444965,
+                        "level": 1
+                    },
+                    {
+                        "identifier": "sharpness",
+                        "current": 360,
+                        "color": 16774902,
+                        "level": 5,
+                        "max": 360,
+                        "extraInfo": "359 / 360"
+                    },
+                    {
+                        "identifier": "creative",
+                        "color": 0,
+                        "level": 10
+                    },
+                    {
+                        "identifier": "diamond",
+                        "color": 9237730
+                    },
+                    {
+                        "identifier": "bane_of_arthopods",
+                        "current": 48,
+                        "color": 6404681,
+                        "level": 2,
+                        "max": 48,
+                        "extraInfo": "47 / 48"
+                    },
+                    {
+                        "identifier": "smite",
+                        "current": 88,
+                        "color": 15258880,
+                        "level": 4,
+                        "max": 96,
+                        "extraInfo": "87 / 96"
+                    }
+                ],
+                "Traits": [
+                    "ecological",
+                    "bane_of_arthopods",
+                    "smite"
+                ]
+            },
+            "Damage": 0s
+        },
+        {
+            "Slot": 6b,
+            "ForgeCaps": {
+                "customnpcs:itemscripteddata": {
+                }
+            },
+            "id": "minecraft:poisonous_potato",
+            "Count": 1b,
+            "Damage": 0s
+        },
+        {
+            "Slot": 7b,
+            "ForgeCaps": {
+                "customnpcs:itemscripteddata": {
+                }
+            },
+            "id": "mysticalagriculture:crafting",
+            "Count": 1b,
+            "tag": {
+                "ench": [
+                    {
+                        "lvl": 1s,
+                        "id": 71s
+                    }
+                ],
+                "display": {
+                    "Lore": [
+                        "Turn in to Bob for a prize!"
+                    ],
+                    "Name": "Bounty Token"
+                },
+                "AttributeModifiers": [
+                    {
+                        "UUIDMost": 6888806001815012695L,
+                        "UUIDLeast": -5528485021284021967L,
+                        "Amount": 4.0d,
+                        "Slot": "offhand",
+                        "AttributeName": "generic.reachDistance",
+                        "Operation": 0,
+                        "Name": "generic.reachDistance"
+                    }
+                ]
+            },
+            "Damage": 8s
+        }
+    ],
+    "BossColor": 0,
+    "PotionEffect": 2,
+    "Size": 5,
+    "stopAndInteract": 0b,
+    "Resistances": {
+        "Arrow": 1.0f,
+        "Explosion": 2.0f,
+        "Knockback": 0.7887324f,
+        "Melee": 1.3098592f
+    },
+    "BossBar": 2b,
+    "RespawnTime": 300,
+    "NpcAngrySound": "",
+    "ReactsToFire": 0b,
+    "IgnoreCobweb": 0b,
+    "PositionOffsetZ": 5.0f,
+    "PositionOffsetY": 5.0f,
+    "PositionOffsetX": 5.0f,
+    "LootMode": 0,
+    "TransformHasAI": 0b,
+    "AttackStrenght": 18,
+    "PersistenceRequired": 0b,
+    "id": "customnpcs:customnpc",
+    "IsStatue": 0b,
+    "MovingPatern": 0,
+    "NpcLines": {
+        "Lines": [
+        ]
+    },
+    "DefendFaction": 0b,
+    "FireIndirect": 0,
+    "NpcVisible": 0,
+    "LinkedNpcName": "",
+    "NpcScenes": {
+        "Scenes": [
+        ]
+    },
+    "HitSound": "minecraft:entity.tnt.primed",
+    "FindShelter": 2,
+    "Air": 300s,
+    "TacticalVariant": 0,
+    "Orientation": 0,
+    "ScriptLanguage": "ECMAScript",
+    "HandItems": [
+        {
+        },
+        {
+        }
+    ],
+    "KnockBack": 2,
+    "TransformHasJob": 0b,
+    "ArmorDropChances": [
+        0.085f,
+        0.085f,
+        0.085f,
+        0.085f
+    ],
+    "BurnInSun": 0b,
+    "StandingState": 0,
+    "AttackInvisible": 0b,
+    "NpcInteractNPCLines": {
+        "Lines": [
+        ]
+    },
+    "HurtTime": 0s,
+    "WalkingRange": 10,
+    "ShotCount": 1,
+    "pDur": 5,
+    "AttackRange": 2,
+    "NpcKillLines": {
+        "Lines": [
+        ]
+    },
+    "PotionImmune": 1b,
+    "AvoidsSun": 0b,
+    "Texture": "customnpcs:textures/entity/humanmale/mercenarysteve.png",
+    "NpcJob": 0,
+    "BurstCount": 1,
+    "NpcAttackLines": {
+        "Lines": [
+        ]
+    },
+    "pSpeed": 10,
+    "pArea": 3,
+    "DeathTime": 0s,
+    "pImpact": 3,
+    "MoveState": 0,
+    "pRender3D": 1b,
+    "Motion": [
+        0.0d,
+        -0.0784000015258789d,
+        0.0d
+    ],
+    "CombatRegen": 1,
+    "NpcsTimers": [
+    ],
+    "MarkovGender": 0,
+    "pEffect": 0,
+    "DistanceToMelee": 2,
+    "NpcStepSound": "",
+    "FireRate": 5,
+    "LeftHanded": 0b,
+    "pEffAmp": 0,
+    "OnGround": 1b,
+    "Dimension": 0,
+    "ImmuneToFire": 0b,
+    "NpcKilledLines": {
+        "Lines": [
+        ]
+    },
+    "Fire": -1s,
+    "ArmorItems": [
+        {
+        },
+        {
+        },
+        {
+        },
+        {
+        }
+    ],
+    "DisablePitch": 0b,
+    "pPhysics": 1b,
+    "TransformHasInv": 0b,
+    "NpcInteractLines": {
+        "Lines": [
+            {
+                "Line": "Hello @p",
+                "Song": "",
+                "Slot": 0
+            }
+        ]
+    },
+    "HurtByTimestamp": 3544,
+    "pSpin": 0b,
+    "NpcHurtSound": "minecraft:entity.player.hurt",
+    "pTrail": 1,
+    "CreatureType": 0,
+    "Attributes": [
+        {
+            "Base": 1.0d,
+            "Name": "potioncore.projectileDamage"
+        },
+        {
+            "Base": 1.0d,
+            "Name": "potioncore.magicDamage"
+        },
+        {
+            "Base": 1.0d,
+            "Name": "potioncore.jumpHeight"
+        },
+        {
+            "Base": 1.0d,
+            "Name": "potioncore.damageResistance"
+        },
+        {
+            "Base": 0.0d,
+            "Name": "potioncore.magicShielding"
+        },
+        {
+            "Base": 1.0d,
+            "Name": "artemislib.entityHeight"
+        },
+        {
+            "Base": 1.0d,
+            "Name": "artemislib.entityWidth"
+        },
+        {
+            "Base": 150.0d,
+            "Name": "generic.maxHealth"
+        },
+        {
+            "Base": 0.0d,
+            "Name": "generic.knockbackResistance"
+        },
+        {
+            "Base": 0.25d,
+            "Name": "generic.movementSpeed"
+        },
+        {
+            "Base": 0.0d,
+            "Name": "generic.armor"
+        },
+        {
+            "Base": 0.0d,
+            "Name": "generic.armorToughness"
+        },
+        {
+            "Base": 1.0d,
+            "Name": "forge.swimSpeed"
+        },
+        {
+            "Base": 64.0d,
+            "Name": "generic.followRange"
+        },
+        {
+            "Base": 18.0d,
+            "Name": "generic.attackDamage"
+        },
+        {
+            "Base": 0.5d,
+            "Name": "generic.flyingSpeed"
+        }
+    ],
+    "Invulnerable": 0b,
+    "TransformHasDisplay": 0b,
+    "NoFallDamage": 0b,
+    "AbsorptionAmount": 0.0f,
+    "TransformHasRole": 0b,
+    "Name": "The Mountain Man",
+    "FallDistance": 0.0f,
+    "SkinColor": 16777215,
+    "NpcIdleSound": "",
+    "Weapons": [
+        {
+            "Slot": 0b,
+            "ForgeCaps": {
+                "customnpcs:itemscripteddata": {
+                }
+            },
+            "id": "tconstruct:hammer",
+            "Count": 1b,
+            "tag": {
+                "StatsOriginal": {
+                    "AttackSpeedMultiplier": 1.0f,
+                    "MiningSpeed": 6.535f,
+                    "FreeModifiers": 3,
+                    "Durability": 975,
+                    "HarvestLevel": 4,
+                    "Attack": 4.85f
+                },
+                "display": {
+                    "Name": "Bomb Lance"
+                },
+                "Stats": {
+                    "AttackSpeedMultiplier": 1.0f,
+                    "MiningSpeed": 6.535f,
+                    "FreeModifiers": 0,
+                    "Durability": 975,
+                    "HarvestLevel": 4,
+                    "Attack": 11.738858f
+                },
+                "Special": {
+                    "Categories": [
+                        "weapon",
+                        "harvest",
+                        "tool",
+                        "aoe"
+                    ]
+                },
+                "TinkerData": {
+                    "UsedModifiers": 5,
+                    "Materials": [
+                        "dark_steel",
+                        "obsidian",
+                        "steel",
+                        "silver"
+                    ],
+                    "Modifiers": [
+                        "blasting",
+                        "sharpness",
+                        "creative",
+                        "smite"
+                    ]
+                },
+                "Modifiers": [
+                    {
+                        "identifier": "unnatural",
+                        "color": -9671572,
+                        "level": 1
+                    },
+                    {
+                        "identifier": "duritos",
+                        "color": -10478396,
+                        "level": 1
+                    },
+                    {
+                        "identifier": "sharp",
+                        "color": -5789785,
+                        "level": 1
+                    },
+                    {
+                        "identifier": "holy",
+                        "color": -3019530,
+                        "level": 1
+                    },
+                    {
+                        "identifier": "blasting",
+                        "color": 16755235,
+                        "level": 3,
+                        "modifierUsed": 1b
+                    },
+                    {
+                        "identifier": "sharpness",
+                        "current": 216,
+                        "color": 16774902,
+                        "level": 3,
+                        "max": 216,
+                        "extraInfo": "215 / 216"
+                    },
+                    {
+                        "identifier": "creative",
+                        "color": 0,
+                        "level": 2
+                    },
+                    {
+                        "identifier": "smite",
+                        "current": 24,
+                        "color": 15258880,
+                        "level": 1,
+                        "max": 24,
+                        "extraInfo": "23 / 24"
+                    }
+                ],
+                "Traits": [
+                    "unnatural",
+                    "duritos",
+                    "sharp",
+                    "holy",
+                    "blasting",
+                    "smite"
+                ]
+            },
+            "Damage": 0s
+        }
+    ],
+    "NPCDialogOptions": [
+    ],
+    "AggroRange": 45,
+    "DirectLOS": 1b,
+    "HealthRegen": 1,
+    "ForgeCaps": {
+        "artemislib:capability": {
+            "transformed": 0b
+        },
+        "everlastingabilities:org.cyclops.everlastingabilities.api.capability.imutableabilitystore": [
+        ],
+        "metallurgy:punch_effect": {
+            "hasAiDisabled": 1b,
+            "knockbackTicks": 0,
+            "ticks": 0
+        }
+    },
+    "HandDropChances": [
+        0.085f,
+        0.085f
+    ],
+    "NpcModelData": {
+        "LegsConfig": {
+            "NotShared": 0b,
+            "ScaleZ": 1.0f,
+            "TransZ": 0.0f,
+            "TransY": 0.0f,
+            "TransX": 0.012000002f,
+            "ScaleY": 1.0f,
+            "ScaleX": 1.0f
+        },
+        "BodyConfig": {
+            "NotShared": 0b,
+            "ScaleZ": 1.0f,
+            "TransZ": 0.0f,
+            "TransY": 0.0f,
+            "TransX": 0.0f,
+            "ScaleY": 1.0f,
+            "ScaleX": 1.0f
+        },
+        "Eyes": {
+            "Pattern": 0b,
+            "Glint": 1b,
+            "Type": 0b,
+            "PositionY": 1,
+            "SkinColor": 11830381,
+            "PlayerTexture": 0b,
+            "Color": 10066329,
+            "BrowColor": 5982516,
+            "BrowThickness": 4
+        },
+        "LegParts": {
+            "Pattern": 0b,
+            "Type": 0b,
+            "PlayerTexture": 0b,
+            "Color": 16777215
+        },
+        "Parts": [
+        ],
+        "ArmsConfig": {
+            "NotShared": 0b,
+            "ScaleZ": 1.0f,
+            "TransZ": 0.0f,
+            "TransY": 0.0f,
+            "TransX": -0.0f,
+            "ScaleY": 1.0f,
+            "ScaleX": 1.0f
+        },
+        "ExtraData": {
+        },
+        "HeadConfig": {
+            "NotShared": 0b,
+            "ScaleZ": 1.0f,
+            "TransZ": 0.0f,
+            "TransY": 0.0f,
+            "TransX": 0.0f,
+            "ScaleY": 1.0f,
+            "ScaleX": 1.0f
+        }
+    },
+    "minDelay": 150,
+    "DoorInteract": 1,
+    "MoveSpeed": 5,
+    "TransformEditingModus": 0b,
+    "UsingSkinUrl": 0b,
+    "Leashed": 0b,
+    "SkinUrl": "",
+    "CanSwim": 1b,
+    "GroundSound": "minecraft:block.fence_gate.open",
+    "MaxHealth": 150,
+    "HideBodyWhenKilled": 1b,
+    "AttackSpeed": 20,
+    "PotionDuration": 12,
+    "maxDelay": 200,
+    "ScriptEnabled": 1b,
+    "Role": 0,
+    "DropChance": [
+        {
+            "Integer": 11,
+            "Slot": 0
+        },
+        {
+            "Integer": 11,
+            "Slot": 1
+        },
+        {
+            "Integer": 11,
+            "Slot": 2
+        },
+        {
+            "Integer": 50,
+            "Slot": 3
+        },
+        {
+            "Integer": 10,
+            "Slot": 4
+        },
+        {
+            "Integer": 10,
+            "Slot": 5
+        },
+        {
+            "Integer": 100,
+            "Slot": 6
+        },
+        {
+            "Integer": 100,
+            "Slot": 7
+        },
+        {
+            "Integer": 100,
+            "Slot": 8
+        }
+    ],
+    "FactionPoints": {
+        "DecreaseFaction1Points": 0b,
+        "OptionFaction2Points": 100,
+        "OptionFactions1": -1,
+        "OptionFactions2": -1,
+        "OptionFaction1Points": 100,
+        "DecreaseFaction2Points": 0b
+    },
+    "pDamage": 77,
+    "KilledTime": 0L,
+    "AimWhileShooting": 1b,
+    "CanPickUpLoot": 0b,
+    "AttackOtherFactions": 0b,
+    "CanDrown": 1b,
+    "pSize": 5,
+    "CanSprint": 0b,
+    "CanLeap": 0b,
+    "TransformIsActive": 0b,
+    "ForgeData": {
+        "cnpcmarkdata": {
+            "marks": [
+            ]
+        },
+        "Potion Core - Health Fix": 150.0f,
+        "Potion Core - Projectile Invulnerability": 0,
+        "Potion Core - Jump Boost Updated": 1b
+    },
+    "MovingState": 0,
+    "MovingPos": 0,
+    "PotionAmp": 4,
+    "OnAttack": 0,
+    "TacticalRadius": 8,
+    "FallFlying": 0b,
+    "MaxExp": 60,
+    "OrderedLines": 0b,
+    "PortalCooldown": 0,
+    "pGlows": 0b,
+    "TransformHasAdvanced": 0b,
+    "TransformHasStats": 0b,
+    "MovementType": 0,
+    "FiringSound": "minecraft:block.iron_trapdoor.open",
+    "ModRev": 18,
+    "Accuracy": 100,
+    "MinExp": 30,
+    "Armor": [
+        {
+            "Slot": 1b,
+            "ForgeCaps": {
+                "customnpcs:itemscripteddata": {
+                }
+            },
+            "id": "minecraft:leather_chestplate",
+            "Count": 1b,
+            "Damage": 0s
+        },
+        {
+            "Slot": 2b,
+            "ForgeCaps": {
+                "customnpcs:itemscripteddata": {
+                }
+            },
+            "id": "minecraft:leather_leggings",
+            "Count": 1b,
+            "Damage": 0s
+        },
+        {
+            "Slot": 3b,
+            "ForgeCaps": {
+                "customnpcs:itemscripteddata": {
+                }
+            },
+            "id": "minecraft:leather_boots",
+            "Count": 1b,
+            "Damage": 0s
+        }
+    ],
+    "CloakTexture": "",
+    "GlowTexture": "",
+    "MaxFiringRange": 32,
+    "pXlr8": 0b,
+    "MarkovGeneratorId": 0,
+    "Scripts": [
+        {
+            "Script": "//DO NOT PUT AN ITEM IN THE NPC PROJECTILE SLOT. PUT THE NAME IN THE SCRIPT HERE
+
+var ItemName = \"cyclicmagic:dynamite_safe\"
+var T = [20,21] //Timers used in this script. Change if conflicts arise with other scripts.
+
+function init(t){
+t.npc.timers.clear()}
+
+function target(t){
+t.npc.timers.forceStart(T[0],Range(t.npc.stats.ranged.getDelayMin(),t.npc.stats.ranged.getDelayMax()),false)}
+
+function timer(t){
+var R = t.npc.stats.ranged
+if(t.id == T[0]){
+if(!t.npc.isAttacking())return;
+if(t.npc.getPos().distanceTo(t.npc.getAttackTarget().getPos()) <= R.getRange()){
+t.npc.swingMainhand()
+t.npc.world.playSoundAt(t.npc.getPos(),R.getSound(0),3,1)
+for(var i = 0;i<R.getShotCount();++i){
+var e = t.npc.shootItem(t.npc.getAttackTarget(),t.npc.world.createItem(ItemName,0,1),R.getAccuracy())
+e.getTempdata().put(\"npc\",t.npc)
+e.enableEvents()}
+if(R.getBurst() > 1){
+t.npc.getTempdata().put(\"burst\",1)
+t.npc.timers.forceStart(T[1],R.getBurstDelay(),false);return;}}
+t.npc.timers.forceStart(T[0],Range(R.getDelayMin(),R.getDelayMax()),false)}
+if(t.id == T[1]){
+t.npc.swingMainhand()
+t.npc.world.playSoundAt(t.npc.getPos(),R.getSound(0),3,1)
+for(var i = 0;i<R.getShotCount();++i){
+var e = t.npc.shootItem(t.npc.getAttackTarget(),t.npc.world.createItem(ItemName,0,1),R.getAccuracy())
+e.getTempdata().put(\"npc\",t.npc)
+e.enableEvents()}
+t.npc.getTempdata().put(\"burst\",t.npc.getTempdata().get(\"burst\")+1)
+if(t.npc.getTempdata().get(\"burst\") >= R.getBurst()){
+t.npc.timers.forceStart(T[0],Range(R.getDelayMin(),R.getDelayMax()),false);return;}
+t.npc.timers.forceStart(T[1],R.getBurstDelay(),false);}}
+
+function projectileImpact(t){
+var npc = t.projectile.getTempdata().get(\"npc\")
+if(t.type == 0)t.projectile.world.playSoundAt(t.projectile.getPos(),npc.stats.ranged.getSound(1),1,1)
+if(t.type == 1)t.projectile.world.playSoundAt(t.projectile.getPos(),npc.stats.ranged.getSound(2),1,1)}
+
+function Range(num1,num2){
+var Range = [num1,num2]
+var num = (Math.round(Math.random()*(Range[1]-Range[0]))+Range[0])
+return num;}
+
+//end",
+            "Console": [
+            ],
+            "ScriptList": [
+            ]
+        }
+    ],
+    "Health": 150.0f,
+    "pStick": 0b,
+    "MovingPause": 1b,
+    "NpcDeathSound": "minecraft:entity.player.hurt",
+    "FactionID": 19,
+    "Title": "Hunter of the Bayou",
+    "TotalTicksAlive": 187279L,
+    "Rotation": [
+        0.10332489f,
+        0.0f
+    ],
+    "ShowName": 0,
+    "npcInteracting": 1b,
+    "UpdateBlocked": 0b,
+    "AvoidsWater": 1b,
+    "NoLivingAnimation": 0b,
+    "SpawnCycle": 0
+}

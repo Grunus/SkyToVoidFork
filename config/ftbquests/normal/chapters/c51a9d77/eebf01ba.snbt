@@ -1,0 +1,40 @@
+{
+	title: "Drone Strike",
+	x: 6.5d,
+	y: 8.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"f637b00a"
+	],
+	hide: true,
+	tasks: [{
+		uid: "5520588d",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "cyclicmagic:wand_missile"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "1a069ceb",
+		type: "loot",
+		table: 52
+	},
+	{
+		uid: "1c9cc912",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "harvestcraft:dragonfruititem"
+		},
+		random_bonus: 1
+	}]
+}

@@ -1,0 +1,36 @@
+{
+	title: "Falling Sky",
+	x: -14.5d,
+	y: 3.5d,
+	description: "You can crush Sky Stone with a hammer and put it through a sieve for Applied Energistics items.",
+	text: [
+		"It's good to upgrade your sieve's mesh for better output of drops."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"7a1509c0"
+	],
+	hide: true,
+	tasks: [{
+		uid: "1548ea1b",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "exnihilocreatio:block_skystone_crushed"
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "c6e4d758",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "exnihilocreatio:block_dust"
+		},
+		count: 16
+	}]
+}

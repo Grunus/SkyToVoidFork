@@ -1,0 +1,92 @@
+{
+	title: "Liam's Knowledge of Ancient Beings",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "mysticalagriculture:charm",
+		Damage: 3s
+	},
+	x: -20.5d,
+	y: 16.0d,
+	shape: "diamond",
+	description: "''Hmm... a structure built for The Wither himself. Looks like it barely survived. Can you observe these Wither Skeletons? I am also curious on how The Wither charges itself. When you summon The Wither to the living I'd like you to watch its charging method.''",
+	text: [
+		"Crazy how such a being can enter this realm."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"13b6ee8c",
+		"c9dee3d1"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "4d86df57",
+		type: "observation",
+		title: "Observe a Wither Skeleton",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:skull",
+			Damage: 1s
+		},
+		match_type: "entity_id",
+		match: "minecraft:wither_skeleton",
+		timer: 80L
+	},
+	{
+		uid: "0eed5885",
+		type: "observation",
+		title: "Observe The Wither as it's charging itself",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "mysticalagriculture:charm",
+			Damage: 3s
+		},
+		match_type: "entity_id",
+		match: "minecraft:wither",
+		timer: 160L
+	}],
+	rewards: [{
+		uid: "8c9860cd",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "mysticalagradditions:stuff",
+			Damage: 1s
+		},
+		count: 6
+	},
+	{
+		uid: "fca15ccf",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ebwizardry:amulet_wither_immunity"
+		}
+	},
+	{
+		uid: "1582a1fa",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "337036d3",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "camscurrency:denarius"
+		},
+		count: 16
+	}]
+}

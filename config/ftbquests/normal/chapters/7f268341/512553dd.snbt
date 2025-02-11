@@ -1,0 +1,26 @@
+{
+	x: 6.5d,
+	y: 3.5d,
+	description: "Cannot get killed by a single hit.",
+	dependencies: [
+		"1bf9acaa"
+	],
+	hide: true,
+	tasks: [{
+		uid: "6d120157",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "darkutils:focus_sash"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "45ef725d",
+		type: "loot",
+		table: 20
+	}]
+}

@@ -1,0 +1,29 @@
+{
+	title: "Convert Physical Coins to Virtual Coins",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "tconstruct:wooden_hopper"
+	},
+	x: 0.0d,
+	y: -8.0d,
+	description: "''You've been slogging all these coins around... how about we make them lighter, and cooler too!''",
+	text: [
+		"Can convert Dupondius and Denarius coins into quest book money for the quest book shop."
+	],
+	dependencies: [
+		"f0ba6cef"
+	],
+	hide: true,
+	tasks: [{
+		uid: "5fd751b2",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "camscurrency:aureus"
+		}]
+	}]
+}

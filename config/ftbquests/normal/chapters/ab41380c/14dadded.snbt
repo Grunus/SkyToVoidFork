@@ -1,0 +1,198 @@
+{
+	title: "Henry & Modern Medicine",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "openblocks:trophy",
+		tag: {
+			entity_id: "minecraft:zombie"
+		}
+	},
+	x: 16.0d,
+	y: 12.0d,
+	shape: "diamond",
+	description: "''Hey! You know before the apocalypse, there were some studies on certain medicines to cure the undead. Now there was a lot of trials and the records were lost on which trial was successful. I have a list of items which are also the candidates for my upcoming trials. I also need you to find a zombie and trap them. Observe them and tell me how their condition is. I need the right body for the right job!''",
+	text: [
+		"Zombie found! Items received! Time to cure the world!"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"828968ad",
+		"7e4c89a1"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "d567c3d1",
+		type: "observation",
+		title: "Observe a Zombie for 20 Seconds",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:skull",
+			Damage: 2s
+		},
+		match_type: "entity_id",
+		match: "minecraft:zombie",
+		timer: 400L
+	},
+	{
+		uid: "fa111ee1",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:golden_carrot"
+		}],
+		consume_items: true
+	},
+	{
+		uid: "d736312d",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "cyclicmagic:horse_upgrade_variant"
+		}],
+		consume_items: true
+	},
+	{
+		uid: "6cdebdae",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:golden_apple"
+		}],
+		consume_items: true
+	},
+	{
+		uid: "a82c5670",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "enderio:block_death_pouch"
+		}],
+		consume_items: true
+	},
+	{
+		uid: "4c6c3d93",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:splash_potion",
+			tag: {
+				Potion: "minecraft:long_weakness"
+			}
+		}],
+		consume_items: true,
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "a334a2d4",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "tconstruct:materials",
+			Damage: 19s
+		}],
+		consume_items: true
+	},
+	{
+		uid: "894e13ab",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:potion",
+			tag: {
+				Potion: "minecraft:strong_harming"
+			}
+		}],
+		consume_items: true,
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "b9d012a3",
+		type: "loot",
+		table: 73
+	},
+	{
+		uid: "52309ba9",
+		type: "loot",
+		table: 16
+	},
+	{
+		uid: "6ddb836d",
+		type: "loot",
+		table: 45
+	},
+	{
+		uid: "6bcddbe0",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "enderio:item_material",
+			Damage: 42s
+		}
+	},
+	{
+		uid: "462a92bb",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:spawn_egg",
+			tag: {
+				EntityTag: {
+					id: "minecraft:zombie_villager"
+				}
+			}
+		},
+		count: 4
+	},
+	{
+		uid: "526019dd",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	},
+	{
+		uid: "731e2727",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "contenttweaker:objectives",
+			tag: {
+				ench: [{
+					lvl: 1s,
+					id: 10s
+				}],
+				display: {
+					Lore: [
+						"Statue of Depression would be pleased."
+					],
+					Name: "Mark of Friendship - Island Layer 4"
+				}
+			}
+		}
+	}]
+}

@@ -1,0 +1,38 @@
+{
+	title: "Innovation Enervation",
+	x: -4.0d,
+	y: -2.0d,
+	description: "Enervation dynamos extract power from Flux Capacitors.",
+	text: [
+		""
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"ac7427ca",
+		"f37fcd38"
+	],
+	hide: true,
+	tasks: [{
+		uid: "e52f335a",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thermalexpansion:dynamo",
+			tag: {
+				RSControl: 0b,
+				Facing: 1b,
+				Energy: 0,
+				Level: 0b
+			},
+			Damage: 4s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "48cdb165",
+		type: "loot",
+		table: 8
+	}]
+}

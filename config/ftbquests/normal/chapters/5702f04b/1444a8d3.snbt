@@ -1,0 +1,56 @@
+{
+	title: "Wikipedia",
+	x: -7.5d,
+	y: 16.5d,
+	description: "Got a ton of spells? Keep track of them all with the Lectern.",
+	text: [
+		""
+	],
+	dependencies: [
+		"66bc90c6"
+	],
+	hide: true,
+	tasks: [{
+		uid: "4264c669",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ebwizardry:birch_lectern"
+		}]
+	}],
+	rewards: [{
+		uid: "f886828c",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ebwizardry:spell_book",
+			Damage: 3s
+		}
+	},
+	{
+		uid: "747eaa27",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ebwizardry:spell_book",
+			Damage: 10s
+		}
+	},
+	{
+		uid: "d8c24c7b",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ebwizardry:spell_book",
+			Damage: 25s
+		}
+	}]
+}

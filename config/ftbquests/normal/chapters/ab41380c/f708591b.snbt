@@ -1,0 +1,98 @@
+{
+	title: "Finde Needs Your Eyes",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "minecraft:fermented_spider_eye"
+	},
+	x: -11.0d,
+	y: 6.0d,
+	shape: "diamond",
+	description: "''Need you to check up on a few things around my pirson.''",
+	text: [
+		"Thank you! Now I know how bad my place really is now..."
+	],
+	dependencies: [
+		"55769c0b"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "2fd4f71a",
+		type: "location",
+		title: "Check Courtyard (-550 70 250)",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:dirt",
+			Damage: 2s
+		},
+		location: [I;
+			0,
+			-550,
+			70,
+			250,
+			2,
+			2,
+			2
+		]
+	},
+	{
+		uid: "2f3d968e",
+		type: "location",
+		title: "Check Freezer (-526 70 163)",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "mysticalagriculture:ice_essence"
+		},
+		location: [I;
+			0,
+			-526,
+			70,
+			163,
+			2,
+			2,
+			2
+		]
+	},
+	{
+		uid: "ee7927e2",
+		type: "location",
+		title: "Check Showers (-536 75 199)",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "cfm:shower_bottom"
+		},
+		location: [I;
+			0,
+			-536,
+			75,
+			199,
+			2,
+			2,
+			2
+		]
+	}],
+	rewards: [{
+		uid: "45ad8534",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "camscurrency:denarius"
+		},
+		count: 8
+	},
+	{
+		uid: "614ee747",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	}]
+}

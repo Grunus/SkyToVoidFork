@@ -1,0 +1,589 @@
+{
+	title: "Loot Pool",
+	x: -11.5d,
+	y: 1.5d,
+	shape: "rsquare",
+	description: "Reveals possible loot that can be found or dropped by mobs. Does not reveal loot behind Void Gateways.",
+	text: [
+		"God Pickaxe: Brilliant Protector Drop",
+		"Really Good Salmon: Golden Fish Drop",
+		"Radiaknight's Powersuit: Radiaknight Drop",
+		"The Bright Side: Bringer of Vitality Drop",
+		"Brittle Relations: Bringer of Vitality Trade"
+	],
+	dependencies: [
+		"d18b7edb"
+	],
+	hide: true,
+	optional: true,
+	min_width: 300,
+	tasks: [{
+		uid: "bb390f49",
+		type: "item",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "contenttweaker:mission_loot",
+			tag: {
+				display: {
+					Name: "Loot Pool"
+				}
+			}
+		},
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:structure_void",
+			tag: {
+				display: {
+					Lore: [
+						"This quest shows all possible loot that can",
+						"be found or dropped by mobs.",
+						"",
+						"Does not include loot behind Void Gateways."
+					],
+					Name: "QUEST CANNOT BE COMPLETED"
+				}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "566455ce",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "tconstruct:pickaxe",
+			tag: {
+				ench: [{
+					lvl: 3s,
+					id: 35s
+				}],
+				StatsOriginal: {
+					AttackSpeedMultiplier: 1.0f,
+					MiningSpeed: 13.52f,
+					FreeModifiers: 3,
+					Durability: 724,
+					HarvestLevel: 4,
+					Attack: 14.06f
+				},
+				display: {
+					Name: "God Pickaxe"
+				},
+				Stats: {
+					AttackSpeedMultiplier: 1.0f,
+					MiningSpeed: 32.86469f,
+					FreeModifiers: 0,
+					Durability: 1586,
+					HarvestLevel: 5,
+					Attack: 15.06f
+				},
+				Special: {
+					Categories: [
+						"harvest",
+						"tool",
+						"aoe"
+					]
+				},
+				TinkerData: {
+					UsedModifiers: 9,
+					Materials: [
+						"signalum",
+						"electrumflux",
+						"refinedglowstone"
+					],
+					Modifiers: [
+						"haste",
+						"creative",
+						"luck",
+						"diamond",
+						"emerald",
+						"mending_moss",
+						"fortifyhaderoth"
+					]
+				},
+				Modifiers: [{
+					identifier: "unnatural",
+					color: -1680624,
+					level: 1
+				},
+				{
+					identifier: "energyeater",
+					color: -2709,
+					level: 1
+				},
+				{
+					identifier: "lightboost",
+					color: -988119,
+					level: 1
+				},
+				{
+					identifier: "haste",
+					current: 250,
+					color: 9502720,
+					level: 5,
+					max: 250,
+					extraInfo: "249 / 250"
+				},
+				{
+					identifier: "creative",
+					color: 0,
+					level: 6
+				},
+				{
+					identifier: "luck",
+					current: 360,
+					color: 2970082,
+					level: 3,
+					max: 360,
+					modifierUsed: 1b,
+					extraInfo: "359 / 360"
+				},
+				{
+					identifier: "diamond",
+					color: 9237730
+				},
+				{
+					identifier: "emerald",
+					color: 4322180
+				},
+				{
+					identifier: "mending_moss",
+					color: 4434738,
+					level: 1
+				},
+				{
+					identifier: "fortifyhaderoth",
+					color: -13295838
+				}],
+				Traits: [
+					"unnatural",
+					"energyeater",
+					"lightboost",
+					"luck",
+					"mending_moss"
+				]
+			}
+		}
+	},
+	{
+		uid: "f39ba45f",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:cooked_salmon",
+			tag: {
+				ench: [{
+					lvl: 1s,
+					id: 60s
+				}],
+				HideFlags: 1,
+				display: {
+					Lore: [
+						"MMMMMmmmmmm"
+					],
+					Name: "Really Good Salmon"
+				},
+				AttributeModifiers: [{
+					UUIDMost: -5625843694027978152L,
+					UUIDLeast: -8463740623854484232L,
+					Amount: -2.0d,
+					Slot: "offhand",
+					AttributeName: "generic.attackDamage",
+					Operation: 0,
+					Name: "generic.attackDamage"
+				},
+				{
+					UUIDMost: 7075326021877645643L,
+					UUIDLeast: -4687198531181666619L,
+					Amount: 5.0d,
+					Slot: "offhand",
+					AttributeName: "generic.armor",
+					Operation: 0,
+					Name: "generic.armor"
+				},
+				{
+					UUIDMost: 3650050660115826384L,
+					UUIDLeast: -7046107874128753383L,
+					Amount: 1.0d,
+					Slot: "offhand",
+					AttributeName: "generic.armorToughness",
+					Operation: 0,
+					Name: "generic.armorToughness"
+				},
+				{
+					UUIDMost: -2281833547062820144L,
+					UUIDLeast: -8403619895387812848L,
+					Amount: 0.05d,
+					Slot: "offhand",
+					AttributeName: "generic.maxHealth",
+					Operation: 1,
+					Name: "generic.maxHealth"
+				}]
+			}
+		}
+	},
+	{
+		uid: "21e81563",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "conarm:chestplate",
+			tag: {
+				StatsOriginal: {
+					Toughness: 3.0f,
+					FreeModifiers: 3,
+					Durability: 352,
+					Defense: 17.1f
+				},
+				display: {
+					Lore: [
+						"Charge by the light and ultimate healing."
+					],
+					Name: "Radiaknight's Powersuit"
+				},
+				Stats: {
+					Toughness: 3.0f,
+					FreeModifiers: 0,
+					Durability: 352,
+					Defense: 17.1f
+				},
+				TinkerData: {
+					UsedModifiers: 3,
+					Materials: [
+						"knightslime",
+						"kalendrite",
+						"bronze"
+					],
+					Modifiers: [
+						"resistant_armor",
+						"powerful_armor",
+						"travel_sack_armor"
+					]
+				},
+				Modifiers: [{
+					identifier: "dramatic_armor",
+					color: -946192,
+					level: 1
+				},
+				{
+					identifier: "strongly_armor",
+					color: -6733347,
+					strongly0_armor: 1b
+				},
+				{
+					identifier: "dense_armor",
+					color: -1852056,
+					level: 1
+				},
+				{
+					identifier: "resistant_armor",
+					color: 16774902,
+					level: 1,
+					modifierUsed: 1b
+				},
+				{
+					identifier: "travel_sack_armor",
+					color: 16046914,
+					level: 1,
+					knapsack: {
+						Size: 27,
+						Items: []
+					}
+				},
+				{
+					identifier: "powerful_armor",
+					color: 16774902,
+					level: 1
+				}],
+				Traits: [
+					"dramatic_armor",
+					"strongly0_armor",
+					"dense_armor",
+					"resistant_armor",
+					"travel_sack_armor",
+					"powerful_armor"
+				]
+			}
+		}
+	},
+	{
+		uid: "5cb6d011",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "totaltinkers:cutlass",
+			tag: {
+				StatsOriginal: {
+					AttackSpeedMultiplier: 1.0f,
+					MiningSpeed: 11.54f,
+					FreeModifiers: 3,
+					Durability: 1080,
+					HarvestLevel: 3,
+					Attack: 8.42f
+				},
+				display: {
+					Name: "The Bright Side"
+				},
+				Stats: {
+					AttackSpeedMultiplier: 1.0f,
+					MiningSpeed: 11.54f,
+					FreeModifiers: 1,
+					Durability: 1080,
+					HarvestLevel: 3,
+					Attack: 8.42f
+				},
+				Special: {
+					Categories: [
+						"weapon",
+						"tool"
+					]
+				},
+				TinkerData: {
+					UsedModifiers: 7,
+					Materials: [
+						"xu_evil_metal",
+						"yellowgarnet",
+						"refinedglowstone"
+					],
+					Modifiers: [
+						"fiery",
+						"creative",
+						"shulking",
+						"beheading",
+						"smite"
+					]
+				},
+				Modifiers: [{
+					identifier: "superheat",
+					color: -658149,
+					level: 1
+				},
+				{
+					identifier: "lightboost",
+					color: -988119,
+					level: 1
+				},
+				{
+					identifier: "fiery",
+					current: 100,
+					color: 15375922,
+					level: 4,
+					max: 100,
+					extraInfo: "99 / 100"
+				},
+				{
+					identifier: "creative",
+					color: 0,
+					level: 5
+				},
+				{
+					identifier: "shulking",
+					current: 50,
+					color: 11193599,
+					level: 1,
+					max: 50,
+					extraInfo: "49 / 50"
+				},
+				{
+					identifier: "beheading",
+					color: 1070923,
+					level: 1
+				},
+				{
+					identifier: "smite",
+					current: 24,
+					color: 15258880,
+					level: 1,
+					max: 24,
+					extraInfo: "23 / 24"
+				}],
+				Traits: [
+					"superheat",
+					"lightboost",
+					"fiery",
+					"shulking",
+					"smite"
+				],
+				AttributeModifiers: [{
+					UUIDMost: -3801225194067177672L,
+					UUIDLeast: -6586624321849018929L,
+					Amount: 15.0d,
+					Slot: "mainhand",
+					AttributeName: "generic.attackDamage",
+					Operation: 0,
+					Name: "generic.attackDamage"
+				},
+				{
+					UUIDMost: -422425648963762075L,
+					UUIDLeast: -5756800103171642205L,
+					Amount: -2.399999976158142d,
+					Slot: "mainhand",
+					AttributeName: "generic.attackSpeed",
+					Operation: 0,
+					Name: "generic.attackSpeed"
+				},
+				{
+					UUIDMost: -8472153390030372608L,
+					UUIDLeast: -5773978860465370270L,
+					Amount: 0.05d,
+					Slot: "mainhand",
+					AttributeName: "generic.armor",
+					Operation: 1,
+					Name: "generic.armor"
+				},
+				{
+					UUIDMost: 1088105739832673130L,
+					UUIDLeast: -5557456976949701332L,
+					Amount: -1.0d,
+					Slot: "mainhand",
+					AttributeName: "generic.reachDistance",
+					Operation: 0,
+					Name: "generic.reachDistance"
+				}]
+			}
+		}
+	},
+	{
+		uid: "bf007028",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "totaltinkers:explosive_bow",
+			tag: {
+				StatsOriginal: {
+					AttackSpeedMultiplier: 1.0f,
+					MiningSpeed: 10.485001f,
+					DrawSpeed: 1.99f,
+					FreeModifiers: 3,
+					ProjectileBonusDamage: 7.5f,
+					Durability: 908,
+					HarvestLevel: 3,
+					Attack: 8.15f,
+					Range: 2.2f
+				},
+				display: {
+					Name: "Brittle Relations"
+				},
+				Stats: {
+					AttackSpeedMultiplier: 1.4f,
+					MiningSpeed: 10.485001f,
+					DrawSpeed: 2.388f,
+					FreeModifiers: 4,
+					ProjectileBonusDamage: 7.5f,
+					Durability: 908,
+					HarvestLevel: 3,
+					Attack: 13.608181f,
+					Range: 2.2f
+				},
+				Special: {
+					Categories: [
+						"launcher",
+						"tool",
+						"weapon"
+					]
+				},
+				TinkerData: {
+					UsedModifiers: 7,
+					Materials: [
+						"refinedglowstone",
+						"yellowgarnet",
+						"xu_magical_wood",
+						"soularium"
+					],
+					Modifiers: [
+						"sharpness",
+						"mending_moss",
+						"reinforced",
+						"haste",
+						"creative"
+					]
+				},
+				Modifiers: [{
+					identifier: "lightboost",
+					color: -988119,
+					level: 1
+				},
+				{
+					identifier: "autosmelt",
+					color: -658149,
+					level: 1
+				},
+				{
+					identifier: "superheat",
+					color: -658149,
+					level: 1
+				},
+				{
+					identifier: "magical_modifier",
+					color: -131160,
+					level: 1,
+					magical_modifier: 1b
+				},
+				{
+					identifier: "brittle",
+					color: -131160,
+					level: 1
+				},
+				{
+					identifier: "writable",
+					color: -9872563,
+					level: 1,
+					writable1: 1b
+				},
+				{
+					identifier: "sharpness",
+					current: 216,
+					color: 16774902,
+					level: 3,
+					max: 216,
+					extraInfo: "215 / 216"
+				},
+				{
+					identifier: "mending_moss",
+					color: 4434738,
+					level: 1
+				},
+				{
+					identifier: "reinforced",
+					color: 5254787,
+					level: 1
+				},
+				{
+					identifier: "haste",
+					current: 100,
+					color: 9502720,
+					level: 2,
+					max: 100,
+					extraInfo: "99 / 100"
+				},
+				{
+					identifier: "creative",
+					color: 0,
+					level: 4
+				}],
+				Traits: [
+					"lightboost",
+					"autosmelt",
+					"superheat",
+					"magical_modifier",
+					"brittle",
+					"writable1",
+					"mending_moss",
+					"reinforced"
+				]
+			}
+		}
+	}]
+}

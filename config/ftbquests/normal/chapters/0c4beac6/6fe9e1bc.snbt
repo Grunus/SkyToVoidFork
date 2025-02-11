@@ -1,0 +1,32 @@
+{
+	title: "+10 Levels",
+	x: 2.0d,
+	y: -7.5d,
+	text: [
+		""
+	],
+	can_repeat: true,
+	dependencies: [
+		"935017d2"
+	],
+	hide: true,
+	optional: true,
+	tasks: [{
+		uid: "2ad1133a",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "camscurrency:dupondius"
+		}],
+		count: 15L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "d80187ab",
+		type: "xp_levels",
+		auto: "enabled",
+		xp_levels: 10
+	}]
+}

@@ -1,0 +1,26 @@
+{
+	title: "Libcardo Quest III",
+	x: -2.5d,
+	y: -2.5d,
+	shape: "diamond",
+	description: "''I want to see if you can pack it more, for my amusement...''",
+	text: [
+		""
+	],
+	dependencies: [
+		"67917252"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "fe1d0496",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "extrautils2:compressedcobblestone",
+			Damage: 2s
+		}]
+	}]
+}

@@ -1,0 +1,76 @@
+{
+	title: "Necromancer Attire",
+	x: -1.5d,
+	y: 19.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"c4440f2c",
+		"659354d2"
+	],
+	hide: true,
+	tasks: [{
+		uid: "35ccd16b",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ebwizardry:wizard_hat_necromancy"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "93cd066f",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ebwizardry:wizard_robe_necromancy"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "ab215dbd",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ebwizardry:wizard_leggings_necromancy"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "ff97f518",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ebwizardry:wizard_boots_necromancy"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "a4d1cb9c",
+		type: "loot",
+		table: 44
+	},
+	{
+		uid: "27ef089c",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ebwizardry:charm_minion_health"
+		}
+	}]
+}

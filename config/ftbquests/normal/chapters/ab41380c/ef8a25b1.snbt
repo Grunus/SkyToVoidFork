@@ -1,0 +1,92 @@
+{
+	title: "Potions from the Potion Seller",
+	x: 13.0d,
+	y: 7.5d,
+	shape: "diamond",
+	description: "''With these totems, I can't just infuse these ability into you, just not how it works. Instead, you this ability bottle and drink the powerful juices of the totems!''",
+	text: [
+		"Great! Summon some shungite and find gems and now I can help you!",
+		"",
+		"------------------------------",
+		"Complete quests from NPCs to acquire Shungite.",
+		"Shungite can be collected in the Filling the Void chapter once requirements are met."
+	],
+	dependencies: [
+		"35cce628"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "89fff79d",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "everlastingabilities:ability_bottle",
+			tag: {
+				"everlastingabilities:abilityStoreStack": []
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7da23ba3",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "camscurrency:denarius"
+		},
+		count: 32
+	},
+	{
+		uid: "5cec4027",
+		type: "item",
+		team_reward: true,
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "tconstruct:shard",
+			tag: {
+				ench: [{
+					lvl: 1s,
+					id: 60s
+				}],
+				HideFlags: 35,
+				display: {
+					Lore: [
+						"Used to extract powerful abilities from gems.",
+						"- Or so they say..."
+					],
+					Name: "Shungite"
+				},
+				Material: "rubber",
+				AttributeModifiers: [{
+					UUIDMost: -2821372732138303645L,
+					UUIDLeast: -5949153336411020280L,
+					Amount: 2.0d,
+					Slot: "mainhand",
+					AttributeName: "generic.attackDamage",
+					Operation: 0,
+					Name: "generic.attackDamage"
+				}]
+			}
+		}
+	},
+	{
+		uid: "7b1e3393",
+		type: "custom",
+		title: "Unlock shungite quests in ''Filling the Void'' chapter",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ftbquests:book"
+		},
+		team_reward: true
+	}]
+}

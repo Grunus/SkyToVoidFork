@@ -1,0 +1,22 @@
+{
+	title: "Char's Harness of Darkness",
+	x: 18.5d,
+	y: 4.0d,
+	shape: "diamond",
+	description: "''The Dark Temple? I supposed you are interested in such a crystal. This is something all individuals who practice sorcery would want to harness, as it's... one of the... most powerful elements. I will bestow a great reward if you give it to me- but I know my brother would object. If I listen closely I could probably hear him screaming from his island, right now.''",
+	text: [
+		""
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"c4440f2c",
+		"0f0c0d24",
+		"4684b1fb"
+	],
+	hide: true,
+	tasks: [{
+		uid: "610a6dc0",
+		type: "checkmark",
+		title: "''That's convincing... I'll need to weigh my options.\""
+	}]
+}

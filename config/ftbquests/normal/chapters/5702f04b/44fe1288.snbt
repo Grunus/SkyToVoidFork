@@ -1,0 +1,31 @@
+{
+	title: "Tar",
+	x: 15.5d,
+	y: 15.0d,
+	dependencies: [
+		"81b1cd10"
+	],
+	hide: true,
+	tasks: [{
+		uid: "52a46b52",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "metallurgy:tar"
+		}],
+		count: 10L
+	}],
+	rewards: [{
+		uid: "da7be16b",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "camscurrency:dupondius"
+		},
+		count: 10
+	}]
+}

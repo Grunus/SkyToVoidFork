@@ -1,0 +1,51 @@
+{
+	title: "Scarred Nether",
+	x: 5.5d,
+	y: -14.0d,
+	description: "Blood creeps through the dry cracks of what's left.",
+	text: [
+		""
+	],
+	dependencies: [
+		"05faa4f9"
+	],
+	hide: true,
+	tasks: [{
+		uid: "57703479",
+		type: "location",
+		title: "470 116 -1030",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "chisel:netherrack",
+			Damage: 3s
+		},
+		location: [I;
+			0,
+			468,
+			116,
+			-1032,
+			5,
+			5,
+			5
+		]
+	}],
+	rewards: [{
+		uid: "b35b9d3f",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "enderio:item_material",
+			Damage: 72s
+		},
+		count: 64
+	},
+	{
+		uid: "88747501",
+		type: "ftbmoney:money",
+		ftb_money: 125L
+	}]
+}

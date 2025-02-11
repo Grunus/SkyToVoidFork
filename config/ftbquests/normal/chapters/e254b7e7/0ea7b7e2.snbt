@@ -1,0 +1,36 @@
+{
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "contenttweaker:obj_quests",
+		tag: {
+			display: {
+				Name: "Quests"
+			}
+		}
+	},
+	x: -1.0d,
+	y: -23.5d,
+	text: [
+		"I will never show my cracks, mortal. I simply cannot break under anyone or anything."
+	],
+	hide_dependency_lines: true,
+	min_required_dependencies: 3,
+	dependencies: [
+		"167ab51c",
+		"afa1d557",
+		"854f68a8",
+		"32754722",
+		"38699ee0",
+		"8727684a",
+		"30d66198"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "8ed4d072",
+		type: "checkmark",
+		title: "Show me Cracks"
+	}]
+}

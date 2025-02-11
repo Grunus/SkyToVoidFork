@@ -1,0 +1,56 @@
+{
+	title: "Communism Detected",
+	x: -13.5d,
+	y: -13.5d,
+	shape: "diamond",
+	description: "''The home of Communism and oppression. Destroy what's left of this place!''",
+	text: [
+		"Poor souls who suffered the weight of the oppressors."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"1028f6e8",
+		"6acdd884"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "6ca859f7",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:knowledge_book",
+			tag: {
+				ench: [{
+					lvl: 1s,
+					id: 3s
+				}],
+				RepairCost: 1,
+				display: {
+					Name: "The Communist Manifesto"
+				}
+			}
+		}],
+		consume_items: true,
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "89248f97",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "camscurrency:denarius"
+		},
+		count: 12
+	},
+	{
+		uid: "2e791588",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

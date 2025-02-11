@@ -1,0 +1,36 @@
+{
+	title: "Thermal Expansion Row",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "thermalfoundation:upgrade",
+		Damage: 256s
+	},
+	x: -7.0d,
+	y: 2.5d,
+	description: "''Ouch! It's getting hot in here! Hot! Hot! Hot!!!! I'm sorry, I don't know what else to say. Buy this row so I can send some Thermal items your way.''",
+	text: [
+		"Complete These 3 quests in Thermal Expansion section to unlock all Thermal Expansion Tier Rewards.",
+		"",
+		"- ''Create 'Em All!''",
+		"- ''End Loot''",
+		"- ''Oh Yeah, It's All Coming Together''"
+	],
+	dependencies: [
+		"a72d59e9",
+		"74337ab7"
+	],
+	hide: true,
+	tasks: [{
+		uid: "5a2c94d7",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "camscurrency:aureus"
+		}],
+		consume_items: true
+	}]
+}

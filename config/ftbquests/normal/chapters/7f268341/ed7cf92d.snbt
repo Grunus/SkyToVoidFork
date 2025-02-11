@@ -1,0 +1,37 @@
+{
+	title: "Flux Crystal",
+	x: 1.0d,
+	y: -1.0d,
+	description: "Create flux crystals using destabilized redstone.",
+	text: [
+		""
+	],
+	dependencies: [
+		"6c78d11b"
+	],
+	tasks: [{
+		uid: "bc0f2f14",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "redstonearsenal:material",
+			Damage: 160s
+		}],
+		count: 2L
+	}],
+	rewards: [{
+		uid: "31b368eb",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "redstonearsenal:material",
+			Damage: 193s
+		},
+		count: 2,
+		random_bonus: 4
+	}]
+}

@@ -1,0 +1,35 @@
+{
+	title: "Meet Lea",
+	x: 13.0d,
+	y: 13.5d,
+	shape: "diamond",
+	text: [
+		""
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"a150f2c8",
+		"80466741"
+	],
+	hide: true,
+	tasks: [{
+		uid: "e3f41673",
+		type: "location",
+		title: "865 65 825",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "cfm:chair_oak"
+		},
+		location: [I;
+			0,
+			865,
+			65,
+			825,
+			2,
+			2,
+			2
+		]
+	}]
+}

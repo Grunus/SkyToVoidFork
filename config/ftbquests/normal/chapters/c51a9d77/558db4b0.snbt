@@ -1,0 +1,38 @@
+{
+	title: "Melter & Solidifier",
+	x: 1.0d,
+	y: 9.0d,
+	description: "Used to Melt materials and form solids, such as Amber and Crystallized Obsidian.",
+	text: [
+		""
+	],
+	dependencies: [
+		"98670d24"
+	],
+	hide: true,
+	tasks: [{
+		uid: "6a78eca5",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "cyclicmagic:melter"
+		}]
+	},
+	{
+		uid: "ce6fece9",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "cyclicmagic:solidifier"
+		}]
+	}],
+	rewards: [{
+		uid: "fc2886e8",
+		type: "loot",
+		table: 52
+	}]
+}

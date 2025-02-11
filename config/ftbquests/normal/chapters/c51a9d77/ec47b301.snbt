@@ -1,0 +1,32 @@
+{
+	title: "Upgrading Organization",
+	x: 1.0d,
+	y: -0.5d,
+	description: "You can upgrade drawers to hold more.",
+	dependencies: [
+		"8c02b5cb"
+	],
+	hide: true,
+	tasks: [{
+		uid: "0d3d9d4b",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "storagedrawers:upgrade_storage",
+			Damage: 4s
+		}]
+	}],
+	rewards: [{
+		uid: "b5063233",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:diamond"
+		},
+		count: 2
+	}]
+}

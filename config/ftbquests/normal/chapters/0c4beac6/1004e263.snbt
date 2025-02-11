@@ -1,0 +1,48 @@
+{
+	title: "Make it Midnight!",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "extrautils2:ingredients",
+		Damage: 5s
+	},
+	x: 0.0d,
+	y: -1.0d,
+	text: [
+		"That's what I mean.",
+		"",
+		"As you explore you might find more of these. I can do a lot more to help you as well."
+	],
+	dependencies: [
+		"9e31be5b"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "89c5cbc2",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "camscurrency:aureus"
+		}],
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "2115c8af",
+		type: "command",
+		title: "--- Midnight ---",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "extrautils2:ingredients",
+			Damage: 5s
+		},
+		team_reward: true,
+		auto: "enabled",
+		command: "/time set 18000"
+	}]
+}

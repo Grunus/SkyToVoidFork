@@ -1,0 +1,34 @@
+{
+	title: "Empowered",
+	x: 13.5d,
+	y: 1.5d,
+	description: "Placing this into an Ender IO item will allow you to charge it and make it more powerful.",
+	text: [
+		"This does cost Vibrant Alloy, so return to this quest once you can afford to make it."
+	],
+	dependencies: [
+		"8a800544"
+	],
+	hide: true,
+	tasks: [{
+		uid: "b7e31083",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "enderio:item_dark_steel_upgrade",
+			tag: {
+				"enderio:dsu": "enderio:energyupgrade",
+				"enderio:enabled": 1b
+			},
+			Damage: 1s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "c9f12017",
+		type: "loot",
+		table: 35
+	}]
+}

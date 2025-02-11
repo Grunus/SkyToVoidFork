@@ -1,0 +1,30 @@
+{
+	title: "Depot Alpha II",
+	x: 8.0d,
+	y: -5.5d,
+	shape: "hexagon",
+	dependencies: [
+		"6bae85c1"
+	],
+	hide: true,
+	tasks: [{
+		uid: "3ea8b726",
+		type: "location",
+		title: "482 107 -348",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:concrete"
+		},
+		location: [I;
+			0,
+			480,
+			107,
+			-351,
+			5,
+			5,
+			5
+		]
+	}]
+}

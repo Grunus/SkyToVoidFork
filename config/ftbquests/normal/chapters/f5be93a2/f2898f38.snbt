@@ -1,0 +1,42 @@
+{
+	title: "Liam Final",
+	x: 3.0d,
+	y: 6.5d,
+	dependencies: [
+		"302ca75a"
+	],
+	tasks: [{
+		uid: "9a8a8be8",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:enchanted_book",
+			tag: {
+				StoredEnchantments: [{
+					lvl: 3s,
+					id: 35s
+				}]
+			}
+		}],
+		consume_items: true,
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "682ac5ca",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "artifacts:star_cloak"
+		}
+	},
+	{
+		uid: "50d36857",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

@@ -1,0 +1,37 @@
+{
+	title: "Islands I",
+	x: -1.0d,
+	y: 3.5d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"c4c011be"
+	],
+	hide: true,
+	tasks: [{
+		uid: "5954cd2e",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "biomesoplenty:dried_sand"
+		}],
+		count: 64L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "7039fc6b",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "artifacts:everlasting_rotten_flesh"
+		}
+	},
+	{
+		uid: "154f81e6",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

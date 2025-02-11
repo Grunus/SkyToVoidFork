@@ -1,0 +1,77 @@
+{
+	title: "Complete All Quest Trials",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "simple_trophies:trophy",
+		tag: {
+			TrophyColorGreen: 169,
+			TrophyVariant: "classic",
+			TrophyShowsTooltip: 1b,
+			TrophyItem: {
+				ForgeCaps: {
+					"customnpcs:itemscripteddata": {}
+				},
+				id: "ftbquests:book",
+				Count: 1b,
+				Damage: 0s
+			},
+			TrophyColorBlue: 230,
+			TrophyName: "Complete All Quest Trials",
+			TrophyColorRed: 225,
+			TrophyEarnedAt: 1657732332L
+		}
+	},
+	x: -9.0d,
+	y: 0.0d,
+	text: [
+		"Complete every Quest Trial in Filling the Void Chapter."
+	],
+	dependencies: [
+		"f2898f38",
+		"abf30291",
+		"98a08252",
+		"cc8c00bf",
+		"5ecf6e9b",
+		"b707f4d1",
+		"8835b12c",
+		"e210a5f9"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "51af1a98",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "1efbdf79",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "simple_trophies:trophy",
+			tag: {
+				TrophyColorGreen: 169,
+				TrophyVariant: "classic",
+				TrophyShowsTooltip: 1b,
+				TrophyItem: {
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": {}
+					},
+					id: "ftbquests:book",
+					Count: 1b,
+					Damage: 0s
+				},
+				TrophyColorBlue: 230,
+				TrophyName: "Complete All Quest Trials",
+				TrophyColorRed: 225
+			}
+		}
+	},
+	{
+		uid: "ca8334bd",
+		type: "ftbmoney:money",
+		ftb_money: 500L
+	}]
+}

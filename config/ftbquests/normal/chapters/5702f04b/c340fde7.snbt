@@ -1,0 +1,55 @@
+{
+	title: "Kama Farmer",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "minecraft:wheat_seeds"
+	},
+	x: 1.0d,
+	y: 5.0d,
+	description: "Use Tinkers' to craft a Kama. Kamas can be used to destroy fields of crops fast.",
+	text: [
+		""
+	],
+	dependencies: [
+		"38945b9d"
+	],
+	hide: true,
+	tasks: [{
+		uid: "f8754f6e",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "tconstruct:kama_head",
+			tag: {
+				Material: "flint"
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "96608da6",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:wheat_seeds"
+		},
+		count: 3
+	},
+	{
+		uid: "b08610d9",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:dye",
+			Damage: 15s
+		},
+		count: 3
+	}]
+}

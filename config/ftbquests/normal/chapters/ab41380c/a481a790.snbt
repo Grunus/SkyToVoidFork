@@ -1,0 +1,100 @@
+{
+	title: "Hullabaloo's Bustle",
+	x: -11.5d,
+	y: 12.0d,
+	shape: "diamond",
+	description: "''Bustle Bustle.''",
+	text: [
+		"Bustle Bustle!"
+	],
+	dependencies: [
+		"d5bb9b59"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "75f8ac92",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "gachashroom:parrottoadstool",
+			tag: {
+				display: {
+					Lore: [
+						"... and his mushroom was electric."
+					],
+					Name: "The Ultimate Bustling Fungus"
+				}
+			}
+		}],
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "3f0fd31e",
+		type: "custom",
+		title: "Hullabaloo's Quest Trial",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:filled_map",
+			Damage: 1s
+		}
+	},
+	{
+		uid: "ba5ce1af",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "camscurrency:denarius"
+		},
+		count: 32
+	},
+	{
+		uid: "450a77a7",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:spawn_egg",
+			tag: {
+				EntityTag: {
+					id: "minecraft:mooshroom"
+				}
+			}
+		},
+		count: 6
+	},
+	{
+		uid: "b518000a",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "aa938798",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "contenttweaker:objectives",
+			tag: {
+				ench: [{
+					lvl: 1s,
+					id: 10s
+				}],
+				display: {
+					Lore: [
+						"Statue of Bargaining would be pleased."
+					],
+					Name: "Mark of Friendship - Island Layer 3"
+				}
+			}
+		}
+	}]
+}

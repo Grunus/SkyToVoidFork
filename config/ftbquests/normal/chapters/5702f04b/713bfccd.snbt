@@ -1,0 +1,50 @@
+{
+	title: "Starting With The Basics",
+	x: -15.0d,
+	y: 8.0d,
+	text: [
+		"There are 6 tiers of seeds. The first and obviously the lowest tier can create some basic seeds for survival like logs, water, and even zombie flesh.",
+		"",
+		"Prosperity ore can be found on a few islands."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"3741cdda"
+	],
+	tasks: [{
+		uid: "19b21462",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "mysticalagriculture:crafting",
+			Damage: 17s
+		}]
+	}],
+	rewards: [{
+		uid: "0857d2a2",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "mysticalagriculture:crafting",
+			Damage: 5s
+		},
+		count: 8,
+		random_bonus: 8
+	},
+	{
+		uid: "c231e066",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "mysticalagriculture:crafting"
+		},
+		count: 8,
+		random_bonus: 8
+	}]
+}

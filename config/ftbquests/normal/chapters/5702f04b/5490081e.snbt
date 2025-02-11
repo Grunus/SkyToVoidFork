@@ -1,0 +1,28 @@
+{
+	title: "Walking on Very Hard Water!",
+	x: 1.0d,
+	y: 13.0d,
+	description: "Frost Walker enchantment for Tinker's boots.",
+	text: [
+		""
+	],
+	dependencies: [
+		"60cb9e69"
+	],
+	hide: true,
+	tasks: [{
+		uid: "1ef13b9a",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "conarm:frosty_soles"
+		}]
+	}],
+	rewards: [{
+		uid: "5b57606e",
+		type: "loot",
+		table: 46
+	}]
+}

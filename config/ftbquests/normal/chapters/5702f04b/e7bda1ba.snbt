@@ -1,0 +1,26 @@
+{
+	x: 3.0d,
+	y: 3.0d,
+	description: "The efficiency meter can tell you how productive your strainers are.",
+	dependencies: [
+		"0fb8bf02"
+	],
+	hide: true,
+	tasks: [{
+		uid: "35a7d8fd",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "waterstrainer:efficiency_meter"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "93fe8ed6",
+		type: "loot",
+		table: 0
+	}]
+}

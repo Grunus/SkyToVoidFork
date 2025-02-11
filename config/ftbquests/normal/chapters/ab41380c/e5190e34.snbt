@@ -1,0 +1,88 @@
+{
+	title: "Through the Phones",
+	x: -13.5d,
+	y: -14.5d,
+	shape: "gear",
+	description: "''Hey! I'm sure you know this place requires many resources to keep it up n' running, and sense you're travelling through the Void, I want to keep in touch if you find stuff I need. If you can, find a Wireless Receiver and I'll hook you up.''",
+	text: [
+		"Great! Now, we can begin. As you search I'll be monitoring your vicinity for anything I need.",
+		"",
+		"I'll find something to send to you as well!",
+		"",
+		"================================",
+		"",
+		"Explore islands to find special ores for The Miner."
+	],
+	dependencies: [
+		"572c9a36"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "03d73eae",
+		type: "item",
+		title: "Bought from The Miner",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "openblocks:sonic_glasses",
+			tag: {
+				ench: [{
+					lvl: 1s,
+					id: 60s
+				},
+				{
+					lvl: 2s,
+					id: 3s
+				}],
+				display: {
+					Lore: [
+						"Best quality headset for Minecraft!"
+					],
+					Name: "Rezar Squid Headphones"
+				},
+				AttributeModifiers: [{
+					UUIDMost: 3086076556416732775L,
+					UUIDLeast: -5150312587563650736L,
+					Amount: 5.0d,
+					Slot: "head",
+					AttributeName: "generic.armor",
+					Operation: 0,
+					Name: "generic.armor"
+				},
+				{
+					UUIDMost: 3086076556416732775L,
+					UUIDLeast: -5150312587563650736L,
+					Amount: -2.0d,
+					Slot: "head",
+					AttributeName: "generic.armorToughness",
+					Operation: 0,
+					Name: "generic.armorToughness"
+				},
+				{
+					UUIDMost: 8462567372841697502L,
+					UUIDLeast: -5148139882300710602L,
+					Amount: -2.0d,
+					Slot: "head",
+					AttributeName: "generic.followRange",
+					Operation: 0,
+					Name: "generic.followRange"
+				}]
+			}
+		}],
+		ignore_damage: true
+	}],
+	rewards: [{
+		uid: "771fb3b8",
+		type: "custom",
+		title: "Unlock quests for collecting resources on islands.",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ftbquests:book"
+		},
+		auto: "enabled"
+	}]
+}

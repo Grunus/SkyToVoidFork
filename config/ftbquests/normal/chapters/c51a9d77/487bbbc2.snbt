@@ -1,0 +1,26 @@
+{
+	title: "Green Sponge on a Stick",
+	x: -8.5d,
+	y: 6.5d,
+	dependencies: [
+		"a5d8173c"
+	],
+	hide: true,
+	tasks: [{
+		uid: "c0607eeb",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "openblocks:sponge_on_a_stick"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "22d1f0bb",
+		type: "loot",
+		table: 31
+	}]
+}

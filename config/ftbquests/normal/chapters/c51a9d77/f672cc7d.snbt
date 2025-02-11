@@ -1,0 +1,44 @@
+{
+	title: "Illusion Box",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "ironchest:iron_gold_chest_upgrade"
+	},
+	x: -1.0d,
+	y: 1.0d,
+	dependencies: [
+		"b8dcbd11"
+	],
+	hide: true,
+	tasks: [{
+		uid: "b8508f92",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ironchest:iron_gold_chest_upgrade"
+		},
+		{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ironchest:silver_gold_chest_upgrade"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "aa6b0ef3",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "chisel:blockgold",
+			Damage: 3s
+		}
+	}]
+}

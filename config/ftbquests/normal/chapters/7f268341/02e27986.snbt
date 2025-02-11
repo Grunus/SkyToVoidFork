@@ -1,0 +1,34 @@
+{
+	title: "\"Insert Reference From Pokemon\"",
+	x: -1.0d,
+	y: -2.0d,
+	description: "Throw morbs at an enemy to capture them.",
+	text: [
+		"Create morbs with slag from an induction smelter."
+	],
+	dependencies: [
+		"2e549dda"
+	],
+	hide: true,
+	tasks: [{
+		uid: "241d37fc",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thermalexpansion:morb"
+		}]
+	}],
+	rewards: [{
+		uid: "8d5e6ef5",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thermalexpansion:morb"
+		},
+		count: 8
+	}]
+}

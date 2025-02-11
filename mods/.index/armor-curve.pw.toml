@@ -1,0 +1,17 @@
+filename = 'armorcurve-1.2.9.jar'
+name = '[FORGE/FABRIC] Armor Curve'
+side = 'both'
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'armorcurve-1.2.9.jar'
+
+[download]
+hash = 'a8cca2a97276c9b53e04bebc1852aa291e40c5c6'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 2972692
+project-id = 377088

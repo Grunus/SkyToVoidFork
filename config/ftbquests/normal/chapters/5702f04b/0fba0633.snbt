@@ -1,0 +1,31 @@
+{
+	title: "Shadow Iron",
+	x: 15.5d,
+	y: 9.0d,
+	dependencies: [
+		"81b1cd10"
+	],
+	hide: true,
+	tasks: [{
+		uid: "d1148224",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "metallurgy:shadow_iron_ingot"
+		}],
+		count: 10L
+	}],
+	rewards: [{
+		uid: "da37e0d9",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "camscurrency:denarius"
+		},
+		count: 10
+	}]
+}

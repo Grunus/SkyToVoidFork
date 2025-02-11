@@ -1,0 +1,93 @@
+{
+	title: "Bob IV",
+	x: 2.0d,
+	y: 9.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"ad53a312"
+	],
+	tasks: [{
+		uid: "e81c6aba",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "futuremc:soul_fire_lantern",
+			tag: {
+				ench: [{
+					lvl: 3s,
+					id: 20s
+				},
+				{
+					lvl: 4s,
+					id: 16s
+				}],
+				display: {
+					Lore: [
+						"As I hold the chain, it just makes me feel...",
+						"",
+						"",
+						"So evil."
+					],
+					Name: "Ancient Power"
+				},
+				AttributeModifiers: [{
+					UUIDMost: 2406977375495012924L,
+					UUIDLeast: -6650332565102924890L,
+					Amount: 7.0d,
+					Slot: "mainhand",
+					AttributeName: "generic.attackDamage",
+					Operation: 0,
+					Name: "generic.attackDamage"
+				},
+				{
+					UUIDMost: -8320924332652738970L,
+					UUIDLeast: -8445029325764845403L,
+					Amount: 0.2d,
+					Slot: "mainhand",
+					AttributeName: "generic.attackSpeed",
+					Operation: 0,
+					Name: "generic.attackSpeed"
+				},
+				{
+					UUIDMost: -7104052437355967595L,
+					UUIDLeast: -5649649797491626163L,
+					Amount: 1.0d,
+					Slot: "mainhand",
+					AttributeName: "generic.armorToughness",
+					Operation: 0,
+					Name: "generic.armorToughness"
+				},
+				{
+					UUIDMost: 2226494043994738215L,
+					UUIDLeast: -5108187209573673888L,
+					Amount: -2.0d,
+					Slot: "mainhand",
+					AttributeName: "generic.maxHealth",
+					Operation: 0,
+					Name: "generic.maxHealth"
+				}]
+			}
+		}],
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "05b5759f",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "camscurrency:denarius"
+		},
+		count: 32
+	},
+	{
+		uid: "a01019e8",
+		type: "ftbmoney:money",
+		ftb_money: 200L
+	}]
+}

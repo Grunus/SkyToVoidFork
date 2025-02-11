@@ -1,0 +1,31 @@
+{
+	x: 9.0d,
+	y: 12.75d,
+	shape: "square",
+	dependencies: [
+		"d0aa05a2",
+		"f3f06a04"
+	],
+	hide: true,
+	size: 1.5d,
+	tasks: [{
+		uid: "563efc87",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "extrautils2:rainbowgenerator"
+		}]
+	}],
+	rewards: [{
+		uid: "961bf372",
+		type: "loot",
+		table: 19
+	},
+	{
+		uid: "f0206735",
+		type: "loot",
+		table: 19
+	}]
+}

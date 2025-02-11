@@ -1,0 +1,79 @@
+{
+	title: "Enhcantment Build",
+	x: 20.5d,
+	y: 11.0d,
+	dependencies: [
+		"7ade314b"
+	],
+	hide: true,
+	tasks: [{
+		uid: "992259cd",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "industrialforegoing:enchantment_extractor"
+		}]
+	},
+	{
+		uid: "d14e2ad7",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "industrialforegoing:enchantment_refiner"
+		}]
+	},
+	{
+		uid: "716ddc1c",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "industrialforegoing:enchantment_aplicator"
+		}]
+	},
+	{
+		uid: "65490212",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "industrialforegoing:enchantment_invoker"
+		}]
+	}],
+	rewards: [{
+		uid: "a689d52b",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:diamond_sword"
+		}
+	},
+	{
+		uid: "cb231bce",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:diamond_pickaxe"
+		}
+	},
+	{
+		uid: "b53bd232",
+		type: "loot",
+		table: 33
+	},
+	{
+		uid: "9f4d49b2",
+		type: "loot",
+		table: 33
+	}]
+}

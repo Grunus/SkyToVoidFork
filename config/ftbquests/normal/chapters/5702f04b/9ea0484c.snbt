@@ -1,0 +1,38 @@
+{
+	title: "The Second Tome",
+	x: -5.5d,
+	y: 15.5d,
+	description: "You can purchase Tomes from Chim, or sometimes find them in various crates and chests.",
+	dependencies: [
+		"659354d2"
+	],
+	hide: true,
+	tasks: [{
+		uid: "eb94311e",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ebwizardry:arcane_tome",
+			Damage: 2s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "d65ae0e4",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "camscurrency:denarius"
+		},
+		count: 24
+	},
+	{
+		uid: "1cbe0fe8",
+		type: "loot",
+		table: 23
+	}]
+}

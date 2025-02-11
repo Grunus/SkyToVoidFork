@@ -1,0 +1,17 @@
+filename = "Map Maker's Tabs 1.12  (v.1.1.0).jar"
+name = "Builder's Tabs"
+side = 'both'
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '1.12', '1.12-Snapshot', '1.12.1', '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = "Map Maker's Tabs v.1.1.0"
+
+[download]
+hash = 'a70186df76cf8fe70f9aa7a93760c4b4f527b065'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 2453553
+project-id = 261469

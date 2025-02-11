@@ -1,0 +1,408 @@
+{
+	title: "Tampered End",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "chisel:endstone",
+		Damage: 2s
+	},
+	loot_size: 1,
+	hide_tooltip: true,
+	use_title: true,
+	rewards: [{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thermalfoundation:material",
+			Damage: 895s
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:enchanted_book",
+			tag: {
+				StoredEnchantments: [{
+					lvl: 4s,
+					id: 86s
+				}]
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "tconstruct:cleaver",
+			tag: {
+				StatsOriginal: {
+					AttackSpeedMultiplier: 1.0f,
+					MiningSpeed: 12.175f,
+					FreeModifiers: 3,
+					Durability: 2968,
+					HarvestLevel: 7,
+					Attack: 18.444f
+				},
+				display: {
+					Name: "Extremity Beyond"
+				},
+				Stats: {
+					AttackSpeedMultiplier: 1.0f,
+					MiningSpeed: 12.175f,
+					FreeModifiers: 0,
+					Durability: 2968,
+					HarvestLevel: 7,
+					Attack: 18.444f
+				},
+				Special: {
+					Categories: [
+						"weapon",
+						"tool"
+					]
+				},
+				TinkerData: {
+					UsedModifiers: 3,
+					Materials: [
+						"blutonium",
+						"wyverndraconium",
+						"eximite",
+						"refinedobsidian"
+					],
+					Modifiers: [
+						"beheading_cleaver",
+						"beheading",
+						"shulking"
+					]
+				},
+				Modifiers: [{
+					identifier: "radioactive",
+					color: -14083900,
+					level: 3,
+					radioactive3: 1b
+				},
+				{
+					identifier: "energyeater",
+					color: -8769849,
+					level: 1
+				},
+				{
+					identifier: "enderference",
+					color: -10600047,
+					level: 1
+				},
+				{
+					identifier: "duritos",
+					color: -9230744,
+					level: 1
+				},
+				{
+					identifier: "darkness",
+					color: -9230744,
+					level: 1
+				},
+				{
+					identifier: "beheading",
+					absorbedCleaver: 1b,
+					color: 1070923,
+					level: 4
+				},
+				{
+					identifier: "shulking",
+					current: 18,
+					color: 11193599,
+					level: 1,
+					max: 50,
+					extraInfo: "17 / 50"
+				}],
+				Traits: [
+					"radioactive3",
+					"energyeater",
+					"enderference",
+					"duritos",
+					"darkness",
+					"shulking"
+				]
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "enderio:item_material",
+			Damage: 16s
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thermalfoundation:material",
+			Damage: 103s
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ebwizardry:ring_defender"
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "conarm:chestplate",
+			tag: {
+				StatsOriginal: {
+					Toughness: 4.0f,
+					FreeModifiers: 3,
+					Durability: 1050,
+					Defense: 17.1f
+				},
+				display: {
+					Name: "Ending Bright"
+				},
+				Stats: {
+					Toughness: 6.0f,
+					FreeModifiers: 0,
+					Durability: 1200,
+					Defense: 21.1f
+				},
+				TinkerData: {
+					UsedModifiers: 3,
+					Materials: [
+						"knightslime",
+						"vulcanite",
+						"manyullyn"
+					],
+					Modifiers: [
+						"shulkerweight_armor",
+						"powerful_armor",
+						"diamond_armor"
+					]
+				},
+				Modifiers: [{
+					identifier: "dramatic_armor",
+					color: -946192,
+					level: 1
+				},
+				{
+					identifier: "volcano_armor",
+					color: -10217175,
+					level: 1
+				},
+				{
+					identifier: "prideful_armor",
+					color: -6202120,
+					level: 1
+				},
+				{
+					identifier: "shulkerweight_armor",
+					current: 20,
+					color: 11193599,
+					level: 1,
+					max: 20,
+					extraInfo: "19 / 20"
+				},
+				{
+					identifier: "powerful_armor",
+					color: 16774902,
+					level: 1
+				},
+				{
+					identifier: "diamond_armor",
+					color: 9237730
+				}],
+				Traits: [
+					"dramatic_armor",
+					"volcano_armor",
+					"prideful_armor",
+					"shulkerweight_armor",
+					"powerful_armor"
+				]
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "enderio:item_alloy_ingot",
+			Damage: 8s
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:ender_eye"
+		},
+		count: 2
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:enchanted_book",
+			tag: {
+				StoredEnchantments: [{
+					lvl: 3s,
+					id: 64s
+				}]
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "mysticalagriculture:enderman_seeds"
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ebwizardry:resplendent_thread"
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "extrautils2:machine",
+			tag: {
+				Type: "extrautils2:generator_ender"
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "enderio:item_alloy_ingot",
+			Damage: 8s
+		},
+		count: 2
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "totaltinkers:javelin",
+			tag: {
+				StatsOriginal: {
+					AttackSpeedMultiplier: 1.0f,
+					Accuracy: 1.0f,
+					MiningSpeed: 10.12f,
+					FreeModifiers: 3,
+					Durability: 889,
+					HarvestLevel: 3,
+					Attack: 6.84f
+				},
+				display: {
+					Name: "Bass Rattler"
+				},
+				Stats: {
+					AttackSpeedMultiplier: 1.0f,
+					Accuracy: 1.0f,
+					MiningSpeed: 10.62f,
+					FreeModifiers: 0,
+					Durability: 1833,
+					HarvestLevel: 3,
+					Attack: 12.181766f
+				},
+				Special: {
+					Categories: [
+						"projectile",
+						"weapon",
+						"tool"
+					]
+				},
+				TinkerData: {
+					UsedModifiers: 6,
+					Materials: [
+						"vulcanite",
+						"peridot",
+						"enderium"
+					],
+					Modifiers: [
+						"sharpness",
+						"fiery",
+						"creative",
+						"diamond",
+						"emerald"
+					]
+				},
+				Modifiers: [{
+					identifier: "superheat",
+					color: -10217175,
+					level: 1
+				},
+				{
+					identifier: "shock",
+					color: -15341515,
+					level: 1
+				},
+				{
+					identifier: "enderference",
+					color: -16748959,
+					level: 1
+				},
+				{
+					identifier: "sharpness",
+					current: 144,
+					color: 16774902,
+					level: 2,
+					max: 144,
+					extraInfo: "143 / 144"
+				},
+				{
+					identifier: "fiery",
+					current: 50,
+					color: 15375922,
+					level: 2,
+					max: 50,
+					extraInfo: "49 / 50"
+				},
+				{
+					identifier: "creative",
+					color: 0,
+					level: 3
+				},
+				{
+					identifier: "diamond",
+					color: 9237730
+				},
+				{
+					identifier: "emerald",
+					color: 4322180
+				}],
+				Traits: [
+					"superheat",
+					"shock",
+					"enderference",
+					"fiery"
+				]
+			}
+		}
+	}]
+}

@@ -1,0 +1,41 @@
+{
+	title: "Wireless Plan",
+	x: -13.5d,
+	y: 10.0d,
+	description: "With the Wireless Terminal you can access your storage close by, best for convenience.",
+	text: [
+		""
+	],
+	dependencies: [
+		"1e5a06dc"
+	],
+	hide: true,
+	tasks: [{
+		uid: "071b6540",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "appliedenergistics2:wireless_access_point"
+		}]
+	},
+	{
+		uid: "59ac90e2",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "appliedenergistics2:wireless_terminal",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "0b2cbdc6",
+		type: "loot",
+		table: 15
+	}]
+}

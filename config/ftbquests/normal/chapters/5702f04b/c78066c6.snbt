@@ -1,0 +1,33 @@
+{
+	title: "Krik",
+	x: 13.5d,
+	y: 8.5d,
+	dependencies: [
+		"81b1cd10",
+		"85fa9577",
+		"032ff32c"
+	],
+	hide: true,
+	tasks: [{
+		uid: "f8c3ebec",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "metallurgy:krik_ingot"
+		}],
+		count: 10L
+	}],
+	rewards: [{
+		uid: "9ea251d1",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "camscurrency:denarius"
+		},
+		count: 10
+	}]
+}

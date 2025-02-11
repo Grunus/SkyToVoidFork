@@ -1,0 +1,61 @@
+{
+	title: "Inventory Pets V",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "inventorypets:nugget_ender"
+	},
+	x: 4.0d,
+	y: 8.0d,
+	description: "You've explored all islands of zone 5",
+	text: [
+		"The pets you will unlock...",
+		"",
+		"Ghast",
+		"House",
+		"Illuminati",
+		"Mickerson",
+		"Sun",
+		"Grave",
+		"Wither",
+		"Flying Saddle"
+	],
+	dependencies: [
+		"661eab9e",
+		"bdef3fee",
+		"4b0eb1da",
+		"c3be3988",
+		"cde5b043",
+		"1e5a827d",
+		"c4440f2c",
+		"26b86661",
+		"5969aed0",
+		"5824d86e",
+		"13b6ee8c",
+		"9526304b"
+	],
+	hide: true,
+	tasks: [{
+		uid: "f65e2d4f",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "77874188",
+		type: "gamestage",
+		title: "Master's Biology of Pets",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "inventorypets:nugget_ender"
+		},
+		auto: "disabled",
+		stage: "ipets5_stage"
+	},
+	{
+		uid: "ce92cb11",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

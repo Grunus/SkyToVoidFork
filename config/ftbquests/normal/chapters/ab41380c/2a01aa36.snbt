@@ -1,0 +1,40 @@
+{
+	title: "Tritanium",
+	x: -4.0d,
+	y: 16.5d,
+	shape: "gear",
+	description: "''Oh! Tritanium! This is a nice alternative for my computer parts! At least I think it is? Just grab it for me.''",
+	text: [
+		"Awesome! Now I use it for... something."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"bdef3fee",
+		"25fa8d4f"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "02a0f653",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "netherendingores:ore_end_modded_1",
+			Damage: 15s
+		}],
+		count: 32L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "b1fff4fe",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "cyclicmagic:heart_food"
+		}
+	}]
+}

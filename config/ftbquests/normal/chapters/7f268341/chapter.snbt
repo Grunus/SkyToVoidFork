@@ -1,0 +1,90 @@
+{
+	title: "Automatic & Electrocution",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "thermalfoundation:glass_alloy",
+		Damage: 1s
+	},
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: "",
+	images: [{
+		x: 6.5d,
+		y: 8.5d,
+		width: 5.5d,
+		height: 5.0d,
+		rotation: 0.0d,
+		image: "icons:utilitiescut.png",
+		hover: [],
+		click: "",
+		dev: false
+	},
+	{
+		x: 17.0d,
+		y: 0.5d,
+		width: 2.5d,
+		height: 2.5d,
+		rotation: 45.0d,
+		image: "icons:capa.png",
+		hover: [],
+		click: "",
+		dev: false
+	},
+	{
+		x: -14.5d,
+		y: 7.5d,
+		width: 5.5d,
+		height: 5.5d,
+		rotation: 0.0d,
+		image: "icons:appliedcut.png",
+		hover: [],
+		click: "",
+		dev: false
+	},
+	{
+		x: -6.5d,
+		y: -1.5d,
+		width: 6.5d,
+		height: 5.5d,
+		rotation: 0.0d,
+		image: "icons:thermalcut.png",
+		hover: [],
+		click: "",
+		dev: false
+	},
+	{
+		x: -3.0d,
+		y: 14.0d,
+		width: 4.5d,
+		height: 4.5d,
+		rotation: 0.0d,
+		image: "icons:psicut.png",
+		hover: [],
+		click: "",
+		dev: false
+	},
+	{
+		x: 18.5d,
+		y: 9.0d,
+		width: 4.5d,
+		height: 4.5d,
+		rotation: 0.0d,
+		image: "icons:industrialcut.png",
+		hover: [],
+		click: "",
+		dev: false
+	},
+	{
+		x: 18.0d,
+		y: 0.5d,
+		width: 5.0d,
+		height: 4.5d,
+		rotation: 0.0d,
+		image: "icons:endercut.png",
+		hover: [],
+		click: "",
+		dev: false
+	}]
+}

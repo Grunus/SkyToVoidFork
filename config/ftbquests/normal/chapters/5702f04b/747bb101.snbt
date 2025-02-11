@@ -1,0 +1,33 @@
+{
+	title: "The Ultimate Brick",
+	x: -9.0d,
+	y: 8.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"f23bf935"
+	],
+	tasks: [{
+		uid: "efeebdc4",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "mysticalagriculture:crafting",
+			Damage: 37s
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "64386402",
+		type: "loot",
+		table: 11
+	},
+	{
+		uid: "28584700",
+		type: "loot",
+		table: 11
+	}]
+}

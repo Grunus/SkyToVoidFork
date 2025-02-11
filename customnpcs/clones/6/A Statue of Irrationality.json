@@ -1,0 +1,598 @@
+{
+    "ReturnToStart": 1b,
+    "PuppetHead": {
+        "RotationY": 0.014084458f,
+        "RotationX": -0.1690141f,
+        "RotationZ": -0.08450705f,
+        "Disabled": 0b
+    },
+    "NpcInv": [
+        {
+            "Slot": 0b,
+            "ForgeCaps": {
+                "customnpcs:itemscripteddata": {
+                }
+            },
+            "id": "minecraft:prismarine_shard",
+            "Count": 3b,
+            "tag": {
+                "ench": [
+                    {
+                        "lvl": 1s,
+                        "id": 10s
+                    }
+                ],
+                "Unbreakable": 1b,
+                "display": {
+                    "Name": "Shard of Irrationality"
+                }
+            },
+            "Damage": 0s
+        }
+    ],
+    "BossColor": 0,
+    "PotionEffect": 0,
+    "Size": 5,
+    "stopAndInteract": 0b,
+    "Resistances": {
+        "Arrow": 1.0f,
+        "Explosion": 1.0f,
+        "Knockback": 2.0f,
+        "Melee": 1.0f
+    },
+    "BossBar": 0b,
+    "RespawnTime": 5,
+    "NpcAngrySound": "",
+    "ReactsToFire": 0b,
+    "IgnoreCobweb": 0b,
+    "PositionOffsetZ": 5.0f,
+    "PositionOffsetY": 5.0f,
+    "PuppetRArm2": {
+        "RotationY": 0.0f,
+        "RotationX": 0.0f,
+        "RotationZ": 0.0f,
+        "Disabled": 0b
+    },
+    "PositionOffsetX": 5.0f,
+    "LootMode": 0,
+    "TransformHasAI": 0b,
+    "AttackStrenght": 5,
+    "PersistenceRequired": 0b,
+    "NpcLines": {
+        "Lines": [
+        ]
+    },
+    "id": "customnpcs:customnpc",
+    "IsStatue": 0b,
+    "MovingPatern": 0,
+    "DefendFaction": 0b,
+    "FireIndirect": 0,
+    "NpcVisible": 0,
+    "LinkedNpcName": "",
+    "PuppetLLeg": {
+        "RotationY": -0.73239434f,
+        "RotationX": 0.14084506f,
+        "RotationZ": -0.28169012f,
+        "Disabled": 0b
+    },
+    "NpcScenes": {
+        "Scenes": [
+        ]
+    },
+    "HitSound": "minecraft:entity.arrow.hit",
+    "FindShelter": 2,
+    "Air": 300s,
+    "TacticalVariant": 0,
+    "Orientation": 45,
+    "ScriptLanguage": "ECMAScript",
+    "KnockBack": 0,
+    "HandItems": [
+        {
+        },
+        {
+        }
+    ],
+    "TransformHasJob": 0b,
+    "ArmorDropChances": [
+        0.085f,
+        0.085f,
+        0.085f,
+        0.085f
+    ],
+    "PuppetHead2": {
+        "RotationY": 0.0f,
+        "RotationX": 0.0f,
+        "RotationZ": 0.0f,
+        "Disabled": 0b
+    },
+    "BurnInSun": 0b,
+    "TraderSold": {
+        "NpcMiscInv": [
+            {
+                "Slot": 0b,
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "metallurgy:etherium_pickaxe",
+                "Count": 1b,
+                "tag": {
+                    "ench": [
+                        {
+                            "lvl": 3s,
+                            "id": 32s
+                        },
+                        {
+                            "lvl": 1s,
+                            "id": 59s
+                        }
+                    ],
+                    "Unbreakable": 1b,
+                    "display": {
+                        "Lore": [
+                            "Allows destruction of Etherium Blocks in",
+                            "The Kingdom of Gods"
+                        ],
+                        "Name": "Irrational Ravager"
+                    },
+                    "AttributeModifiers": [
+                        {
+                            "UUIDMost": -3801225194067177672L,
+                            "UUIDLeast": -6586624321849018929L,
+                            "Amount": 9.0d,
+                            "Slot": "mainhand",
+                            "AttributeName": "generic.attackDamage",
+                            "Operation": 0,
+                            "Name": "generic.attackDamage"
+                        },
+                        {
+                            "UUIDMost": -422425648963762075L,
+                            "UUIDLeast": -5756800103171642205L,
+                            "Amount": -2.799999952316284d,
+                            "Slot": "mainhand",
+                            "AttributeName": "generic.attackSpeed",
+                            "Operation": 0,
+                            "Name": "generic.attackSpeed"
+                        },
+                        {
+                            "UUIDMost": -5092763163005663722L,
+                            "UUIDLeast": -5650695572155617606L,
+                            "Amount": -2.0d,
+                            "Slot": "mainhand",
+                            "AttributeName": "generic.armor",
+                            "Operation": 1,
+                            "Name": "generic.armor"
+                        }
+                    ]
+                },
+                "Damage": 0s
+            }
+        ]
+    },
+    "StandingState": 1,
+    "AttackInvisible": 0b,
+    "NpcInteractNPCLines": {
+        "Lines": [
+        ]
+    },
+    "HurtTime": 0s,
+    "WalkingRange": 10,
+    "PuppetMoving": 0b,
+    "ShotCount": 1,
+    "pDur": 5,
+    "TraderIgnoreDamage": 0b,
+    "PuppetBody": {
+        "RotationY": 0.07042253f,
+        "RotationX": -0.014084518f,
+        "RotationZ": 0.0f,
+        "Disabled": 0b
+    },
+    "AttackRange": 2,
+    "NpcKillLines": {
+        "Lines": [
+        ]
+    },
+    "PotionImmune": 0b,
+    "AvoidsSun": 0b,
+    "Texture": "minecraft:textures/blocks/soul_sand.png",
+    "NpcJob": 9,
+    "BurstCount": 1,
+    "NpcAttackLines": {
+        "Lines": [
+        ]
+    },
+    "pSpeed": 10,
+    "pArea": 0,
+    "DeathTime": 0s,
+    "pImpact": 0,
+    "MoveState": 1,
+    "pRender3D": 1b,
+    "Motion": [
+        0.0d,
+        -0.0784000015258789d,
+        0.0d
+    ],
+    "CombatRegen": 0,
+    "NpcsTimers": [
+    ],
+    "pEffect": 0,
+    "DistanceToMelee": 0,
+    "MarkovGender": 0,
+    "NpcStepSound": "",
+    "FireRate": 5,
+    "PuppetRLeg2": {
+        "RotationY": 0.0f,
+        "RotationX": 0.0f,
+        "RotationZ": 0.0f,
+        "Disabled": 0b
+    },
+    "pEffAmp": 0,
+    "LeftHanded": 0b,
+    "OnGround": 1b,
+    "Dimension": 43,
+    "ImmuneToFire": 0b,
+    "NpcKilledLines": {
+        "Lines": [
+        ]
+    },
+    "TraderMarket": "",
+    "Fire": -1s,
+    "ArmorItems": [
+        {
+        },
+        {
+        },
+        {
+        },
+        {
+        }
+    ],
+    "DisablePitch": 0b,
+    "pPhysics": 1b,
+    "TransformHasInv": 0b,
+    "PuppetLArm2": {
+        "RotationY": 0.0f,
+        "RotationX": 0.0f,
+        "RotationZ": 0.0f,
+        "Disabled": 0b
+    },
+    "PuppetAnimationSpeed": 4,
+    "NpcInteractLines": {
+        "Lines": [
+        ]
+    },
+    "HurtByTimestamp": 11007,
+    "TraderCurrency": {
+        "NpcMiscInv": [
+            {
+                "Slot": 0b,
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "minecraft:prismarine_shard",
+                "Count": 3b,
+                "tag": {
+                    "ench": [
+                        {
+                            "lvl": 1s,
+                            "id": 10s
+                        }
+                    ],
+                    "Unbreakable": 1b,
+                    "display": {
+                        "Name": "Shard of Irrationality"
+                    }
+                },
+                "Damage": 0s
+            }
+        ]
+    },
+    "pSpin": 0b,
+    "NpcHurtSound": "minecraft:entity.player.hurt",
+    "pTrail": 0,
+    "CreatureType": 0,
+    "Attributes": [
+        {
+            "Base": 1.0d,
+            "Name": "potioncore.projectileDamage"
+        },
+        {
+            "Base": 1.0d,
+            "Name": "potioncore.magicDamage"
+        },
+        {
+            "Base": 1.0d,
+            "Name": "potioncore.jumpHeight"
+        },
+        {
+            "Base": 1.0d,
+            "Name": "potioncore.damageResistance"
+        },
+        {
+            "Base": 0.0d,
+            "Name": "potioncore.magicShielding"
+        },
+        {
+            "Base": 2.0d,
+            "Name": "generic.maxHealth"
+        },
+        {
+            "Base": 0.0d,
+            "Name": "generic.knockbackResistance"
+        },
+        {
+            "Base": 0.0d,
+            "Name": "generic.movementSpeed"
+        },
+        {
+            "Base": 0.0d,
+            "Name": "generic.armor"
+        },
+        {
+            "Base": 0.0d,
+            "Name": "generic.armorToughness"
+        },
+        {
+            "Base": 1.0d,
+            "Name": "forge.swimSpeed"
+        },
+        {
+            "Base": 64.0d,
+            "Name": "generic.followRange"
+        },
+        {
+            "Base": 5.0d,
+            "Name": "generic.attackDamage"
+        },
+        {
+            "Base": 0.0d,
+            "Name": "generic.flyingSpeed"
+        }
+    ],
+    "Invulnerable": 0b,
+    "TransformHasDisplay": 0b,
+    "NoFallDamage": 0b,
+    "AbsorptionAmount": 0.0f,
+    "TransformHasRole": 0b,
+    "Name": "A Statue of Irrationality",
+    "FallDistance": 0.0f,
+    "PuppetAnimate": 0b,
+    "SkinColor": 16777215,
+    "PuppetLArm": {
+        "RotationY": -0.32394367f,
+        "RotationX": -0.22535211f,
+        "RotationZ": 0.0f,
+        "Disabled": 0b
+    },
+    "NpcIdleSound": "",
+    "Weapons": [
+    ],
+    "NPCDialogOptions": [
+    ],
+    "AggroRange": 16,
+    "DirectLOS": 1b,
+    "HealthRegen": 1,
+    "HandDropChances": [
+        0.085f,
+        0.085f
+    ],
+    "ForgeCaps": {
+        "everlastingabilities:org.cyclops.everlastingabilities.api.capability.imutableabilitystore": [
+        ],
+        "metallurgy:punch_effect": {
+            "hasAiDisabled": 1b,
+            "knockbackTicks": 0,
+            "ticks": 0
+        }
+    },
+    "NpcModelData": {
+        "LegsConfig": {
+            "NotShared": 0b,
+            "ScaleZ": 1.0f,
+            "TransZ": 0.0f,
+            "TransY": 0.0f,
+            "TransX": 0.012000002f,
+            "ScaleY": 1.0f,
+            "ScaleX": 1.0f
+        },
+        "BodyConfig": {
+            "NotShared": 0b,
+            "ScaleZ": 0.923913f,
+            "TransZ": 0.0f,
+            "TransY": 0.375f,
+            "TransX": 0.0f,
+            "ScaleY": 0.5f,
+            "ScaleX": 1.0f
+        },
+        "Eyes": {
+            "Pattern": 0b,
+            "Glint": 1b,
+            "Type": 0b,
+            "PositionY": 1,
+            "SkinColor": 11830381,
+            "PlayerTexture": 0b,
+            "Color": 16247203,
+            "BrowColor": 5982516,
+            "BrowThickness": 4
+        },
+        "LegParts": {
+            "Pattern": 0b,
+            "Type": 0b,
+            "PlayerTexture": 0b,
+            "Color": 16777215
+        },
+        "Parts": [
+        ],
+        "ArmsConfig": {
+            "NotShared": 0b,
+            "ScaleZ": 0.79347825f,
+            "TransZ": 0.0f,
+            "TransY": 0.3652174f,
+            "TransX": -0.009782607f,
+            "ScaleY": 0.9021739f,
+            "ScaleX": 0.86956525f
+        },
+        "ExtraData": {
+        },
+        "HeadConfig": {
+            "NotShared": 0b,
+            "ScaleZ": 1.0f,
+            "TransZ": 0.0f,
+            "TransY": 0.375f,
+            "TransX": 0.0f,
+            "ScaleY": 1.0f,
+            "ScaleX": 1.0f
+        }
+    },
+    "minDelay": 20,
+    "DoorInteract": 2,
+    "MoveSpeed": 0,
+    "TransformEditingModus": 0b,
+    "UsingSkinUrl": 0b,
+    "Leashed": 0b,
+    "PuppetRArm": {
+        "RotationY": 0.39436615f,
+        "RotationX": 0.45070422f,
+        "RotationZ": 0.47887325f,
+        "Disabled": 0b
+    },
+    "SkinUrl": "",
+    "TraderIgnoreNBT": 0b,
+    "CanSwim": 1b,
+    "GroundSound": "minecraft:block.stone.break",
+    "MaxHealth": 2,
+    "HideBodyWhenKilled": 1b,
+    "AttackSpeed": 20,
+    "PotionDuration": 5,
+    "maxDelay": 40,
+    "ScriptEnabled": 0b,
+    "Role": 1,
+    "DropChance": [
+        {
+            "Integer": 100,
+            "Slot": 0
+        },
+        {
+            "Integer": 100,
+            "Slot": 1
+        },
+        {
+            "Integer": 100,
+            "Slot": 2
+        },
+        {
+            "Integer": 100,
+            "Slot": 3
+        },
+        {
+            "Integer": 100,
+            "Slot": 4
+        },
+        {
+            "Integer": 100,
+            "Slot": 5
+        },
+        {
+            "Integer": 100,
+            "Slot": 6
+        },
+        {
+            "Integer": 100,
+            "Slot": 7
+        },
+        {
+            "Integer": 100,
+            "Slot": 8
+        }
+    ],
+    "FactionPoints": {
+        "DecreaseFaction1Points": 0b,
+        "OptionFaction2Points": 100,
+        "OptionFactions1": -1,
+        "OptionFactions2": -1,
+        "OptionFaction1Points": 100,
+        "DecreaseFaction2Points": 0b
+    },
+    "KilledTime": 0L,
+    "pDamage": 4,
+    "AimWhileShooting": 0b,
+    "CanPickUpLoot": 0b,
+    "AttackOtherFactions": 0b,
+    "CanDrown": 1b,
+    "pSize": 5,
+    "CanSprint": 0b,
+    "CanLeap": 0b,
+    "TransformIsActive": 0b,
+    "ForgeData": {
+        "cnpcmarkdata": {
+            "marks": [
+            ]
+        },
+        "Potion Core - Health Fix": 2.0f,
+        "Potion Core - Jump Boost Updated": 1b
+    },
+    "MovingState": 0,
+    "PuppetAttacking": 0b,
+    "MovingPos": 0,
+    "PotionAmp": 0,
+    "PuppetBody2": {
+        "RotationY": 0.0f,
+        "RotationX": 0.0f,
+        "RotationZ": 0.0f,
+        "Disabled": 0b
+    },
+    "TacticalRadius": 8,
+    "OnAttack": 3,
+    "MaxExp": 0,
+    "FallFlying": 0b,
+    "OrderedLines": 0b,
+    "PuppetStanding": 1b,
+    "PortalCooldown": 0,
+    "pGlows": 0b,
+    "TransformHasAdvanced": 0b,
+    "TransformHasStats": 0b,
+    "MovementType": 0,
+    "FiringSound": "minecraft:entity.arrow.shoot",
+    "ModRev": 18,
+    "Accuracy": 60,
+    "MinExp": 0,
+    "Armor": [
+    ],
+    "CloakTexture": "",
+    "GlowTexture": "",
+    "pXlr8": 0b,
+    "MaxFiringRange": 15,
+    "MarkovGeneratorId": 0,
+    "Scripts": [
+    ],
+    "Health": 2.0f,
+    "MovingPause": 1b,
+    "pStick": 0b,
+    "NpcDeathSound": "minecraft:entity.player.hurt",
+    "FactionID": 0,
+    "Title": "",
+    "PuppetRLeg": {
+        "RotationY": 0.35211265f,
+        "RotationX": -0.014084518f,
+        "RotationZ": 0.21126759f,
+        "Disabled": 0b
+    },
+    "TotalTicksAlive": 11613L,
+    "PuppetLLeg2": {
+        "RotationY": 0.0f,
+        "RotationX": 0.0f,
+        "RotationZ": 0.0f,
+        "Disabled": 0b
+    },
+    "Rotation": [
+        45.0f,
+        0.0f
+    ],
+    "ShowName": 0,
+    "npcInteracting": 1b,
+    "UpdateBlocked": 0b,
+    "AvoidsWater": 0b,
+    "NoLivingAnimation": 1b,
+    "SpawnCycle": 0
+}

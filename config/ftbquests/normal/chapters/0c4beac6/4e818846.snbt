@@ -1,0 +1,26 @@
+{
+	x: 11.0d,
+	y: 3.5d,
+	can_repeat: true,
+	dependencies: [
+		"558a1729"
+	],
+	hide: true,
+	optional: true,
+	tasks: [{
+		uid: "d5bef8f3",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "camscurrency:denarius"
+		}],
+		count: 30L
+	}],
+	rewards: [{
+		uid: "6d08a31a",
+		type: "loot",
+		table: 59
+	}]
+}

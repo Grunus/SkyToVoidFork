@@ -1,0 +1,213 @@
+{
+	title: "Power Crystal",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "appliedenergistics2:material"
+	},
+	x: -16.5d,
+	y: 3.5d,
+	description: "The essential resource.",
+	text: [
+		"You can sieve Crushed Sky Stone to collect Certus Quartz."
+	],
+	dependencies: [
+		"af8b9da9"
+	],
+	hide: true,
+	tasks: [{
+		uid: "87638ef9",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "appliedenergistics2:material"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "6c11ec46",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:potion",
+			tag: {
+				CustomPotionColor: 13434879,
+				CustomPotionEffects: [{
+					Ambient: 0b,
+					CurativeItems: [{
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": {}
+						},
+						id: "minecraft:milk_bucket",
+						Count: 1b,
+						Damage: 0s
+					}],
+					ShowParticles: 1b,
+					Duration: 2400,
+					Id: 22b,
+					Amplifier: 2b
+				},
+				{
+					Ambient: 0b,
+					CurativeItems: [{
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": {}
+						},
+						id: "minecraft:milk_bucket",
+						Count: 1b,
+						Damage: 0s
+					}],
+					ShowParticles: 1b,
+					Duration: 1200,
+					Id: 12b,
+					Amplifier: 1b
+				},
+				{
+					Ambient: 0b,
+					CurativeItems: [{
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": {}
+						},
+						id: "minecraft:milk_bucket",
+						Count: 1b,
+						Damage: 0s
+					}],
+					ShowParticles: 1b,
+					Duration: 2400,
+					Id: 3b,
+					Amplifier: 1b
+				}],
+				display: {
+					Name: "Quartz Brew"
+				}
+			}
+		}
+	},
+	{
+		uid: "98c2c76d",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:potion",
+			tag: {
+				CustomPotionColor: 13434879,
+				CustomPotionEffects: [{
+					Ambient: 0b,
+					CurativeItems: [{
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": {}
+						},
+						id: "minecraft:milk_bucket",
+						Count: 1b,
+						Damage: 0s
+					}],
+					ShowParticles: 1b,
+					Duration: 2400,
+					Id: 22b,
+					Amplifier: 2b
+				},
+				{
+					Ambient: 0b,
+					CurativeItems: [{
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": {}
+						},
+						id: "minecraft:milk_bucket",
+						Count: 1b,
+						Damage: 0s
+					}],
+					ShowParticles: 1b,
+					Duration: 1200,
+					Id: 12b,
+					Amplifier: 1b
+				},
+				{
+					Ambient: 0b,
+					CurativeItems: [{
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": {}
+						},
+						id: "minecraft:milk_bucket",
+						Count: 1b,
+						Damage: 0s
+					}],
+					ShowParticles: 1b,
+					Duration: 2400,
+					Id: 3b,
+					Amplifier: 1b
+				}],
+				display: {
+					Name: "Quartz Brew"
+				}
+			}
+		}
+	},
+	{
+		uid: "2c453a78",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:potion",
+			tag: {
+				CustomPotionColor: 13434879,
+				CustomPotionEffects: [{
+					Ambient: 0b,
+					CurativeItems: [{
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": {}
+						},
+						id: "minecraft:milk_bucket",
+						Count: 1b,
+						Damage: 0s
+					}],
+					ShowParticles: 1b,
+					Duration: 2400,
+					Id: 22b,
+					Amplifier: 2b
+				},
+				{
+					Ambient: 0b,
+					CurativeItems: [{
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": {}
+						},
+						id: "minecraft:milk_bucket",
+						Count: 1b,
+						Damage: 0s
+					}],
+					ShowParticles: 1b,
+					Duration: 1200,
+					Id: 12b,
+					Amplifier: 1b
+				},
+				{
+					Ambient: 0b,
+					CurativeItems: [{
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": {}
+						},
+						id: "minecraft:milk_bucket",
+						Count: 1b,
+						Damage: 0s
+					}],
+					ShowParticles: 1b,
+					Duration: 2400,
+					Id: 3b,
+					Amplifier: 1b
+				}],
+				display: {
+					Name: "Quartz Brew"
+				}
+			}
+		}
+	}]
+}

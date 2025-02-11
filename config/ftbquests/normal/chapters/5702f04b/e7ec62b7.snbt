@@ -1,0 +1,46 @@
+{
+	title: "Mystical Upgrades",
+	x: -8.0d,
+	y: 8.5d,
+	description: "You can upgrade your armor and tools by applying charms onto them using a tinkering table.",
+	text: [
+		""
+	],
+	dependencies: [
+		"747bb101"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "eee73fbf",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "mysticalagriculture:tinkering_table",
+			Damage: 4s
+		}]
+	}],
+	rewards: [{
+		uid: "cc50f057",
+		type: "random",
+		table: 11
+	},
+	{
+		uid: "039ba823",
+		type: "loot",
+		table: 11
+	},
+	{
+		uid: "0d709ce7",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "mysticalagriculture:charm",
+			Damage: 9s
+		}
+	}]
+}

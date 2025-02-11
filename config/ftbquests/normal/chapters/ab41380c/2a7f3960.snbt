@@ -1,0 +1,56 @@
+{
+	title: "Communism Detected",
+	x: -8.0d,
+	y: -3.0d,
+	shape: "diamond",
+	description: "\"The Liberator is buzzing! Communism is somewhere here!\"",
+	text: [
+		"Yes! The mind of this place is now free!"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"1028f6e8",
+		"dc3b0217"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "ec926193",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:knowledge_book",
+			tag: {
+				ench: [{
+					lvl: 1,
+					id: 3
+				}],
+				RepairCost: 1,
+				display: {
+					Name: "The Communist Manifesto"
+				}
+			}
+		}],
+		consume_items: true,
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "8239b186",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "camscurrency:denarius"
+		},
+		count: 12
+	},
+	{
+		uid: "2dc545a3",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

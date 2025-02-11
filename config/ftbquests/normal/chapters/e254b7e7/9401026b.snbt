@@ -1,0 +1,43 @@
+{
+	title: "Objectives",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "contenttweaker:objectives",
+		tag: {
+			display: {
+				Name: "Objectives"
+			}
+		}
+	},
+	x: -1.0d,
+	y: -7.0d,
+	text: [
+		"4 --Islands to discover",
+		"4 --Quests to complete",
+		"2 --Deadly Sins to collect",
+		"",
+		"Quests catagory includes only quests inside of the Watching Closely chapter."
+	],
+	dependencies: [
+		"fe5e4f13",
+		"6bae85c1"
+	],
+	hide: true,
+	tasks: [{
+		uid: "82e97fa4",
+		type: "checkmark",
+		title: "Stop The Void"
+	}],
+	rewards: [{
+		uid: "f9a1e0b7",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "camscurrency:denarius"
+		}
+	}]
+}

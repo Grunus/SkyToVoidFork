@@ -1,0 +1,44 @@
+{
+	title: "Anyone Got Some Chapstick?",
+	x: 16.5d,
+	y: 8.0d,
+	dependencies: [
+		"0908d909"
+	],
+	hide: true,
+	tasks: [{
+		uid: "78f0adb2",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "industrialforegoing:tinydryrubber"
+		}],
+		count: 36L
+	}],
+	rewards: [{
+		uid: "14629d9a",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "tconstruct:binding",
+			tag: {
+				Material: "rubber"
+			}
+		}
+	},
+	{
+		uid: "484cc160",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "harvestcraft:chocolatebaconitem"
+		},
+		count: 8
+	}]
+}

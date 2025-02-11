@@ -1,0 +1,74 @@
+{
+	title: "A Helpful Trade",
+	x: -1.0d,
+	y: -14.5d,
+	shape: "diamond",
+	description: "''This Mystical Temple you found? It's an interesting element that I would adore to practice. If you could somehow give me the crystal I'll have something you'll want. Just... don't give it to my brother, please.''",
+	text: [
+		"I hope you're not dissapointed with your reward.",
+		"",
+		"Good luck out there."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"1a3bb1a3",
+		"7a03ba85"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "1e9e5245",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ebwizardry:magic_crystal",
+			tag: {
+				ench: [{
+					lvl: 5s,
+					id: 60s
+				},
+				{
+					lvl: 4s,
+					id: 79s
+				}],
+				display: {
+					Lore: [
+						"You look inside the crystal and see stars of",
+						"another universe.",
+						"Who are we? When are we? Where are we?",
+						"Why are we here? The symphony repeats..."
+					],
+					Name: "Ornate Crystal of Confusion"
+				},
+				AttributeModifiers: [{
+					UUIDMost: 8886492970438445135L,
+					UUIDLeast: -7504856483685375243L,
+					Amount: 5.0d,
+					Slot: "offhand",
+					AttributeName: "generic.luck",
+					Operation: 0,
+					Name: "generic.luck"
+				}]
+			},
+			Damage: 6s
+		}],
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "6fe651ae",
+		type: "loot",
+		table: 42
+	},
+	{
+		uid: "3b4c8f3d",
+		type: "loot",
+		table: 42
+	},
+	{
+		uid: "e91d62e1",
+		type: "loot",
+		table: 42
+	}]
+}

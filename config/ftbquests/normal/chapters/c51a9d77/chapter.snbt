@@ -1,0 +1,49 @@
+{
+	title: "The Scattered Bits",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "storagedrawers:basicdrawers",
+		tag: {
+			material: "oak"
+		},
+		Damage: 2s
+	},
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: "",
+	images: [{
+		x: 1.0d,
+		y: 0.5d,
+		width: 5.5d,
+		height: 4.5d,
+		rotation: 0.0d,
+		image: "icons:storagecut.png",
+		hover: [],
+		click: "",
+		dev: false
+	},
+	{
+		x: -6.214285714285715d,
+		y: 6.946428571428569d,
+		width: 4.5d,
+		height: 4.5d,
+		rotation: 0.0d,
+		image: "icons:openblockscut.png",
+		hover: [],
+		click: "",
+		dev: false
+	},
+	{
+		x: 1.864285714285721d,
+		y: 6.18571428571429d,
+		width: 5.0d,
+		height: 5.0d,
+		rotation: 0.0d,
+		image: "icons:cycliccut.png",
+		hover: [],
+		click: "",
+		dev: false
+	}]
+}

@@ -1,0 +1,52 @@
+{
+	title: "Magical Island",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "ebwizardry:crystal_block"
+	},
+	x: -0.5d,
+	y: -6.5d,
+	description: "Look at that! So magical!",
+	hide_dependency_lines: true,
+	dependencies: [
+		"6bae85c1"
+	],
+	hide: true,
+	tasks: [{
+		uid: "debe48d1",
+		type: "location",
+		title: "-25 125 -240",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ebwizardry:grand_crystal"
+		},
+		location: [I;
+			0,
+			-30,
+			125,
+			-244,
+			6,
+			6,
+			6
+		]
+	}],
+	rewards: [{
+		uid: "c08a42c6",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ebwizardry:crystal_flower"
+		}
+	},
+	{
+		uid: "fc65dde2",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

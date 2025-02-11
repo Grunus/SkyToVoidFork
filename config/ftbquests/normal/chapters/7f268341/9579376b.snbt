@@ -1,0 +1,34 @@
+{
+	title: "Sugtrees",
+	x: -5.5d,
+	y: 1.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"19b6504b"
+	],
+	hide: true,
+	tasks: [{
+		uid: "f3bea701",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thermalinnovation:saw",
+			tag: {
+				Energy: 400000,
+				Mode: 3
+			},
+			Damage: 3s
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "b625bb4f",
+		type: "loot",
+		table: 8
+	}]
+}

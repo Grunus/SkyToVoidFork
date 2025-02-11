@@ -1,0 +1,34 @@
+{
+	title: "Angmallen",
+	x: 12.5d,
+	y: 12.0d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"7cc154ad",
+		"81b1cd10",
+		"cebcaaf7"
+	],
+	hide: true,
+	tasks: [{
+		uid: "617a8557",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "metallurgy:angmallen_ingot"
+		}],
+		count: 10L
+	}],
+	rewards: [{
+		uid: "fda86c93",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "camscurrency:dupondius"
+		},
+		count: 20
+	}]
+}

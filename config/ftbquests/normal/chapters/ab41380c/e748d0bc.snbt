@@ -1,0 +1,36 @@
+{
+	x: 0.5d,
+	y: 4.0d,
+	shape: "diamond",
+	text: [
+		"You can build screens for quests using the task screens. These screens are most important for fluids or energy quests, so save them!"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"56904fde",
+		"01437c64"
+	],
+	hide: true,
+	tasks: [{
+		uid: "36cc699c",
+		type: "checkmark",
+		title: "Task Screen",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "harvestcraft:starfruititem"
+		}
+	}],
+	rewards: [{
+		uid: "1370f3c3",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ftbquests:screen"
+		},
+		count: 32
+	}]
+}

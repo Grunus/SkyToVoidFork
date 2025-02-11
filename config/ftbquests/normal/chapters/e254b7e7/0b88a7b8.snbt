@@ -1,0 +1,35 @@
+{
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "contenttweaker:obj_quests",
+		tag: {
+			display: {
+				Name: "Quests"
+			}
+		}
+	},
+	x: 0.0d,
+	y: -11.5d,
+	text: [
+		"They get closer and closer, how are they not dead yet?"
+	],
+	hide_dependency_lines: true,
+	min_required_dependencies: 4,
+	dependencies: [
+		"cbb937cd",
+		"d15e735b",
+		"88e05bf8",
+		"d2b2f968",
+		"5aede2b6",
+		"255852c3",
+		"3b756919"
+	],
+	hide: true,
+	tasks: [{
+		uid: "8e88d9a4",
+		type: "checkmark",
+		title: "Completing the List"
+	}]
+}

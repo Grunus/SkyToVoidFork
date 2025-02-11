@@ -1,0 +1,29 @@
+{
+	title: "Almighty Chicken!",
+	x: 1.5d,
+	y: 7.5d,
+	description: "When wearing the ring, you can fly around using GP.",
+	text: [
+		"Be in mind this requires GP, so make sure you have the required amount before using the ring."
+	],
+	dependencies: [
+		"b9bab6f8"
+	],
+	hide: true,
+	tasks: [{
+		uid: "35533bd0",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "extrautils2:chickenring"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "d5cc1ec1",
+		type: "loot",
+		table: 18
+	}]
+}

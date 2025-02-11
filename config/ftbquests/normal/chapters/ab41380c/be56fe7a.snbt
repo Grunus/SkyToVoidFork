@@ -1,0 +1,50 @@
+{
+	title: "Cloud Service: Southern Void",
+	x: 19.0d,
+	y: 20.0d,
+	shape: "octagon",
+	description: "Unlocks items within the quest book shop.",
+	text: [
+		"Includes all of the southern NPC traders, such as:",
+		"",
+		"- Slavender",
+		"- Elbow",
+		"- Hullabaloo",
+		"- The Villagers",
+		"- Daethon",
+		"- Liam"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"52fffa66",
+		"5824d86e"
+	],
+	hide: true,
+	size: 1.5d,
+	tasks: [{
+		uid: "35b51301",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "contenttweaker:pylon",
+			tag: {
+				display: {
+					Lore: [
+						"Unlocks special Cloud Service items inside",
+						"the quest book shop from specific traders.",
+						"Complete quests from NPCs to reveal Cloud",
+						"Service quests."
+					],
+					Name: "Cloud Service Pylon"
+				}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "594c6a01",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

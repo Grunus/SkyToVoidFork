@@ -1,0 +1,420 @@
+{
+	title: "OpenBlocks Reward",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "openblocks:golden_egg"
+	},
+	loot_size: 2,
+	hide_tooltip: true,
+	use_title: true,
+	rewards: [{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "openblocks:ladder"
+		},
+		count: 16,
+		weight: 50
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "openblocks:elevator_rotating",
+			Damage: 15s
+		},
+		count: 2,
+		weight: 25
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "openblocks:tank"
+		},
+		count: 2,
+		weight: 20
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "openblocks:wrench"
+		},
+		weight: 35
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "openblocks:cannon"
+		},
+		count: 4,
+		weight: 40
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "openblocks:target"
+		},
+		weight: 50
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "openblocks:hang_glider"
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "openblocks:imaginary",
+			tag: {
+				Uses: 10.0f,
+				Mode: 0
+			}
+		},
+		weight: 30
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "openblocks:generic",
+			Damage: 1s
+		},
+		weight: 35
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "openblocks:epic_eraser",
+			tag: {
+				ench: [{
+					lvl: 1s,
+					id: 6s
+				}],
+				display: {
+					Lore: [
+						"Putting on one's forehead will erase their",
+						"mind."
+					],
+					Name: "Eraser of the Mind"
+				},
+				AttributeModifiers: [{
+					UUIDMost: -3832261005477983608L,
+					UUIDLeast: -4646239196003775147L,
+					Amount: 2.0d,
+					Slot: "mainhand",
+					AttributeName: "generic.attackDamage",
+					Operation: 0,
+					Name: "generic.attackDamage"
+				},
+				{
+					UUIDMost: -3784162344206448101L,
+					UUIDLeast: -7351285145410850810L,
+					Amount: 10.0d,
+					Slot: "mainhand",
+					AttributeName: "generic.attackSpeed",
+					Operation: 0,
+					Name: "generic.attackSpeed"
+				},
+				{
+					UUIDMost: -1285288875513459294L,
+					UUIDLeast: -6628077469631823868L,
+					Amount: 4.0d,
+					Slot: "mainhand",
+					AttributeName: "generic.armor",
+					Operation: 0,
+					Name: "generic.armor"
+				},
+				{
+					UUIDMost: -686876833195275491L,
+					UUIDLeast: -5677171335347540511L,
+					Amount: 20.0d,
+					Slot: "mainhand",
+					AttributeName: "generic.knockbackResistance",
+					Operation: 0,
+					Name: "generic.knockbackResistance"
+				}]
+			}
+		},
+		weight: 10
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "openblocks:pedometer"
+		},
+		weight: 35
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "openblocks:paintbrush",
+			tag: {
+				display: {
+					Name: "Painted!"
+				}
+			}
+		},
+		weight: 35
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "openblocks:luggage",
+			tag: {}
+		},
+		weight: 20
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "openblocks:paint_can",
+			tag: {
+				amount: 30,
+				color: 4408131
+			}
+		},
+		weight: 25
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "openblocks:scaffolding"
+		},
+		count: 64,
+		weight: 50
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "openblocks:sonic_glasses"
+		},
+		weight: 2
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "openblocks:glyph",
+			tag: {
+				display: {
+					Lore: [
+						"Just take the L"
+					],
+					Name: "L"
+				},
+				AttributeModifiers: [{
+					UUIDMost: 8768418416895936888L,
+					UUIDLeast: -8331395128508850897L,
+					Amount: 10.0d,
+					Slot: "mainhand",
+					AttributeName: "generic.attackDamage",
+					Operation: 0,
+					Name: "generic.attackDamage"
+				},
+				{
+					UUIDMost: -988301023934790992L,
+					UUIDLeast: -9210014257087779960L,
+					Amount: -18.0d,
+					Slot: "offhand",
+					AttributeName: "generic.maxHealth",
+					Operation: 0,
+					Name: "generic.maxHealth"
+				}]
+			},
+			Damage: 76s
+		},
+		weight: 2
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "openblocks:generic",
+			Damage: 5s
+		},
+		count: 5,
+		random_bonus: 62,
+		weight: 40
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "openblocks:heal"
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "openblocks:paint_mixer"
+		},
+		weight: 35
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "openblocks:rope_ladder"
+		},
+		count: 64,
+		random_bonus: 64,
+		weight: 50
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "openblocks:empty_map",
+			tag: {
+				Scale: 3b
+			}
+		},
+		weight: 5
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:enchanted_book",
+			tag: {
+				StoredEnchantments: [{
+					lvl: 2s,
+					id: 23s
+				}]
+			}
+		},
+		weight: 10
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:enchanted_book",
+			tag: {
+				StoredEnchantments: [{
+					lvl: 3s,
+					id: 25s
+				}]
+			}
+		},
+		weight: 10
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:enchanted_book",
+			tag: {
+				StoredEnchantments: [{
+					lvl: 2s,
+					id: 24s
+				}]
+			}
+		},
+		weight: 10
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "openblocks:item_dropper"
+		},
+		count: 2,
+		weight: 12
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "totaltinkers:greatblade",
+			tag: {
+				StatsOriginal: {
+					AttackSpeedMultiplier: 1.0f,
+					MiningSpeed: 11.5f,
+					FreeModifiers: 3,
+					Durability: 457,
+					HarvestLevel: 4,
+					Attack: 5.5f
+				},
+				display: {
+					Name: "Clean Slate"
+				},
+				Stats: {
+					AttackSpeedMultiplier: 1.0f,
+					MiningSpeed: 11.5f,
+					FreeModifiers: 5,
+					Durability: 457,
+					HarvestLevel: 4,
+					Attack: 5.5f
+				},
+				Special: {
+					Categories: [
+						"weapon",
+						"tool"
+					]
+				},
+				TinkerData: {
+					Materials: [
+						"carmot",
+						"ceruclase",
+						"platinum",
+						"prometheum",
+						"brass"
+					],
+					Modifiers: [
+						"creative"
+					]
+				},
+				Modifiers: [{
+					identifier: "creative",
+					color: 0,
+					level: 2
+				}]
+			}
+		}
+	}]
+}

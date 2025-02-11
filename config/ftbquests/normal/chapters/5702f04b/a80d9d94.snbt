@@ -1,0 +1,60 @@
+{
+	title: "Time Hammer",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "exnihilocreatio:hammer_stone"
+	},
+	x: -1.0d,
+	y: 4.0d,
+	shape: "hexagon",
+	description: "The first step to obtain flint and ores.",
+	text: [
+		"When breaking cobblestone, gravel or sand, it'll degrade to the next level. The level under sand is dust, which is the lowest level."
+	],
+	dependencies: [
+		"db711c5d"
+	],
+	hide: true,
+	tasks: [{
+		uid: "24ac94be",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "exnihilocreatio:hammer_stone"
+		},
+		{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "exnihilocreatio:hammer_wood"
+		},
+		{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "exnihilocreatio:hammer_iron"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "a139beab",
+		type: "loot",
+		table: 0
+	},
+	{
+		uid: "694d30c6",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:stick"
+		},
+		count: 2
+	}]
+}

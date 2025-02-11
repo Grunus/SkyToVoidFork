@@ -1,0 +1,107 @@
+{
+	title: "The Big Tools",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "tconstruct:cast",
+		tag: {
+			PartType: "tconstruct:large_sword_blade"
+		}
+	},
+	x: 4.0d,
+	y: 11.0d,
+	description: "With the Tool Forge, you can create new unique items.",
+	text: [
+		""
+	],
+	dependencies: [
+		"4181d0b8",
+		"2ec3cb8d"
+	],
+	hide: true,
+	tasks: [{
+		uid: "9da462f9",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "tconstruct:cast",
+			tag: {
+				PartType: "tconstruct:large_sword_blade"
+			}
+		},
+		{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "tconstruct:clay_cast",
+			tag: {
+				PartType: "tconstruct:large_sword_blade"
+			}
+		}]
+	},
+	{
+		uid: "baa9cd99",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "tconstruct:cast",
+			tag: {
+				PartType: "tconstruct:large_plate"
+			}
+		},
+		{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "tconstruct:clay_cast",
+			tag: {
+				PartType: "tconstruct:large_plate"
+			}
+		}]
+	},
+	{
+		uid: "0a36a7bf",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "tconstruct:cast",
+			tag: {
+				PartType: "tconstruct:hammer_head"
+			}
+		},
+		{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "tconstruct:clay_cast",
+			tag: {
+				PartType: "tconstruct:hammer_head"
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "5ee55224",
+		type: "loot",
+		table: 5
+	},
+	{
+		uid: "c7cd0ea9",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "tconstruct:seared",
+			Damage: 3s
+		},
+		count: 8,
+		random_bonus: 8
+	}]
+}

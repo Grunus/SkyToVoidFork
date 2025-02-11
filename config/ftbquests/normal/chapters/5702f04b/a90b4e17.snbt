@@ -1,0 +1,44 @@
+{
+	x: 8.5d,
+	y: 14.0d,
+	shape: "square",
+	description: "Can be applied to a tool to downgrade cobblestone and so on.",
+	hide_dependency_lines: true,
+	dependencies: [
+		"f2658a75",
+		"be627f93"
+	],
+	hide: true,
+	tasks: [{
+		uid: "8ba2c385",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "excompressum:double_compressed_diamond_hammer"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "b195d14b",
+		type: "loot",
+		table: 6
+	},
+	{
+		uid: "b4cc6c4a",
+		type: "loot",
+		table: 4
+	},
+	{
+		uid: "14d40a38",
+		type: "loot",
+		table: 5
+	},
+	{
+		uid: "998d8f4e",
+		type: "loot",
+		table: 3
+	}]
+}

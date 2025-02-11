@@ -1,0 +1,405 @@
+{
+	title: "Primitive Tier I Reward",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "tconstruct:shard",
+		tag: {
+			Material: "flint"
+		}
+	},
+	loot_size: 2,
+	hide_tooltip: true,
+	use_title: true,
+	rewards: [{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:sapling"
+		},
+		count: 4,
+		weight: 90
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:stick"
+		},
+		count: 16,
+		weight: 95
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:sapling",
+			Damage: 2s
+		},
+		weight: 90
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:sapling",
+			Damage: 3s
+		},
+		random_bonus: 3,
+		weight: 10
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "harvestcraft:bolognaitem"
+		},
+		count: 2,
+		weight: 40
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:piston"
+		},
+		weight: 15
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:cobblestone"
+		},
+		count: 8,
+		weight: 10
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:torch"
+		},
+		random_bonus: 10,
+		weight: 20
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "harvestcraft:blueberryseeditem"
+		},
+		count: 2,
+		weight: 25
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:wheat_seeds"
+		},
+		count: 16,
+		weight: 90
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "exnihilocreatio:item_seed_sugarcane"
+		},
+		weight: 10
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:leaves2",
+			Damage: 1s
+		},
+		random_bonus: 62,
+		weight: 20
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "exnihilocreatio:block_dust"
+		},
+		count: 4,
+		weight: 90
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:dirt"
+		},
+		weight: 90
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:trapped_chest"
+		},
+		weight: 10
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "biomesoplenty:flower_1",
+			tag: {
+				ench: [{
+					lvl: 1,
+					id: 20
+				}],
+				RepairCost: 1,
+				display: {
+					Name: "Fire Flower"
+				}
+			},
+			Damage: 5s
+		},
+		weight: 2
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:brown_mushroom"
+		},
+		random_bonus: 4,
+		weight: 90
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:planks",
+			Damage: 4s
+		},
+		count: 16,
+		weight: 90
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:hay_block"
+		},
+		weight: 25
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "exnihilocreatio:item_mesh",
+			Damage: 1s
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:flint"
+		},
+		random_bonus: 4,
+		weight: 25
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "exnihilocreatio:item_ore_zinc"
+		},
+		random_bonus: 2,
+		weight: 10
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:yellow_flower"
+		},
+		count: 16,
+		weight: 10
+	},
+	{
+		xp_levels: 5,
+		type: "xp_levels",
+		weight: 25
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:clay"
+		},
+		weight: 60
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:gravel"
+		},
+		count: 2,
+		weight: 95
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "harvestcraft:fruitbaititem"
+		},
+		count: 2,
+		random_bonus: 2,
+		weight: 25
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "harvestcraft:grainbaititem"
+		},
+		random_bonus: 2,
+		weight: 25
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "harvestcraft:veggiebaititem"
+		},
+		random_bonus: 2,
+		weight: 25
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "harvestcraft:fishtrapbaititem"
+		},
+		random_bonus: 4,
+		weight: 10
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "harvestcraft:ricecakeitem"
+		},
+		count: 2,
+		weight: 15
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "harvestcraft:persimmon_sapling"
+		},
+		weight: 80
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "harvestcraft:gigapickleseeditem"
+		},
+		count: 2,
+		weight: 25
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "harvestcraft:ryeseeditem"
+		},
+		count: 2,
+		weight: 25
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "exnihilocreatio:item_material",
+			Damage: 2s
+		},
+		random_bonus: 3,
+		weight: 65
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:cookie"
+		},
+		count: 16,
+		random_bonus: 32,
+		weight: 40
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "harvestcraft:creamedcornitem"
+		},
+		weight: 10
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "extrautils2:compressedcobblestone"
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:sapling",
+			Damage: 4s
+		},
+		weight: 85
+	}]
+}

@@ -1,0 +1,25 @@
+{
+	x: 7.5d,
+	y: 7.5d,
+	dependencies: [
+		"eebf01ba"
+	],
+	hide: true,
+	tasks: [{
+		uid: "313cc5c5",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "cyclicmagic:evoker_fang"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "cde5a039",
+		type: "loot",
+		table: 52
+	}]
+}

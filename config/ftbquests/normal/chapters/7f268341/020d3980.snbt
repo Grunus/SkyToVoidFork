@@ -1,0 +1,33 @@
+{
+	title: "Electric Armor",
+	x: 2.0d,
+	y: -3.0d,
+	dependencies: [
+		"132ebcac"
+	],
+	hide: true,
+	tasks: [{
+		uid: "b7c71b17",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "redstonearsenal:material",
+			Damage: 224s
+		}],
+		count: 8L
+	}],
+	rewards: [{
+		uid: "24977ae9",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "redstonearsenal:material",
+			Damage: 224s
+		},
+		random_bonus: 15
+	}]
+}

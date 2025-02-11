@@ -1,0 +1,73 @@
+{
+	title: "The Armor Forge",
+	x: 4.0d,
+	y: 9.0d,
+	shape: "diamond",
+	description: "''With all of this metal you have given me, it will help, and I mean it. I'll lend you in a technique I've developed while down here. By using these metals you can create special armor in the form of Tinkers'! So go try it out!",
+	text: [
+		""
+	],
+	dependencies: [
+		"9a2b058b",
+		"d799a4f8"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "16fc4be2",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ftbquests:book"
+		}],
+		consume_items: true,
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "b85c15a4",
+		type: "item",
+		title: "Unlocks Armory section in Tinker's section in Chapter 1",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ftbquests:book"
+		}
+	},
+	{
+		uid: "eafc33c9",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "conarm:armorstation"
+		}
+	},
+	{
+		uid: "c97d5338",
+		type: "gamestage",
+		title: "Armor Forging Techniques",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "conarm:armorforge",
+			tag: {
+				textureBlock: {
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": {}
+					},
+					id: "thermalfoundation:storage_alloy",
+					Count: 1b,
+					Damage: 7s
+				}
+			}
+		},
+		auto: "disabled",
+		stage: "armorforge_stage"
+	}]
+}

@@ -1,0 +1,25 @@
+{
+	title: "Blinding Lights",
+	x: -6.5d,
+	y: 4.5d,
+	description: "When powered with redstone, creates a blueprint around you of a desired shape. Right clicking on the Building Guide with the block you want to use will transport it into the shape.",
+	dependencies: [
+		"a2d990d3"
+	],
+	hide: true,
+	tasks: [{
+		uid: "8108c772",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "openblocks:builder_guide"
+		}]
+	}],
+	rewards: [{
+		uid: "a7926fbf",
+		type: "loot",
+		table: 31
+	}]
+}

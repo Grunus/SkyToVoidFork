@@ -1,0 +1,45 @@
+{
+	title: "Power Overload",
+	x: 17.5d,
+	y: 9.0d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"0d5b0cb0"
+	],
+	hide: true,
+	tasks: [{
+		uid: "7b65451e",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "industrialforegoing:lava_fabricator"
+		}]
+	}],
+	rewards: [{
+		uid: "6b9a3c67",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "mysticalagriculture:chunk",
+			Damage: 17s
+		},
+		count: 16
+	},
+	{
+		uid: "e4e259e1",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:splash_potion",
+			tag: {
+				Potion: "minecraft:long_fire_resistance"
+			}
+		}
+	}]
+}

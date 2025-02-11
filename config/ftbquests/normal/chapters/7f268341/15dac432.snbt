@@ -1,0 +1,42 @@
+{
+	title: "Weaponized Computer",
+	x: -10.5d,
+	y: 6.5d,
+	description: "Loading matter (for instance, gold nuggets) into the Matter Cannon you can shoot it.",
+	text: [
+		"To fill the cannon, put it in the ME Drive."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"7ca24d77",
+		"5c79f4a8",
+		"5bd6697d"
+	],
+	hide: true,
+	tasks: [{
+		uid: "0d4e8eff",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "appliedenergistics2:matter_cannon",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "a5987e1b",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "appliedenergistics2:material",
+			Damage: 6s
+		},
+		count: 16,
+		random_bonus: 48
+	}]
+}

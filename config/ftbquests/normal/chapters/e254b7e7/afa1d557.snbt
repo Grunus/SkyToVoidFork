@@ -1,0 +1,45 @@
+{
+	title: "Stronger. Faster. Deadlier.",
+	x: 0.0d,
+	y: -22.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"996ee067"
+	],
+	hide: true,
+	tasks: [{
+		uid: "92a39c33",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:elytra"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "4ec1c923",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "camscurrency:denarius"
+		},
+		count: 6
+	},
+	{
+		uid: "d88badfd",
+		type: "loot",
+		table: 3
+	},
+	{
+		uid: "05f3cb7a",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	}]
+}

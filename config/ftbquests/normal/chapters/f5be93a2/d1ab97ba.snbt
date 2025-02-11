@@ -1,0 +1,81 @@
+{
+	title: "Shungite from The Hive Mind",
+	x: 5.0d,
+	y: 12.0d,
+	shape: "heart",
+	dependencies: [
+		"e305274f",
+		"ef8a25b1"
+	],
+	hide: true,
+	tasks: [{
+		uid: "17153bf2",
+		type: "checkmark",
+		title: "Shungite X",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "tconstruct:shard",
+			tag: {
+				ench: [{
+					lvl: 1s,
+					id: 60s
+				}],
+				HideFlags: 35,
+				display: {
+					Lore: [
+						"Used to extract powerful abilities from gems.",
+						"- Or so they say..."
+					],
+					Name: "Shungite"
+				},
+				Material: "rubber",
+				AttributeModifiers: [{
+					UUIDMost: -2821372732138303645L,
+					UUIDLeast: -5949153336411020280L,
+					Amount: 2.0d,
+					Slot: "mainhand",
+					AttributeName: "generic.attackDamage",
+					Operation: 0,
+					Name: "generic.attackDamage"
+				}]
+			}
+		}
+	}],
+	rewards: [{
+		uid: "91584310",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "tconstruct:shard",
+			tag: {
+				ench: [{
+					lvl: 1s,
+					id: 60s
+				}],
+				HideFlags: 35,
+				display: {
+					Lore: [
+						"Used to extract powerful abilities from gems.",
+						"- Or so they say..."
+					],
+					Name: "Shungite"
+				},
+				Material: "rubber",
+				AttributeModifiers: [{
+					UUIDMost: -2821372732138303645L,
+					UUIDLeast: -5949153336411020280L,
+					Amount: 2.0d,
+					Slot: "mainhand",
+					AttributeName: "generic.attackDamage",
+					Operation: 0,
+					Name: "generic.attackDamage"
+				}]
+			}
+		},
+		count: 5
+	}]
+}

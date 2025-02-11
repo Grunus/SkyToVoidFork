@@ -1,0 +1,48 @@
+{
+	title: "Mansion Lost In Evil",
+	x: 13.5d,
+	y: 15.5d,
+	description: "It looms over the village. Very spooky...",
+	dependencies: [
+		"a150f2c8",
+		"05faa4f9"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "7c9d7952",
+		type: "location",
+		title: "825 65 999",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "chisel:marble",
+			Damage: 1s
+		},
+		location: [I;
+			0,
+			823,
+			65,
+			998,
+			5,
+			5,
+			5
+		]
+	}],
+	rewards: [{
+		uid: "13c3996c",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "enderio:block_inventory_chest_warehouse13"
+		}
+	},
+	{
+		uid: "26a46698",
+		type: "ftbmoney:money",
+		ftb_money: 125L
+	}]
+}

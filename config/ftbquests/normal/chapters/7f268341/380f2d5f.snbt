@@ -1,0 +1,36 @@
+{
+	title: "Create a Gu- I Mean, Spell Caster!",
+	x: -3.0d,
+	y: 12.0d,
+	description: "Place this CAD alone in the CAD Assembler, and create the Casting Assistant Device.",
+	text: [
+		""
+	],
+	dependencies: [
+		"5d4dae8b"
+	],
+	hide: true,
+	tasks: [{
+		uid: "c4833d88",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "psi:cad_assembly"
+		},
+		{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "psi:cad_assembly",
+			Damage: 1s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "3a98508e",
+		type: "loot",
+		table: 49
+	}]
+}

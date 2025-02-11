@@ -1,0 +1,48 @@
+{
+	title: "New End Faction",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "metallurgy:desichalkos_engraved_block"
+	},
+	x: 13.0d,
+	y: 2.5d,
+	description: "''These new entities built for The End does not fit the style of The End. If only I had a say in their design...''",
+	text: [
+		"Every purchase you will receive one random reward from the following entities.",
+		"",
+		"- ''End Reaper''",
+		"- ''Oppressor''",
+		"- ''Time Mine''",
+		"- ''Stalker''"
+	],
+	dependencies: [
+		"bdef3fee",
+		"f6f9b103",
+		"ff24e10e"
+	],
+	hide: true,
+	tasks: [{
+		uid: "1f60e19a",
+		type: "item",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "camscurrency:aureus"
+		},
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "camscurrency:aureus"
+		}],
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "4bb588a9",
+		type: "loot",
+		table: 62
+	}]
+}

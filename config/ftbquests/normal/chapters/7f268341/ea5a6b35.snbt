@@ -1,0 +1,41 @@
+{
+	title: "Flesh of Endermen",
+	x: -7.0d,
+	y: 2.0d,
+	dependencies: [
+		"af749c06"
+	],
+	hide: true,
+	tasks: [{
+		uid: "e3771099",
+		type: "item",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thermalfoundation:material",
+			Damage: 167s
+		},
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thermalfoundation:material",
+			Damage: 167s
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "828212f7",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "tconstruct:pick_head",
+			tag: {
+				Material: "enderium"
+			}
+		}
+	}]
+}

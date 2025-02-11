@@ -1,0 +1,29 @@
+{
+	title: "Cut Diamond",
+	x: 3.0d,
+	y: 4.5d,
+	shape: "square",
+	text: [
+		""
+	],
+	dependencies: [
+		"ef9d27e2"
+	],
+	hide: true,
+	tasks: [{
+		uid: "955c0729",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "cyclicmagic:spikes_diamond"
+		}],
+		count: 12L
+	}],
+	rewards: [{
+		uid: "a4c43d18",
+		type: "loot",
+		table: 52
+	}]
+}

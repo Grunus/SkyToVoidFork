@@ -1,0 +1,36 @@
+{
+	title: "Nytemart III",
+	x: 1.0d,
+	y: 11.5d,
+	dependencies: [
+		"55249018"
+	],
+	tasks: [{
+		uid: "953cba2b",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thermalfoundation:storage_alloy",
+			Damage: 7s
+		}],
+		count: 6L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "7db754c9",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "artifacts:obsidian_skull"
+		}
+	},
+	{
+		uid: "faab1f64",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	}]
+}

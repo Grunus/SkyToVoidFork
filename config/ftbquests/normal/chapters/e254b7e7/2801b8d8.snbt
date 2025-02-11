@@ -1,0 +1,65 @@
+{
+	title: "Sparks and Machines",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "ebwizardry:apprentice_wand"
+	},
+	x: 7.5d,
+	y: -6.0d,
+	text: [
+		"Look at you, desperately trying to learn everything..."
+	],
+	dependencies: [
+		"6bae85c1"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "19217881",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ebwizardry:apprentice_wand"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "2967d997",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "industrialforegoing:mob_imprisonment_tool"
+		}],
+		count: 3L,
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "6b70e2c1",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "camscurrency:denarius"
+		},
+		count: 6
+	},
+	{
+		uid: "becdaa95",
+		type: "loot",
+		table: 23
+	},
+	{
+		uid: "484dd7e4",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

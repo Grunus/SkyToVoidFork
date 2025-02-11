@@ -1,0 +1,107 @@
+{
+	title: "Rothcersul's Variety Pack",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "minecraft:potato"
+	},
+	x: 4.0d,
+	y: 4.0d,
+	shape: "diamond",
+	description: "''I'm wondering if you could help me here? You see I only have two crops, and over the years my soil's nutrients has been slowly dying. Rotating these crops don't even help my soil anymore! I'm wondering if you can grab a bunch of new crops for me to grow?''",
+	text: [
+		"Oh thank you! this will help my soil live!"
+	],
+	dependencies: [
+		"da309220"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "6a090335",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:potato"
+		}],
+		count: 128L,
+		consume_items: true
+	},
+	{
+		uid: "87298ec9",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:carrot"
+		}],
+		count: 128L,
+		consume_items: true
+	},
+	{
+		uid: "22941c3e",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "harvestcraft:cucumberitem"
+		}],
+		count: 128L,
+		consume_items: true
+	},
+	{
+		uid: "63b12acc",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "harvestcraft:lettuceitem"
+		}],
+		count: 128L,
+		consume_items: true
+	},
+	{
+		uid: "25a57837",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "harvestcraft:cottonseeditem"
+		}],
+		count: 128L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "a33c8479",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "camscurrency:denarius"
+		},
+		count: 16
+	},
+	{
+		uid: "531184e1",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "mysticalagriculture:superium_hoe"
+		}
+	},
+	{
+		uid: "4b25f87e",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

@@ -1,0 +1,47 @@
+{
+	x: -9.0d,
+	y: -5.0d,
+	description: "Similar to the Ore Dictionary Converter, this can be used to change similar ore dictionary items to the ones you need.",
+	text: [
+		""
+	],
+	dependencies: [
+		"904c1843"
+	],
+	hide: true,
+	tasks: [{
+		uid: "afaa8133",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thermalfoundation:tome_lexicon"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "6e2baabc",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thermalfoundation:material",
+			Damage: 128s
+		},
+		count: 5
+	},
+	{
+		uid: "ad0087eb",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "metallurgy:copper_ingot"
+		},
+		count: 5
+	}]
+}

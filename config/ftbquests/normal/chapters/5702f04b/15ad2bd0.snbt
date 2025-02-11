@@ -1,0 +1,26 @@
+{
+	title: "Never Enough",
+	x: 5.5d,
+	y: 12.0d,
+	description: "Quartz increases damage on weapons, a very good resource.",
+	dependencies: [
+		"3da1b8d2"
+	],
+	hide: true,
+	tasks: [{
+		uid: "1716a9da",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:quartz_block"
+		}],
+		count: 32L
+	}],
+	rewards: [{
+		uid: "0f244a90",
+		type: "loot",
+		table: 5
+	}]
+}

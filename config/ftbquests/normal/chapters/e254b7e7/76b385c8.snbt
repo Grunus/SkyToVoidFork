@@ -1,0 +1,29 @@
+{
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "contenttweaker:obj_obelisk",
+		tag: {
+			display: {
+				Name: "Obelisk"
+			}
+		}
+	},
+	x: 3.5d,
+	y: -8.0d,
+	text: [
+		"The Obelisk... I feel it grow in strength! What are they doing?"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"a0c045f9",
+		"531a14f4"
+	],
+	hide: true,
+	tasks: [{
+		uid: "10a4ec57",
+		type: "checkmark",
+		title: "The Obelisk"
+	}]
+}

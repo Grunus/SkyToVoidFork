@@ -1,0 +1,29 @@
+{
+	title: "Portable Flux",
+	x: -9.0d,
+	y: -2.5d,
+	description: "Flux Capacitors are like energy cells, but inside your inventory instead.",
+	dependencies: [
+		"090551c4"
+	],
+	hide: true,
+	tasks: [{
+		uid: "15779724",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thermalexpansion:capacitor",
+			tag: {
+				Energy: 1000000
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "d3e37f5c",
+		type: "loot",
+		table: 7
+	}]
+}

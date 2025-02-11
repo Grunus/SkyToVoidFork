@@ -1,0 +1,138 @@
+{
+	title: "Searing Setup",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "tconstruct:smeltery_controller"
+	},
+	x: 4.5d,
+	y: 13.0d,
+	description: "A better way to smelt ore down. You can also use a smeltery for creating stonger alloys.",
+	text: [
+		""
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"90246c9e"
+	],
+	tasks: [{
+		uid: "2a7072d5",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "tconstruct:seared_tank"
+		}]
+	},
+	{
+		uid: "75c384c2",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "tconstruct:smeltery_controller"
+		}]
+	},
+	{
+		uid: "115155a3",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "tconstruct:casting"
+		}]
+	},
+	{
+		uid: "f2cc71c2",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "tconstruct:faucet"
+		}]
+	},
+	{
+		uid: "c1ddb3d6",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "tconstruct:casting",
+			Damage: 1s
+		}]
+	},
+	{
+		uid: "3a6eeb3a",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "tconstruct:seared",
+			Damage: 3s
+		}],
+		count: 9L
+	},
+	{
+		uid: "f85f9534",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "tconstruct:smeltery_io"
+		}]
+	}],
+	rewards: [{
+		uid: "0717322d",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thermalfoundation:storage"
+		}
+	},
+	{
+		uid: "8c7dc513",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thermalfoundation:storage",
+			Damage: 1s
+		}
+	},
+	{
+		uid: "cd545cba",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:gold_ore"
+		},
+		count: 5
+	},
+	{
+		uid: "31926a9e",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thermalexpansion:florb",
+			tag: {
+				Fluid: "lava"
+			},
+			Damage: 1s
+		}
+	}]
+}

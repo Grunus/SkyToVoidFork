@@ -1,0 +1,37 @@
+{
+	title: "Obsidian.",
+	x: -3.0d,
+	y: 8.0d,
+	text: [
+		"You could also use a stone barrel to easily collect obsidian"
+	],
+	min_required_dependencies: 1,
+	dependencies: [
+		"f186d066",
+		"46502943"
+	],
+	hide: true,
+	dependency_requirement: "all_started",
+	tasks: [{
+		uid: "5a3eafce",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:obsidian"
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "d188a250",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:coal_block"
+		},
+		count: 2
+	}]
+}

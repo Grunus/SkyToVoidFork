@@ -1,0 +1,32 @@
+{
+	title: "Explosive Protection",
+	x: 16.5d,
+	y: 10.5d,
+	dependencies: [
+		"c866228f"
+	],
+	hide: true,
+	tasks: [{
+		uid: "4aad0063",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "metallurgy:vulcanite_buckler"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "ca860848",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "camscurrency:denarius"
+		},
+		count: 15
+	}]
+}

@@ -1,0 +1,46 @@
+{
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "contenttweaker:objectives",
+		tag: {
+			display: {
+				Name: "Objectives"
+			}
+		}
+	},
+	x: -1.0d,
+	y: -19.0d,
+	text: [
+		"6 --Islands to discover",
+		"4 --Quests to complete",
+		"2 --Deadly Sin to coll----- BZZZZZZT ZZT-----",
+		"",
+		"Hey! heeey! You wouldn't know who I am but you'll meet me soon. You just gotta keep playing their little game, and breaking their weak borders.",
+		"",
+		"I wish I could give you a proper introduction of myself but the only way for me to contact you is by tampering the gods' messages. If I touch up too much they'll know who I am.",
+		"",
+		".. And I really don't want to talk to them again. They're very rude and somewhat... annoying."
+	],
+	dependencies: [
+		"fe5e4f13",
+		"05faa4f9"
+	],
+	hide: true,
+	tasks: [{
+		uid: "f521baae",
+		type: "checkmark",
+		title: "Objectives"
+	}],
+	rewards: [{
+		uid: "af55de0f",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "camscurrency:denarius"
+		}
+	}]
+}

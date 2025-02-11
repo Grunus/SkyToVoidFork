@@ -1,0 +1,36 @@
+{
+	title: "Observation: Spider",
+	x: 7.0d,
+	y: 2.0d,
+	shape: "pentagon",
+	hide_dependency_lines: true,
+	dependencies: [
+		"46793e20",
+		"ff877c15"
+	],
+	hide: true,
+	tasks: [{
+		uid: "2798b8af",
+		type: "observation",
+		title: "Observe a Spider",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:spawn_egg",
+			tag: {
+				EntityTag: {
+					id: "minecraft:spider"
+				}
+			}
+		},
+		match_type: "entity_id",
+		match: "minecraft:spider",
+		timer: 100L
+	}],
+	rewards: [{
+		uid: "9423bd50",
+		type: "ftbmoney:money",
+		ftb_money: 35L
+	}]
+}

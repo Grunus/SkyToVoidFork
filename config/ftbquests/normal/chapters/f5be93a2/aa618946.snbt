@@ -1,0 +1,36 @@
+{
+	title: "Libcardo Final",
+	x: 2.0d,
+	y: 4.5d,
+	dependencies: [
+		"5dc72a1f"
+	],
+	tasks: [{
+		uid: "34cfe690",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "extrautils2:compressedsand",
+			Damage: 1s
+		}],
+		count: 24L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "a1a6a366",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "artifacts:night_vision_goggles"
+		}
+	},
+	{
+		uid: "0c2ba4d8",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

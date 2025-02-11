@@ -1,0 +1,42 @@
+{
+	title: "Two Metals",
+	x: 12.5d,
+	y: 3.0d,
+	dependencies: [
+		"81b1cd10"
+	],
+	hide: true,
+	tasks: [{
+		uid: "5069d97b",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "metallurgy:carmot_ingot"
+		}],
+		count: 10L
+	},
+	{
+		uid: "571ddaaa",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "metallurgy:rubracium_ingot"
+		}],
+		count: 10L
+	}],
+	rewards: [{
+		uid: "e71c1a56",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "camscurrency:dupondius"
+		},
+		count: 20
+	}]
+}

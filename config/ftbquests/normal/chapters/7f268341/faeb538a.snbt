@@ -1,0 +1,47 @@
+{
+	title: "NOTE: Does Not Contain Electricity",
+	x: -8.0d,
+	y: 0.0d,
+	dependencies: [
+		"7ec58ffc"
+	],
+	hide: true,
+	tasks: [{
+		uid: "50666cb8",
+		type: "item",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thermalfoundation:material",
+			Damage: 161s
+		},
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "ingotElectrum",
+					id: "ore"
+				},
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any ingotElectrum"
+				}
+			}
+		}],
+		count: 4L,
+		consume_items: false
+	}],
+	rewards: [{
+		uid: "f367801f",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thermalfoundation:tool.shield_electrum"
+		}
+	}]
+}

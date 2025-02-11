@@ -1,0 +1,34 @@
+{
+	title: "What a Steel!",
+	x: 17.0d,
+	y: -1.5d,
+	description: "There are a few ways to acquire steel. This is the Ender IO way.",
+	text: [
+		"In the Alloy Smelter, combine an iron ingot with coal powder."
+	],
+	dependencies: [
+		"46a52eee"
+	],
+	hide: true,
+	tasks: [{
+		uid: "659297af",
+		type: "item",
+		title: "Any ingotSteel",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "ingotSteel",
+					id: "ore"
+				},
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "itemfilters:filter"
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "b973d180",
+		type: "loot",
+		table: 34
+	}]
+}

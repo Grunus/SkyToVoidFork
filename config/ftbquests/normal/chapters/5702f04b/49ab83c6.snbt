@@ -1,0 +1,102 @@
+{
+	title: "Collect 'Em All!",
+	x: -6.5d,
+	y: 4.0d,
+	shape: "square",
+	dependencies: [
+		"abee1615"
+	],
+	hide: true,
+	tasks: [{
+		uid: "2ebac70d",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "exnihilocreatio:item_doll",
+			Damage: 1s
+		}]
+	},
+	{
+		uid: "34888a58",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "exnihilocreatio:item_doll",
+			Damage: 2s
+		}]
+	},
+	{
+		uid: "2620ac04",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "exnihilocreatio:item_doll",
+			Damage: 3s
+		}]
+	},
+	{
+		uid: "6d9f8741",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "exnihilocreatio:item_doll",
+			Damage: 4s
+		}]
+	},
+	{
+		uid: "48d07e32",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "exnihilocreatio:item_doll",
+			Damage: 5s
+		}]
+	},
+	{
+		uid: "d27a4f9c",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "exnihilocreatio:item_doll",
+			Damage: 6s
+		}]
+	},
+	{
+		uid: "ab855c49",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "exnihilocreatio:item_doll",
+			Damage: 7s
+		}]
+	},
+	{
+		uid: "08a3360f",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "exnihilocreatio:item_doll"
+		}]
+	}],
+	rewards: [{
+		uid: "31de1a19",
+		type: "loot",
+		table: 3
+	}]
+}

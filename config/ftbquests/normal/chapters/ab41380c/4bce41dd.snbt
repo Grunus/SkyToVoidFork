@@ -1,0 +1,42 @@
+{
+	title: "Fire Temple",
+	x: 0.5d,
+	y: -12.0d,
+	description: "The wizard would be impressed if you came here...",
+	hide_dependency_lines: true,
+	dependencies: [
+		"02b464cc"
+	],
+	hide: true,
+	tasks: [{
+		uid: "0e949b26",
+		type: "location",
+		title: "52 116 -662",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ebwizardry:crystal_block",
+			Damage: 1s
+		},
+		location: [I;
+			0,
+			50,
+			116,
+			-665,
+			5,
+			5,
+			5
+		]
+	}],
+	rewards: [{
+		uid: "867ca2a9",
+		type: "loot",
+		table: 26
+	},
+	{
+		uid: "060ff65d",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	}]
+}

@@ -1,0 +1,56 @@
+{
+	title: "More Wood For Your Log",
+	x: -5.0d,
+	y: -4.0d,
+	description: "Sawmills are for sawing logs and anything out of wood.",
+	text: [
+		""
+	],
+	dependencies: [
+		"f0a388c1"
+	],
+	hide: true,
+	tasks: [{
+		uid: "24b6797c",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thermalexpansion:machine",
+			tag: {
+				RSControl: 0b,
+				Facing: 3b,
+				Energy: 0,
+				SideCache: [B;
+					3b,
+					1b,
+					2b,
+					2b,
+					2b,
+					2b
+				],
+				Level: 0b
+			},
+			Damage: 2s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "66c22041",
+		type: "loot",
+		table: 7
+	},
+	{
+		uid: "1ad80df2",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:log"
+		},
+		count: 55,
+		random_bonus: 128
+	}]
+}

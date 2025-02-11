@@ -1,0 +1,35 @@
+{
+	title: "Reverse Bucket",
+	x: 22.5d,
+	y: 0.5d,
+	shape: "square",
+	description: "Gravity unexplained!",
+	text: [
+		""
+	],
+	dependencies: [
+		"f15946b7"
+	],
+	hide: true,
+	tasks: [{
+		uid: "f8462a61",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "vapor_of_levity",
+				Amount: 1000
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "16bfa51a",
+		type: "loot",
+		table: 36
+	}]
+}

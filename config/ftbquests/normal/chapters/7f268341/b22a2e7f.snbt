@@ -1,0 +1,26 @@
+{
+	title: "Faster Speeds",
+	x: 6.5d,
+	y: 6.5d,
+	dependencies: [
+		"de3d563b",
+		"2f62bad1"
+	],
+	hide: true,
+	tasks: [{
+		uid: "7a047f88",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "extrautils2:ingredients",
+			Damage: 15s
+		}]
+	}],
+	rewards: [{
+		uid: "42d2b22d",
+		type: "loot",
+		table: 18
+	}]
+}

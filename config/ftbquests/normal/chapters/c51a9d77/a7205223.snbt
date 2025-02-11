@@ -1,0 +1,30 @@
+{
+	x: 4.5d,
+	y: 8.5d,
+	dependencies: [
+		"d7904180"
+	],
+	hide: true,
+	tasks: [{
+		uid: "83e2a801",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "cyclicmagic:dynamite_mining"
+		}],
+		count: 6L
+	}],
+	rewards: [{
+		uid: "e18b13bb",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "cyclicmagic:dynamite_mining"
+		},
+		count: 6
+	}]
+}

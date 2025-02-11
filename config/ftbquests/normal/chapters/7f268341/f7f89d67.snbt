@@ -1,0 +1,27 @@
+{
+	title: "Manager Application",
+	x: 6.5d,
+	y: 5.5d,
+	description: "Use to check the power grid to see what is doing what.",
+	dependencies: [
+		"384e4ea2"
+	],
+	hide: true,
+	tasks: [{
+		uid: "c914b6bd",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "extrautils2:powermanager"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "d77f77a6",
+		type: "loot",
+		table: 17
+	}]
+}

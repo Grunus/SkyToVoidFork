@@ -1,0 +1,36 @@
+{
+	title: "Observation: Creeper",
+	x: 3.0d,
+	y: 13.5d,
+	shape: "pentagon",
+	hide_dependency_lines: true,
+	dependencies: [
+		"117838ad",
+		"46793e20"
+	],
+	hide: true,
+	tasks: [{
+		uid: "12cc4847",
+		type: "observation",
+		title: "Observe a Creeper",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:spawn_egg",
+			tag: {
+				EntityTag: {
+					id: "minecraft:creeper"
+				}
+			}
+		},
+		match_type: "entity_id",
+		match: "minecraft:creeper",
+		timer: 100L
+	}],
+	rewards: [{
+		uid: "cf5236cf",
+		type: "ftbmoney:money",
+		ftb_money: 35L
+	}]
+}

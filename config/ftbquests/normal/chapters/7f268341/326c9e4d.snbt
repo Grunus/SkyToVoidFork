@@ -1,0 +1,108 @@
+{
+	title: "Energized Tools",
+	x: 1.0d,
+	y: -3.0d,
+	shape: "square",
+	text: [
+		""
+	],
+	dependencies: [
+		"132ebcac"
+	],
+	hide: true,
+	tasks: [{
+		uid: "12c0e158",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "redstonearsenal:tool.axe_flux",
+			tag: {
+				Energy: 0
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "4a065ca7",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "redstonearsenal:tool.excavator_flux",
+			tag: {
+				Energy: 0
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "1abfd272",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "redstonearsenal:tool.shovel_flux",
+			tag: {
+				Energy: 0
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "2c5fbe93",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "redstonearsenal:tool.sickle_flux",
+			tag: {
+				Energy: 0
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "9a8caaa3",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "redstonearsenal:tool.wrench_flux",
+			tag: {
+				Energy: 0
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "d0b8d97a",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "redstonearsenal:tool.fishing_rod_flux",
+			tag: {
+				Energy: 0
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "0f87934b",
+		type: "loot",
+		table: 70
+	}]
+}

@@ -1,0 +1,39 @@
+{
+	title: "Alþrúðr Final",
+	x: 3.0d,
+	y: 12.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"3063977a"
+	],
+	tasks: [{
+		uid: "2a49a0f2",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "appliedenergistics2:material",
+			Damage: 12s
+		}],
+		count: 16L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "1fe7ad6d",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "artifacts:snorkel"
+		}
+	},
+	{
+		uid: "2c65db63",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	}]
+}

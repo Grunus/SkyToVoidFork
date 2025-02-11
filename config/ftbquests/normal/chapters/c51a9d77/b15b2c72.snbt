@@ -1,0 +1,25 @@
+{
+	title: "Bottle Up!",
+	x: -2.5d,
+	y: 5.5d,
+	description: "Attaching to a tank with Liquid XP, you can configure the XP Bottler to extract XP and create Bottles o' Enchanting.",
+	dependencies: [
+		"f8b14dc2"
+	],
+	hide: true,
+	tasks: [{
+		uid: "f35be946",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "openblocks:xp_bottler"
+		}]
+	}],
+	rewards: [{
+		uid: "8dedfd6f",
+		type: "loot",
+		table: 31
+	}]
+}

@@ -1,0 +1,29 @@
+{
+	title: "Creepy Generator",
+	x: 20.5d,
+	y: 0.5d,
+	description: "Hooking up The Vat into the Zombie Generator will start outputting power onces it's filled up enough.",
+	text: [
+		""
+	],
+	dependencies: [
+		"1a72440f",
+		"84026475"
+	],
+	hide: true,
+	tasks: [{
+		uid: "e112b5f3",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "enderio:block_zombie_generator"
+		}]
+	}],
+	rewards: [{
+		uid: "4a322f22",
+		type: "loot",
+		table: 35
+	}]
+}

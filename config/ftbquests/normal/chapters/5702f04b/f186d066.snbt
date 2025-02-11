@@ -1,0 +1,34 @@
+{
+	title: "A Good Reason To Go AFK",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "openblocks:block_breaker"
+	},
+	x: -3.0d,
+	y: 7.0d,
+	description: "Breaking cobblestone is pretty boring...",
+	text: [
+		""
+	],
+	dependencies: [
+		"2bd5aaf9"
+	],
+	hide: true,
+	tasks: [{
+		uid: "d99abfda",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "openblocks:block_breaker"
+		}]
+	}],
+	rewards: [{
+		uid: "9b3117f1",
+		type: "loot",
+		table: 0
+	}]
+}

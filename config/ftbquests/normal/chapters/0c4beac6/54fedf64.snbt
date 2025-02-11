@@ -1,0 +1,38 @@
+{
+	title: "Extra Utilities Tier III Reward",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "extrautils2:ingredients",
+		Damage: 16s
+	},
+	x: -8.0d,
+	y: 6.5d,
+	can_repeat: true,
+	dependencies: [
+		"023aef38",
+		"53908734",
+		"2eca35c7",
+		"c0b8e20d",
+		"b651f7ac"
+	],
+	hide: true,
+	optional: true,
+	tasks: [{
+		uid: "57172d5d",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "camscurrency:denarius"
+		}],
+		count: 32L
+	}],
+	rewards: [{
+		uid: "7df34935",
+		type: "loot",
+		table: 19
+	}]
+}

@@ -1,0 +1,28 @@
+{
+	title: "Dark Side",
+	x: 13.0d,
+	y: -1.5d,
+	description: "Dark Steel is an important ingrediant in Enderi IO. Create Dark Steel with steel and obsidian in the Alloy Smelter.",
+	hide_dependency_lines: true,
+	dependencies: [
+		"9aceafba"
+	],
+	hide: true,
+	tasks: [{
+		uid: "fa37faf0",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "enderio:item_alloy_ingot",
+			Damage: 6s
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "57ac9a7f",
+		type: "loot",
+		table: 34
+	}]
+}

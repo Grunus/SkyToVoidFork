@@ -1,0 +1,25 @@
+{
+	x: 15.5d,
+	y: -0.5d,
+	dependencies: [
+		"26a10654",
+		"00e9432c"
+	],
+	hide: true,
+	tasks: [{
+		uid: "923b768a",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "enderio:item_material",
+			Damage: 54s
+		}]
+	}],
+	rewards: [{
+		uid: "09ba3950",
+		type: "loot",
+		table: 36
+	}]
+}

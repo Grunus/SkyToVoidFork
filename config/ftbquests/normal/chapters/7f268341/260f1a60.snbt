@@ -1,0 +1,69 @@
+{
+	title: "The Next Step",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "appliedenergistics2:material",
+		Damage: 17s
+	},
+	x: -16.5d,
+	y: 7.5d,
+	text: [
+		"Using the Inscriber create all 3 circuit boards."
+	],
+	dependencies: [
+		"7527569a"
+	],
+	hide: true,
+	tasks: [{
+		uid: "2c03980e",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "appliedenergistics2:material",
+			Damage: 20s
+		}],
+		count: 3L
+	},
+	{
+		uid: "1a432484",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "appliedenergistics2:material",
+			Damage: 16s
+		}]
+	},
+	{
+		uid: "446fdf64",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "appliedenergistics2:material",
+			Damage: 18s
+		}]
+	},
+	{
+		uid: "c8ae8dd5",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "appliedenergistics2:material",
+			Damage: 17s
+		}]
+	}],
+	rewards: [{
+		uid: "05bdaced",
+		type: "loot",
+		table: 15
+	}]
+}

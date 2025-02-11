@@ -1,0 +1,27 @@
+{
+	title: "Upgrading For Being On the Bad List",
+	x: -15.0d,
+	y: 6.5d,
+	text: [
+		"You can upgrade coal..."
+	],
+	dependencies: [
+		"713bfccd"
+	],
+	hide: true,
+	tasks: [{
+		uid: "d576946e",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "mysticalagriculture:coal"
+		}]
+	}],
+	rewards: [{
+		uid: "2c9496a0",
+		type: "loot",
+		table: 9
+	}]
+}

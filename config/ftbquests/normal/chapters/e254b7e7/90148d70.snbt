@@ -1,0 +1,39 @@
+{
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "contenttweaker:obj_island",
+		tag: {
+			display: {
+				Name: "Islands"
+			}
+		}
+	},
+	x: 5.5d,
+	y: -8.0d,
+	text: [
+		"No matter how far you go, you'll find nothing."
+	],
+	hide_dependency_lines: true,
+	min_required_dependencies: 4,
+	dependencies: [
+		"f96efc0e",
+		"ff877c15",
+		"da9e056d",
+		"4a8f8eec",
+		"82ec08eb",
+		"cece1bf9",
+		"f70585de",
+		"dc3b0217",
+		"55769c0b",
+		"838f6260",
+		"c9dee3d1"
+	],
+	hide: true,
+	tasks: [{
+		uid: "c6ac6448",
+		type: "checkmark",
+		title: "Discovering Greatness"
+	}]
+}

@@ -1,0 +1,34 @@
+{
+	title: "I Bought It at Walmart",
+	x: -4.0d,
+	y: 4.0d,
+	text: [
+		"You can customize these dolls to summon enemies from stone barrels."
+	],
+	dependencies: [
+		"8008871c",
+		"0effaf9a"
+	],
+	hide: true,
+	tasks: [{
+		uid: "45191c83",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "exnihilocreatio:item_material",
+			Damage: 5s
+		}]
+	}],
+	rewards: [{
+		uid: "807465b6",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:bone_block"
+		}
+	}]
+}

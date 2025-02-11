@@ -1,0 +1,41 @@
+{
+	title: "Objectives",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "contenttweaker:objectives",
+		tag: {
+			display: {
+				Name: "Objectives"
+			}
+		}
+	},
+	x: 5.5d,
+	y: -23.0d,
+	text: [
+		"5 --Islands to discover",
+		"3 --Quests to complete",
+		"1 --Deadly Sin to collect"
+	],
+	dependencies: [
+		"996ee067",
+		"fe5e4f13"
+	],
+	hide: true,
+	tasks: [{
+		uid: "74995811",
+		type: "checkmark",
+		title: "Objectives"
+	}],
+	rewards: [{
+		uid: "7dec9822",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "camscurrency:denarius"
+		}
+	}]
+}

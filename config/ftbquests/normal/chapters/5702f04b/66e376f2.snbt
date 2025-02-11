@@ -1,0 +1,31 @@
+{
+	title: "Astral Silver",
+	x: 15.5d,
+	y: 2.0d,
+	dependencies: [
+		"81b1cd10"
+	],
+	hide: true,
+	tasks: [{
+		uid: "ea7f9888",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "metallurgy:astral_silver_ingot"
+		}],
+		count: 10L
+	}],
+	rewards: [{
+		uid: "b8a67b42",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "camscurrency:dupondius"
+		},
+		count: 10
+	}]
+}

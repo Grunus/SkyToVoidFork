@@ -1,0 +1,67 @@
+{
+	title: "Inventory Pets IV",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "inventorypets:nugget_diamond"
+	},
+	x: 4.5d,
+	y: 7.0d,
+	description: "You've explored all islands of zone 4",
+	text: [
+		"The pets you will unlock...",
+		"",
+		"Brewing Stand",
+		"Quantum Crystal Monster",
+		"Quiver",
+		"Dirt",
+		"Pixie",
+		"Pufferfish",
+		"Dubstep",
+		"Cobblestone",
+		"Chicken",
+		"Shield",
+		"Christmas Tree",
+		"Banana"
+	],
+	dependencies: [
+		"c2176857",
+		"faac856d",
+		"5a631ee1",
+		"15af85ea",
+		"80466741",
+		"6acdd884",
+		"9074d2e7",
+		"d3f85a0d",
+		"93f687c1",
+		"a150f2c8",
+		"1a3bb1a3",
+		"382b2692",
+		"c130ca8f",
+		"0d83479c"
+	],
+	hide: true,
+	tasks: [{
+		uid: "bd8e44a1",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "c56c2bd2",
+		type: "gamestage",
+		title: "Advanced Biology of Pets",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "inventorypets:nugget_diamond"
+		},
+		auto: "disabled",
+		stage: "ipets4_stage"
+	},
+	{
+		uid: "94abede1",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

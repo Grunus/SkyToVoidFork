@@ -1,0 +1,42 @@
+{
+	title: "My Bucket List",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "claybucket:claybucket"
+	},
+	x: -3.0d,
+	y: 4.0d,
+	shape: "hexagon",
+	description: "Clay buckets are like buckets, but worse... I know right? no one could've guessed that. Filling the bucket with lava will break as soon as you pour the lava back down.",
+	text: [
+		"Oh look...it's empty."
+	],
+	dependencies: [
+		"97756ab0"
+	],
+	hide: true,
+	tasks: [{
+		uid: "82a4c58d",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "claybucket:claybucket"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "2709e0bd",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:clay"
+		},
+		count: 2
+	}]
+}

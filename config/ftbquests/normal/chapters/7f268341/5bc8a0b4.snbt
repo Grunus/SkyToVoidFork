@@ -1,0 +1,32 @@
+{
+	title: "I hope it doesn't Rust.",
+	x: 0.5d,
+	y: 2.5d,
+	dependencies: [
+		"a718f48d"
+	],
+	hide: true,
+	tasks: [{
+		uid: "e27459b8",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "extrautils2:spike_iron"
+		}],
+		count: 6L
+	}],
+	rewards: [{
+		uid: "5325ca77",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:iron_nugget"
+		},
+		count: 16,
+		random_bonus: 48
+	}]
+}

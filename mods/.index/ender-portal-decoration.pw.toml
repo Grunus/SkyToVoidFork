@@ -1,0 +1,17 @@
+filename = 'EnderPortalDecoration-1.12.2-0.0.1.jar'
+name = 'Ender Portal Decoration'
+side = 'both'
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '1.12', '1.12.1', '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'EnderPortalDecoration-1.12.2-0.0.1.jar'
+
+[download]
+hash = '572a69b59a35d30938d810e6720f6e548abb325d'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 2511902
+project-id = 267673

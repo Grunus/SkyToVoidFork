@@ -1,0 +1,61 @@
+{
+	title: "Inventory Pets I",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "inventorypets:nugget_lapis"
+	},
+	x: 4.0d,
+	y: 4.0d,
+	description: "You've explored all islands of zone 1",
+	text: [
+		"Exploring all islands in a single zone unlocks recipes for a selection of Inventory Pets.",
+		"",
+		"The pets you will unlock...",
+		"",
+		"Sheep ",
+		"Pig",
+		"Snow Golem",
+		"Bed",
+		"Crafting Table",
+		"Furnace",
+		"Lead",
+		"Apple",
+		"Pacman"
+	],
+	dependencies: [
+		"da309220",
+		"b14701e3",
+		"01437c64",
+		"c79642c1",
+		"ff181550",
+		"8408ef21",
+		"a8f929b3",
+		"56904fde",
+		"33586e77"
+	],
+	hide: true,
+	tasks: [{
+		uid: "14ec5ce9",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "0239ef15",
+		type: "gamestage",
+		title: "Basic Biology of Pets",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "inventorypets:nugget_lapis"
+		},
+		auto: "disabled",
+		stage: "ipets1_stage"
+	},
+	{
+		uid: "f325fd46",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

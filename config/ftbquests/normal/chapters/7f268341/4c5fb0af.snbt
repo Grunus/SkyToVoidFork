@@ -1,0 +1,28 @@
+{
+	title: "Smart Solar Panel",
+	x: 21.5d,
+	y: 2.5d,
+	description: "Produces energy under sunlight.",
+	text: [
+		""
+	],
+	dependencies: [
+		"62b10ad7"
+	],
+	hide: true,
+	tasks: [{
+		uid: "16d4b886",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "enderio:block_solar_panel"
+		}]
+	}],
+	rewards: [{
+		uid: "9dabcc40",
+		type: "loot",
+		table: 35
+	}]
+}

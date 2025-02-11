@@ -1,0 +1,47 @@
+{
+	title: "Scared Them.",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "extrautils2:ingredients",
+		Damage: 2s
+	},
+	x: 0.0357142857142847d,
+	y: -17.97857142857143d,
+	shape: "gear",
+	text: [
+		"I see.."
+	],
+	dependencies: [
+		"d8d32443",
+		"36bf2072"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	size: 1.7d,
+	tasks: [{
+		uid: "eb1948ac",
+		type: "checkmark",
+		title: "Scared Them."
+	}],
+	rewards: [{
+		uid: "a9417974",
+		type: "command",
+		title: "I Said Extend the Boundaries!",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "contenttweaker:worldborder",
+			tag: {
+				display: {
+					Name: "Worldborder"
+				}
+			}
+		},
+		team_reward: true,
+		auto: "enabled",
+		command: "/worldborder set 2250"
+	}]
+}

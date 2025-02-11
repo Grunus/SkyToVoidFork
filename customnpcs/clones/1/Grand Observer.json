@@ -1,0 +1,600 @@
+{
+    "ReturnToStart": 1b,
+    "NpcInv": [
+        {
+            "Slot": 0b,
+            "ForgeCaps": {
+                "customnpcs:itemscripteddata": {
+                }
+            },
+            "id": "metallurgy:osmium_chestplate",
+            "Count": 1b,
+            "tag": {
+                "ench": [
+                    {
+                        "lvl": 1s,
+                        "id": 8s
+                    },
+                    {
+                        "lvl": 10s,
+                        "id": 1s
+                    },
+                    {
+                        "lvl": 5s,
+                        "id": 5s
+                    },
+                    {
+                        "lvl": 2s,
+                        "id": 34s
+                    }
+                ],
+                "display": {
+                    "Lore": [
+                        "Embrace the water into the lungs."
+                    ],
+                    "Name": "Deep Chestplate"
+                },
+                "AttributeModifiers": [
+                    {
+                        "UUIDMost": 2520427414131133465L,
+                        "UUIDLeast": -7248829673435075444L,
+                        "Amount": 1.0d,
+                        "Slot": "chest",
+                        "AttributeName": "generic.attackSpeed",
+                        "Operation": 0,
+                        "Name": "generic.attackSpeed"
+                    },
+                    {
+                        "UUIDMost": -6972338111383059132L,
+                        "UUIDLeast": -8978659762232839026L,
+                        "Amount": 10.0d,
+                        "Slot": "chest",
+                        "AttributeName": "generic.armor",
+                        "Operation": 0,
+                        "Name": "generic.armor"
+                    },
+                    {
+                        "UUIDMost": -6972338111383059132L,
+                        "UUIDLeast": -8978659762232839026L,
+                        "Amount": 3.0d,
+                        "Slot": "chest",
+                        "AttributeName": "generic.armorToughness",
+                        "Operation": 0,
+                        "Name": "generic.armorToughness"
+                    },
+                    {
+                        "UUIDMost": 2239560636582218127L,
+                        "UUIDLeast": -4874307864567336128L,
+                        "Amount": 0.5d,
+                        "Slot": "chest",
+                        "AttributeName": "forge.swimSpeed",
+                        "Operation": 0,
+                        "Name": "forge.swimSpeed"
+                    }
+                ]
+            },
+            "Damage": 0s
+        },
+        {
+            "Slot": 1b,
+            "ForgeCaps": {
+                "customnpcs:itemscripteddata": {
+                }
+            },
+            "id": "minecraft:prismarine_crystals",
+            "Count": 10b,
+            "Damage": 0s
+        },
+        {
+            "Slot": 2b,
+            "ForgeCaps": {
+                "customnpcs:itemscripteddata": {
+                }
+            },
+            "id": "minecraft:prismarine_crystals",
+            "Count": 5b,
+            "Damage": 0s
+        },
+        {
+            "Slot": 3b,
+            "ForgeCaps": {
+                "customnpcs:itemscripteddata": {
+                }
+            },
+            "id": "harvestcraft:apricotglazedporkitem",
+            "Count": 1b,
+            "Damage": 0s
+        },
+        {
+            "Slot": 4b,
+            "ForgeCaps": {
+                "customnpcs:itemscripteddata": {
+                }
+            },
+            "id": "thermalexpansion:florb",
+            "Count": 1b,
+            "tag": {
+                "Fluid": "water"
+            },
+            "Damage": 0s
+        },
+        {
+            "Slot": 5b,
+            "ForgeCaps": {
+                "customnpcs:itemscripteddata": {
+                }
+            },
+            "id": "thermalfoundation:tool.bow_diamond",
+            "Count": 1b,
+            "tag": {
+                "ench": [
+                    {
+                        "lvl": 1s,
+                        "id": 70s
+                    },
+                    {
+                        "lvl": 1s,
+                        "id": 37s
+                    },
+                    {
+                        "lvl": 1s,
+                        "id": 51s
+                    }
+                ],
+                "display": {
+                    "Lore": [
+                        "Not actually like the Water Bolt."
+                    ],
+                    "Name": "Water Bolt"
+                },
+                "AttributeModifiers": [
+                    {
+                        "UUIDMost": 6142071163651180257L,
+                        "UUIDLeast": -7630116147019573448L,
+                        "Amount": 2.0d,
+                        "Slot": "mainhand",
+                        "AttributeName": "generic.armor",
+                        "Operation": 0,
+                        "Name": "generic.armor"
+                    },
+                    {
+                        "UUIDMost": 6780193460445531742L,
+                        "UUIDLeast": -7469913497090471799L,
+                        "Amount": -2.0d,
+                        "Slot": "mainhand",
+                        "AttributeName": "generic.reachDistance",
+                        "Operation": 0,
+                        "Name": "generic.reachDistance"
+                    },
+                    {
+                        "UUIDMost": 8828010876089093315L,
+                        "UUIDLeast": -7376028997211356219L,
+                        "Amount": 0.25d,
+                        "Slot": "mainhand",
+                        "AttributeName": "forge.swimSpeed",
+                        "Operation": 0,
+                        "Name": "forge.swimSpeed"
+                    }
+                ]
+            },
+            "Damage": 0s
+        }
+    ],
+    "BossColor": 0,
+    "PotionEffect": 0,
+    "Size": 5,
+    "stopAndInteract": 0b,
+    "Resistances": {
+        "Arrow": 1.0f,
+        "Explosion": 1.0f,
+        "Knockback": 1.0f,
+        "Melee": 1.0f
+    },
+    "BossBar": 0b,
+    "RespawnTime": 1200,
+    "NpcAngrySound": "",
+    "ReactsToFire": 0b,
+    "IgnoreCobweb": 0b,
+    "PositionOffsetZ": 5.0f,
+    "PositionOffsetY": 5.0f,
+    "PositionOffsetX": 5.0f,
+    "LootMode": 0,
+    "TransformHasAI": 0b,
+    "AttackStrenght": 10,
+    "PersistenceRequired": 0b,
+    "id": "customnpcs:customnpc",
+    "IsStatue": 0b,
+    "MovingPatern": 0,
+    "NpcLines": {
+        "Lines": [
+        ]
+    },
+    "DefendFaction": 0b,
+    "FireIndirect": 0,
+    "NpcVisible": 0,
+    "LinkedNpcName": "",
+    "NpcScenes": {
+        "Scenes": [
+        ]
+    },
+    "HitSound": "minecraft:entity.guardian.flap",
+    "FindShelter": 2,
+    "Air": 300s,
+    "TacticalVariant": 6,
+    "Orientation": 0,
+    "ScriptLanguage": "ECMAScript",
+    "HandItems": [
+        {
+        },
+        {
+        }
+    ],
+    "KnockBack": 1,
+    "TransformHasJob": 0b,
+    "ArmorDropChances": [
+        0.085f,
+        0.085f,
+        0.085f,
+        0.085f
+    ],
+    "BurnInSun": 0b,
+    "StandingState": 0,
+    "AttackInvisible": 0b,
+    "NpcInteractNPCLines": {
+        "Lines": [
+        ]
+    },
+    "HurtTime": 0s,
+    "WalkingRange": 10,
+    "ShotCount": 2,
+    "pDur": 2,
+    "AttackRange": 2,
+    "NpcKillLines": {
+        "Lines": [
+        ]
+    },
+    "PotionImmune": 0b,
+    "AvoidsSun": 0b,
+    "Texture": "minecraft:textures/items/barrier.png",
+    "NpcJob": 0,
+    "BurstCount": 2,
+    "NpcAttackLines": {
+        "Lines": [
+        ]
+    },
+    "pSpeed": 3,
+    "pArea": 0,
+    "DeathTime": 0s,
+    "pImpact": 0,
+    "MoveState": 0,
+    "pRender3D": 1b,
+    "Motion": [
+        0.0d,
+        0.0d,
+        0.0d
+    ],
+    "CombatRegen": 0,
+    "NpcsTimers": [
+    ],
+    "pEffect": 7,
+    "DistanceToMelee": 1,
+    "NpcStepSound": "",
+    "FireRate": 10,
+    "LeftHanded": 0b,
+    "pEffAmp": 0,
+    "OnGround": 0b,
+    "Dimension": 0,
+    "ImmuneToFire": 1b,
+    "NpcKilledLines": {
+        "Lines": [
+        ]
+    },
+    "Fire": -1s,
+    "ArmorItems": [
+        {
+        },
+        {
+        },
+        {
+        },
+        {
+        }
+    ],
+    "DisablePitch": 0b,
+    "pPhysics": 0b,
+    "TransformHasInv": 0b,
+    "NpcInteractLines": {
+        "Lines": [
+            {
+                "Line": "Hello @p",
+                "Song": "",
+                "Slot": 0
+            }
+        ]
+    },
+    "HurtByTimestamp": 72404,
+    "pSpin": 0b,
+    "NpcHurtSound": "minecraft:entity.player.hurt",
+    "pTrail": 3,
+    "CreatureType": 0,
+    "Attributes": [
+        {
+            "Base": 1.0d,
+            "Name": "potioncore.projectileDamage"
+        },
+        {
+            "Base": 1.0d,
+            "Name": "potioncore.magicDamage"
+        },
+        {
+            "Base": 1.0d,
+            "Name": "potioncore.jumpHeight"
+        },
+        {
+            "Base": 1.0d,
+            "Name": "potioncore.damageResistance"
+        },
+        {
+            "Base": 0.0d,
+            "Name": "potioncore.magicShielding"
+        },
+        {
+            "Base": 30.0d,
+            "Name": "generic.maxHealth"
+        },
+        {
+            "Base": 0.0d,
+            "Name": "generic.knockbackResistance"
+        },
+        {
+            "Base": 0.20000000298023224d,
+            "Name": "generic.movementSpeed"
+        },
+        {
+            "Base": 0.0d,
+            "Name": "generic.armor"
+        },
+        {
+            "Base": 0.0d,
+            "Name": "generic.armorToughness"
+        },
+        {
+            "Base": 1.0d,
+            "Name": "forge.swimSpeed"
+        },
+        {
+            "Base": 64.0d,
+            "Name": "generic.followRange"
+        },
+        {
+            "Base": 10.0d,
+            "Name": "generic.attackDamage"
+        },
+        {
+            "Base": 0.4000000059604645d,
+            "Name": "generic.flyingSpeed"
+        }
+    ],
+    "Invulnerable": 0b,
+    "TransformHasDisplay": 0b,
+    "NoFallDamage": 0b,
+    "AbsorptionAmount": 0.0f,
+    "TransformHasRole": 0b,
+    "Name": "Grand Observer",
+    "FallDistance": 0.0f,
+    "SkinColor": 4528630,
+    "NpcIdleSound": "minecraft:entity.guardian.ambient",
+    "Weapons": [
+        {
+            "Slot": 1b,
+            "ForgeCaps": {
+                "customnpcs:itemscripteddata": {
+                }
+            },
+            "id": "thermalexpansion:florb",
+            "Count": 1b,
+            "tag": {
+                "Fluid": "hot_spring_water"
+            },
+            "Damage": 0s
+        }
+    ],
+    "NPCDialogOptions": [
+    ],
+    "AggroRange": 32,
+    "DirectLOS": 0b,
+    "HealthRegen": 0,
+    "ForgeCaps": {
+        "metallurgy:punch_effect": {
+            "hasAiDisabled": 1b,
+            "knockbackTicks": 0,
+            "ticks": 0
+        }
+    },
+    "HandDropChances": [
+        0.085f,
+        0.085f
+    ],
+    "NpcModelData": {
+        "LegsConfig": {
+            "NotShared": 0b,
+            "ScaleZ": 1.0f,
+            "TransZ": 0.0f,
+            "TransY": 0.0f,
+            "TransX": 0.012000002f,
+            "ScaleY": 1.0f,
+            "ScaleX": 1.0f
+        },
+        "BodyConfig": {
+            "NotShared": 0b,
+            "ScaleZ": 1.0f,
+            "TransZ": 0.0f,
+            "TransY": 0.0f,
+            "TransX": 0.0f,
+            "ScaleY": 1.0f,
+            "ScaleX": 1.0f
+        },
+        "Eyes": {
+            "Pattern": 0b,
+            "Glint": 1b,
+            "Type": 0b,
+            "PositionY": 1,
+            "SkinColor": 11830381,
+            "PlayerTexture": 0b,
+            "Color": 6724056,
+            "BrowColor": 5982516,
+            "BrowThickness": 4
+        },
+        "EntityClass": "net.minecraft.entity.monster.EntityGuardian",
+        "LegParts": {
+            "Pattern": 0b,
+            "Type": 0b,
+            "PlayerTexture": 0b,
+            "Color": 16777215
+        },
+        "Parts": [
+        ],
+        "ArmsConfig": {
+            "NotShared": 0b,
+            "ScaleZ": 1.0f,
+            "TransZ": 0.0f,
+            "TransY": 0.0f,
+            "TransX": -0.0f,
+            "ScaleY": 1.0f,
+            "ScaleX": 1.0f
+        },
+        "ExtraData": {
+        },
+        "HeadConfig": {
+            "NotShared": 0b,
+            "ScaleZ": 1.0f,
+            "TransZ": 0.0f,
+            "TransY": 0.0f,
+            "TransX": 0.0f,
+            "ScaleY": 1.0f,
+            "ScaleX": 1.0f
+        }
+    },
+    "minDelay": 40,
+    "DoorInteract": 2,
+    "MoveSpeed": 4,
+    "TransformEditingModus": 0b,
+    "UsingSkinUrl": 0b,
+    "Leashed": 0b,
+    "SkinUrl": "",
+    "CanSwim": 1b,
+    "GroundSound": "minecraft:entity.guardian.flap",
+    "MaxHealth": 30,
+    "HideBodyWhenKilled": 1b,
+    "AttackSpeed": 20,
+    "PotionDuration": 5,
+    "maxDelay": 60,
+    "ScriptEnabled": 0b,
+    "Role": 0,
+    "DropChance": [
+        {
+            "Integer": 1,
+            "Slot": 0
+        },
+        {
+            "Integer": 18,
+            "Slot": 1
+        },
+        {
+            "Integer": 30,
+            "Slot": 2
+        },
+        {
+            "Integer": 5,
+            "Slot": 3
+        },
+        {
+            "Integer": 3,
+            "Slot": 4
+        },
+        {
+            "Integer": 1,
+            "Slot": 5
+        },
+        {
+            "Integer": 100,
+            "Slot": 6
+        },
+        {
+            "Integer": 100,
+            "Slot": 7
+        },
+        {
+            "Integer": 100,
+            "Slot": 8
+        }
+    ],
+    "FactionPoints": {
+        "DecreaseFaction1Points": 0b,
+        "OptionFaction2Points": 100,
+        "OptionFactions1": -1,
+        "OptionFactions2": -1,
+        "OptionFaction1Points": 100,
+        "DecreaseFaction2Points": 0b
+    },
+    "pDamage": 14,
+    "KilledTime": 0L,
+    "AimWhileShooting": 1b,
+    "CanPickUpLoot": 0b,
+    "AttackOtherFactions": 0b,
+    "CanDrown": 0b,
+    "pSize": 5,
+    "CanSprint": 0b,
+    "CanLeap": 0b,
+    "TransformIsActive": 0b,
+    "ForgeData": {
+        "cnpcmarkdata": {
+            "marks": [
+            ]
+        },
+        "Potion Core - Health Fix": 30.0f,
+        "Potion Core - Jump Boost Updated": 1b
+    },
+    "MovingState": 0,
+    "MovingPos": 0,
+    "PotionAmp": 0,
+    "OnAttack": 0,
+    "TacticalRadius": 8,
+    "FallFlying": 0b,
+    "MaxExp": 10,
+    "OrderedLines": 0b,
+    "PortalCooldown": 0,
+    "pGlows": 0b,
+    "TransformHasAdvanced": 0b,
+    "TransformHasStats": 0b,
+    "MovementType": 2,
+    "FiringSound": "minecraft:entity.zombie.step",
+    "ModRev": 18,
+    "Accuracy": 80,
+    "MinExp": 6,
+    "Armor": [
+    ],
+    "CloakTexture": "",
+    "GlowTexture": "",
+    "MaxFiringRange": 64,
+    "pXlr8": 1b,
+    "Scripts": [
+    ],
+    "Health": 30.0f,
+    "pStick": 0b,
+    "MovingPause": 1b,
+    "NpcDeathSound": "minecraft:entity.player.hurt",
+    "FactionID": 9,
+    "Title": "",
+    "TotalTicksAlive": 106902L,
+    "Rotation": [
+        -0.0f,
+        0.0f
+    ],
+    "ShowName": 0,
+    "npcInteracting": 1b,
+    "UpdateBlocked": 0b,
+    "AvoidsWater": 0b,
+    "NoLivingAnimation": 0b,
+    "SpawnCycle": 0
+}

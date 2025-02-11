@@ -1,0 +1,34 @@
+{
+	title: "Celengil",
+	x: 14.5d,
+	y: 10.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"6661996d"
+	],
+	hide: true,
+	tasks: [{
+		uid: "c0fb57af",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "metallurgy:celenegil_ingot"
+		}],
+		count: 10L
+	}],
+	rewards: [{
+		uid: "f9bfd91a",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "camscurrency:denarius"
+		},
+		count: 15
+	}]
+}

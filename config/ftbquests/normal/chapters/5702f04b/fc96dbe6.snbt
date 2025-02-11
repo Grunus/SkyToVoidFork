@@ -1,0 +1,32 @@
+{
+	title: "Iron Meshes",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "exnihilocreatio:item_mesh",
+		Damage: 3s
+	},
+	x: 4.0d,
+	y: 4.0d,
+	dependencies: [
+		"b4bf556e"
+	],
+	hide: true,
+	tasks: [{
+		uid: "e91e9a5b",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "exnihilocreatio:item_mesh",
+			Damage: 3s
+		}]
+	}],
+	rewards: [{
+		uid: "2daa57ec",
+		type: "loot",
+		table: 1
+	}]
+}

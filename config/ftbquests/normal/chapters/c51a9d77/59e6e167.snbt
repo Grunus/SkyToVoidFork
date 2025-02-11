@@ -1,0 +1,36 @@
+{
+	title: "Semi Organized",
+	x: 0.0d,
+	y: 0.0d,
+	description: "You can make drawers with more than one drawer. Be in mind that this also splits how much you can hold in each drawer.",
+	dependencies: [
+		"8c02b5cb"
+	],
+	hide: true,
+	tasks: [{
+		uid: "973591e5",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "storagedrawers:basicdrawers",
+			tag: {
+				material: "oak"
+			},
+			Damage: 1s
+		}]
+	}],
+	rewards: [{
+		uid: "eb7ce636",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:log",
+			Damage: 3s
+		},
+		random_bonus: 11
+	}]
+}

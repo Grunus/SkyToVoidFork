@@ -1,0 +1,30 @@
+{
+	title: "Depot Delta II",
+	x: 8.0d,
+	y: -16.0d,
+	shape: "hexagon",
+	dependencies: [
+		"996ee067"
+	],
+	hide: true,
+	tasks: [{
+		uid: "7c2d46fa",
+		type: "location",
+		title: "680 33 -1383",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:nether_brick"
+		},
+		location: [I;
+			0,
+			680,
+			33,
+			-1384,
+			5,
+			5,
+			5
+		]
+	}]
+}

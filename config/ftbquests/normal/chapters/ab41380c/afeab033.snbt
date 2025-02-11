@@ -1,0 +1,43 @@
+{
+	title: "Chim's Wand",
+	x: -1.5d,
+	y: -6.5d,
+	shape: "diamond",
+	description: "''Firstly, create the wand.''",
+	text: [
+		"The wand, lock away by its own self. You, my stranger, must forge this wand into madness!"
+	],
+	dependencies: [
+		"5422a6db"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "dd9e61a3",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ebwizardry:magic_wand"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "22b66ba7",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "camscurrency:denarius"
+		},
+		count: 6
+	},
+	{
+		uid: "332700ea",
+		type: "ftbmoney:money",
+		ftb_money: 15L
+	}]
+}

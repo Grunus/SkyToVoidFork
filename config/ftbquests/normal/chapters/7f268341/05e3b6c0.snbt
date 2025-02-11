@@ -1,0 +1,28 @@
+{
+	title: "Sell Your Soul",
+	x: -0.5d,
+	y: 7.5d,
+	description: "You can't capture a villager with a lasso, but if you can try and make them sign this contract you can!",
+	text: [
+		""
+	],
+	dependencies: [
+		"b9bab6f8"
+	],
+	hide: true,
+	tasks: [{
+		uid: "35ad082d",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "extrautils2:contract"
+		}]
+	}],
+	rewards: [{
+		uid: "6a3115a2",
+		type: "loot",
+		table: 17
+	}]
+}

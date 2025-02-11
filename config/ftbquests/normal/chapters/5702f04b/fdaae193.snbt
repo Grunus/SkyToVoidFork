@@ -1,0 +1,52 @@
+{
+	title: "Growing Wrath",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "mysticalagriculture:wither_skeleton_essence"
+	},
+	x: -10.0d,
+	y: 9.0d,
+	dependencies: [
+		"f23bf935"
+	],
+	hide: true,
+	tasks: [{
+		uid: "d03b58f2",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "mysticalagriculture:wither_skeleton_essence"
+		}],
+		count: 20L
+	},
+	{
+		uid: "7155b5c0",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "mysticalagriculture:wither_skeleton_seeds"
+		}],
+		count: 2L
+	}],
+	rewards: [{
+		uid: "8ab193d4",
+		type: "loot",
+		table: 11
+	},
+	{
+		uid: "1dad9ab3",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "enderio:block_killer_joe"
+		}
+	}]
+}

@@ -1,0 +1,76 @@
+{
+	title: "Earth Mage Attire",
+	x: -1.5d,
+	y: 18.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"659354d2",
+		"0d83479c"
+	],
+	hide: true,
+	tasks: [{
+		uid: "e28a03cf",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ebwizardry:wizard_hat_earth"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "a60d9ebe",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ebwizardry:wizard_robe_earth"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "b2a362ca",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ebwizardry:wizard_leggings_earth"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "3e4314d5",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ebwizardry:wizard_boots_earth"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "9d152083",
+		type: "loot",
+		table: 43
+	},
+	{
+		uid: "eb4db687",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ebwizardry:ring_poison"
+		}
+	}]
+}

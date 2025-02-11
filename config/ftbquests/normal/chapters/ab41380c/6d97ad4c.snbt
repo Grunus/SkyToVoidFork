@@ -1,0 +1,30 @@
+{
+	title: "Indestructible",
+	x: 14.0d,
+	y: 0.0d,
+	shape: "diamond",
+	dependencies: [
+		"0e6623d4"
+	],
+	hide: true,
+	tasks: [{
+		uid: "b4c3d88b",
+		type: "location",
+		title: "694 95 -100",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "extrautils2:decorativebedrock"
+		},
+		location: [I;
+			0,
+			694,
+			95,
+			-102,
+			2,
+			2,
+			2
+		]
+	}]
+}

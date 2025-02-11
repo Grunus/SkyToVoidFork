@@ -1,0 +1,33 @@
+{
+	title: "Super Tiny Quest!!!!!",
+	x: -3.4d,
+	y: 6.35d,
+	shape: "diamond",
+	text: [
+		"Look how small it is!"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"2caa6120"
+	],
+	hide: true,
+	size: 0.1d,
+	optional: true,
+	tasks: [{
+		uid: "14c8ab92",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:egg"
+		}],
+		consume_items: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "ba0af10c",
+		type: "loot",
+		table: 6
+	}]
+}

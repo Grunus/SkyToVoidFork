@@ -1,0 +1,50 @@
+{
+	title: "Splinters For Sheep",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "woodenshears:wshears",
+		tag: {
+			mType: 0
+		}
+	},
+	x: -2.0d,
+	y: 2.0d,
+	shape: "hexagon",
+	description: "A primitive way to collect leaves for barrels.",
+	dependencies: [
+		"426b052b"
+	],
+	hide: true,
+	tasks: [{
+		uid: "50174b31",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "woodenshears:wshears",
+			tag: {
+				mType: 0
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "9de33753",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:spawn_egg",
+			tag: {
+				EntityTag: {
+					id: "minecraft:sheep"
+				}
+			}
+		}
+	}]
+}

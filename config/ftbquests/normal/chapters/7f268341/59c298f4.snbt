@@ -1,0 +1,47 @@
+{
+	title: "Endurance",
+	x: 7.5d,
+	y: 12.0d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"ae08ee94",
+		"7aed858a"
+	],
+	hide: true,
+	tasks: [{
+		uid: "b2d30cfe",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "extrautils2:machine",
+			tag: {
+				Type: "extrautils2:generator_ender"
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "f0465f1e",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thermalfoundation:material",
+			Damage: 167s
+		},
+		count: 6
+	},
+	{
+		uid: "9b4d88a8",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "camscurrency:denarius"
+		},
+		count: 16
+	}]
+}

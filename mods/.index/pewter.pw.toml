@@ -1,0 +1,17 @@
+filename = 'Pewter-1.4.3.jar'
+name = 'Pewter'
+side = 'both'
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'Pewter-1.4.3.jar'
+
+[download]
+hash = 'ff39b3361a5001fa2071ee3a99af0b5614364b16'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 2652196
+project-id = 293938

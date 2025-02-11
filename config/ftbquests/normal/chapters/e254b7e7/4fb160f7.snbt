@@ -1,0 +1,44 @@
+{
+	title: "Delusional",
+	x: 2.5d,
+	y: -6.0d,
+	text: [
+		"Fool at best, thinks they can complete the Obelisk..."
+	],
+	dependencies: [
+		"6bae85c1"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "fda9b495",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "storagedrawers:controller"
+		}]
+	}],
+	rewards: [{
+		uid: "b0232337",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "camscurrency:denarius"
+		},
+		count: 6
+	},
+	{
+		uid: "6fd477ed",
+		type: "loot",
+		table: 3
+	},
+	{
+		uid: "ac194b61",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

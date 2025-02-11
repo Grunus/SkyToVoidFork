@@ -1,0 +1,29 @@
+{
+	x: 22.5d,
+	y: -2.5d,
+	shape: "square",
+	description: "Kill the damned!",
+	text: [
+		""
+	],
+	dependencies: [
+		"0bc9f9f7"
+	],
+	hide: true,
+	tasks: [{
+		uid: "c090206a",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "enderio:block_killer_joe"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "d0829d0c",
+		type: "loot",
+		table: 35
+	}]
+}

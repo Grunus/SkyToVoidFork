@@ -1,0 +1,173 @@
+{
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "minecraft:totem_of_undying",
+		tag: {
+			ench: [{
+				lvl: 1s,
+				id: 60s
+			}],
+			HideFlags: 1,
+			display: {
+				Lore: [
+					"Isn't it gorgeous?"
+				],
+				Name: "Totem of Truth"
+			},
+			AttributeModifiers: [{
+				UUIDMost: 4530010195150193108L,
+				UUIDLeast: -7175045199008080021L,
+				Amount: 0.25d,
+				Slot: "offhand",
+				AttributeName: "generic.attackDamage",
+				Operation: 1,
+				Name: "generic.attackDamage"
+			},
+			{
+				UUIDMost: 1777116156534408864L,
+				UUIDLeast: -5044921766745534112L,
+				Amount: 0.2d,
+				Slot: "offhand",
+				AttributeName: "generic.attackSpeed",
+				Operation: 1,
+				Name: "generic.attackSpeed"
+			},
+			{
+				UUIDMost: 8198852713190477323L,
+				UUIDLeast: -6945684008270378733L,
+				Amount: 0.35d,
+				Slot: "offhand",
+				AttributeName: "generic.armor",
+				Operation: 1,
+				Name: "generic.armor"
+			},
+			{
+				UUIDMost: 3161044112488549206L,
+				UUIDLeast: -7874398063300212564L,
+				Amount: -0.2d,
+				Slot: "offhand",
+				AttributeName: "generic.maxHealth",
+				Operation: 1,
+				Name: "generic.maxHealth"
+			},
+			{
+				UUIDMost: -7124427539556447866L,
+				UUIDLeast: -6116018003199980659L,
+				Amount: 0.5d,
+				Slot: "offhand",
+				AttributeName: "generic.knockbackResistance",
+				Operation: 1,
+				Name: "generic.knockbackResistance"
+			}]
+		}
+	},
+	x: 0.0d,
+	y: -20.5d,
+	shape: "diamond",
+	description: "Completed all 7 progression quests in this island layer.",
+	text: [
+		""
+	],
+	dependencies: [
+		"167ab51c",
+		"afa1d557",
+		"854f68a8",
+		"32754722",
+		"38699ee0",
+		"8727684a",
+		"30d66198"
+	],
+	hide: true,
+	size: 1.5d,
+	tasks: [{
+		uid: "8e5c6259",
+		type: "checkmark",
+		title: "Layer 5 Quests Completed",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "contenttweaker:objectives"
+		}
+	}],
+	rewards: [{
+		uid: "a4c7e159",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:totem_of_undying",
+			tag: {
+				ench: [{
+					lvl: 1s,
+					id: 71s
+				}],
+				display: {
+					Lore: [
+						"Will you change your ways?",
+						"Or will you weep for forgiveness to an",
+						"audience of deaf ears?"
+					],
+					Name: "Totem of Truth"
+				},
+				AttributeModifiers: [{
+					UUIDMost: 4348489549525238783L,
+					UUIDLeast: -7717448018593997554L,
+					Amount: 0.25d,
+					Slot: "offhand",
+					AttributeName: "generic.attackDamage",
+					Operation: 1,
+					Name: "generic.attackDamage"
+				},
+				{
+					UUIDMost: 8510006509067323972L,
+					UUIDLeast: -5579794694125899700L,
+					Amount: 0.05d,
+					Slot: "offhand",
+					AttributeName: "generic.attackSpeed",
+					Operation: 1,
+					Name: "generic.attackSpeed"
+				},
+				{
+					UUIDMost: -2893054375184744155L,
+					UUIDLeast: -5576034324082579143L,
+					Amount: -0.25d,
+					Slot: "offhand",
+					AttributeName: "generic.armor",
+					Operation: 1,
+					Name: "generic.armor"
+				},
+				{
+					UUIDMost: -910937155330030216L,
+					UUIDLeast: -5819645663698417623L,
+					Amount: -0.25d,
+					Slot: "offhand",
+					AttributeName: "generic.armorToughness",
+					Operation: 1,
+					Name: "generic.armorToughness"
+				},
+				{
+					UUIDMost: -5733103794172899756L,
+					UUIDLeast: -8014672029632234005L,
+					Amount: 12.0d,
+					Slot: "offhand",
+					AttributeName: "generic.maxHealth",
+					Operation: 0,
+					Name: "generic.maxHealth"
+				},
+				{
+					UUIDMost: 3104858016513344795L,
+					UUIDLeast: -7182955874297066126L,
+					Amount: 0.15d,
+					Slot: "offhand",
+					AttributeName: "generic.movementSpeed",
+					Operation: 1,
+					Name: "generic.movementSpeed"
+				}]
+			}
+		}
+	}]
+}

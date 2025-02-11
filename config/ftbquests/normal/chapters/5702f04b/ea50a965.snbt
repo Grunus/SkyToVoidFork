@@ -1,0 +1,71 @@
+{
+	title: "The Shell and The Crab",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "exnihilocreatio:block_sieve"
+	},
+	x: 2.0d,
+	y: 4.0d,
+	shape: "hexagon",
+	description: "Sieves are good for collecting various resources.",
+	text: [
+		"A string mesh is the most basic mesh for the sieve. With the string mesh it's best to use it on dirt for seeds. You can however upgrade the mesh, for more resources."
+	],
+	dependencies: [
+		"1e1b9e6a"
+	],
+	hide: true,
+	tasks: [{
+		uid: "04b9b475",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "exnihilocreatio:block_sieve"
+		}]
+	},
+	{
+		uid: "be13ac6d",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "exnihilocreatio:item_mesh",
+			Damage: 1s
+		}]
+	}],
+	rewards: [{
+		uid: "55013977",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "exnihilocreatio:block_dust"
+		}
+	},
+	{
+		uid: "cb2d5254",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:sand"
+		}
+	},
+	{
+		uid: "e75e9372",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:gravel"
+		}
+	}]
+}

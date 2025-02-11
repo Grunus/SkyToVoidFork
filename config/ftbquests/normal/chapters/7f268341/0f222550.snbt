@@ -1,0 +1,34 @@
+{
+	title: "Manual Labor",
+	x: -0.5d,
+	y: 4.5d,
+	description: "Manual mills actually produce a good amount of power, although must be turned yourself.",
+	text: [
+		""
+	],
+	dependencies: [
+		"267db402"
+	],
+	hide: true,
+	tasks: [{
+		uid: "1ec34786",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "extrautils2:passivegenerator",
+			Damage: 7s
+		}]
+	}],
+	rewards: [{
+		uid: "84c39f6e",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "mysticalagriculture:redstone_seeds"
+		}
+	}]
+}

@@ -1,0 +1,28 @@
+{
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "contenttweaker:obj_obelisk",
+		tag: {
+			display: {
+				Name: "Obelisk"
+			}
+		}
+	},
+	x: -1.0d,
+	y: -12.0d,
+	text: [
+		"They're doing it, The Obelisk is growing in awareness. This isn't possible, they can't possibly complete it."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"2caa6120"
+	],
+	hide: true,
+	tasks: [{
+		uid: "b4a39215",
+		type: "checkmark",
+		title: "The Obelisk"
+	}]
+}

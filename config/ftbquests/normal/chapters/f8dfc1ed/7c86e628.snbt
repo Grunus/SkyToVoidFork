@@ -1,0 +1,75 @@
+{
+	title: "Complete Every Quest in Watching Closely Chapter",
+	x: 7.0d,
+	y: 0.0d,
+	text: [
+		"Complete every quest in every island layer in Watching Closely chapter."
+	],
+	dependencies: [
+		"d26e0e56",
+		"99964d2f",
+		"d170baa5",
+		"7131ef1f",
+		"30b4113b"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "300930ec",
+		type: "checkmark",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "simple_trophies:trophy",
+			tag: {
+				TrophyColorGreen: 207,
+				TrophyVariant: "classic",
+				TrophyShowsTooltip: 1b,
+				TrophyItem: {
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": {}
+					},
+					id: "extrautils2:ingredients",
+					Count: 1b,
+					Damage: 2s
+				},
+				TrophyColorBlue: 42,
+				TrophyName: "100% The Watching Closely Chapter",
+				TrophyColorRed: 222,
+				TrophyEarnedAt: 1737773800L
+			}
+		}
+	}],
+	rewards: [{
+		uid: "d713cefd",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "simple_trophies:trophy",
+			tag: {
+				TrophyColorGreen: 207,
+				TrophyVariant: "classic",
+				TrophyShowsTooltip: 1b,
+				TrophyItem: {
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": {}
+					},
+					id: "extrautils2:ingredients",
+					Count: 1b,
+					Damage: 2s
+				},
+				TrophyColorBlue: 42,
+				TrophyName: "100% The Watching Closely Chapter",
+				TrophyColorRed: 222,
+				TrophyEarnedAt: 1737773800L
+			}
+		}
+	},
+	{
+		uid: "2dc86d41",
+		type: "ftbmoney:money",
+		ftb_money: 500L
+	}]
+}

@@ -1,0 +1,46 @@
+{
+	title: "Tribulation",
+	x: -2.5d,
+	y: 13.5d,
+	description: "Nether but with extra mobs.",
+	hide_dependency_lines: true,
+	dependencies: [
+		"02b464cc"
+	],
+	hide: true,
+	tasks: [{
+		uid: "664757b4",
+		type: "location",
+		title: "-272 163 728",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:netherrack"
+		},
+		location: [I;
+			0,
+			-276,
+			163,
+			725,
+			5,
+			5,
+			5
+		]
+	}],
+	rewards: [{
+		uid: "83fe3db1",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:deadbush"
+		}
+	},
+	{
+		uid: "b5fca602",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

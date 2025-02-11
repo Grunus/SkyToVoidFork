@@ -1,0 +1,102 @@
+{
+	title: "The Destroyed Village",
+	x: -3.873809523809534d,
+	y: 4.016666666666644d,
+	description: "Man, it's all destroyed, but who cares about the village, I want all the loot!!!",
+	hide_dependency_lines: true,
+	dependencies: [
+		"2bd5aaf9",
+		"56904fde"
+	],
+	hide: true,
+	size: 1.1d,
+	tasks: [{
+		uid: "cd68484a",
+		type: "location",
+		title: "-107 88 101",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "chisel:cobblestone",
+			Damage: 1s
+		},
+		location: [I;
+			0,
+			-173,
+			86,
+			54,
+			100,
+			10,
+			100
+		]
+	}],
+	rewards: [{
+		uid: "d787a8bd",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "cfm:crate",
+			tag: {
+				Sealed: 1,
+				RepairCost: 0,
+				display: {
+					Name: "House Warming Gift"
+				},
+				Items: [{
+					Slot: 5,
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": {}
+					},
+					id: "minecraft:coal",
+					Count: 16,
+					Damage: 1
+				},
+				{
+					Slot: 8,
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": {}
+					},
+					id: "minecraft:iron_ingot",
+					Count: 8,
+					Damage: 0
+				},
+				{
+					Slot: 9,
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": {}
+					},
+					id: "camscurrency:dupondius",
+					Count: 12,
+					Damage: 0
+				},
+				{
+					Slot: 10,
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": {}
+					},
+					id: "camscurrency:denarius",
+					Count: 4,
+					Damage: 0
+				},
+				{
+					Slot: 11,
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": {}
+					},
+					id: "minecraft:gold_ingot",
+					Count: 2,
+					Damage: 0
+				}],
+				Lock: ""
+			}
+		}
+	},
+	{
+		uid: "40c36883",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	}]
+}

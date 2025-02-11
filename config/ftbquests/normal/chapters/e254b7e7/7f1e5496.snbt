@@ -1,0 +1,47 @@
+{
+	title: "A Welcoming Surprise",
+	x: 0.0d,
+	y: 0.0d,
+	text: [
+		"It seems someone has been surviving the aftermath..."
+	],
+	min_required_dependencies: 1,
+	dependencies: [
+		"c79642c1",
+		"01437c64"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "27e689af",
+		type: "item",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "exnihilocreatio:block_barrel0"
+		},
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "exnihilocreatio:block_barrel0"
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "3e1a14bf",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "camscurrency:denarius"
+		}
+	},
+	{
+		uid: "05664788",
+		type: "loot",
+		table: 0
+	}]
+}

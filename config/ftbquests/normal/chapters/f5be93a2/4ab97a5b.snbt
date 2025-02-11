@@ -1,0 +1,37 @@
+{
+	title: "Libcardo I",
+	x: 0.0d,
+	y: 4.5d,
+	dependencies: [
+		"25c117e7"
+	],
+	hide: true,
+	tasks: [{
+		uid: "a6b290c6",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:stone"
+		}],
+		count: 240L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "13568776",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "camscurrency:denarius"
+		},
+		count: 32
+	},
+	{
+		uid: "4ee447c1",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	}]
+}

@@ -1,0 +1,28 @@
+{
+	title: "The Silk Road",
+	x: -3.5d,
+	y: 15.5d,
+	text: [
+		"This silk is used to create wizard armor."
+	],
+	dependencies: [
+		"659354d2"
+	],
+	hide: true,
+	tasks: [{
+		uid: "dfaa8bc9",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ebwizardry:magic_silk"
+		}],
+		count: 24L
+	}],
+	rewards: [{
+		uid: "bb9812e5",
+		type: "loot",
+		table: 22
+	}]
+}

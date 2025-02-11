@@ -1,0 +1,47 @@
+{
+	title: "Is That Mucus?",
+	x: 5.0d,
+	y: 13.0d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"ae08ee94",
+		"d067e175"
+	],
+	hide: true,
+	tasks: [{
+		uid: "5dbc6732",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "extrautils2:machine",
+			tag: {
+				Type: "extrautils2:generator_slime"
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "05d12566",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "tconstruct:edible",
+			Damage: 34s
+		},
+		count: 12
+	},
+	{
+		uid: "385ee8b8",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "camscurrency:denarius"
+		},
+		count: 8
+	}]
+}

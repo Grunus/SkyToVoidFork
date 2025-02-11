@@ -1,0 +1,58 @@
+{
+	title: "Pseudo-topia",
+	x: -22.5d,
+	y: 1.0d,
+	description: "For the prophet to reside in.",
+	text: [
+		""
+	],
+	dependencies: [
+		"996ee067"
+	],
+	hide: true,
+	tasks: [{
+		uid: "05f55e3d",
+		type: "location",
+		title: "-1487 156 146",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "metallurgy:mithril_engraved_block"
+		},
+		location: [I;
+			0,
+			-1488,
+			156,
+			146,
+			5,
+			5,
+			5
+		]
+	}],
+	rewards: [{
+		uid: "402e34b7",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ironchest:gold_diamond_chest_upgrade"
+		}
+	},
+	{
+		uid: "aa0bf900",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ironchest:gold_diamond_shulker_upgrade"
+		}
+	},
+	{
+		uid: "ae396f9b",
+		type: "ftbmoney:money",
+		ftb_money: 175L
+	}]
+}

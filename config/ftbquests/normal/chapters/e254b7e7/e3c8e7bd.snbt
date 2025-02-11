@@ -1,0 +1,76 @@
+{
+	title: "Bridges Burned",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "minecraft:iron_ingot"
+	},
+	x: 0.0d,
+	y: -2.0d,
+	text: [
+		"Trying to connect the world by loose, imperfect strings..."
+	],
+	dependencies: [
+		"1fb87941"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "dfd78552",
+		type: "item",
+		title: "Any ingotCopper",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "ingotCopper",
+					id: "ore"
+				},
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "itemfilters:filter"
+		}]
+	},
+	{
+		uid: "10298ebd",
+		type: "item",
+		title: "Any ingotTin",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "ingotTin",
+					id: "ore"
+				},
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "itemfilters:filter"
+		}]
+	}],
+	rewards: [{
+		uid: "28f17001",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "camscurrency:dupondius"
+		},
+		count: 12
+	},
+	{
+		uid: "08afb741",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "camscurrency:denarius"
+		},
+		count: 4
+	},
+	{
+		uid: "42e2133f",
+		type: "loot",
+		table: 1
+	}]
+}

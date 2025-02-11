@@ -1,0 +1,93 @@
+[
+    {
+        "block": "enderportaldecoration:gateway:1",
+        "result": "deny"
+    },
+    {
+        "block": "enderportaldecoration:gateway",
+        "result": "deny"
+    },
+    {
+        "helditem": "minecraft:knowledge_book",
+        "message": "Can be turned in to Elbow through the Quest Book.",
+        "result": "deny"
+    },
+    {
+        "playerhelditem": "contenttweaker:1_sunkenfactory",
+        "block": "chisel:concrete_lightgray1",
+        "setblock":  { "block": "minecraft:air" },
+        "result": "allow"
+    },
+    {
+        "playerhelditem": "contenttweaker:2_cryoemergency",
+        "block": "chisel:concrete_cyan1",
+        "setblock":  { "block": "minecraft:air" },
+        "result": "allow"
+    },
+    {
+        "playerhelditem": "contenttweaker:3_thegreatchallenge",
+        "block": "chisel:concrete_yellow1",
+        "setblock":  { "block": "minecraft:air" },
+        "result": "allow"
+    },
+    {
+        "playerhelditem": "contenttweaker:4_purehearts",
+        "block": "chisel:concrete_white1",
+        "setblock":  { "block": "minecraft:air" },
+        "result": "allow"
+    },
+    {
+        "playerhelditem": "contenttweaker:5_void",
+        "block": "chisel:concrete_purple1",
+        "setblock":  { "block": "minecraft:air" },
+        "result": "allow"
+    },
+    {
+        "playerhelditem": "contenttweaker:extra4_bossrush",
+        "block": "chisel:concrete_pink1",
+        "setblock":  { "block": "minecraft:air" },
+        "result": "allow"
+    },
+    {
+        "playerhelditem": "contenttweaker:extra1_sunkenfactory_devoid",
+        "block": "chisel:concrete_black1",
+        "setblock":  { "block": "minecraft:air" },
+        "result": "allow"
+    },
+    {
+        "playerhelditem": "contenttweaker:extra2_radianttemple",
+        "block": "chisel:concrete_orange1",
+        "setblock":  { "block": "minecraft:air" },
+        "result": "allow"
+    },
+    {
+        "playerhelditem": "contenttweaker:extra5_streamerdream",
+        "block": "chisel:concrete_green1",
+        "setblock":  { "block": "minecraft:air" },
+        "result": "allow"
+    },
+    {
+        "playerhelditem": "contenttweaker:extra6_devroom",
+        "block": "chisel:concrete_red1",
+        "setblock":  { "block": "minecraft:air" },
+        "result": "allow"
+    },
+    {
+        "playerhelditem": "contenttweaker:extra3_invitationfromthevoid",
+        "block": "chisel:concrete_gray1",
+        "setblock":  { "block": "minecraft:air" },
+        "result": "allow"
+    },
+    {
+        "playerhelditem": "contenttweaker:6_thekingdomofgods",
+        "block": "chisel:concrete_blue1",
+        "setblock":  { "block": "minecraft:air" },
+        "result": "allow"
+    },
+    {
+        "playerhelditem": "contenttweaker:7_thethroneroom",
+        "block": "chisel:lavastone1",
+        "setblock":  { "block": "minecraft:air" },
+        "result": "allow"
+    }
+]

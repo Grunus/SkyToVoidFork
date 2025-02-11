@@ -1,0 +1,32 @@
+{
+	title: "Painful Midus",
+	x: 1.5d,
+	y: 2.5d,
+	dependencies: [
+		"5bc8a0b4"
+	],
+	hide: true,
+	tasks: [{
+		uid: "802c6777",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "extrautils2:spike_gold"
+		}],
+		count: 9L
+	}],
+	rewards: [{
+		uid: "8e1490c5",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:gold_nugget"
+		},
+		count: 16,
+		random_bonus: 48
+	}]
+}

@@ -1,0 +1,31 @@
+{
+	title: "Organizing Like Gods",
+	x: -3.0d,
+	y: 0.0d,
+	description: "Connecting drawers to this main drawer will organize anything you put into this block into the respective drawers.",
+	dependencies: [
+		"1acdeaef"
+	],
+	hide: true,
+	tasks: [{
+		uid: "2dbe739f",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "storagedrawers:controller"
+		}]
+	}],
+	rewards: [{
+		uid: "384f499f",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "camscurrency:dupondius"
+		},
+		count: 12
+	}]
+}

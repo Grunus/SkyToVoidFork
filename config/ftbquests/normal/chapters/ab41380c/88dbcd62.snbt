@@ -1,0 +1,59 @@
+{
+	title: "Hunt: Fosforus",
+	x: -15.5d,
+	y: -7.0d,
+	shape: "pentagon",
+	description: "''Phosphorus? Legends say it scares monsters away. I thought it was all mined up! Send some over to me, and maybe you can use some as well.''",
+	text: [
+		""
+	],
+	can_repeat: true,
+	hide_dependency_lines: true,
+	dependencies: [
+		"46793e20",
+		"9074d2e7"
+	],
+	hide: true,
+	optional: true,
+	tasks: [{
+		uid: "cd6c71db",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "metallurgy:phosphorus"
+		}],
+		count: 15L,
+		consume_items: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "24c5d74a",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "camscurrency:denarius"
+		},
+		count: 8
+	},
+	{
+		uid: "321bc722",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "enderio:item_material",
+			Damage: 20s
+		},
+		count: 2
+	},
+	{
+		uid: "6b8e1525",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	}]
+}

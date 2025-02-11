@@ -1,0 +1,36 @@
+{
+	title: "Meet The Sister",
+	x: 11.5d,
+	y: 14.5d,
+	shape: "diamond",
+	text: [
+		""
+	],
+	dependencies: [
+		"ad859413"
+	],
+	hide: true,
+	tasks: [{
+		uid: "8a4f66d4",
+		type: "location",
+		title: "801 65 843",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "openblocks:crayon_glasses",
+			tag: {
+				Color: 4408131
+			}
+		},
+		location: [I;
+			0,
+			801,
+			65,
+			843,
+			2,
+			2,
+			2
+		]
+	}]
+}

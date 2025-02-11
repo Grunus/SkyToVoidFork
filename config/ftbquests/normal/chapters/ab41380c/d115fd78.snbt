@@ -1,0 +1,56 @@
+{
+	title: "Communism Detected",
+	x: 2.0d,
+	y: 14.5d,
+	shape: "diamond",
+	description: "''I Should've known!''",
+	text: [
+		"Tango down!"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"1028f6e8",
+		"117838ad"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "e5e504f8",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:knowledge_book",
+			tag: {
+				ench: [{
+					lvl: 1,
+					id: 3
+				}],
+				RepairCost: 1,
+				display: {
+					Name: "The Communist Manifesto"
+				}
+			}
+		}],
+		consume_items: true,
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "6d63546a",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "camscurrency:denarius"
+		},
+		count: 12
+	},
+	{
+		uid: "0c1cb8a8",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

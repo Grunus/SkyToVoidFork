@@ -1,0 +1,30 @@
+{
+	title: "Cable TV",
+	x: -15.5d,
+	y: 6.5d,
+	description: "for basic Fluix transferring",
+	text: [
+		""
+	],
+	dependencies: [
+		"a09ed600"
+	],
+	hide: true,
+	tasks: [{
+		uid: "f0d8d3f9",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "appliedenergistics2:part",
+			Damage: 16s
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "9b098aff",
+		type: "loot",
+		table: 14
+	}]
+}

@@ -1,0 +1,46 @@
+{
+	title: "''Wealth''",
+	x: 6.5d,
+	y: -6.0d,
+	text: [
+		"Is this an attempt to flash what you've got, you wouldn't believe what our world is..."
+	],
+	dependencies: [
+		"6bae85c1"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "105529d6",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "exnihilocreatio:hammer_diamond"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7223cefd",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "camscurrency:denarius"
+		},
+		count: 6
+	},
+	{
+		uid: "e746b80e",
+		type: "loot",
+		table: 1
+	},
+	{
+		uid: "d606d1be",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

@@ -1,0 +1,67 @@
+{
+	title: "Inventory Pets II",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "inventorypets:nugget_coal"
+	},
+	x: 4.5d,
+	y: 5.0d,
+	description: "You've explored all islands of zone 2",
+	text: [
+		"The pets you will unlock...",
+		"",
+		"Mooshroom",
+		"Blaze",
+		"Iron Golem",
+		"Spider",
+		"Anvil",
+		"Chest",
+		"Enchanting Table",
+		"Saddle",
+		"Cheetah",
+		"Torch",
+		"Wolf",
+		"Pingot"
+	],
+	dependencies: [
+		"f96efc0e",
+		"4a8f8eec",
+		"70e8f94e",
+		"82ec08eb",
+		"5ac60acc",
+		"dc3b0217",
+		"838f6260",
+		"c9dee3d1",
+		"ff877c15",
+		"da9e056d",
+		"cece1bf9",
+		"f70585de",
+		"18bf2782",
+		"55769c0b"
+	],
+	hide: true,
+	tasks: [{
+		uid: "ce17a3c8",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "6f320e83",
+		type: "gamestage",
+		title: "Not so Basic Biology of Pets",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "inventorypets:nugget_obsidian"
+		},
+		auto: "disabled",
+		stage: "ipets2_stage"
+	},
+	{
+		uid: "6d498657",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

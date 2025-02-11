@@ -1,0 +1,56 @@
+{
+	title: "No Pressure Required",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "mysticalagriculture:diamond_essence"
+	},
+	x: -10.0d,
+	y: 10.0d,
+	dependencies: [
+		"f23bf935"
+	],
+	hide: true,
+	tasks: [{
+		uid: "2c36b2e3",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "mysticalagriculture:diamond_essence"
+		}],
+		count: 20L
+	},
+	{
+		uid: "97bf8f1a",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "mysticalagriculture:diamond_seeds"
+		}],
+		count: 2L
+	}],
+	rewards: [{
+		uid: "c9139754",
+		type: "loot",
+		table: 11
+	},
+	{
+		uid: "73e332c3",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:splash_potion",
+			tag: {
+				Potion: "potioncore:long_diamond_skin"
+			}
+		},
+		random_bonus: 9
+	}]
+}

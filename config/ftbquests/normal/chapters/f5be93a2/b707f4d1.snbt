@@ -1,0 +1,51 @@
+{
+	title: "Nytemart Final",
+	x: 3.0d,
+	y: 11.5d,
+	dependencies: [
+		"21aca3df"
+	],
+	tasks: [{
+		uid: "11f68a7b",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thermalexpansion:cell",
+			tag: {
+				Recv: 25000,
+				RSControl: 0b,
+				Facing: 3b,
+				Creative: 0b,
+				Energy: 50000000,
+				Level: 4b,
+				SideCache: [B;
+					2b,
+					1b,
+					1b,
+					1b,
+					1b,
+					1b
+				],
+				Send: 25000
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "31f27672",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "artifacts:lucky_horseshoe"
+		}
+	},
+	{
+		uid: "dec06830",
+		type: "ftbmoney:money",
+		ftb_money: 200L
+	}]
+}

@@ -1,0 +1,69 @@
+{
+	title: "Magma Power",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "thermalexpansion:dynamo",
+		tag: {
+			RSControl: 0,
+			Facing: 1,
+			Energy: 0,
+			Level: 0
+		},
+		Damage: 1s
+	},
+	x: -3.0d,
+	y: -3.0d,
+	description: "Magmatic dynamos eliminates the use of coal, and only needs lava.",
+	text: [
+		"Make sure to also upgrade your Fluiducts, lava will melt the Fluiducts after a short while."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"58961e37",
+		"260568f7"
+	],
+	hide: true,
+	tasks: [{
+		uid: "eeb404e7",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thermaldynamics:duct_16",
+			Damage: 2s
+		},
+		{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thermaldynamics:duct_16",
+			Damage: 3s
+		}]
+	},
+	{
+		uid: "41e17a8b",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thermalexpansion:dynamo",
+			tag: {
+				RSControl: 0b,
+				Facing: 1b,
+				Energy: 0,
+				Level: 0b
+			},
+			Damage: 1s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "99a46b27",
+		type: "loot",
+		table: 8
+	}]
+}

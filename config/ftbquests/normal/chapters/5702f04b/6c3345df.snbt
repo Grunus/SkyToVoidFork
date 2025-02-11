@@ -1,0 +1,56 @@
+{
+	title: "Specific Finds",
+	x: 11.5d,
+	y: 11.5d,
+	description: "Using a Metal Detector, you find specific metals.",
+	text: [
+		"Once you've crafted the dectector, you can place metals in the crafting table with the Metal Detector.",
+		"After, the Metal Detector will only find those metals."
+	],
+	dependencies: [
+		"004b0aa9"
+	],
+	hide: true,
+	tasks: [{
+		uid: "7d8904d9",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "metallurgy:ore_detector"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "42ccb30a",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "metallurgy:mithril_ingot"
+		}
+	},
+	{
+		uid: "c2bbff8e",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "metallurgy:vulcanite_ingot"
+		}
+	},
+	{
+		uid: "3fd7522a",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "metallurgy:tin_ingot"
+		}
+	}]
+}

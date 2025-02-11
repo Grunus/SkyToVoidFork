@@ -1,0 +1,34 @@
+{
+	title: "More Upgrading",
+	x: -2.0d,
+	y: -10.0d,
+	text: [
+		"How long will it take for you to fail? We'll see..."
+	],
+	dependencies: [
+		"02b464cc"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "9fc0265f",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "tconstruct:materials",
+			Damage: 19s
+		}]
+	}],
+	rewards: [{
+		uid: "ea1fa02a",
+		type: "loot",
+		table: 6
+	},
+	{
+		uid: "8903424e",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	}]
+}

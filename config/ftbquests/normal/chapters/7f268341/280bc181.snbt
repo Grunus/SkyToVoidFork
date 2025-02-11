@@ -1,0 +1,43 @@
+{
+	title: "Packing Some Loot!",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "thermalexpansion:satchel",
+		tag: {
+			Accessible: 1
+		}
+	},
+	x: -6.0d,
+	y: -1.0d,
+	description: "Satchels can be upgraded and can store more items.",
+	dependencies: [
+		"1fd81e05"
+	],
+	hide: true,
+	tasks: [{
+		uid: "e0174df3",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thermalexpansion:satchel",
+			tag: {
+				Accessible: 1
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "2342c6b8",
+		type: "loot",
+		table: 7
+	},
+	{
+		uid: "d87385b4",
+		type: "loot",
+		table: 1
+	}]
+}

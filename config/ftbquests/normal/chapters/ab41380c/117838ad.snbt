@@ -1,0 +1,88 @@
+{
+	title: "Void51",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "chisel:technical",
+		Damage: 14s
+	},
+	x: 2.0d,
+	y: 13.5d,
+	description: "Obstructed facility waiting for the picking.",
+	hide_dependency_lines: true,
+	dependencies: [
+		"02b464cc"
+	],
+	hide: true,
+	tasks: [{
+		uid: "1dc9722d",
+		type: "location",
+		title: "6 107 690",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "chisel:technical",
+			Damage: 14s
+		},
+		location: [I;
+			0,
+			4,
+			108,
+			689,
+			5,
+			5,
+			5
+		]
+	}],
+	rewards: [{
+		uid: "3419aac4",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "industrialforegoing:plastic"
+		},
+		count: 12
+	},
+	{
+		uid: "56ccac50",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "industrialforegoing:leaf_shearing"
+		},
+		count: 2
+	},
+	{
+		uid: "3a68fb30",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "industrialforegoing:fertilizer"
+		},
+		count: 16,
+		random_bonus: 4
+	},
+	{
+		uid: "1b16667d",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "industrialforegoing:oredictionary_converter"
+		}
+	},
+	{
+		uid: "836153ec",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	}]
+}

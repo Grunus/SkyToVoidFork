@@ -1,0 +1,40 @@
+{
+	title: "Cloud Service: The Villagers I",
+	x: 14.204081632653057d,
+	y: 11.71938775510204d,
+	shape: "octagon",
+	description: "Unlocks items within the quest book shop.",
+	hide_dependency_lines: true,
+	dependencies: [
+		"00ab44da",
+		"52fffa66"
+	],
+	hide: true,
+	tasks: [{
+		uid: "8b9c8cd2",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "contenttweaker:pylon",
+			tag: {
+				display: {
+					Lore: [
+						"Unlocks special Cloud Service items inside",
+						"the quest book shop from specific traders.",
+						"Complete quests from NPCs to reveal Cloud",
+						"Service quests."
+					],
+					Name: "Cloud Service Pylon"
+				}
+			}
+		}],
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "0f447a1a",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

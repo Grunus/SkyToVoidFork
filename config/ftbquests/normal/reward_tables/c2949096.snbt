@@ -1,0 +1,27 @@
+{
+	title: "wizards choice",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "ebwizardry:arcane_tome",
+		Damage: 3s
+	},
+	loot_size: 1,
+	rewards: [{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ebwizardry:master_necromancy_wand"
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ebwizardry:master_sorcery_wand"
+		}
+	}]
+}

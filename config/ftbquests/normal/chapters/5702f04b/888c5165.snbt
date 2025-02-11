@@ -1,0 +1,56 @@
+{
+	title: "Guardian's Class",
+	x: -9.0d,
+	y: 20.5d,
+	shape: "circle",
+	description: "Using an Imbuement Alter, you can convert your elemental wizard armor to a certain playstyle.",
+	text: [
+		""
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"d6fc2739"
+	],
+	hide: true,
+	tasks: [{
+		uid: "a6ccfb8b",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ebwizardry:resplendent_thread"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "31953d22",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ebwizardry:crystal_silver_plating"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "44af8a17",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ebwizardry:ethereal_crystalweave"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "6c6da5b8",
+		type: "loot",
+		table: 25
+	}]
+}

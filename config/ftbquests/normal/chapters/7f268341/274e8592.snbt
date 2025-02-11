@@ -1,0 +1,29 @@
+{
+	title: "Very Hard for Loot",
+	x: -5.0d,
+	y: -1.0d,
+	dependencies: [
+		"280bc181"
+	],
+	hide: true,
+	tasks: [{
+		uid: "88589000",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thermalexpansion:satchel",
+			tag: {
+				Accessible: 1
+			},
+			Damage: 1s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "41462725",
+		type: "loot",
+		table: 7
+	}]
+}

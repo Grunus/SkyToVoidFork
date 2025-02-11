@@ -1,0 +1,31 @@
+{
+	title: "Mithril",
+	x: 12.5d,
+	y: 2.0d,
+	dependencies: [
+		"81b1cd10"
+	],
+	hide: true,
+	tasks: [{
+		uid: "15f2e359",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "metallurgy:mithril_ingot"
+		}],
+		count: 10L
+	}],
+	rewards: [{
+		uid: "a637857f",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "camscurrency:dupondius"
+		},
+		count: 10
+	}]
+}

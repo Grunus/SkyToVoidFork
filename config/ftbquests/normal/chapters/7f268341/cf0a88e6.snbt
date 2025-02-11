@@ -1,0 +1,26 @@
+{
+	x: -1.5d,
+	y: 8.5d,
+	description: "Specify what blocks to destroy when entering your inventory.",
+	dependencies: [
+		"323c2d1d"
+	],
+	hide: true,
+	tasks: [{
+		uid: "7590a588",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "darkutils:charm_null"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "209cb77f",
+		type: "loot",
+		table: 20
+	}]
+}

@@ -1,0 +1,126 @@
+{
+	title: "Forget About the Potion Seller!",
+	x: 16.5d,
+	y: 9.0d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"0d5b0cb0"
+	],
+	hide: true,
+	tasks: [{
+		uid: "82a4bd5e",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "industrialforegoing:potion_enervator"
+		}]
+	}],
+	rewards: [{
+		uid: "e4996a2f",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:potion",
+			tag: {
+				CustomPotionColor: 7194780,
+				CustomPotionEffects: [{
+					Ambient: 0b,
+					CurativeItems: [{
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": {}
+						},
+						id: "minecraft:milk_bucket",
+						Count: 1b,
+						Damage: 0s
+					}],
+					ShowParticles: 1b,
+					Duration: 1200,
+					Id: 22b,
+					Amplifier: 2b
+				},
+				{
+					Ambient: 0b,
+					CurativeItems: [{
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": {}
+						},
+						id: "minecraft:milk_bucket",
+						Count: 1b,
+						Damage: 0s
+					}],
+					ShowParticles: 1b,
+					Duration: 600,
+					Id: 58b,
+					Amplifier: 0b
+				},
+				{
+					Ambient: 0b,
+					CurativeItems: [{
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": {}
+						},
+						id: "minecraft:milk_bucket",
+						Count: 1b,
+						Damage: 0s
+					}],
+					ShowParticles: 1b,
+					Duration: 50,
+					Id: 6b,
+					Amplifier: 0b
+				},
+				{
+					Ambient: 0b,
+					CurativeItems: [{
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": {}
+						},
+						id: "minecraft:milk_bucket",
+						Count: 1b,
+						Damage: 0s
+					}],
+					ShowParticles: 1b,
+					Duration: 1200,
+					Id: 8b,
+					Amplifier: 2b
+				},
+				{
+					Ambient: 0b,
+					CurativeItems: [{
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": {}
+						},
+						id: "minecraft:milk_bucket",
+						Count: 1b,
+						Damage: 0s
+					}],
+					ShowParticles: 1b,
+					Duration: 150,
+					Id: 82b,
+					Amplifier: 0b
+				},
+				{
+					Ambient: 0b,
+					CurativeItems: [{
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": {}
+						},
+						id: "minecraft:milk_bucket",
+						Count: 1b,
+						Damage: 0s
+					}],
+					ShowParticles: 1b,
+					Duration: 1200,
+					Id: 4b,
+					Amplifier: 5b
+				}],
+				display: {
+					Name: "Potion From the Potion Seller"
+				}
+			}
+		}
+	}]
+}

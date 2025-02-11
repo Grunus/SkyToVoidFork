@@ -1,0 +1,66 @@
+{
+	title: "Phantoms Calling",
+	x: -8.0d,
+	y: 0.5d,
+	shape: "diamond",
+	description: "Connect your mind with the showers of the damned in the Soulless Sanctuary",
+	text: [
+		""
+	],
+	dependencies: [
+		"6893354e"
+	],
+	hide: true,
+	tasks: [{
+		uid: "ace9d846",
+		type: "location",
+		title: "-714 80 244",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "openblocks:tank",
+			tag: {
+				tank: {
+					FluidName: "witchwater",
+					Amount: 16000
+				}
+			}
+		},
+		location: [I;
+			0,
+			-715,
+			80,
+			244,
+			2,
+			2,
+			2
+		]
+	},
+	{
+		uid: "6870ae4e",
+		type: "location",
+		title: "-660 66 227",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "openblocks:tank",
+			tag: {
+				tank: {
+					FluidName: "witchwater",
+					Amount: 16000
+				}
+			}
+		},
+		location: [I;
+			0,
+			-661,
+			66,
+			227,
+			2,
+			2,
+			2
+		]
+	}]
+}

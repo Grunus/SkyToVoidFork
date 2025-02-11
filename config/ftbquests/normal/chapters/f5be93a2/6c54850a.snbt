@@ -1,0 +1,65 @@
+{
+	title: "Alþrúðr III",
+	x: 1.0d,
+	y: 12.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"d8718d50"
+	],
+	tasks: [{
+		uid: "7990c604",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "appliedenergistics2:material",
+			Damage: 24s
+		}],
+		count: 16L,
+		consume_items: true
+	},
+	{
+		uid: "779dfb2b",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "appliedenergistics2:material",
+			Damage: 23s
+		}],
+		count: 16L,
+		consume_items: true
+	},
+	{
+		uid: "cfbedb2c",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "appliedenergistics2:material",
+			Damage: 22s
+		}],
+		count: 16L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "a5b05769",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "artifacts:magma_stone"
+		}
+	},
+	{
+		uid: "4b2d4635",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

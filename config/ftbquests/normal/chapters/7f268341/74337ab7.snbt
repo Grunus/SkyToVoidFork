@@ -1,0 +1,49 @@
+{
+	title: "Tanked",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "thermalexpansion:tank",
+		tag: {
+			RSControl: 0,
+			Level: 0
+		}
+	},
+	x: -7.0d,
+	y: -3.0d,
+	description: "Have so much of a liquid you don't have enough storage for? Craft a portable tank!",
+	text: [
+		"Crescent Hammers can also pickup tanks without the liquid vanishing."
+	],
+	dependencies: [
+		"904c1843"
+	],
+	hide: true,
+	tasks: [{
+		uid: "3e76b06d",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thermalexpansion:tank",
+			tag: {
+				RSControl: 0,
+				Level: 0
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "0654060a",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "claybucket:claybucket",
+			Damage: 2s
+		}
+	}]
+}

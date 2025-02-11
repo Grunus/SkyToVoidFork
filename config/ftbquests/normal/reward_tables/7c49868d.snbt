@@ -1,0 +1,187 @@
+{
+	title: "Corrupted",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "industrialforegoing:laser_lens_inverted",
+		Damage: 10s
+	},
+	loot_size: 1,
+	hide_tooltip: true,
+	use_title: true,
+	rewards: [{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "biomesoplenty:gem"
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "chisel:antiblock",
+			Damage: 5s
+		},
+		count: 5
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "metallurgy:eximite_helmet",
+			tag: {
+				ench: [{
+					lvl: 4s,
+					id: 43s
+				},
+				{
+					lvl: 3s,
+					id: 4s
+				},
+				{
+					lvl: 2s,
+					id: 5s
+				},
+				{
+					lvl: 10s,
+					id: 1s
+				},
+				{
+					lvl: 1s,
+					id: 10s
+				}],
+				display: {
+					Lore: [
+						"The mask inside of the Kins of this Islet",
+						"Wearing it makes you feel isolated..."
+					],
+					Name: "Mask of the Kin"
+				},
+				AttributeModifiers: [{
+					UUIDMost: 3086076556416732775L,
+					UUIDLeast: -5150312587563650736L,
+					Amount: 4.0d,
+					Slot: "head",
+					AttributeName: "generic.armor",
+					Operation: 0,
+					Name: "generic.armor"
+				},
+				{
+					UUIDMost: 3086076556416732775L,
+					UUIDLeast: -5150312587563650736L,
+					Amount: 2.0d,
+					Slot: "head",
+					AttributeName: "generic.armorToughness",
+					Operation: 0,
+					Name: "generic.armorToughness"
+				},
+				{
+					UUIDMost: -7425814921997300969L,
+					UUIDLeast: -8999467750891573613L,
+					Amount: -2.0d,
+					Slot: "head",
+					AttributeName: "generic.maxHealth",
+					Operation: 0,
+					Name: "generic.maxHealth"
+				}]
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "camscurrency:denarius"
+		},
+		count: 8
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "exnihilocreatio:witchwater"
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "conarm:boots",
+			tag: {
+				StatsOriginal: {
+					Toughness: 3.0f,
+					FreeModifiers: 3,
+					Durability: 279,
+					Defense: 4.0f
+				},
+				display: {
+					Name: "MUCK. MUCK. MUCK."
+				},
+				Stats: {
+					Toughness: 3.0f,
+					FreeModifiers: 0,
+					Durability: 418,
+					Defense: 4.0f
+				},
+				TinkerData: {
+					UsedModifiers: 3,
+					Materials: [
+						"bone",
+						"kalendrite",
+						"sponge"
+					],
+					Modifiers: [
+						"resistant_armor",
+						"emerald_armor",
+						"parasitic_armor"
+					]
+				},
+				Modifiers: [{
+					identifier: "calcic_armor",
+					color: -1186113,
+					level: 1
+				},
+				{
+					identifier: "strongly_armor",
+					color: -6733347,
+					strongly0_armor: 1b
+				},
+				{
+					identifier: "absorbent_armor",
+					color: -3486642,
+					level: 1
+				},
+				{
+					identifier: "resistant_armor",
+					color: 16774902,
+					level: 1,
+					modifierUsed: 1b
+				},
+				{
+					identifier: "emerald_armor",
+					color: 4322180
+				},
+				{
+					identifier: "parasitic_armor",
+					color: 6160384,
+					level: 1
+				}],
+				Traits: [
+					"calcic_armor",
+					"strongly0_armor",
+					"absorbent_armor",
+					"resistant_armor",
+					"parasitic_armor"
+				]
+			}
+		}
+	}]
+}

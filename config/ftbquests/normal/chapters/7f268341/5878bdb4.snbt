@@ -1,0 +1,27 @@
+{
+	title: "Two Letter Difference, Whole New Item",
+	x: 19.5d,
+	y: -1.5d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"9aceafba"
+	],
+	hide: true,
+	tasks: [{
+		uid: "26e92423",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "enderio:item_alloy_ingot",
+			Damage: 7s
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "f8180329",
+		type: "loot",
+		table: 34
+	}]
+}

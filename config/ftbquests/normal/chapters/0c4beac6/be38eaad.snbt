@@ -1,0 +1,38 @@
+{
+	title: "Tier I Primitive Reward",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "tconstruct:shard",
+		tag: {
+			Material: "flint"
+		}
+	},
+	x: -3.0d,
+	y: 3.5d,
+	can_repeat: true,
+	dependencies: [
+		"3ee3aab5",
+		"0fa01cd3"
+	],
+	hide: true,
+	optional: true,
+	tasks: [{
+		uid: "eca2083c",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "camscurrency:denarius"
+		}],
+		count: 8L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "80585763",
+		type: "loot",
+		table: 0
+	}]
+}

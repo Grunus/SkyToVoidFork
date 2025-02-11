@@ -1,0 +1,39 @@
+{
+	title: "Ender IO Row",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "enderio:block_cap_bank",
+		tag: {
+			"enderio:energy": 50000000
+		}
+	},
+	x: -10.0d,
+	y: 2.5d,
+	description: "''I must say, Ender IO got some very scary things in it, like using souls of the damned to make ingots! Imagine your soul being smelted down into one side of a Soul Binder block.''",
+	text: [
+		"Complete these 4 quests in Ender IO section to unlock all Ender IO Tier Rewards.",
+		"",
+		"- ''Simple Glider''",
+		"- ''Dark Knight''",
+		"- ''The Enhanced World''",
+		"- ''Enderworld''"
+	],
+	dependencies: [
+		"a72d59e9",
+		"f506efd7"
+	],
+	hide: true,
+	tasks: [{
+		uid: "61fd65dd",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "camscurrency:aureus"
+		}],
+		consume_items: true
+	}]
+}

@@ -1,0 +1,35 @@
+{
+	title: "Psi Row",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "psi:cad_colorizer_",
+		Damage: 15s
+	},
+	x: -6.0d,
+	y: 2.5d,
+	description: "''Now, I might be biased... but this is a REALLY cool row!",
+	text: [
+		"Complete these 2 quests in Psi section to unlock all Psi Tier Rewards.",
+		"",
+		"- ''Fade CAD''",
+		"- ''The Power Coder''"
+	],
+	dependencies: [
+		"a72d59e9",
+		"5d4dae8b"
+	],
+	hide: true,
+	tasks: [{
+		uid: "a0dee194",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "camscurrency:aureus"
+		}],
+		consume_items: true
+	}]
+}

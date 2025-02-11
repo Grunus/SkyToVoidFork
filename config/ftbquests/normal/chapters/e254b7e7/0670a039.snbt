@@ -1,0 +1,30 @@
+{
+	title: "the 0belisk",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "contenttweaker:obj_obelisk",
+		tag: {
+			display: {
+				Name: "Obelisk"
+			}
+		}
+	},
+	x: 3.5d,
+	y: -20.0d,
+	text: [
+		"How is this possible? Don't open that Obelisk mortal. You will regret everything."
+	],
+	dependencies: [
+		"25e6e022",
+		"5d469f0d"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "41de130c",
+		type: "checkmark",
+		title: "The Obelisk"
+	}]
+}

@@ -1,0 +1,38 @@
+{
+	title: "Nytemart I",
+	x: -1.0d,
+	y: 11.5d,
+	dependencies: [
+		"e4b85cee"
+	],
+	hide: true,
+	tasks: [{
+		uid: "3d1f2c0f",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thermalfoundation:storage_alloy",
+			Damage: 5s
+		}],
+		count: 8L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "2e3b3c76",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "camscurrency:denarius"
+		},
+		count: 32
+	},
+	{
+		uid: "91064a2a",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	}]
+}

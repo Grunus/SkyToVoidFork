@@ -1,0 +1,30 @@
+{
+	title: "Depot Delta I",
+	x: -23.0d,
+	y: 2.0d,
+	shape: "hexagon",
+	dependencies: [
+		"996ee067"
+	],
+	hide: true,
+	tasks: [{
+		uid: "0f39678d",
+		type: "location",
+		title: "-1627 156 192",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "metallurgy:gold_engraved_block"
+		},
+		location: [I;
+			0,
+			-1628,
+			156,
+			192,
+			5,
+			5,
+			5
+		]
+	}]
+}

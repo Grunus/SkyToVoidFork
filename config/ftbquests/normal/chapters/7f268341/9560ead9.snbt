@@ -1,0 +1,27 @@
+{
+	x: 19.5d,
+	y: 3.5d,
+	description: "A more organized version of a hopper.",
+	text: [
+		""
+	],
+	dependencies: [
+		"cf32e0ee"
+	],
+	hide: true,
+	tasks: [{
+		uid: "41a54b05",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "enderio:block_impulse_hopper"
+		}]
+	}],
+	rewards: [{
+		uid: "3dc06392",
+		type: "loot",
+		table: 35
+	}]
+}

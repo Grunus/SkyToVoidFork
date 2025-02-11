@@ -1,0 +1,34 @@
+{
+	title: "Openblocks Reward",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "openblocks:golden_egg"
+	},
+	x: -12.0d,
+	y: 3.5d,
+	can_repeat: true,
+	dependencies: [
+		"63717e88",
+		"a18db04b"
+	],
+	hide: true,
+	optional: true,
+	tasks: [{
+		uid: "dae31c66",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "camscurrency:denarius"
+		}],
+		count: 8L
+	}],
+	rewards: [{
+		uid: "b0674d9f",
+		type: "loot",
+		table: 31
+	}]
+}

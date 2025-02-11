@@ -1,0 +1,33 @@
+{
+	title: "What a Process",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "minecraft:iron_pickaxe"
+	},
+	x: 5.5d,
+	y: 13.0d,
+	dependencies: [
+		"f2658a75"
+	],
+	hide: true,
+	tasks: [{
+		uid: "51b5d042",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "tconstruct:pick_head",
+			tag: {
+				Material: "iron"
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "1bc386da",
+		type: "loot",
+		table: 4
+	}]
+}

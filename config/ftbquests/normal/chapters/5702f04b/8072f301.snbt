@@ -1,0 +1,30 @@
+{
+	title: "Good as New",
+	x: -9.5d,
+	y: 19.0d,
+	description: "Using the Imbuement Alter and spectral dust, you can renew ruined spell books.",
+	text: [
+		""
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"d6fc2739"
+	],
+	hide: true,
+	tasks: [{
+		uid: "41620a3e",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ebwizardry:ruined_spell_book"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "8bc787b9",
+		type: "loot",
+		table: 24
+	}]
+}

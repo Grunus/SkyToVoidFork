@@ -1,0 +1,44 @@
+{
+	title: "Growing for Science",
+	x: -17.5d,
+	y: 5.5d,
+	description: "Throwing this into water will create Pure Fluix Crystals.",
+	text: [
+		"So I hope you have 12 hours."
+	],
+	dependencies: [
+		"a09ed600",
+		"aa9c6a1e"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "c9eeba9e",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "appliedenergistics2:crystal_seed",
+			tag: {
+				progress: 1200
+			},
+			Damage: 1200s
+		}]
+	}],
+	rewards: [{
+		uid: "4697ec90",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "appliedenergistics2:crystal_seed",
+			tag: {
+				progress: 1200
+			},
+			Damage: 1200s
+		},
+		random_bonus: 3
+	}]
+}

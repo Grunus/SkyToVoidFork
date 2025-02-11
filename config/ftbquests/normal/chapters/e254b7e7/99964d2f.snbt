@@ -1,0 +1,239 @@
+{
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "conarm:chestplate",
+		tag: {
+			StatsOriginal: {
+				Toughness: 1.0f,
+				FreeModifiers: 3,
+				Durability: 409,
+				Defense: 12.0f
+			},
+			display: {
+				Lore: [
+					"Not the muscle man you're thinking of."
+				],
+				Name: "Muscle Man"
+			},
+			Stats: {
+				Toughness: 3.5f,
+				FreeModifiers: 1,
+				Durability: 763,
+				Defense: 16.0f
+			},
+			TinkerData: {
+				UsedModifiers: 2,
+				Materials: [
+					"bronze",
+					"pigiron",
+					"bone"
+				],
+				Modifiers: [
+					"diamond_armor",
+					"emerald_armor"
+				]
+			},
+			AttributeModifiers: [{
+				UUIDMost: -6972338111383059132L,
+				UUIDLeast: -8978659762232839026L,
+				Amount: 4.800000190734863d,
+				Slot: "chest",
+				AttributeName: "generic.armor",
+				Operation: 0,
+				Name: "generic.armor"
+			},
+			{
+				UUIDMost: -6972338111383059132L,
+				UUIDLeast: -8978659762232839026L,
+				Amount: 1.5d,
+				Slot: "chest",
+				AttributeName: "generic.armorToughness",
+				Operation: 0,
+				Name: "generic.armorToughness"
+			},
+			{
+				UUIDMost: 5541898575540338944L,
+				UUIDLeast: -6509723165540286367L,
+				Amount: 4.0d,
+				Slot: "chest",
+				AttributeName: "generic.maxHealth",
+				Operation: 0,
+				Name: "generic.maxHealth"
+			},
+			{
+				UUIDMost: -6515749009643125306L,
+				UUIDLeast: -4870323654906113081L,
+				Amount: -0.1d,
+				Slot: "chest",
+				AttributeName: "generic.movementSpeed",
+				Operation: 1,
+				Name: "generic.movementSpeed"
+			}],
+			Modifiers: [{
+				identifier: "dense_armor",
+				color: -1852056,
+				level: 1
+			},
+			{
+				identifier: "tasty_armor",
+				color: -1073509,
+				level: 1
+			},
+			{
+				identifier: "skeletal_armor",
+				color: -1186113,
+				level: 1
+			},
+			{
+				identifier: "diamond_armor",
+				color: 9237730
+			},
+			{
+				identifier: "emerald_armor",
+				color: 4322180
+			}],
+			Traits: [
+				"dense_armor",
+				"tasty_armor",
+				"skeletal_armor"
+			]
+		}
+	},
+	x: 0.0d,
+	y: -8.5d,
+	shape: "diamond",
+	description: "Completed all 7 progression quests in this island layer.",
+	text: [
+		""
+	],
+	dependencies: [
+		"cbb937cd",
+		"d15e735b",
+		"88e05bf8",
+		"d2b2f968",
+		"5aede2b6",
+		"255852c3",
+		"3b756919"
+	],
+	hide: true,
+	size: 1.5d,
+	tasks: [{
+		uid: "c121f971",
+		type: "checkmark",
+		title: "Layer 3 Quests Completed",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "contenttweaker:objectives"
+		}
+	}],
+	rewards: [{
+		uid: "c077db67",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "conarm:chestplate",
+			tag: {
+				StatsOriginal: {
+					Toughness: 1.0f,
+					FreeModifiers: 3,
+					Durability: 409,
+					Defense: 12.0f
+				},
+				display: {
+					Lore: [
+						"Not the muscle man you're thinking of."
+					],
+					Name: "Muscle Man"
+				},
+				Stats: {
+					Toughness: 3.5f,
+					FreeModifiers: 1,
+					Durability: 763,
+					Defense: 16.0f
+				},
+				TinkerData: {
+					UsedModifiers: 2,
+					Materials: [
+						"bronze",
+						"pigiron",
+						"bone"
+					],
+					Modifiers: [
+						"diamond_armor",
+						"emerald_armor"
+					]
+				},
+				AttributeModifiers: [{
+					UUIDMost: -6972338111383059132L,
+					UUIDLeast: -8978659762232839026L,
+					Amount: 4.800000190734863d,
+					Slot: "chest",
+					AttributeName: "generic.armor",
+					Operation: 0,
+					Name: "generic.armor"
+				},
+				{
+					UUIDMost: -6972338111383059132L,
+					UUIDLeast: -8978659762232839026L,
+					Amount: 1.5d,
+					Slot: "chest",
+					AttributeName: "generic.armorToughness",
+					Operation: 0,
+					Name: "generic.armorToughness"
+				},
+				{
+					UUIDMost: 5541898575540338944L,
+					UUIDLeast: -6509723165540286367L,
+					Amount: 4.0d,
+					Slot: "chest",
+					AttributeName: "generic.maxHealth",
+					Operation: 0,
+					Name: "generic.maxHealth"
+				},
+				{
+					UUIDMost: -6515749009643125306L,
+					UUIDLeast: -4870323654906113081L,
+					Amount: -0.1d,
+					Slot: "chest",
+					AttributeName: "generic.movementSpeed",
+					Operation: 1,
+					Name: "generic.movementSpeed"
+				}],
+				Modifiers: [{
+					identifier: "dense_armor",
+					color: -1852056,
+					level: 1
+				},
+				{
+					identifier: "tasty_armor",
+					color: -1073509,
+					level: 1
+				},
+				{
+					identifier: "skeletal_armor",
+					color: -1186113,
+					level: 1
+				},
+				{
+					identifier: "diamond_armor",
+					color: 9237730
+				},
+				{
+					identifier: "emerald_armor",
+					color: 4322180
+				}],
+				Traits: [
+					"dense_armor",
+					"tasty_armor",
+					"skeletal_armor"
+				]
+			}
+		}
+	}]
+}

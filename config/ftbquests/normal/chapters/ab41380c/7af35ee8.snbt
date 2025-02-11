@@ -1,0 +1,35 @@
+{
+	title: "Observation: Concussion Creeper",
+	x: 2.0d,
+	y: 8.5d,
+	shape: "pentagon",
+	hide_dependency_lines: true,
+	dependencies: [
+		"640381b7"
+	],
+	hide: true,
+	tasks: [{
+		uid: "2b0f5c8a",
+		type: "observation",
+		title: "Observe a Concussion Creeper",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:spawn_egg",
+			tag: {
+				EntityTag: {
+					id: "enderiozoo:concussioncreeper"
+				}
+			}
+		},
+		match_type: "entity_id",
+		match: "enderiozoo:concussioncreeper",
+		timer: 100L
+	}],
+	rewards: [{
+		uid: "16e235a7",
+		type: "ftbmoney:money",
+		ftb_money: 35L
+	}]
+}

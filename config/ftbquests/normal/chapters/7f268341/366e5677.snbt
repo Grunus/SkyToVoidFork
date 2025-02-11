@@ -1,0 +1,41 @@
+{
+	title: "Ignis and Glacies",
+	x: -3.0d,
+	y: -2.0d,
+	description: "Igneous Extruders are another way to create cobblestone, as well as stone and many other blocks.",
+	dependencies: [
+		"3e64a70d"
+	],
+	hide: true,
+	tasks: [{
+		uid: "f3fff6f1",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thermalexpansion:machine",
+			tag: {
+				RSControl: 0b,
+				Facing: 3b,
+				Energy: 0,
+				SideCache: [B;
+					1b,
+					1b,
+					2b,
+					2b,
+					2b,
+					2b
+				],
+				Level: 0b
+			},
+			Damage: 15s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "cdbd93a5",
+		type: "loot",
+		table: 8
+	}]
+}

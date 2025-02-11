@@ -1,0 +1,103 @@
+{
+	title: "Silky Goodness",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "exnihilocreatio:crook_tconstruct",
+		tag: {
+			StatsOriginal: {
+				AttackSpeedMultiplier: 1.0f,
+				MiningSpeed: 2.0f,
+				FreeModifiers: 3,
+				Durability: 75,
+				HarvestLevel: 0,
+				Attack: 2.0f
+			},
+			Stats: {
+				AttackSpeedMultiplier: 1.0f,
+				MiningSpeed: 2.0f,
+				FreeModifiers: 3,
+				Durability: 75,
+				HarvestLevel: 0,
+				Attack: 2.0f
+			},
+			Special: {
+				Categories: [
+					"tool",
+					"aoe",
+					"harvest"
+				]
+			},
+			TinkerData: {
+				Materials: [
+					"wood",
+					"wood",
+					"wood",
+					"wood"
+				],
+				Modifiers: [
+					"toolleveling"
+				]
+			},
+			Modifiers: [{
+				identifier: "ecological",
+				color: -7444965,
+				level: 1
+			},
+			{
+				identifier: "toolleveling",
+				color: 16777215,
+				level: 1
+			}],
+			Traits: [
+				"ecological",
+				"toolleveling"
+			]
+		}
+	},
+	x: 1.0d,
+	y: 4.0d,
+	shape: "hexagon",
+	description: "With the crook you'll want to break leaves. There is a chance that a silkworm will drop.",
+	text: [
+		"Place a silkworm onto more leaves and the leaves will become infested. once they're fully infested you can collect string (note that infested leaves don't drop saplings)."
+	],
+	dependencies: [
+		"db711c5d"
+	],
+	hide: true,
+	tasks: [{
+		uid: "ec0b7bf3",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "exnihilocreatio:item_material",
+			Damage: 2s
+		}]
+	},
+	{
+		uid: "576e02b9",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "exnihilocreatio:crook_wood"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "f8d03158",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "exnihilocreatio:block_infesting_leaves"
+		}
+	}]
+}

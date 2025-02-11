@@ -1,0 +1,42 @@
+{
+	title: "9^9",
+	x: -13.5d,
+	y: 8.0d,
+	dependencies: [
+		"95fa4357"
+	],
+	hide: true,
+	tasks: [{
+		uid: "59ae6862",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "appliedenergistics2:dense_energy_cell",
+			tag: {}
+		}],
+		count: 128L,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "a57adf88",
+		type: "loot",
+		table: 16
+	},
+	{
+		uid: "1354cf50",
+		type: "loot",
+		table: 16
+	},
+	{
+		uid: "480f923b",
+		type: "loot",
+		table: 16
+	},
+	{
+		uid: "054fd01a",
+		type: "loot",
+		table: 16
+	}]
+}

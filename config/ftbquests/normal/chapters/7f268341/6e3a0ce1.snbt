@@ -1,0 +1,38 @@
+{
+	title: "Putting the In in Interface",
+	x: -13.5d,
+	y: 7.0d,
+	description: "Now with your Crafting Pattern place it inside the interface once you made it.",
+	text: [
+		"You will also need an Moleculer Assembler. Attach the assembler onto the ME interface."
+	],
+	dependencies: [
+		"5fcf3856"
+	],
+	hide: true,
+	tasks: [{
+		uid: "c9e83897",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "appliedenergistics2:interface"
+		}]
+	},
+	{
+		uid: "3953feb1",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "appliedenergistics2:molecular_assembler"
+		}]
+	}],
+	rewards: [{
+		uid: "617ef8fe",
+		type: "loot",
+		table: 15
+	}]
+}

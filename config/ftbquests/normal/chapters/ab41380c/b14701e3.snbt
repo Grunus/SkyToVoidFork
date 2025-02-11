@@ -1,0 +1,47 @@
+{
+	title: "Lost Mushroom Island",
+	x: -3.0d,
+	y: -4.0d,
+	description: "Lost from its bigger mass.",
+	hide_dependency_lines: true,
+	dependencies: [
+		"2bd5aaf9",
+		"56904fde"
+	],
+	hide: true,
+	tasks: [{
+		uid: "6b05a4e5",
+		type: "location",
+		title: "-91 170 -116",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:mycelium"
+		},
+		location: [I;
+			0,
+			-94,
+			170,
+			-119,
+			5,
+			5,
+			5
+		]
+	}],
+	rewards: [{
+		uid: "9c44d6ec",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "harvestcraft:baconmushroomburgeritem"
+		}
+	},
+	{
+		uid: "3b081fdd",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

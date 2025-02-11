@@ -1,0 +1,306 @@
+{
+	title: "Brew Time",
+	x: -3.0d,
+	y: 9.0d,
+	dependencies: [
+		"7aed858a"
+	],
+	hide: true,
+	tasks: [{
+		uid: "02944565",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:brewing_stand"
+		}]
+	}],
+	rewards: [{
+		uid: "9c1c3799",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:potion",
+			tag: {
+				CustomPotionColor: 0,
+				CustomPotionEffects: [{
+					Ambient: 0,
+					CurativeItems: [{
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": {}
+						},
+						id: "minecraft:milk_bucket",
+						Count: 1,
+						Damage: 0
+					}],
+					ShowParticles: 1,
+					Duration: 7215,
+					Id: 22,
+					Amplifier: 9
+				},
+				{
+					Ambient: 0,
+					CurativeItems: [{
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": {}
+						},
+						id: "minecraft:milk_bucket",
+						Count: 1,
+						Damage: 0
+					}],
+					ShowParticles: 1,
+					Duration: 7215,
+					Id: 64,
+					Amplifier: 11
+				},
+				{
+					Ambient: 0,
+					CurativeItems: [{
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": {}
+						},
+						id: "minecraft:milk_bucket",
+						Count: 1,
+						Damage: 0
+					}],
+					ShowParticles: 1,
+					Duration: 7215,
+					Id: 12,
+					Amplifier: 1
+				},
+				{
+					Ambient: 0,
+					CurativeItems: [{
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": {}
+						},
+						id: "minecraft:milk_bucket",
+						Count: 1,
+						Damage: 0
+					}],
+					ShowParticles: 1,
+					Duration: 7215,
+					Id: 113,
+					Amplifier: 1
+				},
+				{
+					Ambient: 0,
+					CurativeItems: [{
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": {}
+						},
+						id: "minecraft:milk_bucket",
+						Count: 1,
+						Damage: 0
+					}],
+					ShowParticles: 1,
+					Duration: 7215,
+					Id: 3,
+					Amplifier: 19
+				},
+				{
+					Ambient: 0,
+					CurativeItems: [{
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": {}
+						},
+						id: "minecraft:milk_bucket",
+						Count: 1,
+						Damage: 0
+					}],
+					ShowParticles: 1,
+					Duration: 7215,
+					Id: 21,
+					Amplifier: 5
+				},
+				{
+					Ambient: 0,
+					CurativeItems: [{
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": {}
+						},
+						id: "minecraft:milk_bucket",
+						Count: 1,
+						Damage: 0
+					}],
+					ShowParticles: 1,
+					Duration: 7215,
+					Id: 8,
+					Amplifier: 12
+				},
+				{
+					Ambient: 0,
+					CurativeItems: [{
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": {}
+						},
+						id: "minecraft:milk_bucket",
+						Count: 1,
+						Damage: 0
+					}],
+					ShowParticles: 1,
+					Duration: 7215,
+					Id: 10,
+					Amplifier: 1
+				},
+				{
+					Ambient: 0,
+					CurativeItems: [{
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": {}
+						},
+						id: "minecraft:milk_bucket",
+						Count: 1,
+						Damage: 0
+					}],
+					ShowParticles: 1,
+					Duration: 7215,
+					Id: 1,
+					Amplifier: 7
+				},
+				{
+					Ambient: 0,
+					CurativeItems: [{
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": {}
+						},
+						id: "minecraft:milk_bucket",
+						Count: 1,
+						Damage: 0
+					}],
+					ShowParticles: 1,
+					Duration: 7215,
+					Id: 5,
+					Amplifier: 3
+				},
+				{
+					Ambient: 0,
+					CurativeItems: [{
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": {}
+						},
+						id: "minecraft:milk_bucket",
+						Count: 1,
+						Damage: 0
+					}],
+					ShowParticles: 1,
+					Duration: 1215,
+					Id: 15,
+					Amplifier: 1
+				},
+				{
+					Ambient: 0,
+					CurativeItems: [{
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": {}
+						},
+						id: "minecraft:milk_bucket",
+						Count: 1,
+						Damage: 0
+					}],
+					ShowParticles: 1,
+					Duration: 1515,
+					Id: 90,
+					Amplifier: 11
+				},
+				{
+					Ambient: 0,
+					CurativeItems: [{
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": {}
+						},
+						id: "minecraft:milk_bucket",
+						Count: 1,
+						Damage: 0
+					}],
+					ShowParticles: 1,
+					Duration: 7215,
+					Id: 17,
+					Amplifier: 7
+				},
+				{
+					Ambient: 0,
+					CurativeItems: [{
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": {}
+						},
+						id: "minecraft:milk_bucket",
+						Count: 1,
+						Damage: 0
+					}],
+					ShowParticles: 1,
+					Duration: 1215,
+					Id: 4,
+					Amplifier: 19
+				},
+				{
+					Ambient: 0,
+					CurativeItems: [{
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": {}
+						},
+						id: "minecraft:milk_bucket",
+						Count: 1,
+						Damage: 0
+					}],
+					ShowParticles: 1,
+					Duration: 215,
+					Id: 9,
+					Amplifier: 100
+				},
+				{
+					Ambient: 0,
+					CurativeItems: [{
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": {}
+						},
+						id: "minecraft:milk_bucket",
+						Count: 1,
+						Damage: 0
+					}],
+					ShowParticles: 1,
+					Duration: 215,
+					Id: 19,
+					Amplifier: 4
+				},
+				{
+					Ambient: 0,
+					CurativeItems: [{
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": {}
+						},
+						id: "minecraft:milk_bucket",
+						Count: 1,
+						Damage: 0
+					}],
+					ShowParticles: 1,
+					Duration: 1215,
+					Id: 18,
+					Amplifier: 50
+				},
+				{
+					Ambient: 0,
+					CurativeItems: [{
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": {}
+						},
+						id: "minecraft:milk_bucket",
+						Count: 1,
+						Damage: 0
+					}],
+					ShowParticles: 1,
+					Duration: 65,
+					Id: 20,
+					Amplifier: 1
+				}],
+				RepairCost: 0,
+				display: {
+					Name: "Potion From The Potion Seller"
+				}
+			}
+		}
+	}]
+}

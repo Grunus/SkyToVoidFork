@@ -1,0 +1,27 @@
+{
+	title: "Almighty Squid?",
+	x: 1.5d,
+	y: 8.5d,
+	description: "Similar mechanics from the chicken wing ring.",
+	dependencies: [
+		"3d3f3f0d"
+	],
+	hide: true,
+	tasks: [{
+		uid: "74ec27b0",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "extrautils2:chickenring",
+			Damage: 1s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "d711ae65",
+		type: "loot",
+		table: 18
+	}]
+}

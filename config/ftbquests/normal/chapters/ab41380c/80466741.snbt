@@ -1,0 +1,33 @@
+{
+	title: "Pure",
+	x: 13.5d,
+	y: -13.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"05faa4f9"
+	],
+	hide: true,
+	size: 1.8d,
+	tasks: [{
+		uid: "462eb026",
+		type: "location",
+		title: "794 206 -833",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "biomesoplenty:white_sand"
+		},
+		location: [I;
+			0,
+			791,
+			206,
+			-836,
+			5,
+			5,
+			5
+		]
+	}]
+}

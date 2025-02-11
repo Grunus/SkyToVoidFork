@@ -1,0 +1,53 @@
+{
+	title: "Crystal Equipment",
+	x: 3.0d,
+	y: 11.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"ec0c5b6a"
+	],
+	hide: true,
+	tasks: [{
+		uid: "fa3ce05f",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "cyclicmagic:crystal_pickaxe"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "c717a56b",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "cyclicmagic:crystal_spade"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "e28951de",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "cyclicmagic:crystal_sword"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "012601a5",
+		type: "loot",
+		table: 53
+	}]
+}

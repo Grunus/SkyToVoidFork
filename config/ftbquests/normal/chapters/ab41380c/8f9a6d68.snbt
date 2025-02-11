@@ -1,0 +1,63 @@
+{
+	title: "Void Capsule",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "contenttweaker:5_void",
+		tag: {
+			display: {
+				Lore: [
+					"Gain access to Locked Away Mission.",
+					"",
+					"",
+					"Can be used on the door in Mission Hub."
+				],
+				Name: "Void Capsule"
+			}
+		}
+	},
+	x: -1.0d,
+	y: 22.0d,
+	shape: "diamond",
+	description: "You can now buy Void Capsule, if needed.",
+	can_repeat: true,
+	dependencies: [
+		"ff24e10e"
+	],
+	hide: true,
+	optional: true,
+	tasks: [{
+		uid: "b3de3cad",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "camscurrency:denarius"
+		}],
+		count: 16L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "6e19e199",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "contenttweaker:5_void",
+			tag: {
+				display: {
+					Lore: [
+						"Gain access to Locked Away Mission.",
+						"",
+						"",
+						"Can be used on the door in Mission Hub."
+					],
+					Name: "Void Capsule"
+				}
+			}
+		}
+	}]
+}

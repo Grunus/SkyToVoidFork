@@ -1,0 +1,40 @@
+{
+	title: "Wrong Obelisk!",
+	x: 17.0d,
+	y: 0.5d,
+	description: "You can store and suck up XP using an XP Vacuum and an Experience Obelisk.",
+	text: [
+		"To activate the Vacuum, Pour Liquid XP into it."
+	],
+	dependencies: [
+		"26a10654",
+		"601fd098"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "838bb240",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "enderio:block_xp_vacuum"
+		}]
+	},
+	{
+		uid: "ef4cb67c",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "enderio:block_experience_obelisk"
+		}]
+	}],
+	rewards: [{
+		uid: "1d6acff6",
+		type: "loot",
+		table: 35
+	}]
+}

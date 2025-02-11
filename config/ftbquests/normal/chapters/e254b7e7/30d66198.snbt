@@ -1,0 +1,44 @@
+{
+	title: "Binding Minds",
+	x: -1.0d,
+	y: -22.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"996ee067"
+	],
+	hide: true,
+	tasks: [{
+		uid: "ac92e999",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "psi:psi_decorative",
+			Damage: 1s
+		}]
+	}],
+	rewards: [{
+		uid: "5db7ce1f",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "camscurrency:denarius"
+		},
+		count: 6
+	},
+	{
+		uid: "d03a6e73",
+		type: "loot",
+		table: 50
+	},
+	{
+		uid: "ba0ea45a",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	}]
+}

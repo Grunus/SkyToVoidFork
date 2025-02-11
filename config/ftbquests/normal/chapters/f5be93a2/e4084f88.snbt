@@ -1,0 +1,49 @@
+{
+	title: "Hullabaloo I",
+	x: -0.5d,
+	y: 10.5d,
+	dependencies: [
+		"a481a790"
+	],
+	hide: true,
+	tasks: [{
+		uid: "f145b766",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:brown_mushroom"
+		}],
+		count: 64L,
+		consume_items: true
+	},
+	{
+		uid: "6a7cf8e8",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:red_mushroom"
+		}],
+		count: 64L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "47a57c22",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "camscurrency:denarius"
+		},
+		count: 32
+	},
+	{
+		uid: "3b238063",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

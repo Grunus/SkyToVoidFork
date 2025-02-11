@@ -1,0 +1,32 @@
+{
+	title: "Depot Bravo II",
+	x: -13.0d,
+	y: -9.5d,
+	shape: "hexagon",
+	hide_dependency_lines: true,
+	dependencies: [
+		"02b464cc"
+	],
+	hide: true,
+	tasks: [{
+		uid: "2780f856",
+		type: "location",
+		title: "-766 14 -532",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "tconstruct:brownstone",
+			Damage: 6s
+		},
+		location: [I;
+			0,
+			-769,
+			14,
+			-535,
+			5,
+			5,
+			5
+		]
+	}]
+}

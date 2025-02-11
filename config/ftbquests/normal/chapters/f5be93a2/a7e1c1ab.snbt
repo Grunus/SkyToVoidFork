@@ -1,0 +1,73 @@
+{
+	title: "Shungite Final",
+	x: 5.5d,
+	y: 13.0d,
+	shape: "heart",
+	description: "''You... you are shungite incarnate... what have you become?",
+	text: [
+		"You can now trade in limestone for shungite."
+	],
+	can_repeat: true,
+	hide_dependency_lines: true,
+	dependencies: [
+		"612329b3",
+		"d1ab97ba",
+		"04c06c31",
+		"9fbe2be8",
+		"e25c75d7",
+		"6a8b4600",
+		"aa3d6493",
+		"4adfc751",
+		"46d4f72b",
+		"c125bc5a"
+	],
+	hide: true,
+	optional: true,
+	tasks: [{
+		uid: "23bf4dbd",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "chisel:limestone2",
+			Damage: 7s
+		}],
+		count: 9L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "c3215558",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "tconstruct:shard",
+			tag: {
+				ench: [{
+					lvl: 1s,
+					id: 60s
+				}],
+				HideFlags: 35,
+				display: {
+					Lore: [
+						"Used to extract powerful abilities from gems.",
+						"- Or so they say..."
+					],
+					Name: "Shungite"
+				},
+				Material: "rubber",
+				AttributeModifiers: [{
+					UUIDMost: -2821372732138303645L,
+					UUIDLeast: -5949153336411020280L,
+					Amount: 2.0d,
+					Slot: "mainhand",
+					AttributeName: "generic.attackDamage",
+					Operation: 0,
+					Name: "generic.attackDamage"
+				}]
+			}
+		}
+	}]
+}

@@ -1,0 +1,28 @@
+{
+	title: "Master Chim",
+	x: -3.5d,
+	y: 16.5d,
+	shape: "circle",
+	dependencies: [
+		"93eeffee",
+		"1b1fbf62"
+	],
+	hide: true,
+	tasks: [{
+		uid: "8d770466",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ebwizardry:master_wand"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "eb20d41d",
+		type: "loot",
+		table: 25
+	}]
+}

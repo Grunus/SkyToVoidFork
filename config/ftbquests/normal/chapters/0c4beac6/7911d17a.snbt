@@ -1,0 +1,41 @@
+{
+	title: "Armory Tier I Reward",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "conarm:polishing_kit",
+		tag: {
+			Material: "flint"
+		}
+	},
+	x: -4.0d,
+	y: 3.5d,
+	text: [
+		""
+	],
+	can_repeat: true,
+	dependencies: [
+		"c2cd2064",
+		"34a6b45c"
+	],
+	hide: true,
+	optional: true,
+	tasks: [{
+		uid: "db5b26b2",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "camscurrency:denarius"
+		}],
+		count: 6L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "be6dd47b",
+		type: "loot",
+		table: 46
+	}]
+}

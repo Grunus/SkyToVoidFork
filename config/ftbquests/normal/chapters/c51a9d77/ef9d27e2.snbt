@@ -1,0 +1,28 @@
+{
+	title: "Redstone Spikes",
+	x: 3.0d,
+	y: 5.5d,
+	description: "Activated with redstone, summons spikes!",
+	text: [
+		""
+	],
+	dependencies: [
+		"5944f1d8"
+	],
+	hide: true,
+	tasks: [{
+		uid: "c623b825",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "cyclicmagic:spikes_iron"
+		}]
+	}],
+	rewards: [{
+		uid: "74343db4",
+		type: "loot",
+		table: 51
+	}]
+}

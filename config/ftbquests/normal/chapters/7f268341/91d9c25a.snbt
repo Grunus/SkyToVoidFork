@@ -1,0 +1,30 @@
+{
+	title: "Solar Farm",
+	x: 22.5d,
+	y: 1.5d,
+	shape: "square",
+	text: [
+		""
+	],
+	dependencies: [
+		"4c5fb0af"
+	],
+	hide: true,
+	tasks: [{
+		uid: "a8d014fb",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "enderio:block_solar_panel",
+			Damage: 3s
+		}],
+		count: 32L
+	}],
+	rewards: [{
+		uid: "766679ea",
+		type: "loot",
+		table: 37
+	}]
+}

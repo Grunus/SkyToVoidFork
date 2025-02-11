@@ -1,0 +1,65 @@
+{
+	title: "The Obelisks",
+	x: 18.0d,
+	y: -0.5d,
+	shape: "square",
+	dependencies: [
+		"fa45233e"
+	],
+	hide: true,
+	tasks: [{
+		uid: "842513b6",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "enderio:block_aversion_obelisk"
+		}]
+	},
+	{
+		uid: "62390738",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "enderio:block_attractor_obelisk"
+		}]
+	},
+	{
+		uid: "4350ff42",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "enderio:block_relocator_obelisk"
+		}]
+	},
+	{
+		uid: "071a5792",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "enderio:block_weather_obelisk"
+		}]
+	},
+	{
+		uid: "9f7028f1",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "enderio:block_inhibitor_obelisk"
+		}]
+	}],
+	rewards: [{
+		uid: "97703163",
+		type: "loot",
+		table: 37
+	}]
+}

@@ -1,0 +1,29 @@
+{
+	title: "Electric Loot",
+	x: -4.0d,
+	y: -1.0d,
+	dependencies: [
+		"274e8592"
+	],
+	hide: true,
+	tasks: [{
+		uid: "667db6f9",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thermalexpansion:satchel",
+			tag: {
+				Accessible: 1
+			},
+			Damage: 2s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "9a1106c4",
+		type: "loot",
+		table: 8
+	}]
+}

@@ -1,0 +1,64 @@
+{
+	title: "Confinement: Soulless Sanctuary",
+	x: -12.5d,
+	y: 5.0d,
+	description: "Go by day, death by night.",
+	dependencies: [
+		"02b464cc",
+		"55769c0b"
+	],
+	hide: true,
+	tasks: [{
+		uid: "1ff6191d",
+		type: "location",
+		title: "-641 77 258",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "chisel:andesite1",
+			Damage: 8s
+		},
+		location: [I;
+			0,
+			-645,
+			77,
+			256,
+			5,
+			5,
+			5
+		]
+	}],
+	rewards: [{
+		uid: "785f38c6",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:spawn_egg",
+			tag: {
+				EntityTag: {
+					id: "minecraft:witch"
+				}
+			}
+		}
+	},
+	{
+		uid: "47775111",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "extrautils2:ingredients",
+			Damage: 11s
+		},
+		count: 9
+	},
+	{
+		uid: "555e1410",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	}]
+}

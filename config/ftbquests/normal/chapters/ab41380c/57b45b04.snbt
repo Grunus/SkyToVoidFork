@@ -1,0 +1,62 @@
+{
+	title: "Death To Us Part",
+	x: -8.0d,
+	y: -8.5d,
+	shape: "diamond",
+	description: "Go to Rothcersul and tell him her final words...",
+	text: [
+		"Oh my god- it took this long for her to finally bite the dust? Uggh... she was such a struggle to listen to. Think god she's gone now, for good..."
+	],
+	dependencies: [
+		"ba6a9cfd"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "e546ace9",
+		type: "location",
+		title: "116 85 92",
+		location: [I;
+			0,
+			116,
+			85,
+			92,
+			1,
+			1,
+			1
+		]
+	}],
+	rewards: [{
+		uid: "381aeeeb",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "camscurrency:denarius"
+		},
+		count: 8
+	},
+	{
+		uid: "22c5e0b8",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "contenttweaker:objectives",
+			tag: {
+				ench: [{
+					lvl: 1s,
+					id: 10s
+				}],
+				display: {
+					Lore: [
+						"Statue of Anger would be pleased."
+					],
+					Name: "Mark of Friendship - Island Layer 2"
+				}
+			}
+		}
+	}]
+}

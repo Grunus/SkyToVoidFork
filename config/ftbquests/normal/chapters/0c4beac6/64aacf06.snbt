@@ -1,0 +1,35 @@
+{
+	title: "Cyclic Row",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "cyclicmagic:fire_dark_anim"
+	},
+	x: -13.0d,
+	y: 2.5d,
+	description: "''An assortment of awesome things. If you buy this row you may even get those awesome things on your person!''",
+	text: [
+		"Complete these 3 quests in Cyclic section to unlock all Cyclic Tier Rewards.",
+		"",
+		"- ''The Infinity Stones!''",
+		"- ''Cut Diamond''",
+		"- ''Mattock''"
+	],
+	dependencies: [
+		"a72d59e9",
+		"9375ae25"
+	],
+	hide: true,
+	tasks: [{
+		uid: "454e2ceb",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "camscurrency:aureus"
+		}],
+		consume_items: true
+	}]
+}

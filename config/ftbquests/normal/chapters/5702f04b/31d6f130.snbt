@@ -1,0 +1,28 @@
+{
+	title: "Mining at the Speed of Sound",
+	x: 3.5d,
+	y: 15.0d,
+	description: "Increases mining speed.",
+	text: [
+		""
+	],
+	dependencies: [
+		"4050bb52"
+	],
+	hide: true,
+	tasks: [{
+		uid: "800ba38c",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:redstone_block"
+		}]
+	}],
+	rewards: [{
+		uid: "704260f8",
+		type: "loot",
+		table: 5
+	}]
+}

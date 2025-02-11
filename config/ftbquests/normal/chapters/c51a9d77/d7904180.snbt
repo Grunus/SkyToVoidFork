@@ -1,0 +1,34 @@
+{
+	title: "Consussion Jump",
+	x: 4.0d,
+	y: 7.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"da8500a6"
+	],
+	hide: true,
+	tasks: [{
+		uid: "ae957efc",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "cyclicmagic:dynamite_safe"
+		}],
+		count: 6L
+	}],
+	rewards: [{
+		uid: "2462198a",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "cyclicmagic:dynamite_safe"
+		},
+		count: 6
+	}]
+}

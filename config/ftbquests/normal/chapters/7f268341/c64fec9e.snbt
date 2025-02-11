@@ -1,0 +1,32 @@
+{
+	title: "This Does Not Fit",
+	x: -12.5d,
+	y: 8.5d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"5c79f4a8",
+		"7ca24d77",
+		"5bd6697d"
+	],
+	hide: true,
+	tasks: [{
+		uid: "baa2e86f",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "cfm:computer"
+		}]
+	}],
+	rewards: [{
+		uid: "d4c306e1",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "gachashroom:mossymazepolypore"
+		}
+	}]
+}

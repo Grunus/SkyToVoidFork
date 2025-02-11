@@ -1,0 +1,38 @@
+{
+	title: "Enchanted Enlightenment",
+	x: 1.0d,
+	y: 6.0d,
+	description: "Store multiple copies of enchanted books inside ender bookshelves.",
+	text: [
+		""
+	],
+	dependencies: [
+		"5944f1d8"
+	],
+	hide: true,
+	tasks: [{
+		uid: "6d4cd05d",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "cyclicmagic:block_library"
+		}]
+	},
+	{
+		uid: "149b3006",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "cyclicmagic:block_library_ctrl"
+		}]
+	}],
+	rewards: [{
+		uid: "08b76f8b",
+		type: "loot",
+		table: 52
+	}]
+}

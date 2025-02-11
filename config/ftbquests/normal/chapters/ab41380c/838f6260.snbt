@@ -1,0 +1,51 @@
+{
+	title: "The Big One",
+	x: 3.0d,
+	y: 7.0d,
+	description: "That's a big chunk of ground!",
+	text: [
+		"Oh yeah, its the big one..."
+	],
+	dependencies: [
+		"6bae85c1"
+	],
+	hide: true,
+	tasks: [{
+		uid: "09dfc63b",
+		type: "location",
+		title: "106 177 283",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:diamond_ore"
+		},
+		location: [I;
+			0,
+			103,
+			177,
+			281,
+			5,
+			5,
+			5
+		]
+	}],
+	rewards: [{
+		uid: "78d4ca0a",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "tconstruct:pick_head",
+			tag: {
+				Material: "iron"
+			}
+		}
+	},
+	{
+		uid: "32942b67",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

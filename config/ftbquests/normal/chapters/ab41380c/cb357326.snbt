@@ -1,0 +1,88 @@
+{
+	title: "The Prophet",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "cfm:grand_chair_bottom"
+	},
+	x: -23.5d,
+	y: 1.0d,
+	shape: "diamond",
+	description: "''Well... I wouldn't expect a visitor in these times, but you as the visitor? The void has heard your adventures quite loudly..''",
+	text: [
+		"I am the true prophet, sent by the gods to house the unfortunate souls who were rejected by the gods' hands.",
+		"So please, I must introduce myself to you as I have an offer.. an offer of great restitution."
+	],
+	dependencies: [
+		"1e5a827d"
+	],
+	hide: true,
+	tasks: [{
+		uid: "e4f0797a",
+		type: "location",
+		title: "Enter the main entrance of the throne room.",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "tombstone:voodoo_poppet"
+		},
+		location: [I;
+			0,
+			-1605,
+			156,
+			144,
+			2,
+			8,
+			8
+		]
+	}],
+	rewards: [{
+		uid: "6365543e",
+		type: "command",
+		title: "An Important Proposition",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "biomesoplenty:biome_essence",
+			tag: {
+				ench: [{
+					lvl: 1s,
+					id: 23s
+				}],
+				display: {
+					Lore: [
+						"The Hive Mind can use this.."
+					],
+					Name: "Shred of the Gods' Light"
+				}
+			}
+		},
+		team_reward: true,
+		auto: "enabled",
+		command: "/fill -1606 155 145 -1602 155 151 minecraft:air"
+	},
+	{
+		uid: "68c1484c",
+		type: "command",
+		auto: "invisible",
+		command: "/tp @p -1554 141 155"
+	},
+	{
+		uid: "87e626d4",
+		type: "command",
+		auto: "invisible",
+		command: "/say @p mmm.. heh heh. Fooled again... A dungeon filled with my strongest followers. You will not make it alive, and your body will influence my capabilities."
+	},
+	{
+		uid: "7ee98d1e",
+		type: "npc_faction",
+		title: "Faction Decrease",
+		auto: "invisible",
+		npc_faction: 20,
+		points: 0,
+		add: false
+	}]
+}

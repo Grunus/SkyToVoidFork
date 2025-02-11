@@ -1,0 +1,36 @@
+{
+	title: "Observation: Enderman",
+	x: -3.5d,
+	y: 17.5d,
+	shape: "pentagon",
+	hide_dependency_lines: true,
+	dependencies: [
+		"bdef3fee",
+		"46793e20"
+	],
+	hide: true,
+	tasks: [{
+		uid: "0abbcfec",
+		type: "observation",
+		title: "Observe an Enderman",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:spawn_egg",
+			tag: {
+				EntityTag: {
+					id: "minecraft:enderman"
+				}
+			}
+		},
+		match_type: "entity_id",
+		match: "minecraft:enderman",
+		timer: 100L
+	}],
+	rewards: [{
+		uid: "70846348",
+		type: "ftbmoney:money",
+		ftb_money: 35L
+	}]
+}

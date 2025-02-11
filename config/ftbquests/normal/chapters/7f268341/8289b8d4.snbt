@@ -1,0 +1,30 @@
+{
+	title: "Console Crafting",
+	x: -12.5d,
+	y: 6.5d,
+	description: "Lastly you'll need crafting storage which will allow the crafting process to begin.",
+	text: [
+		"Crafting takes a certain amount of bytes. The more crafting storages you have the more you can craft at once.",
+		"",
+		"The highest bytes you can get for crafting storage units is 64k, but for now create a 1k unit."
+	],
+	dependencies: [
+		"6e3a0ce1"
+	],
+	hide: true,
+	tasks: [{
+		uid: "ab92cd1d",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "appliedenergistics2:crafting_storage_1k"
+		}]
+	}],
+	rewards: [{
+		uid: "68f4c76f",
+		type: "loot",
+		table: 15
+	}]
+}

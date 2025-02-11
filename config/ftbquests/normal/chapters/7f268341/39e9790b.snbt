@@ -1,0 +1,153 @@
+{
+	title: "Sniper Scope",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "industrialforegoing:range_addon"
+	},
+	x: 18.5d,
+	y: 7.0d,
+	text: [
+		"Some machines span out blocks to detect when to activate. Range Addons increases the area for the machine to see."
+	],
+	dependencies: [
+		"0d5b0cb0"
+	],
+	hide: true,
+	tasks: [{
+		uid: "7caa6190",
+		type: "item",
+		title: "Range Addon",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "industrialforegoing:range_addon"
+		},
+		{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "industrialforegoing:range_addon",
+			Damage: 1s
+		},
+		{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "industrialforegoing:range_addon",
+			Damage: 2s
+		},
+		{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "industrialforegoing:range_addon",
+			Damage: 3s
+		},
+		{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "industrialforegoing:range_addon",
+			Damage: 4s
+		},
+		{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "industrialforegoing:range_addon",
+			Damage: 5s
+		},
+		{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "industrialforegoing:range_addon",
+			Damage: 6s
+		},
+		{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "industrialforegoing:range_addon",
+			Damage: 7s
+		},
+		{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "industrialforegoing:range_addon",
+			Damage: 8s
+		},
+		{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "industrialforegoing:range_addon",
+			Damage: 9s
+		},
+		{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "industrialforegoing:range_addon",
+			Damage: 10s
+		},
+		{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "industrialforegoing:range_addon",
+			Damage: 11s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "a514931b",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "industrialforegoing:range_addon"
+		}
+	},
+	{
+		uid: "d98a04c9",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "industrialforegoing:range_addon",
+			Damage: 2s
+		}
+	},
+	{
+		uid: "50f5bbf5",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "openblocks:imaginary",
+			tag: {
+				Unbreakable: 1b,
+				display: {
+					Name: "Yard Stick"
+				},
+				AttributeModifiers: [{
+					UUIDMost: -1875537401865875897L,
+					UUIDLeast: -8503097106811515818L,
+					Amount: 2.0d,
+					Slot: "offhand",
+					AttributeName: "generic.reachDistance",
+					Operation: 0,
+					Name: "generic.reachDistance"
+				}]
+			}
+		}
+	}]
+}

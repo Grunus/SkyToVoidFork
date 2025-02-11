@@ -1,0 +1,28 @@
+{
+	title: "Craftable Obsidian",
+	x: 2.0d,
+	y: 11.0d,
+	description: "By either solidifying obsidian or crafting it, create crystallized obsidian, a very strong resource that can be used for tools and other special items.",
+	text: [
+		""
+	],
+	dependencies: [
+		"1a2be337"
+	],
+	hide: true,
+	tasks: [{
+		uid: "bc06acbf",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "cyclicmagic:crystallized_obsidian"
+		}]
+	}],
+	rewards: [{
+		uid: "81f99067",
+		type: "loot",
+		table: 52
+	}]
+}

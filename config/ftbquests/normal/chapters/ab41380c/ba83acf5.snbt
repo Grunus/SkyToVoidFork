@@ -1,0 +1,39 @@
+{
+	title: "Libcardo's Quest VI",
+	x: -4.0d,
+	y: -2.0d,
+	shape: "diamond",
+	description: "You...you must be...no, no you can't be...",
+	dependencies: [
+		"d16f631c"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "565ccd35",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "extrautils2:compressedcobblestone",
+			Damage: 5s
+		}]
+	}],
+	rewards: [{
+		uid: "60f9f56e",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "camscurrency:denarius"
+		},
+		count: 16
+	},
+	{
+		uid: "3232eca0",
+		type: "ftbmoney:money",
+		ftb_money: 80L
+	}]
+}

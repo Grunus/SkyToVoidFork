@@ -1,0 +1,53 @@
+{
+	title: "The Job",
+	x: 0.5d,
+	y: 14.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"e8580b6a"
+	],
+	hide: true,
+	tasks: [{
+		uid: "3bd3430b",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "conarm:travel_sneak"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "c3e66c3d",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "conarm:travel_slowfall"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "bbceb3a9",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "conarm:travel_sack"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "bf187837",
+		type: "loot",
+		table: 47
+	}]
+}

@@ -1,0 +1,78 @@
+{
+	title: "Hoard",
+	x: 0.0d,
+	y: -10.0d,
+	text: [
+		"Ha ha! You're trying to keep everything you can! Listen little one, the world is already destroyed, so why are you fighting? Why are you helping? Why are you looting? Why... do you care?"
+	],
+	dependencies: [
+		"02b464cc"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "00e1b229",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ironchest:iron_chest",
+			Damage: 5s
+		}]
+	},
+	{
+		uid: "42d134f2",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ironchest:iron_chest",
+			Damage: 2s
+		}]
+	},
+	{
+		uid: "62020366",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ironchest:iron_chest",
+			Damage: 6s
+		}]
+	},
+	{
+		uid: "61e583da",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ironchest:iron_chest",
+			Damage: 1s
+		}]
+	}],
+	rewards: [{
+		uid: "632d461b",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "camscurrency:denarius"
+		},
+		count: 6
+	},
+	{
+		uid: "e0b91056",
+		type: "loot",
+		table: 3
+	},
+	{
+		uid: "b82ec0b6",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	}]
+}

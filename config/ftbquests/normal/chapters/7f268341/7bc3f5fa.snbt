@@ -1,0 +1,70 @@
+{
+	title: "Interchangable Parts",
+	x: -4.0d,
+	y: 13.0d,
+	description: "Now, deconstruct the Casting Assistant in a regular Crafting Table, and rebuild the CAD with Basic components in the CAD assembler's extra slots.",
+	text: [
+		"Pressing C with nothing in your hand will open the Psi Page to progress in the mod."
+	],
+	dependencies: [
+		"575924e4"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "b2c8126e",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "psi:cad_core"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "3086edeb",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "psi:cad_battery"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "e5c65685",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "psi:cad_socket"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "85a0450e",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "psi:cad_assembly"
+		},
+		{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "psi:cad_assembly",
+			Damage: 1s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "f36c1246",
+		type: "loot",
+		table: 49
+	}]
+}

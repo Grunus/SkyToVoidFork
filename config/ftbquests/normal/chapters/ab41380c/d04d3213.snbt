@@ -1,0 +1,74 @@
+{
+	title: "Mark of Pride",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "thermalfoundation:rockwool",
+		tag: {
+			ench: [{
+				lvl: 1s,
+				id: 40s
+			}],
+			RepairCost: 1,
+			display: {
+				Name: "I. Mark of Pride"
+			}
+		},
+		Damage: 7s
+	},
+	x: -7.0d,
+	y: 4.0d,
+	shape: "diamond",
+	description: "You can now buy more marks, if needed.",
+	text: [
+		""
+	],
+	can_repeat: true,
+	dependencies: [
+		"e9de88df"
+	],
+	hide: true,
+	optional: true,
+	tasks: [{
+		uid: "bb3f4c24",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "biomesoplenty:fleshchunk",
+			tag: {
+				ench: [{
+					lvl: 1s,
+					id: 3s
+				}],
+				RepairCost: 1,
+				display: {
+					Name: "Mayor's Heart"
+				}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "32aa8dcb",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thermalfoundation:rockwool",
+			tag: {
+				ench: [{
+					lvl: 1s,
+					id: 40s
+				}],
+				RepairCost: 1,
+				display: {
+					Name: "I. Mark of Pride"
+				}
+			},
+			Damage: 7s
+		}
+	}]
+}

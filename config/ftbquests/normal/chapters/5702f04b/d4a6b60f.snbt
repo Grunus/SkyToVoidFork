@@ -1,0 +1,30 @@
+{
+	title: "Pacifist Path",
+	x: 2.0d,
+	y: 2.0d,
+	description: "Instead of killing mobs, you can create some seeds and grow inferium yourself.",
+	dependencies: [
+		"7c55c995"
+	],
+	hide: true,
+	tasks: [{
+		uid: "8b9cba53",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "mysticalagriculture:tier1_inferium_seeds"
+		}]
+	}],
+	rewards: [{
+		uid: "e4f425ad",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "mysticalagriculture:tier2_inferium_seeds"
+		}
+	}]
+}

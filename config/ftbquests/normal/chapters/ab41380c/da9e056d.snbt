@@ -1,0 +1,61 @@
+{
+	title: "Mythical Deposit",
+	x: -8.0d,
+	y: -7.5d,
+	description: "A rock, no hazards, rich with ores.",
+	hide_dependency_lines: true,
+	dependencies: [
+		"6bae85c1"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "be66bcaf",
+		type: "location",
+		title: "-267 195 -315",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "metallurgy:astral_silver_ore"
+		},
+		location: [I;
+			0,
+			-270,
+			195,
+			-319,
+			5,
+			5,
+			5
+		]
+	}],
+	rewards: [{
+		uid: "294c1403",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "tconstruct:cast",
+			tag: {
+				PartType: "tconstruct:pick_head"
+			}
+		}
+	},
+	{
+		uid: "f9ef26b8",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:iron_ore"
+		},
+		count: 4
+	},
+	{
+		uid: "23403aa6",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

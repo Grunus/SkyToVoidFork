@@ -1,0 +1,26 @@
+{
+	title: "Oh Yeah, It's All Coming Together",
+	x: -7.0d,
+	y: 3.0d,
+	shape: "square",
+	dependencies: [
+		"ea5a6b35"
+	],
+	hide: true,
+	tasks: [{
+		uid: "1753c9c2",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thermalfoundation:upgrade",
+			Damage: 3s
+		}]
+	}],
+	rewards: [{
+		uid: "fe512ed2",
+		type: "loot",
+		table: 70
+	}]
+}

@@ -1,0 +1,54 @@
+{
+	title: "Pure Hearts",
+	x: 13.0d,
+	y: 12.5d,
+	shape: "diamond",
+	description: "''Before you leave, make sure to collect your Master Key. If you lost it somehow, I'm sure you can find another one, right?''",
+	text: [
+		"Reach Pure and step in the center of the monument."
+	],
+	dependencies: [
+		"f00f1e42"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "d4e54dc6",
+		type: "location",
+		title: "917 206 -913",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "chisel:antiblock",
+			Damage: 15s
+		},
+		location: [I;
+			0,
+			917,
+			206,
+			-914,
+			2,
+			2,
+			2
+		]
+	}],
+	rewards: [{
+		uid: "4a7573d6",
+		type: "command",
+		title: "Ascend",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "contenttweaker:pure_ascend",
+			tag: {
+				display: {
+					Name: "Ascend"
+				}
+			}
+		},
+		auto: "disabled",
+		command: "/tpp @p 43 784 45 57"
+	}]
+}

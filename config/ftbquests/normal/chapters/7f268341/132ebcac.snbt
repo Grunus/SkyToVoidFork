@@ -1,0 +1,40 @@
+{
+	title: "Fluxstered!",
+	x: 2.0d,
+	y: -2.0d,
+	description: "Flux tools and weapons can be infused with flux to make them stronger for a period of time.",
+	text: [
+		"The Flux-Infused Pickaxe, when empowered, will increase its mining speed and have a higher mining level than diamond."
+	],
+	dependencies: [
+		"ed7cf92d",
+		"0a8dd072"
+	],
+	hide: true,
+	tasks: [{
+		uid: "e000efbf",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "redstonearsenal:tool.pickaxe_flux",
+			tag: {
+				Energy: 0
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "19220b1e",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "redstonearsenal:material"
+		},
+		random_bonus: 3
+	}]
+}

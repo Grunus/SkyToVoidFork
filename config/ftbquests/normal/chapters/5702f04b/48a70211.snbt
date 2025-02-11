@@ -1,0 +1,86 @@
+{
+	title: "Massive Destruction",
+	x: 8.0d,
+	y: 7.0d,
+	description: "Auto Hammer",
+	dependencies: [
+		"5eea1b73"
+	],
+	hide: true,
+	tasks: [{
+		uid: "e5870b1c",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "excompressum:auto_hammer"
+		}]
+	}],
+	rewards: [{
+		uid: "7b714f40",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:golden_leggings",
+			tag: {
+				ench: [{
+					lvl: 1s,
+					id: 36s
+				},
+				{
+					lvl: 3s,
+					id: 34s
+				},
+				{
+					lvl: 1s,
+					id: 7s
+				}],
+				display: {
+					Lore: [
+						"Nursing for Minecraft"
+					],
+					Name: "Beebee's Trousers"
+				},
+				AttributeModifiers: [{
+					UUIDMost: -2861585646493481178L,
+					UUIDLeast: -6113244764726669811L,
+					Amount: 5.0d,
+					Slot: "legs",
+					AttributeName: "generic.armor",
+					Operation: 0,
+					Name: "generic.armor"
+				},
+				{
+					UUIDMost: -2861585646493481178L,
+					UUIDLeast: -6113244764726669811L,
+					Amount: 2.0d,
+					Slot: "legs",
+					AttributeName: "generic.armorToughness",
+					Operation: 0,
+					Name: "generic.armorToughness"
+				},
+				{
+					UUIDMost: -8994822525856495549L,
+					UUIDLeast: -4820120016993810380L,
+					Amount: 4.0d,
+					Slot: "legs",
+					AttributeName: "generic.maxHealth",
+					Operation: 0,
+					Name: "generic.maxHealth"
+				},
+				{
+					UUIDMost: -4461973260779303047L,
+					UUIDLeast: -7614996582260939979L,
+					Amount: -1.0d,
+					Slot: "legs",
+					AttributeName: "generic.knockbackResistance",
+					Operation: 0,
+					Name: "generic.knockbackResistance"
+				}]
+			}
+		}
+	}]
+}

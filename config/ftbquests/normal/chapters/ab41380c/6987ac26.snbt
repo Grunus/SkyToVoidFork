@@ -1,0 +1,56 @@
+{
+	title: "Communism Detected",
+	x: -3.0d,
+	y: -13.5d,
+	shape: "diamond",
+	description: "''A thing for wizards I presume!''",
+	text: [
+		"Wasted forever!"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"c2176857",
+		"1028f6e8"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "f634d1de",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:knowledge_book",
+			tag: {
+				ench: [{
+					lvl: 1s,
+					id: 3s
+				}],
+				RepairCost: 1,
+				display: {
+					Name: "The Communist Manifesto"
+				}
+			}
+		}],
+		consume_items: true,
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "af03b5c1",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "camscurrency:denarius"
+		},
+		count: 12
+	},
+	{
+		uid: "e88fec11",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

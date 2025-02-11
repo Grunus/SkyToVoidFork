@@ -1,0 +1,17 @@
+filename = "Mapmaker's Gadgets-1.2_for_1.12.x.jar"
+name = "Mapmaker's Gadgets"
+side = 'both'
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '1.12', '1.12.1', '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = "Mapmaker's Gadgets-1.2_for_1.12.x.jar"
+
+[download]
+hash = 'd9676d95e50dd5e16ece3226a0a33d11bee577e2'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 2530117
+project-id = 286717

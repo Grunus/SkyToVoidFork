@@ -1,0 +1,44 @@
+{
+	x: 0.5d,
+	y: 4.5d,
+	description: "Used to collect glass and craft ender shards.",
+	text: [
+		""
+	],
+	dependencies: [
+		"b0bd187c"
+	],
+	hide: true,
+	tasks: [{
+		uid: "d0b3d06a",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "extrautils2:glasscutter"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "791e0f0a",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:glass"
+		}
+	},
+	{
+		uid: "20734b7f",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "extrautils2:endershard"
+		}
+	}]
+}

@@ -1,0 +1,132 @@
+{
+	title: "The Great Challenge",
+	x: -6.25d,
+	y: -5.0d,
+	shape: "hexagon",
+	description: "Mission",
+	text: [
+		"A hand from the sky reaches out.",
+		"",
+		"Grab on for dear life.",
+		"-----------------------------",
+		"Recommended Armor Value: 20+",
+		"Recommended Melee Value: 8+",
+		"Crow Bar Needed",
+		"Enemy Respawn Time: 4-10 Minutes"
+	],
+	dependencies: [
+		"36bf2072"
+	],
+	hide: true,
+	size: 2.5d,
+	tasks: [{
+		uid: "0dc40ae1",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "contenttweaker:4_purehearts",
+			tag: {
+				display: {
+					Lore: [
+						"Gain access to a teleporter in The Kingdom.",
+						"",
+						"",
+						"Can be used on the door in Mission Hub."
+					],
+					Name: "The Master Key"
+				}
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "e817bf6d",
+		type: "custom",
+		title: "Continue With Extending the Boundaries",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ftbquests:book"
+		}
+	},
+	{
+		uid: "3db592fb",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "metallurgy:astral_silver_chestplate",
+			tag: {
+				ench: [{
+					lvl: 2s,
+					id: 2s
+				},
+				{
+					lvl: 1s,
+					id: 42s
+				}],
+				RepairCost: 1,
+				display: {
+					Lore: [
+						"Can reach miles baby!"
+					],
+					Name: "Sniper Module"
+				},
+				AttributeModifiers: [{
+					UUIDMost: 5079713471749048211L,
+					UUIDLeast: -7607343916258740500L,
+					Amount: -5000.0d,
+					Slot: "chest",
+					AttributeName: "generic.attackDamage",
+					Operation: 0,
+					Name: "generic.attackDamage"
+				},
+				{
+					UUIDMost: -6972338111383059132L,
+					UUIDLeast: -8978659762232839026L,
+					Amount: -20.0d,
+					Slot: "chest",
+					AttributeName: "generic.armor",
+					Operation: 0,
+					Name: "generic.armor"
+				},
+				{
+					UUIDMost: 7610012907062774352L,
+					UUIDLeast: -7076729404391012492L,
+					Amount: -10.0d,
+					Slot: "chest",
+					AttributeName: "generic.maxHealth",
+					Operation: 0,
+					Name: "generic.maxHealth"
+				},
+				{
+					UUIDMost: -3584955871033079186L,
+					UUIDLeast: -8164458241164234054L,
+					Amount: 0.03d,
+					Slot: "chest",
+					AttributeName: "generic.movementSpeed",
+					Operation: 0,
+					Name: "generic.movementSpeed"
+				},
+				{
+					UUIDMost: 5436058728529610977L,
+					UUIDLeast: -5488349163034121177L,
+					Amount: 25.0d,
+					Slot: "chest",
+					AttributeName: "generic.reachDistance",
+					Operation: 0,
+					Name: "generic.reachDistance"
+				}]
+			}
+		}
+	},
+	{
+		uid: "18b88b90",
+		type: "ftbmoney:money",
+		ftb_money: 300L
+	}]
+}

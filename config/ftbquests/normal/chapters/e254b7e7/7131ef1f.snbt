@@ -1,0 +1,43 @@
+{
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "openblocks:golden_eye",
+		tag: {}
+	},
+	x: -1.0d,
+	y: -26.0d,
+	shape: "gear",
+	dependencies: [
+		"e3c0f029",
+		"0ea7b7e2",
+		"71f689ad"
+	],
+	size: 3.0d,
+	tasks: [{
+		uid: "7d0e671d",
+		type: "checkmark",
+		title: "Face Them.",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "openblocks:golden_eye",
+			tag: {}
+		}
+	}],
+	rewards: [{
+		uid: "9f3c25d5",
+		type: "custom",
+		title: "Unlock The Kingdom of Gods Chapter",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ftbquests:book"
+		},
+		team_reward: true,
+		auto: "enabled"
+	}]
+}

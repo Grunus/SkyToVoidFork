@@ -1,0 +1,39 @@
+{
+	title: "Saraphina is Ready",
+	x: 0.0d,
+	y: -3.5d,
+	shape: "diamond",
+	text: [
+		""
+	],
+	dependencies: [
+		"3f1e3e76",
+		"76313507",
+		"303a4755",
+		"7bd3778c"
+	],
+	hide: true,
+	tasks: [{
+		uid: "8294ebe8",
+		type: "checkmark",
+		title: "...",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "extrautils2:chickenring"
+		}
+	}],
+	rewards: [{
+		uid: "8b51cb12",
+		type: "command",
+		title: "She is waiting",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "cyclicmagic:tool_warp_spawn"
+		},
+		command: "/tpp @p 43 6605 105 6489"
+	}]
+}

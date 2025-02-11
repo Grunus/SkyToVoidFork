@@ -1,0 +1,301 @@
+{
+	title: "Extra Utilities Tier II Reward",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "extrautils2:ingredients",
+		Damage: 15s
+	},
+	loot_size: 2,
+	hide_tooltip: true,
+	use_title: true,
+	rewards: [{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "extrautils2:passivegenerator",
+			Damage: 2s
+		},
+		count: 2
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "extrautils2:passivegenerator",
+			Damage: 3s
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "extrautils2:passivegenerator",
+			Damage: 4s
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "extrautils2:passivegenerator",
+			Damage: 5s
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "extrautils2:cursedearth"
+		},
+		count: 8,
+		random_bonus: 8
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "extrautils2:drum",
+			Damage: 2s
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "extrautils2:opinium",
+			Damage: 2s
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "extrautils2:spike_diamond"
+		},
+		count: 4,
+		random_bonus: 8
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "extrautils2:ingredients",
+			Damage: 15s
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "extrautils2:ineffableglass"
+		},
+		count: 16
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "extrautils2:ingredients",
+			Damage: 3s
+		},
+		count: 32,
+		random_bonus: 32
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "extrautils2:interactionproxy"
+		},
+		count: 2
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "extrautils2:machine",
+			tag: {
+				Type: "extrautils2:generator"
+			}
+		},
+		count: 6
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "extrautils2:bagofholding",
+			tag: {}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "extrautils2:passivegenerator",
+			Damage: 1s
+		},
+		count: 16
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "extrautils2:passivegenerator"
+		},
+		count: 16
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "extrautils2:enderlilly"
+		},
+		count: 3,
+		random_bonus: 2
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "extrautils2:unstableingots"
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "tconstruct:hammer",
+			tag: {
+				ench: [{
+					lvl: 3s,
+					id: 21s
+				},
+				{
+					lvl: 3s,
+					id: 35s
+				}],
+				StatsOriginal: {
+					AttackSpeedMultiplier: 1.0f,
+					MiningSpeed: 8.375f,
+					FreeModifiers: 3,
+					Durability: 1995,
+					HarvestLevel: 4,
+					Attack: 4.325f
+				},
+				display: {
+					Name: "Layer Breaker"
+				},
+				Stats: {
+					AttackSpeedMultiplier: 1.5f,
+					MiningSpeed: 19.653238f,
+					FreeModifiers: 1,
+					Durability: 1995,
+					HarvestLevel: 4,
+					Attack: 4.325f
+				},
+				Special: {
+					Categories: [
+						"harvest",
+						"aoe",
+						"weapon",
+						"tool"
+					]
+				},
+				TinkerData: {
+					UsedModifiers: 4,
+					Materials: [
+						"cobalt",
+						"cobalt",
+						"ardite",
+						"firewood"
+					],
+					Modifiers: [
+						"luck",
+						"creative",
+						"haste",
+						"enderpickup"
+					]
+				},
+				Modifiers: [{
+					identifier: "lightweight",
+					color: -14122284,
+					level: 1
+				},
+				{
+					identifier: "momentum",
+					color: -14122284,
+					level: 1
+				},
+				{
+					identifier: "stonebound",
+					color: -3063280,
+					level: 1
+				},
+				{
+					identifier: "autosmelt",
+					color: -3386624,
+					level: 1
+				},
+				{
+					identifier: "luck",
+					current: 360,
+					color: 2970082,
+					level: 3,
+					max: 360,
+					modifierUsed: 1b,
+					extraInfo: "359 / 360"
+				},
+				{
+					identifier: "creative",
+					color: 0,
+					level: 2
+				},
+				{
+					identifier: "haste",
+					current: 100,
+					color: 9502720,
+					level: 2,
+					max: 100,
+					extraInfo: "99 / 100"
+				},
+				{
+					identifier: "enderpickup",
+					current: 1,
+					color: -1892889167,
+					level: 1,
+					max: 1
+				}],
+				Traits: [
+					"lightweight",
+					"momentum",
+					"stonebound",
+					"autosmelt",
+					"luck",
+					"enderpickup"
+				]
+			}
+		}
+	}]
+}

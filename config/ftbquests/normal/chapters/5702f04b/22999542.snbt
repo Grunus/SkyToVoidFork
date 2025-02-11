@@ -1,0 +1,28 @@
+{
+	title: "Easy Collecting",
+	x: -4.0d,
+	y: 8.0d,
+	description: "within the chunk, mob XP will be transported to this pillar, which then you can extract later.",
+	text: [
+		""
+	],
+	dependencies: [
+		"7aed858a"
+	],
+	hide: true,
+	tasks: [{
+		uid: "3c58059e",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "darkutils:monolith"
+		}]
+	}],
+	rewards: [{
+		uid: "82a390b0",
+		type: "xp_levels",
+		xp_levels: 30
+	}]
+}

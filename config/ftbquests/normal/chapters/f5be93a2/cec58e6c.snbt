@@ -1,0 +1,40 @@
+{
+	title: "Wambo I",
+	x: -1.0d,
+	y: 8.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"3cd84e82"
+	],
+	hide: true,
+	tasks: [{
+		uid: "5cd01466",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thermalfoundation:material",
+			Damage: 359s
+		}],
+		count: 8L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "65612f2f",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "artifacts:whoopie_cushion"
+		}
+	},
+	{
+		uid: "42dbcd52",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	}]
+}

@@ -1,0 +1,74 @@
+{
+	title: "Obtain All Recipes for Inventory Pets",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "simple_trophies:trophy",
+		tag: {
+			TrophyColorGreen: 27,
+			TrophyVariant: "classic",
+			TrophyShowsTooltip: 1b,
+			TrophyItem: {
+				ForgeCaps: {
+					"customnpcs:itemscripteddata": {}
+				},
+				id: "inventorypets:feed_bag",
+				Count: 1b,
+				Damage: 0s
+			},
+			TrophyColorBlue: 27,
+			TrophyName: "Obtain All Inventory Pets Recipes",
+			TrophyColorRed: 30,
+			TrophyEarnedAt: 1657732407L
+		}
+	},
+	x: 9.0d,
+	y: 0.0d,
+	text: [
+		"Obtain all recipes for Inventory Pets. This does not include secret pets."
+	],
+	dependencies: [
+		"22393d8a",
+		"af192dac",
+		"0ef604b3",
+		"347b58ae",
+		"85339095"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "1a45e1f0",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "fec82b33",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "simple_trophies:trophy",
+			tag: {
+				TrophyColorGreen: 27,
+				TrophyVariant: "classic",
+				TrophyShowsTooltip: 1b,
+				TrophyItem: {
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": {}
+					},
+					id: "inventorypets:feed_bag",
+					Count: 1b,
+					Damage: 0s
+				},
+				TrophyColorBlue: 27,
+				TrophyName: "Obtain All Inventory Pets Recipes",
+				TrophyColorRed: 30
+			}
+		}
+	},
+	{
+		uid: "5fc3e28a",
+		type: "ftbmoney:money",
+		ftb_money: 500L
+	}]
+}

@@ -1,0 +1,50 @@
+{
+	title: "Mushroom Tribe",
+	x: -11.5d,
+	y: 13.0d,
+	description: "When worlds collide!",
+	text: [
+		"*bustle bustle*"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"02b464cc"
+	],
+	hide: true,
+	tasks: [{
+		uid: "a1d127a6",
+		type: "location",
+		title: "-678 166 584",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:red_mushroom_block"
+		},
+		location: [I;
+			0,
+			-679,
+			166,
+			584,
+			5,
+			5,
+			5
+		]
+	}],
+	rewards: [{
+		uid: "008af5d1",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "harvestcraft:mushroomsteakitem"
+		},
+		count: 4
+	},
+	{
+		uid: "2b359788",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	}]
+}

@@ -1,0 +1,42 @@
+{
+	title: "Libcardo Quest V",
+	x: -3.5d,
+	y: -2.5d,
+	shape: "diamond",
+	description: "''Impressive, but I see some more room in those cracks...''",
+	text: [
+		""
+	],
+	dependencies: [
+		"25c117e7"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "14a2a06a",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "extrautils2:compressedcobblestone",
+			Damage: 4s
+		}]
+	}],
+	rewards: [{
+		uid: "a46d0c4d",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "camscurrency:denarius"
+		},
+		count: 8
+	},
+	{
+		uid: "7a9ffdab",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	}]
+}

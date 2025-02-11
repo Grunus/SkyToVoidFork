@@ -1,0 +1,95 @@
+{
+	title: "Henry Is Running Out!",
+	x: 14.5d,
+	y: 12.5d,
+	shape: "diamond",
+	description: "''Quick, stranger! I need more healing supplies and a way to make some of my own. Please help me get started.''",
+	text: [
+		"You're doing wonders stranger. Keep going and don't stop!"
+	],
+	dependencies: [
+		"fba3d03d",
+		"7b4dbcc2"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "5d1d43d8",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:brewing_stand"
+		}],
+		count: 6L,
+		consume_items: true
+	},
+	{
+		uid: "f341b606",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "glowstone",
+				Amount: 1000
+			}
+		}],
+		consume_items: true,
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "465ee158",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:glass_bottle"
+		}],
+		count: 64L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "80903200",
+		type: "custom",
+		title: "The Villager's Quest Trial",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:filled_map"
+		}
+	},
+	{
+		uid: "064f68c4",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:glowstone"
+		},
+		count: 64
+	},
+	{
+		uid: "6a0837d7",
+		type: "item",
+		team_reward: true,
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "openblocks:heal"
+		}
+	},
+	{
+		uid: "1cd09ddf",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	}]
+}

@@ -1,0 +1,37 @@
+{
+	title: "Bargaining",
+	x: -2.0d,
+	y: -6.0d,
+	shape: "square",
+	text: [
+		""
+	],
+	dependencies: [
+		"0a45f189"
+	],
+	hide: true,
+	tasks: [{
+		uid: "a1b618c1",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "chisel:wool_purple",
+			tag: {
+				ench: [{
+					lvl: 10s,
+					id: 40s
+				}],
+				HideFlags: 33,
+				display: {
+					Lore: [
+						"... You still believe you have control..."
+					],
+					Name: "III. Bargaining"
+				}
+			},
+			Damage: 1s
+		}]
+	}]
+}

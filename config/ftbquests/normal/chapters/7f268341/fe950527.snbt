@@ -1,0 +1,25 @@
+{
+	title: "Speeding Seeding",
+	x: -17.5d,
+	y: 6.5d,
+	description: "You can use crystal growth accelerators to speed up the growing process of crystal seeds.",
+	dependencies: [
+		"a09ed600"
+	],
+	hide: true,
+	tasks: [{
+		uid: "0f3c06ca",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "appliedenergistics2:quartz_growth_accelerator"
+		}]
+	}],
+	rewards: [{
+		uid: "06c88d57",
+		type: "loot",
+		table: 15
+	}]
+}

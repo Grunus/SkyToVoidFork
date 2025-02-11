@@ -1,0 +1,31 @@
+{
+	title: "Deep Iron",
+	x: 12.5d,
+	y: 7.0d,
+	dependencies: [
+		"81b1cd10"
+	],
+	hide: true,
+	tasks: [{
+		uid: "e0321c81",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "metallurgy:deep_iron_ingot"
+		}],
+		count: 10L
+	}],
+	rewards: [{
+		uid: "df9f2858",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "camscurrency:dupondius"
+		},
+		count: 10
+	}]
+}

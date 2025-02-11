@@ -1,0 +1,43 @@
+{
+	title: "Gen+",
+	x: 7.5d,
+	y: 10.0d,
+	dependencies: [
+		"ec1173d7"
+	],
+	hide: true,
+	tasks: [{
+		uid: "822e21e4",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "extrautils2:machine",
+			tag: {
+				Type: "extrautils2:generator"
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "1cb36f4b",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:iron_block"
+		}
+	},
+	{
+		uid: "13b8b2fb",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "camscurrency:dupondius"
+		},
+		count: 8
+	}]
+}

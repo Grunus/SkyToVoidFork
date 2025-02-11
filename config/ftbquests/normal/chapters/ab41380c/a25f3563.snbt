@@ -1,0 +1,48 @@
+{
+	title: "Slime Island",
+	x: 3.5d,
+	y: -12.5d,
+	description: "All the goop is here! Red goop, purple goop, green goop, it's great!",
+	hide_dependency_lines: true,
+	dependencies: [
+		"02b464cc"
+	],
+	hide: true,
+	tasks: [{
+		uid: "ab600f20",
+		type: "location",
+		title: "445 135 -654",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "tconstruct:slime_grass",
+			Damage: 1s
+		},
+		location: [I;
+			0,
+			443,
+			135,
+			-658,
+			5,
+			5,
+			5
+		]
+	}],
+	rewards: [{
+		uid: "02bbc348",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "camscurrency:dupondius"
+		},
+		count: 12
+	},
+	{
+		uid: "0323a21c",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

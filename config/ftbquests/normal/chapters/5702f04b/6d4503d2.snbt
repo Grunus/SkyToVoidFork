@@ -1,0 +1,42 @@
+{
+	title: "Really Impatient",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "exnihilocreatio:block_crucible_wood"
+	},
+	x: -1.0d,
+	y: 1.0d,
+	description: "When it DOESN'T rain.",
+	text: [
+		"By putting leaves into a crucible it'll create water.",
+		"",
+		"If you can't make a bucket yet, you can use bottles to move water."
+	],
+	dependencies: [
+		"426b052b"
+	],
+	hide: true,
+	tasks: [{
+		uid: "3db74d02",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "excompressum:wooden_crucible"
+		}]
+	}],
+	rewards: [{
+		uid: "9d827a30",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:glass_bottle"
+		},
+		count: 5
+	}]
+}

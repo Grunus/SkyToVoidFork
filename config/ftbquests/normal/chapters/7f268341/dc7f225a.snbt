@@ -1,0 +1,28 @@
+{
+	title: "Agreed to this Life",
+	x: -1.5d,
+	y: 7.5d,
+	description: "this will load a 3x3 chunk area.",
+	text: [
+		"Required GP to use."
+	],
+	dependencies: [
+		"05e3b6c0"
+	],
+	hide: true,
+	tasks: [{
+		uid: "1afa6b2f",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "extrautils2:chunkloader"
+		}]
+	}],
+	rewards: [{
+		uid: "083a911f",
+		type: "loot",
+		table: 18
+	}]
+}

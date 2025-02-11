@@ -1,0 +1,123 @@
+{
+	title: "First Comment",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "minecraft:name_tag"
+	},
+	x: -16.5d,
+	y: -3.0d,
+	shape: "diamond",
+	description: "''Wait... how ignorant of me. You should be the first username on my Trident! Afterall you got it for me. It's gonna cost money though. So what's your username?''",
+	text: [
+		"Perfect! Thank you for donating $50! I just wrote your name on the handle. View the stream later tonight and you'll see it!"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"504b41b5"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "96ff483f",
+		type: "checkmark",
+		title: "Give Nytemart your Twitch username..."
+	},
+	{
+		uid: "319f8304",
+		type: "ftbmoney:money",
+		value: 50L
+	}],
+	rewards: [{
+		uid: "aa2e8bf2",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "appliedenergistics2:material",
+			tag: {
+				ench: [{
+					lvl: 1s,
+					id: 60s
+				}],
+				HideFlags: 1,
+				display: {
+					Lore: [
+						"Make sure you subscribe with Twitch Prime!!!"
+					],
+					Name: "Free Twitch Prime"
+				},
+				AttributeModifiers: [{
+					UUIDMost: 1751217187491955430L,
+					UUIDLeast: -6566752884270201231L,
+					Amount: 0.1d,
+					Slot: "offhand",
+					AttributeName: "generic.attackDamage",
+					Operation: 1,
+					Name: "generic.attackDamage"
+				},
+				{
+					UUIDMost: 3298585117965240768L,
+					UUIDLeast: -8105350028771792557L,
+					Amount: -0.05d,
+					Slot: "offhand",
+					AttributeName: "generic.armor",
+					Operation: 1,
+					Name: "generic.armor"
+				},
+				{
+					UUIDMost: -8923437045080242289L,
+					UUIDLeast: -7254613143993350165L,
+					Amount: 4.0d,
+					Slot: "offhand",
+					AttributeName: "generic.maxHealth",
+					Operation: 0,
+					Name: "generic.maxHealth"
+				},
+				{
+					UUIDMost: -2963045898939250591L,
+					UUIDLeast: -6945654702989419056L,
+					Amount: 0.2d,
+					Slot: "offhand",
+					AttributeName: "generic.movementSpeed",
+					Operation: 1,
+					Name: "generic.movementSpeed"
+				},
+				{
+					UUIDMost: -8721112214956913679L,
+					UUIDLeast: -4973422574125759106L,
+					Amount: 2.0d,
+					Slot: "offhand",
+					AttributeName: "generic.reachDistance",
+					Operation: 0,
+					Name: "generic.reachDistance"
+				}]
+			},
+			Damage: 33s
+		}
+	},
+	{
+		uid: "d5edb829",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "contenttweaker:objectives",
+			tag: {
+				ench: [{
+					lvl: 1s,
+					id: 10s
+				}],
+				display: {
+					Lore: [
+						"Statue of Bargaining would be pleased."
+					],
+					Name: "Mark of Friendship - Island Layer 3"
+				}
+			}
+		}
+	}]
+}

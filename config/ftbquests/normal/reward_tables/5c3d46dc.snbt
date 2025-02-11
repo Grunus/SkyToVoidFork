@@ -1,0 +1,709 @@
+{
+	title: "Mystical Agriculture Tier III Reward",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "mysticalagriculture:crafting",
+		Damage: 4s
+	},
+	loot_size: 2,
+	hide_tooltip: true,
+	use_title: true,
+	rewards: [{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "mysticalagriculture:crafting",
+			Damage: 36s
+		},
+		count: 8
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "mysticalagriculture:crafting",
+			Damage: 37s
+		},
+		count: 2
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "mysticalagradditions:insanium",
+			Damage: 2s
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "mysticalagriculture:cobalt_seeds"
+		},
+		count: 2
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "mysticalagriculture:platinum_seeds"
+		},
+		count: 4
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "mysticalagradditions:tier6_inferium_seeds"
+		},
+		count: 2
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "mysticalagriculture:gold_seeds"
+		},
+		count: 8
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "mysticalagriculture:manyullyn_seeds"
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "mysticalagriculture:tanzanite_seeds"
+		},
+		count: 2
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "mysticalagriculture:mithril_seeds"
+		},
+		count: 2
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "mysticalagriculture:fluix_seeds"
+		},
+		count: 2
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "mysticalagriculture:end_seeds"
+		},
+		count: 16
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "mysticalagriculture:ghast_seeds"
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "mysticalagriculture:blizz_seeds"
+		},
+		count: 4
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "mysticalagriculture:tier5_inferium_seeds"
+		},
+		count: 4
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "mysticalagriculture:steel_seeds"
+		},
+		count: 2
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "mysticalagriculture:signalum_seeds"
+		},
+		count: 3
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "mysticalagriculture:enderium_seeds"
+		},
+		count: 2
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "mysticalagriculture:electrum_seeds"
+		},
+		count: 16
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "mysticalagriculture:lapis_lazuli_seeds"
+		},
+		count: 32
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "mysticalagriculture:emerald_seeds"
+		},
+		count: 2
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "mysticalagriculture:tier4_inferium_seeds"
+		},
+		count: 8
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "mysticalagriculture:experience_seeds"
+		},
+		count: 8
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "mysticalagriculture:diamond_seeds"
+		},
+		count: 2
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "mysticalagriculture:blaze_seeds"
+		},
+		count: 4
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "mysticalagriculture:obsidian_seeds"
+		},
+		count: 2
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "mysticalagriculture:grains_of_infinity_seeds"
+		},
+		count: 2
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "mysticalagriculture:dark_steel_seeds"
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "mysticalagriculture:supremium_boots",
+			tag: {
+				ench: [{
+					lvl: 3s,
+					id: 0s
+				},
+				{
+					lvl: 1s,
+					id: 9s
+				}],
+				display: {
+					Lore: [
+						"Legends entails that the average 16 year old",
+						"wears $500 on their body, all from their",
+						"mom's credit card."
+					],
+					Name: "SUPREME™ CROCS"
+				},
+				AttributeModifiers: [{
+					UUIDMost: -5975835433583098792L,
+					UUIDLeast: -7649774224209539558L,
+					Amount: 2.0d,
+					Slot: "feet",
+					AttributeName: "generic.attackDamage",
+					Operation: 0,
+					Name: "generic.attackDamage"
+				},
+				{
+					UUIDMost: -8908768238899017377L,
+					UUIDLeast: -8313820693701227669L,
+					Amount: 6.0d,
+					Slot: "feet",
+					AttributeName: "generic.armor",
+					Operation: 0,
+					Name: "generic.armor"
+				},
+				{
+					UUIDMost: -8908768238899017377L,
+					UUIDLeast: -8313820693701227669L,
+					Amount: 2.5d,
+					Slot: "feet",
+					AttributeName: "generic.armorToughness",
+					Operation: 0,
+					Name: "generic.armorToughness"
+				},
+				{
+					UUIDMost: -740308691326711014L,
+					UUIDLeast: -5362182301541610405L,
+					Amount: 4.0d,
+					Slot: "feet",
+					AttributeName: "generic.maxHealth",
+					Operation: 0,
+					Name: "generic.maxHealth"
+				},
+				{
+					UUIDMost: -2898140992152449613L,
+					UUIDLeast: -8136602819748277198L,
+					Amount: 3.0d,
+					Slot: "feet",
+					AttributeName: "generic.reachDistance",
+					Operation: 0,
+					Name: "generic.reachDistance"
+				},
+				{
+					UUIDMost: -1226381590275537068L,
+					UUIDLeast: -5898312120604973313L,
+					Amount: 10.0d,
+					Slot: "feet",
+					AttributeName: "generic.luck",
+					Operation: 0,
+					Name: "generic.luck"
+				}]
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "mysticalagriculture:supremium_fishing_rod"
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "mysticalagriculture:supremium_apple"
+		},
+		count: 2
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "mysticalagriculture:intermedium_apple"
+		},
+		count: 4
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "mysticalagriculture:inferium_ore"
+		},
+		count: 64,
+		random_bonus: 666
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "mysticalagradditions:nether_star_essence"
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "mysticalagriculture:charm",
+			Damage: 2s
+		},
+		count: 4
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "mysticalagradditions:insanium"
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "mysticalagriculture:crafting",
+			Damage: 3s
+		},
+		count: 16
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "mysticalagriculture:crafting",
+			Damage: 4s
+		},
+		count: 4
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "mysticalagriculture:prudentium_leggings",
+			tag: {
+				ench: [{
+					lvl: 6s,
+					id: 34s
+				},
+				{
+					lvl: 4s,
+					id: 0s
+				}],
+				display: {
+					Lore: [
+						":POGCHAMP:"
+					],
+					Name: "Gardening Pants"
+				},
+				AttributeModifiers: [{
+					UUIDMost: -2861585646493481178L,
+					UUIDLeast: -6113244764726669811L,
+					Amount: 7.0d,
+					Slot: "legs",
+					AttributeName: "generic.armor",
+					Operation: 0,
+					Name: "generic.armor"
+				},
+				{
+					UUIDMost: -2861585646493481178L,
+					UUIDLeast: -6113244764726669811L,
+					Amount: 0.75d,
+					Slot: "legs",
+					AttributeName: "generic.armorToughness",
+					Operation: 0,
+					Name: "generic.armorToughness"
+				}]
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "mysticalagriculture:intermedium_chestplate",
+			tag: {
+				ench: [{
+					lvl: 4s,
+					id: 3s
+				},
+				{
+					lvl: 1s,
+					id: 70s
+				},
+				{
+					lvl: 4s,
+					id: 43s
+				},
+				{
+					lvl: 3s,
+					id: 4s
+				}],
+				display: {
+					Name: "Crest Plate"
+				},
+				AttributeModifiers: [{
+					UUIDMost: -6972338111383059132L,
+					UUIDLeast: -8978659762232839026L,
+					Amount: 7.0d,
+					Slot: "chest",
+					AttributeName: "generic.armor",
+					Operation: 0,
+					Name: "generic.armor"
+				},
+				{
+					UUIDMost: -6972338111383059132L,
+					UUIDLeast: -8978659762232839026L,
+					Amount: 1.0d,
+					Slot: "chest",
+					AttributeName: "generic.armorToughness",
+					Operation: 0,
+					Name: "generic.armorToughness"
+				},
+				{
+					UUIDMost: 1075459057539238583L,
+					UUIDLeast: -4957524339515249557L,
+					Amount: 10.0d,
+					Slot: "chest",
+					AttributeName: "generic.knockbackResistance",
+					Operation: 0,
+					Name: "generic.knockbackResistance"
+				}]
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "mysticalagriculture:superium_helmet",
+			tag: {
+				ench: [{
+					lvl: 3s,
+					id: 8s
+				},
+				{
+					lvl: 10s,
+					id: 0s
+				}],
+				display: {
+					Name: "Cold Light"
+				},
+				AttributeModifiers: [{
+					UUIDMost: 3086076556416732775L,
+					UUIDLeast: -5150312587563650736L,
+					Amount: 2.0d,
+					Slot: "head",
+					AttributeName: "generic.armor",
+					Operation: 0,
+					Name: "generic.armor"
+				},
+				{
+					UUIDMost: 3086076556416732775L,
+					UUIDLeast: -5150312587563650736L,
+					Amount: 1.25d,
+					Slot: "head",
+					AttributeName: "generic.armorToughness",
+					Operation: 0,
+					Name: "generic.armorToughness"
+				},
+				{
+					UUIDMost: 7955458792617035798L,
+					UUIDLeast: -7449614920962667775L,
+					Amount: 0.05d,
+					Slot: "head",
+					AttributeName: "generic.movementSpeed",
+					Operation: 0,
+					Name: "generic.movementSpeed"
+				},
+				{
+					UUIDMost: 5926881495403810753L,
+					UUIDLeast: -6994692013829822314L,
+					Amount: 5.0d,
+					Slot: "head",
+					AttributeName: "generic.knockbackResistance",
+					Operation: 0,
+					Name: "generic.knockbackResistance"
+				},
+				{
+					UUIDMost: 6040791518620893999L,
+					UUIDLeast: -7627480645326263534L,
+					Amount: 1.0d,
+					Slot: "head",
+					AttributeName: "generic.reachDistance",
+					Operation: 0,
+					Name: "generic.reachDistance"
+				}]
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "mysticalagriculture:prudentium_shears",
+			tag: {
+				display: {
+					Name: "You Complete Me"
+				},
+				AttributeModifiers: [{
+					UUIDMost: 4461020412867527291L,
+					UUIDLeast: -7875571463474207935L,
+					Amount: 6.0d,
+					Slot: "mainhand",
+					AttributeName: "generic.maxHealth",
+					Operation: 0,
+					Name: "generic.maxHealth"
+				}]
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "tconstruct:broadsword",
+			tag: {
+				ench: [{
+					lvl: 2s,
+					id: 21s
+				}],
+				StatsOriginal: {
+					AttackSpeedMultiplier: 1.0f,
+					MiningSpeed: 13.0f,
+					FreeModifiers: 3,
+					Durability: 253,
+					HarvestLevel: 4,
+					Attack: 14.0f
+				},
+				display: {
+					Name: "Deranged Prosparity"
+				},
+				Stats: {
+					AttackSpeedMultiplier: 1.0f,
+					MiningSpeed: 13.5f,
+					FreeModifiers: 3,
+					Durability: 879,
+					HarvestLevel: 4,
+					Attack: 15.0f
+				},
+				Special: {
+					Categories: [
+						"tool",
+						"weapon"
+					]
+				},
+				TinkerData: {
+					UsedModifiers: 3,
+					Materials: [
+						"ma.prosperity",
+						"xu_evil_metal",
+						"ma.supremium"
+					],
+					Modifiers: [
+						"emerald",
+						"diamond",
+						"luck",
+						"creative"
+					]
+				},
+				Modifiers: [{
+					identifier: "writable",
+					color: -6044219,
+					level: 1,
+					writable1: 1b
+				},
+				{
+					identifier: "xu_withering",
+					color: -131160,
+					level: 1
+				},
+				{
+					identifier: "prosperous",
+					color: -3932160,
+					level: 1
+				},
+				{
+					identifier: "emerald",
+					color: 4322180
+				},
+				{
+					identifier: "diamond",
+					color: 9237730
+				},
+				{
+					identifier: "luck",
+					current: 180,
+					color: 2970082,
+					level: 2,
+					max: 180,
+					modifierUsed: 1b,
+					extraInfo: "179 / 180"
+				},
+				{
+					identifier: "creative",
+					color: 0,
+					level: 2
+				}],
+				Traits: [
+					"writable1",
+					"xu_withering",
+					"prosperous",
+					"luck"
+				]
+			}
+		}
+	}]
+}

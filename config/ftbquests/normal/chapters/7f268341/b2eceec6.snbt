@@ -1,0 +1,63 @@
+{
+	title: "Big Bucket",
+	x: 16.5d,
+	y: 10.0d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"0d5b0cb0"
+	],
+	hide: true,
+	tasks: [{
+		uid: "7fb4f7c8",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "industrialforegoing:black_hole_tank"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "cd33fd8b",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:concrete",
+			Damage: 15s
+		},
+		count: 64
+	},
+	{
+		uid: "914e48bb",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:obsidian"
+		},
+		count: 64
+	},
+	{
+		uid: "bfbd5b71",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:splash_potion",
+			tag: {
+				Potion: "potioncore:long_diamond_skin"
+			}
+		}
+	},
+	{
+		uid: "2889c67a",
+		type: "loot",
+		table: 33
+	}]
+}

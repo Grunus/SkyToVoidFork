@@ -1,0 +1,31 @@
+{
+	title: "Cyclic Tier III Reward",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "cyclicmagic:crystallized_obsidian"
+	},
+	x: -13.0d,
+	y: 5.5d,
+	can_repeat: true,
+	dependencies: [
+		"9d123279",
+		"64aacf06",
+		"da7458b0",
+		"434dba0a"
+	],
+	hide: true,
+	optional: true,
+	tasks: [{
+		uid: "ef619c3c",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "camscurrency:denarius"
+		}],
+		count: 20L
+	}]
+}

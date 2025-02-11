@@ -1,0 +1,38 @@
+{
+	title: "Material and Energy, Cubed",
+	x: -12.0d,
+	y: -16.0d,
+	shape: "diamond",
+	description: "''Lastly, I need to augment a physical manifestation of the bridge, that'll be from a Spatial Storage Cell. Don't ask me why, I just did what they told me to do when I shadowed them...''",
+	text: [
+		""
+	],
+	dependencies: [
+		"eac739de"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "f73ca0d9",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "appliedenergistics2:spatial_storage_cell_16_cubed"
+		}],
+		consume_items: true,
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "2fa40a02",
+		type: "loot",
+		table: 16
+	},
+	{
+		uid: "37e1341b",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

@@ -1,0 +1,40 @@
+{
+	title: "Cloud Service: Chim",
+	x: -2.5d,
+	y: -6.5d,
+	shape: "octagon",
+	description: "Unlocks items within the quest book shop.",
+	hide_dependency_lines: true,
+	dependencies: [
+		"afeab033",
+		"52fffa66"
+	],
+	hide: true,
+	tasks: [{
+		uid: "fca18a32",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "contenttweaker:pylon",
+			tag: {
+				display: {
+					Lore: [
+						"Unlocks special Cloud Service items inside",
+						"the quest book shop from specific traders.",
+						"Complete quests from NPCs to reveal Cloud",
+						"Service quests."
+					],
+					Name: "Cloud Service Pylon"
+				}
+			}
+		}],
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "e8a0f61d",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

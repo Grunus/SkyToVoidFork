@@ -1,0 +1,41 @@
+{
+	title: "Bite It",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "thermalfoundation:material",
+		Damage: 131s
+	},
+	x: -8.0d,
+	y: -3.0d,
+	dependencies: [
+		"74337ab7"
+	],
+	hide: true,
+	tasks: [{
+		uid: "eceeb7b0",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thermalfoundation:material",
+			Damage: 131s
+		}],
+		count: 8L
+	}],
+	rewards: [{
+		uid: "5771b0f9",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "tconstruct:large_sword_blade",
+			tag: {
+				Material: "lead"
+			}
+		}
+	}]
+}

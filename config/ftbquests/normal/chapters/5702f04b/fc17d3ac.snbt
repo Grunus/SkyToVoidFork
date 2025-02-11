@@ -1,0 +1,38 @@
+{
+	title: "The First Tome",
+	x: -6.5d,
+	y: 15.5d,
+	description: "You can purchase Tomes from Chim, or sometimes find them in various crates and chests.",
+	dependencies: [
+		"659354d2"
+	],
+	hide: true,
+	tasks: [{
+		uid: "66b2a449",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ebwizardry:arcane_tome",
+			Damage: 1s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "dfb1843d",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "camscurrency:denarius"
+		},
+		count: 12
+	},
+	{
+		uid: "7c3bc93f",
+		type: "loot",
+		table: 22
+	}]
+}

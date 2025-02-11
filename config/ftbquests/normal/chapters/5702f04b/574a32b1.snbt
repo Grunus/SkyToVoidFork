@@ -1,0 +1,58 @@
+{
+	title: "Ender Ashes",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "mysticalagriculture:enderium_essence"
+	},
+	x: -10.0d,
+	y: 11.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"f23bf935"
+	],
+	hide: true,
+	tasks: [{
+		uid: "c7c5dddb",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "mysticalagriculture:enderium_essence"
+		}],
+		count: 20L
+	},
+	{
+		uid: "74e4a717",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "mysticalagriculture:enderium_seeds"
+		}],
+		count: 2L
+	}],
+	rewards: [{
+		uid: "75523482",
+		type: "loot",
+		table: 11
+	},
+	{
+		uid: "0e5493e9",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thermalfoundation:glass_alloy",
+			Damage: 7s
+		},
+		count: 6,
+		random_bonus: 24
+	}]
+}

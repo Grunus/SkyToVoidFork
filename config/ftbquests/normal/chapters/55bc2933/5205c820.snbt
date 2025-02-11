@@ -1,0 +1,226 @@
+{
+	title: "Loot Pool",
+	x: -5.0d,
+	y: 1.5d,
+	shape: "rsquare",
+	description: "Reveals possible loot that can be found or dropped by mobs. Does not reveal loot behind Void Gateways.",
+	text: [
+		"Boney Bow: Persisted Skeleton Drop",
+		"Factory-Issue Boots: Crate",
+		"Membrane Fracture: Large Mind Drop"
+	],
+	dependencies: [
+		"c9cad6bb"
+	],
+	hide: true,
+	optional: true,
+	tasks: [{
+		uid: "fa62d4d5",
+		type: "item",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "contenttweaker:mission_loot",
+			tag: {
+				display: {
+					Name: "Loot Pool"
+				}
+			}
+		},
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:structure_void",
+			tag: {
+				display: {
+					Lore: [
+						"This quest shows all possible loot that can",
+						"be found or dropped by mobs.",
+						"",
+						"Does not include loot behind Void Gateways."
+					],
+					Name: "QUEST CANNOT BE COMPLETED"
+				}
+			}
+		}],
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "1b4d4013",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thermalfoundation:tool.bow_tin",
+			tag: {
+				ench: [{
+					lvl: 1s,
+					id: 49s
+				}],
+				RepairCost: 1,
+				display: {
+					Name: "Boney Bow"
+				},
+				AttributeModifiers: [{
+					UUIDMost: -8075140208527585306L,
+					UUIDLeast: -4703147198230622926L,
+					Amount: 2.0d,
+					Slot: "mainhand",
+					AttributeName: "potioncore.projectileDamage",
+					Operation: 0,
+					Name: "potioncore.projectileDamage"
+				},
+				{
+					UUIDMost: 5726625242958351357L,
+					UUIDLeast: -8134190332337015466L,
+					Amount: -0.5d,
+					Slot: "mainhand",
+					AttributeName: "potioncore.jumpHeight",
+					Operation: 0,
+					Name: "potioncore.jumpHeight"
+				}]
+			}
+		}
+	},
+	{
+		uid: "ea99b002",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:diamond_boots",
+			tag: {
+				ench: [{
+					lvl: 3s,
+					id: 3s
+				},
+				{
+					lvl: 1s,
+					id: 7s
+				}],
+				display: {
+					Lore: [
+						"Fake Diamonds inc."
+					],
+					Name: "Factory-Issue Boots"
+				},
+				AttributeModifiers: [{
+					UUIDMost: -8908768238899017377L,
+					UUIDLeast: -8313820693701227669L,
+					Amount: 2.0d,
+					Slot: "feet",
+					AttributeName: "generic.armor",
+					Operation: 0,
+					Name: "generic.armor"
+				},
+				{
+					UUIDMost: -8908768238899017377L,
+					UUIDLeast: -8313820693701227669L,
+					Amount: 4.0d,
+					Slot: "feet",
+					AttributeName: "generic.armorToughness",
+					Operation: 0,
+					Name: "generic.armorToughness"
+				}]
+			}
+		}
+	},
+	{
+		uid: "a1b4d774",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "tconstruct:longsword",
+			tag: {
+				ench: [{
+					lvl: 1s,
+					id: 21s
+				}],
+				StatsOriginal: {
+					AttackSpeedMultiplier: 1.0f,
+					MiningSpeed: 7.0f,
+					FreeModifiers: 3,
+					Durability: 417,
+					HarvestLevel: 3,
+					Attack: 6.5f
+				},
+				display: {
+					Name: "Membrane Fracture"
+				},
+				Stats: {
+					AttackSpeedMultiplier: 1.0f,
+					MiningSpeed: 7.5f,
+					FreeModifiers: 0,
+					Durability: 917,
+					HarvestLevel: 3,
+					Attack: 7.5f
+				},
+				Special: {
+					Categories: [
+						"weapon",
+						"tool"
+					]
+				},
+				TinkerData: {
+					UsedModifiers: 3,
+					Materials: [
+						"lead",
+						"steel",
+						"lead"
+					],
+					Modifiers: [
+						"luck",
+						"diamond",
+						"webbed"
+					]
+				},
+				Modifiers: [{
+					identifier: "poisonous",
+					color: -11712152,
+					level: 1
+				},
+				{
+					identifier: "heavy",
+					color: -11712152,
+					level: 1
+				},
+				{
+					identifier: "sharp",
+					color: -5789785,
+					level: 1
+				},
+				{
+					identifier: "luck",
+					current: 60,
+					color: 2970082,
+					level: 1,
+					max: 60,
+					modifierUsed: 1b,
+					extraInfo: "59 / 60"
+				},
+				{
+					identifier: "diamond",
+					color: 9237730
+				},
+				{
+					identifier: "webbed",
+					color: 16777215,
+					level: 1
+				}],
+				Traits: [
+					"poisonous",
+					"heavy",
+					"sharp",
+					"luck",
+					"webbed"
+				]
+			}
+		}
+	}]
+}

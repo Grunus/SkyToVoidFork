@@ -1,0 +1,29 @@
+{
+	title: "Evil Laughter",
+	x: 16.0d,
+	y: -4.0d,
+	description: "Putting Grains of Infinity in a SAG Mill will spit out Infinity Dust.",
+	text: [
+		"Throwing it in direct sunlight will bolt lightning down. Throwing it in darkness will start spawning monsters",
+		"(Just don't touch the dust yourself)."
+	],
+	dependencies: [
+		"46a52eee"
+	],
+	hide: true,
+	tasks: [{
+		uid: "93d33bbd",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "enderio:block_infinity_fog"
+		}]
+	}],
+	rewards: [{
+		uid: "6d41d1f7",
+		type: "loot",
+		table: 34
+	}]
+}

@@ -1,0 +1,58 @@
+{
+	title: "Cloudy Ruins",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "chisel:cloud",
+		Damage: 1s
+	},
+	x: -8.0d,
+	y: -4.0d,
+	description: "These blocks don't allow mobs to spawn, except for the NPCs that spawn here, and they're not friendly...",
+	text: [
+		""
+	],
+	dependencies: [
+		"33586e77",
+		"6bae85c1"
+	],
+	hide: true,
+	tasks: [{
+		uid: "7c37e32c",
+		type: "location",
+		title: "-209 81 -69",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "chisel:cloud",
+			Damage: 1s
+		},
+		location: [I;
+			0,
+			-213,
+			81,
+			-73,
+			5,
+			5,
+			5
+		]
+	}],
+	rewards: [{
+		uid: "a2a11d7c",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "chisel:cloud"
+		},
+		count: 16
+	},
+	{
+		uid: "428ef5bb",
+		type: "ftbmoney:money",
+		ftb_money: 15L
+	}]
+}

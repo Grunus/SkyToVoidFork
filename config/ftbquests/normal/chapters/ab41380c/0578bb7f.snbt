@@ -1,0 +1,27 @@
+{
+	title: "Libcardo's ...",
+	x: -3.0d,
+	y: 1.0d,
+	shape: "diamond",
+	hide_dependency_lines: true,
+	dependencies: [
+		"553e299f"
+	],
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "0af26b11",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "extrautils2:compressednetherrack",
+			Damage: 5s
+		}]
+	}],
+	rewards: [{
+		uid: "c615d21c",
+		type: "ftbmoney:money",
+		ftb_money: 400L
+	}]
+}

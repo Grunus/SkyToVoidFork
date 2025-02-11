@@ -1,0 +1,51 @@
+{
+	title: "Islands IV",
+	x: 2.0d,
+	y: 3.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"ca7ccb0e",
+		"05faa4f9"
+	],
+	tasks: [{
+		uid: "cb90d9a8",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "netherite:netherite_scrap"
+		}],
+		count: 4L,
+		consume_items: true
+	},
+	{
+		uid: "c7f83f4e",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:chorus_fruit"
+		}],
+		count: 16L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "d014c47b",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "artifacts:shock_pendant"
+		}
+	},
+	{
+		uid: "d61c3533",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

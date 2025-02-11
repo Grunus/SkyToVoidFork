@@ -1,0 +1,68 @@
+{
+	title: "THE END!",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "cyclicmagic:heart_food"
+	},
+	x: 0.0d,
+	y: -12.0d,
+	shape: "heart",
+	description: "Thank you for playing my modpack, Sky to Void!",
+	text: [
+		"This was my largest project, starting back in 2019, and ending in July of 2022.",
+		"",
+		"I've been building this world for years now, and took tons of ambition to complete it, and hopefully through your ambition of playing it, you enjoyed the adventure!",
+		"",
+		"And of course... This modpack would NOT be possible without the mods I've chosen. I thank the modding community for making such great and unique mods (for us chumps who don't know how to code).",
+		"",
+		"If you have more in you, see if you can 100% the modpack by completing all of the non-optional tagged quests.",
+		"",
+		"Wanna discuss about the modpack? Join the Discord! I am of course taking any constructive criticism or feedback of the modpack.",
+		"https://discord.gg/u5UdcQv",
+		"",
+		"--- Credits and Special Thanks ---",
+		"",
+		"The Modpack: Official_Parade/The Black Parade/Parade",
+		"",
+		"Curseforge Page: WarlockednLoaded",
+		"",
+		"Public Scripts: Hank (Hankcolewu)",
+		"",
+		"Quicksilver items/armor fix: meowdiosToreador",
+		"",
+		"Playtesters:",
+		"- GlazzDonut",
+		"- MicroBoss",
+		"- Watchbox",
+		"- Vhoxel",
+		"- PhilipRamZ",
+		"- Sepaku",
+		"- _mokes",
+		"- etothepowerof26",
+		"- AlethPlays",
+		"- TheRandle2",
+		"",
+		"",
+		". In memory of Jadedcat, Technoblade, and one of my cats - Smudge."
+	],
+	dependencies: [
+		"81637d7c"
+	],
+	hide: true,
+	size: 6.0d,
+	min_width: 350,
+	tasks: [{
+		uid: "ea1b4b3c",
+		type: "checkmark",
+		title: "THANK YOU FOR PLAYING!"
+	}],
+	rewards: [{
+		uid: "fe01a11c",
+		type: "choice",
+		title: "Creative Item Choice",
+		team_reward: true,
+		table: 41
+	}]
+}

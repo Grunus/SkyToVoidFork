@@ -1,0 +1,49 @@
+{
+	title: "The Deepest Iron",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "metallurgy:deep_iron_block"
+	},
+	x: 4.5d,
+	y: 8.5d,
+	shape: "diamond",
+	description: "''Under this giant block of stone there is a layer with bedrock scattered everywhere. There is also Deep Iron, something I need right now. Can you grab and smelt a few blocks for me?''",
+	text: [
+		"Perfect! Good luck on your quest."
+	],
+	dependencies: [
+		"81b1cd10"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "843dc665",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "metallurgy:deep_iron_block"
+		}],
+		count: 4L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "3d4132d3",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "camscurrency:denarius"
+		},
+		count: 12
+	},
+	{
+		uid: "8427de4c",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

@@ -1,0 +1,44 @@
+{
+	title: "Living Dead",
+	x: 21.0d,
+	y: -2.5d,
+	description: "Create a spawner using collected soul!",
+	text: [
+		""
+	],
+	dependencies: [
+		"0bc9f9f7"
+	],
+	hide: true,
+	tasks: [{
+		uid: "7c26d794",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "enderio:block_powered_spawner"
+		}]
+	}],
+	rewards: [{
+		uid: "87451539",
+		type: "loot",
+		table: 36
+	},
+	{
+		uid: "e2df421a",
+		type: "loot",
+		table: 36
+	},
+	{
+		uid: "77cd2d03",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "harvestcraft:cassouletitem"
+		},
+		count: 16
+	}]
+}

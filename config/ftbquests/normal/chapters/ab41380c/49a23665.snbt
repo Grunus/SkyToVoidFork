@@ -1,0 +1,40 @@
+{
+	title: "Ambrosium",
+	x: -4.0d,
+	y: -18.0d,
+	shape: "gear",
+	description: "''You know, sometimes I smell something sweet whenever I go outside, and now I know why. Besides the honey though, that Ambrosium is a rare ore I can use.''",
+	text: [
+		"Perfect! This Ambrosium will be used for my next PC build."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"9526304b",
+		"e5190e34"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "48dc8774",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "netherendingores:ore_other_1",
+			Damage: 6s
+		}],
+		count: 16L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "18ab514d",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "cyclicmagic:heart_food"
+		}
+	}]
+}

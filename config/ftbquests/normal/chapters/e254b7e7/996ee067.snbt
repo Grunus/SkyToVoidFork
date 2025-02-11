@@ -1,0 +1,48 @@
+{
+	title: "Scold Them.",
+	x: 4.464285714285715d,
+	y: -21.927380952380954d,
+	shape: "gear",
+	text: [
+		"If that's how you want it, then fine. We will deal with you then with our own ways."
+	],
+	dependencies: [
+		"0670a039",
+		"9cc8499e",
+		"be3e4ae5"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	size: 1.7d,
+	tasks: [{
+		uid: "687684ad",
+		type: "checkmark",
+		title: "Scold Them.",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "extrautils2:ingredients",
+			Damage: 2s
+		}
+	}],
+	rewards: [{
+		uid: "6bc14420",
+		type: "command",
+		title: "The Final Frontier",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "contenttweaker:worldborder",
+			tag: {
+				display: {
+					Name: "Worldborder"
+				}
+			}
+		},
+		team_reward: true,
+		auto: "enabled",
+		command: "/worldborder set 6666666"
+	}]
+}

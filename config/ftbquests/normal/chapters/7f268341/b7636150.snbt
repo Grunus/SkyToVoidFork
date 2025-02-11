@@ -1,0 +1,40 @@
+{
+	title: "Industrial Paint",
+	x: 12.5d,
+	y: -0.5d,
+	description: "An ingrediant in your standard machinery.",
+	text: [
+		""
+	],
+	dependencies: [
+		"49e3543d"
+	],
+	hide: true,
+	tasks: [{
+		uid: "a5dcfa21",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "enderio:item_material",
+			Damage: 51s
+		}]
+	},
+	{
+		uid: "955c5133",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "enderio:item_material",
+			Damage: 1s
+		}]
+	}],
+	rewards: [{
+		uid: "893b20d4",
+		type: "loot",
+		table: 34
+	}]
+}

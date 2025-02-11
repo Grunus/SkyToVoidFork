@@ -1,0 +1,51 @@
+{
+	title: "POG",
+	x: -6.5d,
+	y: 9.0d,
+	shape: "square",
+	dependencies: [
+		"2838698b"
+	],
+	hide: true,
+	tasks: [{
+		uid: "0a5e0129",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "openblocks:technicolor_glasses"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "5d11487e",
+		type: "loot",
+		table: 16
+	},
+	{
+		uid: "5c0ec259",
+		type: "loot",
+		table: 20
+	},
+	{
+		uid: "16ce9094",
+		type: "loot",
+		table: 10
+	},
+	{
+		uid: "3dc34111",
+		type: "loot",
+		table: 3
+	},
+	{
+		uid: "a02069b8",
+		type: "loot",
+		table: 31
+	},
+	{
+		uid: "3740d3f5",
+		type: "loot",
+		table: 31
+	}]
+}

@@ -1,0 +1,26 @@
+{
+	title: "Double Power",
+	x: 17.0d,
+	y: 2.5d,
+	dependencies: [
+		"6dae248c"
+	],
+	hide: true,
+	tasks: [{
+		uid: "c84d7ebb",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "enderio:item_basic_capacitor",
+			Damage: 1s
+		}],
+		count: 2L
+	}],
+	rewards: [{
+		uid: "74716b64",
+		type: "loot",
+		table: 34
+	}]
+}

@@ -1,0 +1,36 @@
+{
+	title: "Key to the Void",
+	x: 0.5d,
+	y: -5.0d,
+	shape: "diamond",
+	text: [
+		""
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"2b332e19",
+		"00bef1ac"
+	],
+	hide: true,
+	tasks: [{
+		uid: "86fb50c6",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "contenttweaker:extra4_bossrush",
+			tag: {
+				display: {
+					Lore: [
+						"Gain access to Lowest Point Mission.",
+						"",
+						"",
+						"Can be used on the door in Mission Hub."
+					],
+					Name: "Ambition"
+				}
+			}
+		}]
+	}]
+}

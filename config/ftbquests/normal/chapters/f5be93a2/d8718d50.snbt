@@ -1,0 +1,40 @@
+{
+	title: "Alþrúðr II",
+	x: 0.0d,
+	y: 12.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"cf4dde71"
+	],
+	tasks: [{
+		uid: "7cb15e2e",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "appliedenergistics2:material",
+			Damage: 7s
+		}],
+		count: 64L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "af3b1272",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "camscurrency:denarius"
+		},
+		count: 32
+	},
+	{
+		uid: "c6631b9c",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	}]
+}

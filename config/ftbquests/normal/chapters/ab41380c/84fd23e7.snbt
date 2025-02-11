@@ -1,0 +1,22 @@
+{
+	title: "Chim's Control of Darkness",
+	x: 17.5d,
+	y: 4.0d,
+	shape: "diamond",
+	description: "''Now- now that crystal. If you find that dark crystal in that temple, give it to me, please! I will give what you need to complete your task- just get that crystal and give it to me! Char doesn't need it... I promise!''",
+	text: [
+		""
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"c4440f2c",
+		"0f0c0d24",
+		"4684b1fb"
+	],
+	hide: true,
+	tasks: [{
+		uid: "fd66e71f",
+		type: "checkmark",
+		title: "''Hm- I'll think about it.''"
+	}]
+}

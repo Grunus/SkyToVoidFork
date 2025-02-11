@@ -1,0 +1,112 @@
+{
+	title: "Liam's Knowledge of the ... Cube ...",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "darkutils:sneaky_bedrock"
+	},
+	x: 14.5d,
+	y: -0.5d,
+	shape: "diamond",
+	description: "''The Cube? It survived? You must've found the entire core then! The Cube holds something within. Monsters can be heard inside but it is dense, and practically indistructible. You might find the keys to open it on other islands.''",
+	text: [
+		"These relics, I've seen these before. They were the keys of The Deep Dark, a dimension meant for the old afterlife.",
+		"",
+		"Could this be The Deep Dark? I advise that if you do open it, be prepared..."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"c9dee3d1",
+		"6d97ad4c"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "4a000995",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "appliedenergistics2:paint_ball",
+			tag: {
+				ench: [{
+					lvl: 100s,
+					id: 40s
+				}],
+				Unbreakable: 1b,
+				display: {
+					Lore: [
+						"An ancient object found deep within hell",
+						"itself.",
+						"Used to open anomalies of the world..."
+					],
+					Name: "Relic of the Underworld"
+				}
+			},
+			Damage: 14s
+		}],
+		consume_items: true,
+		ignore_nbt: 2b
+	},
+	{
+		uid: "77527355",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "appliedenergistics2:paint_ball",
+			tag: {
+				ench: [{
+					lvl: 100s,
+					id: 6s
+				},
+				{
+					lvl: 100s,
+					id: 40s
+				}],
+				Unbreakable: 1b,
+				display: {
+					Lore: [
+						"An ancient artifact found deep in the water",
+						"temples of the oceans.",
+						"Used to open anomalies of the world..."
+					],
+					Name: "Relic of the Sea"
+				}
+			},
+			Damage: 29s
+		}],
+		consume_items: true,
+		ignore_nbt: 2b
+	}],
+	rewards: [{
+		uid: "ccf14cd6",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "302b3e43",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "contenttweaker:objectives",
+			tag: {
+				ench: [{
+					lvl: 1s,
+					id: 10s
+				}],
+				display: {
+					Lore: [
+						"Statue of Anger would be pleased."
+					],
+					Name: "Mark of Friendship - Island Layer 2"
+				}
+			}
+		}
+	}]
+}

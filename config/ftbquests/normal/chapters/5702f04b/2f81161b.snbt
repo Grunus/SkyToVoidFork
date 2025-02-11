@@ -1,0 +1,27 @@
+{
+	title: "Wrath Farmer",
+	x: -9.0d,
+	y: 9.5d,
+	shape: "square",
+	description: "Wither farm time!",
+	dependencies: [
+		"fdaae193"
+	],
+	hide: true,
+	tasks: [{
+		uid: "ea6fb626",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "mysticalagriculture:witherproof_block"
+		}],
+		count: 32L
+	}],
+	rewards: [{
+		uid: "4915e594",
+		type: "loot",
+		table: 12
+	}]
+}

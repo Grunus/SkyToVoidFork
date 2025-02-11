@@ -1,0 +1,46 @@
+{
+	title: "C Sharp",
+	x: -1.0d,
+	y: 13.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"80c55134"
+	],
+	hide: true,
+	tasks: [{
+		uid: "4bd077db",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "psi:psimetal_sword"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "657d28f0",
+		type: "loot",
+		table: 50
+	},
+	{
+		uid: "9ee662e8",
+		type: "loot",
+		table: 50
+	},
+	{
+		uid: "2ea1c847",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "psi:material",
+			Damage: 2s
+		},
+		random_bonus: 1
+	}]
+}

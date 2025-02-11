@@ -1,0 +1,37 @@
+{
+	title: "Tinkers' Tier I Reward",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "tconstruct:tooltables",
+		Damage: 3s
+	},
+	x: -4.0d,
+	y: 4.5d,
+	can_repeat: true,
+	dependencies: [
+		"b95d7004",
+		"c2cd2064",
+		"34a6b45c"
+	],
+	hide: true,
+	optional: true,
+	tasks: [{
+		uid: "e8bb75f0",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "camscurrency:denarius"
+		}],
+		count: 6L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "6179c6b6",
+		type: "loot",
+		table: 4
+	}]
+}

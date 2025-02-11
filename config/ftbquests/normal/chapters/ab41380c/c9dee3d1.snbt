@@ -1,0 +1,85 @@
+{
+	title: "The Library",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "chisel:bookshelf_oak"
+	},
+	x: -2.5d,
+	y: 5.0d,
+	description: "Where you can study the finest lore!",
+	hide_dependency_lines: true,
+	dependencies: [
+		"6bae85c1"
+	],
+	hide: true,
+	tasks: [{
+		uid: "9f44db13",
+		type: "location",
+		title: "-51 95 223",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "chisel:bookshelf_oak"
+		},
+		location: [I;
+			0,
+			-54,
+			95,
+			221,
+			5,
+			5,
+			5
+		]
+	}],
+	rewards: [{
+		uid: "1439cad9",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:bookshelf"
+		},
+		count: 4
+	},
+	{
+		uid: "f7a35ee9",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:enchanted_book",
+			tag: {
+				StoredEnchantments: [{
+					lvl: 1,
+					id: 50
+				}]
+			}
+		}
+	},
+	{
+		uid: "83ffa827",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:enchanted_book",
+			tag: {
+				StoredEnchantments: [{
+					lvl: 4,
+					id: 4
+				}]
+			}
+		}
+	},
+	{
+		uid: "04754aff",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

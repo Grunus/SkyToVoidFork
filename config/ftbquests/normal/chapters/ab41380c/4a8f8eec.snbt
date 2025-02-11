@@ -1,0 +1,116 @@
+{
+	title: "Tethered Ecosystem",
+	x: 8.5d,
+	y: 10.5d,
+	description: "Connected by the true force of nature... and stone.",
+	dependencies: [
+		"6bae85c1"
+	],
+	hide: true,
+	tasks: [{
+		uid: "98f13c7d",
+		type: "location",
+		title: "331 154 314",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "futuremc:smooth_stone"
+		},
+		location: [I;
+			0,
+			329,
+			154,
+			312,
+			5,
+			5,
+			5
+		]
+	}],
+	rewards: [{
+		uid: "77c954fb",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:grass"
+		},
+		count: 16
+	},
+	{
+		uid: "fc2cdddd",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:quartz_block"
+		},
+		count: 16
+	},
+	{
+		uid: "f67820f0",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:cactus"
+		},
+		count: 16
+	},
+	{
+		uid: "930667d3",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:packed_ice"
+		},
+		count: 16
+	},
+	{
+		uid: "2ce9327d",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:gold_ore"
+		},
+		count: 16
+	},
+	{
+		uid: "b943f9bf",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "yoyos:yoyo_cord",
+			tag: {
+				Material: "vine"
+			}
+		},
+		count: 16
+	},
+	{
+		uid: "a014fedb",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:sapling",
+			Damage: 1s
+		},
+		count: 16
+	},
+	{
+		uid: "7c5ea6f7",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	}]
+}

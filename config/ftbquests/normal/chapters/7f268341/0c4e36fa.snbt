@@ -1,0 +1,31 @@
+{
+	title: "Infusing Magic",
+	x: 2.5d,
+	y: 6.5d,
+	description: "Enchanters provides useful recipes and can enchant items using lapis.",
+	text: [
+		""
+	],
+	dependencies: [
+		"ef38a701"
+	],
+	hide: true,
+	tasks: [{
+		uid: "f8f67dcc",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "extrautils2:machine",
+			tag: {
+				Type: "extrautils2:enchanter"
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "0da096cf",
+		type: "loot",
+		table: 17
+	}]
+}

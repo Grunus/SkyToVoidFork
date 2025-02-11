@@ -1,0 +1,25 @@
+{
+	title: "Overloading Seed",
+	x: -12.0d,
+	y: 8.0d,
+	dependencies: [
+		"59b5e6d0"
+	],
+	hide: true,
+	tasks: [{
+		uid: "2c7308b0",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "mysticalagriculture:crafting",
+			Damage: 19s
+		}]
+	}],
+	rewards: [{
+		uid: "b7351c41",
+		type: "loot",
+		table: 10
+	}]
+}

@@ -1,0 +1,53 @@
+{
+	title: "I think we know where this is heading...",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "minecraft:lava_bucket"
+	},
+	x: -2.0d,
+	y: 6.0d,
+	shape: "hexagon",
+	text: [
+		"So you know now, Nether Portals are disabled."
+	],
+	dependencies: [
+		"aa59695a"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "84f26b34",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:lava_bucket"
+		},
+		{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "claybucket:claybucket",
+			Damage: 2s
+		}]
+	}],
+	rewards: [{
+		uid: "f1eeac26",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "harvestcraft:pumpkinbreaditem"
+		},
+		count: 2
+	},
+	{
+		uid: "1990fac5",
+		type: "loot",
+		table: 0
+	}]
+}

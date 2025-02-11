@@ -1,0 +1,76 @@
+{
+	title: "Libcardo Quest IV",
+	x: -3.0d,
+	y: -3.0d,
+	shape: "diamond",
+	description: "''Ha ha, look at that piece of cobblestone! That's pretty impressive for an amateur. Pack it greater. This time I'll give you a reward''",
+	text: [
+		""
+	],
+	dependencies: [
+		"df57cab5"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "a3ac6e44",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "extrautils2:compressedcobblestone",
+			Damage: 3s
+		}]
+	}],
+	rewards: [{
+		uid: "a2932acf",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "camscurrency:denarius"
+		},
+		count: 4
+	},
+	{
+		uid: "3104f374",
+		type: "custom",
+		title: "Libcardo's Quest Trial",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:filled_map"
+		},
+		auto: "enabled"
+	},
+	{
+		uid: "9f2960c2",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "151a5701",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "contenttweaker:objectives",
+			tag: {
+				ench: [{
+					lvl: 1s,
+					id: 10s
+				}],
+				display: {
+					Lore: [
+						"Statue of Denial would be pleased."
+					],
+					Name: "Mark of Friendship - Island Layer 1"
+				}
+			}
+		}
+	}]
+}

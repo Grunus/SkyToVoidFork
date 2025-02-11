@@ -1,0 +1,69 @@
+{
+	title: "Cold Blooded",
+	x: -3.0d,
+	y: -22.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"996ee067"
+	],
+	hide: true,
+	tasks: [{
+		uid: "70ac4cd3",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "enderio:block_alloy",
+			Damage: 2s
+		}],
+		count: 2L
+	},
+	{
+		uid: "35be2576",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "enderio:block_alloy",
+			Damage: 1s
+		}],
+		count: 2L
+	},
+	{
+		uid: "1883a86b",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "enderio:block_alloy",
+			Damage: 3s
+		}],
+		count: 2L
+	}],
+	rewards: [{
+		uid: "8949624e",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "camscurrency:denarius"
+		},
+		count: 6
+	},
+	{
+		uid: "27b84efe",
+		type: "loot",
+		table: 36
+	},
+	{
+		uid: "7f3bd85c",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	}]
+}

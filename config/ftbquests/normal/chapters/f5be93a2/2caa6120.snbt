@@ -1,0 +1,54 @@
+{
+	title: "Mark of Greed",
+	x: 1.0d,
+	y: -2.0d,
+	shape: "square",
+	hide_dependency_lines: true,
+	dependencies: [
+		"01437c64"
+	],
+	hide: true,
+	tasks: [{
+		uid: "4f87ff96",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thermalfoundation:rockwool",
+			tag: {
+				ench: [{
+					lvl: 5s,
+					id: 60s
+				},
+				{
+					lvl: 1s,
+					id: 10s
+				},
+				{
+					lvl: 6s,
+					id: 40s
+				}],
+				display: {
+					Name: "IV. Mark of Greed"
+				}
+			},
+			Damage: 11s
+		}]
+	}],
+	rewards: [{
+		uid: "b202544f",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "cyclicmagic:crafting_food"
+		}
+	},
+	{
+		uid: "acd049c7",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

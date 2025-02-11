@@ -1,0 +1,47 @@
+{
+	title: "Dark Souls",
+	x: -13.0d,
+	y: 7.0d,
+	description: "This dagger is used for collecting mob chunks for seeds.",
+	dependencies: [
+		"59b5e6d0"
+	],
+	hide: true,
+	tasks: [{
+		uid: "ee322a60",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "mysticalagriculture:soulium_dagger"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "6a3912f3",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "tconstruct:sword_blade",
+			tag: {
+				Material: "soularium"
+			}
+		}
+	},
+	{
+		uid: "f86ef25e",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "mysticalagriculture:crafting",
+			Damage: 38s
+		},
+		count: 4
+	}]
+}

@@ -1,0 +1,32 @@
+{
+	title: "Libcardo's Compressed Dirt",
+	x: -5.0d,
+	y: -3.0d,
+	shape: "diamond",
+	description: "''Dirt?''",
+	text: [
+		"Dirt."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"f720118e"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "a975304c",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "extrautils2:compresseddirt",
+			Damage: 3s
+		}]
+	}],
+	rewards: [{
+		uid: "7e3abc88",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	}]
+}

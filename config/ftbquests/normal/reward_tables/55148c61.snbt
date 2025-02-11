@@ -1,0 +1,272 @@
+{
+	title: "Psi Tier II Reward",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "psi:cad_colorizer_",
+		Damage: 16s
+	},
+	loot_size: 1,
+	hide_tooltip: true,
+	use_title: true,
+	rewards: [{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "psi:cad_colorizer_",
+			Damage: 16s
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "psi:material",
+			Damage: 1s
+		},
+		count: 2
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "psi:material",
+			Damage: 1s
+		},
+		count: 3
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "psi:material",
+			Damage: 1s
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "psi:material",
+			Damage: 3s
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "psi:material",
+			Damage: 4s
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "psi:material",
+			Damage: 2s
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "psi:exosuit_controller",
+			tag: {
+				ench: [{
+					lvl: 1s,
+					id: 60s
+				}],
+				HideFlags: 1,
+				display: {
+					Lore: [
+						"Everything, all of the time."
+					],
+					Name: "IPhone"
+				},
+				AttributeModifiers: [{
+					UUIDMost: 8218907890400513346L,
+					UUIDLeast: -6921921492168801034L,
+					Amount: 0.14d,
+					Slot: "offhand",
+					AttributeName: "generic.attackDamage",
+					Operation: 1,
+					Name: "generic.attackDamage"
+				},
+				{
+					UUIDMost: 1421379677933289847L,
+					UUIDLeast: -7720702174734168208L,
+					Amount: 0.14d,
+					Slot: "offhand",
+					AttributeName: "generic.attackSpeed",
+					Operation: 1,
+					Name: "generic.attackSpeed"
+				},
+				{
+					UUIDMost: -1572818736285269123L,
+					UUIDLeast: -5331426786546280783L,
+					Amount: 0.14d,
+					Slot: "offhand",
+					AttributeName: "generic.armor",
+					Operation: 1,
+					Name: "generic.armor"
+				},
+				{
+					UUIDMost: 5861496847585920731L,
+					UUIDLeast: -5211909542250221235L,
+					Amount: 0.14d,
+					Slot: "offhand",
+					AttributeName: "generic.armorToughness",
+					Operation: 1,
+					Name: "generic.armorToughness"
+				},
+				{
+					UUIDMost: -3481108973936492495L,
+					UUIDLeast: -5368733523538995789L,
+					Amount: 0.14d,
+					Slot: "offhand",
+					AttributeName: "generic.maxHealth",
+					Operation: 1,
+					Name: "generic.maxHealth"
+				},
+				{
+					UUIDMost: 818061612615353740L,
+					UUIDLeast: -6450578556876180315L,
+					Amount: 0.14d,
+					Slot: "offhand",
+					AttributeName: "generic.movementSpeed",
+					Operation: 1,
+					Name: "generic.movementSpeed"
+				},
+				{
+					UUIDMost: 1510419652204384250L,
+					UUIDLeast: -9185738951223146780L,
+					Amount: 0.14d,
+					Slot: "offhand",
+					AttributeName: "generic.knockbackResistance",
+					Operation: 1,
+					Name: "generic.knockbackResistance"
+				},
+				{
+					UUIDMost: -1387136878617804191L,
+					UUIDLeast: -4944408004893212118L,
+					Amount: 0.14d,
+					Slot: "offhand",
+					AttributeName: "generic.reachDistance",
+					Operation: 1,
+					Name: "generic.reachDistance"
+				},
+				{
+					UUIDMost: -6672250896463410804L,
+					UUIDLeast: -9111828413412152996L,
+					Amount: 0.14d,
+					Slot: "offhand",
+					AttributeName: "generic.luck",
+					Operation: 1,
+					Name: "generic.luck"
+				},
+				{
+					UUIDMost: 8128418306227980678L,
+					UUIDLeast: -8150795568193000449L,
+					Amount: 0.14d,
+					Slot: "offhand",
+					AttributeName: "generic.followRange",
+					Operation: 1,
+					Name: "generic.followRange"
+				},
+				{
+					UUIDMost: -5907050750136005589L,
+					UUIDLeast: -6233954486647109396L,
+					Amount: 0.14d,
+					Slot: "offhand",
+					AttributeName: "horse.jumpStrength",
+					Operation: 1,
+					Name: "horse.jumpStrength"
+				},
+				{
+					UUIDMost: -8088145528351341317L,
+					UUIDLeast: -5416111732575655873L,
+					Amount: 0.14d,
+					Slot: "offhand",
+					AttributeName: "zombie.spawnReinforcements",
+					Operation: 1,
+					Name: "zombie.spawnReinforcements"
+				},
+				{
+					UUIDMost: 8147464005367582257L,
+					UUIDLeast: -8454639391100919659L,
+					Amount: 0.14d,
+					Slot: "offhand",
+					AttributeName: "generic.flyingSpeed",
+					Operation: 1,
+					Name: "generic.flyingSpeed"
+				}]
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "psi:cad_core",
+			Damage: 4s
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "psi:psi_decorative",
+			Damage: 6s
+		},
+		count: 64
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "psi:psi_decorative",
+			Damage: 4s
+		},
+		count: 64
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "psi:psi_decorative",
+			Damage: 1s
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "psi:cad_socket",
+			Damage: 4s
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "psi:cad_battery",
+			Damage: 2s
+		}
+	}]
+}

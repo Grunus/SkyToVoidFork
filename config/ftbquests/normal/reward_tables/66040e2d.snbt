@@ -1,0 +1,553 @@
+{
+	title: "The True Followers",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "extrautils2:goldenlasso",
+		Damage: 1s
+	},
+	loot_size: 1,
+	hide_tooltip: true,
+	use_title: true,
+	rewards: [{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "tconstruct:materials",
+			Damage: 19s
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "metallurgy:vyroxeres_block"
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "cyclicmagic:charm_antidote",
+			tag: {}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "netherite:netherite_scrap"
+		},
+		count: 2
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ebwizardry:charm_flight",
+			tag: {
+				display: {
+					Name: "Transcendence"
+				},
+				AttributeModifiers: [{
+					UUIDMost: 56622919556288504L,
+					UUIDLeast: -5513564587501567625L,
+					Amount: 20.0d,
+					Slot: "offhand",
+					AttributeName: "generic.armor",
+					Operation: 0,
+					Name: "generic.armor"
+				},
+				{
+					UUIDMost: 8300779063035839608L,
+					UUIDLeast: -5648413494163884910L,
+					Amount: -26.0d,
+					Slot: "offhand",
+					AttributeName: "generic.maxHealth",
+					Operation: 0,
+					Name: "generic.maxHealth"
+				}]
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thermalfoundation:tool.shield_gold"
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "cyclicmagic:crystallized_obsidian"
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ebwizardry:spell_book",
+			Damage: 50s
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ebwizardry:wizard_robe_fire"
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "metallurgy:vyroxeres_sword",
+			tag: {
+				ench: [{
+					lvl: 6s,
+					id: 79s
+				},
+				{
+					lvl: 2s,
+					id: 104s
+				},
+				{
+					lvl: 1s,
+					id: 59s
+				},
+				{
+					lvl: 1s,
+					id: 71s
+				},
+				{
+					lvl: 3s,
+					id: 58s
+				}],
+				display: {
+					Lore: [
+						"True believers."
+					],
+					Name: "Thought Contagious"
+				},
+				AttributeModifiers: [{
+					UUIDMost: -3801225194067177672L,
+					UUIDLeast: -6586624321849018929L,
+					Amount: 10.0d,
+					Slot: "mainhand",
+					AttributeName: "generic.attackDamage",
+					Operation: 0,
+					Name: "generic.attackDamage"
+				},
+				{
+					UUIDMost: -422425648963762075L,
+					UUIDLeast: -5756800103171642205L,
+					Amount: -2.4000000953674316d,
+					Slot: "mainhand",
+					AttributeName: "generic.attackSpeed",
+					Operation: 0,
+					Name: "generic.attackSpeed"
+				},
+				{
+					UUIDMost: -1537512842236311056L,
+					UUIDLeast: -6292618520846692918L,
+					Amount: 6.0d,
+					Slot: "mainhand",
+					AttributeName: "generic.armor",
+					Operation: 0,
+					Name: "generic.armor"
+				},
+				{
+					UUIDMost: -7039571233644066034L,
+					UUIDLeast: -6086032994096416941L,
+					Amount: 1.0d,
+					Slot: "mainhand",
+					AttributeName: "generic.armorToughness",
+					Operation: 0,
+					Name: "generic.armorToughness"
+				},
+				{
+					UUIDMost: -3801225194067177672L,
+					UUIDLeast: -6586664575087823409L,
+					Amount: -0.5d,
+					Slot: "mainhand",
+					AttributeName: "generic.maxHealth",
+					Operation: 1,
+					Name: "generic.maxHealth"
+				},
+				{
+					UUIDMost: -3801225194067177672L,
+					UUIDLeast: -6586627045126720049L,
+					Amount: 2.0d,
+					Slot: "mainhand",
+					AttributeName: "generic.reachDistance",
+					Operation: 0,
+					Name: "generic.reachDistance"
+				}]
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "tconstruct:rapier",
+			tag: {
+				ench: [{
+					lvl: 3s,
+					id: 21s
+				}],
+				StatsOriginal: {
+					AttackSpeedMultiplier: 1.0f,
+					MiningSpeed: 6.0f,
+					FreeModifiers: 3,
+					Durability: 337,
+					HarvestLevel: 4,
+					Attack: 3.0f
+				},
+				display: {
+					Name: "Fate Alter"
+				},
+				Stats: {
+					AttackSpeedMultiplier: 1.0f,
+					MiningSpeed: 6.5f,
+					FreeModifiers: 2,
+					Durability: 1005,
+					HarvestLevel: 4,
+					Attack: 15.104145f
+				},
+				Special: {
+					Categories: [
+						"tool",
+						"weapon"
+					]
+				},
+				TinkerData: {
+					UsedModifiers: 9,
+					Materials: [
+						"mithril",
+						"damascus_steel",
+						"midasium"
+					],
+					Modifiers: [
+						"luck",
+						"sharpness",
+						"creative",
+						"diamond",
+						"emerald",
+						"beheading"
+					]
+				},
+				Modifiers: [{
+					identifier: "duritos",
+					color: -9083331,
+					level: 1
+				},
+				{
+					identifier: "writable",
+					color: -2783702,
+					level: 1,
+					writable2: 1b
+				},
+				{
+					identifier: "duplication_trait",
+					color: -2783702,
+					level: 1
+				},
+				{
+					identifier: "luck",
+					current: 360,
+					color: 2970082,
+					level: 3,
+					max: 360,
+					modifierUsed: 1b,
+					extraInfo: "359 / 360"
+				},
+				{
+					identifier: "sharpness",
+					current: 360,
+					color: 16774902,
+					level: 5,
+					max: 360,
+					extraInfo: "359 / 360"
+				},
+				{
+					identifier: "creative",
+					color: 0,
+					level: 7
+				},
+				{
+					identifier: "diamond",
+					color: 9237730
+				},
+				{
+					identifier: "emerald",
+					color: 4322180
+				},
+				{
+					identifier: "beheading",
+					color: 1070923,
+					level: 1
+				}],
+				Traits: [
+					"duritos",
+					"writable2",
+					"duplication_trait",
+					"luck"
+				]
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "cyclicmagic:ender_lightning",
+			tag: {
+				ench: [{
+					lvl: 4s,
+					id: 16s
+				},
+				{
+					lvl: 3s,
+					id: 68s
+				}],
+				display: {
+					Name: "Flash of Death"
+				},
+				AttributeModifiers: [{
+					UUIDMost: -5997529259283363203L,
+					UUIDLeast: -8936051020015973099L,
+					Amount: 10.5d,
+					Slot: "mainhand",
+					AttributeName: "generic.attackDamage",
+					Operation: 0,
+					Name: "generic.attackDamage"
+				},
+				{
+					UUIDMost: -7610590208051101688L,
+					UUIDLeast: -6842845198538225570L,
+					Amount: 0.5d,
+					Slot: "mainhand",
+					AttributeName: "generic.attackSpeed",
+					Operation: 2,
+					Name: "generic.attackSpeed"
+				},
+				{
+					UUIDMost: 6277622666174678109L,
+					UUIDLeast: -7819902431435199631L,
+					Amount: -2.0d,
+					Slot: "mainhand",
+					AttributeName: "generic.armor",
+					Operation: 0,
+					Name: "generic.armor"
+				},
+				{
+					UUIDMost: -7745574640631395423L,
+					UUIDLeast: -6724294494138107716L,
+					Amount: 0.15d,
+					Slot: "mainhand",
+					AttributeName: "generic.movementSpeed",
+					Operation: 2,
+					Name: "generic.movementSpeed"
+				},
+				{
+					UUIDMost: 5886693212633646350L,
+					UUIDLeast: -4857527459226577785L,
+					Amount: -0.4d,
+					Slot: "mainhand",
+					AttributeName: "generic.knockbackResistance",
+					Operation: 2,
+					Name: "generic.knockbackResistance"
+				},
+				{
+					UUIDMost: -841485979801598646L,
+					UUIDLeast: -7228485693196160155L,
+					Amount: 4.0d,
+					Slot: "mainhand",
+					AttributeName: "potioncore.jumpHeight",
+					Operation: 0,
+					Name: "potioncore.jumpHeight"
+				}]
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:enchanted_book",
+			tag: {
+				StoredEnchantments: [{
+					lvl: 1s,
+					id: 0s
+				}]
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ebwizardry:sage_robe_fire"
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ebwizardry:poison_bomb"
+		},
+		count: 8
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ebwizardry:scroll",
+			Damage: 36s
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "netherite:netherite_scrap"
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ebwizardry:scroll",
+			Damage: 60s
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "extrautils2:ingredients",
+			Damage: 15s
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ebwizardry:warlock_robe_fire"
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "totaltinkers:explosive_arrow",
+			tag: {
+				StatsOriginal: {
+					AttackSpeedMultiplier: 1.0f,
+					Accuracy: 1.0f,
+					MiningSpeed: 0.0f,
+					FreeModifiers: 3,
+					tt.explosionRadius: 3.0f,
+					Durability: 205,
+					HarvestLevel: 0,
+					Attack: 3.5f
+				},
+				display: {
+					Name: "Obey"
+				},
+				Stats: {
+					AttackSpeedMultiplier: 1.0f,
+					Accuracy: 1.0f,
+					MiningSpeed: 0.0f,
+					FreeModifiers: 0,
+					tt.explosionRadius: 3.0f,
+					Durability: 205,
+					HarvestLevel: 0,
+					Attack: 6.4711485f
+				},
+				Special: {
+					Categories: [
+						"projectile",
+						"no_melee",
+						"tool"
+					]
+				},
+				TinkerData: {
+					UsedModifiers: 3,
+					Materials: [
+						"endrod",
+						"blaze",
+						"feather"
+					],
+					Modifiers: [
+						"sharpness",
+						"fiery",
+						"fins"
+					]
+				},
+				Modifiers: [{
+					identifier: "endspeed",
+					color: -1507370,
+					level: 1
+				},
+				{
+					identifier: "hovering",
+					color: -16128,
+					level: 1
+				},
+				{
+					identifier: "sharpness",
+					current: 72,
+					color: 16774902,
+					level: 1,
+					max: 72,
+					extraInfo: "71 / 72"
+				},
+				{
+					identifier: "fiery",
+					current: 25,
+					color: 15375922,
+					level: 1,
+					max: 25,
+					extraInfo: "24 / 25"
+				},
+				{
+					identifier: "fins",
+					color: 11259375,
+					level: 1
+				}],
+				Traits: [
+					"endspeed",
+					"hovering",
+					"fiery",
+					"fins"
+				]
+			}
+		}
+	}]
+}

@@ -1,0 +1,34 @@
+{
+	title: "On the Highway to Void",
+	x: 16.5d,
+	y: 15.5d,
+	text: [
+		"Roads provide quick movement speed."
+	],
+	dependencies: [
+		"22d2bd32"
+	],
+	hide: true,
+	tasks: [{
+		uid: "b60387bb",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "metallurgy:road_block"
+		}],
+		count: 64L
+	}],
+	rewards: [{
+		uid: "b98429e0",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "camscurrency:dupondius"
+		},
+		count: 10
+	}]
+}

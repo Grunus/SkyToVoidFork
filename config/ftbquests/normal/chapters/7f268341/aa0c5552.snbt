@@ -1,0 +1,40 @@
+{
+	title: "Demonic Alloy",
+	x: 3.5d,
+	y: 7.5d,
+	description: "Demonic ingots are powerful and easy to create.",
+	text: [
+		"To forge the ingot, create a lava well by putting nether brick around a single lava block, then throw gold ingots into the lava."
+	],
+	dependencies: [
+		"0c4e36fa"
+	],
+	hide: true,
+	tasks: [{
+		uid: "dbeb92b4",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "extrautils2:ingredients",
+			Damage: 11s
+		}]
+	}],
+	rewards: [{
+		uid: "95aaf087",
+		type: "loot",
+		table: 18
+	},
+	{
+		uid: "b61e9992",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "claybucket:claybucket",
+			Damage: 2s
+		}
+	}]
+}

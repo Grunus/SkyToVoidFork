@@ -1,0 +1,29 @@
+{
+	x: 12.5d,
+	y: 1.5d,
+	description: "Store power.",
+	text: [
+		""
+	],
+	dependencies: [
+		"b351c804"
+	],
+	hide: true,
+	tasks: [{
+		uid: "cb5f7308",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "enderio:block_cap_bank",
+			Damage: 1s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "6afc837e",
+		type: "loot",
+		table: 35
+	}]
+}

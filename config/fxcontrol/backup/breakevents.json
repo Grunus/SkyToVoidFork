@@ -1,0 +1,74 @@
+[
+    {
+        "dimension": 0,
+        "playerhelditem": {
+          "item": "metallurgy:eximite_pickaxe"
+        },
+        "message": "Cannot be used in this Dimension.",
+        "result": "deny"
+    },
+    {
+        "dimension": 43,
+        "playerhelditem": {
+          "item": "metallurgy:eximite_pickaxe"
+        },
+        "block": "enderportaldecoration:gateway",
+        "result": "allow"
+    },
+    {
+        "dimension": 43,
+        "playerhelditem": {
+          "item": "metallurgy:etherium_pickaxe"
+        },
+        "block": "metallurgy:etherium_block",
+        "result": "allow"
+    },
+    {
+        "dimension": 43,
+        "playerhelditem": {
+          "item": "metallurgy:adamantine_pickaxe"
+        },
+        "block": "extrautils2:simpledecorative",
+        "result": "allow"
+    },
+
+    {
+        "block": "openblocks:grave",
+        "result": "allow"
+    },
+    {
+        "block": "tconstruct:glow",
+        "result": "allow"
+    },
+    {
+        "dimension": 43,
+        "message": "The strength of The Void is too strong...",
+        "result": "deny"
+    },
+    {
+        "block": "enderportaldecoration:gateway",
+        "message": "The Void protects itself from you...",
+        "result": "deny"
+    },
+    {
+        "block": "chisel:voidstone",
+        "message": "Too intricate to break...",
+        "result": "deny"
+    },
+    {
+        "block": "chisel:energizedvoidstone",
+        "message": "Too twisted to break...",
+        "result": "deny"
+    },
+    {
+        "block": "morelights:purple_light",
+        "message": "Too involuted to break...",
+        "result": "deny"
+    }
+    ,
+    {
+        "block": "morelights:lit_purple_light",
+        "message": "Too involuted to break...",
+        "result": "deny"
+    }
+]

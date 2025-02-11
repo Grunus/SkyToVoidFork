@@ -1,0 +1,33 @@
+{
+	title: "Crushing My Will To Live",
+	x: 11.5d,
+	y: 2.0d,
+	text: [
+		"Crusher is an easy alternative to Pulverizers and very simplistic."
+	],
+	dependencies: [
+		"8d13be67"
+	],
+	hide: true,
+	tasks: [{
+		uid: "be2d9b30",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "metallurgy:crusher"
+		}]
+	}],
+	rewards: [{
+		uid: "e53fd8f9",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "camscurrency:denarius"
+		},
+		count: 15
+	}]
+}

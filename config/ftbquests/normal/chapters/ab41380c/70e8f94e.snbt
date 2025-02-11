@@ -1,0 +1,38 @@
+{
+	title: "Depot Alpha I",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "chisel:factory"
+	},
+	x: -3.9452380952381034d,
+	y: 5.492857142857126d,
+	shape: "hexagon",
+	hide_dependency_lines: true,
+	dependencies: [
+		"c79642c1",
+		"6bae85c1"
+	],
+	hide: true,
+	tasks: [{
+		uid: "2f6d8fc1",
+		type: "location",
+		title: "-126 91 249",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "chisel:factory"
+		},
+		location: [I;
+			0,
+			-125,
+			91,
+			247,
+			5,
+			5,
+			5
+		]
+	}]
+}

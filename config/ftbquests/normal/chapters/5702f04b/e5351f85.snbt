@@ -1,0 +1,30 @@
+{
+	title: "Co27",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "tconstruct:ingots"
+	},
+	x: 7.5d,
+	y: 12.5d,
+	dependencies: [
+		"8f28541f"
+	],
+	hide: true,
+	tasks: [{
+		uid: "fa1a9840",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "tconstruct:metal"
+		}]
+	}],
+	rewards: [{
+		uid: "575e6128",
+		type: "loot",
+		table: 6
+	}]
+}

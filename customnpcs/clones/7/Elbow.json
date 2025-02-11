@@ -1,0 +1,1072 @@
+{
+    "ReturnToStart": 1b,
+    "NpcInv": [
+        {
+            "Slot": 0b,
+            "ForgeCaps": {
+                "customnpcs:itemscripteddata": {
+                }
+            },
+            "id": "enderio:item_dark_steel_upgrade",
+            "Count": 1b,
+            "tag": {
+                "enderio:dsu": "enderio:anvil2",
+                "enderio:enabled": 1b
+            },
+            "Damage": 1s
+        },
+        {
+            "Slot": 1b,
+            "ForgeCaps": {
+                "customnpcs:itemscripteddata": {
+                }
+            },
+            "id": "tconstruct:arrow",
+            "Count": 1b,
+            "tag": {
+                "StatsOriginal": {
+                    "AttackSpeedMultiplier": 1.0f,
+                    "Accuracy": 0.5f,
+                    "MiningSpeed": 6.0f,
+                    "FreeModifiers": 3,
+                    "Durability": 185,
+                    "HarvestLevel": 3,
+                    "Attack": 9.0f
+                },
+                "display": {
+                    "Name": "Arrows from the Horns of a Beast"
+                },
+                "Stats": {
+                    "AttackSpeedMultiplier": 1.0f,
+                    "Accuracy": 0.5f,
+                    "MiningSpeed": 6.5f,
+                    "FreeModifiers": 0,
+                    "Durability": 777,
+                    "HarvestLevel": 3,
+                    "Attack": 10.0f
+                },
+                "Special": {
+                    "Categories": [
+                        "projectile",
+                        "no_melee",
+                        "tool"
+                    ]
+                },
+                "TinkerData": {
+                    "UsedModifiers": 6,
+                    "Materials": [
+                        "bone",
+                        "shadow_steel",
+                        "leaf"
+                    ],
+                    "Modifiers": [
+                        "luck",
+                        "diamond",
+                        "emerald",
+                        "creative",
+                        "bane_of_arthopods"
+                    ]
+                },
+                "Modifiers": [
+                    {
+                        "identifier": "splitting",
+                        "color": -1186113,
+                        "level": 1
+                    },
+                    {
+                        "identifier": "luck",
+                        "current": 60,
+                        "color": 2970082,
+                        "level": 1,
+                        "max": 60,
+                        "modifierUsed": 1b,
+                        "extraInfo": "59 / 60"
+                    },
+                    {
+                        "identifier": "diamond",
+                        "color": 9237730
+                    },
+                    {
+                        "identifier": "emerald",
+                        "color": 4322180
+                    },
+                    {
+                        "identifier": "creative",
+                        "color": 0,
+                        "level": 3
+                    },
+                    {
+                        "identifier": "bane_of_arthopods",
+                        "current": 72,
+                        "color": 6404681,
+                        "level": 3,
+                        "max": 72,
+                        "extraInfo": "71 / 72"
+                    }
+                ],
+                "Traits": [
+                    "splitting",
+                    "luck",
+                    "bane_of_arthopods"
+                ]
+            },
+            "Damage": 0s
+        }
+    ],
+    "BossColor": 0,
+    "PotionEffect": 0,
+    "Size": 5,
+    "stopAndInteract": 1b,
+    "Resistances": {
+        "Arrow": 1.1549295f,
+        "Explosion": 1.0f,
+        "Knockback": 0.5915493f,
+        "Melee": 1.0f
+    },
+    "BossBar": 0b,
+    "RespawnTime": 600,
+    "NpcAngrySound": "",
+    "ReactsToFire": 0b,
+    "IgnoreCobweb": 0b,
+    "PositionOffsetZ": 5.0f,
+    "PositionOffsetY": 5.0f,
+    "PositionOffsetX": 5.0f,
+    "LootMode": 0,
+    "TransformHasAI": 0b,
+    "AttackStrenght": 2,
+    "PersistenceRequired": 0b,
+    "id": "customnpcs:customnpc",
+    "IsStatue": 0b,
+    "MovingPatern": 0,
+    "NpcLines": {
+        "Lines": [
+        ]
+    },
+    "DefendFaction": 0b,
+    "FireIndirect": 0,
+    "NpcVisible": 0,
+    "LinkedNpcName": "",
+    "NpcScenes": {
+        "Scenes": [
+        ]
+    },
+    "HitSound": "chisel:chisel.fallback",
+    "FindShelter": 2,
+    "Air": 300s,
+    "TacticalVariant": 0,
+    "Orientation": 0,
+    "ScriptLanguage": "ECMAScript",
+    "HandItems": [
+        {
+        },
+        {
+        }
+    ],
+    "KnockBack": 1,
+    "TransformHasJob": 0b,
+    "ArmorDropChances": [
+        0.085f,
+        0.085f,
+        0.085f,
+        0.085f
+    ],
+    "BurnInSun": 0b,
+    "TraderSold": {
+        "NpcMiscInv": [
+            {
+                "Slot": 0b,
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "minecraft:furnace",
+                "Count": 16b,
+                "Damage": 0s
+            },
+            {
+                "Slot": 1b,
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "thermalfoundation:tool.shears_diamond",
+                "Count": 1b,
+                "Damage": 0s
+            },
+            {
+                "Slot": 2b,
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "minecraft:record_wait",
+                "Count": 1b,
+                "Damage": 0s
+            },
+            {
+                "Slot": 3b,
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "minecraft:arrow",
+                "Count": 16b,
+                "Damage": 0s
+            },
+            {
+                "Slot": 4b,
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "minecraft:emerald",
+                "Count": 1b,
+                "Damage": 0s
+            },
+            {
+                "Slot": 6b,
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "minecraft:iron_helmet",
+                "Count": 1b,
+                "Damage": 0s
+            },
+            {
+                "Slot": 7b,
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "minecraft:experience_bottle",
+                "Count": 16b,
+                "Damage": 0s
+            },
+            {
+                "Slot": 9b,
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "minecraft:iron_chestplate",
+                "Count": 1b,
+                "Damage": 0s
+            },
+            {
+                "Slot": 10b,
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "minecraft:potion",
+                "Count": 1b,
+                "tag": {
+                    "Potion": "minecraft:strength"
+                },
+                "Damage": 0s
+            },
+            {
+                "Slot": 11b,
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "tconstruct:shovel",
+                "Count": 1b,
+                "tag": {
+                    "StatsOriginal": {
+                        "AttackSpeedMultiplier": 1.0f,
+                        "MiningSpeed": 5.25f,
+                        "FreeModifiers": 3,
+                        "Durability": 704,
+                        "HarvestLevel": 1,
+                        "Attack": 3.5f
+                    },
+                    "display": {
+                        "Name": "Grave Robber"
+                    },
+                    "Stats": {
+                        "AttackSpeedMultiplier": 1.0f,
+                        "MiningSpeed": 22.113016f,
+                        "FreeModifiers": 0,
+                        "Durability": 704,
+                        "HarvestLevel": 1,
+                        "Attack": 6.4711485f
+                    },
+                    "Special": {
+                        "Categories": [
+                            "aoe",
+                            "tool",
+                            "harvest"
+                        ]
+                    },
+                    "TinkerData": {
+                        "UsedModifiers": 4,
+                        "Materials": [
+                            "prometheum",
+                            "lead",
+                            "haderoth"
+                        ],
+                        "Modifiers": [
+                            "haste",
+                            "creative",
+                            "sharpness"
+                        ]
+                    },
+                    "Modifiers": [
+                        {
+                            "identifier": "poisonous",
+                            "color": -11712152,
+                            "level": 1
+                        },
+                        {
+                            "identifier": "heavy",
+                            "color": -11712152,
+                            "level": 1
+                        },
+                        {
+                            "identifier": "haste",
+                            "current": 150,
+                            "color": 9502720,
+                            "level": 3,
+                            "max": 150,
+                            "extraInfo": "149 / 150"
+                        },
+                        {
+                            "identifier": "creative",
+                            "color": 0,
+                            "level": 1
+                        },
+                        {
+                            "identifier": "sharpness",
+                            "current": 72,
+                            "color": 16774902,
+                            "level": 1,
+                            "max": 72,
+                            "extraInfo": "71 / 72"
+                        }
+                    ],
+                    "Traits": [
+                        "poisonous",
+                        "heavy"
+                    ]
+                },
+                "Damage": 0s
+            },
+            {
+                "Slot": 12b,
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "minecraft:iron_leggings",
+                "Count": 1b,
+                "Damage": 0s
+            },
+            {
+                "Slot": 13b,
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "tconstruct:arrow",
+                "Count": 1b,
+                "tag": {
+                    "StatsOriginal": {
+                        "AttackSpeedMultiplier": 1.0f,
+                        "Accuracy": 1.0f,
+                        "MiningSpeed": 5.09f,
+                        "FreeModifiers": 3,
+                        "Durability": 200,
+                        "HarvestLevel": 1,
+                        "Attack": 4.5f
+                    },
+                    "Stats": {
+                        "AttackSpeedMultiplier": 1.0f,
+                        "Accuracy": 1.0f,
+                        "MiningSpeed": 5.09f,
+                        "FreeModifiers": 3,
+                        "Durability": 200,
+                        "HarvestLevel": 1,
+                        "Attack": 6.0f
+                    },
+                    "Special": {
+                        "Categories": [
+                            "tool",
+                            "no_melee",
+                            "projectile"
+                        ]
+                    },
+                    "TinkerData": {
+                        "Materials": [
+                            "wood",
+                            "bone",
+                            "feather"
+                        ],
+                        "Modifiers": [
+                        ]
+                    },
+                    "Modifiers": [
+                        {
+                            "identifier": "ecological",
+                            "color": -7444965,
+                            "level": 1
+                        },
+                        {
+                            "identifier": "splintering",
+                            "color": -1186113,
+                            "level": 1
+                        },
+                        {
+                            "identifier": "fractured",
+                            "color": -1186113,
+                            "level": 1
+                        }
+                    ],
+                    "Traits": [
+                        "ecological",
+                        "splintering",
+                        "fractured"
+                    ]
+                },
+                "Damage": 0s
+            },
+            {
+                "Slot": 14b,
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "gachashroom:parrottoadstool",
+                "Count": 1b,
+                "tag": {
+                    "display": {
+                        "Lore": [
+                            "... and his mushroom was electric."
+                        ],
+                        "Name": "The Ultimate Bustling Fungus"
+                    }
+                },
+                "Damage": 0s
+            },
+            {
+                "Slot": 15b,
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "minecraft:iron_boots",
+                "Count": 1b,
+                "Damage": 0s
+            },
+            {
+                "Slot": 16b,
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "biomesoplenty:gem",
+                "Count": 32b,
+                "Damage": 3s
+            },
+            {
+                "Slot": 17b,
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "biomesoplenty:biome_finder",
+                "Count": 1b,
+                "tag": {
+                    "ench": [
+                        {
+                            "lvl": 1s,
+                            "id": 6s
+                        }
+                    ],
+                    "RepairCost": 1,
+                    "display": {
+                        "Name": "Communist Liberator Device"
+                    }
+                },
+                "Damage": 0s
+            }
+        ]
+    },
+    "StandingState": 0,
+    "AttackInvisible": 0b,
+    "NpcInteractNPCLines": {
+        "Lines": [
+        ]
+    },
+    "HurtTime": 0s,
+    "WalkingRange": 10,
+    "ShotCount": 10,
+    "pDur": 5,
+    "TraderIgnoreDamage": 0b,
+    "AttackRange": 2,
+    "NpcKillLines": {
+        "Lines": [
+        ]
+    },
+    "PotionImmune": 0b,
+    "AvoidsSun": 0b,
+    "Texture": "customnpcs:textures/entity/humanmale/steve.png",
+    "NpcJob": 0,
+    "BurstCount": 30,
+    "NpcAttackLines": {
+        "Lines": [
+        ]
+    },
+    "pSpeed": 10,
+    "pArea": 0,
+    "DeathTime": 0s,
+    "pImpact": 0,
+    "MoveState": 0,
+    "pRender3D": 1b,
+    "Motion": [
+        0.0d,
+        -0.0784000015258789d,
+        0.0d
+    ],
+    "CombatRegen": 2,
+    "NpcsTimers": [
+    ],
+    "MarkovGender": 0,
+    "pEffect": 0,
+    "DistanceToMelee": 3,
+    "NpcStepSound": "",
+    "FireRate": 0,
+    "LeftHanded": 0b,
+    "pEffAmp": 0,
+    "OnGround": 1b,
+    "Dimension": 0,
+    "ImmuneToFire": 0b,
+    "NpcKilledLines": {
+        "Lines": [
+        ]
+    },
+    "TraderMarket": "",
+    "Fire": -1s,
+    "ArmorItems": [
+        {
+        },
+        {
+        },
+        {
+        },
+        {
+        }
+    ],
+    "DisablePitch": 0b,
+    "pPhysics": 1b,
+    "TransformHasInv": 0b,
+    "NpcInteractLines": {
+        "Lines": [
+            {
+                "Line": "Yes! look at my wares!",
+                "Song": "",
+                "Slot": 0
+            },
+            {
+                "Line": "I have plenty on the shelves!",
+                "Song": "",
+                "Slot": 1
+            },
+            {
+                "Line": "Buy! Buy! Buy!",
+                "Song": "",
+                "Slot": 2
+            }
+        ]
+    },
+    "HurtByTimestamp": 16196,
+    "TraderCurrency": {
+        "NpcMiscInv": [
+            {
+                "Slot": 0b,
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "camscurrency:dupondius",
+                "Count": 4b,
+                "Damage": 0s
+            },
+            {
+                "Slot": 1b,
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "camscurrency:dupondius",
+                "Count": 8b,
+                "Damage": 0s
+            },
+            {
+                "Slot": 2b,
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "camscurrency:denarius",
+                "Count": 16b,
+                "Damage": 0s
+            },
+            {
+                "Slot": 3b,
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "camscurrency:dupondius",
+                "Count": 4b,
+                "Damage": 0s
+            },
+            {
+                "Slot": 4b,
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "camscurrency:denarius",
+                "Count": 2b,
+                "Damage": 0s
+            },
+            {
+                "Slot": 6b,
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "camscurrency:dupondius",
+                "Count": 8b,
+                "Damage": 0s
+            },
+            {
+                "Slot": 7b,
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "camscurrency:denarius",
+                "Count": 5b,
+                "Damage": 0s
+            },
+            {
+                "Slot": 9b,
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "camscurrency:dupondius",
+                "Count": 16b,
+                "Damage": 0s
+            },
+            {
+                "Slot": 10b,
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "camscurrency:denarius",
+                "Count": 6b,
+                "Damage": 0s
+            },
+            {
+                "Slot": 11b,
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "minecraft:brown_mushroom",
+                "Count": 5b,
+                "tag": {
+                    "ench": [
+                        {
+                            "lvl": 1s,
+                            "id": 6s
+                        }
+                    ],
+                    "display": {
+                        "Name": "Grave Robber"
+                    }
+                },
+                "Damage": 0s
+            },
+            {
+                "Slot": 12b,
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "camscurrency:dupondius",
+                "Count": 16b,
+                "Damage": 0s
+            },
+            {
+                "Slot": 13b,
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "camscurrency:denarius",
+                "Count": 8b,
+                "Damage": 0s
+            },
+            {
+                "Slot": 14b,
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "camscurrency:denarius",
+                "Count": 64b,
+                "Damage": 0s
+            },
+            {
+                "Slot": 15b,
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "camscurrency:dupondius",
+                "Count": 8b,
+                "Damage": 0s
+            },
+            {
+                "Slot": 16b,
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "camscurrency:denarius",
+                "Count": 12b,
+                "Damage": 0s
+            },
+            {
+                "Slot": 17b,
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "camscurrency:denarius",
+                "Count": 12b,
+                "Damage": 0s
+            },
+            {
+                "Slot": 32b,
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "camscurrency:dupondius",
+                "Count": 64b,
+                "Damage": 0s
+            }
+        ]
+    },
+    "pSpin": 0b,
+    "NpcHurtSound": "minecraft:entity.player.hurt",
+    "pTrail": 0,
+    "CreatureType": 0,
+    "Attributes": [
+        {
+            "Base": 1.0d,
+            "Name": "potioncore.projectileDamage"
+        },
+        {
+            "Base": 1.0d,
+            "Name": "potioncore.magicDamage"
+        },
+        {
+            "Base": 1.0d,
+            "Name": "potioncore.jumpHeight"
+        },
+        {
+            "Base": 1.0d,
+            "Name": "potioncore.damageResistance"
+        },
+        {
+            "Base": 0.0d,
+            "Name": "potioncore.magicShielding"
+        },
+        {
+            "Base": 50.0d,
+            "Name": "generic.maxHealth"
+        },
+        {
+            "Base": 0.0d,
+            "Name": "generic.knockbackResistance"
+        },
+        {
+            "Base": 0.25d,
+            "Name": "generic.movementSpeed"
+        },
+        {
+            "Base": 0.0d,
+            "Name": "generic.armor"
+        },
+        {
+            "Base": 0.0d,
+            "Name": "generic.armorToughness"
+        },
+        {
+            "Base": 1.0d,
+            "Name": "forge.swimSpeed"
+        },
+        {
+            "Base": 64.0d,
+            "Name": "generic.followRange"
+        },
+        {
+            "Base": 2.0d,
+            "Name": "generic.attackDamage"
+        },
+        {
+            "Base": 0.5d,
+            "Name": "generic.flyingSpeed"
+        }
+    ],
+    "Invulnerable": 0b,
+    "TransformHasDisplay": 0b,
+    "NoFallDamage": 0b,
+    "AbsorptionAmount": 0.0f,
+    "TransformHasRole": 0b,
+    "Name": "Elbow",
+    "FallDistance": 0.0f,
+    "SkinColor": 14524927,
+    "NpcIdleSound": "",
+    "Weapons": [
+        {
+            "Slot": 1b,
+            "ForgeCaps": {
+                "customnpcs:itemscripteddata": {
+                }
+            },
+            "id": "camscurrency:denarius",
+            "Count": 1b,
+            "Damage": 0s
+        }
+    ],
+    "NPCDialogOptions": [
+        {
+            "NPCDialog": {
+                "DialogCommand": "",
+                "Dialog": 22,
+                "Title": "1st",
+                "DialogColor": 14737632,
+                "OptionType": 1
+            },
+            "DialogSlot": 0
+        }
+    ],
+    "AggroRange": 18,
+    "DirectLOS": 1b,
+    "HealthRegen": 1,
+    "ForgeCaps": {
+        "everlastingabilities:org.cyclops.everlastingabilities.api.capability.imutableabilitystore": [
+        ],
+        "metallurgy:punch_effect": {
+            "hasAiDisabled": 1b,
+            "knockbackTicks": 0,
+            "ticks": 0
+        }
+    },
+    "HandDropChances": [
+        0.085f,
+        0.085f
+    ],
+    "NpcModelData": {
+        "LegsConfig": {
+            "NotShared": 0b,
+            "ScaleZ": 1.0f,
+            "TransZ": 0.0f,
+            "TransY": 0.0f,
+            "TransX": 0.012000002f,
+            "ScaleY": 1.0f,
+            "ScaleX": 1.0f
+        },
+        "BodyConfig": {
+            "NotShared": 0b,
+            "ScaleZ": 1.0f,
+            "TransZ": 0.0f,
+            "TransY": 0.0f,
+            "TransX": 0.0f,
+            "ScaleY": 1.0f,
+            "ScaleX": 1.0f
+        },
+        "Eyes": {
+            "Pattern": 0b,
+            "Glint": 1b,
+            "Type": 0b,
+            "PositionY": 1,
+            "SkinColor": 11830381,
+            "PlayerTexture": 0b,
+            "Color": 10791096,
+            "BrowColor": 5982516,
+            "BrowThickness": 4
+        },
+        "LegParts": {
+            "Pattern": 0b,
+            "Type": 0b,
+            "PlayerTexture": 0b,
+            "Color": 16777215
+        },
+        "Parts": [
+            {
+                "Pattern": 0b,
+                "Type": 0b,
+                "PlayerTexture": 0b,
+                "PartName": "horns",
+                "Color": 6510912
+            }
+        ],
+        "ArmsConfig": {
+            "NotShared": 0b,
+            "ScaleZ": 1.0f,
+            "TransZ": 0.0f,
+            "TransY": 0.0f,
+            "TransX": -0.0f,
+            "ScaleY": 1.0f,
+            "ScaleX": 1.0f
+        },
+        "ExtraData": {
+        },
+        "HeadConfig": {
+            "NotShared": 0b,
+            "ScaleZ": 1.0f,
+            "TransZ": 0.0f,
+            "TransY": 0.0f,
+            "TransX": 0.0f,
+            "ScaleY": 1.0f,
+            "ScaleX": 1.0f
+        }
+    },
+    "minDelay": 70,
+    "DoorInteract": 2,
+    "MoveSpeed": 5,
+    "TransformEditingModus": 0b,
+    "UsingSkinUrl": 0b,
+    "Leashed": 0b,
+    "SkinUrl": "",
+    "CanSwim": 1b,
+    "TraderIgnoreNBT": 0b,
+    "GroundSound": "chisel:chisel.fallback",
+    "MaxHealth": 50,
+    "HideBodyWhenKilled": 1b,
+    "AttackSpeed": 20,
+    "PotionDuration": 5,
+    "maxDelay": 80,
+    "ScriptEnabled": 0b,
+    "Role": 1,
+    "DropChance": [
+        {
+            "Integer": 5,
+            "Slot": 0
+        },
+        {
+            "Integer": 5,
+            "Slot": 1
+        },
+        {
+            "Integer": 100,
+            "Slot": 2
+        },
+        {
+            "Integer": 100,
+            "Slot": 3
+        },
+        {
+            "Integer": 100,
+            "Slot": 4
+        },
+        {
+            "Integer": 100,
+            "Slot": 5
+        },
+        {
+            "Integer": 100,
+            "Slot": 6
+        },
+        {
+            "Integer": 100,
+            "Slot": 7
+        },
+        {
+            "Integer": 100,
+            "Slot": 8
+        }
+    ],
+    "FactionPoints": {
+        "DecreaseFaction1Points": 0b,
+        "OptionFaction2Points": 100,
+        "OptionFactions1": -1,
+        "OptionFactions2": -1,
+        "OptionFaction1Points": 100,
+        "DecreaseFaction2Points": 0b
+    },
+    "pDamage": 8,
+    "KilledTime": 0L,
+    "AimWhileShooting": 0b,
+    "CanPickUpLoot": 0b,
+    "AttackOtherFactions": 0b,
+    "CanDrown": 1b,
+    "pSize": 5,
+    "CanSprint": 0b,
+    "CanLeap": 0b,
+    "TransformIsActive": 0b,
+    "ForgeData": {
+        "cnpcmarkdata": {
+            "marks": [
+            ]
+        },
+        "Potion Core - Health Fix": 50.0f,
+        "Potion Core - Projectile Invulnerability": 0,
+        "Potion Core - Jump Boost Updated": 1b
+    },
+    "MovingState": 1,
+    "MovingPos": 0,
+    "PotionAmp": 0,
+    "OnAttack": 0,
+    "TacticalRadius": 8,
+    "FallFlying": 0b,
+    "MaxExp": 10,
+    "OrderedLines": 0b,
+    "PortalCooldown": 0,
+    "pGlows": 0b,
+    "TransformHasAdvanced": 0b,
+    "TransformHasStats": 0b,
+    "MovementType": 0,
+    "FiringSound": "openblocks:unused.mortar",
+    "ModRev": 18,
+    "Accuracy": 20,
+    "MinExp": 5,
+    "Armor": [
+    ],
+    "CloakTexture": "",
+    "GlowTexture": "",
+    "MaxFiringRange": 32,
+    "pXlr8": 0b,
+    "MarkovGeneratorId": 0,
+    "Scripts": [
+    ],
+    "Health": 50.0f,
+    "pStick": 0b,
+    "MovingPause": 1b,
+    "NpcDeathSound": "minecraft:entity.player.hurt",
+    "FactionID": 29,
+    "Title": "Umbra",
+    "TotalTicksAlive": 9038802L,
+    "Rotation": [
+        39.569626f,
+        0.0f
+    ],
+    "ShowName": 0,
+    "npcInteracting": 1b,
+    "UpdateBlocked": 0b,
+    "AvoidsWater": 0b,
+    "NoLivingAnimation": 0b,
+    "SpawnCycle": 0
+}

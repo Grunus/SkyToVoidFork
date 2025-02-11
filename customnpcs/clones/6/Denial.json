@@ -1,0 +1,778 @@
+{
+    "ReturnToStart": 1b,
+    "NpcInv": [
+        {
+            "Slot": 0b,
+            "ForgeCaps": {
+                "customnpcs:itemscripteddata": {
+                }
+            },
+            "id": "camscurrency:aureus",
+            "Count": 1b,
+            "Damage": 0s
+        },
+        {
+            "Slot": 1b,
+            "ForgeCaps": {
+                "customnpcs:itemscripteddata": {
+                }
+            },
+            "id": "chisel:wool_gray",
+            "Count": 1b,
+            "tag": {
+                "ench": [
+                    {
+                        "lvl": 10s,
+                        "id": 40s
+                    }
+                ],
+                "HideFlags": 33,
+                "display": {
+                    "Lore": [
+                        "You truly are committed..."
+                    ],
+                    "Name": "V. Denial"
+                }
+            },
+            "Damage": 0s
+        },
+        {
+            "Slot": 2b,
+            "ForgeCaps": {
+                "customnpcs:itemscripteddata": {
+                }
+            },
+            "id": "tconstruct:scythe",
+            "Count": 1b,
+            "tag": {
+                "StatsOriginal": {
+                    "AttackSpeedMultiplier": 1.0f,
+                    "MiningSpeed": 5.24f,
+                    "FreeModifiers": 3,
+                    "Durability": 3979,
+                    "HarvestLevel": 4,
+                    "Attack": 11.04f
+                },
+                "display": {
+                    "Name": "Impurity Defector"
+                },
+                "Stats": {
+                    "AttackSpeedMultiplier": 1.0f,
+                    "MiningSpeed": 5.24f,
+                    "FreeModifiers": 1,
+                    "Durability": 3979,
+                    "HarvestLevel": 4,
+                    "Attack": 18.709349f
+                },
+                "Special": {
+                    "Categories": [
+                        "aoe",
+                        "tool",
+                        "weapon",
+                        "harvest"
+                    ]
+                },
+                "TinkerData": {
+                    "UsedModifiers": 10,
+                    "Materials": [
+                        "vyroxeres",
+                        "refinedobsidian",
+                        "midasium",
+                        "vyroxeres"
+                    ],
+                    "Modifiers": [
+                        "sharpness",
+                        "creative",
+                        "fiery",
+                        "mending_moss"
+                    ]
+                },
+                "Modifiers": [
+                    {
+                        "identifier": "poisonous",
+                        "color": -13893888,
+                        "level": 1
+                    },
+                    {
+                        "identifier": "duritos",
+                        "color": -9230744,
+                        "level": 1
+                    },
+                    {
+                        "identifier": "darkness",
+                        "color": -9230744,
+                        "level": 1
+                    },
+                    {
+                        "identifier": "writable",
+                        "color": -2783702,
+                        "level": 1,
+                        "writable2": 1b
+                    },
+                    {
+                        "identifier": "duplication_trait",
+                        "color": -2783702,
+                        "level": 1
+                    },
+                    {
+                        "identifier": "sharpness",
+                        "current": 360,
+                        "color": 16774902,
+                        "level": 5,
+                        "max": 360,
+                        "extraInfo": "359 / 360"
+                    },
+                    {
+                        "identifier": "creative",
+                        "color": 0,
+                        "level": 7
+                    },
+                    {
+                        "identifier": "fiery",
+                        "current": 100,
+                        "color": 15375922,
+                        "level": 4,
+                        "max": 100,
+                        "extraInfo": "99 / 100"
+                    },
+                    {
+                        "identifier": "mending_moss",
+                        "color": 4434738,
+                        "level": 1
+                    }
+                ],
+                "Traits": [
+                    "poisonous",
+                    "duritos",
+                    "darkness",
+                    "writable2",
+                    "duplication_trait",
+                    "fiery",
+                    "mending_moss"
+                ]
+            },
+            "Damage": 0s
+        },
+        {
+            "Slot": 3b,
+            "ForgeCaps": {
+                "customnpcs:itemscripteddata": {
+                }
+            },
+            "id": "tconstruct:materials",
+            "Count": 1b,
+            "Damage": 19s
+        }
+    ],
+    "BossColor": 0,
+    "PotionEffect": 4,
+    "Size": 5,
+    "stopAndInteract": 0b,
+    "Resistances": {
+        "Arrow": 1.0f,
+        "Explosion": 1.9014084f,
+        "Knockback": 1.7042253f,
+        "Melee": 1.2816901f
+    },
+    "BossBar": 1b,
+    "RespawnTime": 600,
+    "NpcAngrySound": "",
+    "ReactsToFire": 0b,
+    "IgnoreCobweb": 1b,
+    "PositionOffsetZ": 5.0f,
+    "PositionOffsetY": 5.0f,
+    "PositionOffsetX": 5.0f,
+    "LootMode": 0,
+    "TransformHasAI": 0b,
+    "AttackStrenght": 50,
+    "PersistenceRequired": 0b,
+    "id": "customnpcs:customnpc",
+    "IsStatue": 0b,
+    "MovingPatern": 0,
+    "NpcLines": {
+        "Lines": [
+        ]
+    },
+    "DefendFaction": 0b,
+    "FireIndirect": 0,
+    "NpcVisible": 0,
+    "LinkedNpcName": "",
+    "NpcScenes": {
+        "Scenes": [
+        ]
+    },
+    "HitSound": "minecraft:block.chorus_flower.death",
+    "FindShelter": 2,
+    "Air": 300s,
+    "TacticalVariant": 0,
+    "Orientation": 0,
+    "ScriptLanguage": "ECMAScript",
+    "HandItems": [
+        {
+        },
+        {
+        }
+    ],
+    "KnockBack": 4,
+    "TransformHasJob": 0b,
+    "ArmorDropChances": [
+        0.085f,
+        0.085f,
+        0.085f,
+        0.085f
+    ],
+    "BurnInSun": 0b,
+    "StandingState": 0,
+    "AttackInvisible": 0b,
+    "NpcInteractNPCLines": {
+        "Lines": [
+        ]
+    },
+    "HurtTime": 0s,
+    "WalkingRange": 10,
+    "ShotCount": 3,
+    "pDur": 12,
+    "AttackRange": 2,
+    "NpcKillLines": {
+        "Lines": [
+            {
+                "Line": "*shhck* Now I can return to create.",
+                "Song": "",
+                "Slot": 0
+            },
+            {
+                "Line": "*shhck* Minor mortal will never listen.",
+                "Song": "",
+                "Slot": 1
+            },
+            {
+                "Line": "*shhck* They will be so proud of me.",
+                "Song": "",
+                "Slot": 2
+            },
+            {
+                "Line": "*shhck* Easy, really.",
+                "Song": "",
+                "Slot": 3
+            }
+        ]
+    },
+    "PotionImmune": 1b,
+    "AvoidsSun": 0b,
+    "Texture": "customnpcs:textures/entity/monstermale/skull_mage.png",
+    "NpcJob": 0,
+    "BurstCount": 1,
+    "NpcAttackLines": {
+        "Lines": [
+            {
+                "Line": "You, entity *shhck* don't belong. Take me out? That wont *shhck* happen.",
+                "Song": "",
+                "Slot": 0
+            },
+            {
+                "Line": "Trash. Trash Like you are. I *shhck* can use you to create.",
+                "Song": "",
+                "Slot": 1
+            },
+            {
+                "Line": "They will be in joy if I *shhck* end you.",
+                "Song": "",
+                "Slot": 2
+            },
+            {
+                "Line": "I must create for our *shhck* agenda. You are in the way.",
+                "Song": "",
+                "Slot": 3
+            }
+        ]
+    },
+    "pSpeed": 20,
+    "pArea": 0,
+    "DeathTime": 0s,
+    "pImpact": 0,
+    "MoveState": 0,
+    "pRender3D": 0b,
+    "Motion": [
+        0.0d,
+        -0.0784000015258789d,
+        0.0d
+    ],
+    "CombatRegen": 2,
+    "NpcsTimers": [
+    ],
+    "MarkovGender": 0,
+    "pEffect": 2,
+    "DistanceToMelee": 2,
+    "NpcStepSound": "",
+    "FireRate": 5,
+    "LeftHanded": 0b,
+    "pEffAmp": 1,
+    "OnGround": 1b,
+    "Dimension": 43,
+    "ImmuneToFire": 0b,
+    "NpcKilledLines": {
+        "Lines": [
+            {
+                "Line": "I CAN'T! NOT YET!",
+                "Song": "",
+                "Slot": 0
+            },
+            {
+                "Line": "IT CANNOT BE! I HAVE TO SHOW THEM!",
+                "Song": "",
+                "Slot": 1
+            },
+            {
+                "Line": "I CAN'T DIE NOW. NOT NOW. NOT EVER.",
+                "Song": "",
+                "Slot": 2
+            },
+            {
+                "Line": "I AM A GOD! WHY AM I NOT A GOD?",
+                "Song": "",
+                "Slot": 3
+            },
+            {
+                "Line": "WHAT FOR? WHAT ARE YOU DOING? WHY ARE YOU DOING THIS?",
+                "Song": "",
+                "Slot": 4
+            },
+            {
+                "Line": "YOU COULD BE SO FREE, YET YOU FALL ONTO YOUR OWN PRIDE!",
+                "Song": "",
+                "Slot": 5
+            }
+        ]
+    },
+    "Fire": -1s,
+    "ArmorItems": [
+        {
+        },
+        {
+        },
+        {
+        },
+        {
+        }
+    ],
+    "DisablePitch": 0b,
+    "pPhysics": 1b,
+    "TransformHasInv": 0b,
+    "NpcInteractLines": {
+        "Lines": [
+        ]
+    },
+    "HurtByTimestamp": 62602,
+    "pSpin": 0b,
+    "NpcHurtSound": "minecraft:entity.player.hurt",
+    "pTrail": 1,
+    "CreatureType": 0,
+    "Attributes": [
+        {
+            "Base": 1.0d,
+            "Name": "potioncore.projectileDamage"
+        },
+        {
+            "Base": 1.0d,
+            "Name": "potioncore.magicDamage"
+        },
+        {
+            "Base": 1.0d,
+            "Name": "potioncore.jumpHeight"
+        },
+        {
+            "Base": 1.0d,
+            "Name": "potioncore.damageResistance"
+        },
+        {
+            "Base": 0.0d,
+            "Name": "potioncore.magicShielding"
+        },
+        {
+            "Base": 300.0d,
+            "Name": "generic.maxHealth"
+        },
+        {
+            "Base": 0.0d,
+            "Name": "generic.knockbackResistance"
+        },
+        {
+            "Base": 0.05000000074505806d,
+            "Name": "generic.movementSpeed"
+        },
+        {
+            "Base": 0.0d,
+            "Name": "generic.armor"
+        },
+        {
+            "Base": 0.0d,
+            "Name": "generic.armorToughness"
+        },
+        {
+            "Base": 1.0d,
+            "Name": "forge.swimSpeed"
+        },
+        {
+            "Base": 64.0d,
+            "Name": "generic.followRange"
+        },
+        {
+            "Base": 50.0d,
+            "Name": "generic.attackDamage"
+        },
+        {
+            "Base": 0.10000000149011612d,
+            "Name": "generic.flyingSpeed"
+        }
+    ],
+    "Invulnerable": 0b,
+    "TransformHasDisplay": 0b,
+    "NoFallDamage": 0b,
+    "AbsorptionAmount": 0.0f,
+    "TransformHasRole": 0b,
+    "Name": "Denial",
+    "FallDistance": 0.0f,
+    "SkinColor": 1664513,
+    "NpcIdleSound": "",
+    "Weapons": [
+        {
+            "Slot": 0b,
+            "ForgeCaps": {
+                "customnpcs:itemscripteddata": {
+                }
+            },
+            "id": "tconstruct:scythe",
+            "Count": 1b,
+            "tag": {
+                "StatsOriginal": {
+                    "AttackSpeedMultiplier": 1.0f,
+                    "MiningSpeed": 5.24f,
+                    "FreeModifiers": 3,
+                    "Durability": 3979,
+                    "HarvestLevel": 4,
+                    "Attack": 11.04f
+                },
+                "display": {
+                    "Name": "Impurity Defector"
+                },
+                "Stats": {
+                    "AttackSpeedMultiplier": 1.0f,
+                    "MiningSpeed": 5.24f,
+                    "FreeModifiers": 1,
+                    "Durability": 3979,
+                    "HarvestLevel": 4,
+                    "Attack": 18.709349f
+                },
+                "Special": {
+                    "Categories": [
+                        "aoe",
+                        "tool",
+                        "weapon",
+                        "harvest"
+                    ]
+                },
+                "TinkerData": {
+                    "UsedModifiers": 10,
+                    "Materials": [
+                        "vyroxeres",
+                        "refinedobsidian",
+                        "midasium",
+                        "vyroxeres"
+                    ],
+                    "Modifiers": [
+                        "sharpness",
+                        "creative",
+                        "fiery",
+                        "mending_moss"
+                    ]
+                },
+                "Modifiers": [
+                    {
+                        "identifier": "poisonous",
+                        "color": -13893888,
+                        "level": 1
+                    },
+                    {
+                        "identifier": "duritos",
+                        "color": -9230744,
+                        "level": 1
+                    },
+                    {
+                        "identifier": "darkness",
+                        "color": -9230744,
+                        "level": 1
+                    },
+                    {
+                        "identifier": "writable",
+                        "color": -2783702,
+                        "level": 1,
+                        "writable2": 1b
+                    },
+                    {
+                        "identifier": "duplication_trait",
+                        "color": -2783702,
+                        "level": 1
+                    },
+                    {
+                        "identifier": "sharpness",
+                        "current": 360,
+                        "color": 16774902,
+                        "level": 5,
+                        "max": 360,
+                        "extraInfo": "359 / 360"
+                    },
+                    {
+                        "identifier": "creative",
+                        "color": 0,
+                        "level": 7
+                    },
+                    {
+                        "identifier": "fiery",
+                        "current": 100,
+                        "color": 15375922,
+                        "level": 4,
+                        "max": 100,
+                        "extraInfo": "99 / 100"
+                    },
+                    {
+                        "identifier": "mending_moss",
+                        "color": 4434738,
+                        "level": 1
+                    }
+                ],
+                "Traits": [
+                    "poisonous",
+                    "duritos",
+                    "darkness",
+                    "writable2",
+                    "duplication_trait",
+                    "fiery",
+                    "mending_moss"
+                ]
+            },
+            "Damage": 0s
+        },
+        {
+            "Slot": 1b,
+            "ForgeCaps": {
+                "customnpcs:itemscripteddata": {
+                }
+            },
+            "id": "minecraft:spawn_egg",
+            "Count": 1b,
+            "tag": {
+                "EntityTag": {
+                    "id": "minecraft:slime"
+                }
+            },
+            "Damage": 0s
+        }
+    ],
+    "NPCDialogOptions": [
+    ],
+    "AggroRange": 64,
+    "DirectLOS": 1b,
+    "HealthRegen": 0,
+    "ForgeCaps": {
+        "everlastingabilities:org.cyclops.everlastingabilities.api.capability.imutableabilitystore": [
+        ],
+        "metallurgy:punch_effect": {
+            "hasAiDisabled": 1b,
+            "knockbackTicks": 0,
+            "ticks": 0
+        }
+    },
+    "HandDropChances": [
+        0.085f,
+        0.085f
+    ],
+    "NpcModelData": {
+        "LegsConfig": {
+            "NotShared": 0b,
+            "ScaleZ": 1.0f,
+            "TransZ": 0.0f,
+            "TransY": 0.0f,
+            "TransX": 0.012000002f,
+            "ScaleY": 1.0f,
+            "ScaleX": 1.0f
+        },
+        "BodyConfig": {
+            "NotShared": 0b,
+            "ScaleZ": 1.0f,
+            "TransZ": 0.0f,
+            "TransY": 0.0f,
+            "TransX": 0.0f,
+            "ScaleY": 1.0f,
+            "ScaleX": 1.0f
+        },
+        "Eyes": {
+            "Pattern": 0b,
+            "Glint": 1b,
+            "Type": -1b,
+            "PositionY": 1,
+            "SkinColor": 11830381,
+            "PlayerTexture": 0b,
+            "Color": 8368696,
+            "BrowColor": 5982516,
+            "BrowThickness": 4
+        },
+        "LegParts": {
+            "Pattern": 0b,
+            "Type": 0b,
+            "PlayerTexture": 1b,
+            "Color": 16777215
+        },
+        "Parts": [
+            {
+                "Pattern": 0b,
+                "Type": 2b,
+                "PlayerTexture": 0b,
+                "PartName": "wings",
+                "Color": 4995629
+            }
+        ],
+        "ArmsConfig": {
+            "NotShared": 0b,
+            "ScaleZ": 1.0f,
+            "TransZ": 0.0f,
+            "TransY": 0.0f,
+            "TransX": -0.0f,
+            "ScaleY": 1.0f,
+            "ScaleX": 1.0f
+        },
+        "ExtraData": {
+        },
+        "HeadConfig": {
+            "NotShared": 0b,
+            "ScaleZ": 1.0f,
+            "TransZ": 0.0f,
+            "TransY": 0.0f,
+            "TransX": 0.0f,
+            "ScaleY": 1.0f,
+            "ScaleX": 1.0f
+        }
+    },
+    "minDelay": 20,
+    "DoorInteract": 2,
+    "MoveSpeed": 1,
+    "TransformEditingModus": 0b,
+    "UsingSkinUrl": 0b,
+    "Leashed": 0b,
+    "SkinUrl": "",
+    "CanSwim": 1b,
+    "GroundSound": "minecraft:block.anvil.break",
+    "MaxHealth": 300,
+    "HideBodyWhenKilled": 1b,
+    "AttackSpeed": 20,
+    "PotionDuration": 8,
+    "maxDelay": 30,
+    "ScriptEnabled": 0b,
+    "Role": 0,
+    "DropChance": [
+        {
+            "Integer": 100,
+            "Slot": 0
+        },
+        {
+            "Integer": 100,
+            "Slot": 1
+        },
+        {
+            "Integer": 5,
+            "Slot": 2
+        },
+        {
+            "Integer": 50,
+            "Slot": 3
+        },
+        {
+            "Integer": 100,
+            "Slot": 4
+        },
+        {
+            "Integer": 100,
+            "Slot": 5
+        },
+        {
+            "Integer": 100,
+            "Slot": 6
+        },
+        {
+            "Integer": 100,
+            "Slot": 7
+        },
+        {
+            "Integer": 100,
+            "Slot": 8
+        }
+    ],
+    "FactionPoints": {
+        "DecreaseFaction1Points": 0b,
+        "OptionFaction2Points": 100,
+        "OptionFactions1": -1,
+        "OptionFactions2": -1,
+        "OptionFaction1Points": 100,
+        "DecreaseFaction2Points": 0b
+    },
+    "pDamage": 32,
+    "KilledTime": 0L,
+    "AimWhileShooting": 0b,
+    "CanPickUpLoot": 0b,
+    "AttackOtherFactions": 0b,
+    "CanDrown": 1b,
+    "pSize": 7,
+    "CanSprint": 0b,
+    "CanLeap": 0b,
+    "TransformIsActive": 0b,
+    "ForgeData": {
+        "cnpcmarkdata": {
+            "marks": [
+            ]
+        },
+        "Potion Core - Health Fix": 300.0f,
+        "Potion Core - Jump Boost Updated": 1b
+    },
+    "MovingState": 0,
+    "MovingPos": 0,
+    "PotionAmp": 10,
+    "OnAttack": 0,
+    "TacticalRadius": 8,
+    "FallFlying": 0b,
+    "MaxExp": 100,
+    "OrderedLines": 0b,
+    "PortalCooldown": 0,
+    "pGlows": 1b,
+    "TransformHasAdvanced": 0b,
+    "TransformHasStats": 0b,
+    "MovementType": 0,
+    "FiringSound": "minecraft:block.cloth.break",
+    "ModRev": 18,
+    "Accuracy": 80,
+    "MinExp": 50,
+    "Armor": [
+    ],
+    "CloakTexture": "",
+    "GlowTexture": "",
+    "MaxFiringRange": 32,
+    "pXlr8": 0b,
+    "MarkovGeneratorId": 5,
+    "Scripts": [
+    ],
+    "Health": 300.0f,
+    "pStick": 0b,
+    "MovingPause": 1b,
+    "NpcDeathSound": "minecraft:entity.wither.death",
+    "FactionID": 2,
+    "Title": "Rejection of Rationalization",
+    "TotalTicksAlive": 65745L,
+    "Rotation": [
+        90.00011f,
+        0.0f
+    ],
+    "ShowName": 0,
+    "npcInteracting": 1b,
+    "UpdateBlocked": 0b,
+    "AvoidsWater": 0b,
+    "NoLivingAnimation": 0b,
+    "SpawnCycle": 0
+}

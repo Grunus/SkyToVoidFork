@@ -1,0 +1,34 @@
+{
+	title: "More Voids",
+	x: 1.0d,
+	y: 1.5d,
+	description: "You can turn a drawer into the Void.",
+	dependencies: [
+		"8c02b5cb"
+	],
+	hide: true,
+	tasks: [{
+		uid: "cb724c61",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "storagedrawers:upgrade_void"
+		}]
+	}],
+	rewards: [{
+		uid: "d0023f10",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "ender_distillation",
+				Amount: 1000
+			}
+		}
+	}]
+}

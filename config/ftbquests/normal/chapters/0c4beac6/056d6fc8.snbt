@@ -1,0 +1,84 @@
+{
+	title: "Tier III Primitive Reward",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "tconstruct:shuriken",
+		tag: {
+			StatsOriginal: {
+				AttackSpeedMultiplier: 1.0f,
+				Accuracy: 1.0f,
+				MiningSpeed: 5.0f,
+				FreeModifiers: 3,
+				Durability: 190,
+				HarvestLevel: 1,
+				Attack: 3.9f
+			},
+			Stats: {
+				AttackSpeedMultiplier: 1.0f,
+				Accuracy: 1.0f,
+				MiningSpeed: 5.0f,
+				FreeModifiers: 3,
+				Durability: 190,
+				HarvestLevel: 1,
+				Attack: 3.9f
+			},
+			Special: {
+				Categories: [
+					"tool",
+					"projectile",
+					"no_melee"
+				]
+			},
+			TinkerData: {
+				Materials: [
+					"flint",
+					"flint",
+					"flint",
+					"flint"
+				],
+				Modifiers: []
+			},
+			Modifiers: [{
+				identifier: "crude",
+				color: -9868951,
+				level: 3,
+				crude1: 1b,
+				crude2: 1b
+			}],
+			Traits: [
+				"crude2",
+				"crude1"
+			]
+		}
+	},
+	x: -3.0d,
+	y: 5.5d,
+	can_repeat: true,
+	dependencies: [
+		"0d6a75ca",
+		"0fa01cd3",
+		"49ab83c6",
+		"3ee3aab5"
+	],
+	hide: true,
+	optional: true,
+	tasks: [{
+		uid: "ad2da9c7",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "camscurrency:denarius"
+		}],
+		count: 20L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "d7fd5cd9",
+		type: "loot",
+		table: 3
+	}]
+}

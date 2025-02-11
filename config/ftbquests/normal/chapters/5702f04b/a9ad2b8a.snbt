@@ -1,0 +1,30 @@
+{
+	x: 16.5d,
+	y: 11.5d,
+	dependencies: [
+		"6661996d"
+	],
+	tasks: [{
+		uid: "c825acac",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "metallurgy:orichalcum_buckler"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "ddb38601",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "camscurrency:denarius"
+		},
+		count: 15
+	}]
+}

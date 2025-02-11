@@ -1,0 +1,35 @@
+{
+	title: "Ardite",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "tconstruct:ingots",
+		Damage: 1s
+	},
+	x: 7.5d,
+	y: 13.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"8f28541f"
+	],
+	hide: true,
+	tasks: [{
+		uid: "d7ecb4f1",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "tconstruct:metal",
+			Damage: 1s
+		}]
+	}],
+	rewards: [{
+		uid: "5846ddee",
+		type: "loot",
+		table: 6
+	}]
+}

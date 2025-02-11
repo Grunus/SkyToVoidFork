@@ -1,0 +1,31 @@
+{
+	x: 3.5d,
+	y: 8.5d,
+	shape: "square",
+	dependencies: [
+		"b0ce6a3e",
+		"aa0c5552"
+	],
+	hide: true,
+	tasks: [{
+		uid: "58a3fb1f",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "extrautils2:drum",
+			Damage: 3s
+		}]
+	}],
+	rewards: [{
+		uid: "f7ee44aa",
+		type: "loot",
+		table: 19
+	},
+	{
+		uid: "937a4797",
+		type: "loot",
+		table: 19
+	}]
+}

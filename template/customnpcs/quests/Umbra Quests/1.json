@@ -1,0 +1,70 @@
+{
+    "CompleterNpc": "A Statue of Denial",
+    "NextQuestId": -1,
+    "RandomReward": 0b,
+    "QuestRepeat": 0,
+    "QuestCompletion": 0,
+    "IgnoreNBT": 0b,
+    "Title": "Denial - Island Layer 1",
+    "Text": "Complete quests from NPCs in the Quest Book.",
+    "QuestFactionPoints": {
+        "DecreaseFaction1Points": 0b,
+        "OptionFaction2Points": 100,
+        "OptionFactions1": 29,
+        "OptionFactions2": -1,
+        "OptionFaction1Points": 10000,
+        "DecreaseFaction2Points": 0b
+    },
+    "RewardExp": 0,
+    "QuestCommand": "",
+    "ModRev": 18,
+    "Type": 0,
+    "QuestMail": {
+        "Sender": "",
+        "BeenRead": 0b,
+        "Message": {
+        },
+        "MailItems": [
+        ],
+        "MailQuest": -1,
+        "TimePast": 1737762470804L,
+        "Time": 0L,
+        "Subject": ""
+    },
+    "IgnoreDamage": 0b,
+    "Rewards": {
+        "NpcMiscInv": [
+        ]
+    },
+    "Items": {
+        "NpcMiscInv": [
+            {
+                "Slot": 0b,
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "contenttweaker:objectives",
+                "Count": 3b,
+                "tag": {
+                    "ench": [
+                        {
+                            "lvl": 1s,
+                            "id": 10s
+                        }
+                    ],
+                    "display": {
+                        "Lore": [
+                            "Statue of Denial would be pleased."
+                        ],
+                        "Name": "Friendship - Island Layer 1"
+                    }
+                },
+                "Damage": 0s
+            }
+        ]
+    },
+    "LeaveItems": 0b,
+    "CompleteText": "The Statue of Affinity is pleased.",
+    "NextQuestTitle": ""
+}

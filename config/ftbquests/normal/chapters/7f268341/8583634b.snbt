@@ -1,0 +1,30 @@
+{
+	title: "Eating Vegetables",
+	x: -7.0d,
+	y: -4.0d,
+	description: "Strongboxes can be upgraded to hold more storage.",
+	dependencies: [
+		"74337ab7"
+	],
+	hide: true,
+	tasks: [{
+		uid: "cf371505",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thermalexpansion:strongbox",
+			tag: {
+				Facing: 3,
+				Level: 0
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "414ac889",
+		type: "loot",
+		table: 7
+	}]
+}

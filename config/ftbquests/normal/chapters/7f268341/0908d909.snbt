@@ -1,0 +1,66 @@
+{
+	title: "Industrial Beginning",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "industrialforegoing:tree_fluid_extractor"
+	},
+	x: 15.5d,
+	y: 8.0d,
+	description: "Place this against a tree to extract liquid latex, the beginning resource for Industrial Foregoing.",
+	text: [
+		"Create a processing unit as well to create dry rubber.",
+		"(I recommend creating liquid transfer nodes and pipes as well as acquiring Energy Cells.)"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"0a4a6fec"
+	],
+	hide: true,
+	tasks: [{
+		uid: "a9714b87",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "industrialforegoing:tree_fluid_extractor"
+		}]
+	},
+	{
+		uid: "cf8d0af4",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "industrialforegoing:latex_processing_unit"
+		}]
+	}],
+	rewards: [{
+		uid: "05fd838e",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thermalfoundation:material",
+			Damage: 24s
+		},
+		count: 8
+	},
+	{
+		uid: "faa5e1c7",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "tconstruct:tool_rod",
+			tag: {
+				Material: "rubber"
+			}
+		}
+	}]
+}

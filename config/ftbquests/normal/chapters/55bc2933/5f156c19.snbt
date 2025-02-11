@@ -1,0 +1,115 @@
+{
+	title: "Pure Hearts",
+	x: -3.75d,
+	y: -5.0d,
+	shape: "hexagon",
+	description: "Mission",
+	text: [
+		"The kingdom awaits for you.",
+		"-----------------------------",
+		"Recommended Armor Value: 20+",
+		"Recommended Melee Value: 8+",
+		"Crow Bar Needed",
+		"Enemy Respawn Time: 10 Minutes"
+	],
+	dependencies: [
+		"30cd2fc8"
+	],
+	hide: true,
+	size: 2.5d,
+	tasks: [{
+		uid: "b543922f",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thermalfoundation:rockwool",
+			tag: {
+				ench: [{
+					lvl: 7s,
+					id: 40s
+				}],
+				display: {
+					Name: "VI. Mark of Lust"
+				}
+			},
+			Damage: 9s
+		}]
+	}],
+	rewards: [{
+		uid: "721eb20b",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "conarm:chestplate",
+			tag: {
+				StatsOriginal: {
+					Toughness: 2.0f,
+					FreeModifiers: 3,
+					Durability: 391,
+					Defense: 15.6f
+				},
+				display: {
+					Name: "Stolen Valor"
+				},
+				Stats: {
+					Toughness: 4.0f,
+					FreeModifiers: 1,
+					Durability: 541,
+					Defense: 19.6f
+				},
+				TinkerData: {
+					UsedModifiers: 2,
+					Materials: [
+						"cobalt",
+						"amordrine",
+						"adamantine"
+					],
+					Modifiers: [
+						"diamond_armor",
+						"mending_armor"
+					]
+				},
+				Modifiers: [{
+					identifier: "featherweight_armor",
+					color: -14122284,
+					level: 1
+				},
+				{
+					identifier: "strongly_armor",
+					color: -6848309,
+					level: 1,
+					strongly1_armor: 1b
+				},
+				{
+					identifier: "foodly_armor",
+					color: -6087395,
+					level: 1
+				},
+				{
+					identifier: "diamond_armor",
+					color: 9237730
+				},
+				{
+					identifier: "mending_armor",
+					color: 4434738,
+					level: 1
+				}],
+				Traits: [
+					"featherweight_armor",
+					"strongly1_armor",
+					"foodly_armor",
+					"mending_armor"
+				]
+			}
+		}
+	},
+	{
+		uid: "a6644284",
+		type: "ftbmoney:money",
+		ftb_money: 300L
+	}]
+}

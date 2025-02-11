@@ -1,0 +1,33 @@
+{
+	title: "Boots and Cats",
+	x: -4.06547619047619d,
+	y: 15.077380952380949d,
+	shape: "diamond",
+	description: "''Rave couch! Rave couch!''",
+	text: [
+		"BOOTS AND CATS AND BOOTS AND CATS AND BOOTS AND CATS"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"eb99c02f"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "e990218d",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "cfm:couch_jeb"
+		}],
+		consume_items: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "c3750d23",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

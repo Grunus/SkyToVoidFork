@@ -1,0 +1,50 @@
+{
+	title: "Fisher Trap",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "harvestcraft:watertrap"
+	},
+	x: 2.0d,
+	y: 6.0d,
+	text: [
+		"Place a fisher trap in water to catch fish!"
+	],
+	dependencies: [
+		"7d844f7c",
+		"f33db21e"
+	],
+	hide: true,
+	tasks: [{
+		uid: "0f01702d",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "harvestcraft:watertrap"
+		}]
+	}],
+	rewards: [{
+		uid: "5e037ade",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "harvestcraft:fishdinneritem"
+		}
+	},
+	{
+		uid: "27268d15",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "harvestcraft:fishtrapbaititem"
+		},
+		count: 3
+	}]
+}

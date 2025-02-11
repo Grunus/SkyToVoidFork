@@ -1,0 +1,38 @@
+{
+	title: "Restoring a Fraction of Power",
+	x: -7.0d,
+	y: -18.5d,
+	shape: "diamond",
+	description: "''After the Rapture, the gods sent down a very powerful and influential being to potentially reduce the feeling of rejection in individuals still trapped down here.. at least that was my thought process for it before they kicked me out. He is located far west in a lavish palace. He holds some power like me so maybe you can talk to them so I can regain some of my abilities again.''",
+	text: [
+		"Well... He is definitely not the prophet I would follow."
+	],
+	dependencies: [
+		"0c7ccc9e"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "6cc51ef1",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "biomesoplenty:biome_essence",
+			tag: {
+				ench: [{
+					lvl: 1s,
+					id: 23s
+				}],
+				display: {
+					Lore: [
+						"The Hive Mind can use this.."
+					],
+					Name: "Shred of the Gods' Light"
+				}
+			}
+		}],
+		consume_items: true
+	}]
+}

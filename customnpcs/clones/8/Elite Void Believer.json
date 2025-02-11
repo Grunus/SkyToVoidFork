@@ -1,0 +1,878 @@
+{
+    "ReturnToStart": 1b,
+    "NpcInv": [
+        {
+            "Slot": 0b,
+            "ForgeCaps": {
+                "customnpcs:itemscripteddata": {
+                }
+            },
+            "id": "appliedenergistics2:material",
+            "Count": 1b,
+            "Damage": 8s
+        },
+        {
+            "Slot": 1b,
+            "ForgeCaps": {
+                "customnpcs:itemscripteddata": {
+                }
+            },
+            "id": "appliedenergistics2:sky_stone_block",
+            "Count": 4b,
+            "Damage": 0s
+        },
+        {
+            "Slot": 2b,
+            "ForgeCaps": {
+                "customnpcs:itemscripteddata": {
+                }
+            },
+            "id": "appliedenergistics2:sky_stone_block",
+            "Count": 2b,
+            "Damage": 0s
+        },
+        {
+            "Slot": 3b,
+            "ForgeCaps": {
+                "customnpcs:itemscripteddata": {
+                }
+            },
+            "id": "appliedenergistics2:material",
+            "Count": 1b,
+            "Damage": 43s
+        },
+        {
+            "Slot": 4b,
+            "ForgeCaps": {
+                "customnpcs:itemscripteddata": {
+                }
+            },
+            "id": "appliedenergistics2:material",
+            "Count": 2b,
+            "Damage": 9s
+        },
+        {
+            "Slot": 5b,
+            "ForgeCaps": {
+                "customnpcs:itemscripteddata": {
+                }
+            },
+            "id": "appliedenergistics2:material",
+            "Count": 1b,
+            "Damage": 46s
+        },
+        {
+            "Slot": 6b,
+            "ForgeCaps": {
+                "customnpcs:itemscripteddata": {
+                }
+            },
+            "id": "totaltinkers:battleaxe",
+            "Count": 1b,
+            "tag": {
+                "ench": [
+                    {
+                        "lvl": 1s,
+                        "id": 21s
+                    }
+                ],
+                "StatsOriginal": {
+                    "AttackSpeedMultiplier": 1.0f,
+                    "MiningSpeed": 8.115f,
+                    "FreeModifiers": 3,
+                    "Durability": 1822,
+                    "HarvestLevel": 4,
+                    "Attack": 9.115f
+                },
+                "display": {
+                    "Name": "Blade of Authority"
+                },
+                "Stats": {
+                    "AttackSpeedMultiplier": 1.0f,
+                    "MiningSpeed": 8.143f,
+                    "FreeModifiers": 0,
+                    "Durability": 1828,
+                    "HarvestLevel": 4,
+                    "Attack": 9.135f
+                },
+                "Special": {
+                    "Categories": [
+                        "aoe",
+                        "weapon",
+                        "tool"
+                    ],
+                    "alienStatBonus": {
+                        "identifier": "",
+                        "color": 0,
+                        "attack": 0.02f,
+                        "durability": 6,
+                        "speed": 0.028f
+                    },
+                    "alienStatPool": {
+                        "identifier": "",
+                        "color": 16777215,
+                        "attack": 1.359999f,
+                        "durability": 259,
+                        "speed": 1.8829982f
+                    }
+                },
+                "TinkerData": {
+                    "UsedModifiers": 3,
+                    "Materials": [
+                        "soularium",
+                        "endstone",
+                        "xu_evil_metal",
+                        "lead"
+                    ],
+                    "Modifiers": [
+                        "soulbound",
+                        "beheading",
+                        "luck",
+                        "glowing"
+                    ]
+                },
+                "Modifiers": [
+                    {
+                        "identifier": "flammable",
+                        "color": -9872563,
+                        "level": 1
+                    },
+                    {
+                        "identifier": "alien",
+                        "color": -2041712,
+                        "level": 1
+                    },
+                    {
+                        "identifier": "xu_withering",
+                        "color": -131160,
+                        "level": 1
+                    },
+                    {
+                        "identifier": "poisonous",
+                        "color": -11712152,
+                        "level": 1
+                    },
+                    {
+                        "identifier": "heavy",
+                        "color": -11712152,
+                        "level": 1
+                    },
+                    {
+                        "identifier": "soulbound",
+                        "color": 16120748
+                    },
+                    {
+                        "identifier": "beheading",
+                        "color": 1070923,
+                        "level": 1
+                    },
+                    {
+                        "identifier": "luck",
+                        "current": 60,
+                        "color": 2970082,
+                        "level": 1,
+                        "max": 60,
+                        "modifierUsed": 1b,
+                        "extraInfo": "59 / 60"
+                    },
+                    {
+                        "identifier": "glowing",
+                        "color": 16777130,
+                        "level": 1
+                    }
+                ],
+                "Traits": [
+                    "flammable",
+                    "alien",
+                    "xu_withering",
+                    "poisonous",
+                    "heavy",
+                    "luck",
+                    "glowing"
+                ]
+            },
+            "Damage": 0s
+        }
+    ],
+    "BossColor": 0,
+    "PotionEffect": 0,
+    "Size": 6,
+    "stopAndInteract": 1b,
+    "Resistances": {
+        "Arrow": 1.0f,
+        "Explosion": 1.0f,
+        "Knockback": 1.3098592f,
+        "Melee": 1.4084507f
+    },
+    "BossBar": 0b,
+    "RespawnTime": 0,
+    "NpcAngrySound": "",
+    "ReactsToFire": 0b,
+    "IgnoreCobweb": 1b,
+    "PositionOffsetZ": 5.0f,
+    "PositionOffsetY": 5.0f,
+    "PositionOffsetX": 5.0f,
+    "LootMode": 0,
+    "TransformHasAI": 0b,
+    "AttackStrenght": 5,
+    "PersistenceRequired": 0b,
+    "id": "customnpcs:customnpc",
+    "IsStatue": 0b,
+    "MovingPatern": 0,
+    "NpcLines": {
+        "Lines": [
+        ]
+    },
+    "DefendFaction": 0b,
+    "FireIndirect": 0,
+    "NpcVisible": 0,
+    "LinkedNpcName": "",
+    "NpcScenes": {
+        "Scenes": [
+        ]
+    },
+    "HitSound": "ebwizardry:entity.force_orb.hit_block",
+    "FindShelter": 2,
+    "Air": 300s,
+    "TacticalVariant": 6,
+    "Orientation": 0,
+    "ScriptLanguage": "ECMAScript",
+    "HandItems": [
+        {
+        },
+        {
+        }
+    ],
+    "KnockBack": 0,
+    "TransformHasJob": 0b,
+    "ArmorDropChances": [
+        0.085f,
+        0.085f,
+        0.085f,
+        0.085f
+    ],
+    "BurnInSun": 0b,
+    "StandingState": 0,
+    "AttackInvisible": 0b,
+    "NpcInteractNPCLines": {
+        "Lines": [
+        ]
+    },
+    "HurtTime": 0s,
+    "WalkingRange": 10,
+    "ShotCount": 1,
+    "pDur": 10,
+    "AttackRange": 2,
+    "NpcKillLines": {
+        "Lines": [
+        ]
+    },
+    "PotionImmune": 1b,
+    "AvoidsSun": 0b,
+    "Texture": "minecraft:textures/entity/skeleton/stray_overlay.png",
+    "NpcJob": 0,
+    "BurstCount": 3,
+    "NpcAttackLines": {
+        "Lines": [
+        ]
+    },
+    "pSpeed": 6,
+    "pArea": 2,
+    "DeathTime": 0s,
+    "pImpact": 0,
+    "MoveState": 0,
+    "pRender3D": 1b,
+    "Motion": [
+        0.0d,
+        -0.0784000015258789d,
+        0.0d
+    ],
+    "CombatRegen": 0,
+    "NpcsTimers": [
+    ],
+    "MarkovGender": 0,
+    "pEffect": 8,
+    "DistanceToMelee": 0,
+    "NpcStepSound": "",
+    "FireRate": 12,
+    "LeftHanded": 0b,
+    "pEffAmp": 0,
+    "OnGround": 1b,
+    "Dimension": 0,
+    "ImmuneToFire": 1b,
+    "NpcKilledLines": {
+        "Lines": [
+        ]
+    },
+    "Fire": -1s,
+    "ArmorItems": [
+        {
+        },
+        {
+        },
+        {
+        },
+        {
+        }
+    ],
+    "DisablePitch": 0b,
+    "pPhysics": 0b,
+    "TransformHasInv": 0b,
+    "NpcInteractLines": {
+        "Lines": [
+        ]
+    },
+    "HurtByTimestamp": 9095,
+    "pSpin": 0b,
+    "NpcHurtSound": "minecraft:ambient.cave",
+    "pTrail": 1,
+    "CreatureType": 0,
+    "Attributes": [
+        {
+            "Base": 1.0d,
+            "Name": "potioncore.projectileDamage"
+        },
+        {
+            "Base": 1.0d,
+            "Name": "potioncore.magicDamage"
+        },
+        {
+            "Base": 1.0d,
+            "Name": "potioncore.jumpHeight"
+        },
+        {
+            "Base": 1.0d,
+            "Name": "potioncore.damageResistance"
+        },
+        {
+            "Base": 0.0d,
+            "Name": "potioncore.magicShielding"
+        },
+        {
+            "Base": 50.0d,
+            "Name": "generic.maxHealth"
+        },
+        {
+            "Base": 0.0d,
+            "Name": "generic.knockbackResistance"
+        },
+        {
+            "Base": 0.3499999940395355d,
+            "Name": "generic.movementSpeed"
+        },
+        {
+            "Base": 0.0d,
+            "Name": "generic.armor"
+        },
+        {
+            "Base": 0.0d,
+            "Name": "generic.armorToughness"
+        },
+        {
+            "Base": 1.0d,
+            "Name": "forge.swimSpeed"
+        },
+        {
+            "Base": 64.0d,
+            "Name": "generic.followRange"
+        },
+        {
+            "Base": 5.0d,
+            "Name": "generic.attackDamage"
+        },
+        {
+            "Base": 0.699999988079071d,
+            "Name": "generic.flyingSpeed"
+        }
+    ],
+    "Invulnerable": 0b,
+    "TransformHasDisplay": 0b,
+    "NoFallDamage": 0b,
+    "AbsorptionAmount": 0.0f,
+    "TransformHasRole": 0b,
+    "Name": "Elite Void Believer",
+    "FallDistance": 0.0f,
+    "SkinColor": 16749716,
+    "NpcIdleSound": "",
+    "Weapons": [
+        {
+            "Slot": 0b,
+            "ForgeCaps": {
+                "customnpcs:itemscripteddata": {
+                }
+            },
+            "id": "totaltinkers:battleaxe",
+            "Count": 1b,
+            "tag": {
+                "ench": [
+                    {
+                        "lvl": 1s,
+                        "id": 21s
+                    }
+                ],
+                "StatsOriginal": {
+                    "AttackSpeedMultiplier": 1.0f,
+                    "MiningSpeed": 8.115f,
+                    "FreeModifiers": 3,
+                    "Durability": 1822,
+                    "HarvestLevel": 4,
+                    "Attack": 9.115f
+                },
+                "display": {
+                    "Name": "Blade of Authority"
+                },
+                "Stats": {
+                    "AttackSpeedMultiplier": 1.0f,
+                    "MiningSpeed": 8.143f,
+                    "FreeModifiers": 0,
+                    "Durability": 1827,
+                    "HarvestLevel": 4,
+                    "Attack": 9.135f
+                },
+                "Special": {
+                    "Categories": [
+                        "aoe",
+                        "weapon",
+                        "tool"
+                    ],
+                    "alienStatBonus": {
+                        "identifier": "",
+                        "color": 0,
+                        "attack": 0.02f,
+                        "durability": 5,
+                        "speed": 0.028f
+                    },
+                    "alienStatPool": {
+                        "identifier": "",
+                        "color": 16777215,
+                        "attack": 1.359999f,
+                        "durability": 259,
+                        "speed": 1.8829982f
+                    }
+                },
+                "TinkerData": {
+                    "UsedModifiers": 3,
+                    "Materials": [
+                        "soularium",
+                        "endstone",
+                        "xu_evil_metal",
+                        "lead"
+                    ],
+                    "Modifiers": [
+                        "soulbound",
+                        "beheading",
+                        "luck",
+                        "glowing"
+                    ]
+                },
+                "Modifiers": [
+                    {
+                        "identifier": "flammable",
+                        "color": -9872563,
+                        "level": 1
+                    },
+                    {
+                        "identifier": "alien",
+                        "color": -2041712,
+                        "level": 1
+                    },
+                    {
+                        "identifier": "xu_withering",
+                        "color": -131160,
+                        "level": 1
+                    },
+                    {
+                        "identifier": "poisonous",
+                        "color": -11712152,
+                        "level": 1
+                    },
+                    {
+                        "identifier": "heavy",
+                        "color": -11712152,
+                        "level": 1
+                    },
+                    {
+                        "identifier": "soulbound",
+                        "color": 16120748
+                    },
+                    {
+                        "identifier": "beheading",
+                        "color": 1070923,
+                        "level": 1
+                    },
+                    {
+                        "identifier": "luck",
+                        "current": 60,
+                        "color": 2970082,
+                        "level": 1,
+                        "max": 60,
+                        "modifierUsed": 1b,
+                        "extraInfo": "59 / 60"
+                    },
+                    {
+                        "identifier": "glowing",
+                        "color": 16777130,
+                        "level": 1
+                    }
+                ],
+                "Traits": [
+                    "flammable",
+                    "alien",
+                    "xu_withering",
+                    "poisonous",
+                    "heavy",
+                    "luck",
+                    "glowing"
+                ]
+            },
+            "Damage": 0s
+        },
+        {
+            "Slot": 1b,
+            "ForgeCaps": {
+                "customnpcs:itemscripteddata": {
+                }
+            },
+            "id": "appliedenergistics2:material",
+            "Count": 1b,
+            "Damage": 9s
+        },
+        {
+            "Slot": 2b,
+            "ForgeCaps": {
+                "customnpcs:itemscripteddata": {
+                }
+            },
+            "id": "totaltinkers:battleaxe",
+            "Count": 1b,
+            "tag": {
+                "ench": [
+                    {
+                        "lvl": 1s,
+                        "id": 21s
+                    }
+                ],
+                "StatsOriginal": {
+                    "AttackSpeedMultiplier": 1.0f,
+                    "MiningSpeed": 8.115f,
+                    "FreeModifiers": 3,
+                    "Durability": 1822,
+                    "HarvestLevel": 4,
+                    "Attack": 9.115f
+                },
+                "display": {
+                    "Name": "Blade of Authority"
+                },
+                "Stats": {
+                    "AttackSpeedMultiplier": 1.0f,
+                    "MiningSpeed": 8.143f,
+                    "FreeModifiers": 0,
+                    "Durability": 1828,
+                    "HarvestLevel": 4,
+                    "Attack": 9.135f
+                },
+                "Special": {
+                    "Categories": [
+                        "aoe",
+                        "weapon",
+                        "tool"
+                    ],
+                    "alienStatBonus": {
+                        "identifier": "",
+                        "color": 0,
+                        "attack": 0.02f,
+                        "durability": 6,
+                        "speed": 0.028f
+                    },
+                    "alienStatPool": {
+                        "identifier": "",
+                        "color": 16777215,
+                        "attack": 1.359999f,
+                        "durability": 259,
+                        "speed": 1.8829982f
+                    }
+                },
+                "TinkerData": {
+                    "UsedModifiers": 3,
+                    "Materials": [
+                        "soularium",
+                        "endstone",
+                        "xu_evil_metal",
+                        "lead"
+                    ],
+                    "Modifiers": [
+                        "soulbound",
+                        "beheading",
+                        "luck",
+                        "glowing"
+                    ]
+                },
+                "Modifiers": [
+                    {
+                        "identifier": "flammable",
+                        "color": -9872563,
+                        "level": 1
+                    },
+                    {
+                        "identifier": "alien",
+                        "color": -2041712,
+                        "level": 1
+                    },
+                    {
+                        "identifier": "xu_withering",
+                        "color": -131160,
+                        "level": 1
+                    },
+                    {
+                        "identifier": "poisonous",
+                        "color": -11712152,
+                        "level": 1
+                    },
+                    {
+                        "identifier": "heavy",
+                        "color": -11712152,
+                        "level": 1
+                    },
+                    {
+                        "identifier": "soulbound",
+                        "color": 16120748
+                    },
+                    {
+                        "identifier": "beheading",
+                        "color": 1070923,
+                        "level": 1
+                    },
+                    {
+                        "identifier": "luck",
+                        "current": 60,
+                        "color": 2970082,
+                        "level": 1,
+                        "max": 60,
+                        "modifierUsed": 1b,
+                        "extraInfo": "59 / 60"
+                    },
+                    {
+                        "identifier": "glowing",
+                        "color": 16777130,
+                        "level": 1
+                    }
+                ],
+                "Traits": [
+                    "flammable",
+                    "alien",
+                    "xu_withering",
+                    "poisonous",
+                    "heavy",
+                    "luck",
+                    "glowing"
+                ]
+            },
+            "Damage": 0s
+        }
+    ],
+    "NPCDialogOptions": [
+    ],
+    "AggroRange": 20,
+    "DirectLOS": 1b,
+    "HealthRegen": 0,
+    "ForgeCaps": {
+        "everlastingabilities:org.cyclops.everlastingabilities.api.capability.imutableabilitystore": [
+        ],
+        "metallurgy:punch_effect": {
+            "hasAiDisabled": 1b,
+            "knockbackTicks": 0,
+            "ticks": 0
+        }
+    },
+    "HandDropChances": [
+        0.085f,
+        0.085f
+    ],
+    "NpcModelData": {
+        "LegsConfig": {
+            "NotShared": 0b,
+            "ScaleZ": 1.0f,
+            "TransZ": 0.0f,
+            "TransY": 0.0f,
+            "TransX": 0.012000002f,
+            "ScaleY": 1.0f,
+            "ScaleX": 1.0f
+        },
+        "BodyConfig": {
+            "NotShared": 0b,
+            "ScaleZ": 1.0f,
+            "TransZ": 0.0f,
+            "TransY": 0.0f,
+            "TransX": 0.0f,
+            "ScaleY": 1.0f,
+            "ScaleX": 1.0f
+        },
+        "Eyes": {
+            "Pattern": 0b,
+            "Glint": 1b,
+            "Type": 0b,
+            "PositionY": 1,
+            "SkinColor": 11830381,
+            "PlayerTexture": 0b,
+            "Color": 10791096,
+            "BrowColor": 5982516,
+            "BrowThickness": 4
+        },
+        "EntityClass": "net.minecraft.entity.monster.EntityWitherSkeleton",
+        "LegParts": {
+            "Pattern": 0b,
+            "Type": 0b,
+            "PlayerTexture": 0b,
+            "Color": 16777215
+        },
+        "Parts": [
+        ],
+        "ArmsConfig": {
+            "NotShared": 0b,
+            "ScaleZ": 1.0f,
+            "TransZ": 0.0f,
+            "TransY": 0.0f,
+            "TransX": -0.0f,
+            "ScaleY": 1.0f,
+            "ScaleX": 1.0f
+        },
+        "ExtraData": {
+        },
+        "HeadConfig": {
+            "NotShared": 0b,
+            "ScaleZ": 1.0f,
+            "TransZ": 0.0f,
+            "TransY": 0.0f,
+            "TransX": 0.0f,
+            "ScaleY": 1.0f,
+            "ScaleX": 1.0f
+        }
+    },
+    "minDelay": 80,
+    "DoorInteract": 0,
+    "MoveSpeed": 7,
+    "TransformEditingModus": 0b,
+    "UsingSkinUrl": 0b,
+    "Leashed": 0b,
+    "SkinUrl": "",
+    "CanSwim": 1b,
+    "GroundSound": "ebwizardry:entity.force_orb.hit_block",
+    "MaxHealth": 50,
+    "HideBodyWhenKilled": 1b,
+    "AttackSpeed": 20,
+    "PotionDuration": 5,
+    "maxDelay": 100,
+    "ScriptEnabled": 0b,
+    "Role": 0,
+    "DropChance": [
+        {
+            "Integer": 100,
+            "Slot": 0
+        },
+        {
+            "Integer": 100,
+            "Slot": 1
+        },
+        {
+            "Integer": 100,
+            "Slot": 2
+        },
+        {
+            "Integer": 100,
+            "Slot": 3
+        },
+        {
+            "Integer": 100,
+            "Slot": 4
+        },
+        {
+            "Integer": 100,
+            "Slot": 5
+        },
+        {
+            "Integer": 100,
+            "Slot": 6
+        },
+        {
+            "Integer": 100,
+            "Slot": 7
+        },
+        {
+            "Integer": 100,
+            "Slot": 8
+        }
+    ],
+    "FactionPoints": {
+        "DecreaseFaction1Points": 1b,
+        "OptionFaction2Points": 100,
+        "OptionFactions1": 3,
+        "OptionFactions2": -1,
+        "OptionFaction1Points": 1,
+        "DecreaseFaction2Points": 0b
+    },
+    "pDamage": 68,
+    "KilledTime": 0L,
+    "AimWhileShooting": 0b,
+    "CanPickUpLoot": 0b,
+    "AttackOtherFactions": 0b,
+    "CanDrown": 0b,
+    "pSize": 5,
+    "CanSprint": 0b,
+    "CanLeap": 0b,
+    "TransformIsActive": 0b,
+    "ForgeData": {
+        "cnpcmarkdata": {
+            "marks": [
+            ]
+        },
+        "Potion Core - Health Fix": 50.0f,
+        "Potion Core - Projectile Invulnerability": 0,
+        "entityKillList": {
+            "Official_Parade": 0
+        },
+        "Potion Core - Jump Boost Updated": 1b
+    },
+    "MovingState": 0,
+    "MovingPos": 0,
+    "PotionAmp": 0,
+    "OnAttack": 0,
+    "TacticalRadius": 8,
+    "FallFlying": 0b,
+    "MaxExp": 15,
+    "OrderedLines": 0b,
+    "PortalCooldown": 0,
+    "pGlows": 0b,
+    "TransformHasAdvanced": 0b,
+    "TransformHasStats": 0b,
+    "MovementType": 0,
+    "FiringSound": "ebwizardry:entity.darkness_orb.hit",
+    "ModRev": 18,
+    "Accuracy": 90,
+    "MinExp": 10,
+    "Armor": [
+    ],
+    "CloakTexture": "",
+    "GlowTexture": "",
+    "MaxFiringRange": 64,
+    "pXlr8": 0b,
+    "MarkovGeneratorId": 0,
+    "Scripts": [
+    ],
+    "Health": 50.0f,
+    "pStick": 0b,
+    "MovingPause": 1b,
+    "NpcDeathSound": "minecraft:entity.shulker_bullet.hit",
+    "FactionID": 4,
+    "Title": "",
+    "TotalTicksAlive": 167184L,
+    "Rotation": [
+        191.0467f,
+        0.0f
+    ],
+    "ShowName": 0,
+    "npcInteracting": 1b,
+    "UpdateBlocked": 0b,
+    "AvoidsWater": 0b,
+    "NoLivingAnimation": 0b,
+    "SpawnCycle": 3
+}

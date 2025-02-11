@@ -1,0 +1,28 @@
+{
+	title: "Command Branch",
+	x: 0.0d,
+	y: -4.5d,
+	description: "''Like I said, Give me this currency and I can cut you some corners with the rules in play.''",
+	text: [
+		"Unlock and use certain commands that would supposedly require cheats.",
+		"",
+		"",
+		"Toggling cheat quests can be repeatable."
+	],
+	dependencies: [
+		"1004e263"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "a9fd1678",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "camscurrency:aureus"
+		}],
+		consume_items: true
+	}]
+}

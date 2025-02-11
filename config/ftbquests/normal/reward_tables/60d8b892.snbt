@@ -1,0 +1,352 @@
+{
+	title: "Cyclic Tier III Reward",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "cyclicmagic:crystallized_obsidian"
+	},
+	loot_size: 1,
+	hide_tooltip: true,
+	use_title: true,
+	rewards: [{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "cyclicmagic:ender_tnt_6"
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "cyclicmagic:ender_blaze",
+			tag: {}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "cyclicmagic:purple_chestplate"
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "cyclicmagic:purple_boots",
+			tag: {
+				ench: [{
+					lvl: 4s,
+					id: 112s
+				},
+				{
+					lvl: 1s,
+					id: 70s
+				},
+				{
+					lvl: 2s,
+					id: 0s
+				}],
+				display: {
+					Lore: [
+						"OO OO OO AHH AHH"
+					],
+					Name: "Monkey Around"
+				},
+				AttributeModifiers: [{
+					UUIDMost: -8908768238899017377L,
+					UUIDLeast: -8313820693701227669L,
+					Amount: 6.0d,
+					Slot: "feet",
+					AttributeName: "generic.armor",
+					Operation: 0,
+					Name: "generic.armor"
+				},
+				{
+					UUIDMost: -8908768238899017377L,
+					UUIDLeast: -8313820693701227669L,
+					Amount: 4.0d,
+					Slot: "feet",
+					AttributeName: "generic.armorToughness",
+					Operation: 0,
+					Name: "generic.armorToughness"
+				},
+				{
+					UUIDMost: -8300107413179709596L,
+					UUIDLeast: -9163408841804681571L,
+					Amount: 4.0d,
+					Slot: "feet",
+					AttributeName: "generic.maxHealth",
+					Operation: 0,
+					Name: "generic.maxHealth"
+				},
+				{
+					UUIDMost: 2743684472429888442L,
+					UUIDLeast: -4875872455129636040L,
+					Amount: 1.0d,
+					Slot: "feet",
+					AttributeName: "generic.reachDistance",
+					Operation: 0,
+					Name: "generic.reachDistance"
+				}],
+				launchuses: 0
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "cyclicmagic:crystal_pickaxe"
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "cyclicmagic:crystal_sword"
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "cyclicmagic:crystallized_obsidian"
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "cyclicmagic:crystallized_obsidian"
+		},
+		count: 5
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:enchanted_book",
+			tag: {
+				StoredEnchantments: [{
+					lvl: 1s,
+					id: 115s
+				}]
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:enchanted_book",
+			tag: {
+				StoredEnchantments: [{
+					lvl: 2s,
+					id: 113s
+				}]
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:enchanted_book",
+			tag: {
+				StoredEnchantments: [{
+					lvl: 3s,
+					id: 111s
+				}]
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "cyclicmagic:soulstone"
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "cyclicmagic:sprout_seed"
+		},
+		count: 64
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "cyclicmagic:sack_ender"
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "cyclicmagic:spikes_diamond"
+		},
+		count: 64
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "cyclicmagic:crystallized_obsidian"
+		},
+		count: 3
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "cyclicmagic:crystal_spade"
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "cyclicmagic:auto_packager"
+		},
+		count: 64
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "cyclicmagic:plate_launch_extra"
+		},
+		count: 8
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "tconstruct:broadsword",
+			tag: {
+				ench: [{
+					lvl: 3s,
+					id: 21s
+				}],
+				StatsOriginal: {
+					AttackSpeedMultiplier: 1.0f,
+					MiningSpeed: 5.5f,
+					FreeModifiers: 3,
+					Durability: 588,
+					HarvestLevel: 1,
+					Attack: 7.2f
+				},
+				display: {
+					Name: "Prisma"
+				},
+				Stats: {
+					AttackSpeedMultiplier: 1.0f,
+					MiningSpeed: 5.5f,
+					FreeModifiers: 0,
+					Durability: 882,
+					HarvestLevel: 2,
+					Attack: 11.399455f
+				},
+				Special: {
+					Categories: [
+						"weapon",
+						"tool"
+					]
+				},
+				TinkerData: {
+					UsedModifiers: 4,
+					Materials: [
+						"silver",
+						"prismarine",
+						"xu_enchanted_metal"
+					],
+					Modifiers: [
+						"sharpness",
+						"emerald",
+						"creative",
+						"luck"
+					]
+				},
+				Modifiers: [{
+					identifier: "holy",
+					color: -3019530,
+					level: 1
+				},
+				{
+					identifier: "jagged",
+					color: -8462660,
+					level: 1
+				},
+				{
+					identifier: "aquadynamic",
+					color: -8462660,
+					level: 1
+				},
+				{
+					identifier: "xu_xp_boost",
+					color: -4197792,
+					level: 1
+				},
+				{
+					identifier: "sharpness",
+					current: 144,
+					color: 16774902,
+					level: 2,
+					max: 144,
+					extraInfo: "143 / 144"
+				},
+				{
+					identifier: "emerald",
+					color: 4322180
+				},
+				{
+					identifier: "creative",
+					color: 0,
+					level: 1
+				},
+				{
+					identifier: "luck",
+					current: 360,
+					color: 2970082,
+					level: 3,
+					max: 360,
+					modifierUsed: 1b,
+					extraInfo: "359 / 360"
+				}],
+				Traits: [
+					"holy",
+					"jagged",
+					"aquadynamic",
+					"xu_xp_boost",
+					"luck"
+				]
+			}
+		}
+	}]
+}

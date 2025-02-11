@@ -1,0 +1,40 @@
+{
+	title: "The Hierarchy",
+	x: 4.5d,
+	y: -18.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"05faa4f9"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "7251ddbc",
+		type: "kill",
+		entity: "minecraft:spider",
+		value: 100L
+	}],
+	rewards: [{
+		uid: "01d057a3",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "camscurrency:denarius"
+		},
+		count: 6
+	},
+	{
+		uid: "6e738523",
+		type: "loot",
+		table: 48
+	},
+	{
+		uid: "bb5b87db",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

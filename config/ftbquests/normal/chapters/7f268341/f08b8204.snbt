@@ -1,0 +1,32 @@
+{
+	title: "Silence.",
+	x: 0.5d,
+	y: 3.5d,
+	text: [
+		"Peace. and. quiet."
+	],
+	dependencies: [
+		"267db402"
+	],
+	hide: true,
+	tasks: [{
+		uid: "f730032a",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "extrautils2:soundmuffler"
+		}]
+	}],
+	rewards: [{
+		uid: "aad6e491",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "harvestcraft:rainbowcurryitem"
+		}
+	}]
+}

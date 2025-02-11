@@ -1,0 +1,36 @@
+{
+	title: "More Thermal Dolls",
+	x: 0.0d,
+	y: -2.0d,
+	dependencies: [
+		"c44baf56"
+	],
+	hide: true,
+	tasks: [{
+		uid: "0c0cfaaa",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "exnihilocreatio:item_doll",
+			Damage: 6s
+		}]
+	},
+	{
+		uid: "92d655af",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "exnihilocreatio:item_doll",
+			Damage: 5s
+		}]
+	}],
+	rewards: [{
+		uid: "a834cb5e",
+		type: "loot",
+		table: 8
+	}]
+}

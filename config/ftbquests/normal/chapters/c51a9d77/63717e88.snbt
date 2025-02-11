@@ -1,0 +1,52 @@
+{
+	title: "Openblock's Auto Enchanting",
+	x: -3.5d,
+	y: 4.5d,
+	shape: "square",
+	description: "Attach to tanks filled with Liquid XP to auto enchant and repair.",
+	dependencies: [
+		"f8b14dc2"
+	],
+	hide: true,
+	tasks: [{
+		uid: "28e5d9ac",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "openblocks:auto_enchantment_table"
+		}]
+	},
+	{
+		uid: "64f6d26d",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "openblocks:auto_anvil"
+		}]
+	}],
+	rewards: [{
+		uid: "85274a56",
+		type: "loot",
+		table: 31
+	},
+	{
+		uid: "02a1f040",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:enchanted_book",
+			tag: {
+				StoredEnchantments: [{
+					lvl: 4s,
+					id: 16s
+				}]
+			}
+		}
+	}]
+}

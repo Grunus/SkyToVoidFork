@@ -1,0 +1,35 @@
+{
+	title: "Moving Parts",
+	x: 1.5d,
+	y: 6.5d,
+	dependencies: [
+		"b0bd187c"
+	],
+	hide: true,
+	tasks: [{
+		uid: "cb942d92",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "extrautils2:machine"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "a02c1566",
+		type: "loot",
+		table: 17
+	},
+	{
+		uid: "54ef6273",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "extrautils2:powerbattery"
+		}
+	}]
+}

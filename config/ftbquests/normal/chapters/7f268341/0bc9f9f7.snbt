@@ -1,0 +1,23 @@
+{
+	x: 21.5d,
+	y: -1.5d,
+	dependencies: [
+		"3252236e"
+	],
+	hide: true,
+	tasks: [{
+		uid: "ca2537e7",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "enderio:block_soul_binder"
+		}]
+	}],
+	rewards: [{
+		uid: "a10f1dbb",
+		type: "loot",
+		table: 35
+	}]
+}

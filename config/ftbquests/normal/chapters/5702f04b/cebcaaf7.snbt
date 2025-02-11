@@ -1,0 +1,37 @@
+{
+	title: "Got Ingot?",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "minecraft:iron_ingot"
+	},
+	x: 1.0d,
+	y: 7.0d,
+	dependencies: [
+		"2bd5aaf9"
+	],
+	hide: true,
+	tasks: [{
+		uid: "220ad292",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:iron_ingot"
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "80ddf536",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thermalfoundation:material"
+		},
+		count: 12
+	}]
+}

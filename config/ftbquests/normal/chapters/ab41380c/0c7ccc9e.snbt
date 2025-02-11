@@ -1,0 +1,38 @@
+{
+	title: "External Aid",
+	x: -6.5d,
+	y: -18.0d,
+	shape: "diamond",
+	description: "''My abilities are limited because of the gods, but I can still help you in a few ways. I am able to summon commands through a simple payment by you.''",
+	text: [
+		"I wont need your book, I can add it in... myself."
+	],
+	dependencies: [
+		"9526304b"
+	],
+	hide: true,
+	tasks: [{
+		uid: "66bb8dcd",
+		type: "checkmark",
+		title: "''Uhh- Alright.''",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "psi:cad_battery",
+			Damage: 2s
+		}
+	}],
+	rewards: [{
+		uid: "526ac1e6",
+		type: "custom",
+		title: "Unlocks External Aid Chapter",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ftbquests:book"
+		},
+		auto: "enabled"
+	}]
+}

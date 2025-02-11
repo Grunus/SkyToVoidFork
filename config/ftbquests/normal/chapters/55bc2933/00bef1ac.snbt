@@ -1,0 +1,101 @@
+{
+	title: "Sunken Factory: Devoid",
+	x: -10.0d,
+	y: 0.0d,
+	shape: "octagon",
+	description: "Side Mission",
+	text: [
+		""
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"aeb457c5"
+	],
+	hide: true,
+	size: 2.5d,
+	tasks: [{
+		uid: "242a210c",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thermalfoundation:coin",
+			tag: {
+				ench: [{
+					lvl: 1s,
+					id: 10s
+				}],
+				display: {
+					Lore: [
+						"Achieved from killing Large Mind: Reborn in",
+						"Sunken Factory: Devoid"
+					],
+					Name: "Medal: Sunken Factory"
+				}
+			},
+			Damage: 103s
+		}],
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "ee2a001f",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "metallurgy:eximite_pickaxe",
+			tag: {
+				ench: [{
+					lvl: 3s,
+					id: 32s
+				},
+				{
+					lvl: 1s,
+					id: 59s
+				}],
+				Unbreakable: 1b,
+				display: {
+					Lore: [
+						"Allows destruction of End Gateways in",
+						"Missions."
+					],
+					Name: "Void Obliterator"
+				},
+				AttributeModifiers: [{
+					UUIDMost: -3801225194067177672L,
+					UUIDLeast: -6586624321849018929L,
+					Amount: 5.0d,
+					Slot: "mainhand",
+					AttributeName: "generic.attackDamage",
+					Operation: 0,
+					Name: "generic.attackDamage"
+				},
+				{
+					UUIDMost: -422425648963762075L,
+					UUIDLeast: -5756800103171642205L,
+					Amount: -2.799999952316284d,
+					Slot: "mainhand",
+					AttributeName: "generic.attackSpeed",
+					Operation: 0,
+					Name: "generic.attackSpeed"
+				},
+				{
+					UUIDMost: -3801225194067177672L,
+					UUIDLeast: -6586645810107271729L,
+					Amount: -0.01d,
+					Slot: "mainhand",
+					AttributeName: "generic.movementSpeed",
+					Operation: 0,
+					Name: "generic.movementSpeed"
+				}]
+			}
+		}
+	},
+	{
+		uid: "685a7df0",
+		type: "ftbmoney:money",
+		ftb_money: 500L
+	}]
+}

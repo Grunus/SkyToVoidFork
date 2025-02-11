@@ -1,0 +1,56 @@
+{
+	title: "Bay Generator",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "extrautils2:machine",
+		tag: {
+			Type: "extrautils2:generator_tnt"
+		}
+	},
+	x: 5.5d,
+	y: 12.0d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"ae08ee94",
+		"101993cb"
+	],
+	hide: true,
+	tasks: [{
+		uid: "982a4b0e",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "extrautils2:machine",
+			tag: {
+				Type: "extrautils2:generator_tnt"
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "2bc0d22c",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "tconstruct:throwball",
+			Damage: 1s
+		},
+		count: 16
+	},
+	{
+		uid: "49f0dc94",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "camscurrency:dupondius"
+		},
+		count: 32
+	}]
+}

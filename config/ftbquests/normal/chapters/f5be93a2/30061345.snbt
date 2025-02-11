@@ -1,0 +1,62 @@
+{
+	title: "Islands Final",
+	x: 3.0d,
+	y: 3.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"996ee067",
+		"ef4f1cf5"
+	],
+	tasks: [{
+		uid: "320b2a51",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "futuremc:honey_block"
+		}],
+		count: 16L,
+		consume_items: true
+	},
+	{
+		uid: "ccdbf060",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "torchmaster:mega_torch"
+		}]
+	},
+	{
+		uid: "7e2b3604",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "netherendingores:ore_end_modded_1",
+			Damage: 15s
+		}],
+		count: 24L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "726d1911",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "artifacts:everlasting_rabbit_stew"
+		}
+	},
+	{
+		uid: "0a0ef661",
+		type: "ftbmoney:money",
+		ftb_money: 200L
+	}]
+}

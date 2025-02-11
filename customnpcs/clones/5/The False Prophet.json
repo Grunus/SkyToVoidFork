@@ -1,0 +1,798 @@
+{
+    "ReturnToStart": 1b,
+    "NpcInv": [
+        {
+            "Slot": 0b,
+            "ForgeCaps": {
+                "customnpcs:itemscripteddata": {
+                }
+            },
+            "id": "metallurgy:vyroxeres_sword",
+            "Count": 1b,
+            "tag": {
+                "ench": [
+                    {
+                        "lvl": 6s,
+                        "id": 79s
+                    },
+                    {
+                        "lvl": 2s,
+                        "id": 104s
+                    },
+                    {
+                        "lvl": 1s,
+                        "id": 59s
+                    },
+                    {
+                        "lvl": 1s,
+                        "id": 71s
+                    },
+                    {
+                        "lvl": 3s,
+                        "id": 58s
+                    }
+                ],
+                "display": {
+                    "Lore": [
+                        "True believers."
+                    ],
+                    "Name": "Thought Contagious"
+                },
+                "AttributeModifiers": [
+                    {
+                        "UUIDMost": -3801225194067177672L,
+                        "UUIDLeast": -6586624321849018929L,
+                        "Amount": 10.0d,
+                        "Slot": "mainhand",
+                        "AttributeName": "generic.attackDamage",
+                        "Operation": 0,
+                        "Name": "generic.attackDamage"
+                    },
+                    {
+                        "UUIDMost": -422425648963762075L,
+                        "UUIDLeast": -5756800103171642205L,
+                        "Amount": -2.4000000953674316d,
+                        "Slot": "mainhand",
+                        "AttributeName": "generic.attackSpeed",
+                        "Operation": 0,
+                        "Name": "generic.attackSpeed"
+                    },
+                    {
+                        "UUIDMost": -1537512842236311056L,
+                        "UUIDLeast": -6292618520846692918L,
+                        "Amount": 6.0d,
+                        "Slot": "mainhand",
+                        "AttributeName": "generic.armor",
+                        "Operation": 0,
+                        "Name": "generic.armor"
+                    },
+                    {
+                        "UUIDMost": -7039571233644066034L,
+                        "UUIDLeast": -6086032994096416941L,
+                        "Amount": 1.0d,
+                        "Slot": "mainhand",
+                        "AttributeName": "generic.armorToughness",
+                        "Operation": 0,
+                        "Name": "generic.armorToughness"
+                    },
+                    {
+                        "UUIDMost": -3801225194067177672L,
+                        "UUIDLeast": -6586664575087823409L,
+                        "Amount": -0.5d,
+                        "Slot": "mainhand",
+                        "AttributeName": "generic.maxHealth",
+                        "Operation": 1,
+                        "Name": "generic.maxHealth"
+                    },
+                    {
+                        "UUIDMost": -3801225194067177672L,
+                        "UUIDLeast": -6586627045126720049L,
+                        "Amount": 2.0d,
+                        "Slot": "mainhand",
+                        "AttributeName": "generic.reachDistance",
+                        "Operation": 0,
+                        "Name": "generic.reachDistance"
+                    }
+                ]
+            },
+            "Damage": 0s
+        },
+        {
+            "Slot": 1b,
+            "ForgeCaps": {
+                "customnpcs:itemscripteddata": {
+                }
+            },
+            "id": "ebwizardry:scroll",
+            "Count": 1b,
+            "Damage": 36s
+        },
+        {
+            "Slot": 2b,
+            "ForgeCaps": {
+                "customnpcs:itemscripteddata": {
+                }
+            },
+            "id": "cyclicmagic:charm_antidote",
+            "Count": 1b,
+            "tag": {
+            },
+            "Damage": 0s
+        },
+        {
+            "Slot": 3b,
+            "ForgeCaps": {
+                "customnpcs:itemscripteddata": {
+                }
+            },
+            "id": "metallurgy:vyroxeres_block",
+            "Count": 1b,
+            "Damage": 0s
+        },
+        {
+            "Slot": 4b,
+            "ForgeCaps": {
+                "customnpcs:itemscripteddata": {
+                }
+            },
+            "id": "tconstruct:materials",
+            "Count": 1b,
+            "Damage": 19s
+        },
+        {
+            "Slot": 5b,
+            "ForgeCaps": {
+                "customnpcs:itemscripteddata": {
+                }
+            },
+            "id": "ebwizardry:poison_bomb",
+            "Count": 8b,
+            "Damage": 0s
+        },
+        {
+            "Slot": 6b,
+            "ForgeCaps": {
+                "customnpcs:itemscripteddata": {
+                }
+            },
+            "id": "ebwizardry:charm_flight",
+            "Count": 1b,
+            "tag": {
+                "display": {
+                    "Name": "Transcendence"
+                },
+                "AttributeModifiers": [
+                    {
+                        "UUIDMost": 56622919556288504L,
+                        "UUIDLeast": -5513564587501567625L,
+                        "Amount": 20.0d,
+                        "Slot": "offhand",
+                        "AttributeName": "generic.armor",
+                        "Operation": 0,
+                        "Name": "generic.armor"
+                    },
+                    {
+                        "UUIDMost": 8300779063035839608L,
+                        "UUIDLeast": -5648413494163884910L,
+                        "Amount": -26.0d,
+                        "Slot": "offhand",
+                        "AttributeName": "generic.maxHealth",
+                        "Operation": 0,
+                        "Name": "generic.maxHealth"
+                    }
+                ]
+            },
+            "Damage": 0s
+        },
+        {
+            "Slot": 7b,
+            "ForgeCaps": {
+                "customnpcs:itemscripteddata": {
+                }
+            },
+            "id": "biomesoplenty:biome_essence",
+            "Count": 1b,
+            "tag": {
+                "ench": [
+                    {
+                        "lvl": 1s,
+                        "id": 23s
+                    }
+                ],
+                "display": {
+                    "Lore": [
+                        "The Hive Mind can use this.."
+                    ],
+                    "Name": "Shred of the Gods' Light"
+                }
+            },
+            "Damage": 0s
+        }
+    ],
+    "BossColor": 0,
+    "PotionEffect": 2,
+    "Size": 5,
+    "stopAndInteract": 0b,
+    "Resistances": {
+        "Arrow": 1.9577465f,
+        "Explosion": 1.0f,
+        "Knockback": 1.1549295f,
+        "Melee": 1.1549295f
+    },
+    "BossBar": 2b,
+    "RespawnTime": 1200,
+    "NpcAngrySound": "",
+    "ReactsToFire": 0b,
+    "IgnoreCobweb": 0b,
+    "PositionOffsetZ": 5.0f,
+    "PositionOffsetY": 5.0f,
+    "PositionOffsetX": 5.0f,
+    "LootMode": 0,
+    "TransformHasAI": 0b,
+    "AttackStrenght": 18,
+    "PersistenceRequired": 0b,
+    "id": "customnpcs:customnpc",
+    "IsStatue": 0b,
+    "MovingPatern": 0,
+    "NpcLines": {
+        "Lines": [
+        ]
+    },
+    "DefendFaction": 0b,
+    "FireIndirect": 0,
+    "NpcVisible": 0,
+    "LinkedNpcName": "",
+    "NpcScenes": {
+        "Scenes": [
+        ]
+    },
+    "HitSound": "minecraft:entity.boat.paddle_land",
+    "FindShelter": 2,
+    "Air": 300s,
+    "TacticalVariant": 1,
+    "Orientation": 0,
+    "ScriptLanguage": "ECMAScript",
+    "HandItems": [
+        {
+        },
+        {
+        }
+    ],
+    "KnockBack": 1,
+    "TransformHasJob": 0b,
+    "ArmorDropChances": [
+        0.085f,
+        0.085f,
+        0.085f,
+        0.085f
+    ],
+    "BurnInSun": 0b,
+    "StandingState": 0,
+    "AttackInvisible": 0b,
+    "NpcInteractNPCLines": {
+        "Lines": [
+        ]
+    },
+    "HurtTime": 0s,
+    "WalkingRange": 10,
+    "ShotCount": 4,
+    "pDur": 8,
+    "AttackRange": 3,
+    "NpcKillLines": {
+        "Lines": [
+            {
+                "Line": "I with that, @p, Lest your ambitions.",
+                "Song": "",
+                "Slot": 0
+            },
+            {
+                "Line": "Believe me, @p. You never had it in you.",
+                "Song": "",
+                "Slot": 1
+            },
+            {
+                "Line": "We all fall at some point, @p. My blade was the lock to your door.",
+                "Song": "",
+                "Slot": 2
+            }
+        ]
+    },
+    "PotionImmune": 1b,
+    "AvoidsSun": 0b,
+    "Texture": "customnpcs:textures/entity/humanmale/king.png",
+    "NpcJob": 0,
+    "BurstCount": 3,
+    "NpcAttackLines": {
+        "Lines": [
+            {
+                "Line": "I am the prophet. @p- You will be reduced to a servant!",
+                "Song": "",
+                "Slot": 0
+            },
+            {
+                "Line": "I hold more power than you can ever imagine.",
+                "Song": "",
+                "Slot": 1
+            },
+            {
+                "Line": "God Killer you think you will become? You can't kill a god.",
+                "Song": "",
+                "Slot": 2
+            },
+            {
+                "Line": "My dream is reality. Your reality is a dream.",
+                "Song": "",
+                "Slot": 3
+            },
+            {
+                "Line": "Broken at last. Angered by rejection. You will never repay for your actions @p.",
+                "Song": "",
+                "Slot": 4
+            },
+            {
+                "Line": "Ambition is making you look ugly, @p.",
+                "Song": "",
+                "Slot": 5
+            }
+        ]
+    },
+    "pSpeed": 6,
+    "pArea": 2,
+    "DeathTime": 0s,
+    "pImpact": 0,
+    "MoveState": 0,
+    "pRender3D": 0b,
+    "Motion": [
+        0.0d,
+        -0.0784000015258789d,
+        0.0d
+    ],
+    "CombatRegen": 0,
+    "NpcsTimers": [
+    ],
+    "MarkovGender": 0,
+    "pEffect": 2,
+    "DistanceToMelee": 12,
+    "NpcStepSound": "",
+    "FireRate": 15,
+    "LeftHanded": 0b,
+    "pEffAmp": 1,
+    "OnGround": 1b,
+    "Dimension": 0,
+    "ImmuneToFire": 1b,
+    "NpcKilledLines": {
+        "Lines": [
+            {
+                "Line": "I'VE FAILED. GODS? MAY YOU FORGIVE ME?",
+                "Song": "",
+                "Slot": 0
+            },
+            {
+                "Line": "THE VOID. PLEASE, GODS LET ME SEE THE LIGHT.",
+                "Song": "",
+                "Slot": 1
+            },
+            {
+                "Line": "THE LIGHT? WHERE IS THE LIGHT?",
+                "Song": "",
+                "Slot": 2
+            },
+            {
+                "Line": "I CAN'T BECOME ONE OF THEM. NO I WILL NOT!",
+                "Song": "",
+                "Slot": 3
+            }
+        ]
+    },
+    "Fire": -1s,
+    "ArmorItems": [
+        {
+        },
+        {
+        },
+        {
+        },
+        {
+        }
+    ],
+    "DisablePitch": 0b,
+    "pPhysics": 0b,
+    "TransformHasInv": 0b,
+    "NpcInteractLines": {
+        "Lines": [
+        ]
+    },
+    "HurtByTimestamp": 167,
+    "pSpin": 0b,
+    "NpcHurtSound": "minecraft:entity.player.hurt",
+    "pTrail": 6,
+    "CreatureType": 0,
+    "Attributes": [
+        {
+            "Base": 1.0d,
+            "Name": "potioncore.projectileDamage"
+        },
+        {
+            "Base": 1.0d,
+            "Name": "potioncore.magicDamage"
+        },
+        {
+            "Base": 1.0d,
+            "Name": "potioncore.jumpHeight"
+        },
+        {
+            "Base": 1.0d,
+            "Name": "potioncore.damageResistance"
+        },
+        {
+            "Base": 0.0d,
+            "Name": "potioncore.magicShielding"
+        },
+        {
+            "Base": 400.0d,
+            "Name": "generic.maxHealth"
+        },
+        {
+            "Base": 0.0d,
+            "Name": "generic.knockbackResistance"
+        },
+        {
+            "Base": 0.15000000596046448d,
+            "Name": "generic.movementSpeed"
+        },
+        {
+            "Base": 0.0d,
+            "Name": "generic.armor"
+        },
+        {
+            "Base": 0.0d,
+            "Name": "generic.armorToughness"
+        },
+        {
+            "Base": 1.0d,
+            "Name": "forge.swimSpeed"
+        },
+        {
+            "Base": 64.0d,
+            "Name": "generic.followRange"
+        },
+        {
+            "Base": 18.0d,
+            "Name": "generic.attackDamage"
+        },
+        {
+            "Base": 0.30000001192092896d,
+            "Name": "generic.flyingSpeed"
+        }
+    ],
+    "Invulnerable": 0b,
+    "TransformHasDisplay": 0b,
+    "NoFallDamage": 1b,
+    "AbsorptionAmount": 0.0f,
+    "TransformHasRole": 0b,
+    "Name": "The False Prophet",
+    "FallDistance": 0.0f,
+    "SkinColor": 16777215,
+    "NpcIdleSound": "",
+    "Weapons": [
+        {
+            "Slot": 0b,
+            "ForgeCaps": {
+                "customnpcs:itemscripteddata": {
+                }
+            },
+            "id": "metallurgy:vyroxeres_sword",
+            "Count": 1b,
+            "tag": {
+                "ench": [
+                    {
+                        "lvl": 6s,
+                        "id": 79s
+                    },
+                    {
+                        "lvl": 2s,
+                        "id": 104s
+                    },
+                    {
+                        "lvl": 1s,
+                        "id": 59s
+                    },
+                    {
+                        "lvl": 1s,
+                        "id": 71s
+                    },
+                    {
+                        "lvl": 3s,
+                        "id": 58s
+                    }
+                ],
+                "display": {
+                    "Lore": [
+                        "True believers."
+                    ],
+                    "Name": "Thought Contagious"
+                },
+                "AttributeModifiers": [
+                    {
+                        "UUIDMost": -3801225194067177672L,
+                        "UUIDLeast": -6586624321849018929L,
+                        "Amount": 10.0d,
+                        "Slot": "mainhand",
+                        "AttributeName": "generic.attackDamage",
+                        "Operation": 0,
+                        "Name": "generic.attackDamage"
+                    },
+                    {
+                        "UUIDMost": -422425648963762075L,
+                        "UUIDLeast": -5756800103171642205L,
+                        "Amount": -2.4000000953674316d,
+                        "Slot": "mainhand",
+                        "AttributeName": "generic.attackSpeed",
+                        "Operation": 0,
+                        "Name": "generic.attackSpeed"
+                    },
+                    {
+                        "UUIDMost": -1537512842236311056L,
+                        "UUIDLeast": -6292618520846692918L,
+                        "Amount": 6.0d,
+                        "Slot": "mainhand",
+                        "AttributeName": "generic.armor",
+                        "Operation": 0,
+                        "Name": "generic.armor"
+                    },
+                    {
+                        "UUIDMost": -7039571233644066034L,
+                        "UUIDLeast": -6086032994096416941L,
+                        "Amount": 1.0d,
+                        "Slot": "mainhand",
+                        "AttributeName": "generic.armorToughness",
+                        "Operation": 0,
+                        "Name": "generic.armorToughness"
+                    },
+                    {
+                        "UUIDMost": -3801225194067177672L,
+                        "UUIDLeast": -6586664575087823409L,
+                        "Amount": -0.5d,
+                        "Slot": "mainhand",
+                        "AttributeName": "generic.maxHealth",
+                        "Operation": 1,
+                        "Name": "generic.maxHealth"
+                    },
+                    {
+                        "UUIDMost": -3801225194067177672L,
+                        "UUIDLeast": -6586627045126720049L,
+                        "Amount": 2.0d,
+                        "Slot": "mainhand",
+                        "AttributeName": "generic.reachDistance",
+                        "Operation": 0,
+                        "Name": "generic.reachDistance"
+                    }
+                ]
+            },
+            "Damage": 0s
+        },
+        {
+            "Slot": 1b,
+            "ForgeCaps": {
+                "customnpcs:itemscripteddata": {
+                }
+            },
+            "id": "ebwizardry:poison_bomb",
+            "Count": 1b,
+            "Damage": 0s
+        },
+        {
+            "Slot": 2b,
+            "ForgeCaps": {
+                "customnpcs:itemscripteddata": {
+                }
+            },
+            "id": "ebwizardry:poison_bomb",
+            "Count": 1b,
+            "Damage": 0s
+        }
+    ],
+    "NPCDialogOptions": [
+    ],
+    "AggroRange": 34,
+    "DirectLOS": 0b,
+    "HealthRegen": 5,
+    "ForgeCaps": {
+        "everlastingabilities:org.cyclops.everlastingabilities.api.capability.imutableabilitystore": [
+        ],
+        "metallurgy:punch_effect": {
+            "hasAiDisabled": 1b,
+            "knockbackTicks": 0,
+            "ticks": 0
+        }
+    },
+    "HandDropChances": [
+        0.085f,
+        0.085f
+    ],
+    "NpcModelData": {
+        "LegsConfig": {
+            "NotShared": 0b,
+            "ScaleZ": 1.0f,
+            "TransZ": 0.0f,
+            "TransY": 0.0f,
+            "TransX": 0.012000002f,
+            "ScaleY": 1.0f,
+            "ScaleX": 1.0f
+        },
+        "BodyConfig": {
+            "NotShared": 0b,
+            "ScaleZ": 1.0f,
+            "TransZ": 0.0f,
+            "TransY": 0.0f,
+            "TransX": 0.0f,
+            "ScaleY": 1.0f,
+            "ScaleX": 1.0f
+        },
+        "Eyes": {
+            "Pattern": 0b,
+            "Glint": 1b,
+            "Type": 0b,
+            "PositionY": 1,
+            "SkinColor": 11830381,
+            "PlayerTexture": 0b,
+            "Color": 5371415,
+            "BrowColor": 5982516,
+            "BrowThickness": 4
+        },
+        "LegParts": {
+            "Pattern": 0b,
+            "Type": 0b,
+            "PlayerTexture": 0b,
+            "Color": 16777215
+        },
+        "Parts": [
+        ],
+        "ArmsConfig": {
+            "NotShared": 0b,
+            "ScaleZ": 1.0f,
+            "TransZ": 0.0f,
+            "TransY": 0.0f,
+            "TransX": -0.0f,
+            "ScaleY": 1.0f,
+            "ScaleX": 1.0f
+        },
+        "ExtraData": {
+        },
+        "HeadConfig": {
+            "NotShared": 0b,
+            "ScaleZ": 1.0f,
+            "TransZ": 0.0f,
+            "TransY": 0.0f,
+            "TransX": 0.0f,
+            "ScaleY": 1.0f,
+            "ScaleX": 1.0f
+        }
+    },
+    "minDelay": 40,
+    "DoorInteract": 2,
+    "MoveSpeed": 3,
+    "TransformEditingModus": 0b,
+    "UsingSkinUrl": 0b,
+    "Leashed": 0b,
+    "SkinUrl": "",
+    "CanSwim": 1b,
+    "GroundSound": "tconstruct:slimesling",
+    "MaxHealth": 400,
+    "HideBodyWhenKilled": 1b,
+    "AttackSpeed": 30,
+    "PotionDuration": 8,
+    "maxDelay": 100,
+    "ScriptEnabled": 0b,
+    "Role": 0,
+    "DropChance": [
+        {
+            "Integer": 15,
+            "Slot": 0
+        },
+        {
+            "Integer": 20,
+            "Slot": 1
+        },
+        {
+            "Integer": 15,
+            "Slot": 2
+        },
+        {
+            "Integer": 90,
+            "Slot": 3
+        },
+        {
+            "Integer": 5,
+            "Slot": 4
+        },
+        {
+            "Integer": 35,
+            "Slot": 5
+        },
+        {
+            "Integer": 5,
+            "Slot": 6
+        },
+        {
+            "Integer": 100,
+            "Slot": 7
+        },
+        {
+            "Integer": 100,
+            "Slot": 8
+        }
+    ],
+    "FactionPoints": {
+        "DecreaseFaction1Points": 1b,
+        "OptionFaction2Points": 100,
+        "OptionFactions1": 20,
+        "OptionFactions2": -1,
+        "OptionFaction1Points": 50,
+        "DecreaseFaction2Points": 0b
+    },
+    "pDamage": 26,
+    "KilledTime": 0L,
+    "AimWhileShooting": 0b,
+    "CanPickUpLoot": 0b,
+    "AttackOtherFactions": 0b,
+    "CanDrown": 1b,
+    "pSize": 20,
+    "CanSprint": 0b,
+    "CanLeap": 1b,
+    "TransformIsActive": 0b,
+    "ForgeData": {
+        "cnpcmarkdata": {
+            "marks": [
+            ]
+        },
+        "Potion Core - Health Fix": 200.0f,
+        "entityKillList": {
+            "Official_Parade": 1
+        },
+        "Potion Core - Jump Boost Updated": 1b
+    },
+    "MovingState": 0,
+    "MovingPos": 0,
+    "PotionAmp": 10,
+    "OnAttack": 0,
+    "TacticalRadius": 9,
+    "FallFlying": 0b,
+    "MaxExp": 50,
+    "OrderedLines": 0b,
+    "PortalCooldown": 0,
+    "pGlows": 0b,
+    "TransformHasAdvanced": 0b,
+    "TransformHasStats": 0b,
+    "MovementType": 0,
+    "FiringSound": "minecraft:entity.arrow.shoot",
+    "ModRev": 18,
+    "Accuracy": 60,
+    "MinExp": 30,
+    "Armor": [
+    ],
+    "CloakTexture": "",
+    "GlowTexture": "",
+    "MaxFiringRange": 32,
+    "pXlr8": 1b,
+    "MarkovGeneratorId": 1,
+    "Scripts": [
+    ],
+    "Health": 200.0f,
+    "pStick": 0b,
+    "MovingPause": 1b,
+    "NpcDeathSound": "",
+    "FactionID": 20,
+    "Title": "Sent for the gods",
+    "TotalTicksAlive": 68905L,
+    "Rotation": [
+        181.18375f,
+        0.0f
+    ],
+    "ShowName": 0,
+    "npcInteracting": 1b,
+    "UpdateBlocked": 0b,
+    "AvoidsWater": 0b,
+    "NoLivingAnimation": 0b,
+    "SpawnCycle": 0
+}

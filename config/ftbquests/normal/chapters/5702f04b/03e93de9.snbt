@@ -1,0 +1,50 @@
+{
+	title: "The Witch of Water",
+	x: -4.0d,
+	y: 2.0d,
+	text: [
+		"Place mycelium under a stone barrel of water to create witch water.",
+		"",
+		"Note: it will take a long time to transform"
+	],
+	dependencies: [
+		"8008871c"
+	],
+	hide: true,
+	tasks: [{
+		uid: "f91e62cf",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "witchwater",
+				Amount: 1000
+			}
+		}],
+		ignore_damage: true
+	}],
+	rewards: [{
+		uid: "414fd794",
+		type: "loot",
+		table: 1
+	},
+	{
+		uid: "ac35fc69",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:spawn_egg",
+			tag: {
+				EntityTag: {
+					id: "minecraft:witch"
+				}
+			}
+		},
+		count: 5
+	}]
+}

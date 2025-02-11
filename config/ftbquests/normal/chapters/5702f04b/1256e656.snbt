@@ -1,0 +1,34 @@
+{
+	title: "Marketing",
+	x: -2.0d,
+	y: 8.5d,
+	description: "Block to buy different seeds and other agriculture.",
+	text: [
+		""
+	],
+	dependencies: [
+		"7aed858a"
+	],
+	hide: true,
+	tasks: [{
+		uid: "c7dade7e",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "harvestcraft:market"
+		}]
+	}],
+	rewards: [{
+		uid: "199edf19",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:emerald"
+		},
+		count: 12
+	}]
+}

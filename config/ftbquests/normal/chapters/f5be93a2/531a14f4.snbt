@@ -1,0 +1,47 @@
+{
+	title: "Mark of Envy",
+	x: 0.5d,
+	y: -1.0d,
+	shape: "square",
+	dependencies: [
+		"01437c64"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "9d77e5c7",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thermalfoundation:rockwool",
+			tag: {
+				ench: [{
+					lvl: 1s,
+					id: 40s
+				}],
+				RepairCost: 1,
+				display: {
+					Name: "II. Mark of Envy"
+				}
+			},
+			Damage: 4s
+		}]
+	}],
+	rewards: [{
+		uid: "4cd5c346",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "cyclicmagic:heart_food"
+		}
+	},
+	{
+		uid: "a638c1f5",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

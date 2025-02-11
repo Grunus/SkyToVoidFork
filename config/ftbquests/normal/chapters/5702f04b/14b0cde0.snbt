@@ -1,0 +1,31 @@
+{
+	title: "Shadow Steel",
+	x: 14.5d,
+	y: 8.5d,
+	dependencies: [
+		"0fba0633",
+		"ae38a819"
+	],
+	hide: true,
+	tasks: [{
+		uid: "bb695e97",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "metallurgy:shadow_steel_ingot"
+		}]
+	}],
+	rewards: [{
+		uid: "3c09e628",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "camscurrency:denarius"
+		},
+		count: 15
+	}]
+}

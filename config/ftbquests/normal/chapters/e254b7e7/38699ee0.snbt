@@ -1,0 +1,44 @@
+{
+	title: "Revenge Getting Closer",
+	x: 2.0d,
+	y: -22.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"996ee067"
+	],
+	hide: true,
+	tasks: [{
+		uid: "cda8a833",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "mysticalagriculture:crafting",
+			Damage: 37s
+		}]
+	}],
+	rewards: [{
+		uid: "105bd0b5",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "camscurrency:denarius"
+		},
+		count: 6
+	},
+	{
+		uid: "7a67831f",
+		type: "loot",
+		table: 11
+	},
+	{
+		uid: "b00813f5",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	}]
+}

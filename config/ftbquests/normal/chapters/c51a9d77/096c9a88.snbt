@@ -1,0 +1,29 @@
+{
+	title: "Big Bundle of Dynamite",
+	x: 3.5d,
+	y: 6.5d,
+	shape: "square",
+	text: [
+		""
+	],
+	dependencies: [
+		"da8500a6"
+	],
+	hide: true,
+	tasks: [{
+		uid: "da2d374d",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "cyclicmagic:ender_tnt_6"
+		}],
+		count: 64L
+	}],
+	rewards: [{
+		uid: "a08f84e4",
+		type: "loot",
+		table: 53
+	}]
+}

@@ -1,0 +1,45 @@
+{
+	title: "Magma Power 2",
+	x: 6.5d,
+	y: 10.0d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"ae08ee94",
+		"3e64a70d"
+	],
+	hide: true,
+	tasks: [{
+		uid: "5fbef80c",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "extrautils2:machine",
+			tag: {
+				Type: "extrautils2:generator_lava"
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "0fd514d7",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:lava_bucket"
+		}
+	},
+	{
+		uid: "c303d5f9",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "camscurrency:denarius"
+		},
+		count: 8
+	}]
+}

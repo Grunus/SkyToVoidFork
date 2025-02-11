@@ -1,0 +1,52 @@
+{
+	title: "Compact Times",
+	x: -5.0d,
+	y: -3.0d,
+	description: "Compactors compresses items like blaze powders into blaze rods, you can also compact bars into plates for augmentation.",
+	dependencies: [
+		"f0a388c1"
+	],
+	hide: true,
+	tasks: [{
+		uid: "060ff870",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thermalexpansion:machine",
+			tag: {
+				RSControl: 0b,
+				Facing: 3b,
+				Energy: 0,
+				SideCache: [B;
+					1b,
+					1b,
+					2b,
+					2b,
+					2b,
+					2b
+				],
+				Level: 0b
+			},
+			Damage: 5s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "d257c252",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thermalfoundation:material",
+			Damage: 32s
+		}
+	},
+	{
+		uid: "c481c3f6",
+		type: "loot",
+		table: 7
+	}]
+}

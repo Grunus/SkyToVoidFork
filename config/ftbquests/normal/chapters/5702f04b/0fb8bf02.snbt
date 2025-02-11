@@ -1,0 +1,76 @@
+{
+	title: "Strainers",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "waterstrainer:strainer_base"
+	},
+	x: 2.0d,
+	y: 3.0d,
+	description: "Strainers are useful for collecting sand, gravel, and clay",
+	text: [
+		"With your sieve, you can take collected gravel and sand from the strainer without needing to break anything with a hammer.",
+		"For the strainer to function you'll need flowing water going through the strainer net.",
+		"I recommend creating the dense net first."
+	],
+	dependencies: [
+		"1e1b9e6a"
+	],
+	hide: true,
+	tasks: [{
+		uid: "8f36319d",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "waterstrainer:strainer_base"
+		}]
+	},
+	{
+		uid: "a204f742",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "waterstrainer:strainer_survivalist_dense"
+		},
+		{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "waterstrainer:strainer_survivalist"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "e5aa90cf",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "harvestcraft:waterchestnutseeditem"
+		}
+	},
+	{
+		uid: "d42f835f",
+		type: "item",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:flint"
+		},
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:flint"
+		},
+		count: 5
+	}]
+}

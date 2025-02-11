@@ -1,0 +1,153 @@
+{
+	title: "Locked Away",
+	x: -1.25d,
+	y: -5.0d,
+	shape: "hexagon",
+	description: "Mission",
+	text: [
+		""
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"ff24e10e"
+	],
+	hide: true,
+	size: 2.5d,
+	tasks: [{
+		uid: "103889f8",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thermalfoundation:rockwool",
+			tag: {
+				ench: [{
+					lvl: 10s,
+					id: 40s
+				}],
+				HideFlags: 2,
+				display: {
+					Name: "VII. Mark of Wrath"
+				},
+				AttributeModifiers: [{
+					UUIDMost: 8638741754714605651L,
+					UUIDLeast: -5191295518137351917L,
+					Amount: -1.0d,
+					Slot: "mainhand",
+					AttributeName: "generic.attackDamage",
+					Operation: 0,
+					Name: "generic.attackDamage"
+				},
+				{
+					UUIDMost: -3571075184069817964L,
+					UUIDLeast: -6077272473461557035L,
+					Amount: -1.0d,
+					Slot: "mainhand",
+					AttributeName: "generic.attackSpeed",
+					Operation: 0,
+					Name: "generic.attackSpeed"
+				},
+				{
+					UUIDMost: -1658089921720399600L,
+					UUIDLeast: -7849944464997678173L,
+					Amount: -1.0d,
+					Slot: "mainhand",
+					AttributeName: "generic.armor",
+					Operation: 0,
+					Name: "generic.armor"
+				},
+				{
+					UUIDMost: -9181940840867215117L,
+					UUIDLeast: -6940062452689511560L,
+					Amount: -1.0d,
+					Slot: "mainhand",
+					AttributeName: "generic.armorToughness",
+					Operation: 0,
+					Name: "generic.armorToughness"
+				},
+				{
+					UUIDMost: 544854579268308294L,
+					UUIDLeast: -8332465735601438258L,
+					Amount: -1.0d,
+					Slot: "mainhand",
+					AttributeName: "generic.maxHealth",
+					Operation: 0,
+					Name: "generic.maxHealth"
+				},
+				{
+					UUIDMost: -3997552494309785160L,
+					UUIDLeast: -6613918257715194628L,
+					Amount: -1.0d,
+					Slot: "mainhand",
+					AttributeName: "generic.movementSpeed",
+					Operation: 0,
+					Name: "generic.movementSpeed"
+				},
+				{
+					UUIDMost: -6460892408994576479L,
+					UUIDLeast: -6852799590465644584L,
+					Amount: -1.0d,
+					Slot: "mainhand",
+					AttributeName: "generic.knockbackResistance",
+					Operation: 0,
+					Name: "generic.knockbackResistance"
+				},
+				{
+					UUIDMost: 5969064063927402563L,
+					UUIDLeast: -5114502162358022237L,
+					Amount: -1.0d,
+					Slot: "mainhand",
+					AttributeName: "generic.reachDistance",
+					Operation: 0,
+					Name: "generic.reachDistance"
+				},
+				{
+					UUIDMost: -6139815356415522990L,
+					UUIDLeast: -9200733837401285594L,
+					Amount: -1.0d,
+					Slot: "mainhand",
+					AttributeName: "generic.luck",
+					Operation: 0,
+					Name: "generic.luck"
+				},
+				{
+					UUIDMost: 7258208912110600630L,
+					UUIDLeast: -7253902979640824296L,
+					Amount: -1.0d,
+					Slot: "mainhand",
+					AttributeName: "generic.followRange",
+					Operation: 0,
+					Name: "generic.followRange"
+				},
+				{
+					UUIDMost: -1916393441056111474L,
+					UUIDLeast: -8989890022967263294L,
+					Amount: -1.0d,
+					Slot: "mainhand",
+					AttributeName: "horse.jumpStrength",
+					Operation: 0,
+					Name: "horse.jumpStrength"
+				},
+				{
+					UUIDMost: 3310625637243439224L,
+					UUIDLeast: -6700573500347829275L,
+					Amount: -1.0d,
+					Slot: "mainhand",
+					AttributeName: "zombie.spawnReinforcements",
+					Operation: 0,
+					Name: "zombie.spawnReinforcements"
+				},
+				{
+					UUIDMost: -2465993952790754033L,
+					UUIDLeast: -6819516743974256933L,
+					Amount: -1.0d,
+					Slot: "mainhand",
+					AttributeName: "generic.flyingSpeed",
+					Operation: 0,
+					Name: "generic.flyingSpeed"
+				}]
+			}
+		}]
+	}]
+}

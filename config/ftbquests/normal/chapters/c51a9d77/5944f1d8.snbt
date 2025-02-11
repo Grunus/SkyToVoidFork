@@ -1,0 +1,45 @@
+{
+	title: "Don't Bridge With This..",
+	x: 2.5d,
+	y: 6.5d,
+	description: "Can be used for quick construction without making a mess.",
+	text: [
+		""
+	],
+	dependencies: [
+		"9375ae25"
+	],
+	hide: true,
+	tasks: [{
+		uid: "9e475e76",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "cyclicmagic:block_fragile"
+		},
+		{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "cyclicmagic:block_fragile_auto"
+		},
+		{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "cyclicmagic:block_fragile_weak"
+		}]
+	}],
+	rewards: [{
+		uid: "eba3e072",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "cyclicmagic:block_fishing"
+		}
+	}]
+}

@@ -1,0 +1,33 @@
+{
+	title: "Ok The Quest To The Left Was Pretty Edgy...",
+	x: 11.5d,
+	y: 3.0d,
+	text: [
+		"The Alloyer can combine two metals to make a stronger and new metal."
+	],
+	dependencies: [
+		"8d13be67"
+	],
+	hide: true,
+	tasks: [{
+		uid: "70da09f1",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "metallurgy:alloyer"
+		}]
+	}],
+	rewards: [{
+		uid: "1551ff07",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "camscurrency:denarius"
+		},
+		count: 15
+	}]
+}

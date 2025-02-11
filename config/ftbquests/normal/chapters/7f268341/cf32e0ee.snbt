@@ -1,0 +1,27 @@
+{
+	title: "Redstone Infused",
+	x: 20.5d,
+	y: 3.5d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"2fd2df5c"
+	],
+	hide: true,
+	tasks: [{
+		uid: "4723050a",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "enderio:item_alloy_ingot",
+			Damage: 3s
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "5f402579",
+		type: "loot",
+		table: 34
+	}]
+}

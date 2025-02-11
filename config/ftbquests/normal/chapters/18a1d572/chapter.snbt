@@ -1,0 +1,13 @@
+{
+	title: "The Kingdom of Gods",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "openblocks:golden_eye",
+		tag: {}
+	},
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

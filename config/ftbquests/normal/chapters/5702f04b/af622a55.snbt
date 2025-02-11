@@ -1,0 +1,28 @@
+{
+	title: "Turning Primitive Into Automation",
+	x: 7.5d,
+	y: 5.0d,
+	description: "Once you've acquired power you can start making life easier!",
+	text: [
+		"Auto Compressor compresses blocks and ore chunks automatically."
+	],
+	dependencies: [
+		"5eea1b73"
+	],
+	hide: true,
+	tasks: [{
+		uid: "21fc440f",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "excompressum:auto_compressor"
+		}]
+	}],
+	rewards: [{
+		uid: "5951f6b8",
+		type: "loot",
+		table: 1
+	}]
+}

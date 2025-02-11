@@ -1,0 +1,17 @@
+filename = 'OreDictTips-1.12-2.0.2.jar'
+name = 'OreDictTips'
+side = 'both'
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '1.12', '1.12.1', '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'OreDictTips-1.12-2.0.2.jar'
+
+[download]
+hash = 'e61ef5ddbc2a10d5ee8e3f156ff77e32354a39f2'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 2545766
+project-id = 252832

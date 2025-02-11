@@ -1,0 +1,80 @@
+{
+	title: "Computer Engineering",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "appliedenergistics2:inscriber"
+	},
+	x: -16.5d,
+	y: 6.5d,
+	text: [
+		"So now you know how to create Fluix Crystals, it's time to start using them.",
+		"",
+		"To start building the computer, you're going to need a Logic, Calculation, Engineering and Silicon press.",
+		"You can craft or find them in the Void."
+	],
+	dependencies: [
+		"a09ed600"
+	],
+	hide: true,
+	tasks: [{
+		uid: "82e44a1e",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "appliedenergistics2:inscriber"
+		}]
+	},
+	{
+		uid: "dba63a9b",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "appliedenergistics2:material",
+			Damage: 13s
+		}]
+	},
+	{
+		uid: "215704ba",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "appliedenergistics2:material",
+			Damage: 14s
+		}]
+	},
+	{
+		uid: "bfcd4f75",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "appliedenergistics2:material",
+			Damage: 15s
+		}]
+	},
+	{
+		uid: "a5171f1e",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "appliedenergistics2:material",
+			Damage: 19s
+		}]
+	}],
+	rewards: [{
+		uid: "2b3c2e4a",
+		type: "loot",
+		table: 15
+	}]
+}

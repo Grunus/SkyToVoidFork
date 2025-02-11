@@ -1,0 +1,40 @@
+{
+	title: "Wambo II",
+	x: 0.0d,
+	y: 8.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"cec58e6c"
+	],
+	tasks: [{
+		uid: "07f382b1",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "enderio:item_material",
+			Damage: 73s
+		}],
+		count: 32L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "575b12a5",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "camscurrency:denarius"
+		},
+		count: 32
+	},
+	{
+		uid: "b593a8d3",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	}]
+}

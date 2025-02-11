@@ -1,0 +1,53 @@
+{
+	title: "The Heart",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "minecraft:grass"
+	},
+	x: 0.0d,
+	y: 0.0d,
+	description: "An adventure gotta start somewhere, you know?",
+	text: [
+		"The chapter displays each island N.E.S.W respectively.",
+		"",
+		"For example, The Obelisk is South in the chapter, so it'll be South ingame.",
+		"",
+		"You can view the direction you are facing With F3 Debugging on."
+	],
+	dependencies: [
+		"2bd5aaf9"
+	],
+	hide: true,
+	tasks: [{
+		uid: "bbeab260",
+		type: "location",
+		title: "5 70 -2",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:grass"
+		},
+		location: [I;
+			0,
+			-3,
+			68,
+			-7,
+			20,
+			20,
+			20
+		]
+	}],
+	rewards: [{
+		uid: "dba7fa80",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:apple"
+		}
+	}]
+}

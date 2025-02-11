@@ -1,0 +1,42 @@
+{
+	title: "Cloud Service: Nytemart II",
+	x: -3.5d,
+	y: 14.5d,
+	shape: "octagon",
+	description: "Unlocks items within the quest book shop.",
+	hide_dependency_lines: true,
+	dependencies: [
+		"52fffa66",
+		"08f28f9e",
+		"e4b85cee",
+		"93f687c1"
+	],
+	hide: true,
+	tasks: [{
+		uid: "3591b817",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "contenttweaker:pylon",
+			tag: {
+				display: {
+					Lore: [
+						"Unlocks special Cloud Service items inside",
+						"the quest book shop from specific traders.",
+						"Complete quests from NPCs to reveal Cloud",
+						"Service quests."
+					],
+					Name: "Cloud Service Pylon"
+				}
+			}
+		}],
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "80ff66cf",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

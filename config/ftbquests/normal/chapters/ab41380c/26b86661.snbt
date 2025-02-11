@@ -1,0 +1,48 @@
+{
+	title: "Hollow Core",
+	x: 9.0d,
+	y: -16.0d,
+	description: "Where two hostile lands coexist.",
+	dependencies: [
+		"996ee067"
+	],
+	hide: true,
+	tasks: [{
+		uid: "6761d587",
+		type: "location",
+		title: "731 68 -1381",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "chisel:netherrack",
+			Damage: 13s
+		},
+		location: [I;
+			0,
+			727,
+			68,
+			-1386,
+			5,
+			5,
+			5
+		]
+	}],
+	rewards: [{
+		uid: "198552eb",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "extrautils2:opinium",
+			Damage: 3s
+		},
+		count: 2
+	},
+	{
+		uid: "042a0953",
+		type: "ftbmoney:money",
+		ftb_money: 150L
+	}]
+}

@@ -1,0 +1,34 @@
+{
+	title: "Fluxed Mining",
+	x: -8.5d,
+	y: 1.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"faeb538a"
+	],
+	hide: true,
+	tasks: [{
+		uid: "6b6c8731",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thermalinnovation:drill",
+			tag: {
+				Energy: 240000,
+				Mode: 2
+			},
+			Damage: 2s
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "dc0187fd",
+		type: "loot",
+		table: 8
+	}]
+}

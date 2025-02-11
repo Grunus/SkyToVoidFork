@@ -1,0 +1,17 @@
+filename = 'Metallurgy-4-Reforged-1.2.11.jar'
+name = 'Metallurgy 4: Reforged'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'Metallurgy-4-Reforged-1.2.11'
+
+[download]
+hash = '2b4feb132d8a7f8ad46f3919848f5eee24f0f22d'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 3443943
+project-id = 300890

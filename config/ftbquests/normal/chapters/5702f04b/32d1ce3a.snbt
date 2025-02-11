@@ -1,0 +1,29 @@
+{
+	title: "Yeah Yeah Yeah...",
+	x: 0.0d,
+	y: 0.0d,
+	text: [
+		"You gotta break the log and craft the wood and plant the sapling and craft the tools and..."
+	],
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "75a65638",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:log"
+		}]
+	}],
+	rewards: [{
+		uid: "95b309ac",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:sapling"
+		}
+	}]
+}

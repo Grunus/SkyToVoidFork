@@ -1,0 +1,32 @@
+{
+	title: "OUCH",
+	x: 1.5d,
+	y: 3.5d,
+	description: "Spikes are spikes, they hurt when you step on it.",
+	dependencies: [
+		"267db402"
+	],
+	hide: true,
+	tasks: [{
+		uid: "6d534351",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "extrautils2:spike_wood"
+		}]
+	}],
+	rewards: [{
+		uid: "7ee5b906",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:log"
+		},
+		count: 16,
+		random_bonus: 48
+	}]
+}

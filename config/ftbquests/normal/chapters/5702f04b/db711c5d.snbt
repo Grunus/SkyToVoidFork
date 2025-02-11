@@ -1,0 +1,35 @@
+{
+	title: "Crafting Table? More Like Crafting Station!",
+	x: 0.0d,
+	y: 3.0d,
+	shape: "hexagon",
+	description: "This Crafting Station is equipped with more functionalities than the standard Crafting Table.",
+	text: [
+		"(Note that hexagon shaped quests yield better progress to extend the borders)"
+	],
+	dependencies: [
+		"32d1ce3a"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "78e03d67",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "tconstruct:tooltables"
+		}]
+	}],
+	rewards: [{
+		uid: "814899b0",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:chest"
+		}
+	}]
+}

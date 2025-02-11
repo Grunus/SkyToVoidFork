@@ -1,0 +1,31 @@
+{
+	title: "The Next Tier",
+	x: -5.5d,
+	y: 16.5d,
+	description: "With this tome you can upgrade your wand. Put the tome in the your arcane table with the wand.",
+	text: [
+		"You now have an upgraded wand! Wands can exceed to master level, the max tier."
+	],
+	dependencies: [
+		"fc17d3ac"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "b7bc9bce",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ebwizardry:apprentice_wand"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "4fa6e5ce",
+		type: "loot",
+		table: 23
+	}]
+}

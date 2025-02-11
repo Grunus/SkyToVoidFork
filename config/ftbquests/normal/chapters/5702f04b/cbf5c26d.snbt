@@ -1,0 +1,71 @@
+{
+	title: "Not Sponsored By Supreme",
+	x: -8.0d,
+	y: 7.5d,
+	shape: "circle",
+	description: "It may be pretty expensive, but you can fly.",
+	text: [
+		"Just a tad bit, it's not that much. Really easy to make!"
+	],
+	dependencies: [
+		"747bb101"
+	],
+	hide: true,
+	tasks: [{
+		uid: "d24fccc8",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "mysticalagriculture:supremium_chestplate",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "60860b87",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "mysticalagriculture:supremium_helmet",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "06c95921",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "mysticalagriculture:supremium_leggings",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "daf8c864",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "mysticalagriculture:supremium_boots",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "e21d96f8",
+		type: "loot",
+		table: 11
+	}]
+}

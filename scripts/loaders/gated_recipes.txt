@@ -1,0 +1,3 @@
+import mod.recipestages.Recipes;
+
+Recipes.setRecipeStage("ipets1_stage", <minecraft:compass>);

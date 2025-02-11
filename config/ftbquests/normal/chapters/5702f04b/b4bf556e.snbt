@@ -1,0 +1,32 @@
+{
+	title: "Flint Meshes",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "exnihilocreatio:item_mesh",
+		Damage: 2s
+	},
+	x: 3.0d,
+	y: 4.0d,
+	dependencies: [
+		"ea50a965"
+	],
+	hide: true,
+	tasks: [{
+		uid: "243a12f3",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "exnihilocreatio:item_mesh",
+			Damage: 2s
+		}]
+	}],
+	rewards: [{
+		uid: "bfe7fda5",
+		type: "loot",
+		table: 0
+	}]
+}

@@ -1,0 +1,37 @@
+{
+	title: "Drums *Ba Dum Tss*",
+	x: 2.5d,
+	y: 7.5d,
+	description: "Simple container that holds liquid.",
+	dependencies: [
+		"ef38a701"
+	],
+	hide: true,
+	tasks: [{
+		uid: "7795e8a2",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "extrautils2:drum",
+			Damage: 1s
+		}]
+	}],
+	rewards: [{
+		uid: "6f63850f",
+		type: "loot",
+		table: 17
+	},
+	{
+		uid: "f6ab9184",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "extrautils2:passivegenerator",
+			Damage: 3s
+		}
+	}]
+}

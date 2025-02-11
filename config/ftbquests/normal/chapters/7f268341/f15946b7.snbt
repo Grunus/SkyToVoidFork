@@ -1,0 +1,33 @@
+{
+	title: "Used for High End Machines",
+	x: 21.5d,
+	y: 1.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"84026475"
+	],
+	hide: true,
+	tasks: [{
+		uid: "15841009",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "ender_distillation",
+				Amount: 1000
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "606bfae1",
+		type: "loot",
+		table: 36
+	}]
+}

@@ -1,0 +1,33 @@
+{
+	title: "Luggage Pet!",
+	x: -5.5d,
+	y: 6.5d,
+	description: "A walking chest that eats loot on the ground.",
+	dependencies: [
+		"a2d990d3"
+	],
+	hide: true,
+	tasks: [{
+		uid: "be504946",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "openblocks:luggage",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "159d9441",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ironchest:diamond_crystal_chest_upgrade"
+		}
+	}]
+}

@@ -1,0 +1,36 @@
+{
+	title: "Thermal Expansion Tier II Reward",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "thermalfoundation:upgrade",
+		Damage: 34s
+	},
+	x: -7.0d,
+	y: 4.5d,
+	can_repeat: true,
+	dependencies: [
+		"2687d51b",
+		"8729ff54",
+		"acc45a23"
+	],
+	hide: true,
+	optional: true,
+	tasks: [{
+		uid: "49ee2c54",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "camscurrency:denarius"
+		}],
+		count: 20L
+	}],
+	rewards: [{
+		uid: "a4ccfc3d",
+		type: "loot",
+		table: 8
+	}]
+}

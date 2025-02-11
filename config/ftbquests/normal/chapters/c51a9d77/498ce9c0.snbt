@@ -1,0 +1,33 @@
+{
+	x: 8.0d,
+	y: 5.5d,
+	dependencies: [
+		"e97ab604"
+	],
+	hide: true,
+	tasks: [{
+		uid: "52aae4e2",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "cyclicmagic:tool_auto_torch",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "9bb4e847",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "cyclicmagic:ender_torch"
+		},
+		count: 16,
+		random_bonus: 32
+	}]
+}

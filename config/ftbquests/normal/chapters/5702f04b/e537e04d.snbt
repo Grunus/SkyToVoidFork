@@ -1,0 +1,61 @@
+{
+	title: "Fisher Strainer",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "waterstrainer:strainer_fisherman"
+	},
+	x: 4.0d,
+	y: 3.0d,
+	description: "Fisher strainers can collect fish for another souce of food. Craft a trowel to collect worms from grass.",
+	dependencies: [
+		"0fb8bf02"
+	],
+	hide: true,
+	tasks: [{
+		uid: "ee4f3889",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "waterstrainer:strainer_fisherman"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "74566322",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "waterstrainer:garden_trowel"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "df3a363f",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "harvestcraft:fishdinneritem"
+		}
+	},
+	{
+		uid: "7c37c72f",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "waterstrainer:worm"
+		},
+		count: 5
+	}]
+}

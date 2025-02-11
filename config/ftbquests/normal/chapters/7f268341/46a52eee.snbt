@@ -1,0 +1,51 @@
+{
+	title: "Ender IO: Pulverizer",
+	x: 17.0d,
+	y: -2.5d,
+	description: "Using the SAG Mill, Pulverize some coal.",
+	text: [
+		""
+	],
+	dependencies: [
+		"85740ae0"
+	],
+	hide: true,
+	tasks: [{
+		uid: "d6686eff",
+		type: "item",
+		title: "Any dustCoal",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "dustCoal",
+					id: "ore"
+				},
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "itemfilters:filter"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "ec63abf3",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:coal_block"
+		},
+		count: 2
+	},
+	{
+		uid: "1a11775d",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "excompressum:compressed_block",
+			Damage: 5s
+		}
+	}]
+}

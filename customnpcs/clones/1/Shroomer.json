@@ -1,0 +1,690 @@
+{
+    "ReturnToStart": 1b,
+    "NpcInv": [
+        {
+            "Slot": 0b,
+            "ForgeCaps": {
+                "customnpcs:itemscripteddata": {
+                }
+            },
+            "id": "gachashroom:horsemushroom",
+            "Count": 1b,
+            "Damage": 0s
+        },
+        {
+            "Slot": 1b,
+            "ForgeCaps": {
+                "customnpcs:itemscripteddata": {
+                }
+            },
+            "id": "gachashroom:parasolmushroom",
+            "Count": 1b,
+            "Damage": 0s
+        },
+        {
+            "Slot": 2b,
+            "ForgeCaps": {
+                "customnpcs:itemscripteddata": {
+                }
+            },
+            "id": "gachashroom:chestnutmushroom",
+            "Count": 1b,
+            "Damage": 0s
+        },
+        {
+            "Slot": 3b,
+            "ForgeCaps": {
+                "customnpcs:itemscripteddata": {
+                }
+            },
+            "id": "gachashroom:mushroomofthesun",
+            "Count": 1b,
+            "Damage": 0s
+        },
+        {
+            "Slot": 4b,
+            "ForgeCaps": {
+                "customnpcs:itemscripteddata": {
+                }
+            },
+            "id": "gachashroom:lobstermushroom",
+            "Count": 1b,
+            "Damage": 0s
+        },
+        {
+            "Slot": 5b,
+            "ForgeCaps": {
+                "customnpcs:itemscripteddata": {
+                }
+            },
+            "id": "gachashroom:theblusher",
+            "Count": 1b,
+            "Damage": 0s
+        },
+        {
+            "Slot": 6b,
+            "ForgeCaps": {
+                "customnpcs:itemscripteddata": {
+                }
+            },
+            "id": "gachashroom:glowstoolbot",
+            "Count": 1b,
+            "Damage": 0s
+        },
+        {
+            "Slot": 7b,
+            "ForgeCaps": {
+                "customnpcs:itemscripteddata": {
+                }
+            },
+            "id": "gachashroom:beefsteakfungus",
+            "Count": 2b,
+            "tag": {
+                "ench": [
+                    {
+                        "lvl": 10s,
+                        "id": 10s
+                    },
+                    {
+                        "lvl": 1s,
+                        "id": 31s
+                    }
+                ],
+                "display": {
+                    "Lore": [
+                        "A very distinct oder emits off.",
+                        "Also makes you sleepy..."
+                    ],
+                    "Name": "Shroomer Flakes"
+                }
+            },
+            "Damage": 0s
+        },
+        {
+            "Slot": 8b,
+            "ForgeCaps": {
+                "customnpcs:itemscripteddata": {
+                }
+            },
+            "id": "minecraft:chainmail_helmet",
+            "Count": 1b,
+            "tag": {
+                "ench": [
+                    {
+                        "lvl": 1s,
+                        "id": 10s
+                    },
+                    {
+                        "lvl": 3s,
+                        "id": 23s
+                    },
+                    {
+                        "lvl": 4s,
+                        "id": 34s
+                    },
+                    {
+                        "lvl": 10s,
+                        "id": 7s
+                    },
+                    {
+                        "lvl": 1s,
+                        "id": 40s
+                    },
+                    {
+                        "lvl": 2s,
+                        "id": 5s
+                    }
+                ],
+                "display": {
+                    "Lore": [
+                        "You don't wear the helmet...",
+                        "The helmet wears you..."
+                    ],
+                    "Name": "Hallucinator"
+                },
+                "AttributeModifiers": [
+                    {
+                        "UUIDMost": -3143843859835240375L,
+                        "UUIDLeast": -8581386318885806417L,
+                        "Amount": 2.0d,
+                        "Slot": "head",
+                        "AttributeName": "generic.attackSpeed",
+                        "Operation": 0,
+                        "Name": "generic.attackSpeed"
+                    },
+                    {
+                        "UUIDMost": 3086076556416732775L,
+                        "UUIDLeast": -5150312587563650736L,
+                        "Amount": 5.0d,
+                        "Slot": "head",
+                        "AttributeName": "generic.armor",
+                        "Operation": 0,
+                        "Name": "generic.armor"
+                    },
+                    {
+                        "UUIDMost": -4867373462823812472L,
+                        "UUIDLeast": -7257531567059399176L,
+                        "Amount": 2.0d,
+                        "Slot": "head",
+                        "AttributeName": "generic.movementSpeed",
+                        "Operation": 0,
+                        "Name": "generic.movementSpeed"
+                    },
+                    {
+                        "UUIDMost": -3437323806951980170L,
+                        "UUIDLeast": -6695980192946193928L,
+                        "Amount": -2.0d,
+                        "Slot": "head",
+                        "AttributeName": "generic.luck",
+                        "Operation": 0,
+                        "Name": "generic.luck"
+                    },
+                    {
+                        "UUIDMost": -8357245473946910338L,
+                        "UUIDLeast": -6440166193886598803L,
+                        "Amount": 5.0d,
+                        "Slot": "head",
+                        "AttributeName": "zombie.spawnReinforcements",
+                        "Operation": 0,
+                        "Name": "zombie.spawnReinforcements"
+                    }
+                ]
+            },
+            "Damage": 0s
+        }
+    ],
+    "BossColor": 0,
+    "PotionEffect": 0,
+    "Size": 5,
+    "stopAndInteract": 1b,
+    "Resistances": {
+        "Arrow": 1.0f,
+        "Explosion": 2.0f,
+        "Knockback": 1.0f,
+        "Melee": 0.7746479f
+    },
+    "BossBar": 0b,
+    "RespawnTime": 480,
+    "NpcAngrySound": "",
+    "ReactsToFire": 0b,
+    "IgnoreCobweb": 0b,
+    "PositionOffsetZ": 5.0f,
+    "PositionOffsetY": 5.0f,
+    "PositionOffsetX": 5.0f,
+    "LootMode": 0,
+    "TransformHasAI": 0b,
+    "AttackStrenght": 5,
+    "PersistenceRequired": 0b,
+    "id": "customnpcs:customnpc",
+    "IsStatue": 0b,
+    "MovingPatern": 0,
+    "NpcLines": {
+        "Lines": [
+        ]
+    },
+    "DefendFaction": 0b,
+    "FireIndirect": 0,
+    "NpcVisible": 0,
+    "LinkedNpcName": "",
+    "NpcScenes": {
+        "Scenes": [
+        ]
+    },
+    "HitSound": "minecraft:block.glass.break",
+    "FindShelter": 2,
+    "Air": 300s,
+    "TacticalVariant": 2,
+    "Orientation": 0,
+    "ScriptLanguage": "ECMAScript",
+    "HandItems": [
+        {
+        },
+        {
+        }
+    ],
+    "KnockBack": 0,
+    "TransformHasJob": 0b,
+    "ArmorDropChances": [
+        0.085f,
+        0.085f,
+        0.085f,
+        0.085f
+    ],
+    "BurnInSun": 0b,
+    "StandingState": 0,
+    "AttackInvisible": 0b,
+    "NpcInteractNPCLines": {
+        "Lines": [
+        ]
+    },
+    "HurtTime": 0s,
+    "WalkingRange": 5,
+    "ShotCount": 1,
+    "pDur": 10,
+    "AttackRange": 2,
+    "NpcKillLines": {
+        "Lines": [
+        ]
+    },
+    "PotionImmune": 1b,
+    "AvoidsSun": 0b,
+    "Texture": "minecraft:textures/blocks/mushroom_block_skin_red.png",
+    "NpcJob": 0,
+    "BurstCount": 1,
+    "NpcAttackLines": {
+        "Lines": [
+        ]
+    },
+    "pSpeed": 8,
+    "pArea": 1,
+    "DeathTime": 0s,
+    "pImpact": 0,
+    "MoveState": 0,
+    "pRender3D": 1b,
+    "Motion": [
+        0.0d,
+        -0.0784000015258789d,
+        0.0d
+    ],
+    "CombatRegen": 1,
+    "NpcsTimers": [
+        {
+            "Ticks": 137,
+            "TimerTicks": 1,
+            "Repeat": 1b,
+            "ID": 1
+        }
+    ],
+    "MarkovGender": 0,
+    "pEffect": 5,
+    "DistanceToMelee": 0,
+    "NpcStepSound": "",
+    "FireRate": 5,
+    "LeftHanded": 0b,
+    "pEffAmp": 1,
+    "OnGround": 1b,
+    "Dimension": 0,
+    "ImmuneToFire": 0b,
+    "NpcKilledLines": {
+        "Lines": [
+        ]
+    },
+    "Fire": -1s,
+    "ArmorItems": [
+        {
+        },
+        {
+        },
+        {
+        },
+        {
+        }
+    ],
+    "DisablePitch": 0b,
+    "pPhysics": 1b,
+    "TransformHasInv": 0b,
+    "NpcInteractLines": {
+        "Lines": [
+            {
+                "Line": "Hello @p",
+                "Song": "",
+                "Slot": 0
+            }
+        ]
+    },
+    "HurtByTimestamp": 3625,
+    "pSpin": 0b,
+    "NpcHurtSound": "minecraft:entity.player.hurt",
+    "pTrail": 1,
+    "CreatureType": 0,
+    "Attributes": [
+        {
+            "Base": 1.0d,
+            "Name": "potioncore.projectileDamage"
+        },
+        {
+            "Base": 1.0d,
+            "Name": "potioncore.magicDamage"
+        },
+        {
+            "Base": 1.0d,
+            "Name": "potioncore.jumpHeight"
+        },
+        {
+            "Base": 1.0d,
+            "Name": "potioncore.damageResistance"
+        },
+        {
+            "Base": 0.0d,
+            "Name": "potioncore.magicShielding"
+        },
+        {
+            "Base": 1.0d,
+            "Name": "artemislib.entityHeight"
+        },
+        {
+            "Base": 1.0d,
+            "Name": "artemislib.entityWidth"
+        },
+        {
+            "Base": 26.0d,
+            "Name": "generic.maxHealth"
+        },
+        {
+            "Base": 0.0d,
+            "Name": "generic.knockbackResistance"
+        },
+        {
+            "Base": 0.10000000149011612d,
+            "Name": "generic.movementSpeed"
+        },
+        {
+            "Base": 0.0d,
+            "Name": "generic.armor"
+        },
+        {
+            "Base": 0.0d,
+            "Name": "generic.armorToughness"
+        },
+        {
+            "Base": 1.0d,
+            "Name": "forge.swimSpeed"
+        },
+        {
+            "Base": 64.0d,
+            "Name": "generic.followRange"
+        },
+        {
+            "Base": 5.0d,
+            "Name": "generic.attackDamage"
+        },
+        {
+            "Base": 0.20000000298023224d,
+            "Name": "generic.flyingSpeed"
+        }
+    ],
+    "Invulnerable": 0b,
+    "TransformHasDisplay": 0b,
+    "NoFallDamage": 0b,
+    "AbsorptionAmount": 0.0f,
+    "TransformHasRole": 0b,
+    "Name": "Shroomer",
+    "FallDistance": 0.0f,
+    "SkinColor": 16777215,
+    "NpcIdleSound": "",
+    "Weapons": [
+        {
+            "Slot": 1b,
+            "ForgeCaps": {
+                "customnpcs:itemscripteddata": {
+                }
+            },
+            "id": "ebwizardry:firebomb",
+            "Count": 1b,
+            "Damage": 0s
+        }
+    ],
+    "NPCDialogOptions": [
+    ],
+    "AggroRange": 32,
+    "DirectLOS": 0b,
+    "HealthRegen": 1,
+    "ForgeCaps": {
+        "artemislib:capability": {
+            "transformed": 0b
+        },
+        "everlastingabilities:org.cyclops.everlastingabilities.api.capability.imutableabilitystore": [
+        ],
+        "metallurgy:punch_effect": {
+            "hasAiDisabled": 1b,
+            "knockbackTicks": 0,
+            "ticks": 0
+        }
+    },
+    "HandDropChances": [
+        0.085f,
+        0.085f
+    ],
+    "NpcModelData": {
+        "LegsConfig": {
+            "NotShared": 0b,
+            "ScaleZ": 1.0f,
+            "TransZ": 0.0f,
+            "TransY": 0.0f,
+            "TransX": 0.012000002f,
+            "ScaleY": 1.0f,
+            "ScaleX": 1.0f
+        },
+        "BodyConfig": {
+            "NotShared": 0b,
+            "ScaleZ": 1.0f,
+            "TransZ": 0.0f,
+            "TransY": 0.0f,
+            "TransX": 0.0f,
+            "ScaleY": 1.0f,
+            "ScaleX": 1.0f
+        },
+        "Eyes": {
+            "Pattern": 0b,
+            "Glint": 1b,
+            "Type": 0b,
+            "PositionY": 1,
+            "SkinColor": 11830381,
+            "PlayerTexture": 0b,
+            "Color": 6724056,
+            "BrowColor": 5982516,
+            "BrowThickness": 4
+        },
+        "LegParts": {
+            "Pattern": 0b,
+            "Type": 0b,
+            "PlayerTexture": 0b,
+            "Color": 16777215
+        },
+        "Parts": [
+        ],
+        "ArmsConfig": {
+            "NotShared": 0b,
+            "ScaleZ": 1.0f,
+            "TransZ": 0.0f,
+            "TransY": 0.0f,
+            "TransX": -0.0f,
+            "ScaleY": 1.0f,
+            "ScaleX": 1.0f
+        },
+        "ExtraData": {
+        },
+        "HeadConfig": {
+            "NotShared": 0b,
+            "ScaleZ": 1.0f,
+            "TransZ": 0.0f,
+            "TransY": 0.0f,
+            "TransX": 0.0f,
+            "ScaleY": 1.0f,
+            "ScaleX": 1.0f
+        }
+    },
+    "minDelay": 60,
+    "DoorInteract": 2,
+    "MoveSpeed": 2,
+    "TransformEditingModus": 0b,
+    "UsingSkinUrl": 0b,
+    "Leashed": 0b,
+    "SkinUrl": "",
+    "CanSwim": 1b,
+    "GroundSound": "minecraft:block.glass.break",
+    "MaxHealth": 26,
+    "HideBodyWhenKilled": 1b,
+    "AttackSpeed": 20,
+    "PotionDuration": 5,
+    "maxDelay": 70,
+    "ScriptEnabled": 1b,
+    "Role": 0,
+    "DropChance": [
+        {
+            "Integer": 22,
+            "Slot": 0
+        },
+        {
+            "Integer": 22,
+            "Slot": 1
+        },
+        {
+            "Integer": 22,
+            "Slot": 2
+        },
+        {
+            "Integer": 22,
+            "Slot": 3
+        },
+        {
+            "Integer": 22,
+            "Slot": 4
+        },
+        {
+            "Integer": 22,
+            "Slot": 5
+        },
+        {
+            "Integer": 22,
+            "Slot": 6
+        },
+        {
+            "Integer": 30,
+            "Slot": 7
+        },
+        {
+            "Integer": 6,
+            "Slot": 8
+        }
+    ],
+    "FactionPoints": {
+        "DecreaseFaction1Points": 0b,
+        "OptionFaction2Points": 100,
+        "OptionFactions1": -1,
+        "OptionFactions2": -1,
+        "OptionFaction1Points": 100,
+        "DecreaseFaction2Points": 0b
+    },
+    "pDamage": 0,
+    "KilledTime": 0L,
+    "AimWhileShooting": 1b,
+    "CanPickUpLoot": 0b,
+    "AttackOtherFactions": 0b,
+    "CanDrown": 1b,
+    "pSize": 5,
+    "CanSprint": 0b,
+    "CanLeap": 0b,
+    "TransformIsActive": 0b,
+    "ForgeData": {
+        "cnpcmarkdata": {
+            "marks": [
+            ]
+        },
+        "Potion Core - Health Fix": 26.0f,
+        "Potion Core - Jump Boost Updated": 1b
+    },
+    "MovingState": 1,
+    "MovingPos": 0,
+    "PotionAmp": 0,
+    "OnAttack": 0,
+    "TacticalRadius": 10,
+    "FallFlying": 0b,
+    "MaxExp": 12,
+    "OrderedLines": 0b,
+    "PortalCooldown": 0,
+    "pGlows": 0b,
+    "TransformHasAdvanced": 0b,
+    "TransformHasStats": 0b,
+    "MovementType": 0,
+    "FiringSound": "minecraft:block.glass.hit",
+    "ModRev": 18,
+    "Accuracy": 70,
+    "MinExp": 10,
+    "Armor": [
+        {
+            "Slot": 0b,
+            "ForgeCaps": {
+                "customnpcs:itemscripteddata": {
+                }
+            },
+            "id": "minecraft:chainmail_helmet",
+            "Count": 1b,
+            "Damage": 0s
+        }
+    ],
+    "CloakTexture": "",
+    "GlowTexture": "",
+    "MaxFiringRange": 10,
+    "pXlr8": 0b,
+    "MarkovGeneratorId": 0,
+    "Scripts": [
+        {
+            "Script": "function interact(t){
+Heal(t.npc)}
+
+function init(t){
+t.npc.timers.forceStart(1,140,true)
+t.npc.ai.setAnimation(0)}
+
+function timer(t){
+if(t.id==1){
+if(t.npc.isAttacking())Heal(t.npc)}}
+
+function Heal(npc){
+var Thread = Java.type(\"java.lang.Thread\");
+var HankThread = Java.extend(Thread,{
+run: function(){
+//Config - - - - - - - - - - - - - - -
+var HealRadius = 10
+var HealAmount = 8
+var HealPlayers = false
+var Particle1 = \"instantSpell\"
+var Particle2 = \"endRod\"
+var Particle3 = \"heart\"
+//Config - - - - - - - - - - - - - - -
+npc.ai.setAnimation(6)
+npc.world.playSoundAt(npc.getPos(),\"minecraft:entity.illusion_illager.prepare_blindness\",5,1.3)
+npc.world.spawnParticle(Particle1,npc.x,npc.y+1.5,npc.z,0.1,0.1,0.1,0.4,15)
+Thread.sleep(1000)
+npc.ai.setAnimation(0)
+npc.swingMainhand()
+npc.world.spawnParticle(Particle2,npc.x,npc.y+0.3,npc.z,HealRadius/2,0.1,HealRadius/2,0.02,HealRadius*50)
+npc.world.playSoundAt(npc.getPos(),\"minecraft:entity.illusion_illager.cast_spell\",5,1.3)
+var Ents = npc.world.getNearbyEntities(npc.getPos(),HealRadius,5)
+for(var i = 0;i<Ents.length;++i){
+if(Ents[i].getType() == 1 && HealPlayers){
+npc.world.spawnParticle(Particle3,Ents[i].x,Ents[i].y+1,Ents[i].z,0.4,0.4,0.4,0,10)
+Ents[i].setHealth(Ents[i].getHealth()+HealAmount)}
+if(Ents[i].getType() == 2 && Ents[i].getFaction().getId() == npc.getFaction().getId()){
+if(Ents[i]!=npc)npc.world.spawnParticle(Particle3,Ents[i].x,Ents[i].y+1,Ents[i].z,0.4,0.4,0.4,0,10)
+Ents[i].setHealth(Ents[i].getHealth()+HealAmount)}}
+}});
+var H = new HankThread();
+H.start();}
+
+//end",
+            "Console": [
+            ],
+            "ScriptList": [
+            ]
+        }
+    ],
+    "Health": 26.0f,
+    "pStick": 0b,
+    "MovingPause": 1b,
+    "NpcDeathSound": "minecraft:entity.player.hurt",
+    "FactionID": 8,
+    "Title": "",
+    "TotalTicksAlive": 45747L,
+    "Rotation": [
+        145.34961f,
+        0.0f
+    ],
+    "ShowName": 0,
+    "npcInteracting": 0b,
+    "UpdateBlocked": 0b,
+    "AvoidsWater": 0b,
+    "NoLivingAnimation": 0b,
+    "SpawnCycle": 0
+}

@@ -1,0 +1,39 @@
+{
+	title: "Super Crook",
+	x: 6.5d,
+	y: 5.0d,
+	description: "Compressed Crooks have higher durability and breakes leaves instantly.",
+	dependencies: [
+		"be627f93"
+	],
+	hide: true,
+	tasks: [{
+		uid: "31401b82",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "excompressum:compressed_crook"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "1c7fa1d9",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:sapling",
+			Damage: 3s
+		},
+		count: 4
+	},
+	{
+		uid: "9f9b3160",
+		type: "loot",
+		table: 0
+	}]
+}

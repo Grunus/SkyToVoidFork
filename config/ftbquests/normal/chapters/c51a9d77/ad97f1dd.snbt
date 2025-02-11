@@ -1,0 +1,23 @@
+{
+	title: "Reach for the Kingdom",
+	x: 4.0d,
+	y: 4.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"0c372480"
+	],
+	hide: true,
+	tasks: [{
+		uid: "90ed4d2f",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "cyclicmagic:plate_launch_extra"
+		}],
+		count: 4L
+	}]
+}

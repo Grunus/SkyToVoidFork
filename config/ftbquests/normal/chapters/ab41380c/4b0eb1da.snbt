@@ -1,0 +1,49 @@
+{
+	title: "Void Outpost: Northern",
+	x: -17.5d,
+	y: -18.5d,
+	description: "From the top of the world..",
+	text: [
+		""
+	],
+	dependencies: [
+		"996ee067"
+	],
+	hide: true,
+	tasks: [{
+		uid: "c3af9901",
+		type: "location",
+		title: "-1440 98 -1286",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "appliedenergistics2:smooth_sky_stone_block"
+		},
+		location: [I;
+			0,
+			-1441,
+			98,
+			-1287,
+			5,
+			5,
+			5
+		]
+	}],
+	rewards: [{
+		uid: "fdc82302",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "tconstruct:materials",
+			Damage: 12s
+		}
+	},
+	{
+		uid: "67b0ad63",
+		type: "ftbmoney:money",
+		ftb_money: 150L
+	}]
+}

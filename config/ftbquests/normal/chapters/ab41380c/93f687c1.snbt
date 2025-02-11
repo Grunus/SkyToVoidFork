@@ -1,0 +1,68 @@
+{
+	title: "Unholy Cascades",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "openblocks:tank",
+		tag: {
+			tank: {
+				FluidName: "glowstone",
+				Amount: 16000
+			}
+		}
+	},
+	x: -2.5d,
+	y: 14.5d,
+	description: "A beautiful Glowstone rise with a devilish view!",
+	text: [
+		""
+	],
+	dependencies: [
+		"ca4fc106",
+		"05faa4f9"
+	],
+	hide: true,
+	tasks: [{
+		uid: "83373a01",
+		type: "location",
+		title: "-215 134 943",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "openblocks:tank",
+			tag: {
+				tank: {
+					FluidName: "glowstone",
+					Amount: 16000
+				}
+			}
+		},
+		location: [I;
+			0,
+			-218,
+			134,
+			940,
+			5,
+			5,
+			5
+		]
+	}],
+	rewards: [{
+		uid: "b7edfc7a",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "biomesoplenty:plant_0",
+			Damage: 2s
+		}
+	},
+	{
+		uid: "7fab2b50",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	}]
+}

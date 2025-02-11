@@ -1,0 +1,142 @@
+{
+	title: "Nytemart's Tour",
+	x: -3.5d,
+	y: 13.5d,
+	shape: "diamond",
+	description: "''Oh, I remember going to the Nether! I was gonna vlog there but then I got chased by a Ghast :monkaS:. I forgot a few things though if you could get 'em.''",
+	text: [
+		":POGCHAMP: :10HEAD: THANK YOU! I love these things :)"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"ca4fc106",
+		"452714e6"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "e4fa4b48",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:totem_of_undying",
+			tag: {
+				ench: [{
+					lvl: 5s,
+					id: 40s
+				}],
+				display: {
+					Lore: [
+						"You look at the doll...",
+						"it's Nytemart."
+					],
+					Name: "Nytemart's Idol"
+				}
+			}
+		}],
+		consume_items: true,
+		ignore_damage: true,
+		ignore_nbt: 2b
+	},
+	{
+		uid: "c22408cb",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:chorus_fruit",
+			tag: {
+				ench: [{
+					lvl: 4s,
+					id: 40s
+				}],
+				display: {
+					Lore: [
+						"..."
+					],
+					Name: "Nytemart's Rotten Fruit"
+				}
+			}
+		}],
+		consume_items: true,
+		ignore_nbt: 2b
+	},
+	{
+		uid: "c7f66c0e",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ebwizardry:arcane_tome",
+			tag: {
+				ench: [{
+					lvl: 6s,
+					id: 40s
+				}],
+				display: {
+					Lore: [
+						"Nice, some cool ideas for MLG clips for",
+						"Halo: Combat Evolved."
+					],
+					Name: "Nytemart's 2004 Video Ideas"
+				}
+			},
+			Damage: 1s
+		}],
+		consume_items: true,
+		ignore_nbt: 2b
+	}],
+	rewards: [{
+		uid: "fdb17a0d",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "camscurrency:denarius"
+		},
+		count: 128
+	},
+	{
+		uid: "3bda6669",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "harvestcraft:fruitcakeitem"
+		}
+	},
+	{
+		uid: "f6a49111",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ebwizardry:spell_book",
+			Damage: 124s
+		}
+	},
+	{
+		uid: "33a7022d",
+		type: "custom",
+		title: "Nytemart's Quest Trial",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:filled_map",
+			Damage: 2s
+		}
+	},
+	{
+		uid: "8d02195d",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	}]
+}

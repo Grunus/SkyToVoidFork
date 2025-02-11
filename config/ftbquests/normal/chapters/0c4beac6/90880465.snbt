@@ -1,0 +1,39 @@
+{
+	title: "Armory Tier II Reward",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "conarm:polishing_kit",
+		tag: {
+			Material: "iron"
+		}
+	},
+	x: -4.0d,
+	y: 5.5d,
+	can_repeat: true,
+	dependencies: [
+		"c2cd2064",
+		"b95d7004",
+		"34a6b45c",
+		"e39513ee"
+	],
+	hide: true,
+	optional: true,
+	tasks: [{
+		uid: "049db927",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "camscurrency:denarius"
+		}],
+		count: 12L
+	}],
+	rewards: [{
+		uid: "9e1fa854",
+		type: "loot",
+		table: 47
+	}]
+}

@@ -1,0 +1,44 @@
+{
+	title: "A Threat",
+	x: 1.5d,
+	y: -18.0d,
+	text: [
+		"I'm glad I didnt show my face to you... You don't deserve to be faced upon."
+	],
+	dependencies: [
+		"05faa4f9"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "9b658d67",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "netherite:netherite_block"
+		}]
+	}],
+	rewards: [{
+		uid: "f04d4e6c",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "camscurrency:denarius"
+		},
+		count: 6
+	},
+	{
+		uid: "a3948925",
+		type: "loot",
+		table: 3
+	},
+	{
+		uid: "d8ba36a9",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

@@ -1,0 +1,79 @@
+{
+	title: "The Cables",
+	x: 0.5d,
+	y: 7.0d,
+	description: "All are used for Cyclic machinery and transporting.",
+	text: [
+		""
+	],
+	dependencies: [
+		"5944f1d8"
+	],
+	hide: true,
+	tasks: [{
+		uid: "49ac9305",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "cyclicmagic:energy_pipe"
+		}],
+		count: 8L
+	},
+	{
+		uid: "48c23f2b",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "cyclicmagic:energy_pump"
+		}]
+	},
+	{
+		uid: "6ad91bf7",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "cyclicmagic:item_pump"
+		}]
+	},
+	{
+		uid: "9fd926e3",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "cyclicmagic:item_pipe"
+		}],
+		count: 8L
+	}],
+	rewards: [{
+		uid: "946fddd8",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "cyclicmagic:energy_pipe"
+		},
+		count: 8,
+		random_bonus: 8
+	},
+	{
+		uid: "d81447f0",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "cyclicmagic:item_pipe"
+		},
+		count: 8,
+		random_bonus: 8
+	}]
+}

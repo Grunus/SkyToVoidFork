@@ -1,0 +1,26 @@
+{
+	title: "Better Than Enchanting",
+	x: 4.5d,
+	y: 14.0d,
+	description: "Lapis can provide fortune to tools.",
+	dependencies: [
+		"3da1b8d2"
+	],
+	hide: true,
+	tasks: [{
+		uid: "acc43738",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:lapis_block"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "eae64b91",
+		type: "loot",
+		table: 5
+	}]
+}

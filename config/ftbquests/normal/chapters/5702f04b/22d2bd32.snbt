@@ -1,0 +1,31 @@
+{
+	title: "Bitumen",
+	x: 15.5d,
+	y: 16.0d,
+	dependencies: [
+		"81b1cd10"
+	],
+	hide: true,
+	tasks: [{
+		uid: "4cc53e1a",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "metallurgy:bitumen"
+		}],
+		count: 10L
+	}],
+	rewards: [{
+		uid: "31ec129d",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "camscurrency:dupondius"
+		},
+		count: 10
+	}]
+}

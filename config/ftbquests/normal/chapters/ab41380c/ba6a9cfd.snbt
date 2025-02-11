@@ -1,0 +1,30 @@
+{
+	title: "The Hideout",
+	x: -9.0d,
+	y: -7.5d,
+	shape: "diamond",
+	dependencies: [
+		"da9e056d"
+	],
+	hide: true,
+	tasks: [{
+		uid: "890ca2b6",
+		type: "location",
+		title: "Discover the Secret Cave",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:skull"
+		},
+		location: [I;
+			0,
+			-274,
+			182,
+			-320,
+			1,
+			1,
+			1
+		]
+	}]
+}

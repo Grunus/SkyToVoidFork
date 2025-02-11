@@ -1,0 +1,80 @@
+{
+	title: "Shungite from Duster",
+	x: 5.0d,
+	y: 4.0d,
+	shape: "heart",
+	dependencies: [
+		"ef8a25b1",
+		"6b8566de"
+	],
+	hide: true,
+	tasks: [{
+		uid: "15e32b0b",
+		type: "checkmark",
+		title: "Shungite II",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "tconstruct:shard",
+			tag: {
+				ench: [{
+					lvl: 1s,
+					id: 60s
+				}],
+				HideFlags: 35,
+				display: {
+					Lore: [
+						"Used to extract powerful abilities from gems.",
+						"- Or so they say..."
+					],
+					Name: "Shungite"
+				},
+				Material: "rubber",
+				AttributeModifiers: [{
+					UUIDMost: -2821372732138303645L,
+					UUIDLeast: -5949153336411020280L,
+					Amount: 2.0d,
+					Slot: "mainhand",
+					AttributeName: "generic.attackDamage",
+					Operation: 0,
+					Name: "generic.attackDamage"
+				}]
+			}
+		}
+	}],
+	rewards: [{
+		uid: "53f75f92",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "tconstruct:shard",
+			tag: {
+				ench: [{
+					lvl: 1s,
+					id: 60s
+				}],
+				HideFlags: 35,
+				display: {
+					Lore: [
+						"Used to extract powerful abilities from gems.",
+						"- Or so they say..."
+					],
+					Name: "Shungite"
+				},
+				Material: "rubber",
+				AttributeModifiers: [{
+					UUIDMost: -2821372732138303645L,
+					UUIDLeast: -5949153336411020280L,
+					Amount: 2.0d,
+					Slot: "mainhand",
+					AttributeName: "generic.attackDamage",
+					Operation: 0,
+					Name: "generic.attackDamage"
+				}]
+			}
+		}
+	}]
+}

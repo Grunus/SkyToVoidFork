@@ -1,0 +1,71 @@
+{
+	title: "Fallen",
+	x: -10.0d,
+	y: 2.0d,
+	description: "Even Gods die at some point...",
+	text: [
+		""
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"6bae85c1"
+	],
+	hide: true,
+	tasks: [{
+		uid: "0d8b2a6d",
+		type: "location",
+		title: "-382 87 88",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:bone_block"
+		},
+		location: [I;
+			0,
+			-386,
+			87,
+			87,
+			5,
+			5,
+			5
+		]
+	}],
+	rewards: [{
+		uid: "9f0dd6f3",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:spawn_egg",
+			tag: {
+				EntityTag: {
+					id: "minecraft:skeleton"
+				}
+			}
+		},
+		count: 10
+	},
+	{
+		uid: "5283bf0b",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:spawn_egg",
+			tag: {
+				EntityTag: {
+					id: "minecraft:stray"
+				}
+			}
+		},
+		count: 5
+	},
+	{
+		uid: "9a1171cf",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

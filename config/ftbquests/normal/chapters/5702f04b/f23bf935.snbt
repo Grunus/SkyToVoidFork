@@ -1,0 +1,26 @@
+{
+	title: "Growing Supreme Products",
+	x: -10.0d,
+	y: 8.0d,
+	description: "Tier 5 is the best seed for the expensive yet powerful items.",
+	dependencies: [
+		"4d4bbce3"
+	],
+	hide: true,
+	tasks: [{
+		uid: "1e3a3511",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "mysticalagriculture:crafting",
+			Damage: 21s
+		}]
+	}],
+	rewards: [{
+		uid: "e5059814",
+		type: "loot",
+		table: 11
+	}]
+}

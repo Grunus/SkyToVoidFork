@@ -1,0 +1,43 @@
+{
+	title: "Alþrúðr IV",
+	x: 2.0d,
+	y: 12.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"6c54850a"
+	],
+	tasks: [{
+		uid: "428674a5",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "appliedenergistics2:facade",
+			tag: {
+				damage: 0,
+				item: "minecraft:grass"
+			}
+		}],
+		count: 224L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "6197b9bb",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "camscurrency:denarius"
+		},
+		count: 32
+	},
+	{
+		uid: "4656c55f",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

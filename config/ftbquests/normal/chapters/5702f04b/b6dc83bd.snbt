@@ -1,0 +1,25 @@
+{
+	x: -4.5d,
+	y: 17.5d,
+	dependencies: [
+		"b3e4001f"
+	],
+	hide: true,
+	tasks: [{
+		uid: "1449d017",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ebwizardry:master_fire_wand"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "93ffa382",
+		type: "loot",
+		table: 26
+	}]
+}

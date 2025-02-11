@@ -1,0 +1,31 @@
+{
+	title: "Osmium",
+	x: 12.5d,
+	y: 8.0d,
+	dependencies: [
+		"81b1cd10"
+	],
+	hide: true,
+	tasks: [{
+		uid: "ce3338b3",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "metallurgy:osmium_ingot"
+		}],
+		count: 10L
+	}],
+	rewards: [{
+		uid: "d77f3b14",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "camscurrency:dupondius"
+		},
+		count: 10
+	}]
+}

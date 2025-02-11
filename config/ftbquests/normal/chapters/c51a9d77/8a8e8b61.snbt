@@ -1,0 +1,30 @@
+{
+	title: "Easy Recipe for Easy Storage",
+	x: 6.0d,
+	y: 5.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"dd941e95"
+	],
+	hide: true,
+	tasks: [{
+		uid: "79644c3f",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "cyclicmagic:storage_bag",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "9d8fa67c",
+		type: "loot",
+		table: 51
+	}]
+}

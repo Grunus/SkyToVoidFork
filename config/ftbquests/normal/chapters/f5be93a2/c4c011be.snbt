@@ -1,0 +1,40 @@
+{
+	title: "Baubles",
+	x: 1.0d,
+	y: 2.5d,
+	text: [
+		"By completing quests given by NPCs you can unlock their trial path.",
+		"",
+		"Trial paths are a set of very challenging tasks that once completed will reward a special baunle relic! Completing more quests inside their trial may drop more unique baubles."
+	],
+	min_required_dependencies: 3,
+	dependencies: [
+		"da309220",
+		"b14701e3",
+		"01437c64",
+		"c79642c1",
+		"ff181550",
+		"8408ef21",
+		"a8f929b3",
+		"56904fde",
+		"33586e77"
+	],
+	hide: true,
+	tasks: [{
+		uid: "fd856674",
+		type: "checkmark",
+		title: "Baubles"
+	}],
+	rewards: [{
+		uid: "2a5a2c9d",
+		type: "custom",
+		title: "Islands Quest Trial",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:filled_map",
+			Damage: 1s
+		}
+	}]
+}

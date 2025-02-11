@@ -1,0 +1,28 @@
+{
+	title: "Angel Calling",
+	x: -1.5d,
+	y: 5.5d,
+	description: "Can be place in mid air.",
+	text: [
+		""
+	],
+	dependencies: [
+		"5129ac49"
+	],
+	hide: true,
+	tasks: [{
+		uid: "33385175",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "extrautils2:angelblock"
+		}]
+	}],
+	rewards: [{
+		uid: "c2716e2b",
+		type: "loot",
+		table: 17
+	}]
+}

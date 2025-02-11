@@ -1,0 +1,108 @@
+{
+	title: "Basic Patterns",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "tconstruct:pattern"
+	},
+	x: 0.0d,
+	y: 5.0d,
+	shape: "hexagon",
+	description: "create the first basic patterns to create an axe, pickaxe and shovel",
+	text: [
+		"With a tool rod, shovel and axe head, you can create a mattock. Mattocks are well... both a shovel and axe. It can also create farmland."
+	],
+	dependencies: [
+		"fac2a2bd"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "79fc5af0",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "tconstruct:pattern",
+			tag: {
+				PartType: "tconstruct:pick_head"
+			}
+		}]
+	},
+	{
+		uid: "45166c6a",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "tconstruct:pattern",
+			tag: {
+				PartType: "tconstruct:binding"
+			}
+		}]
+	},
+	{
+		uid: "083a2e06",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "tconstruct:pattern",
+			tag: {
+				PartType: "tconstruct:tool_rod"
+			}
+		}]
+	},
+	{
+		uid: "f89b28a6",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "tconstruct:pattern",
+			tag: {
+				PartType: "tconstruct:axe_head"
+			}
+		}]
+	},
+	{
+		uid: "ef19e6d2",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "tconstruct:pattern",
+			tag: {
+				PartType: "tconstruct:shovel_head"
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "9da8fc95",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:bone"
+		},
+		count: 4
+	},
+	{
+		uid: "0251e0d8",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:log"
+		},
+		count: 8
+	}]
+}

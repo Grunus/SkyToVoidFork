@@ -1,0 +1,54 @@
+{
+	title: "The Recipe Must Be Bugged!",
+	x: 18.5d,
+	y: 9.0d,
+	description: "If you need a specific metal from a mod (for example, there is more than one copper ingot item) You can use this to convert similar items into one.",
+	hide_dependency_lines: true,
+	dependencies: [
+		"0d5b0cb0"
+	],
+	hide: true,
+	tasks: [{
+		uid: "6da52bee",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "industrialforegoing:oredictionary_converter"
+		}]
+	}],
+	rewards: [{
+		uid: "f92d2f8b",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thermalfoundation:storage",
+			Damage: 3s
+		}
+	},
+	{
+		uid: "e838a5ec",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "chisel:blocklead",
+			Damage: 4s
+		}
+	},
+	{
+		uid: "206cea17",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "chisel:blocktin",
+			Damage: 5s
+		}
+	}]
+}

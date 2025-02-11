@@ -1,0 +1,28 @@
+{
+	title: "Process it All",
+	x: -10.0d,
+	y: 6.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"173f037d",
+		"f23bf935"
+	],
+	hide: true,
+	tasks: [{
+		uid: "ccebc519",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "mysticalagriculture:ultimate_reprocessor"
+		}]
+	}],
+	rewards: [{
+		uid: "468db792",
+		type: "loot",
+		table: 11
+	}]
+}

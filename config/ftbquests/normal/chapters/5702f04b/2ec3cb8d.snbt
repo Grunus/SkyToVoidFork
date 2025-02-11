@@ -1,0 +1,36 @@
+{
+	title: "Upgrading Your Setup",
+	x: 3.5d,
+	y: 12.0d,
+	description: "A Tool Forge allows for the creation of new tools and weapons.",
+	dependencies: [
+		"f2658a75"
+	],
+	hide: true,
+	tasks: [{
+		uid: "3880dab4",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "tconstruct:toolforge",
+			tag: {
+				textureBlock: {
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": {}
+					},
+					id: "minecraft:iron_block",
+					Count: 1b,
+					Damage: 0s
+				}
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "39675460",
+		type: "loot",
+		table: 5
+	}]
+}

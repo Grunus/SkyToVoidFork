@@ -1,0 +1,31 @@
+{
+	title: "Abondoned House, or is it?",
+	x: 3.5d,
+	y: -9.0d,
+	shape: "diamond",
+	dependencies: [
+		"5ac60acc"
+	],
+	hide: true,
+	tasks: [{
+		uid: "fc236b01",
+		type: "location",
+		title: "Find the secret room.",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "cfm:modern_bed_bottom",
+			Damage: 10s
+		},
+		location: [I;
+			0,
+			301,
+			143,
+			-485,
+			2,
+			2,
+			2
+		]
+	}]
+}

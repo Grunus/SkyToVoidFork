@@ -1,0 +1,41 @@
+{
+	title: "Pulling Molecules Together",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "industrialforegoing:laser_drill"
+	},
+	x: 21.5d,
+	y: 10.0d,
+	description: "Collect resources out of thin air!",
+	dependencies: [
+		"1960ed4b"
+	],
+	hide: true,
+	tasks: [{
+		uid: "2b01b4f7",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "industrialforegoing:laser_drill"
+		}]
+	},
+	{
+		uid: "9dcc50e9",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "industrialforegoing:laser_base"
+		}]
+	}],
+	rewards: [{
+		uid: "f73bacd5",
+		type: "loot",
+		table: 33
+	}]
+}

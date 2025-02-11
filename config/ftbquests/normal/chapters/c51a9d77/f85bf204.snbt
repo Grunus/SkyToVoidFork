@@ -1,0 +1,42 @@
+{
+	title: "The Prospector",
+	x: 7.0d,
+	y: 5.5d,
+	description: "Find Ores and Spawners!",
+	text: [
+		""
+	],
+	dependencies: [
+		"8c5078e2"
+	],
+	hide: true,
+	tasks: [{
+		uid: "80f875d9",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "cyclicmagic:tool_prospector"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "fe7b24e6",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "cyclicmagic:ender_dungeon"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "f929d75b",
+		type: "loot",
+		table: 51
+	}]
+}

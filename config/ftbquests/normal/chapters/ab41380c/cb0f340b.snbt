@@ -1,0 +1,93 @@
+{
+	title: "Slavender's Loss of Materials",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "minecraft:iron_ingot"
+	},
+	x: -5.0d,
+	y: 5.0d,
+	shape: "diamond",
+	description: "''After the earthquake most of my materials were destroyed. Can you please restock me some iron?''",
+	text: [
+		"This will help greatly, but I still need more..."
+	],
+	dependencies: [
+		"5c50dfde"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "bdcd58bc",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "tconstruct:tool_rod",
+			tag: {
+				Material: "iron"
+			}
+		}],
+		consume_items: true
+	},
+	{
+		uid: "0db93b56",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "tconstruct:pick_head",
+			tag: {
+				Material: "iron"
+			}
+		}],
+		consume_items: true
+	},
+	{
+		uid: "8cbabd3b",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "tconstruct:sword_blade",
+			tag: {
+				Material: "iron"
+			}
+		}],
+		consume_items: true
+	},
+	{
+		uid: "f3710797",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "tconstruct:binding",
+			tag: {
+				Material: "iron"
+			}
+		}],
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "7cb0a38e",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "camscurrency:denarius"
+		},
+		count: 8
+	},
+	{
+		uid: "9297b7af",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	}]
+}

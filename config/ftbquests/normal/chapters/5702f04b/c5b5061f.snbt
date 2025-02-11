@@ -1,0 +1,29 @@
+{
+	title: "Upgraded AFK",
+	x: -4.0d,
+	y: 6.0d,
+	text: [
+		"Mechanical Miners come with their own storage. They can also be enchanted.",
+		"",
+		"Does not need a power source."
+	],
+	dependencies: [
+		"f186d066"
+	],
+	hide: true,
+	tasks: [{
+		uid: "f379b34a",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "extrautils2:miner"
+		}]
+	}],
+	rewards: [{
+		uid: "16947d27",
+		type: "loot",
+		table: 1
+	}]
+}

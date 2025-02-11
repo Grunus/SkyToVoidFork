@@ -1,0 +1,56 @@
+{
+	title: "Compressing Time!",
+	x: 6.0d,
+	y: 6.0d,
+	description: "By crafting 9 Hammers together, you can create a Compressed Hammer.",
+	text: [
+		"Compressed Hammers can be used on compressed resources for faster breakage of materials."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"2bd5aaf9",
+		"6d4503d2"
+	],
+	hide: true,
+	tasks: [{
+		uid: "781b97e5",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "excompressum:compressed_hammer_wood"
+		},
+		{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "excompressum:compressed_hammer_stone"
+		},
+		{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "excompressum:compressed_hammer_iron"
+		},
+		{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "excompressum:compressed_hammer_diamond"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "750ea216",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "excompressum:compressed_block"
+		},
+		count: 5
+	}]
+}

@@ -1,0 +1,34 @@
+{
+	title: "Applied Energistics Tier I Reward",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "appliedenergistics2:material"
+	},
+	x: -11.0d,
+	y: 3.5d,
+	can_repeat: true,
+	dependencies: [
+		"36765d12",
+		"b2b3fb3a"
+	],
+	hide: true,
+	optional: true,
+	tasks: [{
+		uid: "3402abfa",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "camscurrency:denarius"
+		}],
+		count: 12L
+	}],
+	rewards: [{
+		uid: "3d8b8dad",
+		type: "loot",
+		table: 14
+	}]
+}

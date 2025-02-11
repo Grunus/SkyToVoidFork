@@ -1,0 +1,39 @@
+{
+	title: "Ice Stone",
+	x: -4.0d,
+	y: -14.5d,
+	shape: "gear",
+	description: "''It's so cold, too cold for a furnace to smelt it, but with my technology I can definitely use some to cool down my PC!''",
+	text: [
+		"Nice, now my computers wont overheat."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"c2176857",
+		"e5190e34"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "32c55345",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "netherendingores:ore_other_1",
+			Damage: 10s
+		}],
+		count: 24L
+	}],
+	rewards: [{
+		uid: "71188983",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "cyclicmagic:heart_food"
+		}
+	}]
+}

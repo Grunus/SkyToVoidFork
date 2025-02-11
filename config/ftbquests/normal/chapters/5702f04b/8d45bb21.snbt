@@ -1,0 +1,26 @@
+{
+	title: "The End's Beast",
+	x: -8.0d,
+	y: 6.5d,
+	dependencies: [
+		"5c6b1c65"
+	],
+	hide: true,
+	tasks: [{
+		uid: "8e040d3f",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "mysticalagradditions:stuff",
+			Damage: 3s
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "3775882b",
+		type: "loot",
+		table: 11
+	}]
+}

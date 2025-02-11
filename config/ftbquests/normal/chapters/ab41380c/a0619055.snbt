@@ -1,0 +1,40 @@
+{
+	title: "Cloud Service: Liam",
+	x: -2.0d,
+	y: 7.5d,
+	shape: "octagon",
+	description: "Unlocks items within the quest book shop.",
+	hide_dependency_lines: true,
+	dependencies: [
+		"52fffa66",
+		"7526b9ff"
+	],
+	hide: true,
+	tasks: [{
+		uid: "f4c59544",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "contenttweaker:pylon",
+			tag: {
+				display: {
+					Lore: [
+						"Unlocks special Cloud Service items inside",
+						"the quest book shop from specific traders.",
+						"Complete quests from NPCs to reveal Cloud",
+						"Service quests."
+					],
+					Name: "Cloud Service Pylon"
+				}
+			}
+		}],
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "eb50b0d8",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

@@ -1,0 +1,58 @@
+{
+	x: 3.0d,
+	y: -8.0d,
+	shape: "pentagon",
+	description: "''You know what you're doing, hero.''",
+	text: [
+		"Complete four observation quests to complete this milestone."
+	],
+	hide_dependency_lines: true,
+	min_required_dependencies: 4,
+	dependencies: [
+		"424e946e",
+		"4a4bca98",
+		"37df8868",
+		"71487d4f",
+		"a0d0b689",
+		"7af35ee8",
+		"93bf1c80"
+	],
+	tasks: [{
+		uid: "555b8247",
+		type: "checkmark",
+		title: "Observations Well Done",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "openblocks:pencil_glasses"
+		}
+	}],
+	rewards: [{
+		uid: "569f5ec0",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "c87a5de4",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "contenttweaker:objectives",
+			tag: {
+				ench: [{
+					lvl: 1s,
+					id: 10s
+				}],
+				display: {
+					Lore: [
+						"Statue of Anger would be pleased."
+					],
+					Name: "Mark of Friendship - Island Layer 2"
+				}
+			}
+		}
+	}]
+}

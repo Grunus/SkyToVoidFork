@@ -1,0 +1,34 @@
+{
+	title: "Imbuement Alter",
+	x: -7.5d,
+	y: 19.0d,
+	shape: "square",
+	description: "Meet Char in the Frost Prism...",
+	text: [
+		""
+	],
+	dependencies: [
+		"7a03ba85"
+	],
+	hide: true,
+	tasks: [{
+		uid: "53bf9506",
+		type: "location",
+		title: "-233 127 -1010",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ebwizardry:imbuement_altar"
+		},
+		location: [I;
+			0,
+			-234,
+			127,
+			-1011,
+			2,
+			2,
+			2
+		]
+	}]
+}

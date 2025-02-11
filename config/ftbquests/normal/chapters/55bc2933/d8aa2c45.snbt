@@ -1,0 +1,327 @@
+{
+	title: "Loot Pool",
+	x: -5.0d,
+	y: -3.5d,
+	shape: "rsquare",
+	description: "Reveals possible loot that can be found or dropped by mobs. Does not reveal loot behind Void Gateways.",
+	text: [
+		"Hell n' Back: Chest",
+		"Mechanical Evolution: Chest",
+		"God Stabber: Crate"
+	],
+	dependencies: [
+		"d8d32443"
+	],
+	hide: true,
+	optional: true,
+	tasks: [{
+		uid: "36c4378b",
+		type: "item",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "contenttweaker:mission_loot",
+			tag: {
+				display: {
+					Name: "Loot Pool"
+				}
+			}
+		},
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:structure_void",
+			tag: {
+				display: {
+					Lore: [
+						"This quest shows all possible loot that can",
+						"be found or dropped by mobs.",
+						"",
+						"Does not include loot behind Void Gateways."
+					],
+					Name: "QUEST CANNOT BE COMPLETED"
+				}
+			}
+		}],
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "e6df9c13",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "conarm:chestplate",
+			tag: {
+				StatsOriginal: {
+					Toughness: 0.0f,
+					FreeModifiers: 3,
+					Durability: 556,
+					Defense: 5.3f
+				},
+				display: {
+					Name: "Hell n' Back"
+				},
+				Stats: {
+					Toughness: 0.0f,
+					FreeModifiers: 2,
+					Durability: 556,
+					Defense: 5.3f
+				},
+				TinkerData: {
+					UsedModifiers: 3,
+					Materials: [
+						"netherrack",
+						"cobalt",
+						"ardite"
+					],
+					Modifiers: [
+						"reinforced_armor",
+						"resistant_armor",
+						"dexterous_armor",
+						"creative"
+					]
+				},
+				Modifiers: [{
+					identifier: "aridiculous_armor",
+					color: -4698289,
+					level: 1
+				},
+				{
+					identifier: "infernal_armor",
+					color: -4698289,
+					level: 1
+				},
+				{
+					identifier: "lightweight_armor",
+					color: -14122284,
+					level: 1
+				},
+				{
+					identifier: "petravidity_armor",
+					color: -3063280,
+					level: 1
+				},
+				{
+					identifier: "reinforced_armor",
+					color: 5254787,
+					level: 1
+				},
+				{
+					identifier: "resistant_armor",
+					color: 16774902,
+					level: 1,
+					modifierUsed: 1b
+				},
+				{
+					identifier: "dexterous_armor",
+					color: 6684672,
+					level: 1
+				},
+				{
+					identifier: "creative",
+					color: 0,
+					level: 2
+				}],
+				Traits: [
+					"aridiculous_armor",
+					"infernal_armor",
+					"lightweight_armor",
+					"petravidity_armor",
+					"reinforced_armor",
+					"resistant_armor",
+					"dexterous_armor"
+				]
+			}
+		}
+	},
+	{
+		uid: "5b812523",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "tconstruct:lumberaxe",
+			tag: {
+				StatsOriginal: {
+					AttackSpeedMultiplier: 1.0f,
+					MiningSpeed: 5.725f,
+					FreeModifiers: 3,
+					Durability: 952,
+					HarvestLevel: 2,
+					Attack: 6.2650003f
+				},
+				display: {
+					Name: "Mechanical Evolution"
+				},
+				Stats: {
+					AttackSpeedMultiplier: 1.0f,
+					MiningSpeed: 12.686808f,
+					FreeModifiers: 0,
+					Durability: 1452,
+					HarvestLevel: 3,
+					Attack: 7.2650003f
+				},
+				Special: {
+					Categories: [
+						"harvest",
+						"tool",
+						"aoe"
+					]
+				},
+				TinkerData: {
+					UsedModifiers: 3,
+					Materials: [
+						"alduorite",
+						"constantan",
+						"xu_enchanted_metal",
+						"end_steel"
+					],
+					Modifiers: [
+						"diamond",
+						"haste",
+						"mending_moss"
+					]
+				},
+				Modifiers: [{
+					identifier: "constant",
+					color: -2510006,
+					level: 1
+				},
+				{
+					identifier: "xu_xp_boost",
+					color: -4197792,
+					level: 1
+				},
+				{
+					identifier: "unnatural",
+					color: -262989,
+					level: 1
+				},
+				{
+					identifier: "diamond",
+					color: 9237730
+				},
+				{
+					identifier: "haste",
+					current: 50,
+					color: 9502720,
+					level: 1,
+					max: 50,
+					extraInfo: "49 / 50"
+				},
+				{
+					identifier: "mending_moss",
+					color: 4434738,
+					level: 1
+				}],
+				Traits: [
+					"constant",
+					"xu_xp_boost",
+					"unnatural",
+					"mending_moss"
+				]
+			}
+		}
+	},
+	{
+		uid: "893d9ffd",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "totaltinkers:javelin",
+			tag: {
+				StatsOriginal: {
+					AttackSpeedMultiplier: 1.0f,
+					Accuracy: 1.0f,
+					MiningSpeed: 7.02f,
+					FreeModifiers: 3,
+					Durability: 765,
+					HarvestLevel: 4,
+					Attack: 8.72f
+				},
+				display: {
+					Name: "God Stabber"
+				},
+				Stats: {
+					AttackSpeedMultiplier: 1.0f,
+					Accuracy: 1.0f,
+					MiningSpeed: 7.02f,
+					FreeModifiers: 1,
+					Durability: 1147,
+					HarvestLevel: 4,
+					Attack: 12.377062f
+				},
+				Special: {
+					Categories: [
+						"tool",
+						"projectile",
+						"weapon"
+					]
+				},
+				TinkerData: {
+					UsedModifiers: 3,
+					Materials: [
+						"vyroxeres",
+						"manyullyn",
+						"lumium"
+					],
+					Modifiers: [
+						"sharpness",
+						"emerald",
+						"creative"
+					]
+				},
+				Modifiers: [{
+					identifier: "poisonous",
+					color: -13893888,
+					level: 1
+				},
+				{
+					identifier: "insatiable",
+					color: -6202120,
+					level: 1
+				},
+				{
+					identifier: "coldblooded",
+					color: -6202120,
+					level: 1
+				},
+				{
+					identifier: "lightboost",
+					color: -848,
+					level: 1
+				},
+				{
+					identifier: "sharpness",
+					current: 144,
+					color: 16774902,
+					level: 2,
+					max: 144,
+					extraInfo: "143 / 144"
+				},
+				{
+					identifier: "emerald",
+					color: 4322180
+				},
+				{
+					identifier: "creative",
+					color: 0,
+					level: 1
+				}],
+				Traits: [
+					"poisonous",
+					"insatiable",
+					"coldblooded",
+					"lightboost"
+				]
+			}
+		}
+	}]
+}

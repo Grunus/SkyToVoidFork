@@ -1,0 +1,45 @@
+{
+	title: "Void Watchers Faction",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "cyclicmagic:charm_void",
+		tag: {}
+	},
+	x: 9.0d,
+	y: 2.5d,
+	description: "''The Void, a terrible place to be when you die. Not to scare you but, the gods are definitely not allowing you pass the gates.''",
+	text: [
+		"Every purchase you will receive one random reward from the following entities.",
+		"",
+		"- ''Void Watchers''",
+		"- ''Shadow Strider''",
+		"- ''Monlithic''",
+		"- ''The Consequence''",
+		"- ''Desolate Hound''",
+		"- ''The Surreptitious''"
+	],
+	dependencies: [
+		"382b2692",
+		"0e6623d4",
+		"f6f9b103"
+	],
+	hide: true,
+	tasks: [{
+		uid: "bae850bb",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "camscurrency:aureus"
+		}],
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "4c8a82a4",
+		type: "loot",
+		table: 54
+	}]
+}

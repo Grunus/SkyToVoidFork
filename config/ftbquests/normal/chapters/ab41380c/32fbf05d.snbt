@@ -1,0 +1,35 @@
+{
+	x: -1.0023809523809533d,
+	y: 2.990476190476187d,
+	shape: "diamond",
+	description: "You can turn on KeepInventory at any time.",
+	text: [
+		"Once you click this checkmark, KeepInventory will be set to true.",
+		"",
+		"Remember that when you die, by default a grave will appear with your items. With KeepInventory your items will stay with you on death. You can always turn off KeepInventory by turning on cheats."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"01437c64"
+	],
+	hide: true,
+	optional: true,
+	tasks: [{
+		uid: "20587a80",
+		type: "checkmark",
+		title: "Keep Inventory",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "conarm:travel_sack"
+		}
+	}],
+	rewards: [{
+		uid: "baaf5b13",
+		type: "command",
+		team_reward: true,
+		auto: "enabled",
+		command: "/gamerule keepInventory true"
+	}]
+}

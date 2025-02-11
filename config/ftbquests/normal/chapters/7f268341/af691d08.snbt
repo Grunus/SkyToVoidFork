@@ -1,0 +1,48 @@
+{
+	title: "Magical Generators",
+	x: 6.5d,
+	y: 12.0d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"ae08ee94",
+		"64621c3b"
+	],
+	hide: true,
+	tasks: [{
+		uid: "7643047f",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "extrautils2:machine",
+			tag: {
+				Type: "extrautils2:generator_potion"
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "6cc856a9",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:potion",
+			tag: {
+				Potion: "potioncore:long_flight"
+			}
+		}
+	},
+	{
+		uid: "f222e57b",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "camscurrency:denarius"
+		},
+		count: 16
+	}]
+}

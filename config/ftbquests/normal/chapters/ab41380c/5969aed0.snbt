@@ -1,0 +1,50 @@
+{
+	title: "Sky to Void",
+	x: -19.5d,
+	y: -1.5d,
+	description: "HE SAID IT! HE SAID THE TITLE!",
+	text: [
+		""
+	],
+	dependencies: [
+		"996ee067"
+	],
+	hide: true,
+	tasks: [{
+		uid: "a4cab2cd",
+		type: "location",
+		title: "-1259 128 -78",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "xtones:korp",
+			Damage: 11s
+		},
+		location: [I;
+			0,
+			-1263,
+			128,
+			-78,
+			5,
+			5,
+			5
+		]
+	}],
+	rewards: [{
+		uid: "0dfb837e",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "openblocks:sky"
+		},
+		count: 64
+	},
+	{
+		uid: "94a1f829",
+		type: "ftbmoney:money",
+		ftb_money: 150L
+	}]
+}

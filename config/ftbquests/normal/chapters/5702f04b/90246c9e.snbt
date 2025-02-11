@@ -1,0 +1,50 @@
+{
+	title: "Grouting",
+	x: -1.0d,
+	y: 5.0d,
+	text: [
+		"With grout you can start creating seared bricks for a smeltery"
+	],
+	dependencies: [
+		"97756ab0"
+	],
+	hide: true,
+	tasks: [{
+		uid: "8487e1f0",
+		type: "item",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "tconstruct:soil"
+		},
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "tconstruct:soil"
+		}],
+		count: 32L
+	}],
+	rewards: [{
+		uid: "22335881",
+		type: "loot",
+		table: 1
+	},
+	{
+		uid: "375bc1d6",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "exnihilocreatio:block_dust"
+		},
+		count: 32
+	},
+	{
+		uid: "609e12d7",
+		type: "loot",
+		table: 4
+	}]
+}

@@ -1,0 +1,36 @@
+{
+	title: "Extra Utilities Row",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "extrautils2:ingredients",
+		Damage: 9s
+	},
+	x: -8.0d,
+	y: 2.5d,
+	description: "''Extra Utilities has some great items in it. If you're trying to get the big stuff, better go for this row.''",
+	text: [
+		"Complete these 4 quests in Extra Utilities section to unlock all Extra Utilities Tier Rewards.",
+		"",
+		"- ''Demonically Gargantuan Drum''",
+		"- ''Project LUX''",
+		"- ''Easy Mode''",
+		"- ''MAXIMUM OVERDRIVE''"
+	],
+	dependencies: [
+		"a72d59e9",
+		"c3516741"
+	],
+	hide: true,
+	tasks: [{
+		uid: "cfcb7c15",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "camscurrency:aureus"
+		}]
+	}]
+}

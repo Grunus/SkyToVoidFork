@@ -1,0 +1,49 @@
+{
+	title: "Good Luck",
+	x: 4.0d,
+	y: 3.5d,
+	shape: "square",
+	dependencies: [
+		"8315b5a5"
+	],
+	hide: true,
+	tasks: [{
+		uid: "097fad6b",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "extrautils2:compoundbow"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "bec03058",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "extrautils2:fireaxe"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "14bf6658",
+		type: "loot",
+		table: 19
+	},
+	{
+		uid: "f1fcd292",
+		type: "loot",
+		table: 19
+	},
+	{
+		uid: "b287bdea",
+		type: "loot",
+		table: 19
+	}]
+}

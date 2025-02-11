@@ -1,0 +1,637 @@
+{
+	title: "Fetid Creeps",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "tconstruct:edible",
+		Damage: 5s
+	},
+	loot_size: 1,
+	hide_tooltip: true,
+	use_title: true,
+	rewards: [{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "tconstruct:hammer",
+			tag: {
+				StatsOriginal: {
+					AttackSpeedMultiplier: 1.0f,
+					MiningSpeed: 6.535f,
+					FreeModifiers: 3,
+					Durability: 975,
+					HarvestLevel: 4,
+					Attack: 4.85f
+				},
+				display: {
+					Name: "Bomb Lance"
+				},
+				Stats: {
+					AttackSpeedMultiplier: 1.0f,
+					MiningSpeed: 6.535f,
+					FreeModifiers: 0,
+					Durability: 975,
+					HarvestLevel: 4,
+					Attack: 11.738858f
+				},
+				Special: {
+					Categories: [
+						"weapon",
+						"harvest",
+						"tool",
+						"aoe"
+					]
+				},
+				TinkerData: {
+					UsedModifiers: 5,
+					Materials: [
+						"dark_steel",
+						"obsidian",
+						"steel",
+						"silver"
+					],
+					Modifiers: [
+						"blasting",
+						"sharpness",
+						"creative",
+						"smite"
+					]
+				},
+				Modifiers: [{
+					identifier: "unnatural",
+					color: -9671572,
+					level: 1
+				},
+				{
+					identifier: "duritos",
+					color: -10478396,
+					level: 1
+				},
+				{
+					identifier: "sharp",
+					color: -5789785,
+					level: 1
+				},
+				{
+					identifier: "holy",
+					color: -3019530,
+					level: 1
+				},
+				{
+					identifier: "blasting",
+					color: 16755235,
+					level: 3,
+					modifierUsed: 1b
+				},
+				{
+					identifier: "sharpness",
+					current: 216,
+					color: 16774902,
+					level: 3,
+					max: 216,
+					extraInfo: "215 / 216"
+				},
+				{
+					identifier: "creative",
+					color: 0,
+					level: 2
+				},
+				{
+					identifier: "smite",
+					current: 24,
+					color: 15258880,
+					level: 1,
+					max: 24,
+					extraInfo: "23 / 24"
+				}],
+				Traits: [
+					"unnatural",
+					"duritos",
+					"sharp",
+					"holy",
+					"blasting",
+					"smite"
+				]
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:lingering_potion",
+			tag: {
+				Potion: "potioncore:antidote"
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "harvestcraft:whitemushroomseeditem"
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "conarm:helmet",
+			tag: {
+				StatsOriginal: {
+					Toughness: 0.1f,
+					FreeModifiers: 3,
+					Durability: 198,
+					Defense: 22.0f
+				},
+				display: {
+					Name: "Mithridatist"
+				},
+				Stats: {
+					Toughness: 0.120000005f,
+					FreeModifiers: 1,
+					Durability: 198,
+					Defense: 26.4f
+				},
+				TinkerData: {
+					UsedModifiers: 2,
+					Materials: [
+						"celenegil",
+						"prometheum",
+						"steel"
+					],
+					Modifiers: [
+						"projectile_resistant_armor",
+						"speedy_armor"
+					]
+				},
+				Modifiers: [{
+					identifier: "resistance_armor",
+					color: -11544973,
+					level: 1
+				},
+				{
+					identifier: "prometheum_armor",
+					color: -13142222,
+					level: 1
+				},
+				{
+					identifier: "indomitable_armor",
+					color: -5789785,
+					level: 1
+				},
+				{
+					identifier: "projectile_resistant_armor",
+					color: 1070923,
+					level: 1,
+					modifierUsed: 1b
+				},
+				{
+					identifier: "speedy_armor",
+					current: 50,
+					color: 9502720,
+					level: 1,
+					max: 50,
+					extraInfo: "49 / 50"
+				}],
+				Traits: [
+					"resistance_armor",
+					"prometheum_armor",
+					"indomitable_armor",
+					"projectile_resistant_armor",
+					"speedy_armor"
+				]
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "mysticalagriculture:tier5_inferium_seeds"
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:slime_ball"
+		},
+		count: 2
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "mysticalagradditions:tier6_inferium_seeds"
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:poisonous_potato"
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "tconstruct:bolt",
+			tag: {
+				StatsOriginal: {
+					AttackSpeedMultiplier: 1.0f,
+					Accuracy: 1.0f,
+					MiningSpeed: 7.0f,
+					FreeModifiers: 3,
+					Durability: 60,
+					HarvestLevel: 4,
+					Attack: 7.0f
+				},
+				display: {
+					Name: "Poison Bolts"
+				},
+				Stats: {
+					AttackSpeedMultiplier: 1.0f,
+					Accuracy: 1.0f,
+					MiningSpeed: 7.0f,
+					FreeModifiers: 1,
+					Durability: 60,
+					HarvestLevel: 4,
+					Attack: 13.663814f
+				},
+				Special: {
+					Categories: [
+						"tool",
+						"projectile",
+						"no_melee"
+					]
+				},
+				TinkerData: {
+					UsedModifiers: 5,
+					Materials: [
+						"wood",
+						"vyroxeres",
+						"feather"
+					],
+					Modifiers: [
+						"sharpness",
+						"creative",
+						"fins"
+					]
+				},
+				Modifiers: [{
+					identifier: "ecological",
+					color: -7444965,
+					level: 1
+				},
+				{
+					identifier: "poisonous",
+					color: -13893888,
+					level: 1
+				},
+				{
+					identifier: "sharpness",
+					current: 256,
+					color: 16774902,
+					level: 4,
+					max: 288,
+					extraInfo: "255 / 288"
+				},
+				{
+					identifier: "creative",
+					color: 0,
+					level: 3
+				},
+				{
+					identifier: "fins",
+					color: 11259375,
+					level: 1
+				}],
+				Traits: [
+					"ecological",
+					"poisonous",
+					"fins"
+				]
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "gachashroom:lingzhimushroom"
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "gachashroom:horsemushroom"
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "harvestcraft:slimepieitem"
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "tconstruct:edible",
+			Damage: 3s
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:slime_ball"
+		},
+		count: 6
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "mysticalagriculture:slime_seeds"
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "tconstruct:crossbow",
+			tag: {
+				StatsOriginal: {
+					AttackSpeedMultiplier: 1.0f,
+					MiningSpeed: 2.0f,
+					DrawSpeed: 1.0f,
+					FreeModifiers: 3,
+					ProjectileBonusDamage: 0.0f,
+					Durability: 344,
+					HarvestLevel: 0,
+					Attack: 2.0f,
+					Range: 1.0f
+				},
+				display: {
+					Name: "Heavy Crossbow"
+				},
+				Stats: {
+					AttackSpeedMultiplier: 1.0f,
+					MiningSpeed: 2.5f,
+					DrawSpeed: 1.0f,
+					FreeModifiers: 1,
+					ProjectileBonusDamage: 0.0f,
+					Durability: 844,
+					HarvestLevel: 1,
+					Attack: 14.678277f,
+					Range: 1.0f
+				},
+				Special: {
+					Categories: [
+						"tool",
+						"launcher"
+					]
+				},
+				TinkerData: {
+					UsedModifiers: 12,
+					Materials: [
+						"black_steel",
+						"wood",
+						"refinediron",
+						"vine"
+					],
+					Modifiers: [
+						"sharpness",
+						"creative",
+						"diamond",
+						"bane_of_arthopods",
+						"smite"
+					]
+				},
+				Modifiers: [{
+					identifier: "ecological",
+					color: -7444965,
+					level: 1
+				},
+				{
+					identifier: "sharpness",
+					current: 360,
+					color: 16774902,
+					level: 5,
+					max: 360,
+					extraInfo: "359 / 360"
+				},
+				{
+					identifier: "creative",
+					color: 0,
+					level: 10
+				},
+				{
+					identifier: "diamond",
+					color: 9237730
+				},
+				{
+					identifier: "bane_of_arthopods",
+					current: 48,
+					color: 6404681,
+					level: 2,
+					max: 48,
+					extraInfo: "47 / 48"
+				},
+				{
+					identifier: "smite",
+					current: 88,
+					color: 15258880,
+					level: 4,
+					max: 96,
+					extraInfo: "87 / 96"
+				}],
+				Traits: [
+					"ecological",
+					"bane_of_arthopods",
+					"smite"
+				]
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:leather_boots"
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:leather_chestplate"
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:leather_leggings"
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "tconstruct:materials",
+			Damage: 11s
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "tconstruct:materials",
+			Damage: 9s
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "tconstruct:materials",
+			Damage: 10s
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "totaltinkers:dagger",
+			tag: {
+				ench: [{
+					lvl: 3s,
+					id: 21s
+				}],
+				StatsOriginal: {
+					AttackSpeedMultiplier: 1.0f,
+					Accuracy: 1.0f,
+					MiningSpeed: 7.0f,
+					FreeModifiers: 3,
+					Durability: 122,
+					HarvestLevel: 4,
+					Attack: 7.0f
+				},
+				display: {
+					Name: "Discourse is Dead"
+				},
+				Stats: {
+					AttackSpeedMultiplier: 1.6f,
+					Accuracy: 1.0f,
+					MiningSpeed: 7.5f,
+					FreeModifiers: 0,
+					Durability: 683,
+					HarvestLevel: 4,
+					Attack: 8.0f
+				},
+				Special: {
+					Categories: [
+						"weapon",
+						"tool"
+					]
+				},
+				TinkerData: {
+					UsedModifiers: 6,
+					Materials: [
+						"lumium",
+						"vyroxeres",
+						"tin"
+					],
+					Modifiers: [
+						"diamond",
+						"emerald",
+						"creative",
+						"luck",
+						"haste"
+					]
+				},
+				Modifiers: [{
+					identifier: "lightboost",
+					color: -848,
+					level: 1
+				},
+				{
+					identifier: "poisonous",
+					color: -13893888,
+					level: 1
+				},
+				{
+					identifier: "sos",
+					color: -4076068,
+					level: 1
+				},
+				{
+					identifier: "diamond",
+					color: 9237730
+				},
+				{
+					identifier: "emerald",
+					color: 4322180
+				},
+				{
+					identifier: "creative",
+					color: 0,
+					level: 3
+				},
+				{
+					identifier: "luck",
+					current: 360,
+					color: 2970082,
+					level: 3,
+					max: 360,
+					modifierUsed: 1b,
+					extraInfo: "359 / 360"
+				},
+				{
+					identifier: "haste",
+					current: 150,
+					color: 9502720,
+					level: 3,
+					max: 150,
+					extraInfo: "149 / 150"
+				}],
+				Traits: [
+					"lightboost",
+					"poisonous",
+					"sos",
+					"luck"
+				]
+			}
+		}
+	}]
+}

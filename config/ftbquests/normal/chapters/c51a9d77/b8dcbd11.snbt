@@ -1,0 +1,77 @@
+{
+	title: "Increasing Capacity",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "ironchest:wood_iron_chest_upgrade"
+	},
+	x: 0.0d,
+	y: 1.0d,
+	description: "You can upgrade chests too.",
+	text: [
+		""
+	],
+	dependencies: [
+		"8c02b5cb"
+	],
+	hide: true,
+	tasks: [{
+		uid: "fbf60d12",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ironchest:wood_copper_chest_upgrade"
+		},
+		{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ironchest:wood_iron_chest_upgrade"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "017e495f",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:iron_helmet"
+		}
+	},
+	{
+		uid: "7b65eb76",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:iron_chestplate"
+		}
+	},
+	{
+		uid: "5157b9aa",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:iron_leggings"
+		}
+	},
+	{
+		uid: "44c3c44b",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:iron_boots"
+		}
+	}]
+}

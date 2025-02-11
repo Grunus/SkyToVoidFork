@@ -1,0 +1,40 @@
+{
+	title: "Sky Watchers Faction",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "ebwizardry:charm_storm"
+	},
+	x: 4.0d,
+	y: 2.5d,
+	description: "''Truly something in their leadership has crumbled, as now they roam the desolate void to kill everything- or there's nothing else worth protecting anymore...''",
+	text: [
+		"Every purchase you will receive one random reward from the following entities.",
+		"",
+		"- ''Sky Protector''",
+		"- ''Bellum the Sky Watcher''"
+	],
+	dependencies: [
+		"dc3b0217",
+		"f6f9b103",
+		"33586e77"
+	],
+	hide: true,
+	tasks: [{
+		uid: "16eb353a",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "camscurrency:aureus"
+		}],
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "6844720b",
+		type: "loot",
+		table: 64
+	}]
+}

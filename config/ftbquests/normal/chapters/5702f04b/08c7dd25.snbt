@@ -1,0 +1,35 @@
+{
+	title: "Meutoite",
+	x: 12.5d,
+	y: 11.0d,
+	text: [
+		""
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"81b1cd10"
+	],
+	hide: true,
+	tasks: [{
+		uid: "1b0a8f8f",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "metallurgy:meutoite_ingot"
+		}],
+		count: 10L
+	}],
+	rewards: [{
+		uid: "d51c381d",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "camscurrency:denarius"
+		},
+		count: 10
+	}]
+}

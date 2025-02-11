@@ -1,0 +1,67 @@
+{
+	title: "Now That's a Big Smeltery",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "tconstruct:seared",
+		Damage: 3s
+	},
+	x: 3.5d,
+	y: 13.0d,
+	shape: "square",
+	dependencies: [
+		"f2658a75"
+	],
+	hide: true,
+	tasks: [{
+		uid: "0aa92f45",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "tconstruct:seared",
+			Damage: 3s
+		}],
+		count: 48L
+	}],
+	rewards: [{
+		uid: "4cbf116f",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:gold_block"
+		},
+		count: 3
+	},
+	{
+		uid: "cb6cef29",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:iron_block"
+		},
+		count: 3
+	},
+	{
+		uid: "c7ed3c61",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "tconstruct:seared_glass"
+		},
+		count: 9
+	},
+	{
+		uid: "9ec6a0c8",
+		type: "loot",
+		table: 6
+	}]
+}

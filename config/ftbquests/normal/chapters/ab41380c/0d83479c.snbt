@@ -1,0 +1,51 @@
+{
+	title: "Verdant Temple",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "ebwizardry:crystal_block",
+		Damage: 5s
+	},
+	x: -17.5d,
+	y: 4.5d,
+	description: "A wizard would be impressed if you came here...",
+	text: [
+		""
+	],
+	dependencies: [
+		"05faa4f9"
+	],
+	hide: true,
+	tasks: [{
+		uid: "201ce01d",
+		type: "location",
+		title: "-977 106 304",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ebwizardry:crystal_block",
+			Damage: 5s
+		},
+		location: [I;
+			0,
+			-981,
+			106,
+			302,
+			5,
+			5,
+			5
+		]
+	}],
+	rewards: [{
+		uid: "ad54b515",
+		type: "loot",
+		table: 43
+	},
+	{
+		uid: "73ae2df3",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

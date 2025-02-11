@@ -1,0 +1,28 @@
+{
+	title: "Dark Influences",
+	x: 13.5d,
+	y: -0.5d,
+	description: "Dark Anvils used for upgrading Dark Steel armor and tools.",
+	text: [
+		""
+	],
+	dependencies: [
+		"49e3543d"
+	],
+	hide: true,
+	tasks: [{
+		uid: "a1327f91",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "enderio:block_dark_steel_anvil"
+		}]
+	}],
+	rewards: [{
+		uid: "59da67cf",
+		type: "loot",
+		table: 35
+	}]
+}

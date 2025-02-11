@@ -1,0 +1,48 @@
+{
+	title: "Power Box",
+	x: -14.5d,
+	y: 8.5d,
+	description: "Think of it as a laptop except the labtop is bigger than a Computer Tower.",
+	text: [
+		""
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"7ca24d77",
+		"5c79f4a8",
+		"5bd6697d"
+	],
+	hide: true,
+	tasks: [{
+		uid: "b965a0f8",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "appliedenergistics2:energy_cell",
+			tag: {}
+		}],
+		count: 9L,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "c95800a4",
+		type: "loot",
+		table: 14
+	},
+	{
+		uid: "fa57ae6b",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "appliedenergistics2:entropy_manipulator",
+			tag: {
+				internalMaxPower: 200000.0d,
+				internalCurrentPower: 200000.0d
+			}
+		}
+	}]
+}

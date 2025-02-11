@@ -1,0 +1,30 @@
+{
+	title: "2023",
+	x: 22.5d,
+	y: -1.5d,
+	shape: "square",
+	description: "Consumes Dew of the Void to generate power.",
+	text: [
+		""
+	],
+	dependencies: [
+		"8ab24947"
+	],
+	hide: true,
+	tasks: [{
+		uid: "00485439",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "enderio:block_ender_generator"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "2344a6d1",
+		type: "loot",
+		table: 37
+	}]
+}

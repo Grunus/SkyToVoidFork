@@ -1,0 +1,137 @@
+{
+	title: "Tinkers' Tier II Reward",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "tconstruct:shuriken",
+		tag: {
+			StatsOriginal: {
+				AttackSpeedMultiplier: 1.0f,
+				Accuracy: 1.0f,
+				MiningSpeed: 12.0f,
+				FreeModifiers: 3,
+				Durability: 1080,
+				HarvestLevel: 4,
+				Attack: 5.1f
+			},
+			Stats: {
+				AttackSpeedMultiplier: 1.1f,
+				Accuracy: 1.0f,
+				MiningSpeed: 12.0f,
+				FreeModifiers: 3,
+				Durability: 1080,
+				HarvestLevel: 4,
+				Attack: 5.1f
+			},
+			Special: {
+				Categories: [
+					"no_melee",
+					"projectile",
+					"tool"
+				]
+			},
+			TinkerData: {
+				Materials: [
+					"cobalt",
+					"cobalt",
+					"cobalt",
+					"cobalt"
+				],
+				Modifiers: []
+			},
+			Modifiers: [{
+				identifier: "momentum",
+				color: -14122284,
+				level: 1
+			},
+			{
+				identifier: "lightweight",
+				color: -14122284,
+				level: 1
+			}],
+			Traits: [
+				"momentum",
+				"lightweight"
+			]
+		}
+	},
+	loot_size: 1,
+	hide_tooltip: true,
+	use_title: true,
+	rewards: [{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "tconstruct:ingots"
+		},
+		count: 4,
+		random_bonus: 4
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "tconstruct:ingots",
+			Damage: 1s
+		},
+		count: 4,
+		random_bonus: 4
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "tconstruct:ingots",
+			Damage: 2s
+		},
+		count: 2,
+		random_bonus: 4
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "tconstruct:ingots",
+			Damage: 3s
+		},
+		count: 3,
+		random_bonus: 4
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "tconstruct:materials",
+			Damage: 19s
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "tconstruct:ingots",
+			Damage: 4s
+		},
+		count: 5,
+		random_bonus: 4
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "tconstruct:ingots",
+			Damage: 5s
+		},
+		count: 32,
+		random_bonus: 4,
+		only_one: true
+	}]
+}

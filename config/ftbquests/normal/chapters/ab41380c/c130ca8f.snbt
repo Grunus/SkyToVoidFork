@@ -1,0 +1,33 @@
+{
+	title: "Depot Charlie II",
+	x: -11.5d,
+	y: -14.0d,
+	shape: "hexagon",
+	text: [
+		""
+	],
+	dependencies: [
+		"05faa4f9"
+	],
+	hide: true,
+	tasks: [{
+		uid: "6db99fee",
+		type: "location",
+		title: "-580 115 -842",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:brick_block"
+		},
+		location: [I;
+			0,
+			-583,
+			115,
+			-844,
+			5,
+			5,
+			5
+		]
+	}]
+}

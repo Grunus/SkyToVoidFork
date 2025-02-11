@@ -1,0 +1,27 @@
+{
+	title: "Trade Currency",
+	x: -0.5d,
+	y: -9.0d,
+	dependencies: [
+		"f7c4d5ec"
+	],
+	hide: true,
+	optional: true,
+	tasks: [{
+		uid: "a45c89e3",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "camscurrency:dupondius"
+		}],
+		count: 15L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "19d42dfb",
+		type: "ftbmoney:money",
+		ftb_money: 30L
+	}]
+}

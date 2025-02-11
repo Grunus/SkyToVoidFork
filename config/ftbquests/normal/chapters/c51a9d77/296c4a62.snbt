@@ -1,0 +1,29 @@
+{
+	title: "We Do a Little Trolling",
+	x: 6.5d,
+	y: 9.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"a6b46b82"
+	],
+	hide: true,
+	tasks: [{
+		uid: "1a5a74dd",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "cyclicmagic:ender_snow"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "0260142f",
+		type: "loot",
+		table: 52
+	}]
+}

@@ -1,0 +1,51 @@
+{
+	title: "Slayer",
+	x: 2.0d,
+	y: -10.0d,
+	text: [
+		"Killing the entity that you will become."
+	],
+	dependencies: [
+		"02b464cc"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "77c7f74f",
+		type: "kill",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:spawn_egg",
+			tag: {
+				EntityTag: {
+					id: "minecraft:zombie"
+				}
+			}
+		},
+		entity: "minecraft:zombie",
+		value: 100L
+	}],
+	rewards: [{
+		uid: "8697c339",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "camscurrency:denarius"
+		},
+		count: 6
+	},
+	{
+		uid: "9e3b711f",
+		type: "loot",
+		table: 5
+	},
+	{
+		uid: "ac7f9162",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	}]
+}

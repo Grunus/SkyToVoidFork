@@ -1,0 +1,38 @@
+{
+	title: "I Make my Own Fast Travel.",
+	x: 16.0d,
+	y: 0.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"26a10654"
+	],
+	hide: true,
+	tasks: [{
+		uid: "9e0b1655",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "enderio:block_travel_anchor"
+		}],
+		count: 2L
+	}],
+	rewards: [{
+		uid: "d6e9a0aa",
+		type: "loot",
+		table: 35
+	},
+	{
+		uid: "425bfee0",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "enderio:block_travel_anchor"
+		}
+	}]
+}

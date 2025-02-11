@@ -1,0 +1,111 @@
+{
+	title: "Obtain All Alloy's Throughout Shara's Quests",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "simple_trophies:trophy",
+		tag: {
+			TrophyColorGreen: 49,
+			TrophyVariant: "classic",
+			TrophyShowsTooltip: 1b,
+			TrophyItem: {
+				ForgeCaps: {
+					"customnpcs:itemscripteddata": {}
+				},
+				id: "metallurgy:vulcanite_ingot",
+				Count: 1b,
+				Damage: 0s
+			},
+			TrophyColorBlue: 44,
+			TrophyName: "Obtain All Alloys in Shara's Quests",
+			TrophyColorRed: 179,
+			TrophyEarnedAt: 1657732401L
+		}
+	},
+	x: 5.0d,
+	y: 0.0d,
+	text: [
+		"Obtain every Alloy in Shara's section."
+	],
+	dependencies: [
+		"174c0e0d",
+		"032ff32c",
+		"c78066c6",
+		"857f67f7",
+		"0fba0633",
+		"7f60b7e9",
+		"555c5490",
+		"3a682d24",
+		"6661996d",
+		"1bd37edf",
+		"85fa9577",
+		"63489786",
+		"14b0cde0",
+		"66e376f2",
+		"24c76a55",
+		"3cd2aac6",
+		"d98376d6",
+		"395598c0",
+		"addab10f",
+		"1016db0e",
+		"d7ce2556",
+		"3b0e5654",
+		"52e8ef35",
+		"d71a9f7b",
+		"ae38a819",
+		"2fe2d3c0",
+		"08c7dd25",
+		"004b0aa9",
+		"79a02e87",
+		"78cb7823",
+		"c866228f",
+		"0492a53f",
+		"5d1599fb",
+		"d4913dbf",
+		"8dadc982",
+		"7f332c42",
+		"8f23ec92",
+		"8d13be67",
+		"e28c23b4",
+		"6e8382b9",
+		"0b7f0e42",
+		"05abe815"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "c7f8830e",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "ede066bf",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "simple_trophies:trophy",
+			tag: {
+				TrophyColorGreen: 49,
+				TrophyVariant: "classic",
+				TrophyShowsTooltip: 1b,
+				TrophyItem: {
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": {}
+					},
+					id: "metallurgy:vulcanite_ingot",
+					Count: 1b,
+					Damage: 0s
+				},
+				TrophyColorBlue: 44,
+				TrophyName: "Obtain All Alloys in Shara's Quests",
+				TrophyColorRed: 179
+			}
+		}
+	},
+	{
+		uid: "55a66b2a",
+		type: "ftbmoney:money",
+		ftb_money: 500L
+	}]
+}

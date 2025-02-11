@@ -1,0 +1,24 @@
+{
+	x: -0.5d,
+	y: 8.5d,
+	description: "Collect from Wither Skeletons.",
+	dependencies: [
+		"b9bab6f8"
+	],
+	hide: true,
+	tasks: [{
+		uid: "be7effea",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "darkutils:material"
+		}]
+	}],
+	rewards: [{
+		uid: "58863ae3",
+		type: "loot",
+		table: 20
+	}]
+}

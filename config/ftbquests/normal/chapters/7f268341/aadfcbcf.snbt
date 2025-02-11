@@ -1,0 +1,44 @@
+{
+	title: "Flux Charger",
+	x: -9.0d,
+	y: -4.0d,
+	description: "This is used to charge Flux Capacitors.",
+	text: [
+		""
+	],
+	dependencies: [
+		"f37fcd38"
+	],
+	hide: true,
+	tasks: [{
+		uid: "697169f4",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thermalexpansion:machine",
+			tag: {
+				RSControl: 0b,
+				Facing: 3b,
+				Energy: 0,
+				SideCache: [B;
+					1b,
+					1b,
+					2b,
+					2b,
+					2b,
+					2b
+				],
+				Level: 0b
+			},
+			Damage: 9s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "46ee822d",
+		type: "loot",
+		table: 7
+	}]
+}

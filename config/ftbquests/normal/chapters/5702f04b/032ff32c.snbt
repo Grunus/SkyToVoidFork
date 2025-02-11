@@ -1,0 +1,31 @@
+{
+	title: "Lutetium",
+	x: 12.5d,
+	y: 9.0d,
+	dependencies: [
+		"81b1cd10"
+	],
+	hide: true,
+	tasks: [{
+		uid: "c1a14254",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "metallurgy:lutetium_ingot"
+		}],
+		count: 10L
+	}],
+	rewards: [{
+		uid: "87fa26e4",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "camscurrency:dupondius"
+		},
+		count: 10
+	}]
+}

@@ -1,0 +1,83 @@
+{
+	title: "The Power Coder",
+	x: -1.0d,
+	y: 14.5d,
+	shape: "square",
+	text: [
+		""
+	],
+	dependencies: [
+		"80c55134"
+	],
+	hide: true,
+	tasks: [{
+		uid: "4d2b268f",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "psi:psimetal_exosuit_helmet"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "09ed8424",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "psi:psimetal_exosuit_chestplate"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "07519f07",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "psi:psimetal_exosuit_leggings"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "5aa37938",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "psi:psimetal_exosuit_boots"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "899df9e3",
+		type: "loot",
+		table: 50
+	},
+	{
+		uid: "17e850ad",
+		type: "loot",
+		table: 50
+	},
+	{
+		uid: "f9e4423a",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "psi:material",
+			Damage: 2s
+		},
+		random_bonus: 2
+	}]
+}

@@ -1,0 +1,47 @@
+{
+	title: "<3",
+	x: 8.0d,
+	y: 9.0d,
+	dependencies: [
+		"ae08ee94"
+	],
+	hide: true,
+	tasks: [{
+		uid: "807569ed",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "extrautils2:machine",
+			tag: {
+				Type: "extrautils2:generator_pink"
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "645c2c01",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thermalexpansion:morb",
+			tag: {
+				Generic: 1b,
+				id: "industrialforegoing:pink_slime"
+			}
+		}
+	},
+	{
+		uid: "8ee2d805",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "camscurrency:denarius"
+		},
+		count: 2
+	}]
+}

@@ -1,0 +1,32 @@
+{
+	title: "Haderoth",
+	x: 13.5d,
+	y: 2.5d,
+	dependencies: [
+		"8d13be67",
+		"e28c23b4"
+	],
+	hide: true,
+	tasks: [{
+		uid: "2350e3b2",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "metallurgy:haderoth_ingot"
+		}],
+		count: 10L
+	}],
+	rewards: [{
+		uid: "a32a359e",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "camscurrency:denarius"
+		},
+		count: 15
+	}]
+}

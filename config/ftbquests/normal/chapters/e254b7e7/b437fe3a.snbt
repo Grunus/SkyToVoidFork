@@ -1,0 +1,46 @@
+{
+	title: "To Become King",
+	x: 4.5d,
+	y: -6.0d,
+	text: [
+		"The world, limited resources equals limited power..."
+	],
+	dependencies: [
+		"6bae85c1"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "281ed866",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "mysticalagriculture:infusion_crystal"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "88b196c7",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "camscurrency:denarius"
+		},
+		count: 6
+	},
+	{
+		uid: "687f5764",
+		type: "loot",
+		table: 9
+	},
+	{
+		uid: "a6740063",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

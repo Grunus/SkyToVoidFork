@@ -1,0 +1,43 @@
+{
+	title: "Unholy",
+	x: 7.0d,
+	y: 11.0d,
+	dependencies: [
+		"ae08ee94"
+	],
+	hide: true,
+	tasks: [{
+		uid: "869bbfda",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "extrautils2:machine",
+			tag: {
+				Type: "extrautils2:generator_netherstar"
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "403b1c66",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:nether_star"
+		}
+	},
+	{
+		uid: "aacce7c0",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "camscurrency:aureus"
+		},
+		count: 2
+	}]
+}

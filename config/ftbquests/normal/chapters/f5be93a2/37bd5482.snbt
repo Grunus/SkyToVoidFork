@@ -1,0 +1,49 @@
+{
+	title: "Finde I",
+	x: -0.5d,
+	y: 7.5d,
+	dependencies: [
+		"60df8c17"
+	],
+	hide: true,
+	tasks: [{
+		uid: "a3412989",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:bone"
+		}],
+		count: 64L,
+		consume_items: true
+	},
+	{
+		uid: "7b87ee3b",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:rotten_flesh"
+		}],
+		count: 64L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "fe712a0e",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "camscurrency:denarius"
+		},
+		count: 32
+	},
+	{
+		uid: "4fa98d00",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

@@ -1,0 +1,61 @@
+{
+	title: "Winter Disaster",
+	x: 1.5d,
+	y: -6.5d,
+	description: "Something within...",
+	hide_dependency_lines: true,
+	dependencies: [
+		"6bae85c1"
+	],
+	hide: true,
+	tasks: [{
+		uid: "b2e81886",
+		type: "location",
+		title: "154 88 -232",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:snow"
+		},
+		location: [I;
+			0,
+			153,
+			88,
+			-236,
+			5,
+			5,
+			5
+		]
+	}],
+	rewards: [{
+		uid: "a8df3d49",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "harvestcraft:applesnowitem"
+		},
+		count: 12
+	},
+	{
+		uid: "84ad0def",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "cryotheum",
+				Amount: 1000
+			}
+		}
+	},
+	{
+		uid: "efed362f",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

@@ -1,0 +1,36 @@
+{
+	title: "Ender IO Tier III Reward",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "enderio:block_enhanced_alloy_smelter"
+	},
+	x: -10.0d,
+	y: 5.5d,
+	can_repeat: true,
+	dependencies: [
+		"b5e0e8b0",
+		"33bd0cac",
+		"4a597abd",
+		"f01a32d5"
+	],
+	hide: true,
+	optional: true,
+	tasks: [{
+		uid: "34bfe35f",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "camscurrency:denarius"
+		}],
+		count: 20L
+	}],
+	rewards: [{
+		uid: "7d1d419e",
+		type: "loot",
+		table: 36
+	}]
+}

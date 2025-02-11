@@ -1,0 +1,17 @@
+filename = 'WorldEdit-CUI-FE3-1.12.2-3.0.9.jar'
+name = 'WorldEditCUI Forge Edition 3'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'WorldEdit-CUI-FE3-1.12.2-3.0.9.jar'
+
+[download]
+hash = '8baccc05f51f757588575dc1d6fa160bd79f6a82'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 3191629
+project-id = 380401

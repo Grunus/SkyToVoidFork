@@ -1,0 +1,28 @@
+{
+	title: "Physical Protection",
+	x: 1.0d,
+	y: 12.0d,
+	description: "Resistance modifier.",
+	text: [
+		""
+	],
+	dependencies: [
+		"60cb9e69"
+	],
+	hide: true,
+	tasks: [{
+		uid: "4169d499",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "conarm:resist_mat"
+		}]
+	}],
+	rewards: [{
+		uid: "d937e568",
+		type: "loot",
+		table: 46
+	}]
+}

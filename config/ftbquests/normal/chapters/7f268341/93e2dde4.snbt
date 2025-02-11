@@ -1,0 +1,28 @@
+{
+	title: "Electric Boogalo",
+	x: -16.5d,
+	y: 4.5d,
+	text: [
+		"If you're tired of sieving, some of these can be found on a few islands"
+	],
+	dependencies: [
+		"f6568adf"
+	],
+	hide: true,
+	tasks: [{
+		uid: "a67f9f4a",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "appliedenergistics2:material",
+			Damage: 1s
+		}]
+	}],
+	rewards: [{
+		uid: "b65c7a29",
+		type: "loot",
+		table: 14
+	}]
+}

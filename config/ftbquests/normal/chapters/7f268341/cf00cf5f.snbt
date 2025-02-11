@@ -1,0 +1,26 @@
+{
+	title: "The Sun God",
+	x: 5.5d,
+	y: 7.5d,
+	description: "Once crafted throw the crystal on the ground and watch it glow!",
+	dependencies: [
+		"2f62bad1"
+	],
+	hide: true,
+	tasks: [{
+		uid: "42173170",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "extrautils2:suncrystal"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "d13e4bd0",
+		type: "loot",
+		table: 18
+	}]
+}

@@ -1,0 +1,53 @@
+{
+	title: "The Goggles",
+	x: 1.5d,
+	y: 14.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"e8580b6a"
+	],
+	hide: true,
+	tasks: [{
+		uid: "6e456d9a",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "conarm:travel_goggles"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "9741b40a",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "conarm:travel_soul"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "94071291",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "conarm:travel_night"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "785f9d99",
+		type: "loot",
+		table: 47
+	}]
+}

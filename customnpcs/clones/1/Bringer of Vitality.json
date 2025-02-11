@@ -1,0 +1,1273 @@
+{
+    "ReturnToStart": 1b,
+    "NpcInv": [
+        {
+            "Slot": 0b,
+            "ForgeCaps": {
+                "customnpcs:itemscripteddata": {
+                }
+            },
+            "id": "ebwizardry:magic_crystal",
+            "Count": 1b,
+            "tag": {
+                "ench": [
+                    {
+                        "lvl": 5s,
+                        "id": 60s
+                    },
+                    {
+                        "lvl": 7s,
+                        "id": 93s
+                    }
+                ],
+                "display": {
+                    "Lore": [
+                        "You look inside the crystal and see",
+                        "immaculate light, as if you've stepped into",
+                        "the golden gates of the kingdom."
+                    ],
+                    "Name": "Ultimate Crystal of Vitality"
+                },
+                "AttributeModifiers": [
+                    {
+                        "UUIDMost": -1317145563912516246L,
+                        "UUIDLeast": -7735996974800821462L,
+                        "Amount": 6.0d,
+                        "Slot": "offhand",
+                        "AttributeName": "generic.maxHealth",
+                        "Operation": 0,
+                        "Name": "generic.maxHealth"
+                    }
+                ]
+            },
+            "Damage": 7s
+        },
+        {
+            "Slot": 1b,
+            "ForgeCaps": {
+                "customnpcs:itemscripteddata": {
+                }
+            },
+            "id": "ebwizardry:sage_hat_healing",
+            "Count": 1b,
+            "Damage": 0s
+        },
+        {
+            "Slot": 2b,
+            "ForgeCaps": {
+                "customnpcs:itemscripteddata": {
+                }
+            },
+            "id": "ebwizardry:sage_robe_healing",
+            "Count": 1b,
+            "Damage": 0s
+        },
+        {
+            "Slot": 3b,
+            "ForgeCaps": {
+                "customnpcs:itemscripteddata": {
+                }
+            },
+            "id": "ebwizardry:sage_leggings_healing",
+            "Count": 1b,
+            "Damage": 0s
+        },
+        {
+            "Slot": 4b,
+            "ForgeCaps": {
+                "customnpcs:itemscripteddata": {
+                }
+            },
+            "id": "ebwizardry:sage_boots_healing",
+            "Count": 1b,
+            "Damage": 0s
+        },
+        {
+            "Slot": 5b,
+            "ForgeCaps": {
+                "customnpcs:itemscripteddata": {
+                }
+            },
+            "id": "ebwizardry:crystal_block",
+            "Count": 2b,
+            "Damage": 7s
+        },
+        {
+            "Slot": 6b,
+            "ForgeCaps": {
+                "customnpcs:itemscripteddata": {
+                }
+            },
+            "id": "ebwizardry:amulet_absorption",
+            "Count": 1b,
+            "Damage": 0s
+        },
+        {
+            "Slot": 7b,
+            "ForgeCaps": {
+                "customnpcs:itemscripteddata": {
+                }
+            },
+            "id": "ebwizardry:ring_paladin",
+            "Count": 1b,
+            "Damage": 0s
+        },
+        {
+            "Slot": 8b,
+            "ForgeCaps": {
+                "customnpcs:itemscripteddata": {
+                }
+            },
+            "id": "totaltinkers:cutlass",
+            "Count": 1b,
+            "tag": {
+                "StatsOriginal": {
+                    "AttackSpeedMultiplier": 1.0f,
+                    "MiningSpeed": 11.54f,
+                    "FreeModifiers": 3,
+                    "Durability": 1080,
+                    "HarvestLevel": 3,
+                    "Attack": 8.42f
+                },
+                "display": {
+                    "Name": "The Bright Side"
+                },
+                "Stats": {
+                    "AttackSpeedMultiplier": 1.0f,
+                    "MiningSpeed": 11.54f,
+                    "FreeModifiers": 1,
+                    "Durability": 1080,
+                    "HarvestLevel": 3,
+                    "Attack": 8.42f
+                },
+                "Special": {
+                    "Categories": [
+                        "weapon",
+                        "tool"
+                    ]
+                },
+                "TinkerData": {
+                    "UsedModifiers": 7,
+                    "Materials": [
+                        "xu_evil_metal",
+                        "yellowgarnet",
+                        "refinedglowstone"
+                    ],
+                    "Modifiers": [
+                        "fiery",
+                        "creative",
+                        "shulking",
+                        "beheading",
+                        "smite"
+                    ]
+                },
+                "Modifiers": [
+                    {
+                        "identifier": "superheat",
+                        "color": -658149,
+                        "level": 1
+                    },
+                    {
+                        "identifier": "lightboost",
+                        "color": -988119,
+                        "level": 1
+                    },
+                    {
+                        "identifier": "fiery",
+                        "current": 100,
+                        "color": 15375922,
+                        "level": 4,
+                        "max": 100,
+                        "extraInfo": "99 / 100"
+                    },
+                    {
+                        "identifier": "creative",
+                        "color": 0,
+                        "level": 5
+                    },
+                    {
+                        "identifier": "shulking",
+                        "current": 50,
+                        "color": 11193599,
+                        "level": 1,
+                        "max": 50,
+                        "extraInfo": "49 / 50"
+                    },
+                    {
+                        "identifier": "beheading",
+                        "color": 1070923,
+                        "level": 1
+                    },
+                    {
+                        "identifier": "smite",
+                        "current": 24,
+                        "color": 15258880,
+                        "level": 1,
+                        "max": 24,
+                        "extraInfo": "23 / 24"
+                    }
+                ],
+                "Traits": [
+                    "superheat",
+                    "lightboost",
+                    "fiery",
+                    "shulking",
+                    "smite"
+                ],
+                "AttributeModifiers": [
+                    {
+                        "UUIDMost": -3801225194067177672L,
+                        "UUIDLeast": -6586624321849018929L,
+                        "Amount": 15.0d,
+                        "Slot": "mainhand",
+                        "AttributeName": "generic.attackDamage",
+                        "Operation": 0,
+                        "Name": "generic.attackDamage"
+                    },
+                    {
+                        "UUIDMost": -422425648963762075L,
+                        "UUIDLeast": -5756800103171642205L,
+                        "Amount": -2.399999976158142d,
+                        "Slot": "mainhand",
+                        "AttributeName": "generic.attackSpeed",
+                        "Operation": 0,
+                        "Name": "generic.attackSpeed"
+                    },
+                    {
+                        "UUIDMost": -8472153390030372608L,
+                        "UUIDLeast": -5773978860465370270L,
+                        "Amount": 0.05d,
+                        "Slot": "mainhand",
+                        "AttributeName": "generic.armor",
+                        "Operation": 1,
+                        "Name": "generic.armor"
+                    },
+                    {
+                        "UUIDMost": 1088105739832673130L,
+                        "UUIDLeast": -5557456976949701332L,
+                        "Amount": -1.0d,
+                        "Slot": "mainhand",
+                        "AttributeName": "generic.reachDistance",
+                        "Operation": 0,
+                        "Name": "generic.reachDistance"
+                    }
+                ]
+            },
+            "Damage": 0s
+        }
+    ],
+    "BossColor": 0,
+    "PotionEffect": 1,
+    "Size": 5,
+    "stopAndInteract": 0b,
+    "Resistances": {
+        "Arrow": 1.5070423f,
+        "Explosion": 0.0f,
+        "Knockback": 1.2535211f,
+        "Melee": 1.3521127f
+    },
+    "BossBar": 2b,
+    "RespawnTime": 1200,
+    "NpcAngrySound": "",
+    "ReactsToFire": 0b,
+    "IgnoreCobweb": 0b,
+    "PositionOffsetZ": 5.0f,
+    "PositionOffsetY": 5.0f,
+    "PositionOffsetX": 5.0f,
+    "LootMode": 0,
+    "TransformHasAI": 0b,
+    "AttackStrenght": 24,
+    "PersistenceRequired": 0b,
+    "id": "customnpcs:customnpc",
+    "IsStatue": 0b,
+    "MovingPatern": 0,
+    "NpcLines": {
+        "Lines": [
+        ]
+    },
+    "DefendFaction": 0b,
+    "FireIndirect": 0,
+    "NpcVisible": 0,
+    "LinkedNpcName": "",
+    "NpcScenes": {
+        "Scenes": [
+        ]
+    },
+    "HitSound": "ebwizardry:entity.spark_bomb.hit_block",
+    "FindShelter": 2,
+    "Air": 300s,
+    "TacticalVariant": 0,
+    "Orientation": 90,
+    "ScriptLanguage": "ECMAScript",
+    "HandItems": [
+        {
+        },
+        {
+        }
+    ],
+    "KnockBack": 1,
+    "TransformHasJob": 0b,
+    "ArmorDropChances": [
+        0.085f,
+        0.085f,
+        0.085f,
+        0.085f
+    ],
+    "BurnInSun": 0b,
+    "TraderSold": {
+        "NpcMiscInv": [
+            {
+                "Slot": 0b,
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "ebwizardry:wizard_hat_healing",
+                "Count": 1b,
+                "Damage": 0s
+            },
+            {
+                "Slot": 1b,
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "ebwizardry:spell_book",
+                "Count": 1b,
+                "Damage": 12s
+            },
+            {
+                "Slot": 2b,
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "ebwizardry:ring_paladin",
+                "Count": 1b,
+                "Damage": 0s
+            },
+            {
+                "Slot": 3b,
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "ebwizardry:wizard_robe_healing",
+                "Count": 1b,
+                "Damage": 0s
+            },
+            {
+                "Slot": 4b,
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "ebwizardry:spell_book",
+                "Count": 1b,
+                "Damage": 47s
+            },
+            {
+                "Slot": 5b,
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "ebwizardry:amulet_arcane_defence",
+                "Count": 1b,
+                "Damage": 0s
+            },
+            {
+                "Slot": 6b,
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "ebwizardry:wizard_leggings_healing",
+                "Count": 1b,
+                "Damage": 0s
+            },
+            {
+                "Slot": 7b,
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "ebwizardry:spell_book",
+                "Count": 1b,
+                "Damage": 151s
+            },
+            {
+                "Slot": 8b,
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "ebwizardry:amulet_recovery",
+                "Count": 1b,
+                "Damage": 0s
+            },
+            {
+                "Slot": 9b,
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "ebwizardry:wizard_boots_healing",
+                "Count": 1b,
+                "Damage": 0s
+            },
+            {
+                "Slot": 10b,
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "ebwizardry:spell_book",
+                "Count": 1b,
+                "Damage": 164s
+            },
+            {
+                "Slot": 11b,
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "ebwizardry:amulet_lich",
+                "Count": 1b,
+                "Damage": 0s
+            },
+            {
+                "Slot": 12b,
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "ebwizardry:large_mana_flask",
+                "Count": 4b,
+                "Damage": 0s
+            },
+            {
+                "Slot": 13b,
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "ebwizardry:spell_book",
+                "Count": 1b,
+                "Damage": 90s
+            },
+            {
+                "Slot": 14b,
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "ebwizardry:amulet_resurrection",
+                "Count": 1b,
+                "Damage": 0s
+            },
+            {
+                "Slot": 15b,
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "totaltinkers:explosive_bow",
+                "Count": 1b,
+                "tag": {
+                    "StatsOriginal": {
+                        "AttackSpeedMultiplier": 1.0f,
+                        "MiningSpeed": 10.485001f,
+                        "DrawSpeed": 1.99f,
+                        "FreeModifiers": 3,
+                        "ProjectileBonusDamage": 7.5f,
+                        "Durability": 908,
+                        "HarvestLevel": 3,
+                        "Attack": 8.15f,
+                        "Range": 2.2f
+                    },
+                    "display": {
+                        "Name": "Brittle Relations"
+                    },
+                    "Stats": {
+                        "AttackSpeedMultiplier": 1.4f,
+                        "MiningSpeed": 10.485001f,
+                        "DrawSpeed": 2.388f,
+                        "FreeModifiers": 4,
+                        "ProjectileBonusDamage": 7.5f,
+                        "Durability": 908,
+                        "HarvestLevel": 3,
+                        "Attack": 13.608181f,
+                        "Range": 2.2f
+                    },
+                    "Special": {
+                        "Categories": [
+                            "launcher",
+                            "tool",
+                            "weapon"
+                        ]
+                    },
+                    "TinkerData": {
+                        "UsedModifiers": 7,
+                        "Materials": [
+                            "refinedglowstone",
+                            "yellowgarnet",
+                            "xu_magical_wood",
+                            "soularium"
+                        ],
+                        "Modifiers": [
+                            "sharpness",
+                            "mending_moss",
+                            "reinforced",
+                            "haste",
+                            "creative"
+                        ]
+                    },
+                    "Modifiers": [
+                        {
+                            "identifier": "lightboost",
+                            "color": -988119,
+                            "level": 1
+                        },
+                        {
+                            "identifier": "autosmelt",
+                            "color": -658149,
+                            "level": 1
+                        },
+                        {
+                            "identifier": "superheat",
+                            "color": -658149,
+                            "level": 1
+                        },
+                        {
+                            "identifier": "magical_modifier",
+                            "color": -131160,
+                            "level": 1,
+                            "magical_modifier": 1b
+                        },
+                        {
+                            "identifier": "brittle",
+                            "color": -131160,
+                            "level": 1
+                        },
+                        {
+                            "identifier": "writable",
+                            "color": -9872563,
+                            "level": 1,
+                            "writable1": 1b
+                        },
+                        {
+                            "identifier": "sharpness",
+                            "current": 216,
+                            "color": 16774902,
+                            "level": 3,
+                            "max": 216,
+                            "extraInfo": "215 / 216"
+                        },
+                        {
+                            "identifier": "mending_moss",
+                            "color": 4434738,
+                            "level": 1
+                        },
+                        {
+                            "identifier": "reinforced",
+                            "color": 5254787,
+                            "level": 1
+                        },
+                        {
+                            "identifier": "haste",
+                            "current": 100,
+                            "color": 9502720,
+                            "level": 2,
+                            "max": 100,
+                            "extraInfo": "99 / 100"
+                        },
+                        {
+                            "identifier": "creative",
+                            "color": 0,
+                            "level": 4
+                        }
+                    ],
+                    "Traits": [
+                        "lightboost",
+                        "autosmelt",
+                        "superheat",
+                        "magical_modifier",
+                        "brittle",
+                        "writable1",
+                        "mending_moss",
+                        "reinforced"
+                    ]
+                },
+                "Damage": 0s
+            },
+            {
+                "Slot": 16b,
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "ebwizardry:spell_book",
+                "Count": 1b,
+                "Damage": 172s
+            },
+            {
+                "Slot": 17b,
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "ebwizardry:magic_crystal",
+                "Count": 1b,
+                "tag": {
+                    "ench": [
+                        {
+                            "lvl": 5s,
+                            "id": 60s
+                        },
+                        {
+                            "lvl": 7s,
+                            "id": 93s
+                        }
+                    ],
+                    "display": {
+                        "Lore": [
+                            "You look inside the crystal and see",
+                            "immaculate light, as if you've stepped into",
+                            "the golden gates of the kingdom."
+                        ],
+                        "Name": "Ultimate Crystal of Vitality"
+                    },
+                    "AttributeModifiers": [
+                        {
+                            "UUIDMost": -1317145563912516246L,
+                            "UUIDLeast": -7735996974800821462L,
+                            "Amount": 6.0d,
+                            "Slot": "offhand",
+                            "AttributeName": "generic.maxHealth",
+                            "Operation": 0,
+                            "Name": "generic.maxHealth"
+                        }
+                    ]
+                },
+                "Damage": 7s
+            }
+        ]
+    },
+    "StandingState": 1,
+    "AttackInvisible": 0b,
+    "NpcInteractNPCLines": {
+        "Lines": [
+        ]
+    },
+    "HurtTime": 0s,
+    "WalkingRange": 16,
+    "ShotCount": 10,
+    "pDur": 20,
+    "TraderIgnoreDamage": 0b,
+    "AttackRange": 4,
+    "NpcKillLines": {
+        "Lines": [
+        ]
+    },
+    "PotionImmune": 1b,
+    "AvoidsSun": 0b,
+    "Texture": "minecraft:textures/entity/illager/evoker.png",
+    "NpcJob": 0,
+    "BurstCount": 5,
+    "NpcAttackLines": {
+        "Lines": [
+        ]
+    },
+    "pSpeed": 23,
+    "pArea": 1,
+    "DeathTime": 0s,
+    "pImpact": 1,
+    "MoveState": 0,
+    "pRender3D": 1b,
+    "Motion": [
+        0.0d,
+        -0.0784000015258789d,
+        0.0d
+    ],
+    "CombatRegen": 0,
+    "NpcsTimers": [
+    ],
+    "MarkovGender": 0,
+    "pEffect": 4,
+    "DistanceToMelee": 5,
+    "NpcStepSound": "",
+    "FireRate": 1,
+    "LeftHanded": 0b,
+    "pEffAmp": 0,
+    "OnGround": 1b,
+    "Dimension": 0,
+    "ImmuneToFire": 1b,
+    "NpcKilledLines": {
+        "Lines": [
+        ]
+    },
+    "TraderMarket": "",
+    "Fire": -1s,
+    "ArmorItems": [
+        {
+        },
+        {
+        },
+        {
+        },
+        {
+        }
+    ],
+    "DisablePitch": 0b,
+    "pPhysics": 1b,
+    "TransformHasInv": 0b,
+    "NpcInteractLines": {
+        "Lines": [
+        ]
+    },
+    "HurtByTimestamp": 31127,
+    "TraderCurrency": {
+        "NpcMiscInv": [
+            {
+                "Slot": 0b,
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "ebwizardry:magic_crystal",
+                "Count": 16b,
+                "Damage": 7s
+            },
+            {
+                "Slot": 1b,
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "ebwizardry:magic_crystal",
+                "Count": 16b,
+                "Damage": 7s
+            },
+            {
+                "Slot": 2b,
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "ebwizardry:magic_crystal",
+                "Count": 16b,
+                "Damage": 7s
+            },
+            {
+                "Slot": 3b,
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "ebwizardry:magic_crystal",
+                "Count": 16b,
+                "Damage": 7s
+            },
+            {
+                "Slot": 4b,
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "ebwizardry:magic_crystal",
+                "Count": 24b,
+                "Damage": 7s
+            },
+            {
+                "Slot": 5b,
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "ebwizardry:magic_crystal",
+                "Count": 18b,
+                "Damage": 7s
+            },
+            {
+                "Slot": 6b,
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "ebwizardry:magic_crystal",
+                "Count": 16b,
+                "Damage": 7s
+            },
+            {
+                "Slot": 7b,
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "ebwizardry:magic_crystal",
+                "Count": 64b,
+                "Damage": 7s
+            },
+            {
+                "Slot": 8b,
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "ebwizardry:magic_crystal",
+                "Count": 32b,
+                "Damage": 7s
+            },
+            {
+                "Slot": 9b,
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "ebwizardry:magic_crystal",
+                "Count": 16b,
+                "Damage": 7s
+            },
+            {
+                "Slot": 10b,
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "ebwizardry:magic_crystal",
+                "Count": 64b,
+                "Damage": 7s
+            },
+            {
+                "Slot": 11b,
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "ebwizardry:magic_crystal",
+                "Count": 48b,
+                "Damage": 7s
+            },
+            {
+                "Slot": 12b,
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "ebwizardry:magic_crystal",
+                "Count": 8b,
+                "Damage": 7s
+            },
+            {
+                "Slot": 13b,
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "ebwizardry:crystal_block",
+                "Count": 8b,
+                "Damage": 7s
+            },
+            {
+                "Slot": 14b,
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "ebwizardry:crystal_block",
+                "Count": 32b,
+                "Damage": 7s
+            },
+            {
+                "Slot": 15b,
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "ebwizardry:crystal_block",
+                "Count": 8b,
+                "Damage": 7s
+            },
+            {
+                "Slot": 16b,
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "ebwizardry:crystal_block",
+                "Count": 32b,
+                "Damage": 7s
+            },
+            {
+                "Slot": 17b,
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "ebwizardry:magic_crystal",
+                "Count": 64b,
+                "Damage": 7s
+            },
+            {
+                "Slot": 28b,
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "ebwizardry:magic_crystal",
+                "Count": 64b,
+                "Damage": 7s
+            }
+        ]
+    },
+    "pSpin": 0b,
+    "NpcHurtSound": "minecraft:entity.player.hurt",
+    "pTrail": 7,
+    "CreatureType": 0,
+    "Attributes": [
+        {
+            "Base": 1.0d,
+            "Name": "potioncore.projectileDamage"
+        },
+        {
+            "Base": 1.0d,
+            "Name": "potioncore.magicDamage"
+        },
+        {
+            "Base": 1.0d,
+            "Name": "potioncore.jumpHeight"
+        },
+        {
+            "Base": 1.0d,
+            "Name": "potioncore.damageResistance"
+        },
+        {
+            "Base": 0.0d,
+            "Name": "potioncore.magicShielding"
+        },
+        {
+            "Base": 300.0d,
+            "Name": "generic.maxHealth"
+        },
+        {
+            "Base": 0.0d,
+            "Name": "generic.knockbackResistance"
+        },
+        {
+            "Base": 0.30000001192092896d,
+            "Name": "generic.movementSpeed"
+        },
+        {
+            "Base": 0.0d,
+            "Name": "generic.armor"
+        },
+        {
+            "Base": 0.0d,
+            "Name": "generic.armorToughness"
+        },
+        {
+            "Base": 1.0d,
+            "Name": "forge.swimSpeed"
+        },
+        {
+            "Base": 64.0d,
+            "Name": "generic.followRange"
+        },
+        {
+            "Base": 24.0d,
+            "Name": "generic.attackDamage"
+        },
+        {
+            "Base": 0.6000000238418579d,
+            "Name": "generic.flyingSpeed"
+        }
+    ],
+    "Invulnerable": 0b,
+    "TransformHasDisplay": 0b,
+    "NoFallDamage": 0b,
+    "AbsorptionAmount": 0.0f,
+    "TransformHasRole": 0b,
+    "Name": "Bringer of Vitality",
+    "FallDistance": 0.0f,
+    "SkinColor": 16624907,
+    "NpcIdleSound": "",
+    "Weapons": [
+        {
+            "Slot": 0b,
+            "ForgeCaps": {
+                "customnpcs:itemscripteddata": {
+                }
+            },
+            "id": "tconstruct:tool_rod",
+            "Count": 1b,
+            "tag": {
+                "Material": "ma.supremium"
+            },
+            "Damage": 0s
+        },
+        {
+            "Slot": 1b,
+            "ForgeCaps": {
+                "customnpcs:itemscripteddata": {
+                }
+            },
+            "id": "exnihilocreatio:item_ore_gold",
+            "Count": 1b,
+            "Damage": 0s
+        }
+    ],
+    "NPCDialogOptions": [
+        {
+            "NPCDialog": {
+                "DialogCommand": "",
+                "Dialog": 159,
+                "Title": "1st",
+                "DialogColor": 14737632,
+                "OptionType": 1
+            },
+            "DialogSlot": 0
+        }
+    ],
+    "AggroRange": 48,
+    "DirectLOS": 0b,
+    "HealthRegen": 1,
+    "ForgeCaps": {
+        "everlastingabilities:org.cyclops.everlastingabilities.api.capability.imutableabilitystore": [
+        ],
+        "metallurgy:punch_effect": {
+            "hasAiDisabled": 1b,
+            "knockbackTicks": 0,
+            "ticks": 0
+        }
+    },
+    "HandDropChances": [
+        0.085f,
+        0.085f
+    ],
+    "NpcModelData": {
+        "LegsConfig": {
+            "NotShared": 0b,
+            "ScaleZ": 1.0f,
+            "TransZ": 0.0f,
+            "TransY": 0.0f,
+            "TransX": 0.012000002f,
+            "ScaleY": 1.0f,
+            "ScaleX": 1.0f
+        },
+        "BodyConfig": {
+            "NotShared": 0b,
+            "ScaleZ": 1.0f,
+            "TransZ": 0.0f,
+            "TransY": 0.0f,
+            "TransX": 0.0f,
+            "ScaleY": 1.0f,
+            "ScaleX": 1.0f
+        },
+        "Eyes": {
+            "Pattern": 0b,
+            "Glint": 1b,
+            "Type": 0b,
+            "PositionY": 1,
+            "SkinColor": 11830381,
+            "PlayerTexture": 0b,
+            "Color": 8368696,
+            "BrowColor": 5982516,
+            "BrowThickness": 4
+        },
+        "EntityClass": "net.minecraft.entity.monster.EntityEvoker",
+        "LegParts": {
+            "Pattern": 0b,
+            "Type": 0b,
+            "PlayerTexture": 0b,
+            "Color": 16777215
+        },
+        "Parts": [
+        ],
+        "ArmsConfig": {
+            "NotShared": 0b,
+            "ScaleZ": 1.0f,
+            "TransZ": 0.0f,
+            "TransY": 0.0f,
+            "TransX": -0.0f,
+            "ScaleY": 1.0f,
+            "ScaleX": 1.0f
+        },
+        "ExtraData": {
+        },
+        "HeadConfig": {
+            "NotShared": 0b,
+            "ScaleZ": 1.0f,
+            "TransZ": 0.0f,
+            "TransY": 0.0f,
+            "TransX": 0.0f,
+            "ScaleY": 1.0f,
+            "ScaleX": 1.0f
+        }
+    },
+    "minDelay": 70,
+    "DoorInteract": 1,
+    "MoveSpeed": 6,
+    "TransformEditingModus": 0b,
+    "UsingSkinUrl": 0b,
+    "Leashed": 0b,
+    "SkinUrl": "",
+    "CanSwim": 1b,
+    "TraderIgnoreNBT": 0b,
+    "GroundSound": "ebwizardry:entity.spark_bomb.hit_block",
+    "MaxHealth": 300,
+    "HideBodyWhenKilled": 1b,
+    "AttackSpeed": 36,
+    "PotionDuration": 60,
+    "maxDelay": 80,
+    "ScriptEnabled": 0b,
+    "Role": 1,
+    "DropChance": [
+        {
+            "Integer": 100,
+            "Slot": 0
+        },
+        {
+            "Integer": 10,
+            "Slot": 1
+        },
+        {
+            "Integer": 10,
+            "Slot": 2
+        },
+        {
+            "Integer": 10,
+            "Slot": 3
+        },
+        {
+            "Integer": 10,
+            "Slot": 4
+        },
+        {
+            "Integer": 60,
+            "Slot": 5
+        },
+        {
+            "Integer": 5,
+            "Slot": 6
+        },
+        {
+            "Integer": 50,
+            "Slot": 7
+        },
+        {
+            "Integer": 15,
+            "Slot": 8
+        }
+    ],
+    "FactionPoints": {
+        "DecreaseFaction1Points": 0b,
+        "OptionFaction2Points": 100,
+        "OptionFactions1": -1,
+        "OptionFactions2": -1,
+        "OptionFaction1Points": 100,
+        "DecreaseFaction2Points": 0b
+    },
+    "pDamage": 30,
+    "KilledTime": 0L,
+    "AimWhileShooting": 1b,
+    "CanPickUpLoot": 0b,
+    "AttackOtherFactions": 0b,
+    "CanDrown": 1b,
+    "pSize": 7,
+    "CanSprint": 0b,
+    "CanLeap": 0b,
+    "TransformIsActive": 0b,
+    "ForgeData": {
+        "cnpcmarkdata": {
+            "marks": [
+            ]
+        },
+        "Potion Core - Health Fix": 300.0f,
+        "Potion Core - Projectile Invulnerability": 0,
+        "Potion Core - Jump Boost Updated": 1b
+    },
+    "MovingState": 0,
+    "MovingPos": 0,
+    "PotionAmp": 0,
+    "OnAttack": 0,
+    "TacticalRadius": 12,
+    "FallFlying": 0b,
+    "MaxExp": 50,
+    "OrderedLines": 0b,
+    "PortalCooldown": 0,
+    "pGlows": 0b,
+    "TransformHasAdvanced": 0b,
+    "TransformHasStats": 0b,
+    "MovementType": 0,
+    "FiringSound": "ebwizardry:entity.ice_charge.ice",
+    "ModRev": 18,
+    "Accuracy": 100,
+    "MinExp": 25,
+    "Armor": [
+        {
+            "Slot": 0b,
+            "ForgeCaps": {
+                "customnpcs:itemscripteddata": {
+                }
+            },
+            "id": "ebwizardry:battlemage_helmet_healing",
+            "Count": 1b,
+            "Damage": 0s
+        },
+        {
+            "Slot": 1b,
+            "ForgeCaps": {
+                "customnpcs:itemscripteddata": {
+                }
+            },
+            "id": "ebwizardry:warlock_robe_healing",
+            "Count": 1b,
+            "Damage": 0s
+        },
+        {
+            "Slot": 2b,
+            "ForgeCaps": {
+                "customnpcs:itemscripteddata": {
+                }
+            },
+            "id": "ebwizardry:battlemage_leggings_healing",
+            "Count": 1b,
+            "Damage": 0s
+        },
+        {
+            "Slot": 3b,
+            "ForgeCaps": {
+                "customnpcs:itemscripteddata": {
+                }
+            },
+            "id": "ebwizardry:battlemage_boots_healing",
+            "Count": 1b,
+            "Damage": 0s
+        }
+    ],
+    "CloakTexture": "",
+    "GlowTexture": "",
+    "MaxFiringRange": 32,
+    "pXlr8": 1b,
+    "MarkovGeneratorId": 2,
+    "Scripts": [
+    ],
+    "Health": 300.0f,
+    "pStick": 0b,
+    "MovingPause": 1b,
+    "NpcDeathSound": "minecraft:entity.player.hurt",
+    "FactionID": 22,
+    "Title": "1st and only",
+    "TotalTicksAlive": 228917L,
+    "Rotation": [
+        90.0f,
+        0.0f
+    ],
+    "ShowName": 0,
+    "npcInteracting": 0b,
+    "UpdateBlocked": 0b,
+    "AvoidsWater": 0b,
+    "NoLivingAnimation": 0b,
+    "SpawnCycle": 0
+}

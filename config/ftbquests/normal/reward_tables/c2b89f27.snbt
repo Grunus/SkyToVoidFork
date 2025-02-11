@@ -1,0 +1,404 @@
+{
+	title: "Sky to Void Island Choice",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "morelights:lightpowder"
+	},
+	loot_size: 1,
+	rewards: [{
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "tconstruct:pickaxe",
+			tag: {
+				ench: [{
+					lvl: 3s,
+					id: 35s
+				}],
+				StatsOriginal: {
+					AttackSpeedMultiplier: 1.0f,
+					MiningSpeed: 14.06f,
+					FreeModifiers: 3,
+					Durability: 2420,
+					HarvestLevel: 4,
+					Attack: 11.07f
+				},
+				display: {
+					Lore: [
+						"The gods' decisions are only pure intent.",
+						"Pure intent for what?"
+					],
+					Name: "The Light Between Towers"
+				},
+				Stats: {
+					AttackSpeedMultiplier: 1.0f,
+					MiningSpeed: 33.123802f,
+					FreeModifiers: 0,
+					Durability: 2920,
+					HarvestLevel: 4,
+					Attack: 12.07f
+				},
+				Special: {
+					Categories: [
+						"tool",
+						"harvest",
+						"aoe"
+					]
+				},
+				TinkerData: {
+					UsedModifiers: 8,
+					Materials: [
+						"ebonypsi",
+						"ivorypsi",
+						"alduorite"
+					],
+					Modifiers: [
+						"luck",
+						"creative",
+						"haste",
+						"mending_moss",
+						"diamond"
+					]
+				},
+				Modifiers: [{
+					identifier: "psieater",
+					color: -16119286,
+					level: 1
+				},
+				{
+					identifier: "holy",
+					color: -13858615,
+					level: 1
+				},
+				{
+					identifier: "unnatural",
+					color: -7170882,
+					level: 1
+				},
+				{
+					identifier: "luck",
+					current: 360,
+					color: 2970082,
+					level: 3,
+					max: 360,
+					modifierUsed: 1b,
+					extraInfo: "359 / 360"
+				},
+				{
+					identifier: "creative",
+					color: 0,
+					level: 5
+				},
+				{
+					identifier: "haste",
+					current: 250,
+					color: 9502720,
+					level: 5,
+					max: 250,
+					extraInfo: "249 / 250"
+				},
+				{
+					identifier: "mending_moss",
+					color: 4434738,
+					level: 1
+				},
+				{
+					identifier: "diamond",
+					color: 9237730
+				}],
+				Traits: [
+					"psieater",
+					"holy",
+					"unnatural",
+					"luck",
+					"mending_moss"
+				],
+				AttributeModifiers: [{
+					UUIDMost: -3801225194067177672L,
+					UUIDLeast: -6586624321849018929L,
+					Amount: 12.069999694824219d,
+					Slot: "mainhand",
+					AttributeName: "generic.attackDamage",
+					Operation: 0,
+					Name: "generic.attackDamage"
+				},
+				{
+					UUIDMost: -422425648963762075L,
+					UUIDLeast: -5756800103171642205L,
+					Amount: -2.799999952316284d,
+					Slot: "mainhand",
+					AttributeName: "generic.attackSpeed",
+					Operation: 0,
+					Name: "generic.attackSpeed"
+				},
+				{
+					UUIDMost: -313382458846131615L,
+					UUIDLeast: -8116409824283034809L,
+					Amount: 4.0d,
+					Slot: "mainhand",
+					AttributeName: "generic.armor",
+					Operation: 0,
+					Name: "generic.armor"
+				}]
+			}
+		},
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "tconstruct:pickaxe",
+			tag: {
+				ench: [{
+					lvl: 3s,
+					id: 35s
+				}],
+				StatsOriginal: {
+					AttackSpeedMultiplier: 1.0f,
+					MiningSpeed: 14.06f,
+					FreeModifiers: 3,
+					Durability: 2420,
+					HarvestLevel: 4,
+					Attack: 11.07f
+				},
+				display: {
+					Lore: [
+						"The gods' decisions are only pure intent.",
+						"Pure intent for what?"
+					],
+					Name: "The Light Between Towers"
+				},
+				Stats: {
+					AttackSpeedMultiplier: 1.0f,
+					MiningSpeed: 33.123802f,
+					FreeModifiers: 0,
+					Durability: 2920,
+					HarvestLevel: 4,
+					Attack: 12.07f
+				},
+				Special: {
+					Categories: [
+						"tool",
+						"harvest",
+						"aoe"
+					]
+				},
+				TinkerData: {
+					UsedModifiers: 8,
+					Materials: [
+						"ebonypsi",
+						"ivorypsi",
+						"alduorite"
+					],
+					Modifiers: [
+						"luck",
+						"creative",
+						"haste",
+						"mending_moss",
+						"diamond"
+					]
+				},
+				Modifiers: [{
+					identifier: "psieater",
+					color: -16119286,
+					level: 1
+				},
+				{
+					identifier: "holy",
+					color: -13858615,
+					level: 1
+				},
+				{
+					identifier: "unnatural",
+					color: -7170882,
+					level: 1
+				},
+				{
+					identifier: "luck",
+					current: 360,
+					color: 2970082,
+					level: 3,
+					max: 360,
+					modifierUsed: 1b,
+					extraInfo: "359 / 360"
+				},
+				{
+					identifier: "creative",
+					color: 0,
+					level: 5
+				},
+				{
+					identifier: "haste",
+					current: 250,
+					color: 9502720,
+					level: 5,
+					max: 250,
+					extraInfo: "249 / 250"
+				},
+				{
+					identifier: "mending_moss",
+					color: 4434738,
+					level: 1
+				},
+				{
+					identifier: "diamond",
+					color: 9237730
+				}],
+				Traits: [
+					"psieater",
+					"holy",
+					"unnatural",
+					"luck",
+					"mending_moss"
+				],
+				AttributeModifiers: [{
+					UUIDMost: -3801225194067177672L,
+					UUIDLeast: -6586624321849018929L,
+					Amount: 12.069999694824219d,
+					Slot: "mainhand",
+					AttributeName: "generic.attackDamage",
+					Operation: 0,
+					Name: "generic.attackDamage"
+				},
+				{
+					UUIDMost: -422425648963762075L,
+					UUIDLeast: -5756800103171642205L,
+					Amount: -2.799999952316284d,
+					Slot: "mainhand",
+					AttributeName: "generic.attackSpeed",
+					Operation: 0,
+					Name: "generic.attackSpeed"
+				},
+				{
+					UUIDMost: -313382458846131615L,
+					UUIDLeast: -8116409824283034809L,
+					Amount: 4.0d,
+					Slot: "mainhand",
+					AttributeName: "generic.armor",
+					Operation: 0,
+					Name: "generic.armor"
+				}]
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "tconstruct:cleaver",
+			tag: {
+				StatsOriginal: {
+					AttackSpeedMultiplier: 1.0f,
+					MiningSpeed: 9.0f,
+					FreeModifiers: 3,
+					Durability: 182,
+					HarvestLevel: 3,
+					Attack: 6.8999996f
+				},
+				display: {
+					Name: "Solar Night Blade"
+				},
+				Stats: {
+					AttackSpeedMultiplier: 1.0f,
+					MiningSpeed: 9.5f,
+					FreeModifiers: 1,
+					Durability: 773,
+					HarvestLevel: 3,
+					Attack: 15.446416f
+				},
+				Special: {
+					Categories: [
+						"weapon",
+						"tool"
+					]
+				},
+				TinkerData: {
+					UsedModifiers: 8,
+					Materials: [
+						"pigiron",
+						"deep_iron",
+						"electrum",
+						"ma.prosperity"
+					],
+					Modifiers: [
+						"beheading_cleaver",
+						"mending_moss",
+						"reinforced",
+						"diamond",
+						"emerald",
+						"creative",
+						"sharpness"
+					]
+				},
+				Modifiers: [{
+					identifier: "tasty",
+					color: -1073509,
+					level: 1
+				},
+				{
+					identifier: "opistognathus_trait",
+					color: -13813425,
+					level: 1
+				},
+				{
+					identifier: "shocking",
+					color: -1516727,
+					level: 1
+				},
+				{
+					identifier: "writable",
+					color: -6044219,
+					level: 1,
+					writable1: 1b
+				},
+				{
+					identifier: "beheading_cleaver",
+					color: 1070923,
+					level: 2
+				},
+				{
+					identifier: "mending_moss",
+					color: 4434738,
+					level: 1
+				},
+				{
+					identifier: "reinforced",
+					color: 5254787,
+					level: 1
+				},
+				{
+					identifier: "diamond",
+					color: 9237730
+				},
+				{
+					identifier: "emerald",
+					color: 4322180
+				},
+				{
+					identifier: "creative",
+					color: 0,
+					level: 5
+				},
+				{
+					identifier: "sharpness",
+					current: 288,
+					color: 16774902,
+					level: 4,
+					max: 288,
+					extraInfo: "287 / 288"
+				}],
+				Traits: [
+					"tasty",
+					"opistognathus_trait",
+					"shocking",
+					"writable1",
+					"mending_moss",
+					"reinforced"
+				]
+			}
+		}
+	}]
+}

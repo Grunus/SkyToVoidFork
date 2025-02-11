@@ -1,0 +1,36 @@
+{
+	title: "Observation: Silverfish",
+	x: -3.357142857142854d,
+	y: 6.160714285714278d,
+	shape: "pentagon",
+	hide_dependency_lines: true,
+	dependencies: [
+		"46793e20",
+		"70e8f94e"
+	],
+	hide: true,
+	tasks: [{
+		uid: "2a6dda31",
+		type: "observation",
+		title: "Observe a Silverfish",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:spawn_egg",
+			tag: {
+				EntityTag: {
+					id: "minecraft:silverfish"
+				}
+			}
+		},
+		match_type: "entity_id",
+		match: "minecraft:silverfish",
+		timer: 100L
+	}],
+	rewards: [{
+		uid: "3c146e7a",
+		type: "ftbmoney:money",
+		ftb_money: 35L
+	}]
+}

@@ -1,0 +1,43 @@
+{
+	title: "Liam IV",
+	x: 2.0d,
+	y: 6.5d,
+	dependencies: [
+		"abcfc1c2"
+	],
+	tasks: [{
+		uid: "e719b9ed",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:enchanted_book",
+			tag: {
+				StoredEnchantments: [{
+					lvl: 1s,
+					id: 51s
+				}]
+			}
+		}],
+		consume_items: true,
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "9faa740f",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "camscurrency:denarius"
+		},
+		count: 32
+	},
+	{
+		uid: "14e1d371",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

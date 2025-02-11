@@ -1,0 +1,39 @@
+{
+	title: "The Villagers III",
+	x: 1.5d,
+	y: 13.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"11282e7a"
+	],
+	tasks: [{
+		uid: "d7adc5a6",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "harvestcraft:poutineitem"
+		}],
+		count: 64L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "6efbc7d4",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "camscurrency:denarius"
+		},
+		count: 32
+	},
+	{
+		uid: "24677838",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

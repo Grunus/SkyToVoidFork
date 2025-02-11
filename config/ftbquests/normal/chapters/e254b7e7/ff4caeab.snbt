@@ -1,0 +1,40 @@
+{
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "contenttweaker:obj_island",
+		tag: {
+			display: {
+				Name: "Islands"
+			}
+		}
+	},
+	x: 1.0d,
+	y: -12.0d,
+	text: [
+		"Thriving off of these desolate and hostile enviroments. It doesn't make sense."
+	],
+	hide_dependency_lines: true,
+	min_required_dependencies: 5,
+	dependencies: [
+		"452714e6",
+		"0e6623d4",
+		"d5bb9b59",
+		"dd2ac9e8",
+		"4bce41dd",
+		"35cce628",
+		"117838ad",
+		"953154d4",
+		"ca4fc106",
+		"a25f3563",
+		"2b00bb4e",
+		"783ee9c0"
+	],
+	hide: true,
+	tasks: [{
+		uid: "165b1f41",
+		type: "checkmark",
+		title: "Avenging the World"
+	}]
+}

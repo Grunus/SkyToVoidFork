@@ -1,0 +1,32 @@
+{
+	title: "Hepatizon",
+	x: 13.5d,
+	y: 5.5d,
+	dependencies: [
+		"05abe815",
+		"072b1260"
+	],
+	hide: true,
+	tasks: [{
+		uid: "e60bb6ad",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "metallurgy:hepatizon_ingot"
+		}],
+		count: 10L
+	}],
+	rewards: [{
+		uid: "950b2ec3",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "camscurrency:denarius"
+		},
+		count: 15
+	}]
+}

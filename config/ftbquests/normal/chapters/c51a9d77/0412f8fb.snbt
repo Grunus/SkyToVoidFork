@@ -1,0 +1,21 @@
+{
+	x: 0.0d,
+	y: 11.0d,
+	dependencies: [
+		"1a2be337"
+	],
+	hide: true,
+	tasks: [{
+		uid: "18e63de4",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "cyclicmagic:glowing_helmet",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

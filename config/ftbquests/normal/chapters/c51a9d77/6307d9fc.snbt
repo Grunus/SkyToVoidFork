@@ -1,0 +1,50 @@
+{
+	title: "Probably Useless, Looks Cool!",
+	x: -5.5d,
+	y: 4.5d,
+	shape: "square",
+	description: "using empty maps on a Cartographers it'll create a Height Map. After, placing it inside the Height Map Projector it'll reveal what it drew.",
+	dependencies: [
+		"a2d990d3"
+	],
+	hide: true,
+	tasks: [{
+		uid: "33fbc6af",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "openblocks:projector"
+		}]
+	},
+	{
+		uid: "5ea0e1da",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "openblocks:empty_map",
+			tag: {
+				Scale: 0b
+			}
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "6c5af587",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "openblocks:projector"
+		}]
+	}],
+	rewards: [{
+		uid: "cdb07a56",
+		type: "loot",
+		table: 31
+	}]
+}

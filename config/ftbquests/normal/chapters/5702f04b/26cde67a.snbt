@@ -1,0 +1,57 @@
+{
+	title: "Back to Minecraft",
+	x: -4.0d,
+	y: 7.0d,
+	dependencies: [
+		"7aed858a"
+	],
+	hide: true,
+	tasks: [{
+		uid: "978c478a",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:enchanting_table"
+		}]
+	}],
+	rewards: [{
+		uid: "63c2ebb5",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:bookshelf"
+		},
+		count: 4
+	},
+	{
+		uid: "7276254e",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:paper"
+		},
+		count: 64
+	},
+	{
+		uid: "117deed6",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:spawn_egg",
+			tag: {
+				EntityTag: {
+					id: "minecraft:cow"
+				}
+			}
+		},
+		count: 2
+	}]
+}

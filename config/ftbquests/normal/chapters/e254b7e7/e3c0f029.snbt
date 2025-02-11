@@ -1,0 +1,39 @@
+{
+	title: "Show me Fear",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "contenttweaker:obj_island",
+		tag: {
+			display: {
+				Name: "Islands"
+			}
+		}
+	},
+	x: 0.0d,
+	y: -24.0d,
+	text: [
+		"No matter how far you reach, mortal, I will never fear you."
+	],
+	min_required_dependencies: 5,
+	dependencies: [
+		"661eab9e",
+		"bdef3fee",
+		"4b0eb1da",
+		"1e5a827d",
+		"c4440f2c",
+		"5969aed0",
+		"26b86661",
+		"13b6ee8c",
+		"5824d86e",
+		"9526304b"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "209d0bbb",
+		type: "checkmark",
+		title: "Show me Fear"
+	}]
+}

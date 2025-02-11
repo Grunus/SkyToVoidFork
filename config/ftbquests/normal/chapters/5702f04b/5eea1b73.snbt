@@ -1,0 +1,31 @@
+{
+	title: "The Shell and the Monster",
+	x: 7.0d,
+	y: 6.0d,
+	description: "Heavy Sieves can be used to sieve compressed blocks.",
+	dependencies: [
+		"be627f93"
+	],
+	hide: true,
+	tasks: [{
+		uid: "f5e4b694",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "excompressum:heavy_sieve"
+		}]
+	}],
+	rewards: [{
+		uid: "c6bf1c7c",
+		type: "loot",
+		table: 0
+	},
+	{
+		uid: "2b180298",
+		type: "choice",
+		title: "Choice reward",
+		table: 30
+	}]
+}

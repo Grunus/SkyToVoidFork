@@ -1,0 +1,74 @@
+{
+	title: "Duster's Hunger for Flesh",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "tconstruct:edible",
+		Damage: 10s
+	},
+	x: 1.5d,
+	y: -4.5d,
+	shape: "diamond",
+	description: "\"My Defences aren't powerful anymore. Can you help me get jerky?\"",
+	text: [
+		"This will last me for a good while. Thank you!"
+	],
+	dependencies: [
+		"688d10de"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "e3fd469e",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "tconstruct:edible",
+			Damage: 10s
+		}],
+		count: 64L,
+		consume_items: true
+	},
+	{
+		uid: "ef1ad1b9",
+		type: "kill",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:skull",
+			Damage: 2s
+		},
+		entity: "minecraft:zombie",
+		value: 30L
+	}],
+	rewards: [{
+		uid: "d2b7f5e5",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "camscurrency:denarius"
+		},
+		count: 16
+	},
+	{
+		uid: "0f0c19b8",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ebwizardry:blast_upgrade"
+		}
+	},
+	{
+		uid: "3aa74c42",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

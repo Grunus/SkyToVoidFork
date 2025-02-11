@@ -1,0 +1,25 @@
+{
+	x: -3.5d,
+	y: 16.0d,
+	dependencies: [
+		"e5a1983b"
+	],
+	hide: true,
+	tasks: [{
+		uid: "07dcf640",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "psi:cad_assembly",
+			Damage: 3s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7f367f34",
+		type: "loot",
+		table: 50
+	}]
+}

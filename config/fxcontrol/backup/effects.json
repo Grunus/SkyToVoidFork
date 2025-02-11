@@ -1,0 +1,16 @@
+[
+    {
+        "dimension": 43,
+        "timeout" : 10,
+        "helditem": "minecraft:chorus_fruit",
+        "message": "Cannot eat Chorus Fruit in Missions.",
+        "damage" : "outOfWorld=6"
+    },
+    {
+        "dimension": 43,
+        "timeout" : 10,
+        "helditem": "enderio:item_ender_food",
+        "message": "Cannot eat Enderios in Missions.",
+        "damage" : "outOfWorld=6"
+    }
+]

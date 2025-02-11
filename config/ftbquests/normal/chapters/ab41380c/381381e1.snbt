@@ -1,0 +1,44 @@
+{
+	title: "Reconstruction of The Light Bridge",
+	x: -12.0d,
+	y: -15.0d,
+	shape: "diamond",
+	description: "''The Light Bridge was the last step to opening the portal, but now that the portal is gone, I still want to see the damage to the other side. It seems I'm pretty much stuck in my own home, disconnected.''",
+	text: [
+		"These cables will be useful for connecting energy to the bridge."
+	],
+	dependencies: [
+		"572c9a36"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "d7382497",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "appliedenergistics2:part",
+			Damage: 16s
+		}],
+		count: 32L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "982ebdcf",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "camscurrency:denarius"
+		},
+		count: 8
+	},
+	{
+		uid: "88a26f04",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

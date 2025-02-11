@@ -1,0 +1,37 @@
+{
+	title: "Floating Ladders",
+	x: -6.5d,
+	y: 5.5d,
+	description: "Placing off of a ledge will place your stack down until it reaches a block.",
+	text: [
+		"Or... until it reaches the Void."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"248e2598"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "fc99fa96",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "openblocks:rope_ladder"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "80ac8951",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "openblocks:rope_ladder"
+		},
+		count: 16
+	}]
+}

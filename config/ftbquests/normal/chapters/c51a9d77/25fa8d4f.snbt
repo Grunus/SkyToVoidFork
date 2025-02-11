@@ -1,0 +1,28 @@
+{
+	title: "Seeing Sounds",
+	x: -9.5d,
+	y: 4.5d,
+	shape: "square",
+	description: "Displays where a sound is coming from",
+	dependencies: [
+		"bc60a924"
+	],
+	hide: true,
+	tasks: [{
+		uid: "86460fe0",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "openblocks:sonic_glasses"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "e947bc46",
+		type: "loot",
+		table: 31
+	}]
+}

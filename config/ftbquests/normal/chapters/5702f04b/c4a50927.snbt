@@ -1,0 +1,28 @@
+{
+	title: "Mystical Furnace",
+	x: -14.0d,
+	y: 7.0d,
+	description: "Speed up the proficiency of furnaces",
+	text: [
+		""
+	],
+	dependencies: [
+		"713bfccd"
+	],
+	hide: true,
+	tasks: [{
+		uid: "cdbcb8b5",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "mysticalagriculture:inferium_furnace"
+		}]
+	}],
+	rewards: [{
+		uid: "25a54973",
+		type: "loot",
+		table: 9
+	}]
+}

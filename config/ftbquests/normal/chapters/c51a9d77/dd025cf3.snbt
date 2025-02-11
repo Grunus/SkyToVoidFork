@@ -1,0 +1,43 @@
+{
+	title: "Sick Patterns!",
+	x: 2.0d,
+	y: 0.0d,
+	description: "Change the look of your drawers!",
+	text: [
+		""
+	],
+	dependencies: [
+		"8c02b5cb"
+	],
+	hide: true,
+	tasks: [{
+		uid: "2b5b7d41",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "storagedrawers:framingtable"
+		}]
+	},
+	{
+		uid: "f2263367",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "storagedrawers:customdrawers"
+		}]
+	}],
+	rewards: [{
+		uid: "af751fae",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thermalexpansion:frame"
+		}
+	}]
+}

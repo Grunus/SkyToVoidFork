@@ -1,0 +1,61 @@
+{
+	title: "Bob's Revenge",
+	x: 4.0d,
+	y: -8.5d,
+	shape: "diamond",
+	description: "''These bastards destroyed me, and they want more? I wont let that happen...''",
+	text: [
+		"Let me see those.",
+		"They ooze the liquid. Thank you, new hunter. I can finally go outside without something always watching over me...",
+		"",
+		"... If... there is any outside left."
+	],
+	dependencies: [
+		"baf65869"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "354e8cc7",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "industrialforegoing:laser_lens_inverted",
+			tag: {
+				ench: [{
+					lvl: 5,
+					id: 40
+				}],
+				display: {
+					Lore: [
+						"As you grip it, you feel an aura of decay...",
+						"Best to put it in your pocket..."
+					],
+					Name: "Deadlock Core"
+				}
+			},
+			Damage: 10s
+		}],
+		count: 3L,
+		consume_items: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "844ea141",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "camscurrency:denarius"
+		},
+		count: 32
+	},
+	{
+		uid: "e2e46e3d",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

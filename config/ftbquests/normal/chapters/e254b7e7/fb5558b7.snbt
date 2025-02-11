@@ -1,0 +1,40 @@
+{
+	title: "Listening",
+	x: 5.5d,
+	y: -6.0d,
+	text: [
+		"They're trying to show us strength? mortals don't pair against gods..."
+	],
+	dependencies: [
+		"6bae85c1"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "fab112c9",
+		type: "kill",
+		entity: "minecraft:creeper",
+		value: 30L
+	}],
+	rewards: [{
+		uid: "0982a6b4",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "camscurrency:denarius"
+		},
+		count: 6
+	},
+	{
+		uid: "8931844e",
+		type: "loot",
+		table: 5
+	},
+	{
+		uid: "0a32fec4",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

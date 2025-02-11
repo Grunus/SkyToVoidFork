@@ -1,0 +1,81 @@
+{
+	title: "Lights Out",
+	x: 12.0d,
+	y: 14.0d,
+	shape: "diamond",
+	description: "''If you can find the mayor, infected or not, I'm sure he has something that could help you.''",
+	text: [
+		"This locket, I've seen countless leaders carry these on them. ",
+		"I don't know too much about it, but my sister, Sooly opened one before. Go meet her and she'll help out."
+	],
+	dependencies: [
+		"44c3c4c1"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "2e4d6d47",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "futuremc:soul_fire_lantern",
+			tag: {
+				ench: [{
+					lvl: 3s,
+					id: 20s
+				},
+				{
+					lvl: 4s,
+					id: 16s
+				}],
+				display: {
+					Lore: [
+						"As I hold the chain, it just makes me feel...",
+						"",
+						"",
+						"So evil."
+					],
+					Name: "Ancient Power"
+				},
+				AttributeModifiers: [{
+					UUIDMost: 2406977375495012924L,
+					UUIDLeast: -6650332565102924890L,
+					Amount: 7.0d,
+					Slot: "mainhand",
+					AttributeName: "generic.attackDamage",
+					Operation: 0,
+					Name: "generic.attackDamage"
+				},
+				{
+					UUIDMost: -8320924332652738970L,
+					UUIDLeast: -8445029325764845403L,
+					Amount: 0.2d,
+					Slot: "mainhand",
+					AttributeName: "generic.attackSpeed",
+					Operation: 0,
+					Name: "generic.attackSpeed"
+				},
+				{
+					UUIDMost: -7104052437355967595L,
+					UUIDLeast: -5649649797491626163L,
+					Amount: 1.0d,
+					Slot: "mainhand",
+					AttributeName: "generic.armorToughness",
+					Operation: 0,
+					Name: "generic.armorToughness"
+				},
+				{
+					UUIDMost: 2226494043994738215L,
+					UUIDLeast: -5108187209573673888L,
+					Amount: -2.0d,
+					Slot: "mainhand",
+					AttributeName: "generic.maxHealth",
+					Operation: 0,
+					Name: "generic.maxHealth"
+				}]
+			}
+		}]
+	}]
+}

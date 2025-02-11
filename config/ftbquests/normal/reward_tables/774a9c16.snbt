@@ -1,0 +1,525 @@
+{
+	title: "Grand Youth",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "minecraft:prismarine_crystals"
+	},
+	loot_size: 1,
+	hide_tooltip: true,
+	use_title: true,
+	rewards: [{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thermalfoundation:tool.bow_diamond",
+			tag: {
+				ench: [{
+					lvl: 1s,
+					id: 70s
+				},
+				{
+					lvl: 1s,
+					id: 37s
+				},
+				{
+					lvl: 1s,
+					id: 51s
+				}],
+				display: {
+					Lore: [
+						"Not actually like the Water Bolt."
+					],
+					Name: "Water Bolt"
+				},
+				AttributeModifiers: [{
+					UUIDMost: 6142071163651180257L,
+					UUIDLeast: -7630116147019573448L,
+					Amount: 2.0d,
+					Slot: "mainhand",
+					AttributeName: "generic.armor",
+					Operation: 0,
+					Name: "generic.armor"
+				},
+				{
+					UUIDMost: 6780193460445531742L,
+					UUIDLeast: -7469913497090471799L,
+					Amount: -2.0d,
+					Slot: "mainhand",
+					AttributeName: "generic.reachDistance",
+					Operation: 0,
+					Name: "generic.reachDistance"
+				},
+				{
+					UUIDMost: 8828010876089093315L,
+					UUIDLeast: -7376028997211356219L,
+					Amount: 0.25d,
+					Slot: "mainhand",
+					AttributeName: "forge.swimSpeed",
+					Operation: 0,
+					Name: "forge.swimSpeed"
+				}]
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thermalexpansion:florb",
+			tag: {
+				Fluid: "water"
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:prismarine_crystals"
+		},
+		count: 15
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "harvestcraft:apricotglazedporkitem"
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "metallurgy:osmium_chestplate",
+			tag: {
+				ench: [{
+					lvl: 1s,
+					id: 8s
+				},
+				{
+					lvl: 10s,
+					id: 1s
+				},
+				{
+					lvl: 5s,
+					id: 5s
+				},
+				{
+					lvl: 2s,
+					id: 34s
+				}],
+				display: {
+					Lore: [
+						"Embrace the water into the lungs."
+					],
+					Name: "Deep Chestplate"
+				},
+				AttributeModifiers: [{
+					UUIDMost: 2520427414131133465L,
+					UUIDLeast: -7248829673435075444L,
+					Amount: 1.0d,
+					Slot: "chest",
+					AttributeName: "generic.attackSpeed",
+					Operation: 0,
+					Name: "generic.attackSpeed"
+				},
+				{
+					UUIDMost: -6972338111383059132L,
+					UUIDLeast: -8978659762232839026L,
+					Amount: 10.0d,
+					Slot: "chest",
+					AttributeName: "generic.armor",
+					Operation: 0,
+					Name: "generic.armor"
+				},
+				{
+					UUIDMost: -6972338111383059132L,
+					UUIDLeast: -8978659762232839026L,
+					Amount: 3.0d,
+					Slot: "chest",
+					AttributeName: "generic.armorToughness",
+					Operation: 0,
+					Name: "generic.armorToughness"
+				},
+				{
+					UUIDMost: 2239560636582218127L,
+					UUIDLeast: -4874307864567336128L,
+					Amount: 0.5d,
+					Slot: "chest",
+					AttributeName: "forge.swimSpeed",
+					Operation: 0,
+					Name: "forge.swimSpeed"
+				}]
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "harvestcraft:fishandchipsitem"
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "exnihilocreatio:item_ore_silver"
+		},
+		count: 8
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ebwizardry:ring_condensing"
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "harvestcraft:watermelonjellyitem"
+		},
+		count: 5
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:diamond"
+		},
+		count: 2
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "metallurgy:osmium_leggings",
+			tag: {
+				ench: [{
+					lvl: 3s,
+					id: 8s
+				},
+				{
+					lvl: 10s,
+					id: 1s
+				}],
+				display: {
+					Lore: [
+						"Walking on the ocean floor got much easier!"
+					],
+					Name: "Deep Leggings"
+				},
+				AttributeModifiers: [{
+					UUIDMost: 5128311452315173698L,
+					UUIDLeast: -7317426496316220584L,
+					Amount: 1.0d,
+					Slot: "legs",
+					AttributeName: "generic.attackSpeed",
+					Operation: 0,
+					Name: "generic.attackSpeed"
+				},
+				{
+					UUIDMost: -2861585646493481178L,
+					UUIDLeast: -6113244764726669811L,
+					Amount: 8.0d,
+					Slot: "legs",
+					AttributeName: "generic.armor",
+					Operation: 0,
+					Name: "generic.armor"
+				},
+				{
+					UUIDMost: -2861585646493481178L,
+					UUIDLeast: -6113244764726669811L,
+					Amount: 3.0d,
+					Slot: "legs",
+					AttributeName: "generic.armorToughness",
+					Operation: 0,
+					Name: "generic.armorToughness"
+				},
+				{
+					UUIDMost: -8970704858942714451L,
+					UUIDLeast: -6581815512569463789L,
+					Amount: 0.5d,
+					Slot: "legs",
+					AttributeName: "forge.swimSpeed",
+					Operation: 0,
+					Name: "forge.swimSpeed"
+				}]
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:enchanted_book",
+			tag: {
+				StoredEnchantments: [{
+					lvl: 2s,
+					id: 9s
+				}]
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "metallurgy:deep_iron_ingot"
+		},
+		count: 4
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:lingering_potion",
+			tag: {
+				Potion: "minecraft:long_water_breathing"
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "metallurgy:deep_iron_ingot"
+		},
+		count: 12
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "tconstruct:pickaxe",
+			tag: {
+				ench: [{
+					lvl: 1s,
+					id: 35s
+				}],
+				StatsOriginal: {
+					AttackSpeedMultiplier: 1.0f,
+					MiningSpeed: 12.0f,
+					FreeModifiers: 3,
+					Durability: 1036,
+					HarvestLevel: 4,
+					Attack: 4.1f
+				},
+				display: {
+					Name: "AUTEC Pick"
+				},
+				Stats: {
+					AttackSpeedMultiplier: 1.0f,
+					MiningSpeed: 22.020893f,
+					FreeModifiers: 0,
+					Durability: 1036,
+					HarvestLevel: 4,
+					Attack: 4.1f
+				},
+				Special: {
+					Categories: [
+						"tool",
+						"aoe",
+						"harvest"
+					]
+				},
+				TinkerData: {
+					UsedModifiers: 3,
+					Materials: [
+						"deep_iron",
+						"cobalt",
+						"prismarine"
+					],
+					Modifiers: [
+						"haste",
+						"luck"
+					]
+				},
+				Modifiers: [{
+					identifier: "opistognathus_trait",
+					color: -13813425,
+					level: 1
+				},
+				{
+					identifier: "momentum",
+					color: -14122284,
+					level: 1
+				},
+				{
+					identifier: "aquadynamic",
+					color: -8462660,
+					level: 1
+				},
+				{
+					identifier: "haste",
+					current: 100,
+					color: 9502720,
+					level: 2,
+					max: 100,
+					extraInfo: "99 / 100"
+				},
+				{
+					identifier: "luck",
+					current: 60,
+					color: 2970082,
+					level: 1,
+					max: 60,
+					modifierUsed: 1b,
+					extraInfo: "59 / 60"
+				}],
+				Traits: [
+					"opistognathus_trait",
+					"momentum",
+					"aquadynamic",
+					"luck"
+				]
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "exnihilocreatio:item_ore_silver"
+		},
+		count: 5
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "tconstruct:shuriken",
+			tag: {
+				StatsOriginal: {
+					AttackSpeedMultiplier: 1.0f,
+					Accuracy: 1.0f,
+					MiningSpeed: 10.0625f,
+					FreeModifiers: 3,
+					Durability: 1861,
+					HarvestLevel: 4,
+					Attack: 9.3575f
+				},
+				Unbreakable: 1b,
+				display: {
+					Name: "Grand Shuriken"
+				},
+				Stats: {
+					AttackSpeedMultiplier: 1.0f,
+					Accuracy: 1.0f,
+					MiningSpeed: 10.0625f,
+					FreeModifiers: 0,
+					Durability: 1861,
+					HarvestLevel: 4,
+					Attack: 11.182278f
+				},
+				Special: {
+					Categories: [
+						"projectile",
+						"no_melee",
+						"tool"
+					]
+				},
+				TinkerData: {
+					UsedModifiers: 7,
+					Materials: [
+						"steel",
+						"prismarine",
+						"ma.supremium",
+						"prismarine"
+					],
+					Modifiers: [
+						"reinforced",
+						"creative",
+						"fins",
+						"sharpness"
+					]
+				},
+				Modifiers: [{
+					identifier: "sharp",
+					color: -5789785,
+					level: 1
+				},
+				{
+					identifier: "stiff",
+					color: -5789785,
+					level: 1
+				},
+				{
+					identifier: "jagged",
+					color: -8462660,
+					level: 1
+				},
+				{
+					identifier: "aquadynamic",
+					color: -8462660,
+					level: 1
+				},
+				{
+					identifier: "prosperous",
+					color: -3932160,
+					level: 1
+				},
+				{
+					identifier: "duritos",
+					color: -3932160,
+					level: 1
+				},
+				{
+					identifier: "reinforced",
+					color: 5254787,
+					level: 5
+				},
+				{
+					identifier: "creative",
+					color: 0,
+					level: 4
+				},
+				{
+					identifier: "fins",
+					color: 11259375,
+					level: 1
+				},
+				{
+					identifier: "sharpness",
+					current: 72,
+					color: 16774902,
+					level: 1,
+					max: 72,
+					extraInfo: "71 / 72"
+				}],
+				Traits: [
+					"sharp",
+					"stiff",
+					"jagged",
+					"aquadynamic",
+					"prosperous",
+					"duritos",
+					"reinforced",
+					"fins"
+				]
+			}
+		}
+	}]
+}

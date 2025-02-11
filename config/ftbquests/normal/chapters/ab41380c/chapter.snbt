@@ -1,0 +1,23 @@
+{
+	title: "Building Bridges",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "minecraft:ladder"
+	},
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: "",
+	images: [{
+		x: -0.04336734693877986d,
+		y: 0.0892857142857153d,
+		width: 5.0d,
+		height: 5.0d,
+		rotation: 0.0d,
+		image: "icons:compass.png",
+		hover: [],
+		click: "",
+		dev: false
+	}]
+}

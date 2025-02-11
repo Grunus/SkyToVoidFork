@@ -1,0 +1,29 @@
+{
+	x: -0.5d,
+	y: 6.5d,
+	description: "The Bag of Holding is a backpack the size of a double chest.",
+	text: [
+		""
+	],
+	dependencies: [
+		"b0bd187c"
+	],
+	hide: true,
+	tasks: [{
+		uid: "ab6656d9",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "extrautils2:bagofholding"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "15239007",
+		type: "loot",
+		table: 17
+	}]
+}

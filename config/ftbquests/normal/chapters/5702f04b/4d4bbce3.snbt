@@ -1,0 +1,30 @@
+{
+	title: "Planting the Seed of Life ",
+	x: -11.0d,
+	y: 8.0d,
+	dependencies: [
+		"87d5e414"
+	],
+	hide: true,
+	tasks: [{
+		uid: "5167d475",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "mysticalagriculture:crafting",
+			Damage: 20s
+		}]
+	}],
+	rewards: [{
+		uid: "a5beacd3",
+		type: "loot",
+		table: 10
+	},
+	{
+		uid: "66631871",
+		type: "loot",
+		table: 10
+	}]
+}

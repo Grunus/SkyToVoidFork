@@ -1,0 +1,50 @@
+{
+	title: "Wealth = Power",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "thermalexpansion:dynamo",
+		tag: {
+			RSControl: 0,
+			Facing: 1,
+			Energy: 0,
+			Level: 0
+		},
+		Damage: 5s
+	},
+	x: -3.0d,
+	y: -4.0d,
+	description: "Numismatic dynamos uses coins as energy.",
+	text: [
+		""
+	],
+	dependencies: [
+		"dc8825a1"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "682264a2",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thermalexpansion:dynamo",
+			tag: {
+				RSControl: 0b,
+				Facing: 1b,
+				Energy: 0,
+				Level: 0b
+			},
+			Damage: 5s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "fc3664c4",
+		type: "loot",
+		table: 8
+	}]
+}

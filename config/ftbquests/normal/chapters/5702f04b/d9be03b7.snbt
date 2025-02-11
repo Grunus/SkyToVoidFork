@@ -1,0 +1,44 @@
+{
+	title: "EFLN",
+	x: 7.5d,
+	y: 15.5d,
+	description: "ELFNs are a great alternative to mining chunks. It requires 4 flint and TNT to craft.",
+	text: [
+		"Although it may seem that there is no ground, it can still be used efficiently on some islands."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"f2658a75",
+		"d00ce83a",
+		"90246c9e"
+	],
+	hide: true,
+	tasks: [{
+		uid: "147102d8",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "tconstruct:throwball",
+			Damage: 1s
+		}]
+	}],
+	rewards: [{
+		uid: "6b3a80e9",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "appliedenergistics2:tiny_tnt"
+		},
+		count: 7,
+		random_bonus: 14
+	},
+	{
+		uid: "e74d8dd7",
+		type: "loot",
+		table: 4
+	}]
+}

@@ -1,0 +1,28 @@
+{
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "contenttweaker:obj_obelisk",
+		tag: {
+			display: {
+				Name: "Obelisk"
+			}
+		}
+	},
+	x: -2.0d,
+	y: -24.0d,
+	text: [
+		"Your only wish, Granted.."
+	],
+	dependencies: [
+		"a3d81d52"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "8ec6dbe7",
+		type: "checkmark",
+		title: "Show me The Gate"
+	}]
+}

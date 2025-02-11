@@ -1,0 +1,692 @@
+{
+    "ReturnToStart": 1b,
+    "NpcInv": [
+        {
+            "Slot": 0b,
+            "ForgeCaps": {
+                "customnpcs:itemscripteddata": {
+                }
+            },
+            "id": "totaltinkers:explosive_bow",
+            "Count": 1b,
+            "tag": {
+                "StatsOriginal": {
+                    "AttackSpeedMultiplier": 1.0f,
+                    "MiningSpeed": 8.045f,
+                    "DrawSpeed": 1.3973577f,
+                    "FreeModifiers": 3,
+                    "ProjectileBonusDamage": 6.1666665f,
+                    "Durability": 945,
+                    "HarvestLevel": 7,
+                    "Attack": 5.115f,
+                    "Range": 0.84333336f
+                },
+                "display": {
+                    "Name": "NO FUTURE"
+                },
+                "ResetFlag": 1b,
+                "Stats": {
+                    "AttackSpeedMultiplier": 1.3840001f,
+                    "MiningSpeed": 8.045f,
+                    "DrawSpeed": 1.6656504f,
+                    "FreeModifiers": 1,
+                    "ProjectileBonusDamage": 6.1666665f,
+                    "Durability": 945,
+                    "HarvestLevel": 7,
+                    "Attack": 10.119768f,
+                    "Range": 0.84333336f
+                },
+                "Special": {
+                    "Categories": [
+                        "launcher",
+                        "weapon",
+                        "tool"
+                    ]
+                },
+                "TinkerData": {
+                    "UsedModifiers": 4,
+                    "Materials": [
+                        "blutonium",
+                        "eximite",
+                        "ma.intermedium",
+                        "slimevine_blue"
+                    ],
+                    "Modifiers": [
+                        "sharpness",
+                        "haste",
+                        "creative"
+                    ]
+                },
+                "Modifiers": [
+                    {
+                        "identifier": "radioactive",
+                        "color": -14083900,
+                        "level": 3,
+                        "radioactive3": 1b
+                    },
+                    {
+                        "identifier": "enderference",
+                        "color": -10600047,
+                        "level": 1
+                    },
+                    {
+                        "identifier": "prosperous",
+                        "color": -4765440,
+                        "level": 1
+                    },
+                    {
+                        "identifier": "sharpness",
+                        "current": 144,
+                        "color": 16774902,
+                        "level": 2,
+                        "max": 144,
+                        "extraInfo": "143 / 144"
+                    },
+                    {
+                        "identifier": "haste",
+                        "current": 96,
+                        "color": 9502720,
+                        "level": 2,
+                        "max": 100,
+                        "extraInfo": "95 / 100"
+                    },
+                    {
+                        "identifier": "creative",
+                        "color": 0,
+                        "level": 2
+                    }
+                ],
+                "Traits": [
+                    "radioactive3",
+                    "enderference",
+                    "prosperous"
+                ]
+            },
+            "Damage": 0s
+        },
+        {
+            "Slot": 1b,
+            "ForgeCaps": {
+                "customnpcs:itemscripteddata": {
+                }
+            },
+            "id": "camscurrency:aureus",
+            "Count": 1b,
+            "Damage": 0s
+        },
+        {
+            "Slot": 2b,
+            "ForgeCaps": {
+                "customnpcs:itemscripteddata": {
+                }
+            },
+            "id": "chisel:wool_cyan",
+            "Count": 1b,
+            "tag": {
+                "ench": [
+                    {
+                        "lvl": 10s,
+                        "id": 40s
+                    }
+                ],
+                "HideFlags": 33,
+                "display": {
+                    "Lore": [
+                        "... Even when everything is over..."
+                    ],
+                    "Name": "IV. Anger"
+                }
+            },
+            "Damage": 1s
+        }
+    ],
+    "BossColor": 0,
+    "PotionEffect": 0,
+    "Size": 5,
+    "stopAndInteract": 1b,
+    "Resistances": {
+        "Arrow": 2.0f,
+        "Explosion": 0.0f,
+        "Knockback": 2.0f,
+        "Melee": 2.0f
+    },
+    "BossBar": 1b,
+    "RespawnTime": 600,
+    "NpcAngrySound": "",
+    "ReactsToFire": 0b,
+    "IgnoreCobweb": 0b,
+    "PositionOffsetZ": 5.0f,
+    "PositionOffsetY": 5.0f,
+    "PositionOffsetX": 5.0f,
+    "LootMode": 0,
+    "TransformHasAI": 0b,
+    "AttackStrenght": 60,
+    "PersistenceRequired": 0b,
+    "id": "customnpcs:customnpc",
+    "IsStatue": 0b,
+    "MovingPatern": 0,
+    "NpcLines": {
+        "Lines": [
+            {
+                "Line": "YOU. BEGONE. RUIN PLAN. DIE.",
+                "Song": "",
+                "Slot": 0
+            },
+            {
+                "Line": "DIE. FOOL.",
+                "Song": "",
+                "Slot": 1
+            },
+            {
+                "Line": "MORTAL. NOTHING GOOD. USELESS.",
+                "Song": "",
+                "Slot": 2
+            },
+            {
+                "Line": "NOTHING. DIE.",
+                "Song": "",
+                "Slot": 3
+            },
+            {
+                "Line": "DREAM BIG. FOR WHAT?",
+                "Song": "",
+                "Slot": 4
+            },
+            {
+                "Line": "YOU. SMALL. DEAD.",
+                "Song": "",
+                "Slot": 5
+            },
+            {
+                "Line": "THEY. THEY WILL. BE PROUD.",
+                "Song": "",
+                "Slot": 6
+            },
+            {
+                "Line": "I AM. ABSOLUTE.",
+                "Song": "",
+                "Slot": 7
+            }
+        ]
+    },
+    "DefendFaction": 0b,
+    "FireIndirect": 0,
+    "NpcVisible": 0,
+    "LinkedNpcName": "",
+    "NpcScenes": {
+        "Scenes": [
+        ]
+    },
+    "HitSound": "minecraft:entity.lightning.impact",
+    "FindShelter": 2,
+    "Air": 300s,
+    "TacticalVariant": 0,
+    "Orientation": 0,
+    "ScriptLanguage": "ECMAScript",
+    "HandItems": [
+        {
+        },
+        {
+        }
+    ],
+    "KnockBack": 4,
+    "TransformHasJob": 0b,
+    "ArmorDropChances": [
+        0.085f,
+        0.085f,
+        0.085f,
+        0.085f
+    ],
+    "BurnInSun": 0b,
+    "StandingState": 0,
+    "AttackInvisible": 0b,
+    "NpcInteractNPCLines": {
+        "Lines": [
+        ]
+    },
+    "HurtTime": 0s,
+    "WalkingRange": 10,
+    "ShotCount": 6,
+    "pDur": 5,
+    "AttackRange": 2,
+    "NpcKillLines": {
+        "Lines": [
+            {
+                "Line": "GG.",
+                "Song": "",
+                "Slot": 0
+            },
+            {
+                "Line": "NO FUTURE.",
+                "Song": "",
+                "Slot": 1
+            },
+            {
+                "Line": "THEY. THEY WILL KNOW.",
+                "Song": "",
+                "Slot": 2
+            },
+            {
+                "Line": "WEAK.",
+                "Song": "",
+                "Slot": 3
+            },
+            {
+                "Line": "FRAIL.",
+                "Song": "",
+                "Slot": 4
+            },
+            {
+                "Line": "HOPELESS.",
+                "Song": "",
+                "Slot": 5
+            },
+            {
+                "Line": "LOST. YOU ARE.",
+                "Song": "",
+                "Slot": 6
+            }
+        ]
+    },
+    "PotionImmune": 0b,
+    "AvoidsSun": 0b,
+    "Texture": "minecraft:textures/entity/spider/spider.png",
+    "NpcJob": 0,
+    "BurstCount": 1,
+    "NpcAttackLines": {
+        "Lines": [
+            {
+                "Line": "DIE.",
+                "Song": "",
+                "Slot": 0
+            },
+            {
+                "Line": "HIDE. FOR WHAT?",
+                "Song": "",
+                "Slot": 1
+            },
+            {
+                "Line": "I AM. THIS KINGDOM.",
+                "Song": "",
+                "Slot": 2
+            },
+            {
+                "Line": "I WILL. BRING CORPSE. TO THEM.",
+                "Song": "",
+                "Slot": 3
+            },
+            {
+                "Line": "FOOLISH. DIE.",
+                "Song": "",
+                "Slot": 4
+            },
+            {
+                "Line": "LOST. BEGONE.",
+                "Song": "",
+                "Slot": 5
+            },
+            {
+                "Line": "I AM. YOUR END.",
+                "Song": "",
+                "Slot": 6
+            },
+            {
+                "Line": "GOD. I CANNOT DIE.",
+                "Song": "",
+                "Slot": 7
+            }
+        ]
+    },
+    "pSpeed": 3,
+    "pArea": 3,
+    "DeathTime": 0s,
+    "pImpact": 1,
+    "MoveState": 0,
+    "pRender3D": 1b,
+    "Motion": [
+        0.0d,
+        -0.0784000015258789d,
+        0.0d
+    ],
+    "CombatRegen": 0,
+    "NpcsTimers": [
+    ],
+    "MarkovGender": 0,
+    "pEffect": 0,
+    "DistanceToMelee": 2,
+    "NpcStepSound": "",
+    "FireRate": 5,
+    "LeftHanded": 0b,
+    "pEffAmp": 0,
+    "OnGround": 1b,
+    "Dimension": 43,
+    "ImmuneToFire": 0b,
+    "NpcKilledLines": {
+        "Lines": [
+            {
+                "Line": "IMPOSSIBLE!",
+                "Song": "",
+                "Slot": 0
+            },
+            {
+                "Line": "WHAT? WHAT HAPPENED?",
+                "Song": "",
+                "Slot": 1
+            },
+            {
+                "Line": "NO. LIKE THIS?",
+                "Song": "",
+                "Slot": 2
+            },
+            {
+                "Line": "WHY?",
+                "Song": "",
+                "Slot": 3
+            }
+        ]
+    },
+    "Fire": -1s,
+    "ArmorItems": [
+        {
+        },
+        {
+        },
+        {
+        },
+        {
+        }
+    ],
+    "DisablePitch": 0b,
+    "pPhysics": 1b,
+    "TransformHasInv": 0b,
+    "NpcInteractLines": {
+        "Lines": [
+        ]
+    },
+    "HurtByTimestamp": 26368,
+    "pSpin": 1b,
+    "NpcHurtSound": "minecraft:entity.player.hurt",
+    "pTrail": 1,
+    "CreatureType": 0,
+    "Attributes": [
+        {
+            "Base": 1.0d,
+            "Name": "potioncore.projectileDamage"
+        },
+        {
+            "Base": 1.0d,
+            "Name": "potioncore.magicDamage"
+        },
+        {
+            "Base": 1.0d,
+            "Name": "potioncore.jumpHeight"
+        },
+        {
+            "Base": 1.0d,
+            "Name": "potioncore.damageResistance"
+        },
+        {
+            "Base": 0.0d,
+            "Name": "potioncore.magicShielding"
+        },
+        {
+            "Base": 20.0d,
+            "Name": "generic.maxHealth"
+        },
+        {
+            "Base": 0.0d,
+            "Name": "generic.knockbackResistance"
+        },
+        {
+            "Base": 0.0d,
+            "Name": "generic.movementSpeed"
+        },
+        {
+            "Base": 0.0d,
+            "Name": "generic.armor"
+        },
+        {
+            "Base": 0.0d,
+            "Name": "generic.armorToughness"
+        },
+        {
+            "Base": 1.0d,
+            "Name": "forge.swimSpeed"
+        },
+        {
+            "Base": 64.0d,
+            "Name": "generic.followRange"
+        },
+        {
+            "Base": 60.0d,
+            "Name": "generic.attackDamage"
+        },
+        {
+            "Base": 0.0d,
+            "Name": "generic.flyingSpeed"
+        }
+    ],
+    "Invulnerable": 0b,
+    "TransformHasDisplay": 0b,
+    "NoFallDamage": 0b,
+    "AbsorptionAmount": 0.0f,
+    "TransformHasRole": 0b,
+    "Name": "Anger",
+    "FallDistance": 0.0f,
+    "SkinColor": 16777215,
+    "NpcIdleSound": "",
+    "Weapons": [
+        {
+            "Slot": 1b,
+            "ForgeCaps": {
+                "customnpcs:itemscripteddata": {
+                }
+            },
+            "id": "minecraft:tnt",
+            "Count": 1b,
+            "Damage": 0s
+        }
+    ],
+    "NPCDialogOptions": [
+    ],
+    "AggroRange": 16,
+    "DirectLOS": 0b,
+    "HealthRegen": 1,
+    "ForgeCaps": {
+        "everlastingabilities:org.cyclops.everlastingabilities.api.capability.imutableabilitystore": [
+        ],
+        "metallurgy:punch_effect": {
+            "hasAiDisabled": 1b,
+            "knockbackTicks": 0,
+            "ticks": 0
+        }
+    },
+    "HandDropChances": [
+        0.085f,
+        0.085f
+    ],
+    "NpcModelData": {
+        "LegsConfig": {
+            "NotShared": 0b,
+            "ScaleZ": 1.0f,
+            "TransZ": 0.0f,
+            "TransY": 0.0f,
+            "TransX": 0.012000002f,
+            "ScaleY": 1.0f,
+            "ScaleX": 1.0f
+        },
+        "BodyConfig": {
+            "NotShared": 0b,
+            "ScaleZ": 1.0f,
+            "TransZ": 0.0f,
+            "TransY": 0.0f,
+            "TransX": 0.0f,
+            "ScaleY": 1.0f,
+            "ScaleX": 1.0f
+        },
+        "Eyes": {
+            "Pattern": 0b,
+            "Glint": 1b,
+            "Type": 0b,
+            "PositionY": 1,
+            "SkinColor": 11830381,
+            "PlayerTexture": 0b,
+            "Color": 10066329,
+            "BrowColor": 5982516,
+            "BrowThickness": 4
+        },
+        "EntityClass": "net.minecraft.entity.boss.EntityWither",
+        "LegParts": {
+            "Pattern": 0b,
+            "Type": 0b,
+            "PlayerTexture": 0b,
+            "Color": 16777215
+        },
+        "Parts": [
+        ],
+        "ArmsConfig": {
+            "NotShared": 0b,
+            "ScaleZ": 1.0f,
+            "TransZ": 0.0f,
+            "TransY": 0.0f,
+            "TransX": -0.0f,
+            "ScaleY": 1.0f,
+            "ScaleX": 1.0f
+        },
+        "ExtraData": {
+        },
+        "HeadConfig": {
+            "NotShared": 0b,
+            "ScaleZ": 1.0f,
+            "TransZ": 0.0f,
+            "TransY": 0.0f,
+            "TransX": 0.0f,
+            "ScaleY": 1.0f,
+            "ScaleX": 1.0f
+        }
+    },
+    "minDelay": 20,
+    "DoorInteract": 2,
+    "MoveSpeed": 0,
+    "TransformEditingModus": 0b,
+    "UsingSkinUrl": 0b,
+    "Leashed": 0b,
+    "SkinUrl": "",
+    "CanSwim": 1b,
+    "GroundSound": "minecraft:entity.lightning.impact",
+    "MaxHealth": 20,
+    "HideBodyWhenKilled": 1b,
+    "AttackSpeed": 20,
+    "PotionDuration": 5,
+    "maxDelay": 40,
+    "ScriptEnabled": 0b,
+    "Role": 0,
+    "DropChance": [
+        {
+            "Integer": 10,
+            "Slot": 0
+        },
+        {
+            "Integer": 100,
+            "Slot": 1
+        },
+        {
+            "Integer": 100,
+            "Slot": 2
+        },
+        {
+            "Integer": 100,
+            "Slot": 3
+        },
+        {
+            "Integer": 100,
+            "Slot": 4
+        },
+        {
+            "Integer": 100,
+            "Slot": 5
+        },
+        {
+            "Integer": 100,
+            "Slot": 6
+        },
+        {
+            "Integer": 100,
+            "Slot": 7
+        },
+        {
+            "Integer": 100,
+            "Slot": 8
+        }
+    ],
+    "FactionPoints": {
+        "DecreaseFaction1Points": 0b,
+        "OptionFaction2Points": 100,
+        "OptionFactions1": -1,
+        "OptionFactions2": -1,
+        "OptionFaction1Points": 100,
+        "DecreaseFaction2Points": 0b
+    },
+    "pDamage": 38,
+    "KilledTime": 0L,
+    "AimWhileShooting": 0b,
+    "CanPickUpLoot": 0b,
+    "AttackOtherFactions": 0b,
+    "CanDrown": 1b,
+    "pSize": 5,
+    "CanSprint": 0b,
+    "CanLeap": 0b,
+    "TransformIsActive": 0b,
+    "ForgeData": {
+        "cnpcmarkdata": {
+            "marks": [
+            ]
+        },
+        "Potion Core - Health Fix": 20.0f,
+        "Potion Core - Projectile Invulnerability": 0,
+        "Potion Core - Jump Boost Updated": 1b
+    },
+    "MovingState": 0,
+    "MovingPos": 0,
+    "PotionAmp": 0,
+    "OnAttack": 0,
+    "TacticalRadius": 8,
+    "FallFlying": 0b,
+    "MaxExp": 100,
+    "OrderedLines": 0b,
+    "PortalCooldown": 0,
+    "pGlows": 1b,
+    "TransformHasAdvanced": 0b,
+    "TransformHasStats": 0b,
+    "MovementType": 0,
+    "FiringSound": "minecraft:block.dispenser.launch",
+    "ModRev": 18,
+    "Accuracy": 70,
+    "MinExp": 50,
+    "Armor": [
+    ],
+    "CloakTexture": "",
+    "GlowTexture": "",
+    "MaxFiringRange": 32,
+    "pXlr8": 0b,
+    "MarkovGeneratorId": 5,
+    "Scripts": [
+    ],
+    "Health": 20.0f,
+    "pStick": 0b,
+    "MovingPause": 1b,
+    "NpcDeathSound": "minecraft:entity.player.hurt",
+    "FactionID": 2,
+    "Title": "",
+    "TotalTicksAlive": 26545L,
+    "Rotation": [
+        214.94974f,
+        7.1805353f
+    ],
+    "ShowName": 0,
+    "npcInteracting": 1b,
+    "UpdateBlocked": 0b,
+    "AvoidsWater": 0b,
+    "NoLivingAnimation": 0b,
+    "SpawnCycle": 0
+}

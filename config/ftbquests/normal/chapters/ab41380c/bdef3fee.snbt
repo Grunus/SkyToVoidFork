@@ -1,0 +1,51 @@
+{
+	title: "The End is Nigh",
+	x: -2.5d,
+	y: 16.5d,
+	description: "The old will be thrown into dust, as the new thrives.",
+	text: [
+		""
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"996ee067"
+	],
+	hide: true,
+	size: 1.8d,
+	tasks: [{
+		uid: "2a04d2de",
+		type: "location",
+		title: "-216 125 1266",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:end_portal_frame"
+		},
+		location: [I;
+			0,
+			-217,
+			125,
+			1262,
+			5,
+			5,
+			5
+		]
+	}],
+	rewards: [{
+		uid: "e6884d20",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "tombstone:crafting_ingredient",
+			Damage: 4s
+		}
+	},
+	{
+		uid: "51c34ee5",
+		type: "ftbmoney:money",
+		ftb_money: 150L
+	}]
+}

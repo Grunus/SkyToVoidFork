@@ -1,0 +1,29 @@
+{
+	title: "Cyclic Tier I Reward",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "cyclicmagic:peat_fuel"
+	},
+	x: -13.0d,
+	y: 3.5d,
+	can_repeat: true,
+	dependencies: [
+		"64aacf06",
+		"da7458b0"
+	],
+	hide: true,
+	optional: true,
+	tasks: [{
+		uid: "9a45f5ed",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "camscurrency:denarius"
+		}],
+		count: 8L
+	}]
+}

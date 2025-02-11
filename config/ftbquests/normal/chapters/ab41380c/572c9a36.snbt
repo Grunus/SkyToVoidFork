@@ -1,0 +1,35 @@
+{
+	title: "Meet The Miner",
+	x: -12.5d,
+	y: -14.5d,
+	shape: "diamond",
+	text: [
+		""
+	],
+	dependencies: [
+		"6acdd884"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "45fbe88e",
+		type: "location",
+		title: "-614 78 -947",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "appliedenergistics2:part",
+			Damage: 380s
+		},
+		location: [I;
+			0,
+			-614,
+			78,
+			-948,
+			2,
+			2,
+			2
+		]
+	}]
+}

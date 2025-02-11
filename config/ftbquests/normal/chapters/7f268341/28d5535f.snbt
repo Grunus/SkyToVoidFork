@@ -1,0 +1,41 @@
+{
+	title: "MK2",
+	x: 14.5d,
+	y: -0.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"00e9432c"
+	],
+	hide: true,
+	tasks: [{
+		uid: "a0dd674a",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "enderio:item_end_steel_sword"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "f1e253fd",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "enderio:item_end_steel_pickaxe"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "51d4c40c",
+		type: "loot",
+		table: 36
+	}]
+}

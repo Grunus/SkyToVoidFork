@@ -1,0 +1,150 @@
+{
+	title: "Gems of the Deep",
+	x: 15.5d,
+	y: -2.5d,
+	shape: "diamond",
+	text: [
+		""
+	],
+	dependencies: [
+		"382b2692"
+	],
+	hide: true,
+	tasks: [{
+		uid: "a2286f0d",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ebwizardry:astral_diamond",
+			tag: {
+				ench: [{
+					lvl: 1s,
+					id: 60s
+				}],
+				display: {
+					Name: "Deceit"
+				}
+			}
+		}],
+		consume_items: true
+	},
+	{
+		uid: "0d224464",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ebwizardry:astral_diamond",
+			tag: {
+				ench: [{
+					lvl: 1s,
+					id: 60s
+				}],
+				display: {
+					Name: "Doom"
+				}
+			}
+		}],
+		consume_items: true
+	},
+	{
+		uid: "7ad37fc3",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ebwizardry:astral_diamond",
+			tag: {
+				ench: [{
+					lvl: 1s,
+					id: 60s
+				}],
+				display: {
+					Name: "Abstraction"
+				}
+			}
+		}],
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "5adf7d27",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "cyclicmagic:heart_food"
+		},
+		count: 2
+	},
+	{
+		uid: "088c33d6",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "tconstruct:materials",
+			Damage: 50s
+		},
+		count: 4
+	},
+	{
+		uid: "6c8cef9a",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thermalinnovation:magnet",
+			tag: {
+				Energy: 600000
+			},
+			Damage: 32000s
+		}
+	},
+	{
+		uid: "29e8d37b",
+		type: "ftbmoney:money",
+		ftb_money: 250L
+	},
+	{
+		uid: "f01a1f27",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:potion",
+			tag: {
+				Potion: "potioncore:teleport_spawn"
+			}
+		}
+	},
+	{
+		uid: "2a52a10d",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "contenttweaker:objectives",
+			tag: {
+				ench: [{
+					lvl: 1s,
+					id: 10s
+				}],
+				display: {
+					Lore: [
+						"Statue of Depression would be pleased."
+					],
+					Name: "Mark of Friendship - Island Layer 4"
+				}
+			}
+		}
+	}]
+}

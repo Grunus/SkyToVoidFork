@@ -1,0 +1,35 @@
+{
+	title: "Lava or Electrocution?",
+	x: 0.0d,
+	y: 8.5d,
+	text: [
+		"Magma Anvil uses lava to repair your items.",
+		"",
+		"Powered Anvil uses energy to repair your items."
+	],
+	dependencies: [
+		"98670d24"
+	],
+	hide: true,
+	tasks: [{
+		uid: "8c83ab59",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "cyclicmagic:block_anvil_magma"
+		},
+		{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "cyclicmagic:block_anvil"
+		}]
+	}],
+	rewards: [{
+		uid: "40ba027f",
+		type: "loot",
+		table: 52
+	}]
+}

@@ -1,0 +1,48 @@
+{
+	title: "Wither Wrath",
+	x: -20.5d,
+	y: 17.0d,
+	description: "Wrath at its finest.",
+	dependencies: [
+		"996ee067"
+	],
+	hide: true,
+	tasks: [{
+		uid: "ef152144",
+		type: "location",
+		title: "-1265 187 1336",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "darkutils:wither_block",
+			Damage: 4s
+		},
+		location: [I;
+			0,
+			-1266,
+			187,
+			1336,
+			5,
+			5,
+			5
+		]
+	}],
+	rewards: [{
+		uid: "107417d1",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "darkutils:material"
+		},
+		count: 4,
+		random_bonus: 16
+	},
+	{
+		uid: "543de813",
+		type: "ftbmoney:money",
+		ftb_money: 200L
+	}]
+}

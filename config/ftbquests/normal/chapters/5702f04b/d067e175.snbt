@@ -1,0 +1,35 @@
+{
+	title: "Tasty Goop",
+	x: 1.0d,
+	y: 1.0d,
+	dependencies: [
+		"39fb3869"
+	],
+	hide: true,
+	tasks: [{
+		uid: "ad7db273",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "tconstruct:edible",
+			Damage: 30s
+		}]
+	}],
+	rewards: [{
+		uid: "32925e60",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:spawn_egg",
+			tag: {
+				EntityTag: {
+					id: "minecraft:slime"
+				}
+			}
+		}
+	}]
+}

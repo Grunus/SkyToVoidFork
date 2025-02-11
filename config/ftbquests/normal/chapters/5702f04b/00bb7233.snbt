@@ -1,0 +1,31 @@
+{
+	title: "I Can Feel the Power!",
+	x: -5.0d,
+	y: 9.0d,
+	dependencies: [
+		"64609e35"
+	],
+	hide: true,
+	tasks: [{
+		uid: "6a5ec603",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "mendinggems:mending_gem",
+			Damage: 2s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "8689a9f6",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:emerald"
+		}
+	}]
+}

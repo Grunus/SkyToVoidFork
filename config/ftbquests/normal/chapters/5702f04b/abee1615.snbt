@@ -1,0 +1,43 @@
+{
+	title: "Razor",
+	x: -5.0d,
+	y: 4.0d,
+	description: "With a stone barrel and some lava inside, you can create a Blaze using a blazing doll.",
+	text: [
+		""
+	],
+	dependencies: [
+		"ec19fa8f"
+	],
+	hide: true,
+	tasks: [{
+		uid: "b07585d2",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "exnihilocreatio:item_doll"
+		}]
+	}],
+	rewards: [{
+		uid: "9fcf0936",
+		type: "loot",
+		table: 1
+	},
+	{
+		uid: "114d62ff",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:spawn_egg",
+			tag: {
+				EntityTag: {
+					id: "minecraft:blaze"
+				}
+			}
+		}
+	}]
+}

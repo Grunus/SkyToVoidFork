@@ -1,0 +1,49 @@
+{
+	title: "Void Outpost: Southern",
+	x: 18.0d,
+	y: 19.0d,
+	description: ".. To the bottom of the world.",
+	text: [
+		""
+	],
+	dependencies: [
+		"996ee067"
+	],
+	hide: true,
+	tasks: [{
+		uid: "830292de",
+		type: "location",
+		title: "1313 79 1300",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "appliedenergistics2:sky_stone_brick"
+		},
+		location: [I;
+			0,
+			1313,
+			79,
+			1300,
+			5,
+			5,
+			5
+		]
+	}],
+	rewards: [{
+		uid: "5f3de6fa",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "tconstruct:materials",
+			Damage: 13s
+		}
+	},
+	{
+		uid: "0dd12b24",
+		type: "ftbmoney:money",
+		ftb_money: 150L
+	}]
+}

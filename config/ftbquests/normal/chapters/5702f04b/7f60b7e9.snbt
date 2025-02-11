@@ -1,0 +1,34 @@
+{
+	title: "Vyroxeres",
+	x: 15.5d,
+	y: 14.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"81b1cd10"
+	],
+	hide: true,
+	tasks: [{
+		uid: "67427b58",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "metallurgy:vyroxeres_ingot"
+		}],
+		count: 10L
+	}],
+	rewards: [{
+		uid: "7ca06117",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "camscurrency:denarius"
+		},
+		count: 15
+	}]
+}

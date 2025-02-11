@@ -1,0 +1,831 @@
+{
+    "ReturnToStart": 1b,
+    "NpcInv": [
+        {
+            "Slot": 0b,
+            "ForgeCaps": {
+                "customnpcs:itemscripteddata": {
+                }
+            },
+            "id": "tconstruct:longbow",
+            "Count": 1b,
+            "tag": {
+                "ench": [
+                    {
+                        "lvl": 1s,
+                        "id": 33s
+                    }
+                ],
+                "StatsOriginal": {
+                    "AttackSpeedMultiplier": 1.0f,
+                    "MiningSpeed": 12.0f,
+                    "DrawSpeed": 0.75f,
+                    "FreeModifiers": 3,
+                    "ProjectileBonusDamage": 3.0f,
+                    "Durability": 1512,
+                    "HarvestLevel": 4,
+                    "Attack": 4.1f,
+                    "Range": 1.3f
+                },
+                "display": {
+                    "Name": "Golden Gate"
+                },
+                "Stats": {
+                    "AttackSpeedMultiplier": 1.1f,
+                    "MiningSpeed": 9.5f,
+                    "DrawSpeed": 0.99824995f,
+                    "FreeModifiers": 0,
+                    "ProjectileBonusDamage": 3.0f,
+                    "Durability": 2012,
+                    "HarvestLevel": 4,
+                    "Attack": 4.972194f,
+                    "Range": 1.3f
+                },
+                "Special": {
+                    "Categories": [
+                        "launcher",
+                        "tool"
+                    ]
+                },
+                "TinkerData": {
+                    "UsedModifiers": 4,
+                    "Materials": [
+                        "cobalt",
+                        "cobalt",
+                        "cobalt",
+                        "string"
+                    ],
+                    "Modifiers": [
+                        "sharpness",
+                        "silktouch",
+                        "diamond",
+                        "creative",
+                        "reinforced"
+                    ]
+                },
+                "Modifiers": [
+                    {
+                        "identifier": "lightweight",
+                        "color": -14122284,
+                        "level": 1
+                    },
+                    {
+                        "identifier": "momentum",
+                        "color": -14122284,
+                        "level": 1
+                    },
+                    {
+                        "identifier": "sharpness",
+                        "current": 72,
+                        "color": 16774902,
+                        "level": 1,
+                        "max": 72,
+                        "extraInfo": "71 / 72"
+                    },
+                    {
+                        "identifier": "silktouch",
+                        "color": 16507531
+                    },
+                    {
+                        "identifier": "diamond",
+                        "color": 9237730
+                    },
+                    {
+                        "identifier": "creative",
+                        "color": 0,
+                        "level": 1
+                    },
+                    {
+                        "identifier": "reinforced",
+                        "color": 5254787,
+                        "level": 1
+                    }
+                ],
+                "Traits": [
+                    "lightweight",
+                    "momentum",
+                    "reinforced"
+                ]
+            },
+            "Damage": 0s
+        },
+        {
+            "Slot": 1b,
+            "ForgeCaps": {
+                "customnpcs:itemscripteddata": {
+                }
+            },
+            "id": "minecraft:lingering_potion",
+            "Count": 1b,
+            "tag": {
+                "Potion": "potioncore:flight"
+            },
+            "Damage": 0s
+        },
+        {
+            "Slot": 2b,
+            "ForgeCaps": {
+                "customnpcs:itemscripteddata": {
+                }
+            },
+            "id": "harvestcraft:pizzasliceitem",
+            "Count": 1b,
+            "Damage": 0s
+        },
+        {
+            "Slot": 3b,
+            "ForgeCaps": {
+                "customnpcs:itemscripteddata": {
+                }
+            },
+            "id": "ebwizardry:battlemage_helmet_ice",
+            "Count": 1b,
+            "tag": {
+                "ench": [
+                    {
+                        "lvl": 3s,
+                        "id": 34s
+                    },
+                    {
+                        "lvl": 3s,
+                        "id": 7s
+                    },
+                    {
+                        "lvl": 6s,
+                        "id": 42s
+                    }
+                ],
+                "display": {
+                    "Lore": [
+                        "Become a part of the Kingdom."
+                    ],
+                    "Name": "§bAngel's Crown"
+                },
+                "AttributeModifiers": [
+                    {
+                        "UUIDMost": 3086076556416732775L,
+                        "UUIDLeast": -5150312587563650736L,
+                        "Amount": 6.0d,
+                        "Slot": "head",
+                        "AttributeName": "generic.armor",
+                        "Operation": 0,
+                        "Name": "generic.armor"
+                    },
+                    {
+                        "UUIDMost": 3086076556416732775L,
+                        "UUIDLeast": -5150312587563650736L,
+                        "Amount": 2.0d,
+                        "Slot": "head",
+                        "AttributeName": "generic.armorToughness",
+                        "Operation": 0,
+                        "Name": "generic.armorToughness"
+                    }
+                ]
+            },
+            "Damage": 0s
+        },
+        {
+            "Slot": 4b,
+            "ForgeCaps": {
+                "customnpcs:itemscripteddata": {
+                }
+            },
+            "id": "ebwizardry:spell_book",
+            "Count": 1b,
+            "Damage": 127s
+        },
+        {
+            "Slot": 5b,
+            "ForgeCaps": {
+                "customnpcs:itemscripteddata": {
+                }
+            },
+            "id": "darkutils:shulker_pearl",
+            "Count": 1b,
+            "Damage": 0s
+        }
+    ],
+    "BossColor": 0,
+    "PotionEffect": 0,
+    "Size": 6,
+    "stopAndInteract": 1b,
+    "Resistances": {
+        "Arrow": 1.0f,
+        "Explosion": 1.0f,
+        "Knockback": 0.8873239f,
+        "Melee": 1.0f
+    },
+    "BossBar": 0b,
+    "RespawnTime": 1200,
+    "NpcAngrySound": "",
+    "ReactsToFire": 0b,
+    "IgnoreCobweb": 0b,
+    "PositionOffsetZ": 5.0f,
+    "PositionOffsetY": 5.0f,
+    "PositionOffsetX": 5.0f,
+    "LootMode": 0,
+    "TransformHasAI": 0b,
+    "AttackStrenght": 5,
+    "PersistenceRequired": 0b,
+    "id": "customnpcs:customnpc",
+    "IsStatue": 0b,
+    "MovingPatern": 0,
+    "NpcLines": {
+        "Lines": [
+        ]
+    },
+    "DefendFaction": 0b,
+    "FireIndirect": 0,
+    "NpcVisible": 0,
+    "LinkedNpcName": "",
+    "NpcScenes": {
+        "Scenes": [
+        ]
+    },
+    "HitSound": "minecraft:entity.arrow.hit",
+    "FindShelter": 2,
+    "Air": 300s,
+    "TacticalVariant": 0,
+    "Orientation": 0,
+    "ScriptLanguage": "ECMAScript",
+    "HandItems": [
+        {
+        },
+        {
+        }
+    ],
+    "KnockBack": 0,
+    "TransformHasJob": 0b,
+    "ArmorDropChances": [
+        0.085f,
+        0.085f,
+        0.085f,
+        0.085f
+    ],
+    "BurnInSun": 0b,
+    "StandingState": 0,
+    "AttackInvisible": 0b,
+    "NpcInteractNPCLines": {
+        "Lines": [
+        ]
+    },
+    "HurtTime": 0s,
+    "WalkingRange": 30,
+    "ShotCount": 1,
+    "pDur": 5,
+    "AttackRange": 2,
+    "NpcKillLines": {
+        "Lines": [
+        ]
+    },
+    "PotionImmune": 1b,
+    "AvoidsSun": 0b,
+    "Texture": "minecraft:textures/entity/end_gateway_beam.png",
+    "NpcJob": 0,
+    "BurstCount": 1,
+    "NpcAttackLines": {
+        "Lines": [
+        ]
+    },
+    "pSpeed": 30,
+    "pArea": 0,
+    "DeathTime": 0s,
+    "pImpact": 0,
+    "MoveState": 0,
+    "pRender3D": 1b,
+    "Motion": [
+        0.07023923327128208d,
+        0.05634235160671375d,
+        0.1131568933912283d
+    ],
+    "CombatRegen": 1,
+    "NpcsTimers": [
+    ],
+    "MarkovGender": 0,
+    "pEffect": 0,
+    "DistanceToMelee": 0,
+    "NpcStepSound": "",
+    "FireRate": 5,
+    "LeftHanded": 0b,
+    "pEffAmp": 0,
+    "OnGround": 0b,
+    "Dimension": 0,
+    "ImmuneToFire": 1b,
+    "NpcKilledLines": {
+        "Lines": [
+        ]
+    },
+    "Fire": -1s,
+    "ArmorItems": [
+        {
+        },
+        {
+        },
+        {
+        },
+        {
+        }
+    ],
+    "DisablePitch": 0b,
+    "pPhysics": 0b,
+    "TransformHasInv": 0b,
+    "NpcInteractLines": {
+        "Lines": [
+            {
+                "Line": "Hello @p",
+                "Song": "",
+                "Slot": 0
+            }
+        ]
+    },
+    "HurtByTimestamp": 4416,
+    "pSpin": 0b,
+    "NpcHurtSound": "minecraft:entity.player.hurt",
+    "pTrail": 4,
+    "CreatureType": 0,
+    "Attributes": [
+        {
+            "Base": 1.0d,
+            "Name": "potioncore.projectileDamage"
+        },
+        {
+            "Base": 1.0d,
+            "Name": "potioncore.magicDamage"
+        },
+        {
+            "Base": 1.0d,
+            "Name": "potioncore.jumpHeight"
+        },
+        {
+            "Base": 1.0d,
+            "Name": "potioncore.damageResistance"
+        },
+        {
+            "Base": 0.0d,
+            "Name": "potioncore.magicShielding"
+        },
+        {
+            "Base": 1.0d,
+            "Name": "artemislib.entityHeight"
+        },
+        {
+            "Base": 1.0d,
+            "Name": "artemislib.entityWidth"
+        },
+        {
+            "Base": 30.0d,
+            "Name": "generic.maxHealth"
+        },
+        {
+            "Base": 0.0d,
+            "Name": "generic.knockbackResistance"
+        },
+        {
+            "Base": 0.30000001192092896d,
+            "Name": "generic.movementSpeed"
+        },
+        {
+            "Base": 0.0d,
+            "Name": "generic.armor"
+        },
+        {
+            "Base": 0.0d,
+            "Name": "generic.armorToughness"
+        },
+        {
+            "Base": 1.0d,
+            "Name": "forge.swimSpeed"
+        },
+        {
+            "Base": 64.0d,
+            "Name": "generic.followRange"
+        },
+        {
+            "Base": 5.0d,
+            "Name": "generic.attackDamage"
+        },
+        {
+            "Base": 0.6000000238418579d,
+            "Name": "generic.flyingSpeed"
+        }
+    ],
+    "Invulnerable": 0b,
+    "TransformHasDisplay": 0b,
+    "NoFallDamage": 1b,
+    "AbsorptionAmount": 0.0f,
+    "TransformHasRole": 0b,
+    "Name": "Angel",
+    "FallDistance": 0.0f,
+    "SkinColor": 16777215,
+    "NpcIdleSound": "",
+    "Weapons": [
+        {
+            "Slot": 0b,
+            "ForgeCaps": {
+                "customnpcs:itemscripteddata": {
+                }
+            },
+            "id": "tconstruct:longbow",
+            "Count": 1b,
+            "tag": {
+                "ench": [
+                    {
+                        "lvl": 1s,
+                        "id": 33s
+                    }
+                ],
+                "StatsOriginal": {
+                    "AttackSpeedMultiplier": 1.0f,
+                    "MiningSpeed": 12.0f,
+                    "DrawSpeed": 0.75f,
+                    "FreeModifiers": 3,
+                    "ProjectileBonusDamage": 3.0f,
+                    "Durability": 1512,
+                    "HarvestLevel": 4,
+                    "Attack": 4.1f,
+                    "Range": 1.3f
+                },
+                "Stats": {
+                    "AttackSpeedMultiplier": 1.1f,
+                    "MiningSpeed": 9.5f,
+                    "DrawSpeed": 0.99824995f,
+                    "FreeModifiers": 0,
+                    "ProjectileBonusDamage": 3.0f,
+                    "Durability": 2012,
+                    "HarvestLevel": 4,
+                    "Attack": 2.2584047f,
+                    "Range": 1.3f
+                },
+                "Special": {
+                    "Categories": [
+                        "launcher",
+                        "tool"
+                    ]
+                },
+                "TinkerData": {
+                    "UsedModifiers": 3,
+                    "Materials": [
+                        "cobalt",
+                        "cobalt",
+                        "cobalt",
+                        "string"
+                    ],
+                    "Modifiers": [
+                        "sharpness",
+                        "silktouch",
+                        "diamond"
+                    ]
+                },
+                "Modifiers": [
+                    {
+                        "identifier": "lightweight",
+                        "color": -14122284,
+                        "level": 1
+                    },
+                    {
+                        "identifier": "momentum",
+                        "color": -14122284,
+                        "level": 1
+                    },
+                    {
+                        "identifier": "sharpness",
+                        "current": 4,
+                        "color": 16774902,
+                        "level": 1,
+                        "max": 72,
+                        "extraInfo": "3 / 72"
+                    },
+                    {
+                        "identifier": "silktouch",
+                        "color": 16507531
+                    },
+                    {
+                        "identifier": "diamond",
+                        "color": 9237730
+                    }
+                ],
+                "Traits": [
+                    "lightweight",
+                    "momentum"
+                ]
+            },
+            "Damage": 0s
+        },
+        {
+            "Slot": 1b,
+            "ForgeCaps": {
+                "customnpcs:itemscripteddata": {
+                }
+            },
+            "id": "ebwizardry:ring_mana_return",
+            "Count": 1b,
+            "Damage": 0s
+        }
+    ],
+    "NPCDialogOptions": [
+    ],
+    "AggroRange": 30,
+    "DirectLOS": 1b,
+    "HealthRegen": 1,
+    "ForgeCaps": {
+        "artemislib:capability": {
+            "transformed": 0b
+        },
+        "everlastingabilities:org.cyclops.everlastingabilities.api.capability.imutableabilitystore": [
+        ],
+        "metallurgy:punch_effect": {
+            "hasAiDisabled": 1b,
+            "knockbackTicks": 0,
+            "ticks": 0
+        }
+    },
+    "HandDropChances": [
+        0.085f,
+        0.085f
+    ],
+    "NpcModelData": {
+        "LegsConfig": {
+            "NotShared": 0b,
+            "ScaleZ": 1.0f,
+            "TransZ": 0.0f,
+            "TransY": 0.0f,
+            "TransX": 0.012000002f,
+            "ScaleY": 1.0f,
+            "ScaleX": 1.0f
+        },
+        "BodyConfig": {
+            "NotShared": 0b,
+            "ScaleZ": 1.0f,
+            "TransZ": 0.0f,
+            "TransY": 0.0f,
+            "TransX": 0.0f,
+            "ScaleY": 1.0f,
+            "ScaleX": 1.0f
+        },
+        "Eyes": {
+            "Pattern": 0b,
+            "Glint": 1b,
+            "Type": 0b,
+            "PositionY": 1,
+            "SkinColor": 11830381,
+            "PlayerTexture": 0b,
+            "Color": 6085589,
+            "BrowColor": 5982516,
+            "BrowThickness": 4
+        },
+        "EntityClass": "net.minecraft.entity.monster.EntityWitherSkeleton",
+        "LegParts": {
+            "Pattern": 0b,
+            "Type": 0b,
+            "PlayerTexture": 0b,
+            "Color": 16777215
+        },
+        "Parts": [
+        ],
+        "ArmsConfig": {
+            "NotShared": 0b,
+            "ScaleZ": 1.0f,
+            "TransZ": 0.0f,
+            "TransY": 0.0f,
+            "TransX": -0.0f,
+            "ScaleY": 1.0f,
+            "ScaleX": 1.0f
+        },
+        "ExtraData": {
+        },
+        "HeadConfig": {
+            "NotShared": 0b,
+            "ScaleZ": 1.0f,
+            "TransZ": 0.0f,
+            "TransY": 0.0f,
+            "TransX": 0.0f,
+            "ScaleY": 1.0f,
+            "ScaleX": 1.0f
+        }
+    },
+    "minDelay": 30,
+    "DoorInteract": 1,
+    "MoveSpeed": 6,
+    "TransformEditingModus": 0b,
+    "UsingSkinUrl": 0b,
+    "Leashed": 0b,
+    "SkinUrl": "",
+    "CanSwim": 1b,
+    "GroundSound": "minecraft:block.stone.break",
+    "MaxHealth": 30,
+    "HideBodyWhenKilled": 1b,
+    "AttackSpeed": 20,
+    "PotionDuration": 5,
+    "maxDelay": 50,
+    "ScriptEnabled": 0b,
+    "Role": 0,
+    "DropChance": [
+        {
+            "Integer": 2,
+            "Slot": 0
+        },
+        {
+            "Integer": 1,
+            "Slot": 1
+        },
+        {
+            "Integer": 5,
+            "Slot": 2
+        },
+        {
+            "Integer": 4,
+            "Slot": 3
+        },
+        {
+            "Integer": 4,
+            "Slot": 4
+        },
+        {
+            "Integer": 3,
+            "Slot": 5
+        },
+        {
+            "Integer": 100,
+            "Slot": 6
+        },
+        {
+            "Integer": 100,
+            "Slot": 7
+        },
+        {
+            "Integer": 100,
+            "Slot": 8
+        }
+    ],
+    "FactionPoints": {
+        "DecreaseFaction1Points": 0b,
+        "OptionFaction2Points": 100,
+        "OptionFactions1": -1,
+        "OptionFactions2": -1,
+        "OptionFaction1Points": 100,
+        "DecreaseFaction2Points": 0b
+    },
+    "pDamage": 14,
+    "KilledTime": 0L,
+    "AimWhileShooting": 1b,
+    "CanPickUpLoot": 0b,
+    "AttackOtherFactions": 0b,
+    "CanDrown": 1b,
+    "pSize": 5,
+    "CanSprint": 0b,
+    "CanLeap": 0b,
+    "TransformIsActive": 0b,
+    "ForgeData": {
+        "cnpcmarkdata": {
+            "marks": [
+            ]
+        },
+        "Potion Core - Health Fix": 30.0f,
+        "Potion Core - Projectile Invulnerability": 0,
+        "Potion Core - Jump Boost Updated": 1b
+    },
+    "MovingState": 1,
+    "MovingPos": 0,
+    "PotionAmp": 0,
+    "OnAttack": 0,
+    "TacticalRadius": 8,
+    "FallFlying": 0b,
+    "MaxExp": 40,
+    "OrderedLines": 0b,
+    "PortalCooldown": 0,
+    "pGlows": 1b,
+    "TransformHasAdvanced": 0b,
+    "TransformHasStats": 0b,
+    "MovementType": 1,
+    "FiringSound": "enderio:telepad.teleport",
+    "ModRev": 18,
+    "Accuracy": 90,
+    "MinExp": 10,
+    "Armor": [
+        {
+            "Slot": 0b,
+            "ForgeCaps": {
+                "customnpcs:itemscripteddata": {
+                }
+            },
+            "id": "ebwizardry:warlock_hood_ice",
+            "Count": 1b,
+            "tag": {
+                "AttributeModifiers": [
+                    {
+                        "UUIDMost": 3086076556416732775L,
+                        "UUIDLeast": -5150312587563650736L,
+                        "Amount": 1.0d,
+                        "Slot": "head",
+                        "AttributeName": "generic.armor",
+                        "Operation": 0,
+                        "Name": "generic.armor"
+                    }
+                ]
+            },
+            "Damage": 0s
+        },
+        {
+            "Slot": 1b,
+            "ForgeCaps": {
+                "customnpcs:itemscripteddata": {
+                }
+            },
+            "id": "ebwizardry:sage_robe_ice",
+            "Count": 1b,
+            "tag": {
+                "AttributeModifiers": [
+                    {
+                        "UUIDMost": -6972338111383059132L,
+                        "UUIDLeast": -8978659762232839026L,
+                        "Amount": 1.0d,
+                        "Slot": "chest",
+                        "AttributeName": "generic.armor",
+                        "Operation": 0,
+                        "Name": "generic.armor"
+                    }
+                ]
+            },
+            "Damage": 0s
+        },
+        {
+            "Slot": 2b,
+            "ForgeCaps": {
+                "customnpcs:itemscripteddata": {
+                }
+            },
+            "id": "ebwizardry:battlemage_leggings_ice",
+            "Count": 1b,
+            "tag": {
+                "AttributeModifiers": [
+                    {
+                        "UUIDMost": -2861585646493481178L,
+                        "UUIDLeast": -6113244764726669811L,
+                        "Amount": 2.0d,
+                        "Slot": "legs",
+                        "AttributeName": "generic.armor",
+                        "Operation": 0,
+                        "Name": "generic.armor"
+                    },
+                    {
+                        "UUIDMost": -2861585646493481178L,
+                        "UUIDLeast": -6113244764726669811L,
+                        "Amount": 1.0d,
+                        "Slot": "legs",
+                        "AttributeName": "generic.armorToughness",
+                        "Operation": 0,
+                        "Name": "generic.armorToughness"
+                    }
+                ]
+            },
+            "Damage": 0s
+        },
+        {
+            "Slot": 3b,
+            "ForgeCaps": {
+                "customnpcs:itemscripteddata": {
+                }
+            },
+            "id": "ebwizardry:sage_boots_ice",
+            "Count": 1b,
+            "tag": {
+                "AttributeModifiers": [
+                    {
+                        "UUIDMost": -8908768238899017377L,
+                        "UUIDLeast": -8313820693701227669L,
+                        "Amount": 1.0d,
+                        "Slot": "feet",
+                        "AttributeName": "generic.armor",
+                        "Operation": 0,
+                        "Name": "generic.armor"
+                    }
+                ]
+            },
+            "Damage": 0s
+        }
+    ],
+    "CloakTexture": "",
+    "GlowTexture": "",
+    "MaxFiringRange": 40,
+    "pXlr8": 0b,
+    "MarkovGeneratorId": 4,
+    "Scripts": [
+    ],
+    "Health": 30.0f,
+    "pStick": 1b,
+    "MovingPause": 0b,
+    "NpcDeathSound": "minecraft:entity.player.hurt",
+    "FactionID": 11,
+    "Title": "",
+    "TotalTicksAlive": 154701L,
+    "Rotation": [
+        -31.82888f,
+        0.0f
+    ],
+    "ShowName": 0,
+    "npcInteracting": 0b,
+    "UpdateBlocked": 0b,
+    "AvoidsWater": 0b,
+    "NoLivingAnimation": 0b,
+    "SpawnCycle": 0
+}

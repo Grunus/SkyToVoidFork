@@ -1,0 +1,17 @@
+filename = 'MendingGems-1.12.2-1.0.1.jar'
+name = 'Mending Gems'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'MendingGems-1.12.2-1.0.1'
+
+[download]
+hash = '322e6298803eca4bcfce3dfa4597fc74b7375466'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 3152231
+project-id = 320339

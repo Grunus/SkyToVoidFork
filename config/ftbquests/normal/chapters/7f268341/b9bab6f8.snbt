@@ -1,0 +1,26 @@
+{
+	title: "The Golden Lasso",
+	x: 0.5d,
+	y: 7.5d,
+	description: "You can pickup friendly mobs and reuse the lasso.",
+	dependencies: [
+		"b0bd187c"
+	],
+	hide: true,
+	tasks: [{
+		uid: "b34f582e",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "extrautils2:goldenlasso"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "e445c229",
+		type: "loot",
+		table: 17
+	}]
+}

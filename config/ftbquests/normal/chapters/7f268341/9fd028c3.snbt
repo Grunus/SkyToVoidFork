@@ -1,0 +1,32 @@
+{
+	title: "Pants?",
+	x: 16.0d,
+	y: 3.5d,
+	description: "Attract items on the ground to you.",
+	text: [
+		""
+	],
+	dependencies: [
+		"54b07c2c"
+	],
+	hide: true,
+	tasks: [{
+		uid: "6a903bcf",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "enderio:item_magnet",
+			tag: {
+				"enderio:energy": 100000
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "cb8fdec8",
+		type: "loot",
+		table: 35
+	}]
+}

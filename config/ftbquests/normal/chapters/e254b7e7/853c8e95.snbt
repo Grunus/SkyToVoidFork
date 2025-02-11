@@ -1,0 +1,41 @@
+{
+	title: "Objectives",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "contenttweaker:objectives",
+		tag: {
+			display: {
+				Name: "Objectives"
+			}
+		}
+	},
+	x: 5.5d,
+	y: -11.0d,
+	text: [
+		"5 --Islands to discover",
+		"4 --Quests to complete",
+		"1 --Deadly Sin to collect"
+	],
+	dependencies: [
+		"02b464cc",
+		"fe5e4f13"
+	],
+	hide: true,
+	tasks: [{
+		uid: "dfc70686",
+		type: "checkmark",
+		title: "Break the Void"
+	}],
+	rewards: [{
+		uid: "6b97d577",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "camscurrency:denarius"
+		}
+	}]
+}

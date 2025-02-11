@@ -1,0 +1,48 @@
+{
+	title: "Rain Cloud",
+	x: -7.0d,
+	y: -3.0d,
+	description: "What the tops of clouds really looks like.",
+	hide_dependency_lines: true,
+	dependencies: [
+		"2bd5aaf9",
+		"56904fde"
+	],
+	hide: true,
+	tasks: [{
+		uid: "98217347",
+		type: "location",
+		title: "-151 81 -57",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "chisel:cloud"
+		},
+		location: [I;
+			0,
+			-155,
+			81,
+			-61,
+			5,
+			5,
+			5
+		]
+	}],
+	rewards: [{
+		uid: "f83fe94e",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "claybucket:claybucket",
+			Damage: 1s
+		}
+	},
+	{
+		uid: "7abc8dfd",
+		type: "ftbmoney:money",
+		ftb_money: 15L
+	}]
+}

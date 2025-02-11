@@ -1,0 +1,31 @@
+{
+	title: "Spiked Gloves",
+	x: 7.0d,
+	y: 6.5d,
+	description: "Climb up walls like a spider.",
+	text: [
+		""
+	],
+	dependencies: [
+		"dd941e95"
+	],
+	hide: true,
+	tasks: [{
+		uid: "5e3645a4",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "cyclicmagic:glove_climb",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "d9aa5502",
+		type: "loot",
+		table: 51
+	}]
+}

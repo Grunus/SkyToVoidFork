@@ -1,0 +1,34 @@
+{
+	title: "6 Cents",
+	x: -8.0d,
+	y: -1.0d,
+	description: "Constantian is created by adding nickel and copper together, by blend or by a smeltery.",
+	dependencies: [
+		"1fd81e05"
+	],
+	hide: true,
+	tasks: [{
+		uid: "746d2b7a",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thermalfoundation:material",
+			Damage: 164s
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "e00447e1",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thermalfoundation:coin",
+			Damage: 64s
+		},
+		count: 6
+	}]
+}

@@ -1,0 +1,36 @@
+{
+	title: "Pyromaniac",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "thermalfoundation:material",
+		Damage: 1024s
+	},
+	x: -5.0d,
+	y: -5.0d,
+	description: "Pyrotheum can be used as an efficient but expensive fuel. There are some important recipes that use this stuff as well.",
+	text: [
+		""
+	],
+	dependencies: [
+		"f0a388c1"
+	],
+	hide: true,
+	tasks: [{
+		uid: "8cd9695d",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thermalfoundation:material",
+			Damage: 1024s
+		}]
+	}],
+	rewards: [{
+		uid: "27d64727",
+		type: "loot",
+		table: 8
+	}]
+}

@@ -1,0 +1,23 @@
+{
+	title: "Skeletron's Dungeon",
+	x: 4.0d,
+	y: 5.0d,
+	description: "Increase mob spawning around the candle.",
+	text: [
+		""
+	],
+	dependencies: [
+		"ef9d27e2"
+	],
+	hide: true,
+	tasks: [{
+		uid: "01b3e5ba",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "cyclicmagic:water_candle"
+		}]
+	}]
+}

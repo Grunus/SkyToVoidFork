@@ -1,0 +1,157 @@
+{
+	title: "Reece is Making Something New!",
+	x: 14.0d,
+	y: 13.0d,
+	shape: "diamond",
+	description: "''I'm trying to make something really unique for my customers. Perhaps you could find some exotic ingredients out in the Void?''",
+	text: [
+		"That's what I call Exotic! I'll cook something for you using these right now! "
+	],
+	dependencies: [
+		"182dd896"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "a939ead0",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "enderio:item_material",
+			tag: {
+				ench: [{
+					lvl: 1s,
+					id: 71s
+				}],
+				display: {
+					Lore: [
+						"The End sparks with anger from the outside",
+						"interfering.",
+						"",
+						"Also a good fire starter."
+					],
+					Name: "Sizzling End"
+				}
+			},
+			Damage: 28s
+		}],
+		count: 4L,
+		consume_items: true
+	},
+	{
+		uid: "4b5db929",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "biomesoplenty:ash",
+			tag: {
+				ench: [{
+					lvl: 10s,
+					id: 71s
+				}],
+				display: {
+					Lore: [
+						"Pure darkness latched onto itself."
+					],
+					Name: "Physical Darkness"
+				}
+			}
+		}],
+		count: 4L,
+		consume_items: true
+	},
+	{
+		uid: "d85078a8",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "gachashroom:beefsteakfungus",
+			tag: {
+				ench: [{
+					lvl: 10s,
+					id: 10s
+				},
+				{
+					lvl: 1s,
+					id: 31s
+				}],
+				display: {
+					Lore: [
+						"A very distinct oder emits off.",
+						"Also makes you sleepy..."
+					],
+					Name: "Shroomer Flakes"
+				}
+			}
+		}],
+		count: 4L,
+		consume_items: true
+	},
+	{
+		uid: "a418437f",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "cfm:item_flesh",
+			tag: {
+				ench: [{
+					lvl: 10s,
+					id: 10s
+				}],
+				display: {
+					Lore: [
+						"Holding it sobs with a greenish liquid.",
+						"Who knows what comes out if you squeeze it..."
+					],
+					Name: "Juicy Flesh"
+				}
+			}
+		}],
+		count: 4L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "e5468740",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:potion",
+			tag: {
+				CustomPotionColor: 65280,
+				CustomPotionEffects: [{
+					Ambient: 0b,
+					CurativeItems: [{
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": {}
+						},
+						id: "minecraft:milk_bucket",
+						Count: 1b,
+						Damage: 0s
+					}],
+					ShowParticles: 1b,
+					Duration: 10000,
+					Id: 26b,
+					Amplifier: 99b
+				}],
+				display: {
+					Name: "Very Very Lucky Potion"
+				}
+			}
+		}
+	},
+	{
+		uid: "05d3b73b",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

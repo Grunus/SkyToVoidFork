@@ -1,0 +1,37 @@
+{
+	title: "Mechanics From Another Dimension",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "extrautils2:quarry"
+	},
+	x: 5.0d,
+	y: 2.5d,
+	shape: "square",
+	dependencies: [
+		"2a169db8"
+	],
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "47088b36",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "extrautils2:quarry"
+		}]
+	},
+	{
+		uid: "b7c9391f",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "extrautils2:quarryproxy"
+		}],
+		count: 6L
+	}]
+}

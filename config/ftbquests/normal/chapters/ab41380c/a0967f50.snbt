@@ -1,0 +1,66 @@
+{
+	title: "Hunt: Don't Kill 'till you See the Whites of Their Eyes",
+	x: 10.0d,
+	y: -16.0d,
+	shape: "pentagon",
+	description: "''I dream to examinate their eyes. Please get a few for me.''",
+	text: [
+		""
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"26b86661",
+		"46793e20"
+	],
+	hide: true,
+	tasks: [{
+		uid: "cf20a5b7",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "enderio:item_material",
+			tag: {
+				Unbreakable: 1b,
+				display: {
+					Lore: [
+						"Probably taste pretty good!"
+					],
+					Name: "Intact Sclera"
+				}
+			},
+			Damage: 58s
+		}],
+		count: 6L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "b00339a3",
+		type: "custom",
+		title: "Bob's Quest Trial",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:filled_map"
+		},
+		team_reward: true
+	},
+	{
+		uid: "ecd930bf",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "camscurrency:denarius"
+		},
+		count: 8
+	},
+	{
+		uid: "307d0bd6",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	}]
+}

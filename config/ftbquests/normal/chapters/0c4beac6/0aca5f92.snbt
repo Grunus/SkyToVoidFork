@@ -1,0 +1,37 @@
+{
+	title: "Ender IO Tier IV Reward",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "enderio:item_end_steel_sword"
+	},
+	x: -10.0d,
+	y: 6.5d,
+	can_repeat: true,
+	dependencies: [
+		"b5e0e8b0",
+		"33bd0cac",
+		"3b76320d",
+		"4a597abd",
+		"f01a32d5"
+	],
+	hide: true,
+	optional: true,
+	tasks: [{
+		uid: "d4c7f398",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "camscurrency:denarius"
+		}],
+		count: 32L
+	}],
+	rewards: [{
+		uid: "7bc21de7",
+		type: "loot",
+		table: 37
+	}]
+}

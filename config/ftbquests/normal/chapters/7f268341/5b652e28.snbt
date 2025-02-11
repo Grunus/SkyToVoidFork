@@ -1,0 +1,51 @@
+{
+	title: "PC Part Picker",
+	x: -16.5d,
+	y: 8.5d,
+	text: [
+		"Fantastic! You now have the processors. We can start building the ME System."
+	],
+	dependencies: [
+		"260f1a60"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "5a1fdfe3",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "appliedenergistics2:material",
+			Damage: 23s
+		}]
+	},
+	{
+		uid: "975d44e2",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "appliedenergistics2:material",
+			Damage: 24s
+		}]
+	},
+	{
+		uid: "2bd17700",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "appliedenergistics2:material",
+			Damage: 22s
+		}]
+	}],
+	rewards: [{
+		uid: "78cab029",
+		type: "loot",
+		table: 15
+	}]
+}

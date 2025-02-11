@@ -1,0 +1,42 @@
+{
+	title: "Chim's Chance To Pass His Teachings",
+	x: -1.5d,
+	y: -5.5d,
+	shape: "diamond",
+	description: "''A stranger doesn't wonder onto my island with no reason, they're here to learn from me! Relish in my teachings! Let me guide you under my wings...''",
+	text: [
+		"I'm glad you collected these. We can start the learning process."
+	],
+	dependencies: [
+		"f70585de"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "efea983d",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ebwizardry:magic_crystal"
+		}],
+		count: 32L
+	}],
+	rewards: [{
+		uid: "bac11033",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "camscurrency:denarius"
+		},
+		count: 4
+	},
+	{
+		uid: "0591e428",
+		type: "ftbmoney:money",
+		ftb_money: 5L
+	}]
+}

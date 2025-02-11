@@ -1,0 +1,117 @@
+{
+	title: "Wambo's Damage Control",
+	x: -12.0d,
+	y: -9.5d,
+	shape: "diamond",
+	description: "''...Ahh shucks, seems there's a few wounds on my train. No worries, if you could get me some plates I can fix it up easily!''",
+	text: [
+		"The state of the art train is open for business! Well, repairs or no repairs, I'll still run this train in any condition."
+	],
+	dependencies: [
+		"84bb8bc6"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "adf9d0b3",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thermalfoundation:material",
+			Damage: 32s
+		}],
+		count: 48L,
+		consume_items: true
+	},
+	{
+		uid: "b4ef4573",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thermalfoundation:material",
+			Damage: 320s
+		}],
+		count: 64L,
+		consume_items: true
+	},
+	{
+		uid: "67200c60",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thermalfoundation:material",
+			Damage: 352s
+		}],
+		count: 8L,
+		consume_items: true
+	},
+	{
+		uid: "6e4d2b9c",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thermalfoundation:material",
+			Damage: 358s
+		}],
+		count: 32L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "c4a25797",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "camscurrency:denarius"
+		},
+		count: 30
+	},
+	{
+		uid: "43ec2397",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thermalfoundation:coin",
+			Damage: 103s
+		},
+		count: 12
+	},
+	{
+		uid: "09c63507",
+		type: "ftbmoney:money",
+		ftb_money: 125L
+	},
+	{
+		uid: "0ec23ebb",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "contenttweaker:objectives",
+			tag: {
+				ench: [{
+					lvl: 1s,
+					id: 10s
+				}],
+				display: {
+					Lore: [
+						"Statue of Bargaining would be pleased."
+					],
+					Name: "Mark of Friendship - Island Layer 3"
+				}
+			}
+		}
+	}]
+}

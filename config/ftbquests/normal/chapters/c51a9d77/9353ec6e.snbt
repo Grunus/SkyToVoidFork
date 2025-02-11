@@ -1,0 +1,29 @@
+{
+	title: "More Ender Chests!",
+	x: 7.5d,
+	y: 4.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"8c5078e2"
+	],
+	hide: true,
+	tasks: [{
+		uid: "d2698a02",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "cyclicmagic:sack_ender"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "2da44f2b",
+		type: "loot",
+		table: 52
+	}]
+}

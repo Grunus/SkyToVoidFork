@@ -1,0 +1,53 @@
+{
+	title: "XP Bank",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "mysticalagriculture:xp_droplet"
+	},
+	x: -3.5d,
+	y: 5.5d,
+	text: [
+		"Keep your XP stored to save it on death! Place the drain on top of the tank to start extracting your XP."
+	],
+	dependencies: [
+		"a2d990d3"
+	],
+	hide: true,
+	tasks: [{
+		uid: "50159ef8",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "openblocks:tank"
+		}]
+	},
+	{
+		uid: "3c798ddd",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "openblocks:xp_drain"
+		}]
+	},
+	{
+		uid: "5660861f",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "openblocks:xp_shower"
+		}]
+	}],
+	rewards: [{
+		uid: "15cf48a3",
+		type: "xp_levels",
+		xp_levels: 10
+	}]
+}

@@ -1,0 +1,42 @@
+{
+	title: "Tools of the Darkness",
+	x: 13.5d,
+	y: 0.5d,
+	description: "Dark Steel tools, weapons and armor can be upgraded and charged to make them more efficient.",
+	text: [
+		"Firstly, create The Ender and Dark Pick"
+	],
+	dependencies: [
+		"d949e5b4"
+	],
+	hide: true,
+	tasks: [{
+		uid: "347ccdca",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "enderio:item_dark_steel_sword"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "e3a90624",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "enderio:item_dark_steel_pickaxe"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7ad7fb9e",
+		type: "loot",
+		table: 35
+	}]
+}

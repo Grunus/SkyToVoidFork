@@ -1,0 +1,119 @@
+{
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "conarm:gauntlet_mat_attack",
+		tag: {
+			ench: [{
+				lvl: 2s,
+				id: 19s
+			}],
+			display: {
+				Name: "Critical Hit!"
+			},
+			AttributeModifiers: [{
+				UUIDMost: -5886647104510539925L,
+				UUIDLeast: -5818130350670041101L,
+				Amount: 0.1d,
+				Slot: "offhand",
+				AttributeName: "generic.attackDamage",
+				Operation: 1,
+				Name: "generic.attackDamage"
+			},
+			{
+				UUIDMost: 1555605430976136180L,
+				UUIDLeast: -9079667889645388275L,
+				Amount: 2.0d,
+				Slot: "offhand",
+				AttributeName: "generic.armor",
+				Operation: 0,
+				Name: "generic.armor"
+			},
+			{
+				UUIDMost: -3101744700060317629L,
+				UUIDLeast: -4887086113136099701L,
+				Amount: 1.0d,
+				Slot: "offhand",
+				AttributeName: "generic.reachDistance",
+				Operation: 0,
+				Name: "generic.reachDistance"
+			}]
+		}
+	},
+	x: 4.5d,
+	y: -4.5d,
+	shape: "diamond",
+	description: "Completed all 7 progression quests in this island layer.",
+	text: [
+		""
+	],
+	dependencies: [
+		"91968a66",
+		"fb5558b7",
+		"4fb160f7",
+		"5e8db4db",
+		"2801b8d8",
+		"6848ae91",
+		"b437fe3a"
+	],
+	hide: true,
+	size: 1.5d,
+	tasks: [{
+		uid: "c32bf39c",
+		type: "checkmark",
+		title: "Layer 2 Quests Completed",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "contenttweaker:objectives"
+		}
+	}],
+	rewards: [{
+		uid: "e343cce5",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "conarm:gauntlet_mat_attack",
+			tag: {
+				ench: [{
+					lvl: 2s,
+					id: 19s
+				}],
+				display: {
+					Name: "Critical Hit!"
+				},
+				AttributeModifiers: [{
+					UUIDMost: -5886647104510539925L,
+					UUIDLeast: -5818130350670041101L,
+					Amount: 0.1d,
+					Slot: "offhand",
+					AttributeName: "generic.attackDamage",
+					Operation: 1,
+					Name: "generic.attackDamage"
+				},
+				{
+					UUIDMost: 1555605430976136180L,
+					UUIDLeast: -9079667889645388275L,
+					Amount: 2.0d,
+					Slot: "offhand",
+					AttributeName: "generic.armor",
+					Operation: 0,
+					Name: "generic.armor"
+				},
+				{
+					UUIDMost: -3101744700060317629L,
+					UUIDLeast: -4887086113136099701L,
+					Amount: 1.0d,
+					Slot: "offhand",
+					AttributeName: "generic.reachDistance",
+					Operation: 0,
+					Name: "generic.reachDistance"
+				}]
+			}
+		}
+	}]
+}

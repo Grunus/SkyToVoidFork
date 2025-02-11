@@ -1,0 +1,29 @@
+{
+	title: "The End",
+	x: 14.0d,
+	y: -1.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"49e3543d"
+	],
+	hide: true,
+	tasks: [{
+		uid: "7d024374",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "enderio:item_alloy_ingot",
+			Damage: 8s
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "3f232c74",
+		type: "loot",
+		table: 35
+	}]
+}

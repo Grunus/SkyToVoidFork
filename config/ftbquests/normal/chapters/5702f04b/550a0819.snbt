@@ -1,0 +1,52 @@
+{
+	title: "Copper Economy",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "mysticalagriculture:copper_essence"
+	},
+	x: -13.0d,
+	y: 11.0d,
+	dependencies: [
+		"59b5e6d0"
+	],
+	hide: true,
+	tasks: [{
+		uid: "898d4d2d",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "mysticalagriculture:copper_essence"
+		}],
+		count: 20L
+	},
+	{
+		uid: "535af334",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "mysticalagriculture:copper_seeds"
+		}],
+		count: 2L
+	}],
+	rewards: [{
+		uid: "6c8156b6",
+		type: "loot",
+		table: 9
+	},
+	{
+		uid: "7f194fa3",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ironchest:wood_copper_chest_upgrade"
+		}
+	}]
+}

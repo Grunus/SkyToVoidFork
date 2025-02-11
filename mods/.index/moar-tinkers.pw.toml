@@ -1,0 +1,17 @@
+filename = 'moartinkers-0.6.0.jar'
+name = 'Moar Tinkers'
+side = 'both'
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'moartinkers-0.6.0.jar'
+
+[download]
+hash = 'bca8e21502c69fc7b16bf91b247afced698c67f3'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 2579934
+project-id = 263624

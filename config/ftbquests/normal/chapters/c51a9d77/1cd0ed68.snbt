@@ -1,0 +1,30 @@
+{
+	title: "Broken Water Physics",
+	x: 6.5d,
+	y: 3.5d,
+	description: "Turns running water into source water.",
+	text: [
+		""
+	],
+	dependencies: [
+		"a5601174"
+	],
+	hide: true,
+	tasks: [{
+		uid: "13f3e9b6",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "cyclicmagic:water_spreader"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "935ead6d",
+		type: "loot",
+		table: 51
+	}]
+}

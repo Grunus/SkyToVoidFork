@@ -1,0 +1,17 @@
+filename = 'Weee! Flowers 1.12.2b.jar'
+name = "Pam's Weee! Flowers"
+side = 'both'
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'Weee! Flowers 1.12.2b.jar'
+
+[download]
+hash = '7dc9c120c411f0898a86787a41c2cdd8df5c93a7'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 2520678
+project-id = 221910

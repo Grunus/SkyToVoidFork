@@ -1,0 +1,34 @@
+{
+	title: "Silicon",
+	x: 16.0d,
+	y: -3.0d,
+	description: "Easiest way to collect Silicon is by smelting Quartz Dust.",
+	text: [
+		""
+	],
+	dependencies: [
+		"46a52eee"
+	],
+	hide: true,
+	tasks: [{
+		uid: "8b76c7f4",
+		type: "item",
+		title: "Any itemSilicon",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "itemSilicon",
+					id: "ore"
+				},
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "itemfilters:filter"
+		}],
+		count: 8L
+	}],
+	rewards: [{
+		uid: "b8f6c90e",
+		type: "loot",
+		table: 34
+	}]
+}

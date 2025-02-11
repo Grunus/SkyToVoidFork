@@ -1,0 +1,12 @@
+{
+	title: "Missions",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "minecraft:diamond_sword"
+	},
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

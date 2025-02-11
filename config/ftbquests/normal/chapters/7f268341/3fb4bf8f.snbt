@@ -1,0 +1,29 @@
+{
+	title: "Reuse-Recyle",
+	x: -1.0d,
+	y: -3.0d,
+	description: "You can upgrade morbs to be reusable.",
+	text: [
+		""
+	],
+	dependencies: [
+		"02e27986"
+	],
+	hide: true,
+	tasks: [{
+		uid: "12f332c1",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thermalexpansion:morb",
+			Damage: 1s
+		}]
+	}],
+	rewards: [{
+		uid: "a9b9ee66",
+		type: "loot",
+		table: 71
+	}]
+}

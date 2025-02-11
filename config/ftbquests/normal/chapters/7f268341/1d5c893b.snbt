@@ -1,0 +1,29 @@
+{
+	title: "Cells",
+	x: -14.5d,
+	y: 9.5d,
+	description: "You made the computer, Nice job! But it's a cold brick with no storage.",
+	text: [
+		"Storage cells can hold up to 64k storage, but for now create a 1k Storage Cell."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"7ca24d77",
+		"5c79f4a8",
+		"5bd6697d"
+	],
+	hide: true,
+	tasks: [{
+		uid: "9e8973e2",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "appliedenergistics2:storage_cell_1k",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

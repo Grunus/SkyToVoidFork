@@ -1,0 +1,50 @@
+{
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "chisel:glowstone1",
+		Damage: 14s
+	},
+	x: -24.5d,
+	y: 1.0d,
+	shape: "diamond",
+	dependencies: [
+		"a6b46785"
+	],
+	hide: true,
+	tasks: [{
+		uid: "8293cdd6",
+		type: "location",
+		title: "Exit the Dungeon",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "biomesoplenty:biome_essence"
+		},
+		location: [I;
+			0,
+			-1603,
+			149,
+			125,
+			4,
+			4,
+			4
+		]
+	}],
+	rewards: [{
+		uid: "a927c9d1",
+		type: "command",
+		title: "Exit",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "metallurgy:kalendrite_block"
+		},
+		team_reward: true,
+		auto: "invisible",
+		command: "/fill -1606 149 125 -1606 150 123 minecraft:air"
+	}]
+}

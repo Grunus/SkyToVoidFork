@@ -1,0 +1,36 @@
+{
+	title: "The False Prophet",
+	x: -24.0d,
+	y: 1.5d,
+	shape: "diamond",
+	description: "Slay The False Prophet.",
+	text: [
+		""
+	],
+	dependencies: [
+		"cb357326"
+	],
+	hide: true,
+	tasks: [{
+		uid: "c38c6cae",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "biomesoplenty:biome_essence",
+			tag: {
+				ench: [{
+					lvl: 1s,
+					id: 23s
+				}],
+				display: {
+					Lore: [
+						"The Hive Mind can use this.."
+					],
+					Name: "Shred of the Gods' Light"
+				}
+			}
+		}]
+	}]
+}

@@ -1,0 +1,44 @@
+{
+	title: "Dark Temple",
+	x: 18.0d,
+	y: 5.0d,
+	description: "A wizard would be impressed if you came here...",
+	text: [
+		""
+	],
+	dependencies: [
+		"996ee067"
+	],
+	hide: true,
+	tasks: [{
+		uid: "9f737c93",
+		type: "location",
+		title: "1311 161 809",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ebwizardry:crystal_block",
+			Damage: 4s
+		},
+		location: [I;
+			0,
+			1311,
+			161,
+			809,
+			5,
+			5,
+			5
+		]
+	}],
+	rewards: [{
+		uid: "115bad9d",
+		type: "loot",
+		table: 44
+	},
+	{
+		uid: "4d937dc3",
+		type: "ftbmoney:money",
+		ftb_money: 150L
+	}]
+}

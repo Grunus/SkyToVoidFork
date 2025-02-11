@@ -1,0 +1,1046 @@
+{
+    "ReturnToStart": 1b,
+    "NpcInv": [
+        {
+            "Slot": 0b,
+            "ForgeCaps": {
+                "customnpcs:itemscripteddata": {
+                }
+            },
+            "id": "minecraft:quartz_block",
+            "Count": 16b,
+            "Damage": 0s
+        },
+        {
+            "Slot": 1b,
+            "ForgeCaps": {
+                "customnpcs:itemscripteddata": {
+                }
+            },
+            "id": "minecraft:diamond",
+            "Count": 7b,
+            "Damage": 0s
+        },
+        {
+            "Slot": 2b,
+            "ForgeCaps": {
+                "customnpcs:itemscripteddata": {
+                }
+            },
+            "id": "futuremc:soul_fire_lantern",
+            "Count": 1b,
+            "tag": {
+                "ench": [
+                    {
+                        "lvl": 3s,
+                        "id": 20s
+                    },
+                    {
+                        "lvl": 4s,
+                        "id": 16s
+                    }
+                ],
+                "display": {
+                    "Lore": [
+                        "As I hold the chain, it just makes me feel...",
+                        "",
+                        "",
+                        "So evil."
+                    ],
+                    "Name": "Ancient Power"
+                },
+                "AttributeModifiers": [
+                    {
+                        "UUIDMost": 2406977375495012924L,
+                        "UUIDLeast": -6650332565102924890L,
+                        "Amount": 7.0d,
+                        "Slot": "mainhand",
+                        "AttributeName": "generic.attackDamage",
+                        "Operation": 0,
+                        "Name": "generic.attackDamage"
+                    },
+                    {
+                        "UUIDMost": -8320924332652738970L,
+                        "UUIDLeast": -8445029325764845403L,
+                        "Amount": 0.2d,
+                        "Slot": "mainhand",
+                        "AttributeName": "generic.attackSpeed",
+                        "Operation": 0,
+                        "Name": "generic.attackSpeed"
+                    },
+                    {
+                        "UUIDMost": -7104052437355967595L,
+                        "UUIDLeast": -5649649797491626163L,
+                        "Amount": 1.0d,
+                        "Slot": "mainhand",
+                        "AttributeName": "generic.armorToughness",
+                        "Operation": 0,
+                        "Name": "generic.armorToughness"
+                    },
+                    {
+                        "UUIDMost": 2226494043994738215L,
+                        "UUIDLeast": -5108187209573673888L,
+                        "Amount": -2.0d,
+                        "Slot": "mainhand",
+                        "AttributeName": "generic.maxHealth",
+                        "Operation": 0,
+                        "Name": "generic.maxHealth"
+                    }
+                ]
+            },
+            "Damage": 0s
+        },
+        {
+            "Slot": 3b,
+            "ForgeCaps": {
+                "customnpcs:itemscripteddata": {
+                }
+            },
+            "id": "tconstruct:large_plate",
+            "Count": 1b,
+            "tag": {
+                "display": {
+                    "Lore": [
+                        "It's pitch black, like your soul.",
+                        "It's also a reference to that one show."
+                    ],
+                    "Name": "The Mirror"
+                },
+                "Material": "xu_evil_metal",
+                "AttributeModifiers": [
+                    {
+                        "UUIDMost": -2961861974093053077L,
+                        "UUIDLeast": -6352629304009368500L,
+                        "Amount": 10.0d,
+                        "Slot": "offhand",
+                        "AttributeName": "generic.attackDamage",
+                        "Operation": 0,
+                        "Name": "generic.attackDamage"
+                    },
+                    {
+                        "UUIDMost": -3821586137278559314L,
+                        "UUIDLeast": -5572039395502033368L,
+                        "Amount": 2.0d,
+                        "Slot": "offhand",
+                        "AttributeName": "generic.attackSpeed",
+                        "Operation": 0,
+                        "Name": "generic.attackSpeed"
+                    },
+                    {
+                        "UUIDMost": 6511078486661287573L,
+                        "UUIDLeast": -4732077247919512144L,
+                        "Amount": -10.0d,
+                        "Slot": "offhand",
+                        "AttributeName": "generic.armor",
+                        "Operation": 0,
+                        "Name": "generic.armor"
+                    },
+                    {
+                        "UUIDMost": 4139892260605936645L,
+                        "UUIDLeast": -7500984843225657486L,
+                        "Amount": -2.0d,
+                        "Slot": "offhand",
+                        "AttributeName": "generic.armorToughness",
+                        "Operation": 0,
+                        "Name": "generic.armorToughness"
+                    },
+                    {
+                        "UUIDMost": -3458982856234483003L,
+                        "UUIDLeast": -8950692720113765058L,
+                        "Amount": -10.0d,
+                        "Slot": "offhand",
+                        "AttributeName": "generic.maxHealth",
+                        "Operation": 0,
+                        "Name": "generic.maxHealth"
+                    },
+                    {
+                        "UUIDMost": 1076446652997323016L,
+                        "UUIDLeast": -8552344825440877866L,
+                        "Amount": 0.1d,
+                        "Slot": "offhand",
+                        "AttributeName": "generic.movementSpeed",
+                        "Operation": 0,
+                        "Name": "generic.movementSpeed"
+                    },
+                    {
+                        "UUIDMost": -6091062858692081077L,
+                        "UUIDLeast": -4717078937715805726L,
+                        "Amount": -2.0d,
+                        "Slot": "offhand",
+                        "AttributeName": "generic.knockbackResistance",
+                        "Operation": 0,
+                        "Name": "generic.knockbackResistance"
+                    },
+                    {
+                        "UUIDMost": -2740671495933376927L,
+                        "UUIDLeast": -4824985038406141658L,
+                        "Amount": 2.0d,
+                        "Slot": "offhand",
+                        "AttributeName": "generic.reachDistance",
+                        "Operation": 0,
+                        "Name": "generic.reachDistance"
+                    }
+                ]
+            },
+            "Damage": 0s
+        },
+        {
+            "Slot": 4b,
+            "ForgeCaps": {
+                "customnpcs:itemscripteddata": {
+                }
+            },
+            "id": "ebwizardry:spell_book",
+            "Count": 1b,
+            "Damage": 188s
+        },
+        {
+            "Slot": 5b,
+            "ForgeCaps": {
+                "customnpcs:itemscripteddata": {
+                }
+            },
+            "id": "cyclicmagic:ender_snow",
+            "Count": 1b,
+            "tag": {
+                "display": {
+                    "Lore": [
+                        "Spam all of this snow on your house!"
+                    ],
+                    "Name": "Frost Spammer"
+                },
+                "AttributeModifiers": [
+                    {
+                        "UUIDMost": 9105508063381834729L,
+                        "UUIDLeast": -7821650773783571917L,
+                        "Amount": 10.0d,
+                        "Slot": "mainhand",
+                        "AttributeName": "generic.attackDamage",
+                        "Operation": 0,
+                        "Name": "generic.attackDamage"
+                    },
+                    {
+                        "UUIDMost": 7993633196936022729L,
+                        "UUIDLeast": -7120920176243691936L,
+                        "Amount": 2.0d,
+                        "Slot": "mainhand",
+                        "AttributeName": "generic.armor",
+                        "Operation": 0,
+                        "Name": "generic.armor"
+                    },
+                    {
+                        "UUIDMost": 1173720504540742056L,
+                        "UUIDLeast": -6069398642912788515L,
+                        "Amount": 2.0d,
+                        "Slot": "mainhand",
+                        "AttributeName": "generic.maxHealth",
+                        "Operation": 0,
+                        "Name": "generic.maxHealth"
+                    },
+                    {
+                        "UUIDMost": 6048348295945995765L,
+                        "UUIDLeast": -6630990473609199565L,
+                        "Amount": -0.02d,
+                        "Slot": "mainhand",
+                        "AttributeName": "generic.movementSpeed",
+                        "Operation": 0,
+                        "Name": "generic.movementSpeed"
+                    },
+                    {
+                        "UUIDMost": 628417958030624046L,
+                        "UUIDLeast": -4963933550656727937L,
+                        "Amount": 3.0d,
+                        "Slot": "mainhand",
+                        "AttributeName": "generic.knockbackResistance",
+                        "Operation": 0,
+                        "Name": "generic.knockbackResistance"
+                    }
+                ]
+            },
+            "Damage": 0s
+        },
+        {
+            "Slot": 6b,
+            "ForgeCaps": {
+                "customnpcs:itemscripteddata": {
+                }
+            },
+            "id": "minecraft:fire_charge",
+            "Count": 12b,
+            "Damage": 0s
+        },
+        {
+            "Slot": 7b,
+            "ForgeCaps": {
+                "customnpcs:itemscripteddata": {
+                }
+            },
+            "id": "mysticalagriculture:crafting",
+            "Count": 1b,
+            "Damage": 3s
+        },
+        {
+            "Slot": 8b,
+            "ForgeCaps": {
+                "customnpcs:itemscripteddata": {
+                }
+            },
+            "id": "tconstruct:scythe",
+            "Count": 1b,
+            "tag": {
+                "ench": [
+                    {
+                        "lvl": 2s,
+                        "id": 21s
+                    },
+                    {
+                        "lvl": 2s,
+                        "id": 35s
+                    }
+                ],
+                "StatsOriginal": {
+                    "AttackSpeedMultiplier": 1.0f,
+                    "MiningSpeed": 8.31f,
+                    "FreeModifiers": 3,
+                    "Durability": 2382,
+                    "HarvestLevel": 4,
+                    "Attack": 10.19f
+                },
+                "display": {
+                    "Lore": [
+                        "Something is above the law."
+                    ],
+                    "Name": "Legal for the Impervious"
+                },
+                "Stats": {
+                    "AttackSpeedMultiplier": 1.0f,
+                    "MiningSpeed": 8.31f,
+                    "FreeModifiers": 0,
+                    "Durability": 2382,
+                    "HarvestLevel": 4,
+                    "Attack": 17.999384f
+                },
+                "Special": {
+                    "Categories": [
+                        "harvest",
+                        "weapon",
+                        "aoe",
+                        "tool"
+                    ]
+                },
+                "TinkerData": {
+                    "UsedModifiers": 6,
+                    "Materials": [
+                        "xu_evil_metal",
+                        "enderium",
+                        "astral_silver",
+                        "xu_evil_metal"
+                    ],
+                    "Modifiers": [
+                        "sharpness",
+                        "creative",
+                        "luck"
+                    ]
+                },
+                "Modifiers": [
+                    {
+                        "identifier": "endermagnetic",
+                        "color": -16748959,
+                        "level": 1
+                    },
+                    {
+                        "identifier": "sharpness",
+                        "current": 360,
+                        "color": 16774902,
+                        "level": 5,
+                        "max": 360,
+                        "extraInfo": "359 / 360"
+                    },
+                    {
+                        "identifier": "creative",
+                        "color": 0,
+                        "level": 3
+                    },
+                    {
+                        "identifier": "luck",
+                        "current": 180,
+                        "color": 2970082,
+                        "level": 2,
+                        "max": 180,
+                        "modifierUsed": 1b,
+                        "extraInfo": "179 / 180"
+                    }
+                ],
+                "Traits": [
+                    "endermagnetic",
+                    "luck"
+                ],
+                "AttributeModifiers": [
+                    {
+                        "UUIDMost": -3801225194067177672L,
+                        "UUIDLeast": -6586624321849018929L,
+                        "Amount": 13.49953842163086d,
+                        "Slot": "mainhand",
+                        "AttributeName": "generic.attackDamage",
+                        "Operation": 0,
+                        "Name": "generic.attackDamage"
+                    },
+                    {
+                        "UUIDMost": -422425648963762075L,
+                        "UUIDLeast": -5756800103171642205L,
+                        "Amount": -3.100000023841858d,
+                        "Slot": "mainhand",
+                        "AttributeName": "generic.attackSpeed",
+                        "Operation": 0,
+                        "Name": "generic.attackSpeed"
+                    },
+                    {
+                        "UUIDMost": 4859839772621423199L,
+                        "UUIDLeast": -7388983453756962370L,
+                        "Amount": 2.0d,
+                        "Slot": "mainhand",
+                        "AttributeName": "generic.armor",
+                        "Operation": 0,
+                        "Name": "generic.armor"
+                    }
+                ]
+            },
+            "Damage": 0s
+        }
+    ],
+    "BossColor": 0,
+    "PotionEffect": 0,
+    "Size": 7,
+    "stopAndInteract": 0b,
+    "Resistances": {
+        "Arrow": 1.112676f,
+        "Explosion": 1.0f,
+        "Knockback": 1.3098592f,
+        "Melee": 1.4507042f
+    },
+    "BossBar": 1b,
+    "RespawnTime": 900,
+    "NpcAngrySound": "",
+    "ReactsToFire": 0b,
+    "IgnoreCobweb": 1b,
+    "PositionOffsetZ": 5.0f,
+    "PositionOffsetY": 5.0f,
+    "PositionOffsetX": 5.0f,
+    "LootMode": 0,
+    "TransformHasAI": 0b,
+    "AttackStrenght": 30,
+    "PersistenceRequired": 0b,
+    "id": "customnpcs:customnpc",
+    "IsStatue": 0b,
+    "MovingPatern": 0,
+    "NpcLines": {
+        "Lines": [
+        ]
+    },
+    "DefendFaction": 0b,
+    "FireIndirect": 0,
+    "NpcVisible": 0,
+    "LinkedNpcName": "",
+    "NpcScenes": {
+        "Scenes": [
+        ]
+    },
+    "HitSound": "inventorypets:knockback",
+    "FindShelter": 2,
+    "Air": 300s,
+    "TacticalVariant": 1,
+    "Orientation": 0,
+    "ScriptLanguage": "ECMAScript",
+    "HandItems": [
+        {
+        },
+        {
+        }
+    ],
+    "KnockBack": 1,
+    "TransformHasJob": 0b,
+    "ArmorDropChances": [
+        0.085f,
+        0.085f,
+        0.085f,
+        0.085f
+    ],
+    "BurnInSun": 0b,
+    "StandingState": 0,
+    "AttackInvisible": 0b,
+    "NpcInteractNPCLines": {
+        "Lines": [
+        ]
+    },
+    "HurtTime": 0s,
+    "WalkingRange": 10,
+    "ShotCount": 1,
+    "pDur": 3,
+    "AttackRange": 2,
+    "NpcKillLines": {
+        "Lines": [
+        ]
+    },
+    "PotionImmune": 1b,
+    "AvoidsSun": 0b,
+    "Texture": "customnpcs:textures/entity/humanmale/kingsteve.png",
+    "NpcJob": 0,
+    "BurstCount": 5,
+    "NpcAttackLines": {
+        "Lines": [
+        ]
+    },
+    "pSpeed": 30,
+    "pArea": 0,
+    "DeathTime": 0s,
+    "pImpact": 0,
+    "MoveState": 0,
+    "pRender3D": 1b,
+    "Motion": [
+        0.0d,
+        -0.0784000015258789d,
+        0.0d
+    ],
+    "CombatRegen": 0,
+    "NpcsTimers": [
+        {
+            "Ticks": 91,
+            "TimerTicks": 1,
+            "Repeat": 1b,
+            "ID": 1
+        }
+    ],
+    "MarkovGender": 0,
+    "pEffect": 1,
+    "DistanceToMelee": 7,
+    "NpcStepSound": "",
+    "FireRate": 6,
+    "LeftHanded": 0b,
+    "pEffAmp": 0,
+    "OnGround": 1b,
+    "Dimension": 0,
+    "ImmuneToFire": 1b,
+    "NpcKilledLines": {
+        "Lines": [
+        ]
+    },
+    "Fire": -1s,
+    "ArmorItems": [
+        {
+        },
+        {
+        },
+        {
+        },
+        {
+        }
+    ],
+    "DisablePitch": 0b,
+    "pPhysics": 1b,
+    "TransformHasInv": 0b,
+    "NpcInteractLines": {
+        "Lines": [
+            {
+                "Line": "Hello @p",
+                "Song": "",
+                "Slot": 0
+            }
+        ]
+    },
+    "HurtByTimestamp": 2267,
+    "pSpin": 0b,
+    "NpcHurtSound": "minecraft:entity.player.hurt",
+    "pTrail": 0,
+    "CreatureType": 0,
+    "Attributes": [
+        {
+            "Base": 1.0d,
+            "Name": "potioncore.projectileDamage"
+        },
+        {
+            "Base": 1.0d,
+            "Name": "potioncore.magicDamage"
+        },
+        {
+            "Base": 1.0d,
+            "Name": "potioncore.jumpHeight"
+        },
+        {
+            "Base": 1.0d,
+            "Name": "potioncore.damageResistance"
+        },
+        {
+            "Base": 0.0d,
+            "Name": "potioncore.magicShielding"
+        },
+        {
+            "Base": 1.0d,
+            "Name": "artemislib.entityHeight"
+        },
+        {
+            "Base": 1.0d,
+            "Name": "artemislib.entityWidth"
+        },
+        {
+            "Base": 300.0d,
+            "Name": "generic.maxHealth"
+        },
+        {
+            "Base": 0.0d,
+            "Name": "generic.knockbackResistance"
+        },
+        {
+            "Base": 0.25d,
+            "Name": "generic.movementSpeed"
+        },
+        {
+            "Base": 0.0d,
+            "Name": "generic.armor"
+        },
+        {
+            "Base": 0.0d,
+            "Name": "generic.armorToughness"
+        },
+        {
+            "Base": 1.0d,
+            "Name": "forge.swimSpeed"
+        },
+        {
+            "Base": 64.0d,
+            "Name": "generic.followRange"
+        },
+        {
+            "Base": 30.0d,
+            "Name": "generic.attackDamage"
+        },
+        {
+            "Base": 0.5d,
+            "Name": "generic.flyingSpeed"
+        }
+    ],
+    "Invulnerable": 0b,
+    "TransformHasDisplay": 0b,
+    "NoFallDamage": 0b,
+    "AbsorptionAmount": 0.0f,
+    "TransformHasRole": 0b,
+    "Name": "The Globalist",
+    "FallDistance": 0.0f,
+    "SkinColor": 16777215,
+    "NpcIdleSound": "",
+    "Weapons": [
+        {
+            "Slot": 0b,
+            "ForgeCaps": {
+                "customnpcs:itemscripteddata": {
+                }
+            },
+            "id": "tconstruct:scythe",
+            "Count": 1b,
+            "tag": {
+                "ench": [
+                    {
+                        "lvl": 2s,
+                        "id": 21s
+                    },
+                    {
+                        "lvl": 2s,
+                        "id": 35s
+                    }
+                ],
+                "StatsOriginal": {
+                    "AttackSpeedMultiplier": 1.0f,
+                    "MiningSpeed": 8.31f,
+                    "FreeModifiers": 3,
+                    "Durability": 2382,
+                    "HarvestLevel": 4,
+                    "Attack": 10.19f
+                },
+                "display": {
+                    "Lore": [
+                        "Something is above the law."
+                    ],
+                    "Name": "Legal for the Impervious"
+                },
+                "Stats": {
+                    "AttackSpeedMultiplier": 1.0f,
+                    "MiningSpeed": 8.31f,
+                    "FreeModifiers": 0,
+                    "Durability": 2382,
+                    "HarvestLevel": 4,
+                    "Attack": 17.999384f
+                },
+                "Special": {
+                    "Categories": [
+                        "harvest",
+                        "weapon",
+                        "aoe",
+                        "tool"
+                    ]
+                },
+                "TinkerData": {
+                    "UsedModifiers": 6,
+                    "Materials": [
+                        "xu_evil_metal",
+                        "enderium",
+                        "astral_silver",
+                        "xu_evil_metal"
+                    ],
+                    "Modifiers": [
+                        "sharpness",
+                        "creative",
+                        "luck"
+                    ]
+                },
+                "Modifiers": [
+                    {
+                        "identifier": "endermagnetic",
+                        "color": -16748959,
+                        "level": 1
+                    },
+                    {
+                        "identifier": "sharpness",
+                        "current": 360,
+                        "color": 16774902,
+                        "level": 5,
+                        "max": 360,
+                        "extraInfo": "359 / 360"
+                    },
+                    {
+                        "identifier": "creative",
+                        "color": 0,
+                        "level": 3
+                    },
+                    {
+                        "identifier": "luck",
+                        "current": 180,
+                        "color": 2970082,
+                        "level": 2,
+                        "max": 180,
+                        "modifierUsed": 1b,
+                        "extraInfo": "179 / 180"
+                    }
+                ],
+                "Traits": [
+                    "endermagnetic",
+                    "luck"
+                ],
+                "AttributeModifiers": [
+                    {
+                        "UUIDMost": -3801225194067177672L,
+                        "UUIDLeast": -6586624321849018929L,
+                        "Amount": 13.49953842163086d,
+                        "Slot": "mainhand",
+                        "AttributeName": "generic.attackDamage",
+                        "Operation": 0,
+                        "Name": "generic.attackDamage"
+                    },
+                    {
+                        "UUIDMost": -422425648963762075L,
+                        "UUIDLeast": -5756800103171642205L,
+                        "Amount": -3.100000023841858d,
+                        "Slot": "mainhand",
+                        "AttributeName": "generic.attackSpeed",
+                        "Operation": 0,
+                        "Name": "generic.attackSpeed"
+                    },
+                    {
+                        "UUIDMost": 4859839772621423199L,
+                        "UUIDLeast": -7388983453756962370L,
+                        "Amount": 2.0d,
+                        "Slot": "mainhand",
+                        "AttributeName": "generic.armor",
+                        "Operation": 0,
+                        "Name": "generic.armor"
+                    }
+                ]
+            },
+            "Damage": 0s
+        },
+        {
+            "Slot": 1b,
+            "ForgeCaps": {
+                "customnpcs:itemscripteddata": {
+                }
+            },
+            "id": "minecraft:arrow",
+            "Count": 1b,
+            "Damage": 0s
+        },
+        {
+            "Slot": 2b,
+            "ForgeCaps": {
+                "customnpcs:itemscripteddata": {
+                }
+            },
+            "id": "mysticalagriculture:supremium_bow",
+            "Count": 1b,
+            "tag": {
+            },
+            "Damage": 0s
+        }
+    ],
+    "NPCDialogOptions": [
+    ],
+    "AggroRange": 32,
+    "DirectLOS": 1b,
+    "HealthRegen": 0,
+    "ForgeCaps": {
+        "artemislib:capability": {
+            "transformed": 0b
+        },
+        "everlastingabilities:org.cyclops.everlastingabilities.api.capability.imutableabilitystore": [
+        ],
+        "metallurgy:punch_effect": {
+            "hasAiDisabled": 1b,
+            "knockbackTicks": 0,
+            "ticks": 0
+        }
+    },
+    "HandDropChances": [
+        0.085f,
+        0.085f
+    ],
+    "NpcModelData": {
+        "LegsConfig": {
+            "NotShared": 0b,
+            "ScaleZ": 1.0f,
+            "TransZ": 0.0f,
+            "TransY": 0.0f,
+            "TransX": 0.012000002f,
+            "ScaleY": 1.0f,
+            "ScaleX": 1.0f
+        },
+        "BodyConfig": {
+            "NotShared": 0b,
+            "ScaleZ": 1.0f,
+            "TransZ": 0.0f,
+            "TransY": 0.0f,
+            "TransX": 0.0f,
+            "ScaleY": 1.0f,
+            "ScaleX": 1.0f
+        },
+        "Eyes": {
+            "Pattern": 0b,
+            "Glint": 1b,
+            "Type": 0b,
+            "PositionY": 1,
+            "SkinColor": 11830381,
+            "PlayerTexture": 0b,
+            "Color": 6724056,
+            "BrowColor": 5982516,
+            "BrowThickness": 4
+        },
+        "LegParts": {
+            "Pattern": 0b,
+            "Type": 0b,
+            "PlayerTexture": 0b,
+            "Color": 16777215
+        },
+        "Parts": [
+        ],
+        "ArmsConfig": {
+            "NotShared": 0b,
+            "ScaleZ": 1.0f,
+            "TransZ": 0.0f,
+            "TransY": 0.0f,
+            "TransX": -0.0f,
+            "ScaleY": 1.0f,
+            "ScaleX": 1.0f
+        },
+        "ExtraData": {
+        },
+        "HeadConfig": {
+            "NotShared": 0b,
+            "ScaleZ": 1.0f,
+            "TransZ": 0.0f,
+            "TransY": 0.0f,
+            "TransX": 0.0f,
+            "ScaleY": 1.0f,
+            "ScaleX": 1.0f
+        }
+    },
+    "minDelay": 30,
+    "DoorInteract": 2,
+    "MoveSpeed": 5,
+    "TransformEditingModus": 0b,
+    "UsingSkinUrl": 0b,
+    "Leashed": 0b,
+    "SkinUrl": "",
+    "CanSwim": 1b,
+    "GroundSound": "minecraft:block.anvil.step",
+    "MaxHealth": 300,
+    "HideBodyWhenKilled": 1b,
+    "AttackSpeed": 10,
+    "PotionDuration": 5,
+    "maxDelay": 30,
+    "ScriptEnabled": 1b,
+    "Role": 0,
+    "DropChance": [
+        {
+            "Integer": 32,
+            "Slot": 0
+        },
+        {
+            "Integer": 100,
+            "Slot": 1
+        },
+        {
+            "Integer": 100,
+            "Slot": 2
+        },
+        {
+            "Integer": 8,
+            "Slot": 3
+        },
+        {
+            "Integer": 5,
+            "Slot": 4
+        },
+        {
+            "Integer": 12,
+            "Slot": 5
+        },
+        {
+            "Integer": 12,
+            "Slot": 6
+        },
+        {
+            "Integer": 1,
+            "Slot": 7
+        },
+        {
+            "Integer": 5,
+            "Slot": 8
+        }
+    ],
+    "FactionPoints": {
+        "DecreaseFaction1Points": 0b,
+        "OptionFaction2Points": 100,
+        "OptionFactions1": -1,
+        "OptionFactions2": -1,
+        "OptionFaction1Points": 100,
+        "DecreaseFaction2Points": 0b
+    },
+    "pDamage": 32,
+    "KilledTime": 0L,
+    "AimWhileShooting": 0b,
+    "CanPickUpLoot": 0b,
+    "AttackOtherFactions": 0b,
+    "CanDrown": 0b,
+    "pSize": 6,
+    "CanSprint": 0b,
+    "CanLeap": 0b,
+    "TransformIsActive": 0b,
+    "ForgeData": {
+        "cnpcmarkdata": {
+            "marks": [
+            ]
+        },
+        "Potion Core - Health Fix": 300.0f,
+        "Potion Core - Projectile Invulnerability": 0,
+        "Potion Core - Jump Boost Updated": 1b
+    },
+    "MovingState": 0,
+    "MovingPos": 0,
+    "PotionAmp": 0,
+    "OnAttack": 0,
+    "TacticalRadius": 7,
+    "FallFlying": 0b,
+    "MaxExp": 75,
+    "OrderedLines": 0b,
+    "PortalCooldown": 0,
+    "pGlows": 0b,
+    "TransformHasAdvanced": 0b,
+    "TransformHasStats": 0b,
+    "MovementType": 0,
+    "FiringSound": "inventorypets:fireball",
+    "ModRev": 18,
+    "Accuracy": 100,
+    "MinExp": 35,
+    "Armor": [
+    ],
+    "CloakTexture": "",
+    "GlowTexture": "",
+    "MaxFiringRange": 32,
+    "pXlr8": 0b,
+    "MarkovGeneratorId": 0,
+    "Scripts": [
+        {
+            "Script": "
+var DodgeIntensity = 1
+var TickDodgeChance = 0.9 //per tick
+var DistanceWithinToDodge = 10
+
+//This section is for dodging if the player is just LOOKING at the npc
+function tick(t){
+if(t.npc.isAttacking()){
+var p = t.npc.getAttackTarget()
+if(p.rayTraceEntities(DistanceWithinToDodge,false,false).length > 0 && p.rayTraceEntities(10,false,false)[0] == t.npc && Math.random() < TickDodgeChance){
+Dodge(t.npc,p)}}}
+
+/* Damaged function trigger if you dont want to run tick function 
+var DodgeChance = 0.5
+function damaged(t){
+if(t.npc.isAttacking() && t.source && Math.random() < DodgeChance){
+t.setCanceled(true)
+Dodge(t.npc,t.source)}}
+*/
+
+function Dodge(npc,targ){
+npc.world.playSoundAt(npc.getPos(),\"minecraft:entity.blaze.shoot\",1,1.3)
+var d = FrontVectors(npc,GetPlayerRotation(npc,targ)+90*RandSign(),0,DodgeIntensity,0)
+npc.setMotionX(d[0])
+npc.setMotionY(0.2)
+npc.setMotionZ(d[2])}
+
+function FrontVectors(entity,dr,dp,distance,mode){
+if(!mode)mode=0
+if(mode == 1){var angle = dr + entity.getRotation();var pitch = (-entity.getPitch()+dp)*Math.PI/180;if(dp==0)pitch=0;}
+if(mode == 0){var angle = dr;var pitch = (dp)*Math.PI/180}
+var dx = -Math.sin(angle*Math.PI/180)*(distance*Math.cos(pitch))
+var dy = Math.sin(pitch)*distance
+var dz = Math.cos(angle*Math.PI/180)*(distance*Math.cos(pitch))
+return [dx,dy,dz]}
+
+function GetPlayerRotation(npc, player){
+var dx = npc.getX()-player.getX();
+var dz = player.getZ()-npc.getZ();
+if(dz>=0){
+var angle = (Math.atan(dx/dz)*180/Math.PI);
+if(angle < 0){
+angle = 360+angle;}}
+if(dz<0){
+dz = -dz;
+var angle = 180-(Math.atan(dx/dz)*180/Math.PI);}
+return angle;}
+
+function RandSign(){
+var s = Math.floor(Math.random()*2)
+if(s==0)s=-1;
+return s;}
+
+//end",
+            "Console": [
+            ],
+            "ScriptList": [
+            ]
+        }
+    ],
+    "Health": 300.0f,
+    "pStick": 1b,
+    "MovingPause": 1b,
+    "NpcDeathSound": "minecraft:entity.player.hurt",
+    "FactionID": 13,
+    "Title": "Not your average mayor...",
+    "TotalTicksAlive": 515927L,
+    "Rotation": [
+        83.59241f,
+        0.0f
+    ],
+    "ShowName": 0,
+    "npcInteracting": 1b,
+    "UpdateBlocked": 0b,
+    "AvoidsWater": 0b,
+    "NoLivingAnimation": 0b,
+    "SpawnCycle": 0
+}

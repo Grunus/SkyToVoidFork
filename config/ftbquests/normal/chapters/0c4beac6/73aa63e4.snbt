@@ -1,0 +1,45 @@
+{
+	title: "Keep Inventory",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "thermalexpansion:satchel",
+		tag: {
+			Accessible: 1b
+		},
+		Damage: 32000s
+	},
+	x: 1.0d,
+	y: -5.5d,
+	description: "''You can enable or disable Keep Inventory whenever you like!\"",
+	text: [
+		"Upon death, you will respawn with your inventory."
+	],
+	dependencies: [
+		"f0ba6cef"
+	],
+	tasks: [{
+		uid: "fcf3421e",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "camscurrency:aureus"
+		}],
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "385344a4",
+		type: "custom",
+		title: "Unlock Keep Invetory Toggle",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:command_block"
+		},
+		auto: "enabled"
+	}]
+}

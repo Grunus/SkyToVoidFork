@@ -1,0 +1,43 @@
+{
+	title: "Excel Card",
+	x: -10.5d,
+	y: 5.5d,
+	description: "You can speed up processes like Inscribers or Molecular Assemblers.",
+	text: [
+		""
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"7ca24d77",
+		"5c79f4a8",
+		"5bd6697d"
+	],
+	hide: true,
+	tasks: [{
+		uid: "7635f557",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "appliedenergistics2:material",
+			Damage: 30s
+		}]
+	}],
+	rewards: [{
+		uid: "4ad92192",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "appliedenergistics2:memory_card",
+			tag: {}
+		}
+	},
+	{
+		uid: "3a5194eb",
+		type: "loot",
+		table: 15
+	}]
+}

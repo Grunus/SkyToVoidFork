@@ -1,0 +1,56 @@
+{
+	title: "Communism Detected",
+	x: -1.0d,
+	y: -5.0d,
+	shape: "diamond",
+	description: "''Of course this freak possesses a copy, destroy it!''",
+	text: [
+		"Taking care of communism, one by one..."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"1028f6e8",
+		"f70585de"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "2f3190ed",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:knowledge_book",
+			tag: {
+				ench: [{
+					lvl: 1,
+					id: 3
+				}],
+				RepairCost: 1,
+				display: {
+					Name: "The Communist Manifesto"
+				}
+			}
+		}],
+		consume_items: true,
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "0b6f1a7a",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "camscurrency:denarius"
+		},
+		count: 12
+	},
+	{
+		uid: "33faad02",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

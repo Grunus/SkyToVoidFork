@@ -1,0 +1,133 @@
+{
+	title: "Void Obliterator",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "metallurgy:eximite_pickaxe",
+		tag: {
+			ench: [{
+				lvl: 3s,
+				id: 32s
+			},
+			{
+				lvl: 1s,
+				id: 59s
+			}],
+			Unbreakable: 1b,
+			display: {
+				Lore: [
+					"Allows destruction of End Gateways in",
+					"Missions."
+				],
+				Name: "Void Obliterator"
+			},
+			AttributeModifiers: [{
+				UUIDMost: -3801225194067177672L,
+				UUIDLeast: -6586624321849018929L,
+				Amount: 5.0d,
+				Slot: "mainhand",
+				AttributeName: "generic.attackDamage",
+				Operation: 0,
+				Name: "generic.attackDamage"
+			},
+			{
+				UUIDMost: -422425648963762075L,
+				UUIDLeast: -5756800103171642205L,
+				Amount: -2.799999952316284d,
+				Slot: "mainhand",
+				AttributeName: "generic.attackSpeed",
+				Operation: 0,
+				Name: "generic.attackSpeed"
+			},
+			{
+				UUIDMost: -3801225194067177672L,
+				UUIDLeast: -6586645810107271729L,
+				Amount: -0.01d,
+				Slot: "mainhand",
+				AttributeName: "generic.movementSpeed",
+				Operation: 0,
+				Name: "generic.movementSpeed"
+			}]
+		}
+	},
+	x: -9.0d,
+	y: -1.5d,
+	shape: "rsquare",
+	description: "You can now buy Void Obliterator.",
+	text: [
+		""
+	],
+	dependencies: [
+		"00bef1ac"
+	],
+	hide: true,
+	optional: true,
+	tasks: [{
+		uid: "e9094613",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "camscurrency:aureus"
+		}],
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "3c4f1252",
+		type: "item",
+		team_reward: true,
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "metallurgy:eximite_pickaxe",
+			tag: {
+				ench: [{
+					lvl: 3s,
+					id: 32s
+				},
+				{
+					lvl: 1s,
+					id: 59s
+				}],
+				Unbreakable: 1b,
+				display: {
+					Lore: [
+						"Allows destruction of End Gateways in",
+						"Missions."
+					],
+					Name: "Void Obliterator"
+				},
+				AttributeModifiers: [{
+					UUIDMost: -3801225194067177672L,
+					UUIDLeast: -6586624321849018929L,
+					Amount: 5.0d,
+					Slot: "mainhand",
+					AttributeName: "generic.attackDamage",
+					Operation: 0,
+					Name: "generic.attackDamage"
+				},
+				{
+					UUIDMost: -422425648963762075L,
+					UUIDLeast: -5756800103171642205L,
+					Amount: -2.799999952316284d,
+					Slot: "mainhand",
+					AttributeName: "generic.attackSpeed",
+					Operation: 0,
+					Name: "generic.attackSpeed"
+				},
+				{
+					UUIDMost: -3801225194067177672L,
+					UUIDLeast: -6586645810107271729L,
+					Amount: -0.01d,
+					Slot: "mainhand",
+					AttributeName: "generic.movementSpeed",
+					Operation: 0,
+					Name: "generic.movementSpeed"
+				}]
+			}
+		}
+	}]
+}

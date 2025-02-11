@@ -1,0 +1,264 @@
+{
+	title: "Dark Utilities Reward",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "darkutils:sneaky_torch"
+	},
+	loot_size: 1,
+	hide_tooltip: true,
+	use_title: true,
+	rewards: [{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "darkutils:lore_tag",
+			Damage: 5s
+		},
+		weight: 30
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "darkutils:lore_tag",
+			Damage: 4s
+		},
+		weight: 25
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "darkutils:lore_tag"
+		},
+		weight: 5
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "darkutils:filter_inverted"
+		},
+		count: 4
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "darkutils:grate"
+		},
+		count: 16,
+		weight: 25
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "darkutils:filter_inverted",
+			Damage: 3s
+		},
+		count: 4
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "darkutils:filter"
+		},
+		count: 4
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "darkutils:filter",
+			Damage: 3s
+		},
+		count: 4
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "darkutils:shulker_pearl"
+		},
+		count: 2,
+		random_bonus: 2,
+		weight: 10
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "darkutils:trap_move"
+		},
+		random_bonus: 2,
+		weight: 5
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "darkutils:trap_move_fast"
+		},
+		weight: 2
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "darkutils:trap_move_hyper"
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "darkutils:lore_tag",
+			Damage: 14s
+		},
+		weight: 20
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "darkutils:ender_hopper"
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "darkutils:material"
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "totaltinkers:explosive_bow",
+			tag: {
+				StatsOriginal: {
+					AttackSpeedMultiplier: 1.0f,
+					MiningSpeed: 4.25f,
+					DrawSpeed: 0.625f,
+					FreeModifiers: 3,
+					ProjectileBonusDamage: -0.5f,
+					Durability: 1090,
+					HarvestLevel: 1,
+					Attack: 3.2f,
+					Range: 0.65f
+				},
+				display: {
+					Name: "Source Launcher"
+				},
+				Stats: {
+					AttackSpeedMultiplier: 1.0f,
+					MiningSpeed: 4.75f,
+					DrawSpeed: 0.625f,
+					FreeModifiers: 0,
+					ProjectileBonusDamage: -0.5f,
+					Durability: 1590,
+					HarvestLevel: 2,
+					Attack: 11.928199f,
+					Range: 0.65f
+				},
+				Special: {
+					Categories: [
+						"launcher",
+						"weapon",
+						"tool"
+					]
+				},
+				TinkerData: {
+					UsedModifiers: 4,
+					Materials: [
+						"cactus",
+						"netherrack",
+						"vyroxeres",
+						"rubber"
+					],
+					Modifiers: [
+						"sharpness",
+						"creative",
+						"diamond"
+					]
+				},
+				Modifiers: [{
+					identifier: "spiky",
+					color: -16735985,
+					level: 1
+				},
+				{
+					identifier: "prickly",
+					color: -16735985,
+					level: 1
+				},
+				{
+					identifier: "hellish",
+					color: -4698289,
+					level: 1
+				},
+				{
+					identifier: "aridiculous",
+					color: -4698289,
+					level: 1
+				},
+				{
+					identifier: "poisonous",
+					color: -13893888,
+					level: 1
+				},
+				{
+					identifier: "sling",
+					color: -10727601,
+					level: 1
+				},
+				{
+					identifier: "sharpness",
+					current: 216,
+					color: 16774902,
+					level: 3,
+					max: 216,
+					extraInfo: "215 / 216"
+				},
+				{
+					identifier: "creative",
+					color: 0,
+					level: 1
+				},
+				{
+					identifier: "diamond",
+					color: 9237730
+				}],
+				Traits: [
+					"spiky",
+					"prickly",
+					"hellish",
+					"aridiculous",
+					"poisonous",
+					"sling"
+				]
+			}
+		}
+	}]
+}

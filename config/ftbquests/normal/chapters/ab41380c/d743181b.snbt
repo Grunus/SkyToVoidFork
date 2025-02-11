@@ -1,0 +1,56 @@
+{
+	title: "Communism Detected",
+	x: 13.0d,
+	y: 1.0d,
+	shape: "diamond",
+	description: "''Wha- where? Whatever this heathen place is it should not study Communism! Destroy it!''",
+	text: [
+		"Communism lurks everywhere now..."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"1028f6e8",
+		"0e6623d4"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "f8df6adf",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:knowledge_book",
+			tag: {
+				ench: [{
+					lvl: 1,
+					id: 3
+				}],
+				RepairCost: 1,
+				display: {
+					Name: "The Communist Manifesto"
+				}
+			}
+		}],
+		consume_items: true,
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "61b32ce3",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "camscurrency:denarius"
+		},
+		count: 12
+	},
+	{
+		uid: "ab7bdf58",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

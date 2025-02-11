@@ -1,0 +1,67 @@
+{
+	title: "The Sky, the Void, and the In-Between",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "minecraft:grass"
+	},
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: "",
+	images: [{
+		x: 0.0d,
+		y: 0.0d,
+		width: 6.5d,
+		height: 4.0d,
+		rotation: 0.0d,
+		image: "icons:primitivecut.png",
+		hover: [],
+		click: "",
+		dev: false
+	},
+	{
+		x: -12.5d,
+		y: 6.5d,
+		width: 8.0d,
+		height: 4.5d,
+		rotation: 0.0d,
+		image: "icons:mysticaggcut.png",
+		hover: [],
+		click: "",
+		dev: false
+	},
+	{
+		x: 2.461904761904769d,
+		y: 12.23690476190476d,
+		width: 4.5d,
+		height: 4.5d,
+		rotation: 0.0d,
+		image: "icons:tinkerscut.png",
+		hover: [],
+		click: "",
+		dev: false
+	},
+	{
+		x: -7.6095238095238145d,
+		y: 19.195578231292544d,
+		width: 6.7d,
+		height: 3.8d,
+		rotation: 0.0d,
+		image: "icons:wizardcut.png",
+		hover: [],
+		click: "",
+		dev: false
+	},
+	{
+		x: 13.0d,
+		y: 3.5d,
+		width: 4.5d,
+		height: 4.5d,
+		rotation: 0.0d,
+		image: "icons:metalcut.png",
+		hover: [],
+		click: "",
+		dev: false
+	}]
+}

@@ -1,0 +1,38 @@
+{
+	x: 14.5d,
+	y: 0.5d,
+	shape: "diamond",
+	dependencies: [
+		"e2d10707"
+	],
+	hide: true,
+	tasks: [{
+		uid: "53c886b9",
+		type: "location",
+		title: "Open the Cube",
+		location: [I;
+			0,
+			694,
+			95,
+			-102,
+			2,
+			2,
+			2
+		]
+	}],
+	rewards: [{
+		uid: "413806ca",
+		type: "command",
+		title: "Break the Seal",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "extrautils2:decorativebedrock",
+			Damage: 2s
+		},
+		team_reward: true,
+		auto: "enabled",
+		command: "/fill 694.5 95 -98.5 694.5 96 -96 minecraft:air"
+	}]
+}

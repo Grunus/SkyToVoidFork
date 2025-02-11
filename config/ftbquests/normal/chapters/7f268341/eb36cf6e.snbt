@@ -1,0 +1,51 @@
+{
+	title: "Dis On Those Books Bro!",
+	x: 6.0d,
+	y: 13.0d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"c3516741",
+		"26cde67a"
+	],
+	hide: true,
+	tasks: [{
+		uid: "9f836647",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "extrautils2:machine",
+			tag: {
+				Type: "extrautils2:generator_enchant"
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "32445e50",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:enchanted_book",
+			tag: {
+				StoredEnchantments: [{
+					lvl: 3s,
+					id: 21s
+				}]
+			}
+		}
+	},
+	{
+		uid: "c43e09c7",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "camscurrency:denarius"
+		},
+		count: 16
+	}]
+}

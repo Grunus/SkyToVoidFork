@@ -1,0 +1,47 @@
+{
+	title: "Mark of Sloth",
+	x: 1.5d,
+	y: -1.0d,
+	shape: "square",
+	dependencies: [
+		"01437c64"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "07bf5288",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thermalfoundation:rockwool",
+			tag: {
+				ench: [{
+					lvl: 1s,
+					id: 40s
+				}],
+				RepairCost: 1,
+				display: {
+					Name: "III. Mark of Sloth"
+				}
+			},
+			Damage: 6s
+		}]
+	}],
+	rewards: [{
+		uid: "2bef4ceb",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "cyclicmagic:heart_food"
+		}
+	},
+	{
+		uid: "2f4fdee4",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

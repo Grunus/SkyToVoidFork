@@ -1,0 +1,154 @@
+{
+	title: "Discover Every Island in The Overworld",
+	x: -3.0d,
+	y: 0.0d,
+	text: [
+		"Discover every island in The Overworld. This includes islands where there are multiple Traveling Runes to be found."
+	],
+	dependencies: [
+		"661eab9e",
+		"bdef3fee",
+		"5a631ee1",
+		"82ec08eb",
+		"80466741",
+		"5ac60acc",
+		"c9dee3d1",
+		"da309220",
+		"ff877c15",
+		"4bce41dd",
+		"9074d2e7",
+		"a150f2c8",
+		"1a3bb1a3",
+		"0d83479c",
+		"b14701e3",
+		"70e8f94e",
+		"cde5b043",
+		"01437c64",
+		"1e5a827d",
+		"8408ef21",
+		"dc3b0217",
+		"33586e77",
+		"0e6623d4",
+		"c3be3988",
+		"cece1bf9",
+		"93f687c1",
+		"382b2692",
+		"5969aed0",
+		"13b6ee8c",
+		"a25f3563",
+		"18bf2782",
+		"375aa664",
+		"c130ca8f",
+		"c2176857",
+		"452714e6",
+		"faac856d",
+		"dd2ac9e8",
+		"15af85ea",
+		"ff181550",
+		"ca4fc106",
+		"6acdd884",
+		"a8f929b3",
+		"5824d86e",
+		"2b00bb4e",
+		"4b0eb1da",
+		"117838ad",
+		"c79642c1",
+		"26b86661",
+		"f70585de",
+		"f96efc0e",
+		"d5bb9b59",
+		"4a8f8eec",
+		"35cce628",
+		"953154d4",
+		"c4440f2c",
+		"9526304b",
+		"838f6260",
+		"da9e056d",
+		"d3f85a0d",
+		"55769c0b",
+		"84bb8bc6",
+		"783ee9c0"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "6de7028c",
+		type: "checkmark",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "simple_trophies:trophy",
+			tag: {
+				TrophyColorGreen: 81,
+				TrophyVariant: "classic",
+				TrophyShowsTooltip: 1b,
+				TrophyItem: {
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": {}
+					},
+					id: "contenttweaker:obj_island",
+					Count: 1b,
+					tag: {
+						display: {
+							Lore: [
+								"Can be turned in in ''Filling the Void''",
+								"chapter.",
+								"",
+								"Unlocks special items in the quest book shop."
+							],
+							Name: "Island Token: Pseudotopia"
+						}
+					},
+					Damage: 0s
+				},
+				TrophyColorBlue: 26,
+				TrophyName: "Discover Every Island",
+				TrophyColorRed: 59,
+				TrophyEarnedAt: 1737773803L
+			}
+		}
+	}],
+	rewards: [{
+		uid: "bd518ca0",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "simple_trophies:trophy",
+			tag: {
+				TrophyColorGreen: 81,
+				TrophyVariant: "classic",
+				TrophyShowsTooltip: 1b,
+				TrophyItem: {
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": {}
+					},
+					id: "contenttweaker:obj_island",
+					Count: 1b,
+					tag: {
+						display: {
+							Lore: [
+								"Can be turned in in ''Filling the Void''",
+								"chapter.",
+								"",
+								"Unlocks special items in the quest book shop."
+							],
+							Name: "Island Token: Pseudotopia"
+						}
+					},
+					Damage: 0s
+				},
+				TrophyColorBlue: 26,
+				TrophyName: "Discover Every Island",
+				TrophyColorRed: 59,
+				TrophyEarnedAt: 1737773803L
+			}
+		}
+	},
+	{
+		uid: "8e010415",
+		type: "ftbmoney:money",
+		ftb_money: 500L
+	}]
+}

@@ -1,0 +1,43 @@
+{
+	title: "Upgrading Extra Utilities",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "extrautils2:ingredients",
+		Damage: 6s
+	},
+	x: 5.5d,
+	y: 5.5d,
+	description: "You can craft upgrades and place them inside of various machines or transfer nodes.",
+	text: [
+		""
+	],
+	dependencies: [
+		"8315b5a5"
+	],
+	hide: true,
+	tasks: [{
+		uid: "6af89dc9",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "extrautils2:ingredients",
+			Damage: 6s
+		},
+		{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "extrautils2:ingredients",
+			Damage: 7s
+		}]
+	}],
+	rewards: [{
+		uid: "fe7383b4",
+		type: "loot",
+		table: 17
+	}]
+}

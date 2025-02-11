@@ -1,0 +1,73 @@
+{
+	title: "Easy Mode",
+	x: 1.5d,
+	y: 9.5d,
+	shape: "square",
+	description: "Turn on creative flying (essentially easy mode).",
+	text: [
+		"This ring requires more GP."
+	],
+	dependencies: [
+		"14af4079",
+		"df9ce9f7"
+	],
+	hide: true,
+	dependency_requirement: "one_started",
+	tasks: [{
+		uid: "13e1e908",
+		type: "item",
+		title: "Angel Ring",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "extrautils2:angelring"
+		},
+		{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "extrautils2:angelring",
+			Damage: 1s
+		},
+		{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "extrautils2:angelring",
+			Damage: 2s
+		},
+		{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "extrautils2:angelring",
+			Damage: 3s
+		},
+		{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "extrautils2:angelring",
+			Damage: 4s
+		},
+		{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "extrautils2:angelring",
+			Damage: 5s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "0380752d",
+		type: "loot",
+		table: 19
+	},
+	{
+		uid: "cdd46a73",
+		type: "loot",
+		table: 20
+	}]
+}

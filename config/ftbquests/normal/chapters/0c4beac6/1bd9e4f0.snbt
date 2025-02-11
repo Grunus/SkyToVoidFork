@@ -1,0 +1,41 @@
+{
+	title: "Grand Youth Faction",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "minecraft:prismarine_shard"
+	},
+	x: 7.0d,
+	y: 2.5d,
+	description: "''The only ocean temple that survived The Rapture. Such a beutiful structure... that I can't wait to steal from!''",
+	text: [
+		"Every purchase you will receive one random reward from the following entities.",
+		"",
+		"- ''Grand Observer''",
+		"- ''Ocean's Paladin''",
+		"- ''Ocean's Dark Side''",
+		"- ''Primeval Turret''"
+	],
+	dependencies: [
+		"783ee9c0",
+		"f6f9b103"
+	],
+	hide: true,
+	tasks: [{
+		uid: "db39da3d",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "camscurrency:aureus"
+		}],
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "cee919e6",
+		type: "loot",
+		table: 58
+	}]
+}

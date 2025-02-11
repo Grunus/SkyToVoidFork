@@ -1,0 +1,32 @@
+{
+	title: "Atlarus",
+	x: 14.5d,
+	y: 5.5d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"81b1cd10"
+	],
+	hide: true,
+	tasks: [{
+		uid: "7501f2e2",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "metallurgy:atlarus_ingot"
+		}],
+		count: 10L
+	}],
+	rewards: [{
+		uid: "1f008ebf",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "camscurrency:dupondius"
+		},
+		count: 10
+	}]
+}

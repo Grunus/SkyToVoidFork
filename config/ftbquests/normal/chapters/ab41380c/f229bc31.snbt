@@ -1,0 +1,56 @@
+{
+	title: "Communism Detected",
+	x: -1.0d,
+	y: 5.5d,
+	shape: "diamond",
+	description: "''Communism! I should've known it was in The Library!''",
+	text: [
+		"Yes! Communism down!"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"1028f6e8",
+		"c9dee3d1"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "830d4bfc",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:knowledge_book",
+			tag: {
+				ench: [{
+					lvl: 1,
+					id: 3
+				}],
+				RepairCost: 1,
+				display: {
+					Name: "The Communist Manifesto"
+				}
+			}
+		}],
+		consume_items: true,
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "8d28333c",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "camscurrency:denarius"
+		},
+		count: 12
+	},
+	{
+		uid: "ced06a47",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

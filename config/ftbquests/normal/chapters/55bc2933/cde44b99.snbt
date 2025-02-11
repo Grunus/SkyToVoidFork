@@ -1,0 +1,36 @@
+{
+	title: "Open Sunken Factory",
+	x: -6.232142857142854d,
+	y: 1.8392857142857153d,
+	shape: "rsquare",
+	description: "Specific keys can unlock Missions. The Factory Key can be found in the Mission Hub.",
+	text: [
+		"To open the Mission, right click the concrete door with the key."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"0e02a773"
+	],
+	hide: true,
+	tasks: [{
+		uid: "193ecfd4",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "contenttweaker:1_sunkenfactory",
+			tag: {
+				display: {
+					Lore: [
+						"Gain access to Sunken Factory Mission.",
+						"",
+						"",
+						"Can be used on the door in Mission Hub."
+					],
+					Name: "Factory Key"
+				}
+			}
+		}]
+	}]
+}

@@ -1,0 +1,26 @@
+{
+	title: "It's Here",
+	x: -5.5d,
+	y: 7.5d,
+	shape: "square",
+	description: "Don't place it near your stuff!",
+	dependencies: [
+		"fb8a0292"
+	],
+	hide: true,
+	tasks: [{
+		uid: "a93bdbc8",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "openblocks:golden_egg"
+		}]
+	}],
+	rewards: [{
+		uid: "89c02ab7",
+		type: "loot",
+		table: 31
+	}]
+}

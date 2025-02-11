@@ -1,0 +1,17 @@
+filename = "Pam's Simple Recipes 1.12.2c.jar"
+name = "Pam's Simple Recipes"
+side = 'both'
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = "Pam's Simple Recipes 1.12.2c.jar"
+
+[download]
+hash = '3fed3bce7933eaa5a27d8fd78676d68c364d92ec'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 2520943
+project-id = 221915

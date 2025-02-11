@@ -1,0 +1,35 @@
+{
+	x: -9.5d,
+	y: 6.5d,
+	description: "With water or a water tank, keeps soil wet.",
+	dependencies: [
+		"bc60a924"
+	],
+	hide: true,
+	tasks: [{
+		uid: "655127d1",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "openblocks:sprinkler"
+		}]
+	}],
+	rewards: [{
+		uid: "f942f03a",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "openblocks:tank",
+			tag: {
+				tank: {
+					FluidName: "hot_spring_water",
+					Amount: 16000
+				}
+			}
+		}
+	}]
+}

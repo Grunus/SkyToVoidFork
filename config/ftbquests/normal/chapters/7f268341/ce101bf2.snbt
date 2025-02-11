@@ -1,0 +1,38 @@
+{
+	title: "Soul Searching",
+	x: 6.5d,
+	y: 7.5d,
+	description: "A very powerful ingot.",
+	dependencies: [
+		"2f62bad1"
+	],
+	hide: true,
+	tasks: [{
+		uid: "ca5e975d",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "extrautils2:ingredients",
+			Damage: 17s
+		}]
+	}],
+	rewards: [{
+		uid: "0b075dc5",
+		type: "loot",
+		table: 19
+	},
+	{
+		uid: "a17c6dfd",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "extrautils2:ingredients",
+			Damage: 17s
+		},
+		count: 4
+	}]
+}

@@ -1,0 +1,38 @@
+{
+	title: "Primitive Computing",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "appliedenergistics2:vibration_chamber"
+	},
+	x: -14.5d,
+	y: 6.5d,
+	description: "Use coal to generate ME. Make sure to also create ME cables.",
+	dependencies: [
+		"4f686870",
+		"751cfe73"
+	],
+	hide: true,
+	tasks: [{
+		uid: "efa88444",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "appliedenergistics2:vibration_chamber"
+		}]
+	}],
+	rewards: [{
+		uid: "5b9987c9",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "appliedenergistics2:vibration_chamber"
+		},
+		random_bonus: 1
+	}]
+}

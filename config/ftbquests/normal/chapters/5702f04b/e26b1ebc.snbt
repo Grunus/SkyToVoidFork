@@ -1,0 +1,34 @@
+{
+	title: "Minyal- Manyill- Manilian?",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "tconstruct:ingots",
+		Damage: 2s
+	},
+	x: 8.5d,
+	y: 13.0d,
+	shape: "square",
+	dependencies: [
+		"e5351f85",
+		"3bcd74a4"
+	],
+	hide: true,
+	tasks: [{
+		uid: "0ec7c458",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "tconstruct:metal",
+			Damage: 2s
+		}]
+	}],
+	rewards: [{
+		uid: "a49fe162",
+		type: "loot",
+		table: 6
+	}]
+}

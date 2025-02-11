@@ -1,0 +1,59 @@
+{
+	title: "Big Bones",
+	x: -9.0d,
+	y: 2.0d,
+	shape: "pentagon",
+	description: "''Maybe I could tame a puppy! If I could find one...''",
+	text: [
+		""
+	],
+	can_repeat: true,
+	hide_dependency_lines: true,
+	dependencies: [
+		"f96efc0e",
+		"46793e20"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	optional: true,
+	tasks: [{
+		uid: "9260cc78",
+		type: "kill",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:bone"
+		},
+		entity: "minecraft:skeleton",
+		value: 75L
+	}],
+	rewards: [{
+		uid: "e9723d66",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "camscurrency:denarius"
+		},
+		count: 4
+	},
+	{
+		uid: "30926aec",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thermalfoundation:material",
+			Damage: 130s
+		},
+		count: 3
+	},
+	{
+		uid: "fb871444",
+		type: "ftbmoney:money",
+		ftb_money: 1L
+	}]
+}

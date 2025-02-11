@@ -1,0 +1,39 @@
+{
+	title: "Cloud Service: Claudia",
+	x: 6.0d,
+	y: -22.0d,
+	shape: "octagon",
+	description: "Unlocks items within the quest book shop.",
+	hide_dependency_lines: true,
+	dependencies: [
+		"996ee067",
+		"52fffa66"
+	],
+	hide: true,
+	tasks: [{
+		uid: "d98a4f7e",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "contenttweaker:pylon",
+			tag: {
+				display: {
+					Lore: [
+						"Unlocks special Cloud Service items inside",
+						"the quest book shop from specific traders.",
+						"Complete quests from NPCs to reveal Cloud",
+						"Service quests."
+					],
+					Name: "Cloud Service Pylon"
+				}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "7f5c348f",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

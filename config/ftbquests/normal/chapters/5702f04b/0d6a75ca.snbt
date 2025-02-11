@@ -1,0 +1,33 @@
+{
+	title: "Diamond Meshes",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "exnihilocreatio:item_mesh",
+		Damage: 4s
+	},
+	x: 5.0d,
+	y: 4.0d,
+	shape: "square",
+	dependencies: [
+		"fc96dbe6"
+	],
+	hide: true,
+	tasks: [{
+		uid: "94453295",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "exnihilocreatio:item_mesh",
+			Damage: 4s
+		}]
+	}],
+	rewards: [{
+		uid: "096258cb",
+		type: "loot",
+		table: 3
+	}]
+}

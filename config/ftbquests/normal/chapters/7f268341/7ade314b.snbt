@@ -1,0 +1,29 @@
+{
+	title: "When You Get Insta-Kill Powerup",
+	x: 20.5d,
+	y: 10.0d,
+	description: "Mob crushers will kill mobs to collect the drops and essence.",
+	text: [
+		"Essence can be used for other various machines like the enchantment machines."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"0d5b0cb0"
+	],
+	hide: true,
+	tasks: [{
+		uid: "fa8e3cf0",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "industrialforegoing:mob_relocator"
+		}]
+	}],
+	rewards: [{
+		uid: "aedbe2cc",
+		type: "loot",
+		table: 32
+	}]
+}

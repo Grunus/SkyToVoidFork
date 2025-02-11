@@ -1,0 +1,463 @@
+{
+	title: "Thermal Expansion Tier III Reward",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "thermalfoundation:upgrade",
+		Damage: 3s
+	},
+	loot_size: 1,
+	hide_tooltip: true,
+	use_title: true,
+	rewards: [{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thermalfoundation:upgrade",
+			Damage: 3s
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thermalexpansion:machine",
+			tag: {
+				RSControl: 0b,
+				Facing: 3b,
+				Creative: 0b,
+				Energy: 0,
+				Level: 4b,
+				Augments: [],
+				SideCache: [B;
+					1b,
+					1b,
+					2b,
+					0b,
+					2b,
+					2b
+				]
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thermalexpansion:strongbox",
+			tag: {
+				RSControl: 0b,
+				Creative: 0b,
+				display: {
+					Name: "The Latest Deal!"
+				},
+				Level: 4b,
+				Inventory: [{
+					Slot: 2,
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": {}
+					},
+					id: "thermalexpansion:augment",
+					Count: 1b,
+					Damage: 513s
+				},
+				{
+					Slot: 8,
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": {}
+					},
+					id: "thermalexpansion:augment",
+					Count: 3b,
+					Damage: 352s
+				},
+				{
+					Slot: 10,
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": {}
+					},
+					id: "thermalexpansion:augment",
+					Count: 3b,
+					Damage: 640s
+				},
+				{
+					Slot: 13,
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": {}
+					},
+					id: "thermalfoundation:material",
+					Count: 4b,
+					Damage: 359s
+				},
+				{
+					Slot: 14,
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": {}
+					},
+					id: "thermalexpansion:augment",
+					Count: 1b,
+					Damage: 129s
+				},
+				{
+					Slot: 17,
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": {}
+					},
+					id: "thermalexpansion:florb",
+					Count: 1b,
+					tag: {
+						Fluid: "lava"
+					},
+					Damage: 1s
+				},
+				{
+					Slot: 26,
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": {}
+					},
+					id: "thermalexpansion:augment",
+					Count: 2b,
+					Damage: 273s
+				},
+				{
+					Slot: 31,
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": {}
+					},
+					id: "thermalfoundation:glass",
+					Count: 2b,
+					Damage: 7s
+				},
+				{
+					Slot: 33,
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": {}
+					},
+					id: "thermalexpansion:augment",
+					Count: 1b,
+					Damage: 704s
+				},
+				{
+					Slot: 35,
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": {}
+					},
+					id: "thermalexpansion:augment",
+					Count: 1b,
+					Damage: 337s
+				},
+				{
+					Slot: 37,
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": {}
+					},
+					id: "thermalexpansion:reservoir",
+					Count: 1b,
+					tag: {},
+					Damage: 0s
+				},
+				{
+					Slot: 38,
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": {}
+					},
+					id: "thermalexpansion:augment",
+					Count: 5b,
+					Damage: 128s
+				},
+				{
+					Slot: 40,
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": {}
+					},
+					id: "thermalexpansion:augment",
+					Count: 1b,
+					Damage: 304s
+				},
+				{
+					Slot: 45,
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": {}
+					},
+					id: "thermalexpansion:augment",
+					Count: 1b,
+					Damage: 515s
+				},
+				{
+					Slot: 52,
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": {}
+					},
+					id: "thermalexpansion:augment",
+					Count: 2b,
+					Damage: 720s
+				},
+				{
+					Slot: 53,
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": {}
+					},
+					id: "thermalexpansion:augment",
+					Count: 1b,
+					Damage: 432s
+				},
+				{
+					Slot: 54,
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": {}
+					},
+					id: "thermalfoundation:tool.shears_constantan",
+					Count: 1b,
+					Damage: 0s
+				},
+				{
+					Slot: 55,
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": {}
+					},
+					id: "thermalfoundation:coin",
+					Count: 7b,
+					Damage: 103s
+				},
+				{
+					Slot: 58,
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": {}
+					},
+					id: "thermalexpansion:augment",
+					Count: 1b,
+					Damage: 496s
+				},
+				{
+					Slot: 67,
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": {}
+					},
+					id: "thermalexpansion:augment",
+					Count: 2b,
+					Damage: 323s
+				},
+				{
+					Slot: 71,
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": {}
+					},
+					id: "thermalexpansion:florb",
+					Count: 1b,
+					tag: {
+						Fluid: "cryotheum"
+					},
+					Damage: 0s
+				},
+				{
+					Slot: 73,
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": {}
+					},
+					id: "thermalexpansion:augment",
+					Count: 2b,
+					Damage: 514s
+				},
+				{
+					Slot: 75,
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": {}
+					},
+					id: "thermalfoundation:upgrade",
+					Count: 4b,
+					Damage: 33s
+				},
+				{
+					Slot: 79,
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": {}
+					},
+					id: "thermalexpansion:augment",
+					Count: 3b,
+					Damage: 303s
+				},
+				{
+					Slot: 81,
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": {}
+					},
+					id: "thermalexpansion:augment",
+					Count: 1b,
+					Damage: 688s
+				},
+				{
+					Slot: 87,
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": {}
+					},
+					id: "thermalexpansion:augment",
+					Count: 2b,
+					Damage: 448s
+				},
+				{
+					Slot: 88,
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": {}
+					},
+					id: "thermalexpansion:florb",
+					Count: 2b,
+					tag: {
+						Fluid: "water"
+					},
+					Damage: 0s
+				}]
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "tconstruct:cleaver",
+			tag: {
+				StatsOriginal: {
+					AttackSpeedMultiplier: 1.0f,
+					MiningSpeed: 10.365f,
+					FreeModifiers: 3,
+					Durability: 1886,
+					HarvestLevel: 4,
+					Attack: 13.763999f
+				},
+				display: {
+					Name: "In Rainbows"
+				},
+				Stats: {
+					AttackSpeedMultiplier: 1.0f,
+					MiningSpeed: 10.365f,
+					FreeModifiers: 2,
+					Durability: 1886,
+					HarvestLevel: 4,
+					Attack: 13.763999f
+				},
+				Special: {
+					Categories: [
+						"tool",
+						"weapon"
+					]
+				},
+				TinkerData: {
+					UsedModifiers: 3,
+					Materials: [
+						"invar",
+						"enderium",
+						"signalum",
+						"electrum"
+					],
+					Modifiers: [
+						"beheading_cleaver",
+						"beheading",
+						"creative"
+					]
+				},
+				Modifiers: [{
+					identifier: "magnetic",
+					color: -3881788,
+					level: 1,
+					magnetic1: 1b
+				},
+				{
+					identifier: "endermagnetic",
+					color: -16748959,
+					level: 1
+				},
+				{
+					identifier: "unnatural",
+					color: -1680624,
+					level: 1
+				},
+				{
+					identifier: "shocking",
+					charge: 19.060223f,
+					color: -1516727,
+					level: 1,
+					x: 666664.9755223232d,
+					y: 66.0d,
+					z: 666671.5766396609d
+				},
+				{
+					identifier: "beheading",
+					absorbedCleaver: 1b,
+					color: 1070923,
+					level: 5
+				},
+				{
+					identifier: "creative",
+					color: 0,
+					level: 2
+				}],
+				Traits: [
+					"magnetic1",
+					"endermagnetic",
+					"unnatural",
+					"shocking"
+				]
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thermalexpansion:satchel",
+			tag: {
+				Accessible: 1b
+			},
+			Damage: 4s
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thermalexpansion:machine",
+			tag: {
+				RSControl: 0b,
+				Facing: 5b,
+				Creative: 0b,
+				Energy: 0,
+				Level: 3b,
+				Augments: [],
+				SideCache: [B;
+					1b,
+					1b,
+					2b,
+					2b,
+					2b,
+					0b
+				]
+			},
+			Damage: 11s
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thermalfoundation:material",
+			Damage: 866s
+		},
+		count: 64
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thermalfoundation:storage_alloy",
+			Damage: 7s
+		},
+		count: 2
+	}]
+}

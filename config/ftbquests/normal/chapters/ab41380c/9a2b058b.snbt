@@ -1,0 +1,82 @@
+{
+	title: "Shara's Apparent lack of anvils",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "minecraft:anvil"
+	},
+	x: 3.0d,
+	y: 9.0d,
+	shape: "diamond",
+	description: "''I go through anvils like WATER! Can you get me a few more?''",
+	text: [
+		"Thank you, now I have a good stock of anvils!"
+	],
+	dependencies: [
+		"81b1cd10"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "79859574",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:anvil"
+		}],
+		count: 3L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "b72163f2",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "camscurrency:denarius"
+		},
+		count: 32
+	},
+	{
+		uid: "9366e17c",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "metallurgy:manganese_ingot"
+		},
+		count: 12
+	},
+	{
+		uid: "223c3a80",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "metallurgy:orichalcum_ingot"
+		},
+		count: 12
+	},
+	{
+		uid: "60ce5e11",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "metallurgy:ceruclase_ingot"
+		},
+		count: 12
+	},
+	{
+		uid: "080b0446",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

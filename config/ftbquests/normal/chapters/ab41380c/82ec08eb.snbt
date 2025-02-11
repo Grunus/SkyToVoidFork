@@ -1,0 +1,66 @@
+{
+	title: "Infested Temple",
+	x: 9.5d,
+	y: 0.5d,
+	description: "Once a place of worship.",
+	text: [
+		""
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"6bae85c1"
+	],
+	hide: true,
+	tasks: [{
+		uid: "02fbb736",
+		type: "location",
+		title: "394 32 -13",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "chisel:cobblestonemossy1",
+			Damage: 13s
+		},
+		location: [I;
+			0,
+			392,
+			32,
+			-17,
+			5,
+			5,
+			5
+		]
+	}],
+	rewards: [{
+		uid: "62f306fd",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:potion",
+			tag: {
+				Potion: "cofhcore:resistance2"
+			}
+		}
+	},
+	{
+		uid: "e699ed40",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:potion",
+			tag: {
+				Potion: "minecraft:strong_regeneration"
+			}
+		}
+	},
+	{
+		uid: "64c2bc42",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

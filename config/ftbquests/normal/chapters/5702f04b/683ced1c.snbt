@@ -1,0 +1,44 @@
+{
+	title: "Walking Light",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "minecraft:glowstone_dust"
+	},
+	x: 3.5d,
+	y: 14.0d,
+	description: "With an eye of ender and some glowstone, you can use your tool as a light source.",
+	hide_dependency_lines: true,
+	dependencies: [
+		"5d9da022",
+		"3da1b8d2"
+	],
+	hide: true,
+	tasks: [{
+		uid: "c979f585",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:glowstone_dust"
+		}],
+		count: 2L
+	},
+	{
+		uid: "87b778ec",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:ender_eye"
+		}]
+	}],
+	rewards: [{
+		uid: "fde54ceb",
+		type: "loot",
+		table: 3
+	}]
+}

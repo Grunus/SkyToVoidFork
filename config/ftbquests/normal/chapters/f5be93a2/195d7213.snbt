@@ -1,0 +1,43 @@
+{
+	title: "Liam I",
+	x: -1.0d,
+	y: 6.5d,
+	dependencies: [
+		"e2d10707"
+	],
+	hide: true,
+	tasks: [{
+		uid: "48e1682b",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:enchanted_book",
+			tag: {
+				StoredEnchantments: [{
+					lvl: 4s,
+					id: 0s
+				}]
+			}
+		}],
+		consume_items: true,
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "0bf5abfa",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "artifacts:bottled_cloud"
+		}
+	},
+	{
+		uid: "8b7ab91c",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

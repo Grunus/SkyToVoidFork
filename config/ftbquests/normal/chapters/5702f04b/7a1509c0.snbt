@@ -1,0 +1,50 @@
+{
+	title: "Sifting Sky",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "appliedenergistics2:material",
+		Damage: 45s
+	},
+	x: -1.0d,
+	y: 8.0d,
+	description: "If you have a flint mesh, you can sift dust for the chance of obtaining sky stone dust.",
+	text: [
+		"This allows you to create sky stone blocks.",
+		"Put lava and sky stone dust inside of a stone barrel."
+	],
+	dependencies: [
+		"2bd5aaf9"
+	],
+	hide: true,
+	tasks: [{
+		uid: "9deb1d68",
+		type: "item",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "appliedenergistics2:material",
+			Damage: 45s
+		},
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "appliedenergistics2:material",
+			Damage: 45s
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "d3605924",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "appliedenergistics2:smooth_sky_stone_chest"
+		}
+	}]
+}

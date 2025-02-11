@@ -1,0 +1,34 @@
+{
+	title: "The Hive Mind",
+	x: -5.32619047619049d,
+	y: -17.453571428571443d,
+	description: "Time to end their game.",
+	text: [
+		""
+	],
+	dependencies: [
+		"996ee067"
+	],
+	hide: true,
+	size: 2.0d,
+	tasks: [{
+		uid: "611dc006",
+		type: "location",
+		title: "-410 164 -1472",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "futuremc:honey_block"
+		},
+		location: [I;
+			0,
+			-410,
+			164,
+			-1472,
+			5,
+			5,
+			5
+		]
+	}]
+}

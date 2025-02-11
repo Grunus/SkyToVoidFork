@@ -1,0 +1,32 @@
+{
+	title: "Multi-Tool",
+	x: -8.0d,
+	y: -5.0d,
+	description: "Multimeters are used to gain information on Thermal blocks.",
+	dependencies: [
+		"904c1843"
+	],
+	hide: true,
+	tasks: [{
+		uid: "a03b6c2a",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thermalfoundation:meter"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "1da8187b",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thermaldynamics:duct_0"
+		},
+		count: 4
+	}]
+}

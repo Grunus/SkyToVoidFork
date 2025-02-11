@@ -1,0 +1,31 @@
+{
+	title: "Manganese",
+	x: 12.5d,
+	y: 5.0d,
+	dependencies: [
+		"81b1cd10"
+	],
+	hide: true,
+	tasks: [{
+		uid: "2c97e518",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "metallurgy:manganese_ingot"
+		}],
+		count: 10L
+	}],
+	rewards: [{
+		uid: "db5b6683",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "camscurrency:dupondius"
+		},
+		count: 10
+	}]
+}

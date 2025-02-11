@@ -1,0 +1,62 @@
+{
+	title: "Obliterate",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "appliedenergistics2:grindstone"
+	},
+	x: -17.5d,
+	y: 3.5d,
+	description: "Crush Certus Quartz and Fluix Crystals into fine dust to create seeds.",
+	text: [
+		"Grindstone can also grind other resources into dust. primitive Pulverizer."
+	],
+	dependencies: [
+		"f6568adf"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "49b32db1",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "appliedenergistics2:grindstone"
+		}]
+	},
+	{
+		uid: "8b573558",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "appliedenergistics2:crank"
+		}]
+	}],
+	rewards: [{
+		uid: "01699e9b",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:glowstone_dust"
+		},
+		count: 8
+	},
+	{
+		uid: "988e471b",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "exnihilocreatio:block_dust"
+		},
+		count: 16
+	}]
+}

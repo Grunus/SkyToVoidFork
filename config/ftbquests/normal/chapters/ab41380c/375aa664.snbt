@@ -1,0 +1,31 @@
+{
+	title: "Depot Bravo I",
+	x: 2.0d,
+	y: 12.5d,
+	shape: "hexagon",
+	dependencies: [
+		"02b464cc"
+	],
+	hide: true,
+	tasks: [{
+		uid: "059638d7",
+		type: "location",
+		title: "23 117 667",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "chisel:technicalnew",
+			Damage: 5s
+		},
+		location: [I;
+			0,
+			21,
+			117,
+			667,
+			3,
+			3,
+			3
+		]
+	}]
+}

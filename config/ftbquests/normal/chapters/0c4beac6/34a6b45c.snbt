@@ -1,0 +1,50 @@
+{
+	title: "Tinkers' Row",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "tconstruct:toolforge",
+		tag: {
+			textureBlock: {
+				ForgeCaps: {
+					"customnpcs:itemscripteddata": {}
+				},
+				id: "minecraft:iron_block",
+				Count: 1b,
+				Damage: 0s
+			}
+		}
+	},
+	x: -4.0d,
+	y: 2.5d,
+	description: "''I love experimenting and maybe if you get lucky, you might get a really cool weapon or tool! Of course, buying this row will supply new things to tinker with!''",
+	text: [
+		"Complete these 6 quests in Tinkers' section to unlock all Tinkers' Tier Rewards.",
+		"",
+		"- ''Life Steal''",
+		"- ''Now That's a Big Smeltery''",
+		"- ''Rare Discovery''",
+		"- ''The Other Protections''",
+		"- ''Double Compressed Diamond Hammer''",
+		"- ''Minyal- Manyill- Manilian?''"
+	],
+	dependencies: [
+		"a72d59e9",
+		"60cb9e69",
+		"2ec3cb8d"
+	],
+	hide: true,
+	min_width: 250,
+	tasks: [{
+		uid: "eaf2f7a5",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "camscurrency:aureus"
+		}],
+		consume_items: true
+	}]
+}

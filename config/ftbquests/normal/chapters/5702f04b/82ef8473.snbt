@@ -1,0 +1,39 @@
+{
+	title: "Oh The Nether is Disabled if You Didn't Know",
+	x: -3.0d,
+	y: 2.0d,
+	text: [
+		"Lava and redstone dust creates netherrack."
+	],
+	dependencies: [
+		"8008871c"
+	],
+	hide: true,
+	tasks: [{
+		uid: "01db1f5f",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:netherrack"
+		}]
+	}],
+	rewards: [{
+		uid: "d9edc46b",
+		type: "loot",
+		table: 1
+	},
+	{
+		uid: "51685698",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "exnihilocreatio:block_andesite_crushed"
+		},
+		count: 4,
+		random_bonus: 4
+	}]
+}

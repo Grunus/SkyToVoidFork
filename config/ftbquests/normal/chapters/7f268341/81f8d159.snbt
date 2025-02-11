@@ -1,0 +1,26 @@
+{
+	x: -0.5d,
+	y: 2.5d,
+	description: "Instant sleeping.",
+	dependencies: [
+		"f08b8204"
+	],
+	hide: true,
+	tasks: [{
+		uid: "2a7f685c",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "darkutils:charm_sleep"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "dfcb2131",
+		type: "loot",
+		table: 20
+	}]
+}

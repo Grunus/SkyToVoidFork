@@ -1,0 +1,96 @@
+{
+	title: "Reece & Animal Farm",
+	x: 15.5d,
+	y: 12.5d,
+	shape: "diamond",
+	description: "''Been meaning to create a new farm after my old one fell into the Void, however, I got no idea if there's any animals left! Can you search far and wide for some animals?''",
+	text: [
+		"Great! Don't have to worry too much anymore now. Guess I better get started!"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"2da70da5"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "9bdcc255",
+		type: "observation",
+		title: "Observe a Cow",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:spawn_egg",
+			tag: {
+				EntityTag: {
+					id: "minecraft:cow"
+				}
+			}
+		},
+		match_type: "entity_id",
+		match: "minecraft:cow",
+		timer: 60L
+	},
+	{
+		uid: "a7eeccd9",
+		type: "observation",
+		title: "Observe a Chicken",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:spawn_egg",
+			tag: {
+				EntityTag: {
+					id: "minecraft:chicken"
+				}
+			}
+		},
+		match_type: "entity_id",
+		match: "minecraft:chicken",
+		timer: 60L
+	},
+	{
+		uid: "c06352f3",
+		type: "observation",
+		title: "Observe a Pig",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:spawn_egg",
+			tag: {
+				EntityTag: {
+					id: "minecraft:pig"
+				}
+			}
+		},
+		match_type: "entity_id",
+		match: "minecraft:pig",
+		timer: 60L
+	}],
+	rewards: [{
+		uid: "ec96b4d0",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "extrautils2:ingredients",
+			Damage: 12s
+		},
+		count: 3,
+		random_bonus: 4
+	},
+	{
+		uid: "30efa053",
+		type: "loot",
+		table: 3
+	},
+	{
+		uid: "091ecb42",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

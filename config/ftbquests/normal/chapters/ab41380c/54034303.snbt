@@ -1,0 +1,58 @@
+{
+	title: "The Crying of Drones",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "contenttweaker:broken_drone",
+		tag: {
+			display: {
+				Lore: [
+					"The blades are bent and the metal is warped.",
+					"",
+					"On the belly of the drone",
+					"it reads \"Propery of Claudia. Please return!\""
+				],
+				Name: "Broken Drone"
+			}
+		}
+	},
+	x: -7.5d,
+	y: -2.0d,
+	shape: "diamond",
+	description: "''Hey! How you doing stranger! I'm Claudia. I used to help out the Sky Watchers but I decided 'meh, I'm done'. So now I'm gonna help you! Don't know who they are? You'll find out soon. They're very aggressive. Anywho- If you can find one of my drones, I can set up service and allow you to sell with others through your quest book! The wonders of technology, am I right?''",
+	text: [
+		"Oh my! Well it seems like it took some damage!"
+	],
+	dependencies: [
+		"33586e77"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "7c09e41c",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "contenttweaker:broken_drone",
+			tag: {
+				display: {
+					Lore: [
+						"The blades are bent and the metal is warped.",
+						"",
+						"On the belly of the drone",
+						"it reads \"Propery of Claudia. Please return!\""
+					],
+					Name: "Broken Drone"
+				}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "c7cce68d",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

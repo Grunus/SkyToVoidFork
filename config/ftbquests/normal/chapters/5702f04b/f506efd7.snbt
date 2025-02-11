@@ -1,0 +1,30 @@
+{
+	title: "Dust of Dark",
+	x: 0.5833333333333499d,
+	y: 8.23486394557824d,
+	description: "Light some Bedrock on fire using Flint and Steel. After it burns out there is a chance Grains of Infinity will appear.",
+	text: [
+		"If you can't find any Bedrock, there is one block inside the island you woke up on."
+	],
+	dependencies: [
+		"cebcaaf7"
+	],
+	hide: true,
+	tasks: [{
+		uid: "f754667d",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "enderio:item_material",
+			Damage: 20s
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "da3d2bb8",
+		type: "loot",
+		table: 34
+	}]
+}

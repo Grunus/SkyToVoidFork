@@ -1,0 +1,36 @@
+{
+	title: "Addon Tier II Reward",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "industrialforegoing:range_addon",
+		Damage: 11s
+	},
+	x: -9.0d,
+	y: 4.5d,
+	can_repeat: true,
+	dependencies: [
+		"8c8abf5b",
+		"eeed15af",
+		"4a88a86e"
+	],
+	hide: true,
+	optional: true,
+	tasks: [{
+		uid: "cb75dc25",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "camscurrency:denarius"
+		}],
+		count: 14L
+	}],
+	rewards: [{
+		uid: "8e629c80",
+		type: "loot",
+		table: 33
+	}]
+}

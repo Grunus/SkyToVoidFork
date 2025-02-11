@@ -1,0 +1,62 @@
+{
+	title: "Confinement",
+	x: -11.0d,
+	y: 5.0d,
+	description: "Go by day, escape by night.",
+	text: [
+		""
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"6bae85c1"
+	],
+	hide: true,
+	tasks: [{
+		uid: "861128b1",
+		type: "location",
+		title: "-459 70 214",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "chisel:stonebrick",
+			Damage: 11s
+		},
+		location: [I;
+			0,
+			-463,
+			70,
+			212,
+			5,
+			5,
+			5
+		]
+	}],
+	rewards: [{
+		uid: "3692796b",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:iron_block"
+		},
+		count: 2
+	},
+	{
+		uid: "172961c2",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:iron_bars"
+		},
+		count: 64
+	},
+	{
+		uid: "0f6103ab",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	}]
+}

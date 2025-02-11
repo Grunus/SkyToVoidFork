@@ -1,0 +1,27 @@
+{
+	title: "Pepega",
+	x: -9.0d,
+	y: 6.5d,
+	shape: "square",
+	dependencies: [
+		"fde10504",
+		"5c6b1c65"
+	],
+	hide: true,
+	tasks: [{
+		uid: "fb028151",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "mysticalagradditions:insanium",
+			Damage: 5s
+		}]
+	}],
+	rewards: [{
+		uid: "47de19a9",
+		type: "loot",
+		table: 11
+	}]
+}

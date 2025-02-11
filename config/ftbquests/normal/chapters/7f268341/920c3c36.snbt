@@ -1,0 +1,26 @@
+{
+	title: "Royal Capacitor",
+	x: 18.0d,
+	y: 2.5d,
+	dependencies: [
+		"ff93ebb6",
+		"34828c51"
+	],
+	hide: true,
+	tasks: [{
+		uid: "06cf56db",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "enderio:item_basic_capacitor",
+			Damage: 2s
+		}]
+	}],
+	rewards: [{
+		uid: "76fa32fc",
+		type: "loot",
+		table: 36
+	}]
+}

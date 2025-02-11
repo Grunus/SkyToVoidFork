@@ -1,0 +1,39 @@
+{
+	title: "Cloud Service: Slavender",
+	x: -5.780612244897966d,
+	y: 5.2670068027210775d,
+	shape: "octagon",
+	hide_dependency_lines: true,
+	dependencies: [
+		"cb0f340b",
+		"52fffa66"
+	],
+	hide: true,
+	tasks: [{
+		uid: "c8eee5a4",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "contenttweaker:pylon",
+			tag: {
+				display: {
+					Lore: [
+						"Unlocks special Cloud Service items inside",
+						"the quest book shop from specific traders.",
+						"Complete quests from NPCs to reveal Cloud",
+						"Service quests."
+					],
+					Name: "Cloud Service Pylon"
+				}
+			}
+		}],
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "aefb0da6",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

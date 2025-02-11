@@ -1,0 +1,29 @@
+{
+	title: "Currency of Cheaters",
+	x: 0.0d,
+	y: 0.0d,
+	description: "''I think you will find some use with your daily struggles. I have the ability to summon commands with this godly currency.''",
+	text: [
+		"Here, to show you what I mean, I'll give you 2 shiny coins from the kingdom."
+	],
+	dependencies: [
+		"0c7ccc9e"
+	],
+	hide: true,
+	tasks: [{
+		uid: "ce53f0cf",
+		type: "checkmark",
+		title: "Currency of Cheaters"
+	}],
+	rewards: [{
+		uid: "f1226a4a",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "camscurrency:aureus"
+		},
+		count: 2
+	}]
+}

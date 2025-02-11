@@ -1,0 +1,71 @@
+{
+	title: "The Other Protections",
+	x: 0.0d,
+	y: 12.0d,
+	shape: "square",
+	text: [
+		""
+	],
+	dependencies: [
+		"0af38a5a"
+	],
+	hide: true,
+	tasks: [{
+		uid: "39947029",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "conarm:resist_mat_proj"
+		}]
+	},
+	{
+		uid: "a17d0290",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "conarm:resist_mat_blast"
+		}]
+	},
+	{
+		uid: "726f67ef",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "conarm:resist_mat_fire"
+		}]
+	}],
+	rewards: [{
+		uid: "e146d1b4",
+		type: "loot",
+		table: 48
+	},
+	{
+		uid: "7914803b",
+		type: "loot",
+		table: 48
+	},
+	{
+		uid: "a0874728",
+		type: "loot",
+		table: 47
+	},
+	{
+		uid: "a7f5f2bc",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:lingering_potion",
+			tag: {
+				Potion: "cofhcore:resistance3+"
+			}
+		}
+	}]
+}

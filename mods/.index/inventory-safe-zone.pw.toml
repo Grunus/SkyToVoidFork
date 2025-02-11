@@ -1,0 +1,17 @@
+filename = 'InventorySafeZone-1.12.2-0.1.jar'
+name = 'Inventory Safe Zone'
+side = 'both'
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'InventorySafeZone-1.12.2-0.1'
+
+[download]
+hash = 'e6677f35b5e55efab7f777a0f3430ad1a4ccf5de'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 2666203
+project-id = 312636

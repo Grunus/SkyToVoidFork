@@ -1,0 +1,31 @@
+{
+	title: "Super AFK Mode",
+	x: 4.5d,
+	y: 5.5d,
+	description: "When placing a mining upgrade into a transfer node on a cobblestone generator, it will mine the stone.",
+	text: [
+		"This also works the same on a water block.",
+		"(Requires GP)"
+	],
+	dependencies: [
+		"8315b5a5",
+		"31879a80"
+	],
+	hide: true,
+	tasks: [{
+		uid: "65d3e223",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "extrautils2:ingredients",
+			Damage: 8s
+		}]
+	}],
+	rewards: [{
+		uid: "aeb75e59",
+		type: "loot",
+		table: 17
+	}]
+}

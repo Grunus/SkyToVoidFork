@@ -1,0 +1,31 @@
+{
+	x: 0.0d,
+	y: -4.0d,
+	description: "Compressed Hammers can be used on Trees to drop Wood Chippings.",
+	hide_dependency_lines: true,
+	dependencies: [
+		"74337ab7",
+		"be627f93"
+	],
+	hide: true,
+	tasks: [{
+		uid: "042f698d",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "excompressum:wood_chippings"
+		}]
+	}],
+	rewards: [{
+		uid: "7e817bf5",
+		type: "loot",
+		table: 7
+	},
+	{
+		uid: "c2e5ca42",
+		type: "loot",
+		table: 0
+	}]
+}

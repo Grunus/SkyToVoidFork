@@ -1,0 +1,45 @@
+{
+	title: "Riches",
+	x: 2.5d,
+	y: -18.0d,
+	text: [
+		"What? Where did you get that? That's not for you to touch!"
+	],
+	dependencies: [
+		"05faa4f9"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "8982cbe9",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "camscurrency:aureus"
+		}],
+		count: 3L
+	}],
+	rewards: [{
+		uid: "5d14b4b1",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "camscurrency:denarius"
+		},
+		count: 6
+	},
+	{
+		uid: "8d6679a1",
+		type: "loot",
+		table: 18
+	},
+	{
+		uid: "c26f7919",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

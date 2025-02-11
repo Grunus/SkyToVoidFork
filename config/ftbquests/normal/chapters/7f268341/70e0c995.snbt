@@ -1,0 +1,35 @@
+{
+	title: "Grow Up",
+	x: 19.5d,
+	y: 9.0d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"0d5b0cb0"
+	],
+	hide: true,
+	tasks: [{
+		uid: "382b70e2",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "industrialforegoing:crop_enrich_material_injector"
+		}]
+	},
+	{
+		uid: "a633da41",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "industrialforegoing:crop_recolector"
+		}]
+	}],
+	rewards: [{
+		uid: "34c8008a",
+		type: "loot",
+		table: 32
+	}]
+}

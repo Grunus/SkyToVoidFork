@@ -1,0 +1,54 @@
+{
+	title: "Organization is Key",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "storagedrawers:basicdrawers",
+		tag: {
+			material: "oak"
+		}
+	},
+	x: 1.0d,
+	y: 0.5d,
+	description: "Drawers are really good at organizing storage. So good in fact that there is a section dedicated to drawers.",
+	hide_dependency_lines: true,
+	dependencies: [
+		"a816b635"
+	],
+	hide: true,
+	tasks: [{
+		uid: "7b0764dc",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "storagedrawers:basicdrawers",
+			tag: {
+				material: "oak"
+			}
+		}]
+	},
+	{
+		uid: "af5cce3a",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "storagedrawers:upgrade_template"
+		}]
+	}],
+	rewards: [{
+		uid: "cb091e1e",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "tconstruct:pattern"
+		},
+		count: 16
+	}]
+}

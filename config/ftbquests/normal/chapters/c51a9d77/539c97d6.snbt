@@ -1,0 +1,30 @@
+{
+	title: "Gentle Touches",
+	x: 5.0d,
+	y: 5.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"dd941e95"
+	],
+	hide: true,
+	tasks: [{
+		uid: "072e5e41",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "cyclicmagic:tool_swap_match",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7de6c16c",
+		type: "loot",
+		table: 51
+	}]
+}

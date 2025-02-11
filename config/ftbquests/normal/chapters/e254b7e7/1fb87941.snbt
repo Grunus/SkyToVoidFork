@@ -1,0 +1,40 @@
+{
+	title: "Dead Outcomes",
+	x: 0.0d,
+	y: -1.0d,
+	text: [
+		"Someone must be ambitious to fix this world..."
+	],
+	dependencies: [
+		"7f1e5496"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "e066c0af",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "exnihilocreatio:item_mesh",
+			Damage: 2s
+		}]
+	}],
+	rewards: [{
+		uid: "8a91351e",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "camscurrency:denarius"
+		},
+		count: 4
+	},
+	{
+		uid: "f810dd72",
+		type: "loot",
+		table: 0
+	}]
+}

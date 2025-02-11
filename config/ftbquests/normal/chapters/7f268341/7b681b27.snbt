@@ -1,0 +1,46 @@
+{
+	title: "Shulking",
+	x: 5.5d,
+	y: 14.0d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"ae08ee94",
+		"5ac60acc"
+	],
+	hide: true,
+	tasks: [{
+		uid: "c639a6a1",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "extrautils2:machine",
+			tag: {
+				Type: "extrautils2:generator_dragonsbreath"
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "96cd1368",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "darkutils:shulker_pearl"
+		},
+		count: 4
+	},
+	{
+		uid: "2871010d",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "camscurrency:denarius"
+		},
+		count: 16
+	}]
+}

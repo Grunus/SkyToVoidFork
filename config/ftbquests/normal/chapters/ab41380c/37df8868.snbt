@@ -1,0 +1,36 @@
+{
+	title: "Observation: Cod",
+	x: -12.5d,
+	y: -8.5d,
+	shape: "pentagon",
+	hide_dependency_lines: true,
+	dependencies: [
+		"46793e20",
+		"783ee9c0"
+	],
+	hide: true,
+	tasks: [{
+		uid: "cbbdd783",
+		type: "observation",
+		title: "Observe a Cod",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:spawn_egg",
+			tag: {
+				EntityTag: {
+					id: "futuremc:cod"
+				}
+			}
+		},
+		match_type: "entity_id",
+		match: "futuremc:cod",
+		timer: 100L
+	}],
+	rewards: [{
+		uid: "f134faa3",
+		type: "ftbmoney:money",
+		ftb_money: 35L
+	}]
+}

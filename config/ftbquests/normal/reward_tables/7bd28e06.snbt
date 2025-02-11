@@ -1,0 +1,701 @@
+{
+	title: "New End",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "thermalfoundation:storage_alloy",
+		Damage: 7s
+	},
+	loot_size: 1,
+	hide_tooltip: true,
+	use_title: true,
+	rewards: [{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "cyclicmagic:ender_eye_orb"
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "enderio:item_dark_steel_sword",
+			tag: {
+				ench: [{
+					lvl: 3s,
+					id: 79s
+				},
+				{
+					lvl: 3s,
+					id: 68s
+				},
+				{
+					lvl: 2s,
+					id: 20s
+				},
+				{
+					lvl: 1s,
+					id: 70s
+				},
+				{
+					lvl: 1s,
+					id: 40s
+				}],
+				display: {
+					Lore: [
+						"Cities to vaporize"
+					],
+					Name: "First Impressions of Earth"
+				},
+				AttributeModifiers: [{
+					UUIDMost: -3801225194067177672L,
+					UUIDLeast: -6586624321849018929L,
+					Amount: 9.0d,
+					Slot: "mainhand",
+					AttributeName: "generic.attackDamage",
+					Operation: 0,
+					Name: "generic.attackDamage"
+				},
+				{
+					UUIDMost: -422425648963762075L,
+					UUIDLeast: -5756800103171642205L,
+					Amount: -2.6d,
+					Slot: "mainhand",
+					AttributeName: "generic.attackSpeed",
+					Operation: 0,
+					Name: "generic.attackSpeed"
+				},
+				{
+					UUIDMost: -3569696490686362849L,
+					UUIDLeast: -9075590821831023511L,
+					Amount: -1.0d,
+					Slot: "mainhand",
+					AttributeName: "generic.reachDistance",
+					Operation: 0,
+					Name: "generic.reachDistance"
+				}]
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "enderio:item_material",
+			Damage: 37s
+		},
+		count: 2
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "enderio:item_end_steel_pickaxe",
+			tag: {
+				ench: [{
+					lvl: 3s,
+					id: 111s
+				},
+				{
+					lvl: 2s,
+					id: 35s
+				},
+				{
+					lvl: 3s,
+					id: 34s
+				},
+				{
+					lvl: 1s,
+					id: 64s
+				},
+				{
+					lvl: 2s,
+					id: 32s
+				}],
+				display: {
+					Lore: [
+						"Nothing stands against you",
+						"Not even the doors of dimensions."
+					],
+					Name: "End All Be All"
+				},
+				AttributeModifiers: [{
+					UUIDMost: -3801225194067177672L,
+					UUIDLeast: -6586624321849018929L,
+					Amount: 6.0d,
+					Slot: "mainhand",
+					AttributeName: "generic.attackDamage",
+					Operation: 0,
+					Name: "generic.attackDamage"
+				},
+				{
+					UUIDMost: -422425648963762075L,
+					UUIDLeast: -5756800103171642205L,
+					Amount: -2.799999952316284d,
+					Slot: "mainhand",
+					AttributeName: "generic.attackSpeed",
+					Operation: 0,
+					Name: "generic.attackSpeed"
+				},
+				{
+					UUIDMost: 5365329720757079616L,
+					UUIDLeast: -4936369677326238867L,
+					Amount: 4.0d,
+					Slot: "mainhand",
+					AttributeName: "generic.maxHealth",
+					Operation: 0,
+					Name: "generic.maxHealth"
+				},
+				{
+					UUIDMost: -5870052497981879694L,
+					UUIDLeast: -7798504531488440663L,
+					Amount: 8.0d,
+					Slot: "mainhand",
+					AttributeName: "generic.reachDistance",
+					Operation: 0,
+					Name: "generic.reachDistance"
+				},
+				{
+					UUIDMost: -2674263412405157099L,
+					UUIDLeast: -6290558348373162627L,
+					Amount: 5.0d,
+					Slot: "mainhand",
+					AttributeName: "generic.followRange",
+					Operation: 0,
+					Name: "generic.followRange"
+				}]
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "cyclicmagic:ender_eye_orb"
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "cyclicmagic:crystallized_obsidian"
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "excompressum:compressed_block",
+			Damage: 10s
+		},
+		count: 64
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "enderio:block_alloy",
+			Damage: 8s
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "netherendingores:ore_other_1",
+			Damage: 5s
+		},
+		count: 8
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "netherendingores:ore_other_1",
+			Damage: 3s
+		},
+		count: 8
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:tipped_arrow",
+			tag: {
+				Potion: "potioncore:repair"
+			}
+		},
+		count: 6
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "waterstrainer:super_worm"
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:enchanted_book",
+			tag: {
+				StoredEnchantments: [{
+					lvl: 1s,
+					id: 117s
+				}]
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ebwizardry:amulet_anchoring"
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:ender_eye"
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "mysticalagriculture:chunk",
+			Damage: 19s
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "cyclicmagic:horse_upgrade_jump"
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:potion",
+			tag: {
+				CustomPotionColor: 16770552,
+				CustomPotionEffects: [{
+					Ambient: 0b,
+					CurativeItems: [{
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": {}
+						},
+						id: "minecraft:milk_bucket",
+						Count: 1b,
+						Damage: 0s
+					}],
+					ShowParticles: 1b,
+					Duration: 4800,
+					Id: 23b,
+					Amplifier: 1b
+				},
+				{
+					Ambient: 0b,
+					CurativeItems: [{
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": {}
+						},
+						id: "minecraft:milk_bucket",
+						Count: 1b,
+						Damage: 0s
+					}],
+					ShowParticles: 1b,
+					Duration: 2400,
+					Id: 1b,
+					Amplifier: 4b
+				},
+				{
+					Ambient: 0b,
+					CurativeItems: [{
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": {}
+						},
+						id: "minecraft:milk_bucket",
+						Count: 1b,
+						Damage: 0s
+					}],
+					ShowParticles: 1b,
+					Duration: 4800,
+					Id: 69b,
+					Amplifier: 0b
+				},
+				{
+					Ambient: 0b,
+					CurativeItems: [{
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": {}
+						},
+						id: "minecraft:milk_bucket",
+						Count: 1b,
+						Damage: 0s
+					}],
+					ShowParticles: 1b,
+					Duration: 2400,
+					Id: 5b,
+					Amplifier: 1b
+				},
+				{
+					Ambient: 0b,
+					CurativeItems: [{
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": {}
+						},
+						id: "minecraft:milk_bucket",
+						Count: 1b,
+						Damage: 0s
+					}],
+					ShowParticles: 1b,
+					Duration: 2400,
+					Id: -127b,
+					Amplifier: 4b
+				},
+				{
+					Ambient: 0b,
+					CurativeItems: [{
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": {}
+						},
+						id: "minecraft:milk_bucket",
+						Count: 1b,
+						Damage: 0s
+					}],
+					ShowParticles: 1b,
+					Duration: 2400,
+					Id: 13b,
+					Amplifier: 0b
+				},
+				{
+					Ambient: 0b,
+					CurativeItems: [{
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": {}
+						},
+						id: "minecraft:milk_bucket",
+						Count: 1b,
+						Damage: 0s
+					}],
+					ShowParticles: 1b,
+					Duration: 4800,
+					Id: 17b,
+					Amplifier: 1b
+				},
+				{
+					Ambient: 0b,
+					CurativeItems: [{
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": {}
+						},
+						id: "minecraft:milk_bucket",
+						Count: 1b,
+						Damage: 0s
+					}],
+					ShowParticles: 1b,
+					Duration: 60,
+					Id: 25b,
+					Amplifier: 9b
+				},
+				{
+					Ambient: 0b,
+					CurativeItems: [{
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": {}
+						},
+						id: "minecraft:milk_bucket",
+						Count: 1b,
+						Damage: 0s
+					}],
+					ShowParticles: 1b,
+					Duration: 60,
+					Id: 9b,
+					Amplifier: 0b
+				},
+				{
+					Ambient: 0b,
+					CurativeItems: [{
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": {}
+						},
+						id: "minecraft:milk_bucket",
+						Count: 1b,
+						Damage: 0s
+					}],
+					ShowParticles: 1b,
+					Duration: 600,
+					Id: 19b,
+					Amplifier: 0b
+				}],
+				display: {
+					Lore: [
+						"I'm losing count again!"
+					],
+					Name: "Sugar Pills"
+				}
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "enderio:item_dark_steel_upgrade",
+			tag: {
+				"enderio:dsu": "enderio:inv2",
+				"enderio:enabled": 1b
+			},
+			Damage: 1s
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "enderio:item_dark_steel_upgrade",
+			tag: {
+				"enderio:dsu": "enderio:glide",
+				"enderio:enabled": 1b
+			},
+			Damage: 1s
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "enderio:item_dark_steel_upgrade",
+			tag: {
+				"enderio:dsu": "enderio:speedboost3",
+				"enderio:enabled": 1b
+			},
+			Damage: 1s
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "enderio:item_dark_steel_upgrade",
+			tag: {
+				"enderio:dsu": "enderio:spoon",
+				"enderio:enabled": 1b
+			},
+			Damage: 1s
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:ender_eye"
+		},
+		count: 3
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "enderio:item_material",
+			Damage: 44s
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "mysticalagriculture:enderman_essence"
+		},
+		count: 2
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "mysticalagriculture:enderman_essence"
+		},
+		count: 5
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "enderio:item_dark_steel_upgrade"
+		},
+		count: 3
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "enderio:item_dark_steel_upgrade",
+			tag: {
+				"enderio:dsu": "enderio:padding",
+				"enderio:enabled": 1b
+			},
+			Damage: 1s
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "enderio:item_alloy_ingot",
+			Damage: 6s
+		},
+		count: 2
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "cyclicmagic:sword_ender",
+			tag: {
+				Unbreakable: 1b,
+				display: {
+					Name: "Sword of Salvation"
+				},
+				AttributeModifiers: [{
+					UUIDMost: -3801225194067177672L,
+					UUIDLeast: -6586624321849018929L,
+					Amount: 10.0d,
+					Slot: "mainhand",
+					AttributeName: "generic.attackDamage",
+					Operation: 0,
+					Name: "generic.attackDamage"
+				},
+				{
+					UUIDMost: -422425648963762075L,
+					UUIDLeast: -5756800103171642205L,
+					Amount: -2.4000000953674316d,
+					Slot: "mainhand",
+					AttributeName: "generic.attackSpeed",
+					Operation: 0,
+					Name: "generic.attackSpeed"
+				}]
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "cyclicmagic:ender_eye_orb",
+			tag: {
+				ench: [{
+					lvl: 1s,
+					id: 10s
+				}],
+				display: {
+					Lore: [
+						"The eye shakes in a disturbing pattern.",
+						"Was the Stalker a host?"
+					],
+					Name: "The Parasite"
+				},
+				AttributeModifiers: [{
+					UUIDMost: 6214244720322693997L,
+					UUIDLeast: -6160686453740535758L,
+					Amount: 6.0d,
+					Slot: "offhand",
+					AttributeName: "generic.attackDamage",
+					Operation: 0,
+					Name: "generic.attackDamage"
+				},
+				{
+					UUIDMost: 2506757622494611098L,
+					UUIDLeast: -7389597611355761757L,
+					Amount: -0.1d,
+					Slot: "offhand",
+					AttributeName: "generic.armor",
+					Operation: 1,
+					Name: "generic.armor"
+				},
+				{
+					UUIDMost: 6110626001220027384L,
+					UUIDLeast: -4931765062460815999L,
+					Amount: 0.05d,
+					Slot: "offhand",
+					AttributeName: "generic.armorToughness",
+					Operation: 1,
+					Name: "generic.armorToughness"
+				},
+				{
+					UUIDMost: 6206700949193834572L,
+					UUIDLeast: -7841427889921333175L,
+					Amount: 6.0d,
+					Slot: "offhand",
+					AttributeName: "generic.maxHealth",
+					Operation: 0,
+					Name: "generic.maxHealth"
+				},
+				{
+					UUIDMost: -2106263034271218839L,
+					UUIDLeast: -5950713353077654486L,
+					Amount: 0.3d,
+					Slot: "offhand",
+					AttributeName: "generic.movementSpeed",
+					Operation: 1,
+					Name: "generic.movementSpeed"
+				},
+				{
+					UUIDMost: -6982903450179580275L,
+					UUIDLeast: -6214907883257303540L,
+					Amount: 10.0d,
+					Slot: "offhand",
+					AttributeName: "generic.followRange",
+					Operation: 0,
+					Name: "generic.followRange"
+				},
+				{
+					UUIDMost: 1356630380534451467L,
+					UUIDLeast: -8909492908871400748L,
+					Amount: 100.0d,
+					Slot: "mainhand",
+					AttributeName: "horse.jumpStrength",
+					Operation: 0,
+					Name: "horse.jumpStrength"
+				}]
+			}
+		}
+	}]
+}

@@ -1,0 +1,35 @@
+{
+	title: "Etherium",
+	x: 14.0d,
+	y: 3.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"555c5490",
+		"8d13be67"
+	],
+	hide: true,
+	tasks: [{
+		uid: "5ff6c7fa",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "metallurgy:etherium_ingot"
+		}],
+		count: 10L
+	}],
+	rewards: [{
+		uid: "f7fba323",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "camscurrency:denarius"
+		},
+		count: 10
+	}]
+}

@@ -1,0 +1,27 @@
+{
+	title: "MAXIMUM OVERDRIVE",
+	x: 7.5d,
+	y: 6.5d,
+	shape: "square",
+	dependencies: [
+		"b22a2e7f",
+		"ce101bf2"
+	],
+	hide: true,
+	tasks: [{
+		uid: "a4761fce",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "extrautils2:ingredients",
+			Damage: 16s
+		}]
+	}],
+	rewards: [{
+		uid: "d2aa3497",
+		type: "loot",
+		table: 19
+	}]
+}

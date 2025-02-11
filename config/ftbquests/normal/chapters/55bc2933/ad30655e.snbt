@@ -1,0 +1,52 @@
+{
+	title: "Given the Hint",
+	x: -8.0d,
+	y: -0.5d,
+	shape: "diamond",
+	description: "The phantoms felt a connection between the old factory and the prison.",
+	dependencies: [
+		"c977f57a"
+	],
+	hide: true,
+	tasks: [{
+		uid: "420b7c8f",
+		type: "location",
+		title: "Step in the Shower of the Abandoned House",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "cfm:shower_head_off"
+		},
+		location: [I;
+			43,
+			-25,
+			88,
+			97,
+			2,
+			2,
+			2
+		]
+	},
+	{
+		uid: "e1dacd8e",
+		type: "location",
+		title: "Step in the Shower of the Sunken Factory",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "chisel:technical",
+			Damage: 5s
+		},
+		location: [I;
+			43,
+			-82,
+			75,
+			122,
+			2,
+			2,
+			2
+		]
+	}]
+}

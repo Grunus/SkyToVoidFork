@@ -1,0 +1,66 @@
+{
+	title: "Tiny Forest",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "minecraft:log2",
+		Damage: 1s
+	},
+	x: 3.0d,
+	y: -2.0d,
+	description: "Trees, plants, and some extra ores!",
+	hide_dependency_lines: true,
+	dependencies: [
+		"2bd5aaf9",
+		"56904fde"
+	],
+	hide: true,
+	tasks: [{
+		uid: "e3f993be",
+		type: "location",
+		title: "104 113 -36",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:sapling",
+			Damage: 5s
+		},
+		location: [I;
+			0,
+			103,
+			113,
+			-37,
+			5,
+			5,
+			5
+		]
+	}],
+	rewards: [{
+		uid: "85ae8339",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:iron_ore"
+		},
+		count: 3
+	},
+	{
+		uid: "fa5af60a",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:coal_block"
+		}
+	},
+	{
+		uid: "d032e2a6",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

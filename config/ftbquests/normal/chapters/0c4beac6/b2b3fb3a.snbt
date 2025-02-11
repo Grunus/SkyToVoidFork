@@ -1,0 +1,36 @@
+{
+	title: "Applied Energistics Row",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "appliedenergistics2:material",
+		Damage: 12s
+	},
+	x: -11.0d,
+	y: 2.5d,
+	description: "''I wish the internet still existed... Maybe we can bring it back if you buy this row!''",
+	text: [
+		"Complete these 3 quests in Applied Energistics section to unlock all Applied Energistics Tier Rewards.",
+		"",
+		"- ''Fiji Crystal''",
+		"- ''Cutting the Cords''",
+		"- ''64x64''"
+	],
+	dependencies: [
+		"a72d59e9",
+		"af8b9da9"
+	],
+	hide: true,
+	tasks: [{
+		uid: "69678b71",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "camscurrency:aureus"
+		}],
+		consume_items: true
+	}]
+}

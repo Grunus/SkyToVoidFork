@@ -1,0 +1,44 @@
+{
+	title: "Thermal + Tinkers",
+	x: 3.5d,
+	y: 16.0d,
+	description: "You can create gears from a smeltery as well.",
+	hide_dependency_lines: true,
+	dependencies: [
+		"f2658a75",
+		"74337ab7"
+	],
+	hide: true,
+	tasks: [{
+		uid: "566b3b74",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "tconstruct:cast_custom",
+			Damage: 4s
+		}]
+	}],
+	rewards: [{
+		uid: "b7593c01",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thermalfoundation:upgrade"
+		}
+	},
+	{
+		uid: "4e3da4f3",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "tconstruct:materials",
+			Damage: 14s
+		}
+	}]
+}

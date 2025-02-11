@@ -1,0 +1,100 @@
+{
+	title: "Swing the Magic!",
+	x: -0.5d,
+	y: 5.5d,
+	dependencies: [
+		"b0bd187c"
+	],
+	hide: true,
+	tasks: [{
+		uid: "6b2cd956",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "extrautils2:boomerang"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "43794df6",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "tconstruct:frypan",
+			tag: {
+				StatsOriginal: {
+					AttackSpeedMultiplier: 1.0f,
+					MiningSpeed: 2.0f,
+					FreeModifiers: 3,
+					Durability: 60,
+					HarvestLevel: 0,
+					Attack: 2.0f
+				},
+				display: {
+					Name: "Pan of Pain"
+				},
+				Stats: {
+					AttackSpeedMultiplier: 1.576f,
+					MiningSpeed: 2.0f,
+					FreeModifiers: 0,
+					Durability: 60,
+					HarvestLevel: 0,
+					Attack: 10.267621f
+				},
+				Special: {
+					Categories: [
+						"weapon",
+						"tool"
+					]
+				},
+				TinkerData: {
+					UsedModifiers: 6,
+					Materials: [
+						"xu_magical_wood",
+						"xu_magical_wood"
+					],
+					Modifiers: [
+						"haste",
+						"sharpness"
+					]
+				},
+				Modifiers: [{
+					identifier: "magical_modifier",
+					color: -131160,
+					level: 1,
+					magical_modifier: 1b
+				},
+				{
+					identifier: "brittle",
+					color: -131160,
+					level: 1
+				},
+				{
+					identifier: "haste",
+					current: 144,
+					color: 9502720,
+					level: 3,
+					max: 150,
+					extraInfo: "143 / 150"
+				},
+				{
+					identifier: "sharpness",
+					current: 216,
+					color: 16774902,
+					level: 3,
+					max: 216,
+					extraInfo: "215 / 216"
+				}],
+				Traits: [
+					"magical_modifier",
+					"brittle"
+				]
+			}
+		}
+	}]
+}

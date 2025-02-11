@@ -1,0 +1,42 @@
+{
+	title: "9x9",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "appliedenergistics2:molecular_assembler"
+	},
+	x: -11.5d,
+	y: 7.0d,
+	dependencies: [
+		"8289b8d4"
+	],
+	hide: true,
+	tasks: [{
+		uid: "7209ff6d",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "appliedenergistics2:molecular_assembler"
+		}],
+		count: 9L
+	},
+	{
+		uid: "59013c4f",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "appliedenergistics2:interface"
+		}],
+		count: 9L
+	}],
+	rewards: [{
+		uid: "f216aa14",
+		type: "loot",
+		table: 16
+	}]
+}

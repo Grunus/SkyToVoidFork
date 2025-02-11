@@ -1,0 +1,87 @@
+{
+	title: "Tinkers' Tier II Reward",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "tconstruct:shuriken",
+		tag: {
+			StatsOriginal: {
+				AttackSpeedMultiplier: 1.0f,
+				Accuracy: 1.0f,
+				MiningSpeed: 12.0f,
+				FreeModifiers: 3,
+				Durability: 1080,
+				HarvestLevel: 4,
+				Attack: 5.1f
+			},
+			Stats: {
+				AttackSpeedMultiplier: 1.1f,
+				Accuracy: 1.0f,
+				MiningSpeed: 12.0f,
+				FreeModifiers: 3,
+				Durability: 1080,
+				HarvestLevel: 4,
+				Attack: 5.1f
+			},
+			Special: {
+				Categories: [
+					"projectile",
+					"no_melee",
+					"tool"
+				]
+			},
+			TinkerData: {
+				Materials: [
+					"cobalt",
+					"cobalt",
+					"cobalt",
+					"cobalt"
+				],
+				Modifiers: []
+			},
+			Modifiers: [{
+				identifier: "momentum",
+				color: -14122284,
+				level: 1
+			},
+			{
+				identifier: "lightweight",
+				color: -14122284,
+				level: 1
+			}],
+			Traits: [
+				"momentum",
+				"lightweight"
+			]
+		}
+	},
+	x: -4.0d,
+	y: 6.5d,
+	can_repeat: true,
+	dependencies: [
+		"b95d7004",
+		"c2cd2064",
+		"34a6b45c",
+		"e39513ee",
+		"ada5f823"
+	],
+	hide: true,
+	optional: true,
+	tasks: [{
+		uid: "de2e9da9",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "camscurrency:denarius"
+		}],
+		count: 12L
+	}],
+	rewards: [{
+		uid: "f3308a93",
+		type: "loot",
+		table: 6
+	}]
+}

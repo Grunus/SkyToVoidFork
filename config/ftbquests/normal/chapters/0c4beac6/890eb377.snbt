@@ -1,0 +1,43 @@
+{
+	title: "Ultimate Servants Faction",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "openblocks:squeegee"
+	},
+	x: 12.0d,
+	y: 2.5d,
+	description: "''Although, I don't think you need the valuables from that mansion, I will take whatever you want.''",
+	text: [
+		"Every purchase you will receive one random reward from the following entities.",
+		"",
+		"- ''Butler''",
+		"- ''Quantum Spider''",
+		"- ''Empty Arrival''",
+		"- ''The Machine''",
+		"- ''Maid of the Dead''",
+		"- ''The Globalist''"
+	],
+	dependencies: [
+		"d3f85a0d",
+		"f6f9b103"
+	],
+	hide: true,
+	tasks: [{
+		uid: "5ce131df",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "camscurrency:aureus"
+		}],
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "1e651ac0",
+		type: "loot",
+		table: 67
+	}]
+}

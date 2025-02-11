@@ -1,0 +1,27 @@
+{
+	title: "Study your Power",
+	x: 19.5d,
+	y: 2.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"62b10ad7"
+	],
+	hide: true,
+	tasks: [{
+		uid: "73cd871a",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "enderio:block_power_monitor"
+		}]
+	}],
+	rewards: [{
+		uid: "cbb6ed19",
+		type: "loot",
+		table: 35
+	}]
+}

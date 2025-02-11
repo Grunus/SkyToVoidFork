@@ -1,0 +1,30 @@
+{
+	title: "Smart Quiver",
+	x: -7.0d,
+	y: -6.0d,
+	description: "Stores arrows and imbues with a potion.",
+	text: [
+		""
+	],
+	dependencies: [
+		"6e19580b"
+	],
+	hide: true,
+	tasks: [{
+		uid: "c71affb8",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thermalinnovation:quiver",
+			tag: {}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "53ddae20",
+		type: "loot",
+		table: 7
+	}]
+}

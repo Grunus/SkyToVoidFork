@@ -1,0 +1,76 @@
+{
+	title: "Radiant Temple",
+	x: -12.5d,
+	y: 0.0d,
+	shape: "octagon",
+	description: "Side Mission",
+	text: [
+		"He calls for his brothers and sisters..",
+		"",
+		"Silence...",
+		"-----------------------------",
+		"Recommended Armor Value: 20+",
+		"Recommended Melee Value: 12+",
+		"Enemy Respawn Time: 10 Minutes"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"803ee939"
+	],
+	hide: true,
+	size: 2.5d,
+	tasks: [{
+		uid: "00eb3bda",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ebwizardry:magic_crystal",
+			tag: {
+				ench: [{
+					lvl: 5s,
+					id: 60s
+				},
+				{
+					lvl: 7s,
+					id: 93s
+				}],
+				display: {
+					Lore: [
+						"You look inside the crystal and see",
+						"immaculate light, as if you've stepped into",
+						"the golden gates of the kingdom."
+					],
+					Name: "Ultimate Crystal of Vitality"
+				},
+				AttributeModifiers: [{
+					UUIDMost: -1317145563912516246L,
+					UUIDLeast: -7735996974800821462L,
+					Amount: 6.0d,
+					Slot: "offhand",
+					AttributeName: "generic.maxHealth",
+					Operation: 0,
+					Name: "generic.maxHealth"
+				}]
+			},
+			Damage: 7s
+		}]
+	}],
+	rewards: [{
+		uid: "d58bfd1d",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ebwizardry:spell_book",
+			Damage: 172s
+		}
+	},
+	{
+		uid: "2f20e01c",
+		type: "ftbmoney:money",
+		ftb_money: 500L
+	}]
+}

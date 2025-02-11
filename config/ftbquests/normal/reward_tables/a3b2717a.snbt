@@ -1,0 +1,887 @@
+{
+	title: "Thermal Expansion Tier II Reward",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "thermalfoundation:upgrade",
+		Damage: 34s
+	},
+	loot_size: 2,
+	hide_tooltip: true,
+	use_title: true,
+	rewards: [{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thermalfoundation:storage",
+			Damage: 2s
+		},
+		count: 3
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thermalfoundation:storage_alloy"
+		},
+		count: 2
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thermalfoundation:storage_alloy",
+			Damage: 2s
+		},
+		count: 3
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thermalfoundation:storage_alloy",
+			Damage: 1s
+		},
+		count: 3
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thermalfoundation:fertilizer",
+			Damage: 2s
+		},
+		count: 56,
+		random_bonus: 32
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thermalfoundation:material",
+			Damage: 101s
+		},
+		count: 2,
+		random_bonus: 2
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thermalfoundation:glass_alloy"
+		},
+		count: 16
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thermalfoundation:material",
+			Damage: 165s
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thermalfoundation:material",
+			Damage: 164s
+		},
+		count: 4
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thermalexpansion:capacitor",
+			tag: {
+				Energy: 4000000
+			},
+			Damage: 1s
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thermalfoundation:material",
+			Damage: 64s
+		},
+		count: 64
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thermalexpansion:tank",
+			tag: {
+				RSControl: 0b,
+				Level: 0b
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thermalexpansion:strongbox",
+			tag: {
+				RSControl: 0b,
+				Creative: 0b,
+				Level: 3b
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thermalfoundation:material",
+			Damage: 1025s
+		},
+		count: 8
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thermalfoundation:material",
+			Damage: 1024s
+		},
+		count: 8
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thermalfoundation:material",
+			Damage: 1026s
+		},
+		count: 8
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thermalexpansion:tank",
+			tag: {
+				RSControl: 0b,
+				Creative: 0b,
+				Fluid: {
+					FluidName: "sap",
+					Amount: 4000
+				},
+				Level: 0b,
+				Lock: 0b
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thermalexpansion:dynamo",
+			tag: {
+				RSControl: 0b,
+				Facing: 1b,
+				Energy: 0,
+				Level: 0b
+			},
+			Damage: 1s
+		},
+		count: 5
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thermalcultivation:watering_can",
+			tag: {
+				Water: 60000,
+				Mode: 4
+			},
+			Damage: 4s
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thermalexpansion:satchel",
+			tag: {
+				Accessible: 1b
+			},
+			Damage: 3s
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thermalexpansion:morb",
+			tag: {
+				Generic: 1b,
+				id: "minecraft:creeper"
+			}
+		},
+		count: 6
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thermalexpansion:strongbox",
+			tag: {
+				RSControl: 0b,
+				Creative: 0b,
+				display: {
+					Name: "Machine Package!"
+				},
+				Level: 0b,
+				Inventory: [{
+					Slot: 1,
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": {}
+					},
+					id: "thermalfoundation:upgrade",
+					Count: 1b,
+					Damage: 0s
+				},
+				{
+					Slot: 2,
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": {}
+					},
+					id: "thermalexpansion:machine",
+					Count: 1b,
+					tag: {
+						RSControl: 0b,
+						Facing: 3b,
+						Energy: 0,
+						SideCache: [B;
+							1b,
+							1b,
+							2b,
+							2b,
+							2b,
+							2b
+						],
+						Level: 0b
+					},
+					Damage: 15s
+				},
+				{
+					Slot: 4,
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": {}
+					},
+					id: "thermalexpansion:machine",
+					Count: 1b,
+					tag: {
+						RSControl: 0b,
+						Facing: 3b,
+						Energy: 0,
+						SideCache: [B;
+							3b,
+							1b,
+							2b,
+							2b,
+							2b,
+							2b
+						],
+						Level: 0b
+					},
+					Damage: 8s
+				},
+				{
+					Slot: 6,
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": {}
+					},
+					id: "thermalexpansion:machine",
+					Count: 1b,
+					tag: {
+						RSControl: 0b,
+						Facing: 3b,
+						Energy: 0,
+						SideCache: [B;
+							1b,
+							1b,
+							2b,
+							2b,
+							2b,
+							2b
+						],
+						Level: 0b
+					},
+					Damage: 0s
+				},
+				{
+					Slot: 7,
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": {}
+					},
+					id: "thermalfoundation:upgrade",
+					Count: 1b,
+					Damage: 33s
+				},
+				{
+					Slot: 10,
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": {}
+					},
+					id: "thermalexpansion:machine",
+					Count: 1b,
+					tag: {
+						RSControl: 0b,
+						Facing: 3b,
+						Energy: 0,
+						SideCache: [B;
+							1b,
+							1b,
+							2b,
+							2b,
+							2b,
+							2b
+						],
+						Level: 0b
+					},
+					Damage: 12s
+				},
+				{
+					Slot: 12,
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": {}
+					},
+					id: "thermalfoundation:upgrade",
+					Count: 1b,
+					Damage: 33s
+				}]
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thermalfoundation:material",
+			Damage: 1027s
+		},
+		count: 8
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thermalexpansion:satchel",
+			tag: {
+				display: {
+					Name: "Noodles"
+				},
+				Inventory: {
+					Slot13: {
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": {}
+						},
+						id: "thermaldynamics:duct_16",
+						Count: 6b,
+						Damage: 2s
+					},
+					Slot14: {
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": {}
+						},
+						id: "thermaldynamics:duct_16",
+						Count: 1b,
+						Damage: 2s
+					},
+					Slot15: {
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": {}
+						},
+						id: "thermaldynamics:duct_16",
+						Count: 1b,
+						Damage: 2s
+					},
+					Slot16: {
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": {}
+						},
+						id: "thermaldynamics:duct_16",
+						Count: 1b,
+						Damage: 2s
+					},
+					Slot17: {
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": {}
+						},
+						id: "thermaldynamics:duct_32",
+						Count: 16b,
+						Damage: 0s
+					},
+					Slot2: {
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": {}
+						},
+						id: "thermaldynamics:duct_32",
+						Count: 3b,
+						Damage: 1s
+					},
+					Slot3: {
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": {}
+						},
+						id: "thermaldynamics:duct_16",
+						Count: 1b,
+						Damage: 7s
+					},
+					Slot4: {
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": {}
+						},
+						id: "thermaldynamics:duct_32",
+						Count: 1b,
+						tag: {
+							DenseType: 2b
+						},
+						Damage: 0s
+					},
+					Slot5: {
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": {}
+						},
+						id: "thermaldynamics:duct_32",
+						Count: 2b,
+						tag: {
+							DenseType: 2b
+						},
+						Damage: 7s
+					},
+					Slot10: {
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": {}
+						},
+						id: "thermaldynamics:duct_16",
+						Count: 1b,
+						Damage: 7s
+					},
+					Slot0: {
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": {}
+						},
+						id: "thermaldynamics:duct_0",
+						Count: 3b,
+						Damage: 1s
+					},
+					Slot11: {
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": {}
+						},
+						id: "thermaldynamics:duct_16",
+						Count: 6b,
+						Damage: 2s
+					},
+					Slot1: {
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": {}
+						},
+						id: "thermaldynamics:duct_32",
+						Count: 2b,
+						tag: {
+							DenseType: 2b
+						},
+						Damage: 7s
+					},
+					Slot12: {
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": {}
+						},
+						id: "thermaldynamics:duct_16",
+						Count: 7b,
+						Damage: 2s
+					},
+					Slot6: {
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": {}
+						},
+						id: "thermaldynamics:duct_32",
+						Count: 16b,
+						Damage: 0s
+					},
+					Slot7: {
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": {}
+						},
+						id: "thermaldynamics:duct_64",
+						Count: 5b,
+						Damage: 3s
+					},
+					Slot8: {
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": {}
+						},
+						id: "thermaldynamics:duct_16",
+						Count: 1b,
+						Damage: 0s
+					},
+					Slot9: {
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": {}
+						},
+						id: "thermaldynamics:duct_0",
+						Count: 3b,
+						Damage: 1s
+					}
+				},
+				Accessible: 1b
+			},
+			Damage: 1s
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thermalexpansion:cell",
+			tag: {
+				Recv: 9000,
+				RSControl: 0b,
+				Facing: 4b,
+				Creative: 0b,
+				Energy: 8375000,
+				Level: 2b,
+				SideCache: [B;
+					2b,
+					1b,
+					1b,
+					1b,
+					1b,
+					1b
+				],
+				Send: 9000
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thermalfoundation:material",
+			Damage: 295s
+		},
+		count: 4
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thermalfoundation:tool.hammer_constantan",
+			tag: {
+				ench: [{
+					lvl: 3s,
+					id: 32s
+				},
+				{
+					lvl: 2s,
+					id: 19s
+				},
+				{
+					lvl: 1s,
+					id: 21s
+				},
+				{
+					lvl: 1s,
+					id: 38s
+				},
+				{
+					lvl: 4s,
+					id: 20s
+				},
+				{
+					lvl: 1s,
+					id: 71s
+				}],
+				display: {
+					Lore: [
+						"Born from the sun."
+					],
+					Name: "Hammer of Sol"
+				},
+				AttributeModifiers: [{
+					UUIDMost: -3801225194067177672L,
+					UUIDLeast: -6586624321849018929L,
+					Amount: 10.0d,
+					Slot: "mainhand",
+					AttributeName: "generic.attackDamage",
+					Operation: 0,
+					Name: "generic.attackDamage"
+				},
+				{
+					UUIDMost: -422425648963762075L,
+					UUIDLeast: -5756800103171642205L,
+					Amount: -3.299999952316284d,
+					Slot: "mainhand",
+					AttributeName: "generic.attackSpeed",
+					Operation: 0,
+					Name: "generic.attackSpeed"
+				},
+				{
+					UUIDMost: 1751583323369852647L,
+					UUIDLeast: -5407750963673310410L,
+					Amount: 4.0d,
+					Slot: "mainhand",
+					AttributeName: "generic.armor",
+					Operation: 0,
+					Name: "generic.armor"
+				},
+				{
+					UUIDMost: 3538459595981606408L,
+					UUIDLeast: -6256379836810747249L,
+					Amount: 2.0d,
+					Slot: "mainhand",
+					AttributeName: "generic.armorToughness",
+					Operation: 0,
+					Name: "generic.armorToughness"
+				},
+				{
+					UUIDMost: 932796383339300770L,
+					UUIDLeast: -5137345720859374618L,
+					Amount: 2.0d,
+					Slot: "mainhand",
+					AttributeName: "generic.reachDistance",
+					Operation: 0,
+					Name: "generic.reachDistance"
+				},
+				{
+					UUIDMost: 1185351533724385561L,
+					UUIDLeast: -9016039880181887091L,
+					Amount: -100.0d,
+					Slot: "mainhand",
+					AttributeName: "forge.swimSpeed",
+					Operation: 0,
+					Name: "forge.swimSpeed"
+				}]
+			},
+			Damage: 351s
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "totaltinkers:battleaxe",
+			tag: {
+				StatsOriginal: {
+					AttackSpeedMultiplier: 1.0f,
+					MiningSpeed: 12.21f,
+					FreeModifiers: 3,
+					Durability: 510,
+					HarvestLevel: 3,
+					Attack: 5.685f
+				},
+				display: {
+					Name: "Thermal Nuclear Waraxe"
+				},
+				Stats: {
+					AttackSpeedMultiplier: 1.0f,
+					MiningSpeed: 12.71f,
+					FreeModifiers: 0,
+					Durability: 1010,
+					HarvestLevel: 3,
+					Attack: 9.2958f
+				},
+				Special: {
+					Categories: [
+						"aoe",
+						"tool",
+						"weapon"
+					]
+				},
+				TinkerData: {
+					UsedModifiers: 4,
+					Materials: [
+						"xu_enchanted_metal",
+						"electrum",
+						"signalum",
+						"blutonium"
+					],
+					Modifiers: [
+						"fiery",
+						"sharpness",
+						"diamond",
+						"creative",
+						"beheading"
+					]
+				},
+				Modifiers: [{
+					identifier: "xu_xp_boost",
+					color: -4197792,
+					level: 1
+				},
+				{
+					identifier: "shocking",
+					charge: 10.0f,
+					color: -1516727,
+					level: 1,
+					x: 666668.6351058893d,
+					y: 66.0d,
+					z: 666669.6334452506d
+				},
+				{
+					identifier: "unnatural",
+					color: -1680624,
+					level: 1
+				},
+				{
+					identifier: "radioactive",
+					color: -14083900,
+					level: 3,
+					radioactive3: 1b
+				},
+				{
+					identifier: "fiery",
+					current: 25,
+					color: 15375922,
+					level: 1,
+					max: 25,
+					extraInfo: "24 / 25"
+				},
+				{
+					identifier: "sharpness",
+					current: 72,
+					color: 16774902,
+					level: 1,
+					max: 72,
+					extraInfo: "71 / 72"
+				},
+				{
+					identifier: "diamond",
+					color: 9237730
+				},
+				{
+					identifier: "creative",
+					color: 0,
+					level: 1
+				},
+				{
+					identifier: "beheading",
+					color: 1070923,
+					level: 1
+				}],
+				Traits: [
+					"xu_xp_boost",
+					"shocking",
+					"unnatural",
+					"radioactive3",
+					"fiery"
+				]
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "redstonearsenal:tool.battlewrench_flux",
+			tag: {
+				ench: [{
+					lvl: 3s,
+					id: 16s
+				},
+				{
+					lvl: 1s,
+					id: 110s
+				},
+				{
+					lvl: 2s,
+					id: 104s
+				}],
+				Energy: 320000,
+				display: {
+					Lore: [
+						"You are the bolt in the machine."
+					],
+					Name: "Line Checker"
+				},
+				AttributeModifiers: [{
+					UUIDMost: -3801225194067177672L,
+					UUIDLeast: -6586624321849018929L,
+					Amount: 9.0d,
+					Slot: "mainhand",
+					AttributeName: "generic.attackDamage",
+					Operation: 0,
+					Name: "generic.attackDamage"
+				},
+				{
+					UUIDMost: -422425648963762075L,
+					UUIDLeast: -5756800103171642205L,
+					Amount: -2.0d,
+					Slot: "mainhand",
+					AttributeName: "generic.attackSpeed",
+					Operation: 0,
+					Name: "generic.attackSpeed"
+				},
+				{
+					UUIDMost: 5583916078229308698L,
+					UUIDLeast: -4998689036849851341L,
+					Amount: 1.0d,
+					Slot: "mainhand",
+					AttributeName: "generic.reachDistance",
+					Operation: 0,
+					Name: "generic.reachDistance"
+				}]
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "redstonearsenal:material",
+			Damage: 193s
+		},
+		count: 6
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "redstonearsenal:material",
+			Damage: 32s
+		},
+		count: 2,
+		random_bonus: 3
+	}]
+}

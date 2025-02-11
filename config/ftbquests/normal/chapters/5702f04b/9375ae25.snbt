@@ -1,0 +1,51 @@
+{
+	title: "Lethal Pebbels",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "cyclicmagic:stone_pebble"
+	},
+	x: 4.0d,
+	y: 5.0d,
+	shape: "circle",
+	description: "Sling pebbles at your enemies!",
+	text: [
+		""
+	],
+	dependencies: [
+		"20bb9aab"
+	],
+	tasks: [{
+		uid: "4ebd49eb",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "cyclicmagic:slingshot_weapon",
+			tag: {
+				ActionType: 2,
+				timeout: 0
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "be505bb3",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "cyclicmagic:stone_pebble"
+		}],
+		count: 32L
+	}],
+	rewards: [{
+		uid: "522fb79c",
+		type: "loot",
+		table: 51
+	}]
+}

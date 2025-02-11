@@ -1,0 +1,44 @@
+{
+	title: "Lava Boi!",
+	x: -1.0d,
+	y: -1.0d,
+	description: "Magma Crucible can smelt materials into their liquid counterparts.",
+	text: [
+		""
+	],
+	dependencies: [
+		"2e549dda"
+	],
+	hide: true,
+	tasks: [{
+		uid: "e45b933e",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thermalexpansion:machine",
+			tag: {
+				RSControl: 0b,
+				Facing: 3b,
+				Energy: 0,
+				SideCache: [B;
+					1b,
+					1b,
+					2b,
+					2b,
+					2b,
+					2b
+				],
+				Level: 0b
+			},
+			Damage: 6s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "8d551332",
+		type: "loot",
+		table: 7
+	}]
+}

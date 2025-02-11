@@ -1,0 +1,72 @@
+{
+	title: "Dead Sands",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "minecraft:sand"
+	},
+	x: 1.0d,
+	y: -4.0d,
+	shape: "diamond",
+	description: "\"With 8 dried sand and some water, you can create sand. Stupid me ran out of sand, so can you make some for me?\"",
+	text: [
+		"Finally I can start collecting new materials."
+	],
+	dependencies: [
+		"a8f929b3"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "58eb3eab",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "biomesoplenty:dried_sand"
+		}],
+		count: 64L,
+		consume_items: false
+	},
+	{
+		uid: "eb14b2c5",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:sand"
+		}],
+		count: 8L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "c03237d4",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "camscurrency:denarius"
+		},
+		count: 6
+	},
+	{
+		uid: "46638552",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:bucket"
+		},
+		random_bonus: 4
+	},
+	{
+		uid: "7afcb041",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

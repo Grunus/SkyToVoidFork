@@ -1,0 +1,931 @@
+{
+	title: "Devoid",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "enderportaldecoration:gateway"
+	},
+	loot_size: 1,
+	hide_tooltip: true,
+	use_title: true,
+	rewards: [{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:totem_of_undying"
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "enderio:item_alloy_nugget",
+			Damage: 6s
+		},
+		count: 2
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "enderio:item_alloy_nugget",
+			Damage: 6s
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "cyclicmagic:charm_void",
+			tag: {}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "enderio:item_material",
+			Damage: 73s
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "tconstruct:rapier",
+			tag: {
+				StatsOriginal: {
+					AttackSpeedMultiplier: 1.0f,
+					MiningSpeed: 5.0f,
+					FreeModifiers: 3,
+					Durability: 934,
+					HarvestLevel: 2,
+					Attack: 6.0f
+				},
+				display: {
+					Name: "Myth Maker"
+				},
+				Stats: {
+					AttackSpeedMultiplier: 1.4f,
+					MiningSpeed: 5.0f,
+					FreeModifiers: 0,
+					Durability: 934,
+					HarvestLevel: 2,
+					Attack: 12.351936f
+				},
+				Special: {
+					Categories: [
+						"weapon",
+						"tool"
+					],
+					RepairCount: 1
+				},
+				TinkerData: {
+					UsedModifiers: 6,
+					Materials: [
+						"advancedalloy",
+						"shadow_iron",
+						"refinedobsidian"
+					],
+					Modifiers: [
+						"sharpness",
+						"creative",
+						"haste",
+						"webbed"
+					]
+				},
+				Modifiers: [{
+					identifier: "obscure_trait",
+					color: -12108480,
+					level: 1
+				},
+				{
+					identifier: "duritos",
+					color: -9230744,
+					level: 1
+				},
+				{
+					identifier: "darkness",
+					color: -9230744,
+					level: 1
+				},
+				{
+					identifier: "sharpness",
+					current: 216,
+					color: 16774902,
+					level: 3,
+					max: 216,
+					extraInfo: "215 / 216"
+				},
+				{
+					identifier: "creative",
+					color: 0,
+					level: 3
+				},
+				{
+					identifier: "haste",
+					current: 100,
+					color: 9502720,
+					level: 2,
+					max: 100,
+					extraInfo: "99 / 100"
+				},
+				{
+					identifier: "webbed",
+					color: 16777215,
+					level: 1
+				}],
+				Traits: [
+					"obscure_trait",
+					"duritos",
+					"darkness",
+					"webbed"
+				],
+				AttributeModifiers: [{
+					UUIDMost: -3801225194067177672L,
+					UUIDLeast: -6586624321849018929L,
+					Amount: 6.793565273284912d,
+					Slot: "mainhand",
+					AttributeName: "generic.attackDamage",
+					Operation: 0,
+					Name: "generic.attackDamage"
+				},
+				{
+					UUIDMost: -422425648963762075L,
+					UUIDLeast: -5756800103171642205L,
+					Amount: 0.19999980926513672d,
+					Slot: "mainhand",
+					AttributeName: "generic.attackSpeed",
+					Operation: 0,
+					Name: "generic.attackSpeed"
+				},
+				{
+					UUIDMost: 7986003207420791776L,
+					UUIDLeast: -7706419416557003991L,
+					Amount: -1.0d,
+					Slot: "mainhand",
+					AttributeName: "generic.reachDistance",
+					Operation: 0,
+					Name: "generic.reachDistance"
+				}]
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "enderio:item_alloy_ingot",
+			Damage: 6s
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "tconstruct:arrow",
+			tag: {
+				StatsOriginal: {
+					AttackSpeedMultiplier: 1.0f,
+					Accuracy: 1.0f,
+					MiningSpeed: 11.76f,
+					FreeModifiers: 3,
+					Durability: 998,
+					HarvestLevel: 4,
+					Attack: 16.060001f
+				},
+				display: {
+					Name: "Solid Emptiness"
+				},
+				Stats: {
+					AttackSpeedMultiplier: 1.0f,
+					Accuracy: 1.0f,
+					MiningSpeed: 11.76f,
+					FreeModifiers: 3,
+					Durability: 998,
+					HarvestLevel: 4,
+					Attack: 16.060001f
+				},
+				Special: {
+					Categories: [
+						"projectile",
+						"tool",
+						"no_melee"
+					]
+				},
+				TinkerData: {
+					Materials: [
+						"blaze",
+						"ebonypsi",
+						"feather"
+					],
+					Modifiers: [
+						"soulbound"
+					]
+				},
+				Modifiers: [{
+					identifier: "hovering",
+					color: -16128,
+					level: 1
+				},
+				{
+					identifier: "darkness",
+					color: -16119286,
+					level: 1
+				},
+				{
+					identifier: "psieater",
+					color: -16119286,
+					level: 1
+				},
+				{
+					identifier: "soulbound",
+					color: 16120748
+				}],
+				Traits: [
+					"hovering",
+					"darkness",
+					"psieater"
+				]
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "tombstone:fishing_rod_of_misadventure",
+			tag: {
+				enchant: 1b,
+				ancient: 1b
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "mysticalagriculture:crafting",
+			Damage: 38s
+		},
+		count: 4
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "enderio:item_alloy_nugget",
+			Damage: 6s
+		},
+		count: 2
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "enderio:item_alloy_ingot",
+			Damage: 6s
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "enderio:item_alloy_nugget",
+			Damage: 6s
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "enderio:item_alloy_ingot",
+			Damage: 6s
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "enderio:item_material",
+			Damage: 73s
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "enderio:item_material",
+			Damage: 73s
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thermalexpansion:satchel",
+			tag: {
+				Inventory: {
+					Slot2: {
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": {}
+						},
+						id: "enderio:item_soul_vial",
+						Count: 1b,
+						tag: {
+							entityId: "minecraft:ghast"
+						},
+						Damage: 1s
+					},
+					Slot4: {
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": {}
+						},
+						id: "enderio:item_soul_vial",
+						Count: 1b,
+						tag: {
+							entityId: "biomesoplenty:wasp"
+						},
+						Damage: 1s
+					},
+					Slot0: {
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": {}
+						},
+						id: "enderio:item_soul_vial",
+						Count: 1b,
+						tag: {
+							entityId: "minecraft:blaze"
+						},
+						Damage: 1s
+					},
+					Slot6: {
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": {}
+						},
+						id: "enderio:item_soul_vial",
+						Count: 1b,
+						tag: {
+							entityId: "minecraft:magma_cube"
+						},
+						Damage: 1s
+					},
+					Slot8: {
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": {}
+						},
+						id: "enderio:item_soul_vial",
+						Count: 1b,
+						tag: {
+							entityId: "minecraft:wither_skeleton"
+						},
+						Damage: 1s
+					}
+				},
+				Accessible: 1b
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thermalexpansion:satchel",
+			tag: {
+				Inventory: {
+					Slot2: {
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": {}
+						},
+						id: "enderio:item_soul_vial",
+						Count: 1b,
+						tag: {
+							entityId: "minecraft:zombie"
+						},
+						Damage: 1s
+					},
+					Slot4: {
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": {}
+						},
+						id: "enderio:item_soul_vial",
+						Count: 1b,
+						tag: {
+							entityId: "minecraft:skeleton"
+						},
+						Damage: 1s
+					},
+					Slot0: {
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": {}
+						},
+						id: "enderio:item_soul_vial",
+						Count: 1b,
+						tag: {
+							entityId: "minecraft:zombie_villager"
+						},
+						Damage: 1s
+					},
+					Slot6: {
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": {}
+						},
+						id: "enderio:item_soul_vial",
+						Count: 1b,
+						tag: {
+							entityId: "minecraft:husk"
+						},
+						Damage: 1s
+					},
+					Slot8: {
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": {}
+						},
+						id: "enderio:item_soul_vial",
+						Count: 1b,
+						tag: {
+							entityId: "minecraft:zombie_pigman"
+						},
+						Damage: 1s
+					}
+				},
+				Accessible: 1b
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thermalexpansion:satchel",
+			tag: {
+				Inventory: {
+					Slot2: {
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": {}
+						},
+						id: "enderio:item_soul_vial",
+						Count: 1b,
+						tag: {
+							entityId: "minecraft:endermite"
+						},
+						Damage: 1s
+					},
+					Slot4: {
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": {}
+						},
+						id: "enderio:item_soul_vial",
+						Count: 1b,
+						tag: {
+							entityId: "enderiozoo:lovechild"
+						},
+						Damage: 1s
+					},
+					Slot0: {
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": {}
+						},
+						id: "enderio:item_soul_vial",
+						Count: 1b,
+						tag: {
+							entityId: "minecraft:enderman"
+						},
+						Damage: 1s
+					},
+					Slot6: {
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": {}
+						},
+						id: "enderio:item_soul_vial",
+						Count: 1b,
+						tag: {
+							entityId: "enderiozoo:fallenmount"
+						},
+						Damage: 1s
+					},
+					Slot8: {
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": {}
+						},
+						id: "enderio:item_soul_vial",
+						Count: 1b,
+						tag: {
+							entityId: "minecraft:illusion_illager"
+						},
+						Damage: 1s
+					}
+				},
+				Accessible: 1b
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "conarm:boots",
+			tag: {
+				StatsOriginal: {
+					Toughness: 3.0f,
+					FreeModifiers: 3,
+					Durability: 270,
+					Defense: 20.0f
+				},
+				display: {
+					Name: "Void Walkers"
+				},
+				Stats: {
+					Toughness: 3.0f,
+					FreeModifiers: 2,
+					Durability: 270,
+					Defense: 20.0f
+				},
+				TinkerData: {
+					UsedModifiers: 4,
+					Materials: [
+						"manyullyn",
+						"shadow_steel",
+						"kalendrite"
+					],
+					Modifiers: [
+						"frostwalker_armor",
+						"projectile_resistant_armor",
+						"parasitic_armor",
+						"creative",
+						"mending_armor"
+					]
+				},
+				Modifiers: [{
+					identifier: "vengeful_armor",
+					color: -6202120,
+					level: 1
+				},
+				{
+					identifier: "blindness_armor",
+					color: -6843502,
+					level: 1
+				},
+				{
+					identifier: "strongly_armor",
+					color: -6733347,
+					strongly0_armor: 1b
+				},
+				{
+					identifier: "frostwalker_armor",
+					color: 39321,
+					level: 1
+				},
+				{
+					identifier: "projectile_resistant_armor",
+					color: 1070923,
+					level: 1,
+					modifierUsed: 1b
+				},
+				{
+					identifier: "parasitic_armor",
+					color: 6160384,
+					level: 1
+				},
+				{
+					identifier: "creative",
+					color: 0,
+					level: 3
+				},
+				{
+					identifier: "mending_armor",
+					color: 4434738,
+					level: 1
+				}],
+				Traits: [
+					"vengeful_armor",
+					"blindness_armor",
+					"strongly0_armor",
+					"frostwalker_armor",
+					"projectile_resistant_armor",
+					"parasitic_armor",
+					"mending_armor"
+				]
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "totaltinkers:battleaxe",
+			tag: {
+				StatsOriginal: {
+					AttackSpeedMultiplier: 1.0f,
+					MiningSpeed: 9.62f,
+					FreeModifiers: 3,
+					Durability: 2216,
+					HarvestLevel: 4,
+					Attack: 9.02f
+				},
+				display: {
+					Name: "Voidsent Blade"
+				},
+				Stats: {
+					AttackSpeedMultiplier: 1.2f,
+					MiningSpeed: 10.109998f,
+					FreeModifiers: 1,
+					Durability: 2283,
+					HarvestLevel: 4,
+					Attack: 9.360008f
+				},
+				Special: {
+					Categories: [
+						"tool",
+						"aoe",
+						"weapon"
+					],
+					alienStatBonus: {
+						identifier: "",
+						color: 0,
+						attack: 0.33999982f,
+						durability: 67,
+						speed: 0.48999998f
+					},
+					alienStatPool: {
+						identifier: "",
+						color: 16777215,
+						attack: 1.354999f,
+						durability: 262,
+						speed: 1.8689983f
+					}
+				},
+				TinkerData: {
+					UsedModifiers: 4,
+					Materials: [
+						"gaia",
+						"alduorite",
+						"refinedobsidian",
+						"darkmatter"
+					],
+					Modifiers: [
+						"fiery",
+						"creative",
+						"beheading",
+						"haste"
+					]
+				},
+				Modifiers: [{
+					identifier: "alien",
+					color: -7252043,
+					level: 1
+				},
+				{
+					identifier: "payback",
+					color: -7252043,
+					level: 1
+				},
+				{
+					identifier: "unnatural",
+					color: -7170882,
+					level: 1
+				},
+				{
+					identifier: "duritos",
+					color: -9230744,
+					level: 1
+				},
+				{
+					identifier: "darkness",
+					color: -9230744,
+					level: 1
+				},
+				{
+					identifier: "fiery",
+					current: 50,
+					color: 15375922,
+					level: 2,
+					max: 50,
+					extraInfo: "49 / 50"
+				},
+				{
+					identifier: "creative",
+					color: 0,
+					level: 2
+				},
+				{
+					identifier: "beheading",
+					color: 1070923,
+					level: 1
+				},
+				{
+					identifier: "haste",
+					current: 50,
+					color: 9502720,
+					level: 1,
+					max: 50,
+					extraInfo: "49 / 50"
+				}],
+				Traits: [
+					"alien",
+					"payback",
+					"unnatural",
+					"duritos",
+					"darkness",
+					"fiery"
+				]
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "enderio:item_alloy_nugget",
+			Damage: 6s
+		},
+		count: 2
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "enderio:item_alloy_nugget",
+			Damage: 6s
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "tconstruct:rapier",
+			tag: {
+				ench: [{
+					lvl: 3s,
+					id: 21s
+				}],
+				StatsOriginal: {
+					AttackSpeedMultiplier: 1.0f,
+					MiningSpeed: 5.0f,
+					FreeModifiers: 3,
+					Durability: 934,
+					HarvestLevel: 2,
+					Attack: 6.0f
+				},
+				display: {
+					Name: "Myth Maker 2.0"
+				},
+				Stats: {
+					AttackSpeedMultiplier: 1.4f,
+					MiningSpeed: 5.0f,
+					FreeModifiers: 0,
+					Durability: 934,
+					HarvestLevel: 2,
+					Attack: 15.520056f
+				},
+				Special: {
+					Categories: [
+						"weapon",
+						"tool"
+					],
+					RepairCount: 1
+				},
+				TinkerData: {
+					UsedModifiers: 11,
+					Materials: [
+						"advancedalloy",
+						"shadow_iron",
+						"refinedobsidian"
+					],
+					Modifiers: [
+						"sharpness",
+						"creative",
+						"haste",
+						"webbed",
+						"luck",
+						"fiery",
+						"beheading"
+					]
+				},
+				AttributeModifiers: [{
+					UUIDMost: -3801225194067177672L,
+					UUIDLeast: -6586624321849018929L,
+					Amount: 6.793565273284912d,
+					Slot: "mainhand",
+					AttributeName: "generic.attackDamage",
+					Operation: 0,
+					Name: "generic.attackDamage"
+				},
+				{
+					UUIDMost: -422425648963762075L,
+					UUIDLeast: -5756800103171642205L,
+					Amount: 0.19999980926513672d,
+					Slot: "mainhand",
+					AttributeName: "generic.attackSpeed",
+					Operation: 0,
+					Name: "generic.attackSpeed"
+				},
+				{
+					UUIDMost: 7986003207420791776L,
+					UUIDLeast: -7706419416557003991L,
+					Amount: -1.0d,
+					Slot: "mainhand",
+					AttributeName: "generic.reachDistance",
+					Operation: 0,
+					Name: "generic.reachDistance"
+				}],
+				Modifiers: [{
+					identifier: "obscure_trait",
+					color: -12108480,
+					level: 1
+				},
+				{
+					identifier: "duritos",
+					color: -9230744,
+					level: 1
+				},
+				{
+					identifier: "darkness",
+					color: -9230744,
+					level: 1
+				},
+				{
+					identifier: "sharpness",
+					current: 360,
+					color: 16774902,
+					level: 5,
+					max: 360,
+					extraInfo: "359 / 360"
+				},
+				{
+					identifier: "creative",
+					color: 0,
+					level: 8
+				},
+				{
+					identifier: "haste",
+					current: 100,
+					color: 9502720,
+					level: 2,
+					max: 100,
+					extraInfo: "99 / 100"
+				},
+				{
+					identifier: "webbed",
+					color: 16777215,
+					level: 1
+				},
+				{
+					identifier: "luck",
+					current: 360,
+					color: 2970082,
+					level: 3,
+					max: 360,
+					modifierUsed: 1b,
+					extraInfo: "359 / 360"
+				},
+				{
+					identifier: "fiery",
+					current: 25,
+					color: 15375922,
+					level: 1,
+					max: 25,
+					extraInfo: "24 / 25"
+				},
+				{
+					identifier: "beheading",
+					color: 1070923,
+					level: 1
+				}],
+				Traits: [
+					"obscure_trait",
+					"duritos",
+					"darkness",
+					"webbed",
+					"luck",
+					"fiery"
+				]
+			}
+		}
+	}]
+}

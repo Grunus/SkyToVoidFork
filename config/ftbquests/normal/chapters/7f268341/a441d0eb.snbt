@@ -1,0 +1,34 @@
+{
+	title: "Factory Line",
+	x: 19.5d,
+	y: 10.0d,
+	text: [
+		"With glowstone dust, you can right click on the belt to increase its speed."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"0d5b0cb0"
+	],
+	hide: true,
+	tasks: [{
+		uid: "fdf0077a",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "industrialforegoing:conveyor"
+		}]
+	}],
+	rewards: [{
+		uid: "f1a60cc7",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "industrialforegoing:conveyor"
+		},
+		count: 16
+	}]
+}

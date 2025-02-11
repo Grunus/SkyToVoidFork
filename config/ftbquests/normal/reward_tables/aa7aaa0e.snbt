@@ -1,0 +1,134 @@
+{
+	title: "Applied Energistics Tier III Reward",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "appliedenergistics2:material",
+		Damage: 10s
+	},
+	loot_size: 1,
+	hide_tooltip: true,
+	use_title: true,
+	rewards: [{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "appliedenergistics2:storage_cell_64k",
+			tag: {}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "appliedenergistics2:crafting_storage_64k"
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "appliedenergistics2:dense_energy_cell",
+			tag: {
+				internalMaxPower: 1600000.0d,
+				internalCurrentPower: 1600000.0d
+			}
+		},
+		count: 4
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "appliedenergistics2:fluid_storage_cell_64k",
+			tag: {}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "appliedenergistics2:sky_compass",
+			tag: {
+				display: {
+					Lore: [
+						"The Compass circles...",
+						"",
+						"You are at the end of time..."
+					],
+					Name: "Compass Which Points to the End of Time"
+				},
+				AttributeModifiers: [{
+					UUIDMost: 5680647976870823180L,
+					UUIDLeast: -8737820778456353880L,
+					Amount: 6.0d,
+					Slot: "offhand",
+					AttributeName: "generic.attackDamage",
+					Operation: 0,
+					Name: "generic.attackDamage"
+				},
+				{
+					UUIDMost: 8573150877325738906L,
+					UUIDLeast: -8332857004697462445L,
+					Amount: 1.0d,
+					Slot: "offhand",
+					AttributeName: "generic.attackSpeed",
+					Operation: 0,
+					Name: "generic.attackSpeed"
+				},
+				{
+					UUIDMost: -7629149811650051333L,
+					UUIDLeast: -8276349163908181606L,
+					Amount: 4.0d,
+					Slot: "offhand",
+					AttributeName: "generic.armor",
+					Operation: 0,
+					Name: "generic.armor"
+				},
+				{
+					UUIDMost: -594239418840298548L,
+					UUIDLeast: -8107658587109888694L,
+					Amount: 2.0d,
+					Slot: "offhand",
+					AttributeName: "generic.armorToughness",
+					Operation: 0,
+					Name: "generic.armorToughness"
+				},
+				{
+					UUIDMost: -7078231270037435435L,
+					UUIDLeast: -5965742884288134849L,
+					Amount: 10.0d,
+					Slot: "offhand",
+					AttributeName: "generic.maxHealth",
+					Operation: 0,
+					Name: "generic.maxHealth"
+				},
+				{
+					UUIDMost: 4729271758764262306L,
+					UUIDLeast: -7984632326033272810L,
+					Amount: 1.0d,
+					Slot: "offhand",
+					AttributeName: "generic.knockbackResistance",
+					Operation: 0,
+					Name: "generic.knockbackResistance"
+				},
+				{
+					UUIDMost: 626143327457986899L,
+					UUIDLeast: -8871924428040365273L,
+					Amount: 3.0d,
+					Slot: "offhand",
+					AttributeName: "generic.reachDistance",
+					Operation: 0,
+					Name: "generic.reachDistance"
+				}]
+			}
+		},
+		only_one: true
+	}]
+}

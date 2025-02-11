@@ -1,0 +1,138 @@
+{
+	title: "Acquiesced Islet",
+	x: 2.5d,
+	y: -9.0d,
+	description: "Corruption beats everything.",
+	text: [
+		""
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"6bae85c1"
+	],
+	hide: true,
+	tasks: [{
+		uid: "243eaadf",
+		type: "location",
+		title: "289 124 -474",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "openblocks:tank",
+			tag: {
+				tank: {
+					FluidName: "witchwater",
+					Amount: 16000
+				}
+			}
+		},
+		location: [I;
+			0,
+			286,
+			124,
+			-477,
+			5,
+			5,
+			5
+		]
+	}],
+	rewards: [{
+		uid: "6d0856cc",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "tconstruct:pickaxe",
+			tag: {
+				ench: [{
+					lvl: 1s,
+					id: 35s
+				}],
+				StatsOriginal: {
+					AttackSpeedMultiplier: 1.0f,
+					MiningSpeed: 7.65f,
+					FreeModifiers: 3,
+					Durability: 1276,
+					HarvestLevel: 3,
+					Attack: 6.83f
+				},
+				display: {
+					Name: "Between Light on Dark"
+				},
+				Stats: {
+					AttackSpeedMultiplier: 1.0f,
+					MiningSpeed: 7.65f,
+					FreeModifiers: 0,
+					Durability: 1276,
+					HarvestLevel: 3,
+					Attack: 9.25197f
+				},
+				Special: {
+					Categories: [
+						"aoe",
+						"tool",
+						"harvest"
+					]
+				},
+				TinkerData: {
+					UsedModifiers: 3,
+					Materials: [
+						"shadow_steel",
+						"quartzenrichediron",
+						"refinedobsidian"
+					],
+					Modifiers: [
+						"sharpness",
+						"necrotic",
+						"luck"
+					]
+				},
+				Modifiers: [{
+					identifier: "duritos",
+					color: -9230744,
+					level: 1
+				},
+				{
+					identifier: "darkness",
+					color: -9230744,
+					level: 1
+				},
+				{
+					identifier: "sharpness",
+					current: 72,
+					color: 16774902,
+					level: 1,
+					max: 72,
+					extraInfo: "71 / 72"
+				},
+				{
+					identifier: "necrotic",
+					color: 6160384,
+					level: 1
+				},
+				{
+					identifier: "luck",
+					current: 60,
+					color: 2970082,
+					level: 1,
+					max: 60,
+					modifierUsed: 1b,
+					extraInfo: "59 / 60"
+				}],
+				Traits: [
+					"duritos",
+					"darkness",
+					"necrotic",
+					"luck"
+				]
+			}
+		}
+	},
+	{
+		uid: "d2bd52d2",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

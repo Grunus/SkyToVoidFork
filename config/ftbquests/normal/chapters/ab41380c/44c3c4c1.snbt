@@ -1,0 +1,33 @@
+{
+	title: "Meet The Bandit",
+	x: 12.5d,
+	y: 14.5d,
+	shape: "diamond",
+	text: [
+		""
+	],
+	dependencies: [
+		"a150f2c8"
+	],
+	hide: true,
+	tasks: [{
+		uid: "c1854bb5",
+		type: "location",
+		title: "756 65 819",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "openblocks:pencil_glasses"
+		},
+		location: [I;
+			0,
+			756,
+			65,
+			819,
+			2,
+			2,
+			2
+		]
+	}]
+}

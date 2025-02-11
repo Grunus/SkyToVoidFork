@@ -1,0 +1,843 @@
+{
+	title: "Thermal Expansion Tier I Reward",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "thermalfoundation:upgrade",
+		Damage: 33s
+	},
+	loot_size: 2,
+	hide_tooltip: true,
+	use_title: true,
+	rewards: [{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thermalfoundation:material",
+			Damage: 161s
+		},
+		count: 4,
+		random_bonus: 4
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thermalfoundation:material",
+			Damage: 128s
+		},
+		count: 8,
+		random_bonus: 8
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thermalfoundation:material",
+			Damage: 129s
+		},
+		count: 10,
+		random_bonus: 10
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thermalfoundation:material",
+			Damage: 130s
+		},
+		count: 6,
+		random_bonus: 6
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thermalfoundation:material",
+			Damage: 133s
+		},
+		count: 7,
+		random_bonus: 7
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thermalfoundation:material",
+			Damage: 163s
+		},
+		count: 5,
+		random_bonus: 5
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thermalfoundation:material",
+			Damage: 132s
+		},
+		count: 10,
+		random_bonus: 10
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thermalfoundation:material",
+			Damage: 131s
+		},
+		count: 6,
+		random_bonus: 6
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thermalexpansion:strongbox",
+			tag: {
+				RSControl: 0b,
+				Creative: 0b,
+				display: {
+					Name: "Box Full of Nuts & Bolts"
+				},
+				Level: 0b,
+				Inventory: [{
+					Slot: 0,
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": {}
+					},
+					id: "thermalfoundation:material",
+					Count: 4b,
+					Damage: 24s
+				},
+				{
+					Slot: 1,
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": {}
+					},
+					id: "thermalfoundation:material",
+					Count: 5b,
+					Damage: 260s
+				},
+				{
+					Slot: 2,
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": {}
+					},
+					id: "thermalfoundation:material",
+					Count: 2b,
+					Damage: 257s
+				},
+				{
+					Slot: 3,
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": {}
+					},
+					id: "thermalfoundation:material",
+					Count: 3b,
+					Damage: 197s
+				},
+				{
+					Slot: 4,
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": {}
+					},
+					id: "thermalfoundation:material",
+					Count: 1b,
+					Damage: 26s
+				},
+				{
+					Slot: 5,
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": {}
+					},
+					id: "thermalfoundation:material",
+					Count: 2b,
+					Damage: 196s
+				},
+				{
+					Slot: 6,
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": {}
+					},
+					id: "thermalfoundation:material",
+					Count: 2b,
+					Damage: 23s
+				},
+				{
+					Slot: 7,
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": {}
+					},
+					id: "thermalfoundation:material",
+					Count: 1b,
+					Damage: 259s
+				},
+				{
+					Slot: 8,
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": {}
+					},
+					id: "thermalfoundation:material",
+					Count: 1b,
+					Damage: 33s
+				},
+				{
+					Slot: 10,
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": {}
+					},
+					id: "thermalfoundation:material",
+					Count: 1b,
+					Damage: 24s
+				},
+				{
+					Slot: 12,
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": {}
+					},
+					id: "thermalfoundation:material",
+					Count: 2b,
+					Damage: 25s
+				},
+				{
+					Slot: 13,
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": {}
+					},
+					id: "thermalfoundation:material",
+					Count: 1b,
+					Damage: 258s
+				},
+				{
+					Slot: 14,
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": {}
+					},
+					id: "thermalfoundation:material",
+					Count: 2b,
+					Damage: 32s
+				},
+				{
+					Slot: 15,
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": {}
+					},
+					id: "thermalfoundation:material",
+					Count: 2b,
+					Damage: 193s
+				},
+				{
+					Slot: 16,
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": {}
+					},
+					id: "thermalfoundation:material",
+					Count: 1b,
+					Damage: 192s
+				},
+				{
+					Slot: 17,
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": {}
+					},
+					id: "thermalfoundation:material",
+					Count: 3b,
+					Damage: 320s
+				}]
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thermalfoundation:glass"
+		},
+		count: 12
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thermalfoundation:diagram_redprint"
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thermalfoundation:material",
+			Damage: 513s
+		},
+		count: 4
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thermalfoundation:fertilizer"
+		},
+		random_bonus: 2
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thermalfoundation:material",
+			Damage: 2048s
+		},
+		count: 4
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thermalexpansion:strongbox",
+			tag: {
+				RSControl: 0b,
+				Creative: 0b,
+				display: {
+					Name: "Spare Parts"
+				},
+				Level: 1b,
+				Inventory: [{
+					Slot: 0,
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": {}
+					},
+					id: "thermalfoundation:material",
+					Count: 3b,
+					Damage: 512s
+				},
+				{
+					Slot: 1,
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": {}
+					},
+					id: "thermalfoundation:material",
+					Count: 2b,
+					Damage: 800s
+				},
+				{
+					Slot: 2,
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": {}
+					},
+					id: "thermalfoundation:material",
+					Count: 1b,
+					Damage: 800s
+				},
+				{
+					Slot: 3,
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": {}
+					},
+					id: "thermalfoundation:material",
+					Count: 1b,
+					Damage: 801s
+				},
+				{
+					Slot: 4,
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": {}
+					},
+					id: "thermalfoundation:material",
+					Count: 1b,
+					Damage: 656s
+				},
+				{
+					Slot: 5,
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": {}
+					},
+					id: "thermalfoundation:material",
+					Count: 3b,
+					Damage: 262s
+				},
+				{
+					Slot: 7,
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": {}
+					},
+					id: "thermalfoundation:security",
+					Count: 1b,
+					Damage: 0s
+				},
+				{
+					Slot: 8,
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": {}
+					},
+					id: "thermalfoundation:material",
+					Count: 2b,
+					Damage: 514s
+				},
+				{
+					Slot: 9,
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": {}
+					},
+					id: "thermalfoundation:material",
+					Count: 1b,
+					Damage: 800s
+				},
+				{
+					Slot: 10,
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": {}
+					},
+					id: "thermalfoundation:material",
+					Count: 1b,
+					Damage: 514s
+				},
+				{
+					Slot: 11,
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": {}
+					},
+					id: "thermalfoundation:material",
+					Count: 1b,
+					Damage: 800s
+				},
+				{
+					Slot: 12,
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": {}
+					},
+					id: "thermalfoundation:material",
+					Count: 1b,
+					Damage: 800s
+				},
+				{
+					Slot: 13,
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": {}
+					},
+					id: "thermalfoundation:material",
+					Count: 1b,
+					Damage: 801s
+				},
+				{
+					Slot: 15,
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": {}
+					},
+					id: "thermalfoundation:material",
+					Count: 1b,
+					Damage: 513s
+				},
+				{
+					Slot: 18,
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": {}
+					},
+					id: "thermalfoundation:material",
+					Count: 1b,
+					Damage: 800s
+				},
+				{
+					Slot: 19,
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": {}
+					},
+					id: "thermalfoundation:material",
+					Count: 1b,
+					Damage: 514s
+				},
+				{
+					Slot: 20,
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": {}
+					},
+					id: "thermalfoundation:material",
+					Count: 1b,
+					Damage: 800s
+				},
+				{
+					Slot: 21,
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": {}
+					},
+					id: "thermalfoundation:material",
+					Count: 1b,
+					Damage: 801s
+				},
+				{
+					Slot: 22,
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": {}
+					},
+					id: "thermalfoundation:material",
+					Count: 2b,
+					Damage: 513s
+				},
+				{
+					Slot: 24,
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": {}
+					},
+					id: "thermalfoundation:material",
+					Count: 1b,
+					Damage: 800s
+				},
+				{
+					Slot: 25,
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": {}
+					},
+					id: "thermalfoundation:material",
+					Count: 1b,
+					Damage: 515s
+				},
+				{
+					Slot: 26,
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": {}
+					},
+					id: "thermalfoundation:material",
+					Count: 1b,
+					Damage: 64s
+				},
+				{
+					Slot: 27,
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": {}
+					},
+					id: "thermalfoundation:material",
+					Count: 1b,
+					Damage: 802s
+				},
+				{
+					Slot: 28,
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": {}
+					},
+					id: "thermalfoundation:material",
+					Count: 1b,
+					Damage: 800s
+				},
+				{
+					Slot: 29,
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": {}
+					},
+					id: "thermalfoundation:material",
+					Count: 1b,
+					Damage: 657s
+				},
+				{
+					Slot: 30,
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": {}
+					},
+					id: "thermalfoundation:material",
+					Count: 1b,
+					Damage: 801s
+				},
+				{
+					Slot: 32,
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": {}
+					},
+					id: "thermalfoundation:material",
+					Count: 1b,
+					Damage: 640s
+				},
+				{
+					Slot: 33,
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": {}
+					},
+					id: "thermalinnovation:injector",
+					Count: 1b,
+					tag: {},
+					Damage: 0s
+				},
+				{
+					Slot: 34,
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": {}
+					},
+					id: "thermalfoundation:material",
+					Count: 1b,
+					Damage: 515s
+				},
+				{
+					Slot: 35,
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": {}
+					},
+					id: "thermalfoundation:material",
+					Count: 1b,
+					Damage: 64s
+				}]
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thermalfoundation:tome_lexicon",
+			tag: {
+				Mode: 1,
+				Inventory: {}
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thermalfoundation:material",
+			Damage: 892s
+		},
+		count: 16
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thermalfoundation:storage_resource"
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thermalfoundation:material",
+			Damage: 514s
+		},
+		count: 2
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thermalfoundation:wrench",
+			tag: {
+				ench: [{
+					lvl: 3s,
+					id: 19s
+				}],
+				display: {
+					Lore: [
+						"Used for tweaking and beating!"
+					],
+					Name: "Spanner"
+				},
+				AttributeModifiers: [{
+					UUIDMost: -3801225194067177672L,
+					UUIDLeast: -6586624321849018929L,
+					Amount: 5.0d,
+					Slot: "mainhand",
+					AttributeName: "generic.attackDamage",
+					Operation: 0,
+					Name: "generic.attackDamage"
+				}]
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thermalfoundation:tool.shield_diamond"
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thermalexpansion:florb",
+			tag: {
+				Fluid: "water"
+			}
+		},
+		count: 4
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thermalexpansion:augment",
+			Damage: 512s
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thermaldynamics:duct_16",
+			Damage: 2s
+		},
+		count: 16
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thermalfoundation:storage",
+			Damage: 3s
+		},
+		count: 2
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thermalcultivation:watering_can",
+			tag: {
+				Water: 12000,
+				Mode: 1
+			},
+			Damage: 1s
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thermalfoundation:material",
+			Damage: 770s
+		},
+		count: 16,
+		random_bonus: 16
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thermalexpansion:frame"
+		},
+		count: 2
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thermalexpansion:frame",
+			Damage: 64s
+		},
+		count: 2
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thermalfoundation:bait"
+		},
+		count: 5
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "totaltinkers:cutlass",
+			tag: {
+				StatsOriginal: {
+					AttackSpeedMultiplier: 1.0f,
+					MiningSpeed: 4.45f,
+					FreeModifiers: 3,
+					Durability: 614,
+					HarvestLevel: 2,
+					Attack: 6.03f
+				},
+				display: {
+					Name: "Constant Power"
+				},
+				Stats: {
+					AttackSpeedMultiplier: 1.0f,
+					MiningSpeed: 4.45f,
+					FreeModifiers: 1,
+					Durability: 614,
+					HarvestLevel: 2,
+					Attack: 7.137593f
+				},
+				Special: {
+					Categories: [
+						"tool",
+						"weapon"
+					]
+				},
+				TinkerData: {
+					UsedModifiers: 2,
+					Materials: [
+						"invar",
+						"constantan",
+						"platinum"
+					],
+					Modifiers: [
+						"sharpness",
+						"fiery"
+					]
+				},
+				Modifiers: [{
+					identifier: "magnetic",
+					color: -3881788,
+					level: 1,
+					magnetic1: 1b
+				},
+				{
+					identifier: "constant",
+					color: -2510006,
+					level: 1
+				},
+				{
+					identifier: "sharpness",
+					current: 33,
+					color: 16774902,
+					level: 1,
+					max: 72,
+					extraInfo: "32 / 72"
+				},
+				{
+					identifier: "fiery",
+					current: 25,
+					color: 15375922,
+					level: 1,
+					max: 25,
+					extraInfo: "24 / 25"
+				}],
+				Traits: [
+					"magnetic1",
+					"constant",
+					"fiery"
+				]
+			}
+		}
+	}]
+}

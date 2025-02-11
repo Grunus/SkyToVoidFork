@@ -1,0 +1,56 @@
+{
+	title: "Communism Detected",
+	x: -13.0d,
+	y: -2.5d,
+	shape: "diamond",
+	description: "''I hope he bought this book for those weird machines the young ones handle. What are they called? Videoing taper?''",
+	text: [
+		"It's no joke with Communism..."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"1028f6e8",
+		"452714e6"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "95dcc7ed",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:knowledge_book",
+			tag: {
+				ench: [{
+					lvl: 1,
+					id: 3
+				}],
+				RepairCost: 1,
+				display: {
+					Name: "The Communist Manifesto"
+				}
+			}
+		}],
+		consume_items: true,
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "598fb2d8",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "camscurrency:denarius"
+		},
+		count: 12
+	},
+	{
+		uid: "efebd314",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

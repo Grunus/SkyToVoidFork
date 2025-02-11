@@ -1,0 +1,140 @@
+{
+	title: "Complete All 'Square' Quests in Chapter 1, 2 and 3",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "simple_trophies:trophy",
+		tag: {
+			TrophyColorGreen: 118,
+			TrophyVariant: "classic",
+			TrophyShowsTooltip: 1b,
+			TrophyItem: {
+				ForgeCaps: {
+					"customnpcs:itemscripteddata": {}
+				},
+				id: "minecraft:diamond_block",
+				Count: 1b,
+				Damage: 0s
+			},
+			TrophyColorBlue: 151,
+			TrophyName: "Complete all 'Square' Quests in Ch1",
+			TrophyColorRed: 40,
+			TrophyEarnedAt: 1657732405L
+		}
+	},
+	x: -5.0d,
+	y: 0.0d,
+	description: "The Sky, the Void, and the In-Between - Automatic & Electrocution - The Scattered Bits",
+	text: [
+		"Complete all 'Square' quests throughout Chapter 1, 2 and 3."
+	],
+	dependencies: [
+		"023aef38",
+		"91d9c25a",
+		"ada5f823",
+		"690a2780",
+		"041e8a14",
+		"0aca0947",
+		"33bd0cac",
+		"f52468b6",
+		"99e63cf4",
+		"3c690d7f",
+		"c689a610",
+		"2f81161b",
+		"a90b4e17",
+		"2687d51b",
+		"b7ea0175",
+		"0d6a75ca",
+		"326c9e4d",
+		"38fde25f",
+		"53908734",
+		"9a075aaf",
+		"53f2b65f",
+		"1fb93c14",
+		"d6f932d7",
+		"064a12e5",
+		"b947f7f7",
+		"751f562d",
+		"c0b8e20d",
+		"25fa8d4f",
+		"8e0ce5b3",
+		"82e45825",
+		"12cbe00f",
+		"da7458b0",
+		"b9afe36a",
+		"d6fc2739",
+		"434dba0a",
+		"98eb4924",
+		"f01a32d5",
+		"b5e0e8b0",
+		"8c8abf5b",
+		"48a1cc73",
+		"d16e41ba",
+		"3ee3aab5",
+		"ffcc841a",
+		"726830bf",
+		"e26b1ebc",
+		"e0f9ae21",
+		"b95d7004",
+		"93a3bf79",
+		"c4e3cd3f",
+		"065ed001",
+		"36765d12",
+		"096c9a88",
+		"4a88a86e",
+		"14cc04a5",
+		"69e08889",
+		"9d123279",
+		"49ab83c6",
+		"a5fa6e14",
+		"d7dd722d",
+		"276da89f",
+		"a7c8b5bb",
+		"75f0da06",
+		"63717e88",
+		"e39513ee",
+		"3b76320d",
+		"6307d9fc",
+		"8729ff54",
+		"b651f7ac",
+		"545c2ba1",
+		"ae65711b"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "62030d08",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "4b859f34",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "simple_trophies:trophy",
+			tag: {
+				TrophyColorGreen: 118,
+				TrophyVariant: "classic",
+				TrophyShowsTooltip: 1b,
+				TrophyItem: {
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": {}
+					},
+					id: "minecraft:diamond_block",
+					Count: 1b,
+					Damage: 0s
+				},
+				TrophyColorBlue: 151,
+				TrophyName: "Complete all 'Square' Quests in Ch1",
+				TrophyColorRed: 40
+			}
+		}
+	},
+	{
+		uid: "42f2c7c2",
+		type: "ftbmoney:money",
+		ftb_money: 500L
+	}]
+}

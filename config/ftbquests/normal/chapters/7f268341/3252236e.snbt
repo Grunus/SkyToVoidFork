@@ -1,0 +1,28 @@
+{
+	title: "Soul in a Bottle",
+	x: 20.5d,
+	y: -1.5d,
+	description: "You can capture and release mobs, as well as create Monster Spawners.",
+	text: [
+		""
+	],
+	dependencies: [
+		"5878bdb4"
+	],
+	hide: true,
+	tasks: [{
+		uid: "86194465",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "enderio:item_soul_vial"
+		}]
+	}],
+	rewards: [{
+		uid: "cbb919fc",
+		type: "loot",
+		table: 34
+	}]
+}

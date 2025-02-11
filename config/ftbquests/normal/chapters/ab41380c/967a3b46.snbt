@@ -1,0 +1,62 @@
+{
+	title: "Slavender Needs More",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "thermalfoundation:material",
+		Damage: 163s
+	},
+	x: -5.5d,
+	y: 4.5d,
+	shape: "diamond",
+	description: "''I also need all of my bronze back as well, please help bring me some.''",
+	text: [
+		"Thank you, with this amount I can start working on my greatest tools again."
+	],
+	dependencies: [
+		"cb0f340b"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "78020ac0",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thermalfoundation:storage_alloy",
+			Damage: 3s
+		}],
+		count: 2L
+	}],
+	rewards: [{
+		uid: "7d5a1a3e",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "camscurrency:denarius"
+		},
+		count: 10
+	},
+	{
+		uid: "96337176",
+		type: "custom",
+		title: "Slavender's Quest Trial",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:filled_map",
+			Damage: 1s
+		}
+	},
+	{
+		uid: "e381726e",
+		type: "ftbmoney:money",
+		ftb_money: 35L
+	}]
+}

@@ -1,0 +1,26 @@
+{
+	x: -1.5d,
+	y: 6.5d,
+	description: "Makes mobs angry...",
+	dependencies: [
+		"71b8b848"
+	],
+	hide: true,
+	tasks: [{
+		uid: "9e5ad80a",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "darkutils:charm_agression"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "c671a52d",
+		type: "loot",
+		table: 20
+	}]
+}

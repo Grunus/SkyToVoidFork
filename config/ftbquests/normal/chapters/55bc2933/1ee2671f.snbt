@@ -1,0 +1,256 @@
+{
+	title: "Loot Pool",
+	x: -2.5d,
+	y: -3.5d,
+	shape: "rsquare",
+	description: "Reveals possible loot that can be found or dropped by mobs. Does not reveal loot behind Void Gateways.",
+	text: [
+		"Bucking Brancos: Angelic Guard",
+		"Security Pickaxe: Container",
+		"Electric Beast: Shop"
+	],
+	dependencies: [
+		"5f156c19"
+	],
+	hide: true,
+	optional: true,
+	tasks: [{
+		uid: "6631cfb6",
+		type: "item",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "contenttweaker:mission_loot",
+			tag: {
+				display: {
+					Name: "Loot Pool"
+				}
+			}
+		},
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:structure_void",
+			tag: {
+				display: {
+					Lore: [
+						"This quest shows all possible loot that can",
+						"be found or dropped by mobs.",
+						"",
+						"Does not include loot behind Void Gateways."
+					],
+					Name: "QUEST CANNOT BE COMPLETED"
+				}
+			}
+		}],
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "542c1500",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "tconstruct:cleaver",
+			tag: {
+				StatsOriginal: {
+					AttackSpeedMultiplier: 1.0f,
+					MiningSpeed: 13.0f,
+					FreeModifiers: 3,
+					Durability: 1204,
+					HarvestLevel: 4,
+					Attack: 19.9f
+				},
+				display: {
+					Name: "Bucking Brancos"
+				},
+				Stats: {
+					AttackSpeedMultiplier: 1.0f,
+					MiningSpeed: 13.0f,
+					FreeModifiers: 0,
+					Durability: 1204,
+					HarvestLevel: 4,
+					Attack: 19.9f
+				},
+				Special: {
+					Categories: [
+						"weapon",
+						"tool"
+					]
+				},
+				TinkerData: {
+					UsedModifiers: 4,
+					Materials: [
+						"endstone",
+						"xu_evil_metal",
+						"xu_evil_metal",
+						"endstone"
+					],
+					Modifiers: [
+						"beheading_cleaver",
+						"shulking",
+						"webbed",
+						"creative"
+					]
+				},
+				Modifiers: [{
+					identifier: "enderference",
+					color: -2041712,
+					level: 1
+				},
+				{
+					identifier: "xu_withering",
+					color: -131160,
+					level: 1
+				},
+				{
+					identifier: "beheading_cleaver",
+					color: 1070923,
+					level: 2
+				},
+				{
+					identifier: "shulking",
+					current: 50,
+					color: 11193599,
+					level: 1,
+					max: 50,
+					extraInfo: "49 / 50"
+				},
+				{
+					identifier: "webbed",
+					color: 16777215,
+					level: 3
+				},
+				{
+					identifier: "creative",
+					color: 0,
+					level: 1
+				}],
+				Traits: [
+					"enderference",
+					"xu_withering",
+					"shulking",
+					"webbed"
+				]
+			}
+		}
+	},
+	{
+		uid: "3ff44232",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:diamond_pickaxe",
+			tag: {
+				ench: [{
+					lvl: 1s,
+					id: 56s
+				},
+				{
+					lvl: 3s,
+					id: 32s
+				},
+				{
+					lvl: 4s,
+					id: 58s
+				}],
+				display: {
+					Lore: [
+						"Mine or die!"
+					],
+					Name: "Security Pickaxe"
+				},
+				AttributeModifiers: [{
+					UUIDMost: -3801225194067177672L,
+					UUIDLeast: -6586624321849018929L,
+					Amount: 8.0d,
+					Slot: "mainhand",
+					AttributeName: "generic.attackDamage",
+					Operation: 0,
+					Name: "generic.attackDamage"
+				},
+				{
+					UUIDMost: -422425648963762075L,
+					UUIDLeast: -5756800103171642205L,
+					Amount: -2.799999952316284d,
+					Slot: "mainhand",
+					AttributeName: "generic.attackSpeed",
+					Operation: 0,
+					Name: "generic.attackSpeed"
+				},
+				{
+					UUIDMost: 631112273476602147L,
+					UUIDLeast: -4721295959389598447L,
+					Amount: 1.0d,
+					Slot: "mainhand",
+					AttributeName: "generic.knockbackResistance",
+					Operation: 0,
+					Name: "generic.knockbackResistance"
+				},
+				{
+					UUIDMost: -4512043587828888616L,
+					UUIDLeast: -5027987532400378525L,
+					Amount: 3.0d,
+					Slot: "mainhand",
+					AttributeName: "generic.reachDistance",
+					Operation: 0,
+					Name: "generic.reachDistance"
+				}]
+			}
+		}
+	},
+	{
+		uid: "f557c345",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thermalfoundation:tool.shield_electrum",
+			tag: {
+				ench: [{
+					lvl: 1s,
+					id: 70s
+				}],
+				display: {
+					Lore: [
+						"Lightning fast speed at the cost of strength."
+					],
+					Name: "Electric Beast"
+				},
+				AttributeModifiers: [{
+					UUIDMost: 4157122963885607244L,
+					UUIDLeast: -5778645246958084815L,
+					Amount: -2.0d,
+					Slot: "offhand",
+					AttributeName: "generic.attackDamage",
+					Operation: 0,
+					Name: "generic.attackDamage"
+				},
+				{
+					UUIDMost: 2506607351122315011L,
+					UUIDLeast: -5405730627882283860L,
+					Amount: 20.0d,
+					Slot: "offhand",
+					AttributeName: "generic.attackSpeed",
+					Operation: 0,
+					Name: "generic.attackSpeed"
+				},
+				{
+					UUIDMost: -6355948553752917467L,
+					UUIDLeast: -8728351135929045906L,
+					Amount: 0.02d,
+					Slot: "offhand",
+					AttributeName: "generic.movementSpeed",
+					Operation: 0,
+					Name: "generic.movementSpeed"
+				}]
+			}
+		}
+	}]
+}

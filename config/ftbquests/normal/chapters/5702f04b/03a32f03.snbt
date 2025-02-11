@@ -1,0 +1,32 @@
+{
+	title: "Instant Meal",
+	x: 4.0d,
+	y: 1.5d,
+	description: "Normal bonemeal will not work on these special crops. You'll need this fertilizer if you want to speed run growing.",
+	dependencies: [
+		"3741cdda"
+	],
+	hide: true,
+	tasks: [{
+		uid: "a8777682",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "mysticalagriculture:mystical_fertilizer"
+		}],
+		count: 6L
+	}],
+	rewards: [{
+		uid: "9ce478cf",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "mysticalagriculture:fertilized_essence"
+		},
+		count: 2
+	}]
+}

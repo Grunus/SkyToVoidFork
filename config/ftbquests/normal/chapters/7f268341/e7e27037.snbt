@@ -1,0 +1,30 @@
+{
+	title: "Devices",
+	x: -2.0d,
+	y: -4.0d,
+	description: "Devices are cheap but very helpful blocks that can enhance production, and usually don't require power.",
+	text: [
+		""
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"74337ab7"
+	],
+	hide: true,
+	tasks: [{
+		uid: "1ad508fa",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thermalexpansion:frame",
+			Damage: 64s
+		}]
+	}],
+	rewards: [{
+		uid: "9667aa83",
+		type: "loot",
+		table: 7
+	}]
+}

@@ -1,0 +1,24 @@
+{
+	x: -4.5d,
+	y: 15.0d,
+	dependencies: [
+		"ad24489f"
+	],
+	hide: true,
+	tasks: [{
+		uid: "d89157d4",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "psi:material",
+			Damage: 4s
+		}]
+	}],
+	rewards: [{
+		uid: "53719355",
+		type: "loot",
+		table: 50
+	}]
+}

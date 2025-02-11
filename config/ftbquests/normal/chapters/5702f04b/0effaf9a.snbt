@@ -1,0 +1,45 @@
+{
+	title: "Whiter Clay",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "exnihilocreatio:item_material",
+		Damage: 1s
+	},
+	x: -3.0d,
+	y: 5.0d,
+	shape: "hexagon",
+	description: "This will bring you far...",
+	text: [
+		"If you sift dust you can collect bone meal."
+	],
+	dependencies: [
+		"97756ab0"
+	],
+	hide: true,
+	tasks: [{
+		uid: "d42f9714",
+		type: "item",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "exnihilocreatio:item_material",
+			Damage: 1s
+		},
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "exnihilocreatio:item_material",
+			Damage: 1s
+		}],
+		count: 7L
+	}],
+	rewards: [{
+		uid: "257d29e6",
+		type: "loot",
+		table: 0
+	}]
+}

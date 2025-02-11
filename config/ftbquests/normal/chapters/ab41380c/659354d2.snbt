@@ -1,0 +1,51 @@
+{
+	title: "Chim's Power of Knowledge",
+	x: -2.5d,
+	y: -7.5d,
+	shape: "diamond",
+	description: "''You, once a stranger, are now under my wings, my child, my soulbound. I now must forever teach you... inside your quest book! Give me your book and I shall write all of my knowledge into it.'",
+	text: [
+		"Now my mind has been transferred into your book. I will always be with you.",
+		"",
+		"Now go! Spread the word and fight the evil! There are no Gods, nothing can stop you!"
+	],
+	dependencies: [
+		"57705251"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "419d9c08",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ftbquests:book"
+		}],
+		consume_items: true,
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "bb2695ca",
+		type: "item",
+		title: "Unlock a section in Chapter 1",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ftbquests:book"
+		}
+	},
+	{
+		uid: "a43a2bf8",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ebwizardry:wizard_handbook"
+		}
+	}]
+}

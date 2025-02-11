@@ -1,0 +1,38 @@
+{
+	title: "Duplication Glitch",
+	x: 18.5d,
+	y: 11.0d,
+	description: "with the Mob Imprisonment Tool you can duplicate mobs!",
+	text: [
+		""
+	],
+	dependencies: [
+		"7028f5e7"
+	],
+	hide: true,
+	tasks: [{
+		uid: "a97aa9fe",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "industrialforegoing:mob_duplicator"
+		}]
+	}],
+	rewards: [{
+		uid: "b4e48714",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "industrialforegoing:mob_duplicator"
+		}
+	},
+	{
+		uid: "4f9ef4f4",
+		type: "loot",
+		table: 33
+	}]
+}

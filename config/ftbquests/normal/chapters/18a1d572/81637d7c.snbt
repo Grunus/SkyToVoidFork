@@ -1,0 +1,164 @@
+{
+	title: "Acceptance",
+	x: 0.0d,
+	y: -7.0d,
+	shape: "square",
+	text: [
+		""
+	],
+	dependencies: [
+		"3bd0f051"
+	],
+	hide: true,
+	tasks: [{
+		uid: "275cfc38",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "chisel:wool_black",
+			tag: {
+				ench: [{
+					lvl: 10s,
+					id: 40s
+				}],
+				HideFlags: 35,
+				display: {
+					Lore: [
+						"... What are you truly Avenging?"
+					],
+					Name: "I. Acceptance"
+				},
+				AttributeModifiers: [{
+					UUIDMost: 2609033250771651531L,
+					UUIDLeast: -7498703247111705393L,
+					Amount: -1.0d,
+					Slot: "mainhand",
+					AttributeName: "generic.attackDamage",
+					Operation: 0,
+					Name: "generic.attackDamage"
+				},
+				{
+					UUIDMost: -4330234214722484957L,
+					UUIDLeast: -7957310401462405938L,
+					Amount: -1.0d,
+					Slot: "mainhand",
+					AttributeName: "generic.attackSpeed",
+					Operation: 0,
+					Name: "generic.attackSpeed"
+				},
+				{
+					UUIDMost: -9021820756436237444L,
+					UUIDLeast: -4975058529787052624L,
+					Amount: -1.0d,
+					Slot: "mainhand",
+					AttributeName: "generic.armor",
+					Operation: 0,
+					Name: "generic.armor"
+				},
+				{
+					UUIDMost: 8424568897252839005L,
+					UUIDLeast: -7693063383088969324L,
+					Amount: -1.0d,
+					Slot: "mainhand",
+					AttributeName: "generic.armorToughness",
+					Operation: 0,
+					Name: "generic.armorToughness"
+				},
+				{
+					UUIDMost: 5036859041788543271L,
+					UUIDLeast: -7533619208329729425L,
+					Amount: -1.0d,
+					Slot: "mainhand",
+					AttributeName: "generic.maxHealth",
+					Operation: 0,
+					Name: "generic.maxHealth"
+				},
+				{
+					UUIDMost: -1483903242598333284L,
+					UUIDLeast: -8045037590898573005L,
+					Amount: -1.0d,
+					Slot: "mainhand",
+					AttributeName: "generic.movementSpeed",
+					Operation: 0,
+					Name: "generic.movementSpeed"
+				},
+				{
+					UUIDMost: 4178310346169076901L,
+					UUIDLeast: -7752656456976168147L,
+					Amount: -1.0d,
+					Slot: "mainhand",
+					AttributeName: "generic.knockbackResistance",
+					Operation: 0,
+					Name: "generic.knockbackResistance"
+				},
+				{
+					UUIDMost: -6622357868866941361L,
+					UUIDLeast: -8518708758334987858L,
+					Amount: -1.0d,
+					Slot: "mainhand",
+					AttributeName: "generic.reachDistance",
+					Operation: 0,
+					Name: "generic.reachDistance"
+				},
+				{
+					UUIDMost: 3291142865421681174L,
+					UUIDLeast: -6768168092095836179L,
+					Amount: -1.0d,
+					Slot: "mainhand",
+					AttributeName: "generic.luck",
+					Operation: 0,
+					Name: "generic.luck"
+				},
+				{
+					UUIDMost: -5647272572134537626L,
+					UUIDLeast: -5774135021964270805L,
+					Amount: -1.0d,
+					Slot: "mainhand",
+					AttributeName: "generic.followRange",
+					Operation: 0,
+					Name: "generic.followRange"
+				},
+				{
+					UUIDMost: 7412959330664072798L,
+					UUIDLeast: -7816092196679395048L,
+					Amount: -1.0d,
+					Slot: "mainhand",
+					AttributeName: "horse.jumpStrength",
+					Operation: 0,
+					Name: "horse.jumpStrength"
+				},
+				{
+					UUIDMost: 2400787679768561878L,
+					UUIDLeast: -4952841539929288587L,
+					Amount: -1.0d,
+					Slot: "mainhand",
+					AttributeName: "zombie.spawnReinforcements",
+					Operation: 0,
+					Name: "zombie.spawnReinforcements"
+				},
+				{
+					UUIDMost: -1308314787315168349L,
+					UUIDLeast: -7163893117696663558L,
+					Amount: -1.0d,
+					Slot: "mainhand",
+					AttributeName: "generic.flyingSpeed",
+					Operation: 0,
+					Name: "generic.flyingSpeed"
+				}]
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "ceef1188",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thermalfoundation:upgrade",
+			Damage: 256s
+		}
+	}]
+}

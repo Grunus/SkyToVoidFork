@@ -1,0 +1,38 @@
+{
+	title: "Hello World!",
+	x: -15.5d,
+	y: 9.5d,
+	description: "The interface for the computer.",
+	dependencies: [
+		"5b652e28"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "fb87a7c1",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "appliedenergistics2:part",
+			Damage: 380s
+		}]
+	}],
+	rewards: [{
+		uid: "1e1877d5",
+		type: "loot",
+		table: 15
+	},
+	{
+		uid: "ae5d8902",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "harvestcraft:chipsandsalsaitem"
+		},
+		count: 4
+	}]
+}

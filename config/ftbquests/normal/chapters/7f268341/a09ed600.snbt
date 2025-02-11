@@ -1,0 +1,41 @@
+{
+	title: "Computing Beginning...",
+	x: -16.5d,
+	y: 5.5d,
+	text: [
+		"So now that you have a Charged Certus Quartz Crystal, you can create a Fluix Crystal. Throw a Nether Quartz and redstone dust with the crystal to begin its transformation."
+	],
+	dependencies: [
+		"93e2dde4"
+	],
+	hide: true,
+	tasks: [{
+		uid: "6cf68a08",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "appliedenergistics2:material",
+			Damage: 7s
+		}]
+	}],
+	rewards: [{
+		uid: "228f9b96",
+		type: "loot",
+		table: 14
+	},
+	{
+		uid: "0796c132",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "appliedenergistics2:material",
+			Damage: 8s
+		},
+		count: 6,
+		random_bonus: 9
+	}]
+}

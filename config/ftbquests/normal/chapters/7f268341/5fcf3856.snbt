@@ -1,0 +1,50 @@
+{
+	title: "Beginning to Automate Crafting",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "appliedenergistics2:part",
+		Damage: 340s
+	},
+	x: -14.5d,
+	y: 7.5d,
+	description: "By completing this line of quest you can automate crafting through a few button clicks.",
+	text: [
+		"Once you have the Pattern Terminal and a Blank Pattern, you can fill the pattern by creating a real recipe and clicking the arrow."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"7ca24d77",
+		"5c79f4a8",
+		"5bd6697d"
+	],
+	hide: true,
+	tasks: [{
+		uid: "19399043",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "appliedenergistics2:material",
+			Damage: 52s
+		}]
+	},
+	{
+		uid: "476b7dcc",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "appliedenergistics2:part",
+			Damage: 340s
+		}]
+	}],
+	rewards: [{
+		uid: "9f6050bd",
+		type: "loot",
+		table: 15
+	}]
+}

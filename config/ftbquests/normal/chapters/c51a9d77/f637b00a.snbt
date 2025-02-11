@@ -1,0 +1,30 @@
+{
+	title: "Boomerang to a Sword Fight",
+	x: 5.0d,
+	y: 7.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"dd941e95"
+	],
+	hide: true,
+	tasks: [{
+		uid: "f44bdc39",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "cyclicmagic:boomerang",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "283e687a",
+		type: "loot",
+		table: 51
+	}]
+}

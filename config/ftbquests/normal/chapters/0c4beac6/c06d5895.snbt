@@ -1,0 +1,36 @@
+{
+	title: "Devoid Faction",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "contenttweaker:5_void"
+	},
+	x: 17.0d,
+	y: 2.5d,
+	description: "''Even deeper within The Void. They are not to be messed around with. That's why I'm here to take their items!''",
+	text: [
+		"Every purchase you will receive one random reward from the following entities.",
+		"",
+		"- ''Annulled Void Watchers''",
+		"- ''Annulled Shadow Strider''",
+		"- ''Shallow Myth''",
+		"- ''Void Reaver''"
+	],
+	dependencies: [
+		"e5841518",
+		"f6f9b103"
+	],
+	hide: true,
+	tasks: [{
+		uid: "7428529b",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "camscurrency:aureus"
+		}],
+		consume_items: true
+	}]
+}

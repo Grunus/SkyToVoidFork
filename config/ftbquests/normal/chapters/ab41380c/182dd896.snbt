@@ -1,0 +1,43 @@
+{
+	title: "Kayla Needs Energy!",
+	x: 14.5d,
+	y: 13.5d,
+	shape: "diamond",
+	description: "''Oh I'm running very low on coffee! Could you possibly get some for me? I'll just- microwave it when someone orders!''",
+	text: [
+		"Perfect! I needed this."
+	],
+	dependencies: [
+		"a150f2c8"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "b3d70d28",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "harvestcraft:coffeeitem"
+		}],
+		count: 32L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "4dbc372d",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "camscurrency:denarius"
+		},
+		count: 4
+	},
+	{
+		uid: "641a238c",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	}]
+}

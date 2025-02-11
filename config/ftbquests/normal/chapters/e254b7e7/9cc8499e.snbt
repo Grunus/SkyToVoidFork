@@ -1,0 +1,41 @@
+{
+	title: "Connecting All of Us",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "contenttweaker:obj_island",
+		tag: {
+			display: {
+				Name: "Islands"
+			}
+		}
+	},
+	x: 5.5d,
+	y: -20.0d,
+	text: [
+		"I was right with your ambition, mortal. It is human nature to kill afterall."
+	],
+	min_required_dependencies: 6,
+	dependencies: [
+		"c2176857",
+		"faac856d",
+		"5a631ee1",
+		"9074d2e7",
+		"d3f85a0d",
+		"80466741",
+		"93f687c1",
+		"1a3bb1a3",
+		"a150f2c8",
+		"6acdd884",
+		"382b2692",
+		"0d83479c"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "4cdbac7f",
+		type: "checkmark",
+		title: "YOU'RE GONNA DIE, GODS!!"
+	}]
+}

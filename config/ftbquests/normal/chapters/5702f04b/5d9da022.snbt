@@ -1,0 +1,31 @@
+{
+	title: "When It's Ready",
+	x: -1.0d,
+	y: 9.0d,
+	shape: "octagon",
+	dependencies: [
+		"64621c3b"
+	],
+	hide: true,
+	tasks: [{
+		uid: "da1f6f11",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:ender_eye"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "a422a0e2",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:totem_of_undying"
+		}
+	}]
+}

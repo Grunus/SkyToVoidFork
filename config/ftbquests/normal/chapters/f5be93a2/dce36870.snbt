@@ -1,0 +1,36 @@
+{
+	title: "Hullabaloo III",
+	x: 1.5d,
+	y: 10.5d,
+	dependencies: [
+		"70e2d1ce"
+	],
+	tasks: [{
+		uid: "d93b00dc",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "harvestcraft:baconmushroomburgeritem"
+		}],
+		count: 32L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "c9cb7bd4",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "camscurrency:denarius"
+		},
+		count: 32
+	},
+	{
+		uid: "893f1ee6",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	}]
+}

@@ -1,0 +1,34 @@
+{
+	title: "Amordrine",
+	x: 14.5d,
+	y: 12.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"3cd2aac6"
+	],
+	hide: true,
+	tasks: [{
+		uid: "d0825863",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "metallurgy:amordrine_ingot"
+		}],
+		count: 10L
+	}],
+	rewards: [{
+		uid: "6d403449",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "camscurrency:dupondius"
+		},
+		count: 20
+	}]
+}

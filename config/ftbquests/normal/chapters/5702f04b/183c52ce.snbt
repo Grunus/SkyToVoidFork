@@ -1,0 +1,25 @@
+{
+	title: "Inferior Watering",
+	x: -15.0d,
+	y: 5.0d,
+	dependencies: [
+		"713bfccd"
+	],
+	hide: true,
+	tasks: [{
+		uid: "d8167bb6",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "mysticalagriculture:watering_can"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "189431e1",
+		type: "loot",
+		table: 9
+	}]
+}

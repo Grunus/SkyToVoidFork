@@ -1,0 +1,66 @@
+{
+	title: "Thirsty Days",
+	x: 1.5d,
+	y: -3.5d,
+	shape: "diamond",
+	description: "\"I never should've used all of my water for sand, I was just trying to get materials, that's all. Could you bring some over.\"",
+	text: [
+		"This will help greatly, thank you kind stranger."
+	],
+	dependencies: [
+		"688d10de"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "65f05c58",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "harvestcraft:freshwateritem"
+		}],
+		count: 64L,
+		consume_items: true
+	},
+	{
+		uid: "75b4daa3",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "harvestcraft:freshwateritem"
+		}],
+		count: 64L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "157ad16c",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "camscurrency:denarius"
+		},
+		count: 6
+	},
+	{
+		uid: "a7a48dd5",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "extrautils2:passivegenerator",
+			Damage: 3s
+		}
+	},
+	{
+		uid: "728098ef",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

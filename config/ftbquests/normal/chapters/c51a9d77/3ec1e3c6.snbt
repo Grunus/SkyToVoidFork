@@ -1,0 +1,27 @@
+{
+	x: 1.0d,
+	y: 5.0d,
+	description: "An anything you want beacon!",
+	text: [
+		""
+	],
+	dependencies: [
+		"b776d401"
+	],
+	hide: true,
+	tasks: [{
+		uid: "0161aa36",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "cyclicmagic:beacon_potion"
+		}]
+	}],
+	rewards: [{
+		uid: "39eb8398",
+		type: "loot",
+		table: 52
+	}]
+}

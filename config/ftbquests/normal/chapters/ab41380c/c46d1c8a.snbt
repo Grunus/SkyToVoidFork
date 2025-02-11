@@ -1,0 +1,137 @@
+{
+	title: "Pure Sand",
+	x: 4.5d,
+	y: -2.5d,
+	shape: "diamond",
+	description: "''Whenever you come back, I see traces of white particles stuck to your armor. Is that the prescence of pure white sand? Can you get some? I'd love to see it in person''",
+	text: [
+		"Well well well. That's some pretty white sand!",
+		"",
+		"Thank you, that is all."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"75431a30"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "18ce074e",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "biomesoplenty:white_sand"
+		}],
+		count: 64L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "bd1961df",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "totaltinkers:dagger",
+			tag: {
+				StatsOriginal: {
+					AttackSpeedMultiplier: 1.0f,
+					Accuracy: 1.0f,
+					MiningSpeed: 5.0f,
+					FreeModifiers: 3,
+					Durability: 287,
+					HarvestLevel: 1,
+					Attack: 5.0f
+				},
+				display: {
+					Name: "Asclepius"
+				},
+				Stats: {
+					AttackSpeedMultiplier: 1.0f,
+					Accuracy: 1.0f,
+					MiningSpeed: 5.0f,
+					FreeModifiers: 1,
+					Durability: 287,
+					HarvestLevel: 1,
+					Attack: 11.816217f
+				},
+				Special: {
+					Categories: [
+						"weapon",
+						"tool"
+					]
+				},
+				TinkerData: {
+					UsedModifiers: 6,
+					Materials: [
+						"cactus",
+						"silver",
+						"redstone_alloy"
+					],
+					Modifiers: [
+						"sharpness",
+						"creative",
+						"knockback",
+						"webbed"
+					]
+				},
+				Modifiers: [{
+					identifier: "spiky",
+					color: -16735985,
+					level: 1
+				},
+				{
+					identifier: "holy",
+					color: -3019530,
+					level: 1
+				},
+				{
+					identifier: "crude",
+					color: -5167321,
+					level: 1,
+					crude1: 1b
+				},
+				{
+					identifier: "sharpness",
+					current: 216,
+					color: 16774902,
+					level: 3,
+					max: 216,
+					extraInfo: "215 / 216"
+				},
+				{
+					identifier: "creative",
+					color: 0,
+					level: 4
+				},
+				{
+					identifier: "knockback",
+					current: 6,
+					color: 10461087,
+					level: 1,
+					max: 10,
+					extraInfo: "5 / 10"
+				},
+				{
+					identifier: "webbed",
+					color: 16777215,
+					level: 2
+				}],
+				Traits: [
+					"spiky",
+					"holy",
+					"crude1",
+					"knockback",
+					"webbed"
+				]
+			}
+		}
+	},
+	{
+		uid: "a5fe5c43",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

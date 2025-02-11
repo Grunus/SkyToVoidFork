@@ -1,0 +1,33 @@
+{
+	title: "Meet Char",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "ebwizardry:sage_hat_ice"
+	},
+	x: -2.0d,
+	y: -14.5d,
+	shape: "diamond",
+	text: [
+		""
+	],
+	dependencies: [
+		"c2176857"
+	],
+	hide: true,
+	tasks: [{
+		uid: "f91d49fb",
+		type: "location",
+		title: "-233 127 -1010",
+		location: [I;
+			0,
+			-234,
+			127,
+			-1011,
+			2,
+			2,
+			2
+		]
+	}]
+}

@@ -1,0 +1,34 @@
+{
+	title: "Compressing Hope",
+	x: -3.0d,
+	y: -10.0d,
+	text: [
+		"It's time to stop mortal, there is no winning."
+	],
+	dependencies: [
+		"02b464cc"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "37f6664c",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "extrautils2:compressedcobblestone",
+			Damage: 3s
+		}]
+	}],
+	rewards: [{
+		uid: "fa84f4d0",
+		type: "loot",
+		table: 18
+	},
+	{
+		uid: "b775cf11",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	}]
+}

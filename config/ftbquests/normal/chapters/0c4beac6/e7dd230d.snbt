@@ -1,0 +1,38 @@
+{
+	title: "Armory Resources",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "conarm:resist_mat"
+	},
+	x: -4.0d,
+	y: 7.5d,
+	can_repeat: true,
+	dependencies: [
+		"c2cd2064",
+		"b95d7004",
+		"34a6b45c",
+		"e39513ee",
+		"a90b4e17",
+		"ada5f823"
+	],
+	hide: true,
+	optional: true,
+	tasks: [{
+		uid: "dc2db786",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "camscurrency:denarius"
+		}],
+		count: 20L
+	}],
+	rewards: [{
+		uid: "15b97f5b",
+		type: "loot",
+		table: 48
+	}]
+}

@@ -1,0 +1,51 @@
+{
+	title: "The Obelisk",
+	x: 0.0d,
+	y: 3.0d,
+	shape: "octagon",
+	description: "Complete the Obelisk and its trophies.",
+	text: [
+		"The chapter ''Filling the Void'' is open for completion"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"2bd5aaf9",
+		"56904fde"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	size: 1.4d,
+	tasks: [{
+		uid: "9d80f726",
+		type: "location",
+		title: "9 68 50",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:bedrock"
+		},
+		location: [I;
+			0,
+			7,
+			68,
+			49,
+			5,
+			5,
+			5
+		]
+	}],
+	rewards: [{
+		uid: "8a368bb1",
+		type: "custom",
+		title: "Unlocks Filling the Void Chapter",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ftbquests:book"
+		},
+		team_reward: true,
+		auto: "enabled"
+	}]
+}

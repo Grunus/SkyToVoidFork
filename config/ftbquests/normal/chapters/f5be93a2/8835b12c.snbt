@@ -1,0 +1,35 @@
+{
+	title: "Slavender Final",
+	x: 2.5d,
+	y: 5.5d,
+	dependencies: [
+		"2d398565"
+	],
+	tasks: [{
+		uid: "81bd9b09",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "tconstruct:metal",
+			Damage: 2s
+		}],
+		count: 8L
+	}],
+	rewards: [{
+		uid: "f14caa09",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "artifacts:panic_necklace"
+		}
+	},
+	{
+		uid: "dda09096",
+		type: "ftbmoney:money",
+		ftb_money: 150L
+	}]
+}

@@ -1,0 +1,27 @@
+{
+	title: "Faction Branch",
+	x: 3.0d,
+	y: 1.5d,
+	description: "''You may be fighting these enemies for interesting treasure from them, but what if I told you I can get you them easily and with better odds? The more you explore, the more Factions I can siphon resources from.''",
+	text: [
+		"discover islands between the island layers to receive a random reward from every entity's loot pool.",
+		"",
+		"Your first purchase is bought with Aureus, after, all purchases is bought with Denarius."
+	],
+	dependencies: [
+		"1004e263"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "32051255",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "camscurrency:aureus"
+		}],
+		consume_items: true
+	}]
+}

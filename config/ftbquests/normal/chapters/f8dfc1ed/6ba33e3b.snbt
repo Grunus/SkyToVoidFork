@@ -1,0 +1,78 @@
+{
+	title: "Complete All Missions",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "simple_trophies:trophy",
+		tag: {
+			TrophyColorGreen: 81,
+			TrophyVariant: "classic",
+			TrophyShowsTooltip: 1b,
+			TrophyItem: {
+				ForgeCaps: {
+					"customnpcs:itemscripteddata": {}
+				},
+				id: "minecraft:diamond_sword",
+				Count: 1b,
+				Damage: 0s
+			},
+			TrophyColorBlue: 26,
+			TrophyName: "Complete All Missions",
+			TrophyColorRed: 59,
+			TrophyEarnedAt: 1657732398L
+		}
+	},
+	x: -1.0d,
+	y: 0.0d,
+	text: [
+		"Complete every Mission."
+	],
+	dependencies: [
+		"d18b7edb",
+		"d8d32443",
+		"c9cad6bb",
+		"00bef1ac",
+		"def9843c",
+		"3a8163e7",
+		"2b332e19",
+		"5f156c19",
+		"e5841518"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "3cf8a350",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "aea57f32",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "simple_trophies:trophy",
+			tag: {
+				TrophyColorGreen: 81,
+				TrophyVariant: "classic",
+				TrophyShowsTooltip: 1b,
+				TrophyItem: {
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": {}
+					},
+					id: "minecraft:diamond_sword",
+					Count: 1b,
+					Damage: 0s
+				},
+				TrophyColorBlue: 26,
+				TrophyName: "Complete All Missions",
+				TrophyColorRed: 59
+			}
+		}
+	},
+	{
+		uid: "bffee360",
+		type: "ftbmoney:money",
+		ftb_money: 500L
+	}]
+}

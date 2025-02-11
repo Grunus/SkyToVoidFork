@@ -1,0 +1,29 @@
+{
+	title: "Burn at the Speed of Sound",
+	x: -10.0d,
+	y: 7.0d,
+	shape: "circle",
+	text: [
+		""
+	],
+	dependencies: [
+		"f23bf935",
+		"c4a50927"
+	],
+	hide: true,
+	tasks: [{
+		uid: "854b837f",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "mysticalagriculture:ultimate_furnace"
+		}]
+	}],
+	rewards: [{
+		uid: "4cfdcbf3",
+		type: "loot",
+		table: 11
+	}]
+}

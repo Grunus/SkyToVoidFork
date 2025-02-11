@@ -1,0 +1,25 @@
+{
+	title: "Seed Power",
+	x: -13.0d,
+	y: 8.0d,
+	dependencies: [
+		"9b38d9ce"
+	],
+	hide: true,
+	tasks: [{
+		uid: "fc2153fa",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "mysticalagriculture:crafting",
+			Damage: 18s
+		}]
+	}],
+	rewards: [{
+		uid: "06df5f51",
+		type: "loot",
+		table: 9
+	}]
+}

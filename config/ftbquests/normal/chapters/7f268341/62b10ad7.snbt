@@ -1,0 +1,26 @@
+{
+	title: "Buzzing Ingot",
+	x: 20.5d,
+	y: 2.5d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"2fd2df5c"
+	],
+	hide: true,
+	tasks: [{
+		uid: "d7c32505",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "enderio:item_alloy_ingot"
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "c4464548",
+		type: "loot",
+		table: 34
+	}]
+}

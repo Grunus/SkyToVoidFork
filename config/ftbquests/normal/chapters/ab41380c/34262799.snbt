@@ -1,0 +1,66 @@
+{
+	title: "Hunt: Rogue Hunter",
+	x: 19.0d,
+	y: -4.5d,
+	shape: "pentagon",
+	description: "''Wa- it's him! The Mountain Man! He betrayed me in the bayou, taking OUR bounty for HIMSELF. We were supposed to share the profits of our game in the ruthless bayou, but it seemed he had a different plan. Will you take revenge for me, stranger? Give me that Bounty and I'll give you something in return.''",
+	text: [
+		"I cannot stress enough how powerful I feel now. Even if this Bounty is useless out in the void, it's symbolical to me, and I will cherish it for eternity."
+	],
+	can_repeat: true,
+	hide_dependency_lines: true,
+	dependencies: [
+		"661eab9e",
+		"46793e20"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	optional: true,
+	tasks: [{
+		uid: "1c3f9147",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "mysticalagriculture:crafting",
+			tag: {
+				ench: [{
+					lvl: 1s,
+					id: 71s
+				}],
+				display: {
+					Lore: [
+						"Turn in to Bob for a prize!"
+					],
+					Name: "Bounty Token"
+				},
+				AttributeModifiers: [{
+					UUIDMost: 6888806001815012695L,
+					UUIDLeast: -5528485021284021967L,
+					Amount: 4.0d,
+					Slot: "offhand",
+					AttributeName: "generic.reachDistance",
+					Operation: 0,
+					Name: "generic.reachDistance"
+				}]
+			},
+			Damage: 8s
+		}],
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "89f1ae6e",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "tconstruct:cast",
+			tag: {
+				PartType: "totaltinkers:greatbladecore"
+			}
+		},
+		count: 3
+	}]
+}

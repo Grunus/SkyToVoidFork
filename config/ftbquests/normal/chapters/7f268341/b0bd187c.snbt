@@ -1,0 +1,53 @@
+{
+	title: "Build and Destroy",
+	x: 0.5d,
+	y: 6.5d,
+	description: "These wands allow easy building.",
+	text: [
+		"Use the Builder's Wands by looking at a block you have in your inventory."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"c3516741"
+	],
+	hide: true,
+	tasks: [{
+		uid: "bea67310",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "extrautils2:itembuilderswand"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "74753212",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "extrautils2:itemdestructionwand"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "dd881d63",
+		type: "xp_levels",
+		xp_levels: 10
+	},
+	{
+		uid: "5de29989",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "extrautils2:compressedcobblestone"
+		}
+	}]
+}

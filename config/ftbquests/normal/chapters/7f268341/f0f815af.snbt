@@ -1,0 +1,29 @@
+{
+	title: "Across Space and Time",
+	x: 19.5d,
+	y: 0.5d,
+	description: "Send items across the Void!",
+	text: [
+		""
+	],
+	dependencies: [
+		"1a72440f"
+	],
+	hide: true,
+	tasks: [{
+		uid: "227a0263",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "enderio:block_transceiver"
+		}],
+		count: 2L
+	}],
+	rewards: [{
+		uid: "844880b0",
+		type: "loot",
+		table: 36
+	}]
+}

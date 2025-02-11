@@ -1,0 +1,113 @@
+{
+	title: "Lockdown",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "thermalfoundation:security"
+	},
+	x: -10.5d,
+	y: -16.5d,
+	shape: "diamond",
+	description: "''Hey stranger! When I'm in the virtual world, I can't really see my surroundings and someone could be stealing my stuff right under my nose, literally! Can you construct some security modules for me?''",
+	text: [
+		"That should do! Thank you!"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"8f62114a"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "c56f7a15",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "appliedenergistics2:view_cell"
+		}],
+		count: 3L,
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "05fadcc6",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "appliedenergistics2:security_station"
+		}],
+		count: 3L
+	},
+	{
+		uid: "e869cc92",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thermalfoundation:security"
+		}],
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "905337f7",
+		type: "loot",
+		table: 16
+	},
+	{
+		uid: "cc8219b5",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "appliedenergistics2:material",
+			Damage: 10s
+		},
+		count: 12
+	},
+	{
+		uid: "24c4b8b0",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "mysticalagriculture:certus_quartz_seeds"
+		},
+		count: 2,
+		random_bonus: 2
+	},
+	{
+		uid: "9b403795",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "c17edfaa",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "contenttweaker:objectives",
+			tag: {
+				ench: [{
+					lvl: 1s,
+					id: 10s
+				}],
+				display: {
+					Lore: [
+						"Statue of Depression would be pleased."
+					],
+					Name: "Mark of Friendship - Island Layer 4"
+				}
+			}
+		}
+	}]
+}

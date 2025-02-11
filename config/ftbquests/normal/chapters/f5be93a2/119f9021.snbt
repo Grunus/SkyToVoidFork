@@ -1,0 +1,51 @@
+{
+	title: "Bob II",
+	x: 0.0d,
+	y: 9.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"4f9d32ed"
+	],
+	tasks: [{
+		uid: "19bd19a7",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:comparator",
+			tag: {
+				ench: [{
+					lvl: 1s,
+					id: 10s
+				}],
+				display: {
+					Lore: [
+						"The end of the meltdown.",
+						"The beginning of evac..."
+					],
+					Name: "Code: RED"
+				}
+			}
+		}],
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "3cd11bbb",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "camscurrency:denarius"
+		},
+		count: 32
+	},
+	{
+		uid: "dc1708b1",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	}]
+}

@@ -1,0 +1,29 @@
+{
+	title: "Hardend Flux",
+	x: -10.0d,
+	y: -1.5d,
+	dependencies: [
+		"f37fcd38"
+	],
+	hide: true,
+	tasks: [{
+		uid: "c3784a53",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thermalexpansion:capacitor",
+			tag: {
+				Energy: 4000000
+			},
+			Damage: 1s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "5a39dd96",
+		type: "loot",
+		table: 7
+	}]
+}

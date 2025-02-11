@@ -1,0 +1,46 @@
+{
+	x: 3.5d,
+	y: 12.5d,
+	shape: "square",
+	dependencies: [
+		"f9a50be1"
+	],
+	hide: true,
+	tasks: [{
+		uid: "dad18c9b",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "cyclicmagic:mattock"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "824da887",
+		type: "loot",
+		table: 53
+	},
+	{
+		uid: "5a42575b",
+		type: "loot",
+		table: 52
+	},
+	{
+		uid: "3ef2a828",
+		type: "loot",
+		table: 51
+	},
+	{
+		uid: "2704dd51",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "cyclicmagic:laser_cannon"
+		}
+	}]
+}

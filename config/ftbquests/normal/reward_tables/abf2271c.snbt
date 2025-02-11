@@ -1,0 +1,1023 @@
+{
+	title: "Ultimate Servants",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "bibliocraft:handdrill"
+	},
+	loot_size: 1,
+	hide_tooltip: true,
+	use_title: true,
+	rewards: [{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:string"
+		},
+		count: 2
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ebwizardry:charm_growth"
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "harvestcraft:hardenedleatherbootsitem",
+			tag: {
+				ench: [{
+					lvl: 3s,
+					id: 82s
+				},
+				{
+					lvl: 4s,
+					id: 0s
+				},
+				{
+					lvl: 1s,
+					id: 69s
+				},
+				{
+					lvl: 1s,
+					id: 91s
+				},
+				{
+					lvl: 2s,
+					id: 114s
+				}],
+				Unbreakable: 1b,
+				display: {
+					Lore: [
+						"No wonder why they hurt so bad!"
+					],
+					Name: "Steel Tipped Boots"
+				},
+				AttributeModifiers: [{
+					UUIDMost: -2135719885253098320L,
+					UUIDLeast: -8608157563528108208L,
+					Amount: -2.0d,
+					Slot: "feet",
+					AttributeName: "generic.attackDamage",
+					Operation: 0,
+					Name: "generic.attackDamage"
+				},
+				{
+					UUIDMost: -8908768238899017377L,
+					UUIDLeast: -8313820693701227669L,
+					Amount: 3.0d,
+					Slot: "feet",
+					AttributeName: "generic.armor",
+					Operation: 0,
+					Name: "generic.armor"
+				},
+				{
+					UUIDMost: -8908768238899017377L,
+					UUIDLeast: -8313820693701227669L,
+					Amount: 1.0d,
+					Slot: "feet",
+					AttributeName: "generic.armorToughness",
+					Operation: 0,
+					Name: "generic.armorToughness"
+				},
+				{
+					UUIDMost: 3778842758157389602L,
+					UUIDLeast: -6459071580251262845L,
+					Amount: 0.06d,
+					Slot: "feet",
+					AttributeName: "generic.movementSpeed",
+					Operation: 0,
+					Name: "generic.movementSpeed"
+				},
+				{
+					UUIDMost: -3118572764727786695L,
+					UUIDLeast: -8366830995977792890L,
+					Amount: -1.0d,
+					Slot: "feet",
+					AttributeName: "generic.reachDistance",
+					Operation: 0,
+					Name: "generic.reachDistance"
+				}]
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thermalexpansion:augment",
+			Damage: 129s
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ebwizardry:scroll",
+			Damage: 109s
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "cyclicmagic:horse_upgrade_type"
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "cyclicmagic:ender_tnt_4"
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "enderio:item_material",
+			Damage: 68s
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "enderio:item_basic_capacitor",
+			Damage: 1s
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "enderio:item_material",
+			Damage: 11s
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thermalfoundation:material",
+			Damage: 25s
+		},
+		count: 2
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:saddle"
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "appliedenergistics2:material",
+			Damage: 23s
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "enderio:item_alloy_ingot",
+			Damage: 4s
+		},
+		count: 2
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "metallurgy:shadow_iron_ingot"
+		},
+		count: 2
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:iron_ingot"
+		},
+		count: 2
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "enderio:item_material",
+			Damage: 69s
+		},
+		count: 4
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "excompressum:ugly_steel_plating"
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "tconstruct:bolt",
+			tag: {
+				StatsOriginal: {
+					AttackSpeedMultiplier: 1.0f,
+					Accuracy: 0.5f,
+					MiningSpeed: 6.0f,
+					FreeModifiers: 3,
+					Durability: 179,
+					HarvestLevel: 2,
+					Attack: 4.0f
+				},
+				display: {
+					Name: "Zipper Shot"
+				},
+				Stats: {
+					AttackSpeedMultiplier: 1.0f,
+					Accuracy: 0.5f,
+					MiningSpeed: 6.0f,
+					FreeModifiers: 0,
+					Durability: 179,
+					HarvestLevel: 2,
+					Attack: 6.888688f
+				},
+				Special: {
+					Categories: [
+						"no_melee",
+						"projectile",
+						"tool"
+					]
+				},
+				TinkerData: {
+					UsedModifiers: 3,
+					Materials: [
+						"endrod",
+						"iron",
+						"leaf"
+					],
+					Modifiers: [
+						"mending_moss",
+						"shulking",
+						"sharpness"
+					]
+				},
+				Modifiers: [{
+					identifier: "endspeed",
+					color: -1507370,
+					level: 1
+				},
+				{
+					identifier: "magnetic",
+					color: -3487030,
+					level: 2,
+					magnetic2: 1b
+				},
+				{
+					identifier: "mending_moss",
+					color: 4434738,
+					level: 1
+				},
+				{
+					identifier: "shulking",
+					current: 50,
+					color: 11193599,
+					level: 1,
+					max: 50,
+					extraInfo: "49 / 50"
+				},
+				{
+					identifier: "sharpness",
+					current: 72,
+					color: 16774902,
+					level: 1,
+					max: 72,
+					extraInfo: "71 / 72"
+				}],
+				Traits: [
+					"endspeed",
+					"magnetic2",
+					"mending_moss",
+					"shulking"
+				]
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "appliedenergistics2:material",
+			Damage: 24s
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thermalfoundation:material",
+			Damage: 161s
+		},
+		count: 2
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "metallurgy:deep_iron_ingot"
+		},
+		count: 2
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "appliedenergistics2:material",
+			Damage: 22s
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "enderio:item_alloy_ingot",
+			Damage: 9s
+		},
+		count: 2
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "tconstruct:pan_head",
+			tag: {
+				Material: "sponge"
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "openblocks:squeegee",
+			tag: {
+				ench: [{
+					lvl: 5s,
+					id: 16s
+				},
+				{
+					lvl: 3s,
+					id: 77s
+				},
+				{
+					lvl: 1s,
+					id: 19s
+				},
+				{
+					lvl: 1s,
+					id: 72s
+				}],
+				display: {
+					Lore: [
+						"The world of modernity!"
+					],
+					Name: "A Broom With Headlights"
+				},
+				AttributeModifiers: [{
+					UUIDMost: 6083362822465342844L,
+					UUIDLeast: -5086232527296348053L,
+					Amount: 6.0d,
+					Slot: "mainhand",
+					AttributeName: "generic.attackDamage",
+					Operation: 0,
+					Name: "generic.attackDamage"
+				}]
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "tconstruct:crossbow",
+			tag: {
+				StatsOriginal: {
+					AttackSpeedMultiplier: 1.0f,
+					MiningSpeed: 7.02f,
+					DrawSpeed: 0.65f,
+					FreeModifiers: 3,
+					ProjectileBonusDamage: 6.0f,
+					Durability: 748,
+					HarvestLevel: 4,
+					Attack: 8.72f,
+					Range: 1.2f
+				},
+				display: {
+					Name: "Turning Gears"
+				},
+				Stats: {
+					AttackSpeedMultiplier: 1.1f,
+					MiningSpeed: 7.02f,
+					DrawSpeed: 0.9438f,
+					FreeModifiers: 0,
+					ProjectileBonusDamage: 6.0f,
+					Durability: 748,
+					HarvestLevel: 4,
+					Attack: 9.404251f,
+					Range: 1.2f
+				},
+				Special: {
+					Categories: [
+						"launcher",
+						"tool"
+					]
+				},
+				TinkerData: {
+					UsedModifiers: 4,
+					Materials: [
+						"cobalt",
+						"manyullyn",
+						"vyroxeres",
+						"soularium"
+					],
+					Modifiers: [
+						"sharpness",
+						"haste",
+						"reinforced"
+					]
+				},
+				Modifiers: [{
+					identifier: "lightweight",
+					color: -14122284,
+					level: 1
+				},
+				{
+					identifier: "coldblooded",
+					color: -6202120,
+					level: 1
+				},
+				{
+					identifier: "insatiable",
+					color: -6202120,
+					level: 1
+				},
+				{
+					identifier: "poisonous",
+					color: -13893888,
+					level: 1
+				},
+				{
+					identifier: "writable",
+					color: -9872563,
+					level: 1,
+					writable1: 1b
+				},
+				{
+					identifier: "sharpness",
+					current: 25,
+					color: 16774902,
+					level: 1,
+					max: 72,
+					extraInfo: "24 / 72"
+				},
+				{
+					identifier: "haste",
+					current: 100,
+					color: 9502720,
+					level: 2,
+					max: 100,
+					extraInfo: "99 / 100"
+				},
+				{
+					identifier: "reinforced",
+					color: 5254787,
+					level: 1
+				}],
+				Traits: [
+					"lightweight",
+					"coldblooded",
+					"insatiable",
+					"poisonous",
+					"writable1",
+					"reinforced"
+				]
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "harvestcraft:maplesyrupwafflesitem"
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:rotten_flesh"
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "cyclicmagic:ender_torch"
+		},
+		count: 8
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thermalfoundation:material",
+			Damage: 160s
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "enderio:item_alloy_ingot",
+			Damage: 5s
+		},
+		count: 2
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:quartz_block"
+		},
+		count: 16
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "cyclicmagic:ender_snow",
+			tag: {
+				display: {
+					Lore: [
+						"Spam all of this snow on your house!"
+					],
+					Name: "Frost Spammer"
+				},
+				AttributeModifiers: [{
+					UUIDMost: 9105508063381834729L,
+					UUIDLeast: -7821650773783571917L,
+					Amount: 10.0d,
+					Slot: "mainhand",
+					AttributeName: "generic.attackDamage",
+					Operation: 0,
+					Name: "generic.attackDamage"
+				},
+				{
+					UUIDMost: 7993633196936022729L,
+					UUIDLeast: -7120920176243691936L,
+					Amount: 2.0d,
+					Slot: "mainhand",
+					AttributeName: "generic.armor",
+					Operation: 0,
+					Name: "generic.armor"
+				},
+				{
+					UUIDMost: 1173720504540742056L,
+					UUIDLeast: -6069398642912788515L,
+					Amount: 2.0d,
+					Slot: "mainhand",
+					AttributeName: "generic.maxHealth",
+					Operation: 0,
+					Name: "generic.maxHealth"
+				},
+				{
+					UUIDMost: 6048348295945995765L,
+					UUIDLeast: -6630990473609199565L,
+					Amount: -0.02d,
+					Slot: "mainhand",
+					AttributeName: "generic.movementSpeed",
+					Operation: 0,
+					Name: "generic.movementSpeed"
+				},
+				{
+					UUIDMost: 628417958030624046L,
+					UUIDLeast: -4963933550656727937L,
+					Amount: 3.0d,
+					Slot: "mainhand",
+					AttributeName: "generic.knockbackResistance",
+					Operation: 0,
+					Name: "generic.knockbackResistance"
+				}]
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:fire_charge"
+		},
+		count: 12
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:diamond"
+		},
+		count: 7
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ebwizardry:spell_book",
+			Damage: 188s
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "mysticalagriculture:crafting",
+			Damage: 3s
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "tconstruct:large_plate",
+			tag: {
+				display: {
+					Lore: [
+						"It's pitch black, like your soul.",
+						"It's also a reference to that one show."
+					],
+					Name: "The Mirror"
+				},
+				Material: "xu_evil_metal",
+				AttributeModifiers: [{
+					UUIDMost: -2961861974093053077L,
+					UUIDLeast: -6352629304009368500L,
+					Amount: 10.0d,
+					Slot: "offhand",
+					AttributeName: "generic.attackDamage",
+					Operation: 0,
+					Name: "generic.attackDamage"
+				},
+				{
+					UUIDMost: -3821586137278559314L,
+					UUIDLeast: -5572039395502033368L,
+					Amount: 2.0d,
+					Slot: "offhand",
+					AttributeName: "generic.attackSpeed",
+					Operation: 0,
+					Name: "generic.attackSpeed"
+				},
+				{
+					UUIDMost: 6511078486661287573L,
+					UUIDLeast: -4732077247919512144L,
+					Amount: -10.0d,
+					Slot: "offhand",
+					AttributeName: "generic.armor",
+					Operation: 0,
+					Name: "generic.armor"
+				},
+				{
+					UUIDMost: 4139892260605936645L,
+					UUIDLeast: -7500984843225657486L,
+					Amount: -2.0d,
+					Slot: "offhand",
+					AttributeName: "generic.armorToughness",
+					Operation: 0,
+					Name: "generic.armorToughness"
+				},
+				{
+					UUIDMost: -3458982856234483003L,
+					UUIDLeast: -8950692720113765058L,
+					Amount: -10.0d,
+					Slot: "offhand",
+					AttributeName: "generic.maxHealth",
+					Operation: 0,
+					Name: "generic.maxHealth"
+				},
+				{
+					UUIDMost: 1076446652997323016L,
+					UUIDLeast: -8552344825440877866L,
+					Amount: 0.1d,
+					Slot: "offhand",
+					AttributeName: "generic.movementSpeed",
+					Operation: 0,
+					Name: "generic.movementSpeed"
+				},
+				{
+					UUIDMost: -6091062858692081077L,
+					UUIDLeast: -4717078937715805726L,
+					Amount: -2.0d,
+					Slot: "offhand",
+					AttributeName: "generic.knockbackResistance",
+					Operation: 0,
+					Name: "generic.knockbackResistance"
+				},
+				{
+					UUIDMost: -2740671495933376927L,
+					UUIDLeast: -4824985038406141658L,
+					Amount: 2.0d,
+					Slot: "offhand",
+					AttributeName: "generic.reachDistance",
+					Operation: 0,
+					Name: "generic.reachDistance"
+				}]
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "tconstruct:scythe",
+			tag: {
+				ench: [{
+					lvl: 2s,
+					id: 21s
+				},
+				{
+					lvl: 2s,
+					id: 35s
+				}],
+				StatsOriginal: {
+					AttackSpeedMultiplier: 1.0f,
+					MiningSpeed: 8.31f,
+					FreeModifiers: 3,
+					Durability: 2382,
+					HarvestLevel: 4,
+					Attack: 10.19f
+				},
+				display: {
+					Lore: [
+						"Something is above the law."
+					],
+					Name: "Legal for the Impervious"
+				},
+				Stats: {
+					AttackSpeedMultiplier: 1.0f,
+					MiningSpeed: 8.31f,
+					FreeModifiers: 0,
+					Durability: 2382,
+					HarvestLevel: 4,
+					Attack: 17.999384f
+				},
+				Special: {
+					Categories: [
+						"harvest",
+						"weapon",
+						"aoe",
+						"tool"
+					]
+				},
+				TinkerData: {
+					UsedModifiers: 6,
+					Materials: [
+						"xu_evil_metal",
+						"enderium",
+						"astral_silver",
+						"xu_evil_metal"
+					],
+					Modifiers: [
+						"sharpness",
+						"creative",
+						"luck"
+					]
+				},
+				Modifiers: [{
+					identifier: "endermagnetic",
+					color: -16748959,
+					level: 1
+				},
+				{
+					identifier: "sharpness",
+					current: 360,
+					color: 16774902,
+					level: 5,
+					max: 360,
+					extraInfo: "359 / 360"
+				},
+				{
+					identifier: "creative",
+					color: 0,
+					level: 3
+				},
+				{
+					identifier: "luck",
+					current: 180,
+					color: 2970082,
+					level: 2,
+					max: 180,
+					modifierUsed: 1b,
+					extraInfo: "179 / 180"
+				}],
+				Traits: [
+					"endermagnetic",
+					"luck"
+				],
+				AttributeModifiers: [{
+					UUIDMost: -3801225194067177672L,
+					UUIDLeast: -6586624321849018929L,
+					Amount: 13.49953842163086d,
+					Slot: "mainhand",
+					AttributeName: "generic.attackDamage",
+					Operation: 0,
+					Name: "generic.attackDamage"
+				},
+				{
+					UUIDMost: -422425648963762075L,
+					UUIDLeast: -5756800103171642205L,
+					Amount: -3.100000023841858d,
+					Slot: "mainhand",
+					AttributeName: "generic.attackSpeed",
+					Operation: 0,
+					Name: "generic.attackSpeed"
+				},
+				{
+					UUIDMost: 4859839772621423199L,
+					UUIDLeast: -7388983453756962370L,
+					Amount: 2.0d,
+					Slot: "mainhand",
+					AttributeName: "generic.armor",
+					Operation: 0,
+					Name: "generic.armor"
+				}]
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "tconstruct:broadsword",
+			tag: {
+				StatsOriginal: {
+					AttackSpeedMultiplier: 1.0f,
+					MiningSpeed: 7.02f,
+					FreeModifiers: 3,
+					Durability: 1090,
+					HarvestLevel: 4,
+					Attack: 9.72f
+				},
+				display: {
+					Name: "Undead Consequences"
+				},
+				Stats: {
+					AttackSpeedMultiplier: 1.1f,
+					MiningSpeed: 7.52f,
+					FreeModifiers: 0,
+					Durability: 1590,
+					HarvestLevel: 4,
+					Attack: 14.078028f
+				},
+				Special: {
+					Categories: [
+						"weapon",
+						"tool"
+					]
+				},
+				TinkerData: {
+					UsedModifiers: 4,
+					Materials: [
+						"cobalt",
+						"manyullyn",
+						"pigiron"
+					],
+					Modifiers: [
+						"sharpness",
+						"diamond",
+						"creative",
+						"mending_moss"
+					]
+				},
+				AttributeModifiers: [{
+					UUIDMost: -3801225194067177672L,
+					UUIDLeast: -6586624321849018929L,
+					Amount: 14.078027725219727d,
+					Slot: "mainhand",
+					AttributeName: "generic.attackDamage",
+					Operation: 0,
+					Name: "generic.attackDamage"
+				},
+				{
+					UUIDMost: -422425648963762075L,
+					UUIDLeast: -5756800103171642205L,
+					Amount: -2.240000009536743d,
+					Slot: "mainhand",
+					AttributeName: "generic.attackSpeed",
+					Operation: 0,
+					Name: "generic.attackSpeed"
+				},
+				{
+					UUIDMost: 3289485112657202333L,
+					UUIDLeast: -5646955950758758518L,
+					Amount: 2.0d,
+					Slot: "mainhand",
+					AttributeName: "generic.reachDistance",
+					Operation: 0,
+					Name: "generic.reachDistance"
+				}],
+				Modifiers: [{
+					identifier: "lightweight",
+					color: -14122284,
+					level: 1
+				},
+				{
+					identifier: "insatiable",
+					color: -6202120,
+					level: 1
+				},
+				{
+					identifier: "tasty",
+					color: -1073509,
+					level: 1
+				},
+				{
+					identifier: "sharpness",
+					current: 144,
+					color: 16774902,
+					level: 2,
+					max: 144,
+					extraInfo: "143 / 144"
+				},
+				{
+					identifier: "diamond",
+					color: 9237730
+				},
+				{
+					identifier: "creative",
+					color: 0,
+					level: 1
+				},
+				{
+					identifier: "mending_moss",
+					color: 4434738,
+					level: 1
+				}],
+				Traits: [
+					"lightweight",
+					"insatiable",
+					"tasty",
+					"mending_moss"
+				]
+			},
+			Damage: 5s
+		}
+	}]
+}

@@ -1,0 +1,376 @@
+{
+	title: "Loot Pool",
+	x: -9.0d,
+	y: 1.5d,
+	shape: "rsquare",
+	description: "Reveals possible loot that can be found or dropped by mobs. Does not reveal loot behind Void Gateways.",
+	text: [
+		"Solid Emptiness: Anulled Void Believer",
+		"Myth Maker: Shallow Myth",
+		"Cytoplasmer: Large Mind: Reborn"
+	],
+	dependencies: [
+		"00bef1ac"
+	],
+	hide: true,
+	optional: true,
+	tasks: [{
+		uid: "f1822666",
+		type: "item",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "contenttweaker:mission_loot",
+			tag: {
+				display: {
+					Name: "Loot Pool"
+				}
+			}
+		},
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:structure_void",
+			tag: {
+				display: {
+					Lore: [
+						"This quest shows all possible loot that can",
+						"be found or dropped by mobs.",
+						"",
+						"Does not include loot behind Void Gateways."
+					],
+					Name: "QUEST CANNOT BE COMPLETED"
+				}
+			}
+		}],
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "c1eee481",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "tconstruct:arrow",
+			tag: {
+				StatsOriginal: {
+					AttackSpeedMultiplier: 1.0f,
+					Accuracy: 1.0f,
+					MiningSpeed: 11.76f,
+					FreeModifiers: 3,
+					Durability: 998,
+					HarvestLevel: 4,
+					Attack: 16.060001f
+				},
+				display: {
+					Name: "Solid Emptiness"
+				},
+				Stats: {
+					AttackSpeedMultiplier: 1.0f,
+					Accuracy: 1.0f,
+					MiningSpeed: 11.76f,
+					FreeModifiers: 3,
+					Durability: 998,
+					HarvestLevel: 4,
+					Attack: 16.060001f
+				},
+				Special: {
+					Categories: [
+						"projectile",
+						"tool",
+						"no_melee"
+					]
+				},
+				TinkerData: {
+					Materials: [
+						"blaze",
+						"ebonypsi",
+						"feather"
+					],
+					Modifiers: [
+						"soulbound"
+					]
+				},
+				Modifiers: [{
+					identifier: "hovering",
+					color: -16128,
+					level: 1
+				},
+				{
+					identifier: "darkness",
+					color: -16119286,
+					level: 1
+				},
+				{
+					identifier: "psieater",
+					color: -16119286,
+					level: 1
+				},
+				{
+					identifier: "soulbound",
+					color: 16120748
+				}],
+				Traits: [
+					"hovering",
+					"darkness",
+					"psieater"
+				]
+			}
+		}
+	},
+	{
+		uid: "b0bed8d7",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "tconstruct:rapier",
+			tag: {
+				StatsOriginal: {
+					AttackSpeedMultiplier: 1.0f,
+					MiningSpeed: 5.0f,
+					FreeModifiers: 3,
+					Durability: 934,
+					HarvestLevel: 2,
+					Attack: 6.0f
+				},
+				display: {
+					Name: "Myth Maker"
+				},
+				Stats: {
+					AttackSpeedMultiplier: 1.4f,
+					MiningSpeed: 5.0f,
+					FreeModifiers: 0,
+					Durability: 934,
+					HarvestLevel: 2,
+					Attack: 12.351936f
+				},
+				Special: {
+					Categories: [
+						"weapon",
+						"tool"
+					],
+					RepairCount: 1
+				},
+				TinkerData: {
+					UsedModifiers: 6,
+					Materials: [
+						"advancedalloy",
+						"shadow_iron",
+						"refinedobsidian"
+					],
+					Modifiers: [
+						"sharpness",
+						"creative",
+						"haste",
+						"webbed"
+					]
+				},
+				Modifiers: [{
+					identifier: "obscure_trait",
+					color: -12108480,
+					level: 1
+				},
+				{
+					identifier: "duritos",
+					color: -9230744,
+					level: 1
+				},
+				{
+					identifier: "darkness",
+					color: -9230744,
+					level: 1
+				},
+				{
+					identifier: "sharpness",
+					current: 216,
+					color: 16774902,
+					level: 3,
+					max: 216,
+					extraInfo: "215 / 216"
+				},
+				{
+					identifier: "creative",
+					color: 0,
+					level: 3
+				},
+				{
+					identifier: "haste",
+					current: 100,
+					color: 9502720,
+					level: 2,
+					max: 100,
+					extraInfo: "99 / 100"
+				},
+				{
+					identifier: "webbed",
+					color: 16777215,
+					level: 1
+				}],
+				Traits: [
+					"obscure_trait",
+					"duritos",
+					"darkness",
+					"webbed"
+				],
+				AttributeModifiers: [{
+					UUIDMost: -3801225194067177672L,
+					UUIDLeast: -6586624321849018929L,
+					Amount: 6.793565273284912d,
+					Slot: "mainhand",
+					AttributeName: "generic.attackDamage",
+					Operation: 0,
+					Name: "generic.attackDamage"
+				},
+				{
+					UUIDMost: -422425648963762075L,
+					UUIDLeast: -5756800103171642205L,
+					Amount: 0.19999980926513672d,
+					Slot: "mainhand",
+					AttributeName: "generic.attackSpeed",
+					Operation: 0,
+					Name: "generic.attackSpeed"
+				},
+				{
+					UUIDMost: 7986003207420791776L,
+					UUIDLeast: -7706419416557003991L,
+					Amount: -1.0d,
+					Slot: "mainhand",
+					AttributeName: "generic.reachDistance",
+					Operation: 0,
+					Name: "generic.reachDistance"
+				}]
+			}
+		}
+	},
+	{
+		uid: "e6207cf4",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "tconstruct:longsword",
+			tag: {
+				ench: [{
+					lvl: 2s,
+					id: 21s
+				}],
+				StatsOriginal: {
+					AttackSpeedMultiplier: 1.0f,
+					MiningSpeed: 7.0f,
+					FreeModifiers: 3,
+					Durability: 417,
+					HarvestLevel: 3,
+					Attack: 6.5f
+				},
+				display: {
+					Lore: [
+						"Large Mind: Reborn"
+					],
+					Name: "Cytoplasmer"
+				},
+				Stats: {
+					AttackSpeedMultiplier: 1.0f,
+					MiningSpeed: 7.5f,
+					FreeModifiers: 0,
+					Durability: 917,
+					HarvestLevel: 3,
+					Attack: 13.627688f
+				},
+				Special: {
+					Categories: [
+						"weapon",
+						"tool"
+					]
+				},
+				TinkerData: {
+					UsedModifiers: 8,
+					Materials: [
+						"lead",
+						"steel",
+						"lead"
+					],
+					Modifiers: [
+						"luck",
+						"diamond",
+						"webbed",
+						"creative",
+						"sharpness",
+						"glowing",
+						"necrotic"
+					]
+				},
+				Modifiers: [{
+					identifier: "poisonous",
+					color: -11712152,
+					level: 1
+				},
+				{
+					identifier: "heavy",
+					color: -11712152,
+					level: 1
+				},
+				{
+					identifier: "sharp",
+					color: -5789785,
+					level: 1
+				},
+				{
+					identifier: "luck",
+					current: 180,
+					color: 2970082,
+					level: 2,
+					max: 180,
+					modifierUsed: 1b,
+					extraInfo: "179 / 180"
+				},
+				{
+					identifier: "diamond",
+					color: 9237730
+				},
+				{
+					identifier: "webbed",
+					color: 16777215,
+					level: 1
+				},
+				{
+					identifier: "creative",
+					color: 0,
+					level: 5
+				},
+				{
+					identifier: "sharpness",
+					current: 216,
+					color: 16774902,
+					level: 3,
+					max: 216,
+					extraInfo: "215 / 216"
+				},
+				{
+					identifier: "glowing",
+					color: 16777130,
+					level: 1
+				},
+				{
+					identifier: "necrotic",
+					color: 6160384,
+					level: 1
+				}],
+				Traits: [
+					"poisonous",
+					"heavy",
+					"sharp",
+					"luck",
+					"webbed",
+					"glowing",
+					"necrotic"
+				]
+			}
+		}
+	}]
+}

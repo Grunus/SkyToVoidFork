@@ -1,0 +1,69 @@
+{
+	title: "A Power Will Overtake",
+	x: -20.5d,
+	y: -1.5d,
+	shape: "diamond",
+	text: [
+		""
+	],
+	dependencies: [
+		"5969aed0"
+	],
+	hide: true,
+	tasks: [{
+		uid: "fac59e8f",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "enderio:item_material",
+			tag: {
+				ench: [{
+					lvl: 1s,
+					id: 90s
+				}],
+				Unbreakable: 1b,
+				display: {
+					Lore: [
+						"The gods thinks less of you."
+					],
+					Name: "Light from the Kingdom"
+				}
+			},
+			Damage: 59s
+		}],
+		consume_items: true
+	},
+	{
+		uid: "05b5db66",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "enderio:item_alloy_ball",
+			tag: {
+				ench: [{
+					lvl: 1s,
+					id: 71s
+				}],
+				Unbreakable: 1b,
+				display: {
+					Lore: [
+						"The darkness knows more than you."
+					],
+					Name: "Light from the Void"
+				}
+			},
+			Damage: 6s
+		}],
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "663c0872",
+		type: "choice",
+		title: "Choice Between the Light and Dark",
+		table: 39
+	}]
+}

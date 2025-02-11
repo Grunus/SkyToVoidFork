@@ -1,0 +1,56 @@
+{
+	title: "Wizard Shelf",
+	x: -7.5d,
+	y: 17.5d,
+	description: "Storage for your spells",
+	text: [
+		"Placing next to an Arcane Workbench will allow you to access your Spells through the Workbench."
+	],
+	dependencies: [
+		"659354d2"
+	],
+	hide: true,
+	tasks: [{
+		uid: "d52b5397",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ebwizardry:oak_bookshelf"
+		}]
+	}],
+	rewards: [{
+		uid: "b6c56640",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ebwizardry:spell_book",
+			Damage: 145s
+		}
+	},
+	{
+		uid: "3b5f0ea4",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ebwizardry:spell_book",
+			Damage: 143s
+		}
+	},
+	{
+		uid: "dc3c771b",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ebwizardry:spell_book",
+			Damage: 2s
+		}
+	}]
+}

@@ -1,0 +1,57 @@
+{
+	title: "In Rainbows",
+	x: 10.685714285714283d,
+	y: 12.871428571428567d,
+	shape: "square",
+	text: [
+		""
+	],
+	dependencies: [
+		"545c2ba1"
+	],
+	hide: true,
+	size: 2.0d,
+	tasks: [{
+		uid: "edfb82be",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "extrautils2:decorativesolid",
+			Damage: 8s
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "66ffddc4",
+		type: "loot",
+		table: 19
+	},
+	{
+		uid: "c9a53b63",
+		type: "loot",
+		table: 19
+	},
+	{
+		uid: "3842ad16",
+		type: "loot",
+		table: 19
+	},
+	{
+		uid: "d3cf5fe0",
+		type: "loot",
+		table: 19
+	},
+	{
+		uid: "3d7f4ef9",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "extrautils2:rainbowgenerator"
+		},
+		random_bonus: 1
+	}]
+}

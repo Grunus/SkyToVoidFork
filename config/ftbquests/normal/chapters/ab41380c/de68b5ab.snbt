@@ -1,0 +1,96 @@
+{
+	title: "Hunt: Taking the Edge Off",
+	x: -10.5d,
+	y: 13.0d,
+	shape: "pentagon",
+	description: "''Hey! Those mushroom guys look interesting. Could you get me their flakes so I can... uhh research, yeah! do some research!''",
+	text: [
+		""
+	],
+	can_repeat: true,
+	hide_dependency_lines: true,
+	dependencies: [
+		"46793e20",
+		"d5bb9b59"
+	],
+	hide: true,
+	optional: true,
+	tasks: [{
+		uid: "f24171ad",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "gachashroom:beefsteakfungus",
+			tag: {
+				ench: [{
+					lvl: 10s,
+					id: 10s
+				},
+				{
+					lvl: 1s,
+					id: 31s
+				}],
+				display: {
+					Lore: [
+						"A very distinct oder emits off.",
+						"Also makes you sleepy..."
+					],
+					Name: "Shroomer Flakes"
+				}
+			}
+		}],
+		count: 28L,
+		ignore_nbt: 2b
+	}],
+	rewards: [{
+		uid: "7add498b",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "camscurrency:denarius"
+		},
+		count: 12
+	},
+	{
+		uid: "08e59868",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:brown_mushroom"
+		},
+		count: 6
+	},
+	{
+		uid: "3fbda133",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:red_mushroom"
+		},
+		count: 6
+	},
+	{
+		uid: "d35f25f9",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "extrautils2:ineffableglass"
+		},
+		count: 16
+	},
+	{
+		uid: "81bb26bd",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	}]
+}

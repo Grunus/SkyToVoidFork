@@ -1,0 +1,489 @@
+{
+	title: "Applied Energistics Tier II Reward",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "appliedenergistics2:material",
+		Damage: 1s
+	},
+	loot_size: 3,
+	hide_tooltip: true,
+	use_title: true,
+	rewards: [{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "appliedenergistics2:fluix_block"
+		},
+		random_bonus: 3
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "appliedenergistics2:drive"
+		},
+		count: 3
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "appliedenergistics2:quartz_growth_accelerator"
+		},
+		count: 2
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "appliedenergistics2:energy_cell",
+			tag: {
+				internalMaxPower: 200000.0d,
+				internalCurrentPower: 200000.0d
+			}
+		},
+		count: 3
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "appliedenergistics2:storage_cell_1k",
+			tag: {}
+		},
+		count: 2
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "appliedenergistics2:storage_cell_4k",
+			tag: {}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "appliedenergistics2:fluid_storage_cell_16k",
+			tag: {}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "appliedenergistics2:material",
+			Damage: 1s
+		},
+		count: 32
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "appliedenergistics2:part",
+			Damage: 73s
+		},
+		count: 54,
+		random_bonus: 54
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "appliedenergistics2:material",
+			Damage: 52s
+		},
+		count: 16
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "appliedenergistics2:material",
+			Damage: 7s
+		},
+		count: 8
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "appliedenergistics2:part",
+			Damage: 360s
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "appliedenergistics2:material",
+			Damage: 45s
+		},
+		count: 64
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "appliedenergistics2:material",
+			Damage: 11s
+		},
+		count: 4
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "appliedenergistics2:material",
+			Damage: 10s
+		},
+		count: 8
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "appliedenergistics2:material",
+			Damage: 12s
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "appliedenergistics2:material",
+			Damage: 28s
+		},
+		count: 32
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thermalexpansion:satchel",
+			tag: {
+				display: {
+					Name: "The Creator"
+				},
+				Inventory: {
+					Slot2: {
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": {}
+						},
+						id: "appliedenergistics2:material",
+						Count: 1b,
+						Damage: 15s
+					},
+					Slot3: {
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": {}
+						},
+						id: "appliedenergistics2:material",
+						Count: 1b,
+						Damage: 14s
+					},
+					Slot5: {
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": {}
+						},
+						id: "appliedenergistics2:material",
+						Count: 1b,
+						Damage: 13s
+					},
+					Slot0: {
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": {}
+						},
+						id: "appliedenergistics2:material",
+						Count: 8b,
+						Damage: 20s
+					},
+					Slot1: {
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": {}
+						},
+						id: "appliedenergistics2:material",
+						Count: 2b,
+						Damage: 22s
+					},
+					Slot6: {
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": {}
+						},
+						id: "appliedenergistics2:material",
+						Count: 1b,
+						Damage: 19s
+					},
+					Slot7: {
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": {}
+						},
+						id: "appliedenergistics2:material",
+						Count: 2b,
+						Damage: 23s
+					},
+					Slot8: {
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": {}
+						},
+						id: "appliedenergistics2:material",
+						Count: 2b,
+						Damage: 24s
+					}
+				},
+				Accessible: 1b
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thermalexpansion:satchel",
+			tag: {
+				display: {
+					Name: "RAM!"
+				},
+				Inventory: {
+					Slot2: {
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": {}
+						},
+						id: "appliedenergistics2:material",
+						Count: 1b,
+						tag: {},
+						Damage: 21s
+					},
+					Slot3: {
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": {}
+						},
+						id: "appliedenergistics2:material",
+						Count: 1b,
+						Damage: 29s
+					},
+					Slot4: {
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": {}
+						},
+						id: "appliedenergistics2:fluix_block",
+						Count: 4b,
+						Damage: 0s
+					},
+					Slot5: {
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": {}
+						},
+						id: "appliedenergistics2:material",
+						Count: 2b,
+						Damage: 31s
+					},
+					Slot0: {
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": {}
+						},
+						id: "appliedenergistics2:material",
+						Count: 2b,
+						Damage: 27s
+					},
+					Slot1: {
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": {}
+						},
+						id: "appliedenergistics2:material",
+						Count: 4b,
+						Damage: 53s
+					},
+					Slot6: {
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": {}
+						},
+						id: "appliedenergistics2:material",
+						Count: 12b,
+						Damage: 4s
+					},
+					Slot7: {
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": {}
+						},
+						id: "appliedenergistics2:material",
+						Count: 3b,
+						Damage: 26s
+					},
+					Slot8: {
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": {}
+						},
+						id: "appliedenergistics2:material",
+						Count: 6b,
+						Damage: 30s
+					}
+				},
+				Accessible: 1b
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "appliedenergistics2:facade",
+			tag: {
+				damage: 0,
+				item: "gachashroom:witchurn"
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "appliedenergistics2:part",
+			Damage: 15s
+		},
+		count: 64,
+		random_bonus: 600
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "appliedenergistics2:material",
+			Damage: 42s
+		},
+		count: 2,
+		random_bonus: 10
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "tconstruct:broadsword",
+			tag: {
+				ench: [{
+					lvl: 3s,
+					id: 21s
+				}],
+				StatsOriginal: {
+					AttackSpeedMultiplier: 1.0f,
+					MiningSpeed: 5.5f,
+					FreeModifiers: 3,
+					Durability: 588,
+					HarvestLevel: 1,
+					Attack: 7.2f
+				},
+				display: {
+					Name: "Prisma"
+				},
+				Stats: {
+					AttackSpeedMultiplier: 1.0f,
+					MiningSpeed: 5.5f,
+					FreeModifiers: 0,
+					Durability: 882,
+					HarvestLevel: 2,
+					Attack: 11.399455f
+				},
+				Special: {
+					Categories: [
+						"weapon",
+						"tool"
+					]
+				},
+				TinkerData: {
+					UsedModifiers: 4,
+					Materials: [
+						"silver",
+						"prismarine",
+						"xu_enchanted_metal"
+					],
+					Modifiers: [
+						"sharpness",
+						"emerald",
+						"creative",
+						"luck"
+					]
+				},
+				Modifiers: [{
+					identifier: "holy",
+					color: -3019530,
+					level: 1
+				},
+				{
+					identifier: "jagged",
+					color: -8462660,
+					level: 1
+				},
+				{
+					identifier: "aquadynamic",
+					color: -8462660,
+					level: 1
+				},
+				{
+					identifier: "xu_xp_boost",
+					color: -4197792,
+					level: 1
+				},
+				{
+					identifier: "sharpness",
+					current: 144,
+					color: 16774902,
+					level: 2,
+					max: 144,
+					extraInfo: "143 / 144"
+				},
+				{
+					identifier: "emerald",
+					color: 4322180
+				},
+				{
+					identifier: "creative",
+					color: 0,
+					level: 1
+				},
+				{
+					identifier: "luck",
+					current: 360,
+					color: 2970082,
+					level: 3,
+					max: 360,
+					modifierUsed: 1b,
+					extraInfo: "359 / 360"
+				}],
+				Traits: [
+					"holy",
+					"jagged",
+					"aquadynamic",
+					"xu_xp_boost",
+					"luck"
+				]
+			}
+		}
+	}]
+}

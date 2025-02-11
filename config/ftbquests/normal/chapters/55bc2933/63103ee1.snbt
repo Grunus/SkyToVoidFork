@@ -1,0 +1,39 @@
+{
+	x: -12.0d,
+	y: -3.0d,
+	text: [
+		"Missions Can be played in a sub dimension. Blocks cannot be placed or destroyed in this dimension. If you die you can recover your grave.",
+		"",
+		"Once you enter you cannot leave until you've reached the end. If you die in a Mission your grave can be collected.",
+		"",
+		"You can leave a mission by finding a Traveling Rune or completing the mission, although some missions may prevent you from back tracking at a certain point."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"0e02a773"
+	],
+	hide: true,
+	size: 1.5d,
+	min_width: 500,
+	tasks: [{
+		uid: "d0fb18a6",
+		type: "checkmark",
+		title: "Missions",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "harvestcraft:starfruititem"
+		}
+	}],
+	rewards: [{
+		uid: "79b7429b",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:iron_nugget"
+		}
+	}]
+}

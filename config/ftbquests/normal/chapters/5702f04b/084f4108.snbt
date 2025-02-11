@@ -1,0 +1,34 @@
+{
+	title: "Flustered Fluix",
+	x: -11.0d,
+	y: 11.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"4d4bbce3"
+	],
+	hide: true,
+	tasks: [{
+		uid: "2dc142aa",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "mysticalagriculture:fluix_essence"
+		}],
+		count: 20L
+	},
+	{
+		uid: "08ac75e0",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "mysticalagriculture:fluix_seeds"
+		}],
+		count: 2L
+	}]
+}

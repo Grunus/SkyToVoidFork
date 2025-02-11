@@ -1,0 +1,28 @@
+{
+	title: "Connected by Cables",
+	x: 13.5d,
+	y: 2.5d,
+	description: "You can charge your items using a Wired Charger.",
+	text: [
+		"Can also charge items outside of Ender IO."
+	],
+	dependencies: [
+		"5bbb2747"
+	],
+	hide: true,
+	tasks: [{
+		uid: "f3a9cede",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "enderio:block_wired_charger"
+		}]
+	}],
+	rewards: [{
+		uid: "dcd7521b",
+		type: "loot",
+		table: 35
+	}]
+}

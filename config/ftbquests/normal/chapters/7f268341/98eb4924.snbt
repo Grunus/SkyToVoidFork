@@ -1,0 +1,101 @@
+{
+	title: "Belt Variety!",
+	x: 19.5d,
+	y: 11.0d,
+	shape: "square",
+	dependencies: [
+		"a441d0eb"
+	],
+	hide: true,
+	tasks: [{
+		uid: "2088e5cc",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "industrialforegoing:conveyor_upgrade",
+			Damage: 5s
+		}]
+	},
+	{
+		uid: "e3503127",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "industrialforegoing:conveyor_upgrade",
+			Damage: 2s
+		}]
+	},
+	{
+		uid: "2f70bb3b",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "industrialforegoing:conveyor_upgrade",
+			Damage: 4s
+		}]
+	},
+	{
+		uid: "78fa8a02",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "industrialforegoing:conveyor_upgrade",
+			Damage: 3s
+		}]
+	},
+	{
+		uid: "9cf5ef9e",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "industrialforegoing:conveyor_upgrade",
+			Damage: 6s
+		}]
+	},
+	{
+		uid: "11b88a81",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "industrialforegoing:conveyor_upgrade"
+		}]
+	},
+	{
+		uid: "f3f8f2ae",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "industrialforegoing:conveyor_upgrade",
+			Damage: 1s
+		}]
+	}],
+	rewards: [{
+		uid: "d2a29f6d",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "camscurrency:aureus"
+		}
+	},
+	{
+		uid: "d60505ad",
+		type: "loot",
+		table: 33
+	}]
+}

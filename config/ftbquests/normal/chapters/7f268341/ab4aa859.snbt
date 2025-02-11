@@ -1,0 +1,32 @@
+{
+	title: "This Next Upgrade is Better Than The Last",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "thermalfoundation:upgrade",
+		Damage: 1s
+	},
+	x: -7.5d,
+	y: 1.0d,
+	dependencies: [
+		"faeb538a"
+	],
+	hide: true,
+	tasks: [{
+		uid: "f97077c1",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thermalfoundation:upgrade",
+			Damage: 1s
+		}]
+	}],
+	rewards: [{
+		uid: "6b905e90",
+		type: "loot",
+		table: 8
+	}]
+}

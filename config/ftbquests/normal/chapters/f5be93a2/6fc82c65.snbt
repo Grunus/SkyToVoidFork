@@ -1,0 +1,48 @@
+{
+	title: "Finde II",
+	x: 0.5d,
+	y: 7.5d,
+	dependencies: [
+		"37bd5482"
+	],
+	tasks: [{
+		uid: "c198fe99",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:gunpowder"
+		}],
+		count: 64L,
+		consume_items: true
+	},
+	{
+		uid: "4f9b57a8",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:string"
+		}],
+		count: 64L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "379b3051",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "camscurrency:denarius"
+		},
+		count: 32
+	},
+	{
+		uid: "542836fd",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

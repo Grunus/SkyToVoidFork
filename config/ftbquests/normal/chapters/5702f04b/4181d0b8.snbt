@@ -1,0 +1,87 @@
+{
+	title: "Not So Basic Patterns",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "tconstruct:cast"
+	},
+	x: 4.5d,
+	y: 12.0d,
+	dependencies: [
+		"f2658a75"
+	],
+	hide: true,
+	dependency_requirement: "one_completed",
+	tasks: [{
+		uid: "9fe14726",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "tconstruct:cast",
+			tag: {
+				PartType: "tconstruct:pick_head"
+			}
+		},
+		{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "tconstruct:clay_cast",
+			tag: {
+				PartType: "tconstruct:pick_head"
+			}
+		}]
+	},
+	{
+		uid: "aa289f30",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "tconstruct:cast",
+			tag: {
+				PartType: "tconstruct:binding"
+			}
+		},
+		{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "tconstruct:clay_cast",
+			tag: {
+				PartType: "tconstruct:binding"
+			}
+		}]
+	},
+	{
+		uid: "06033b0a",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "tconstruct:cast",
+			tag: {
+				PartType: "tconstruct:tool_rod"
+			}
+		},
+		{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "tconstruct:clay_cast",
+			tag: {
+				PartType: "tconstruct:tool_rod"
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "66774b91",
+		type: "loot",
+		table: 5
+	}]
+}

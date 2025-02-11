@@ -1,0 +1,35 @@
+{
+	title: "Barrels!",
+	x: -1.0d,
+	y: 3.0d,
+	shape: "hexagon",
+	description: "Barrels can be used for creating new dirt, collecting water, or creating clay",
+	text: [
+		"To create dirt, collect plants like leaves or saplings and fill the barrel."
+	],
+	dependencies: [
+		"db711c5d"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "8297d95f",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "exnihilocreatio:block_barrel0"
+		}]
+	}],
+	rewards: [{
+		uid: "692d11e4",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "exnihilocreatio:block_barrel0"
+		}
+	}]
+}

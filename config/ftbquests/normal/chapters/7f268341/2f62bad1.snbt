@@ -1,0 +1,32 @@
+{
+	title: "Simple Process",
+	x: 5.5d,
+	y: 6.5d,
+	description: "Use the enchanter to create some enchanted ingots",
+	dependencies: [
+		"0c4e36fa"
+	],
+	hide: true,
+	tasks: [{
+		uid: "bd1dee3e",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "extrautils2:ingredients",
+			Damage: 12s
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "6b210bde",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "extrautils2:magicapple"
+		}
+	}]
+}

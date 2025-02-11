@@ -1,0 +1,31 @@
+{
+	title: "Lost the House, Still Got the Gold",
+	x: 0.0d,
+	y: 7.5d,
+	dependencies: [
+		"2bd5aaf9"
+	],
+	hide: true,
+	tasks: [{
+		uid: "26918c77",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:gold_ingot"
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "bc8fb30c",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:golden_apple"
+		},
+		random_bonus: 4
+	}]
+}

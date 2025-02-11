@@ -1,0 +1,32 @@
+{
+	title: "Mystical Agriculture Tier IV Reward",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "mysticalagradditions:insanium"
+	},
+	x: -5.0d,
+	y: 6.5d,
+	can_repeat: true,
+	dependencies: [
+		"2f81161b",
+		"ef3ff65c",
+		"12cbe00f",
+		"726830bf",
+		"b7ea0175"
+	],
+	hide: true,
+	optional: true,
+	tasks: [{
+		uid: "93b75dc8",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "camscurrency:denarius"
+		}],
+		count: 32L
+	}]
+}

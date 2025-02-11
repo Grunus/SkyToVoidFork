@@ -1,0 +1,232 @@
+{
+	title: "Seally's Collectables! Oh Boy!",
+	x: 12.0d,
+	y: 17.0d,
+	description: "''Bonnet's been giving me these weird trophies that Wambo's been finding when traveling across the void using his tram. I've actually grown to like these a lot! It surprises me how a lot of them survived on these scattered islands after The Rapture. Could you possibly find more for me? I have a list of my own favorite monsters if you can find those trophies!''",
+	text: [
+		"So glad you found these! This will go nicely with the collection I have."
+	],
+	dependencies: [
+		"8cd6f463"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "cdd29602",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "openblocks:trophy",
+			tag: {
+				entity_id: "minecraft:creeper"
+			}
+		}]
+	},
+	{
+		uid: "48aa39aa",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "openblocks:trophy",
+			tag: {
+				entity_id: "minecraft:shulker"
+			}
+		}]
+	},
+	{
+		uid: "fd1bcbff",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "openblocks:trophy",
+			tag: {
+				entity_id: "minecraft:guardian"
+			}
+		}]
+	},
+	{
+		uid: "4894a52b",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "openblocks:trophy",
+			tag: {
+				entity_id: "minecraft:zombie_pigman"
+			}
+		}]
+	},
+	{
+		uid: "6385bbd5",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "openblocks:trophy",
+			tag: {
+				entity_id: "minecraft:vindication_illager"
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "5fae0dd3",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "mysticalagriculture:creeper_seeds"
+		},
+		count: 16
+	},
+	{
+		uid: "3f4dbccd",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:purple_shulker_box"
+		}
+	},
+	{
+		uid: "1bfc9765",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:sponge",
+			Damage: 1s
+		}
+	},
+	{
+		uid: "2fcaeb3e",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "harvestcraft:breadedporkchopitem"
+		},
+		count: 64,
+		random_bonus: 32
+	},
+	{
+		uid: "b2c03cd8",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "totaltinkers:battleaxe",
+			tag: {
+				StatsOriginal: {
+					AttackSpeedMultiplier: 1.0f,
+					MiningSpeed: 4.135f,
+					FreeModifiers: 3,
+					Durability: 534,
+					HarvestLevel: 4,
+					Attack: 5.86f
+				},
+				display: {
+					Name: "Crippled Battleaxe"
+				},
+				Stats: {
+					AttackSpeedMultiplier: 1.0f,
+					MiningSpeed: 4.135f,
+					FreeModifiers: 0,
+					Durability: 427,
+					HarvestLevel: 4,
+					Attack: 8.44194f
+				},
+				Special: {
+					Categories: [
+						"weapon",
+						"aoe",
+						"tool"
+					]
+				},
+				TinkerData: {
+					UsedModifiers: 4,
+					Materials: [
+						"pigiron",
+						"manyullyn",
+						"construction_alloy",
+						"construction_alloy"
+					],
+					Modifiers: [
+						"sharpness",
+						"fiery",
+						"creative",
+						"knockback"
+					]
+				},
+				Modifiers: [{
+					identifier: "tasty",
+					color: -1073509,
+					level: 1
+				},
+				{
+					identifier: "insatiable",
+					color: -6202120,
+					level: 1
+				},
+				{
+					identifier: "cheapskate",
+					color: -14084054,
+					level: 1
+				},
+				{
+					identifier: "sharpness",
+					current: 72,
+					color: 16774902,
+					level: 1,
+					max: 72,
+					extraInfo: "71 / 72"
+				},
+				{
+					identifier: "fiery",
+					current: 50,
+					color: 15375922,
+					level: 2,
+					max: 50,
+					extraInfo: "49 / 50"
+				},
+				{
+					identifier: "creative",
+					color: 0,
+					level: 1
+				},
+				{
+					identifier: "knockback",
+					current: 10,
+					color: 10461087,
+					level: 1,
+					max: 10,
+					extraInfo: "9 / 10"
+				}],
+				Traits: [
+					"tasty",
+					"insatiable",
+					"cheapskate",
+					"fiery",
+					"knockback"
+				]
+			}
+		}
+	},
+	{
+		uid: "7f663f6d",
+		type: "ftbmoney:money",
+		ftb_money: 125L
+	}]
+}

@@ -1,0 +1,32 @@
+{
+	title: "Croissant",
+	x: -8.0d,
+	y: -4.0d,
+	description: "Shift Click on Thermal Expansion items to pick them up without losing the contents.",
+	hide_dependency_lines: true,
+	dependencies: [
+		"cebcaaf7"
+	],
+	hide: true,
+	tasks: [{
+		uid: "4ff5428e",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thermalfoundation:wrench"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "55606121",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:iron_block"
+		}
+	}]
+}

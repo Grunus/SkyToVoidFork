@@ -1,0 +1,47 @@
+{
+	title: "Libcardo's Full Circle",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "extrautils2:compressedcobblestone",
+		Damage: 7s
+	},
+	x: -3.0d,
+	y: -1.0d,
+	shape: "diamond",
+	text: [
+		"It's...magnificent. You are, a mining God. Take this, I must bow down to you, master. I've never seen something so great. I thought I was the greatest, but you, a god that lives. I am no longer a servent to these mines."
+	],
+	dependencies: [
+		"aa4108dd"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "259e2e76",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "extrautils2:compressedcobblestone",
+			Damage: 7s
+		}]
+	}],
+	rewards: [{
+		uid: "84c00f76",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "camscurrency:aureus"
+		}
+	},
+	{
+		uid: "9a35406f",
+		type: "ftbmoney:money",
+		ftb_money: 300L
+	}]
+}

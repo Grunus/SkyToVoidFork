@@ -1,0 +1,35 @@
+{
+	title: "Collect the Dirt, Sieve the Dirt",
+	x: 3.0d,
+	y: 5.0d,
+	shape: "hexagon",
+	text: [
+		"With 4 pebbles you can create a block of cobblestone."
+	],
+	dependencies: [
+		"ea50a965"
+	],
+	hide: true,
+	tasks: [{
+		uid: "8022a659",
+		type: "item",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "exnihilocreatio:item_pebble"
+		},
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "exnihilocreatio:item_pebble"
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "c3fe551c",
+		type: "loot",
+		table: 0
+	}]
+}

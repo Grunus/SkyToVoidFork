@@ -1,0 +1,26 @@
+{
+	x: 12.5d,
+	y: 3.5d,
+	shape: "square",
+	dependencies: [
+		"9406834a"
+	],
+	hide: true,
+	tasks: [{
+		uid: "c0f35873",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "enderio:block_cap_bank",
+			Damage: 3s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "01e8582a",
+		type: "loot",
+		table: 36
+	}]
+}

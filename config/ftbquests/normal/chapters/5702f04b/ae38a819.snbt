@@ -1,0 +1,32 @@
+{
+	title: "Lemurite",
+	x: 15.5d,
+	y: 8.0d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"81b1cd10"
+	],
+	hide: true,
+	tasks: [{
+		uid: "e22f8b39",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "metallurgy:lemurite_ingot"
+		}],
+		count: 10L
+	}],
+	rewards: [{
+		uid: "fe4ee458",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "camscurrency:denarius"
+		},
+		count: 10
+	}]
+}

@@ -1,0 +1,38 @@
+{
+	x: -9.5d,
+	y: 5.5d,
+	description: "Traps any mob that steps on it.",
+	text: [
+		""
+	],
+	dependencies: [
+		"a2d990d3"
+	],
+	hide: true,
+	tasks: [{
+		uid: "6e69bbc7",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "openblocks:beartrap"
+		}]
+	}],
+	rewards: [{
+		uid: "38615816",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:spawn_egg",
+			tag: {
+				EntityTag: {
+					id: "minecraft:cow"
+				}
+			}
+		},
+		count: 4
+	}]
+}

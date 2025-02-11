@@ -1,0 +1,51 @@
+{
+	title: "To The End",
+	x: -2.4976190476190325d,
+	y: 18.3857142857143d,
+	shape: "diamond",
+	description: "''Well... I think you know where this'll go.''",
+	text: [
+		""
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"bdef3fee",
+		"a36df542"
+	],
+	size: 2.25d,
+	tasks: [{
+		uid: "36ef6fd4",
+		type: "location",
+		title: "Reach The End Gate",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:ender_eye"
+		},
+		location: [I;
+			0,
+			-217,
+			83,
+			1263,
+			5,
+			5,
+			5
+		]
+	}],
+	rewards: [{
+		uid: "680935e5",
+		type: "command",
+		title: "Open Bedrock Seal",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "extrautils2:decorativebedrock",
+			Damage: 2s
+		},
+		team_reward: true,
+		auto: "enabled",
+		command: "/fill -216 84 1259 -214 86 1259 minecraft:air"
+	}]
+}

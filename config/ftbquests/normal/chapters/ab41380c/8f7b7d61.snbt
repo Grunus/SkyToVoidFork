@@ -1,0 +1,29 @@
+{
+	x: -14.0d,
+	y: -3.5d,
+	shape: "diamond",
+	dependencies: [
+		"452714e6"
+	],
+	hide: true,
+	tasks: [{
+		uid: "f9a840bf",
+		type: "location",
+		title: "Meet Freya",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:fish"
+		},
+		location: [I;
+			0,
+			-713,
+			23,
+			-94,
+			4,
+			4,
+			4
+		]
+	}]
+}

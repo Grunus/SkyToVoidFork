@@ -1,0 +1,590 @@
+{
+	title: "Void Watchers Faction",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "ebwizardry:charm_black_hole"
+	},
+	loot_size: 1,
+	hide_tooltip: true,
+	use_title: true,
+	rewards: [{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "conarm:leggings",
+			tag: {
+				StatsOriginal: {
+					Toughness: 3.0f,
+					FreeModifiers: 3,
+					Durability: 243,
+					Defense: 19.0f
+				},
+				display: {
+					Name: "Rapture's View"
+				},
+				Stats: {
+					Toughness: 5.0f,
+					FreeModifiers: 0,
+					Durability: 393,
+					Defense: 23.0f
+				},
+				TinkerData: {
+					UsedModifiers: 3,
+					Materials: [
+						"kalendrite",
+						"shadow_steel",
+						"manyullyn"
+					],
+					Modifiers: [
+						"speedy_armor",
+						"diamond_armor",
+						"resistant_armor"
+					]
+				},
+				Modifiers: [{
+					identifier: "strongly_armor",
+					color: -6733347,
+					strongly0_armor: 1b
+				},
+				{
+					identifier: "blindness_armor",
+					color: -6843502,
+					level: 1
+				},
+				{
+					identifier: "prideful_armor",
+					color: -6202120,
+					level: 1
+				},
+				{
+					identifier: "speedy_armor",
+					current: 50,
+					color: 9502720,
+					level: 1,
+					max: 50,
+					extraInfo: "49 / 50"
+				},
+				{
+					identifier: "diamond_armor",
+					color: 9237730
+				},
+				{
+					identifier: "resistant_armor",
+					color: 16774902,
+					level: 1,
+					modifierUsed: 1b
+				}],
+				Traits: [
+					"strongly0_armor",
+					"blindness_armor",
+					"prideful_armor",
+					"speedy_armor",
+					"resistant_armor"
+				]
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "appliedenergistics2:material",
+			Damage: 8s
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "appliedenergistics2:sky_stone_block"
+		},
+		count: 4
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "appliedenergistics2:sky_stone_block"
+		},
+		count: 2
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "appliedenergistics2:material",
+			Damage: 43s
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "appliedenergistics2:material",
+			Damage: 9s
+		},
+		count: 2
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "appliedenergistics2:material",
+			Damage: 46s
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "appliedenergistics2:material",
+			Damage: 7s
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "appliedenergistics2:material",
+			Damage: 12s
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "mysticalagriculture:certus_quartz_essence"
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "appliedenergistics2:material",
+			Damage: 10s
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "appliedenergistics2:fluix_block"
+		},
+		count: 5
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "mysticalagriculture:fluix_essence"
+		},
+		count: 8
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "tconstruct:arrow",
+			tag: {
+				StatsOriginal: {
+					AttackSpeedMultiplier: 1.0f,
+					Accuracy: 1.0f,
+					MiningSpeed: 13.32f,
+					FreeModifiers: 3,
+					Durability: 680,
+					HarvestLevel: 2,
+					Attack: 14.65f
+				},
+				Stats: {
+					AttackSpeedMultiplier: 1.0f,
+					Accuracy: 1.0f,
+					MiningSpeed: 13.32f,
+					FreeModifiers: 3,
+					Durability: 680,
+					HarvestLevel: 2,
+					Attack: 14.65f
+				},
+				Special: {
+					Categories: [
+						"no_melee",
+						"tool",
+						"projectile"
+					]
+				},
+				TinkerData: {
+					Materials: [
+						"wood",
+						"fluix",
+						"feather"
+					],
+					Modifiers: []
+				},
+				Modifiers: [{
+					identifier: "ecological",
+					color: -7444965,
+					level: 1
+				}],
+				Traits: [
+					"ecological"
+				]
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:lingering_potion",
+			tag: {
+				Potion: "potioncore:long_vulnerable"
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:lingering_potion",
+			tag: {
+				Potion: "potioncore:long_klutz"
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thermalfoundation:material",
+			Damage: 167s
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:enchanted_book",
+			tag: {
+				StoredEnchantments: [{
+					lvl: 1s,
+					id: 85s
+				}]
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ebwizardry:ring_full_moon"
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ebwizardry:scroll",
+			Damage: 37s
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "enderio:item_alloy_ingot",
+			Damage: 6s
+		},
+		count: 2
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "enderio:item_alloy_ingot",
+			Damage: 6s
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:skull"
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:bone",
+			tag: {
+				ench: [{
+					lvl: 3s,
+					id: 96s
+				},
+				{
+					lvl: 6s,
+					id: 32s
+				},
+				{
+					lvl: 1s,
+					id: 59s
+				},
+				{
+					lvl: 2s,
+					id: 21s
+				}],
+				display: {
+					Lore: [
+						"Definitely wasn't a good boy!"
+					],
+					Name: "Good Boy Bone"
+				},
+				AttributeModifiers: [{
+					UUIDMost: -2038549036775537L,
+					UUIDLeast: -9033291438019532872L,
+					Amount: 2.0d,
+					Slot: "mainhand",
+					AttributeName: "generic.attackDamage",
+					Operation: 0,
+					Name: "generic.attackDamage"
+				},
+				{
+					UUIDMost: -4426924606453169324L,
+					UUIDLeast: -9179378891047061307L,
+					Amount: 2.0d,
+					Slot: "mainhand",
+					AttributeName: "generic.attackSpeed",
+					Operation: 0,
+					Name: "generic.attackSpeed"
+				},
+				{
+					UUIDMost: -3458116158460573174L,
+					UUIDLeast: -5151757972048249645L,
+					Amount: -2.0d,
+					Slot: "mainhand",
+					AttributeName: "generic.reachDistance",
+					Operation: 0,
+					Name: "generic.reachDistance"
+				},
+				{
+					UUIDMost: -7211334704559471942L,
+					UUIDLeast: -6860935227847198815L,
+					Amount: -1.0d,
+					Slot: "mainhand",
+					AttributeName: "generic.followRange",
+					Operation: 0,
+					Name: "generic.followRange"
+				}]
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "tconstruct:materials",
+			Damage: 17s
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "conarm:helmet_core",
+			tag: {
+				Material: "knightslime"
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thermalfoundation:horse_armor_platinum",
+			tag: {
+				ench: [{
+					lvl: 1s,
+					id: 60s
+				}],
+				display: {
+					Lore: [
+						"That 1% chance though."
+					],
+					Name: "Platinum Cage"
+				},
+				AttributeModifiers: [{
+					UUIDMost: -574411492195808555L,
+					UUIDLeast: -8887175157754308911L,
+					Amount: 1.0d,
+					Slot: "mainhand",
+					AttributeName: "generic.luck",
+					Operation: 0,
+					Name: "generic.luck"
+				}]
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "excompressum:bait",
+			Damage: 8s
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "totaltinkers:battleaxe",
+			tag: {
+				ench: [{
+					lvl: 1s,
+					id: 21s
+				}],
+				StatsOriginal: {
+					AttackSpeedMultiplier: 1.0f,
+					MiningSpeed: 8.115f,
+					FreeModifiers: 3,
+					Durability: 1822,
+					HarvestLevel: 4,
+					Attack: 9.115f
+				},
+				display: {
+					Name: "Blade of Authority"
+				},
+				Stats: {
+					AttackSpeedMultiplier: 1.0f,
+					MiningSpeed: 8.171f,
+					FreeModifiers: 0,
+					Durability: 1831,
+					HarvestLevel: 4,
+					Attack: 9.150001f
+				},
+				Special: {
+					Categories: [
+						"aoe",
+						"weapon",
+						"tool"
+					],
+					alienStatBonus: {
+						identifier: "",
+						color: 0,
+						attack: 0.034999996f,
+						durability: 9,
+						speed: 0.055999998f
+					},
+					alienStatPool: {
+						identifier: "",
+						color: 16777215,
+						attack: 1.359999f,
+						durability: 259,
+						speed: 1.8829982f
+					}
+				},
+				TinkerData: {
+					UsedModifiers: 3,
+					Materials: [
+						"soularium",
+						"endstone",
+						"xu_evil_metal",
+						"lead"
+					],
+					Modifiers: [
+						"soulbound",
+						"beheading",
+						"luck",
+						"glowing"
+					]
+				},
+				Modifiers: [{
+					identifier: "flammable",
+					color: -9872563,
+					level: 1
+				},
+				{
+					identifier: "alien",
+					color: -2041712,
+					level: 1
+				},
+				{
+					identifier: "xu_withering",
+					color: -131160,
+					level: 1
+				},
+				{
+					identifier: "poisonous",
+					color: -11712152,
+					level: 1
+				},
+				{
+					identifier: "heavy",
+					color: -11712152,
+					level: 1
+				},
+				{
+					identifier: "soulbound",
+					color: 16120748
+				},
+				{
+					identifier: "beheading",
+					color: 1070923,
+					level: 1
+				},
+				{
+					identifier: "luck",
+					current: 60,
+					color: 2970082,
+					level: 1,
+					max: 60,
+					modifierUsed: 1b,
+					extraInfo: "59 / 60"
+				},
+				{
+					identifier: "glowing",
+					color: 16777130,
+					level: 1
+				}],
+				Traits: [
+					"flammable",
+					"alien",
+					"xu_withering",
+					"poisonous",
+					"heavy",
+					"luck",
+					"glowing"
+				]
+			}
+		}
+	}]
+}

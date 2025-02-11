@@ -1,0 +1,39 @@
+{
+	title: "Tampered End Faction",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "minecraft:end_stone"
+	},
+	x: 10.0d,
+	y: 2.5d,
+	description: "''The old end, fell into ruin by whatever designs they are currently conceptualizing.''",
+	text: [
+		"Every purchase you will receive one random reward from the following entities.",
+		"",
+		"- ''Tampered Mite''",
+		"- ''Dragon of Extremity''"
+	],
+	dependencies: [
+		"f6f9b103",
+		"5a631ee1"
+	],
+	hide: true,
+	tasks: [{
+		uid: "29347451",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "camscurrency:aureus"
+		}],
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "f11f52b5",
+		type: "loot",
+		table: 65
+	}]
+}

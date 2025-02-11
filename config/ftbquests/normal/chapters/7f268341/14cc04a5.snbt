@@ -1,0 +1,53 @@
+{
+	title: "Ender Bunny Hop",
+	x: -0.5d,
+	y: 9.5d,
+	shape: "square",
+	description: "Throwing items near the hopper will transport it into the container.",
+	dependencies: [
+		"323c2d1d"
+	],
+	hide: true,
+	tasks: [{
+		uid: "d8bc5bdd",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "darkutils:ender_hopper"
+		},
+		{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "darkutils:ender_pearl_hopper"
+		}]
+	}],
+	rewards: [{
+		uid: "be996e2c",
+		type: "loot",
+		table: 20
+	},
+	{
+		uid: "2b3c3238",
+		type: "loot",
+		table: 20
+	},
+	{
+		uid: "ee7ba6bc",
+		type: "loot",
+		table: 20
+	},
+	{
+		uid: "0b8c9c6e",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "extrautils2:enderlilly"
+		},
+		count: 16
+	}]
+}

@@ -1,0 +1,58 @@
+{
+	title: "Heavy Metal",
+	x: 8.5d,
+	y: 5.0d,
+	description: "Auto Sieve for compressed blocks.",
+	dependencies: [
+		"6b44dfeb"
+	],
+	hide: true,
+	tasks: [{
+		uid: "5ea17cb3",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "excompressum:auto_heavy_sieve"
+		}]
+	}],
+	rewards: [{
+		uid: "8274f056",
+		type: "loot",
+		table: 3
+	},
+	{
+		uid: "49a05cbe",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "extrautils2:compressedsand"
+		},
+		random_bonus: 5
+	},
+	{
+		uid: "2a371b2f",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "excompressum:compressed_block"
+		},
+		random_bonus: 5
+	},
+	{
+		uid: "2b9744f2",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "extrautils2:compressedgravel"
+		},
+		random_bonus: 5
+	}]
+}

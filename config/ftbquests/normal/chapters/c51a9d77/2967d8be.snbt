@@ -1,0 +1,44 @@
+{
+	title: "Unlimited Bandwidth",
+	x: 3.0d,
+	y: 7.5d,
+	description: "Wireless redstone capabilities!",
+	text: [
+		""
+	],
+	dependencies: [
+		"5944f1d8"
+	],
+	hide: true,
+	tasks: [{
+		uid: "bb651985",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "cyclicmagic:wireless_transmitter"
+		}]
+	},
+	{
+		uid: "9e81a78f",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "cyclicmagic:wireless_receiver"
+		}]
+	}],
+	rewards: [{
+		uid: "42f4498d",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:redstone_block"
+		},
+		count: 16
+	}]
+}

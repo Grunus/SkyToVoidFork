@@ -1,0 +1,29 @@
+{
+	title: "Rare Discovery",
+	x: 5.5d,
+	y: 15.0d,
+	shape: "square",
+	text: [
+		""
+	],
+	dependencies: [
+		"29e7b67e"
+	],
+	hide: true,
+	tasks: [{
+		uid: "d8e9a1e9",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "tconstruct:materials",
+			Damage: 19s
+		}]
+	}],
+	rewards: [{
+		uid: "4d03ee41",
+		type: "loot",
+		table: 6
+	}]
+}

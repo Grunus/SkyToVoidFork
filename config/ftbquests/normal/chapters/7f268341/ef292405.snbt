@@ -1,0 +1,38 @@
+{
+	title: "Upgrading Your Plan",
+	x: -12.5d,
+	y: 9.5d,
+	description: "Wireless Boosters will increase the range to access the storage.",
+	text: [
+		""
+	],
+	dependencies: [
+		"47d38e3e"
+	],
+	hide: true,
+	tasks: [{
+		uid: "026092ca",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "appliedenergistics2:material",
+			Damage: 42s
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "295fda0e",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "appliedenergistics2:material",
+			Damage: 42s
+		},
+		count: 4,
+		random_bonus: 4
+	}]
+}

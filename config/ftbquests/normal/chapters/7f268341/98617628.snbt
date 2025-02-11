@@ -1,0 +1,33 @@
+{
+	title: "The Void Into the Void",
+	x: -6.0d,
+	y: 0.0d,
+	description: "Void bags throws stuff into the Void (to interpret: deletes it out of existence).",
+	text: [
+		""
+	],
+	dependencies: [
+		"280bc181"
+	],
+	hide: true,
+	tasks: [{
+		uid: "ddb35f6e",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thermalexpansion:satchel",
+			tag: {
+				Accessible: 1
+			},
+			Damage: 100s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7a1788be",
+		type: "loot",
+		table: 7
+	}]
+}

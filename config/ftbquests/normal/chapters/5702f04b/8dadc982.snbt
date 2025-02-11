@@ -1,0 +1,32 @@
+{
+	title: "Black Steel",
+	x: 13.5d,
+	y: 6.5d,
+	dependencies: [
+		"395598c0",
+		"05abe815"
+	],
+	hide: true,
+	tasks: [{
+		uid: "07489948",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "metallurgy:black_steel_ingot"
+		}],
+		count: 10L
+	}],
+	rewards: [{
+		uid: "1c5358ae",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "camscurrency:denarius"
+		},
+		count: 10
+	}]
+}

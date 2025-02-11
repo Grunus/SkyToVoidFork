@@ -1,0 +1,41 @@
+{
+	title: "Greeeeeen!",
+	x: -22.0d,
+	y: 2.0d,
+	shape: "diamond",
+	description: "''I know this vyroxeres stuff isn't useful, but I REALLY wanna deck out my tram with this stuff. It's my favorite color after all!''",
+	text: [
+		"Oh man! Thank you! Also... tell these people to get off of my tram please. They're starting to scare me."
+	],
+	dependencies: [
+		"c3be3988"
+	],
+	hide: true,
+	tasks: [{
+		uid: "64dde9e8",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "metallurgy:vyroxeres_block"
+		}],
+		count: 3L
+	}],
+	rewards: [{
+		uid: "9da4cec6",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "camscurrency:denarius"
+		},
+		count: 16
+	},
+	{
+		uid: "24c6f9c8",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	}]
+}

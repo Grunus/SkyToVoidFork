@@ -1,0 +1,32 @@
+{
+	title: "Uh Huh, Mhm, Looks Better Than The Last One!",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "thermalfoundation:upgrade",
+		Damage: 2s
+	},
+	x: -6.0d,
+	y: 2.0d,
+	dependencies: [
+		"19b6504b"
+	],
+	hide: true,
+	tasks: [{
+		uid: "d121cb69",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thermalfoundation:upgrade",
+			Damage: 2s
+		}]
+	}],
+	rewards: [{
+		uid: "f2d70bb3",
+		type: "loot",
+		table: 8
+	}]
+}

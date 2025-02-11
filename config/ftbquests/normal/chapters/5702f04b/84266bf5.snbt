@@ -1,0 +1,37 @@
+{
+	title: "Expanders",
+	x: 6.5d,
+	y: 15.0d,
+	description: "Allows your tools to reach farther, and have a wider impact.",
+	dependencies: [
+		"29e7b67e"
+	],
+	hide: true,
+	tasks: [{
+		uid: "917ef4d6",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "tconstruct:materials",
+			Damage: 13s
+		}]
+	},
+	{
+		uid: "b538437b",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "tconstruct:materials",
+			Damage: 12s
+		}]
+	}],
+	rewards: [{
+		uid: "1ae0564f",
+		type: "loot",
+		table: 5
+	}]
+}

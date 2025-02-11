@@ -1,0 +1,65 @@
+{
+	title: "MY Good Friend Slavender!",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "minecraft:anvil",
+		Damage: 2s
+	},
+	x: 4.0d,
+	y: -4.0d,
+	shape: "diamond",
+	description: "''Ahh. Slavender! I haven't talked to him in years! Could you tell him I said hello?''",
+	text: [
+		"Wait... he doesn't remember me?"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"cb0f340b",
+		"1e2c21c5"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "622882d4",
+		type: "location",
+		title: "Go to Slavender for Duster (-114 88 90)",
+		location: [I;
+			0,
+			-115,
+			88,
+			90,
+			2,
+			2,
+			2
+		]
+	}],
+	rewards: [{
+		uid: "a394ebf9",
+		type: "choice",
+		table: 69
+	},
+	{
+		uid: "f04174ad",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "contenttweaker:objectives",
+			tag: {
+				ench: [{
+					lvl: 1s,
+					id: 10s
+				}],
+				display: {
+					Lore: [
+						"Statue of Denial would be pleased."
+					],
+					Name: "Mark of Friendship - Island Layer 1"
+				}
+			}
+		}
+	}]
+}

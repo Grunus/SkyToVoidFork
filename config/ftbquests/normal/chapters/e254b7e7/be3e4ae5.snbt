@@ -1,0 +1,36 @@
+{
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "contenttweaker:obj_quests",
+		tag: {
+			display: {
+				Name: "Quests"
+			}
+		}
+	},
+	x: 4.5d,
+	y: -19.5d,
+	text: [
+		"Final Chapter of... what? Who did this!? Who's breaking my messages!"
+	],
+	hide_dependency_lines: true,
+	min_required_dependencies: 4,
+	dependencies: [
+		"e31d42e9",
+		"61fed05a",
+		"64f41492",
+		"b15e3fc6",
+		"b3c0d3da",
+		"ad34fd99",
+		"0b700bce"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "1e91f71a",
+		type: "checkmark",
+		title: "The Gods' Final Chapter"
+	}]
+}

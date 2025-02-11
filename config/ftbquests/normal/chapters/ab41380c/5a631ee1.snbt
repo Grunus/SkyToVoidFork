@@ -1,0 +1,50 @@
+{
+	title: "Ending Cascades",
+	x: -1.5d,
+	y: 15.5d,
+	description: "Last reminisce of the old world to the new tampered.",
+	text: [
+		""
+	],
+	dependencies: [
+		"05faa4f9"
+	],
+	hide: true,
+	tasks: [{
+		uid: "d256098d",
+		type: "location",
+		title: "-80 64 1011",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:end_stone"
+		},
+		location: [I;
+			0,
+			-83,
+			64,
+			1010,
+			5,
+			5,
+			5
+		]
+	}],
+	rewards: [{
+		uid: "8ece94eb",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "enderio:item_alloy_ingot",
+			Damage: 8s
+		},
+		random_bonus: 6
+	},
+	{
+		uid: "51d19c1f",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	}]
+}

@@ -1,0 +1,17 @@
+filename = 'gamestagebooks-1.12.2-1.0.2-universal.jar'
+name = 'Gamestage Books'
+side = 'both'
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'gamestagebooks-1.12.2-1.0.2-universal.jar'
+
+[download]
+hash = 'de3e24b8d60e57ae68a791a02f5cf0afeaea2807'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 2735851
+project-id = 296392

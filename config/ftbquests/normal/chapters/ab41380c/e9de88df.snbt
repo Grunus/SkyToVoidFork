@@ -1,0 +1,96 @@
+{
+	title: "Cilitou's ''Great'' Quest",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "biomesoplenty:fleshchunk",
+		tag: {
+			ench: [{
+				lvl: 1,
+				id: 3
+			}],
+			RepairCost: 1,
+			display: {
+				Name: "Mayor's Heart"
+			}
+		}
+	},
+	x: -6.0d,
+	y: 4.0d,
+	shape: "diamond",
+	description: "''I want that mayor dead and gone. It's like the monsters follow his commands. Lets kill him!''",
+	text: [
+		"It's true, fate has brought you here to save this town.",
+		"Now go. Don't let your time run out here. The last alive can take care of this place.",
+		"",
+		"================================",
+		"",
+		"If you need this wool for future quests, the boss will respawn in time and this quest is repeatable."
+	],
+	min_required_dependencies: 1,
+	dependencies: [
+		"e1bfb1b7",
+		"c79642c1"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "487197cc",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "biomesoplenty:fleshchunk",
+			tag: {
+				ench: [{
+					lvl: 1s,
+					id: 3s
+				}],
+				RepairCost: 1,
+				display: {
+					Name: "Mayor's Heart"
+				}
+			}
+		}],
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "980dea4f",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "camscurrency:denarius"
+		},
+		count: 24
+	},
+	{
+		uid: "07455191",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thermalfoundation:rockwool",
+			tag: {
+				ench: [{
+					lvl: 1s,
+					id: 40s
+				}],
+				RepairCost: 1,
+				display: {
+					Name: "I. Mark of Pride"
+				}
+			},
+			Damage: 7s
+		}
+	},
+	{
+		uid: "cf891f2f",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	}]
+}

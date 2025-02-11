@@ -1,0 +1,27 @@
+{
+	title: "Abomination!",
+	x: 20.5d,
+	y: -0.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"6fa727bc"
+	],
+	hide: true,
+	tasks: [{
+		uid: "9d679f34",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "enderio:block_slice_and_splice"
+		}]
+	}],
+	rewards: [{
+		uid: "da734b8e",
+		type: "loot",
+		table: 35
+	}]
+}

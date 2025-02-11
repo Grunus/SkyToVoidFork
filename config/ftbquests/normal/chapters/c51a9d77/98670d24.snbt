@@ -1,0 +1,60 @@
+{
+	title: "5G Wavelength",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "cyclicmagic:cable_wireless_fluid"
+	},
+	x: 1.2088435374149782d,
+	y: 8.05816326530612d,
+	description: "All 3 of these nodes are used throughout Cyclic to transfer materials and energy.",
+	text: [
+		"With a GPS and a wireless transfer node, you are able to transport materials without the need of physical connections!",
+		"",
+		"Using a GPS, right click on a block which can receive items, then place the GPS into your desired node."
+	],
+	min_required_dependencies: 1,
+	dependencies: [
+		"0cd96b09",
+		"82730b8e"
+	],
+	hide: true,
+	tasks: [{
+		uid: "7ce16ae5",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "cyclicmagic:card_location"
+		}]
+	},
+	{
+		uid: "53698624",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "cyclicmagic:cable_wireless_energy"
+		},
+		{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "cyclicmagic:cable_wireless_fluid"
+		},
+		{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "cyclicmagic:cable_wireless"
+		}]
+	}],
+	rewards: [{
+		uid: "60ac38c2",
+		type: "loot",
+		table: 52
+	}]
+}

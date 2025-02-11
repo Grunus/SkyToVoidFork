@@ -1,0 +1,12 @@
+{
+	title: "Filling the Void",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "minecraft:ender_pearl"
+	},
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

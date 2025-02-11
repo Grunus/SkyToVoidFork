@@ -1,0 +1,25 @@
+{
+	title: "For Convenience",
+	x: -15.5d,
+	y: 10.5d,
+	dependencies: [
+		"5c79f4a8"
+	],
+	hide: true,
+	tasks: [{
+		uid: "b6e3bb50",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "appliedenergistics2:part",
+			Damage: 360s
+		}]
+	}],
+	rewards: [{
+		uid: "24aefb87",
+		type: "loot",
+		table: 15
+	}]
+}

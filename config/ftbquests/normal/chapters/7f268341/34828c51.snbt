@@ -1,0 +1,26 @@
+{
+	title: "Ender Infused",
+	x: 18.0d,
+	y: 1.5d,
+	dependencies: [
+		"6dae248c"
+	],
+	hide: true,
+	tasks: [{
+		uid: "7a1a87ae",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "enderio:item_alloy_ingot",
+			Damage: 2s
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "a6400385",
+		type: "loot",
+		table: 35
+	}]
+}

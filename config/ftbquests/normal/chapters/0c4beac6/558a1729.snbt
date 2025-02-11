@@ -1,0 +1,44 @@
+{
+	title: "Heavenly Souls Faction",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "ebwizardry:astral_diamond"
+	},
+	x: 11.0d,
+	y: 2.5d,
+	description: "''As much as I want to keep myself hidden, I do have a strong urge to purloin some of their goods.''",
+	text: [
+		"Every purchase you will receive one random reward from the following entities.",
+		"",
+		"- ''Angelic Guard''",
+		"- ''Angel''",
+		"- ''Stellar Sight''",
+		"- ''Paradisiacal Contender''",
+		"- ''Heavenly Body''",
+		"- ''Godly Rat''"
+	],
+	dependencies: [
+		"5f156c19",
+		"f6f9b103",
+		"80466741"
+	],
+	hide: true,
+	tasks: [{
+		uid: "9d175206",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "camscurrency:aureus"
+		}],
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "2fac9687",
+		type: "loot",
+		table: 59
+	}]
+}

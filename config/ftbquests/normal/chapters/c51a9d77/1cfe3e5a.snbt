@@ -1,0 +1,30 @@
+{
+	title: "Super Replanter",
+	x: 6.5d,
+	y: 7.5d,
+	description: "Replants crops in its radius.",
+	text: [
+		""
+	],
+	dependencies: [
+		"dd941e95"
+	],
+	hide: true,
+	tasks: [{
+		uid: "97bc2bab",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "cyclicmagic:tool_harvest_crops"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "bd30ff27",
+		type: "loot",
+		table: 51
+	}]
+}

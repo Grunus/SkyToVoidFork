@@ -1,0 +1,64 @@
+{
+	title: "The Deep One",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "metallurgy:deep_iron_ore"
+	},
+	x: 3.0d,
+	y: 8.0d,
+	description: "Oh yeah, it's deep...",
+	text: [
+		""
+	],
+	dependencies: [
+		"838f6260"
+	],
+	hide: true,
+	tasks: [{
+		uid: "79fcd0f3",
+		type: "location",
+		title: "154 101 297",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "metallurgy:deep_iron_ore"
+		},
+		location: [I;
+			0,
+			151,
+			101,
+			294,
+			5,
+			5,
+			5
+		]
+	}],
+	rewards: [{
+		uid: "424c6cfa",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "tconstruct:seared_tank"
+		}
+	},
+	{
+		uid: "0a8c644b",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "tconstruct:smeltery_controller"
+		}
+	},
+	{
+		uid: "9bd148f6",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

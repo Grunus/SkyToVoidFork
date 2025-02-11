@@ -1,0 +1,76 @@
+{
+	title: "Mark of Pride",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "thermalfoundation:rockwool",
+		tag: {
+			ench: [{
+				lvl: 1,
+				id: 3
+			}],
+			RepairCost: 1,
+			display: {
+				Name: "I. Wool of Pride"
+			}
+		},
+		Damage: 7s
+	},
+	x: 1.0d,
+	y: 0.0d,
+	shape: "square",
+	dependencies: [
+		"01437c64"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "d5e93ca4",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thermalfoundation:rockwool",
+			tag: {
+				ench: [{
+					lvl: 1s,
+					id: 40s
+				}],
+				RepairCost: 1,
+				display: {
+					Name: "I. Mark of Pride"
+				}
+			},
+			Damage: 7s
+		}]
+	}],
+	rewards: [{
+		uid: "c371351d",
+		type: "custom",
+		title: "Unlock Mission Chapter",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ftbquests:book"
+		},
+		auto: "enabled"
+	},
+	{
+		uid: "a465d4fe",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "cyclicmagic:heart_food"
+		}
+	},
+	{
+		uid: "6f19cbec",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

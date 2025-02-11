@@ -1,0 +1,27 @@
+{
+	title: "Fishing With Style!",
+	x: 3.0d,
+	y: 6.0d,
+	shape: "square",
+	dependencies: [
+		"f33db21e"
+	],
+	hide: true,
+	tasks: [{
+		uid: "14124607",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thermalfoundation:tool.fishing_rod_diamond"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "9798ca2c",
+		type: "loot",
+		table: 3
+	}]
+}

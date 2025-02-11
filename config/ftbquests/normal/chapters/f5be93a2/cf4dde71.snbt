@@ -1,0 +1,40 @@
+{
+	title: "Alþrúðr I",
+	x: -1.0d,
+	y: 12.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"5e464f29"
+	],
+	hide: true,
+	tasks: [{
+		uid: "7fd2119d",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "appliedenergistics2:smooth_sky_stone_block"
+		}],
+		count: 128L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "1e90eed1",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "camscurrency:denarius"
+		},
+		count: 32
+	},
+	{
+		uid: "b797cb64",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

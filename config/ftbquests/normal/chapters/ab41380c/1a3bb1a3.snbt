@@ -1,0 +1,44 @@
+{
+	title: "Mystical Temple",
+	x: -12.0d,
+	y: 15.0d,
+	description: "A wizard would be impressed if you came here...",
+	text: [
+		""
+	],
+	dependencies: [
+		"05faa4f9"
+	],
+	hide: true,
+	tasks: [{
+		uid: "42992738",
+		type: "location",
+		title: "-724 180 917",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ebwizardry:crystal_block",
+			Damage: 6s
+		},
+		location: [I;
+			0,
+			-726,
+			180,
+			916,
+			5,
+			5,
+			5
+		]
+	}],
+	rewards: [{
+		uid: "6369e016",
+		type: "loot",
+		table: 42
+	},
+	{
+		uid: "096b5335",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

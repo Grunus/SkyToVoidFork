@@ -1,0 +1,45 @@
+{
+	title: "64x64",
+	x: -12.5d,
+	y: 7.5d,
+	shape: "square",
+	dependencies: [
+		"ef0601a2",
+		"3eb5015f",
+		"49dbd919"
+	],
+	hide: true,
+	tasks: [{
+		uid: "6c60d818",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "appliedenergistics2:crafting_storage_64k"
+		}]
+	},
+	{
+		uid: "84e153f5",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "appliedenergistics2:storage_cell_64k",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "11bbb4ab",
+		type: "loot",
+		table: 16
+	},
+	{
+		uid: "ec7c91bb",
+		type: "loot",
+		table: 16
+	}]
+}

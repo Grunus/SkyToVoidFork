@@ -1,0 +1,241 @@
+{
+	title: "The Fool On The Hill",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "appliedenergistics2:facade",
+		tag: {
+			damage: 0,
+			item: "minecraft:grass"
+		}
+	},
+	x: -15.5d,
+	y: -14.5d,
+	shape: "diamond",
+	description: "''Well, our whole underground has been lifted to the surface. Or lack of surface I guess. I don't care all too much but for my safety, would like to build a fake hill to conceal myself! Can you construct some facades using natural materials?''",
+	text: [
+		"I'll be safe forever! Of course, you get a key too!"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"ea4502f6"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "bfa76bf4",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "appliedenergistics2:facade",
+			tag: {
+				damage: 0,
+				item: "minecraft:grass"
+			}
+		}],
+		count: 48L,
+		consume_items: true
+	},
+	{
+		uid: "804257eb",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "appliedenergistics2:facade",
+			tag: {
+				damage: 0,
+				item: "minecraft:stone"
+			}
+		}],
+		count: 64L,
+		consume_items: true
+	},
+	{
+		uid: "e48ce9c8",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "appliedenergistics2:facade",
+			tag: {
+				damage: 0,
+				item: "minecraft:stone"
+			}
+		}],
+		count: 64L,
+		consume_items: true
+	},
+	{
+		uid: "c902d553",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "appliedenergistics2:facade",
+			tag: {
+				damage: 0,
+				item: "minecraft:dirt"
+			}
+		}],
+		count: 64L,
+		consume_items: true
+	},
+	{
+		uid: "b86244c7",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "appliedenergistics2:facade",
+			tag: {
+				damage: 0,
+				item: "minecraft:coal_ore"
+			}
+		}],
+		count: 12L,
+		consume_items: true
+	},
+	{
+		uid: "ff5ad8b5",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "appliedenergistics2:facade",
+			tag: {
+				damage: 0,
+				item: "minecraft:iron_ore"
+			}
+		}],
+		count: 6L,
+		consume_items: true
+	},
+	{
+		uid: "bde24cab",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "appliedenergistics2:facade",
+			tag: {
+				damage: 0,
+				item: "minecraft:gold_ore"
+			}
+		}],
+		count: 2L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "f08ac721",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "storagedrawers:quantify_key",
+			tag: {
+				ench: [{
+					lvl: 1s,
+					id: 71s
+				},
+				{
+					lvl: 3s,
+					id: 16s
+				},
+				{
+					lvl: 2s,
+					id: 21s
+				},
+				{
+					lvl: 4s,
+					id: 68s
+				}],
+				display: {
+					Lore: [
+						"The teeth of the key were definitely sawed",
+						"off.",
+						"",
+						"Yeah, it's not gonna open crud."
+					],
+					Name: "Secret Base Key"
+				},
+				AttributeModifiers: [{
+					UUIDMost: -3801225194067177672L,
+					UUIDLeast: -6586624321849018929L,
+					Amount: 7.0d,
+					Slot: "mainhand",
+					AttributeName: "generic.attackDamage",
+					Operation: 0,
+					Name: "generic.attackDamage"
+				},
+				{
+					UUIDMost: -1869015802301429873L,
+					UUIDLeast: -7067014502590483593L,
+					Amount: -0.2d,
+					Slot: "mainhand",
+					AttributeName: "generic.attackSpeed",
+					Operation: 1,
+					Name: "generic.attackSpeed"
+				},
+				{
+					UUIDMost: 580580697563286715L,
+					UUIDLeast: -8690954331014216575L,
+					Amount: 0.35d,
+					Slot: "mainhand",
+					AttributeName: "generic.movementSpeed",
+					Operation: 1,
+					Name: "generic.movementSpeed"
+				},
+				{
+					UUIDMost: -2331562517895755563L,
+					UUIDLeast: -7170753072412945517L,
+					Amount: -2.0d,
+					Slot: "mainhand",
+					AttributeName: "generic.knockbackResistance",
+					Operation: 0,
+					Name: "generic.knockbackResistance"
+				},
+				{
+					UUIDMost: 7355673106926748094L,
+					UUIDLeast: -6761229580597506494L,
+					Amount: -1.1d,
+					Slot: "mainhand",
+					AttributeName: "generic.reachDistance",
+					Operation: 0,
+					Name: "generic.reachDistance"
+				}]
+			}
+		}
+	},
+	{
+		uid: "27fd30bd",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "camscurrency:denarius"
+		},
+		count: 64
+	},
+	{
+		uid: "be10ab17",
+		type: "ftbmoney:money",
+		ftb_money: 80L
+	},
+	{
+		uid: "df22514d",
+		type: "loot",
+		table: 16
+	}]
+}

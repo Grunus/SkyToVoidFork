@@ -1,0 +1,31 @@
+{
+	title: "Potash",
+	x: 12.5d,
+	y: 16.0d,
+	dependencies: [
+		"81b1cd10"
+	],
+	hide: true,
+	tasks: [{
+		uid: "5a8e9158",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "metallurgy:potash"
+		}],
+		count: 10L
+	}],
+	rewards: [{
+		uid: "05087b9d",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "camscurrency:dupondius"
+		},
+		count: 10
+	}]
+}

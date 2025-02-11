@@ -1,0 +1,69 @@
+{
+	title: "Now This... is Some Advance Goop",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "tconstruct:edible",
+		Damage: 32s
+	},
+	x: 2.0d,
+	y: 1.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"d067e175"
+	],
+	hide: true,
+	tasks: [{
+		uid: "e4b6370f",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "tconstruct:edible",
+			Damage: 31s
+		}]
+	},
+	{
+		uid: "ead0bad7",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "tconstruct:edible",
+			Damage: 32s
+		}]
+	},
+	{
+		uid: "6e02f7e8",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "tconstruct:edible",
+			Damage: 34s
+		}]
+	}],
+	rewards: [{
+		uid: "0ac05484",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "tconstruct:edible",
+			Damage: 32s
+		},
+		random_bonus: 15
+	},
+	{
+		uid: "8e97a658",
+		type: "loot",
+		table: 1
+	}]
+}

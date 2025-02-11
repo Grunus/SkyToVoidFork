@@ -1,0 +1,40 @@
+{
+	title: "Mushroom Tribe Faction",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "minecraft:brown_mushroom"
+	},
+	x: 5.0d,
+	y: 2.5d,
+	description: "''Mushrooms! Woooweee!''",
+	text: [
+		"Every purchase you will receive one random reward from the following entities.",
+		"",
+		"- ''Mush Man''",
+		"- ''Bustling Fungus''",
+		"- ''Shroomer''"
+	],
+	dependencies: [
+		"f6f9b103",
+		"d5bb9b59"
+	],
+	hide: true,
+	tasks: [{
+		uid: "8db4b770",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "camscurrency:aureus"
+		}],
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "21920f6a",
+		type: "loot",
+		table: 60
+	}]
+}

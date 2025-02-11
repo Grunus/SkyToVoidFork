@@ -1,0 +1,48 @@
+{
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "extrautils2:ingredients",
+		Damage: 2s
+	},
+	x: 0.0d,
+	y: -14.1d,
+	shape: "gear",
+	text: [
+		"If they find the last symbols we're about to be confronted by a mortal in our own kingdom.",
+		"",
+		"Not... that we're scared. We must contact them in some way..."
+	],
+	dependencies: [
+		"0b88a7b8",
+		"ff4caeab",
+		"5315e8ba"
+	],
+	hide: true,
+	size: 1.7d,
+	tasks: [{
+		uid: "92102655",
+		type: "checkmark",
+		title: "Scare Them."
+	}],
+	rewards: [{
+		uid: "758060ff",
+		type: "command",
+		title: "Extend the Boundaries",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "contenttweaker:worldborder",
+			tag: {
+				display: {
+					Name: "Worldborder"
+				}
+			}
+		},
+		team_reward: true,
+		auto: "enabled",
+		command: ""
+	}]
+}

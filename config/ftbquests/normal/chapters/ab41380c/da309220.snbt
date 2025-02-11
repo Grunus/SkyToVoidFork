@@ -1,0 +1,78 @@
+{
+	title: "Meadow Valley",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "biomesoplenty:grass",
+		Damage: 7s
+	},
+	x: 3.0d,
+	y: 4.0d,
+	description: "Pretty I do say so myself.",
+	hide_dependency_lines: true,
+	dependencies: [
+		"2bd5aaf9",
+		"56904fde"
+	],
+	hide: true,
+	tasks: [{
+		uid: "2f69e12d",
+		type: "location",
+		title: "104 85 85",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:red_flower",
+			Damage: 8s
+		},
+		location: [I;
+			0,
+			102,
+			85,
+			84,
+			5,
+			5,
+			5
+		]
+	}],
+	rewards: [{
+		uid: "b05d94a3",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "harvestcraft:peanutseeditem"
+		},
+		count: 2
+	},
+	{
+		uid: "52a2fb70",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "harvestcraft:garlicseeditem"
+		},
+		count: 2
+	},
+	{
+		uid: "545eabfb",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "harvestcraft:seedsoupitem"
+		},
+		count: 2
+	},
+	{
+		uid: "0997d8f9",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

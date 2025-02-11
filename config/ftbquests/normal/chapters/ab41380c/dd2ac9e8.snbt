@@ -1,0 +1,42 @@
+{
+	title: "Storm Temple",
+	x: 11.5d,
+	y: -10.5d,
+	description: "The wizard would be impressed if you came here...",
+	hide_dependency_lines: true,
+	dependencies: [
+		"02b464cc"
+	],
+	hide: true,
+	tasks: [{
+		uid: "38a18a45",
+		type: "location",
+		title: "619 128 -597",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ebwizardry:crystal_block",
+			Damage: 3s
+		},
+		location: [I;
+			0,
+			618,
+			128,
+			-600,
+			5,
+			5,
+			5
+		]
+	}],
+	rewards: [{
+		uid: "f9d272b2",
+		type: "loot",
+		table: 28
+	},
+	{
+		uid: "6976a838",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	}]
+}

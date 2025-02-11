@@ -1,0 +1,40 @@
+{
+	title: "Worth More Than a Nickel",
+	x: -7.0d,
+	y: -2.0d,
+	dependencies: [
+		"74337ab7"
+	],
+	hide: true,
+	tasks: [{
+		uid: "3f3f0038",
+		type: "item",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thermalfoundation:material",
+			Damage: 133s
+		},
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thermalfoundation:material",
+			Damage: 133s
+		}],
+		count: 8L
+	}],
+	rewards: [{
+		uid: "e5dd90eb",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thermalfoundation:coin",
+			Damage: 69s
+		},
+		count: 8
+	}]
+}

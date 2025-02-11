@@ -1,0 +1,105 @@
+{
+	title: "Mooshroom?",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "inventorypets:mooshroom_pet"
+	},
+	x: 4.0d,
+	y: 5.0d,
+	shape: "diamond",
+	description: "''You found some Mooshrooms!? That's crazy! Didn't know they survived The Rapture, especially on that tiny island. I'd like you to build a farm for me, collect some of their Mooshroom hide. Study how they live too. I'll pay you decently!''",
+	text: [
+		"A new source of food for my diet. Thank you. Such an amazing species."
+	],
+	dependencies: [
+		"40e49e87"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "29da3f34",
+		type: "observation",
+		title: "Observe a Mooshroom Cow for 20 seconds",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:spawn_egg",
+			tag: {
+				EntityTag: {
+					id: "minecraft:mooshroom"
+				}
+			}
+		},
+		match_type: "entity_id",
+		match: "minecraft:mooshroom",
+		timer: 500L
+	},
+	{
+		uid: "0b6975c7",
+		type: "kill",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "openblocks:trophy",
+			tag: {
+				entity_id: "minecraft:mooshroom"
+			}
+		},
+		entity: "minecraft:mooshroom",
+		value: 30L
+	}],
+	rewards: [{
+		uid: "42ef0abd",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:diamond"
+		},
+		count: 3
+	},
+	{
+		uid: "40bbb982",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "biomesoplenty:jacaranda_fence"
+		},
+		count: 64
+	},
+	{
+		uid: "f279e807",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "openblocks:trophy",
+			tag: {
+				entity_id: "minecraft:mooshroom"
+			}
+		}
+	},
+	{
+		uid: "643a3cc1",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "cyclicmagic:apple_emerald"
+		}
+	},
+	{
+		uid: "97d48f67",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	}]
+}

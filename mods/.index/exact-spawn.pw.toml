@@ -1,0 +1,17 @@
+filename = 'ExactSpawn-1.12-1.2.3.17.jar'
+name = 'Exact Spawn'
+side = 'both'
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'ExactSpawn-1.12-1.2.3.17.jar'
+
+[download]
+hash = 'b2086edfc0e6d189ac1c2d4ea9307c26c8dadcbc'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 2676102
+project-id = 304026

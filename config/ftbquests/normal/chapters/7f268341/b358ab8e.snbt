@@ -1,0 +1,85 @@
+{
+	title: "The Crusher",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "thermalexpansion:machine",
+		tag: {
+			RSControl: 0,
+			Facing: 3,
+			Energy: 0,
+			SideCache: [B;
+				3b,
+				1b,
+				2b,
+				2b,
+				2b,
+				2b
+			],
+			Level: 0
+		},
+		Damage: 1s
+	},
+	x: 1.5d,
+	y: 5.5d,
+	description: "Another Pulverizer.",
+	text: [
+		""
+	],
+	dependencies: [
+		"ef38a701"
+	],
+	hide: true,
+	tasks: [{
+		uid: "3fc9cf2b",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "extrautils2:machine",
+			tag: {
+				Type: "extrautils2:crusher"
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "9bcf0aa0",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thermalfoundation:material"
+		},
+		count: 4,
+		random_bonus: 16
+	},
+	{
+		uid: "2ecdc431",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thermalfoundation:material",
+			Damage: 69s
+		},
+		count: 4,
+		random_bonus: 16
+	},
+	{
+		uid: "4f3f9b5a",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thermalfoundation:material",
+			Damage: 768s
+		},
+		count: 4,
+		random_bonus: 16
+	}]
+}

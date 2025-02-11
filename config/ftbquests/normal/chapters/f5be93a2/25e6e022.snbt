@@ -1,0 +1,49 @@
+{
+	title: "Mark of Gluttony",
+	x: 0.5d,
+	y: -3.0d,
+	shape: "square",
+	text: [
+		""
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"01437c64"
+	],
+	hide: true,
+	tasks: [{
+		uid: "45f055fb",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thermalfoundation:rockwool",
+			tag: {
+				ench: [{
+					lvl: 5s,
+					id: 40s
+				}],
+				display: {
+					Name: "V. Mark of Gluttony"
+				}
+			},
+			Damage: 5s
+		}]
+	}],
+	rewards: [{
+		uid: "5974460c",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "cyclicmagic:heart_food"
+		}
+	},
+	{
+		uid: "6a40f25d",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

@@ -1,0 +1,46 @@
+{
+	title: "Nether Knights Faction",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "minecraft:netherbrick"
+	},
+	x: 8.0d,
+	y: 2.5d,
+	description: "''I don't ever recall seeing these entities in The Nether. They seem much more intelligent, not as intelligent as me though.''",
+	text: [
+		"Every purchase you will receive one random reward from the following entities.",
+		"",
+		"- ''Hell's Servant''",
+		"- ''Overseer''",
+		"- ''Damned''",
+		"- ''Ancient Turret''",
+		"- ''Scarred Servant''",
+		"- ''Scarred Turret''",
+		"- ''Heretic''"
+	],
+	dependencies: [
+		"ca4fc106",
+		"faac856d",
+		"26b86661",
+		"f6f9b103"
+	],
+	hide: true,
+	tasks: [{
+		uid: "94c8e5a0",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "camscurrency:aureus"
+		}],
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "96c0d881",
+		type: "loot",
+		table: 61
+	}]
+}

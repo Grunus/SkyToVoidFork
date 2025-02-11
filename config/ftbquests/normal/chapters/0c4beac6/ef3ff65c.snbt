@@ -1,0 +1,36 @@
+{
+	title: "Mystical Agriculture Row",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "mysticalagriculture:fertilized_essence"
+	},
+	x: -5.0d,
+	y: 2.5d,
+	description: "''Growing your own ores? Maybe you like growing mob flesh if you're weird, but I'm open to all ideas! I can get more unique seeds for you if you buy this row!''",
+	text: [
+		"Complete these 4 quests in Mystical Agriculture section to unlock all Mystical Agriculture Tier Rewards.",
+		"",
+		"- ''Totalitarianism''",
+		"- ''Wrath Farmer''",
+		"- ''Dripped''",
+		"- ''Dragon Experiment''"
+	],
+	dependencies: [
+		"a72d59e9",
+		"3741cdda"
+	],
+	hide: true,
+	tasks: [{
+		uid: "e319cf69",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "camscurrency:aureus"
+		}],
+		consume_items: true
+	}]
+}

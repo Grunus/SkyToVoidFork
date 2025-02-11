@@ -1,0 +1,30 @@
+{
+	title: "Weather Cycle",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "inventorypets:cloud_pet"
+	},
+	x: -1.0d,
+	y: -7.5d,
+	description: "''I can control the weather however I want!''",
+	text: [
+		"You can enable or disable the weather cycle."
+	],
+	dependencies: [
+		"f0ba6cef"
+	],
+	hide: true,
+	tasks: [{
+		uid: "cbbf859e",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "camscurrency:aureus"
+		}],
+		consume_items: true
+	}]
+}

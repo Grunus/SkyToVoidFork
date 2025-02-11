@@ -1,0 +1,134 @@
+{
+	title: "Prime Time",
+	x: 1.8210884353741648d,
+	y: 7.221428571428568d,
+	text: [
+		""
+	],
+	dependencies: [
+		"0cd96b09",
+		"82730b8e"
+	],
+	hide: true,
+	tasks: [{
+		uid: "62f829d6",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "cyclicmagic:bundled_pipe"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "ca64b7a4",
+		type: "loot",
+		table: 51
+	},
+	{
+		uid: "886111bc",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "yoyos:yoyo",
+			tag: {
+				StatsOriginal: {
+					AttackSpeedMultiplier: 1.0f,
+					MiningSpeed: 0.0f,
+					FreeModifiers: 3,
+					ChordLength: 8.0f,
+					Durability: 3772,
+					HarvestLevel: 0,
+					Duration: 62,
+					Attack: 3.65f,
+					Weight: 1.9f
+				},
+				display: {
+					Lore: [
+						"I can't wait until my neighbor gets",
+						"Greenlight. Spectrum is REALLY bad.."
+					],
+					Name: "Greenlight"
+				},
+				Stats: {
+					AttackSpeedMultiplier: 1.1f,
+					MiningSpeed: 0.0f,
+					FreeModifiers: 1,
+					ChordLength: 10.0f,
+					Durability: 3772,
+					HarvestLevel: 0,
+					Duration: 62,
+					Attack: 6.5964103f,
+					Weight: 1.9f
+				},
+				Special: {
+					Categories: [
+						"projectile",
+						"no_melee",
+						"tool",
+						"harvest",
+						"weapon"
+					]
+				},
+				TinkerData: {
+					UsedModifiers: 2,
+					Materials: [
+						"vine",
+						"peridot",
+						"slime",
+						"cobalt"
+					],
+					Modifiers: [
+						"sharpness",
+						"extension"
+					]
+				},
+				Modifiers: [{
+					identifier: "shock",
+					color: -15341515,
+					level: 1
+				},
+				{
+					identifier: "sticky",
+					color: -8206221,
+					level: 1
+				},
+				{
+					identifier: "slimey_green",
+					color: -8206221,
+					level: 1
+				},
+				{
+					identifier: "lightweight",
+					color: -14122284,
+					level: 1
+				},
+				{
+					identifier: "sharpness",
+					current: 72,
+					color: 16774902,
+					level: 1,
+					max: 72,
+					extraInfo: "71 / 72"
+				},
+				{
+					identifier: "extension",
+					current: 8,
+					color: 5233919,
+					level: 1,
+					max: 8,
+					extraInfo: "7 / 8"
+				}],
+				Traits: [
+					"shock",
+					"sticky",
+					"slimey_green",
+					"lightweight"
+				]
+			}
+		}
+	}]
+}

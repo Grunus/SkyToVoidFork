@@ -1,0 +1,36 @@
+{
+	title: "Observation: Blaze",
+	x: -1.5d,
+	y: 13.5d,
+	shape: "pentagon",
+	hide_dependency_lines: true,
+	dependencies: [
+		"ca4fc106",
+		"46793e20"
+	],
+	hide: true,
+	tasks: [{
+		uid: "bc71b2e2",
+		type: "observation",
+		title: "Observe a Blaze",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:spawn_egg",
+			tag: {
+				EntityTag: {
+					id: "minecraft:blaze"
+				}
+			}
+		},
+		match_type: "entity_id",
+		match: "minecraft:blaze",
+		timer: 100L
+	}],
+	rewards: [{
+		uid: "8aa69379",
+		type: "ftbmoney:money",
+		ftb_money: 35L
+	}]
+}

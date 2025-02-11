@@ -1,0 +1,43 @@
+{
+	title: "Hive Minds' Knowledge",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "minecraft:book"
+	},
+	x: 0.9251700680272137d,
+	y: -1.3061224489795862d,
+	shape: "diamond",
+	description: "''You are ready to understand how to defeat them.''",
+	text: [
+		""
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"0a45f189"
+	],
+	hide: true,
+	tasks: [{
+		uid: "7735ce7f",
+		type: "checkmark",
+		title: "Collect the Book"
+	}],
+	rewards: [{
+		uid: "c0b06f7f",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:written_book",
+			tag: {
+				pages: [
+					"{\"text\":\"My humble mortal.\\n\\nMutter this phrase when you\\u0027ve made contact with them.\\n\\nThe phrase is ...\\n\\\"sv_cheats 1\\\"\\n\\nI will know when you\\u0027ve done so.\"}"
+				],
+				author: "Official_Parade",
+				title: "The Phrase"
+			}
+		}
+	}]
+}

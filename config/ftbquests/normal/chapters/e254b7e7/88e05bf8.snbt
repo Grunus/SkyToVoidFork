@@ -1,0 +1,52 @@
+{
+	title: "More Power",
+	x: -1.0d,
+	y: -10.0d,
+	text: [
+		"Vulcanite? Interesting."
+	],
+	dependencies: [
+		"02b464cc"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "b4969866",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "metallurgy:vulcanite_block"
+		}],
+		count: 2L
+	}],
+	rewards: [{
+		uid: "fab13e07",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "camscurrency:denarius"
+		},
+		count: 6
+	},
+	{
+		uid: "606df0aa",
+		type: "choice",
+		title: "Metallurgy Choice",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "metallurgy:ceruclase_block"
+		},
+		table: 29
+	},
+	{
+		uid: "65473e49",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	}]
+}

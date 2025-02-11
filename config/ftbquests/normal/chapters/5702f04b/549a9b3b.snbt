@@ -1,0 +1,47 @@
+{
+	title: "When You Hate Bats",
+	x: 6.0d,
+	y: 7.0d,
+	dependencies: [
+		"be627f93"
+	],
+	hide: true,
+	tasks: [{
+		uid: "231e350e",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "excompressum:bat_zapper"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "5c783287",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:spawn_egg",
+			tag: {
+				EntityTag: {
+					id: "minecraft:bat"
+				}
+			}
+		}
+	},
+	{
+		uid: "1496e6e3",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "harvestcraft:batteredsausageitem"
+		},
+		count: 15
+	}]
+}

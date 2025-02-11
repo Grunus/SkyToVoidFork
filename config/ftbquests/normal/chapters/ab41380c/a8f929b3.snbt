@@ -1,0 +1,57 @@
+{
+	title: "Deadsert",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "biomesoplenty:dried_sand"
+	},
+	x: 0.0d,
+	y: -4.0d,
+	description: "\"Deadsert\", get it? cause it's dead and it's like a desert? Nevermind.",
+	text: [
+		""
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"2bd5aaf9",
+		"56904fde"
+	],
+	hide: true,
+	tasks: [{
+		uid: "03acb156",
+		type: "location",
+		title: "12 101 -102",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "biomesoplenty:dried_sand"
+		},
+		location: [I;
+			0,
+			10,
+			101,
+			-106,
+			5,
+			5,
+			5
+		]
+	}],
+	rewards: [{
+		uid: "706c1639",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "harvestcraft:seaweeditem"
+		},
+		count: 16
+	},
+	{
+		uid: "f58c3a57",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

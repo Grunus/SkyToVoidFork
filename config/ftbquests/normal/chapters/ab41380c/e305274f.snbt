@@ -1,0 +1,54 @@
+{
+	title: "The Hive Mind's Capabilities",
+	x: -5.5d,
+	y: -19.0d,
+	shape: "diamond",
+	description: "''Traveling around these islands, it seems you're following the rules made by laws of dynamics, but rules are meant to be broken. How about you grab the Psi dust from my bee hives and I'll teach you how to break rules.''",
+	text: [
+		"Generally I think you will have a wonderful time taking out the gods with the way I like to play, of course."
+	],
+	dependencies: [
+		"0c7ccc9e"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "3800a081",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "psi:psi_decorative"
+		}],
+		count: 3L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "36caae90",
+		type: "custom",
+		title: "Unlock a section in Chapter 2",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "ftbquests:book"
+		},
+		auto: "enabled"
+	},
+	{
+		uid: "171f75e4",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "psi:cad_assembler"
+		}
+	},
+	{
+		uid: "bc53d5fc",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

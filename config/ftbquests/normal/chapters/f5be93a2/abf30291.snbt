@@ -1,0 +1,39 @@
+{
+	title: "Wambo Final",
+	x: 3.0d,
+	y: 8.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"f9b2dc85"
+	],
+	tasks: [{
+		uid: "70bbc72c",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thermalfoundation:material",
+			Damage: 640s
+		}],
+		count: 64L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "212a086c",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "artifacts:cobalt_shield"
+		}
+	},
+	{
+		uid: "9c92ca3c",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

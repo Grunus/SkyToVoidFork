@@ -1,0 +1,108 @@
+{
+	title: "Reputation Like None Other",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "contenttweaker:pure_ascend",
+		tag: {
+			ench: [{
+				lvl: 1s,
+				id: 60s
+			}],
+			HideFlags: 1,
+			display: {
+				Lore: [
+					"Token for pleasing an Affinity Statue.",
+					"",
+					"Keep these for the Affinity Achievement!"
+				],
+				Name: "Affinity Token"
+			}
+		}
+	},
+	x: -7.0d,
+	y: -17.5d,
+	shape: "diamond",
+	description: "''You've probably found these statues around the void. These aren't just ordinary statues. These statues are connected to the survivors of the void closest to them. I advise you fulfill the statues' needs as doing so will make even the gods' armies become non-hostile.''",
+	text: [
+		"How do you do this exactly? Well you just have to aid the ones left behind from The Rapture.",
+		"",
+		"Complete their quests and in return you will be better off in The Kingdom of Gods."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"0c7ccc9e"
+	],
+	tasks: [{
+		uid: "b72973a8",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "contenttweaker:pure_ascend",
+			tag: {
+				ench: [{
+					lvl: 1s,
+					id: 60s
+				}],
+				HideFlags: 1,
+				display: {
+					Lore: [
+						"Token for pleasing an Affinity Statue.",
+						"",
+						"Keep these for the Affinity Achievement!"
+					],
+					Name: "Affinity Token"
+				}
+			}
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "35e85118",
+		type: "ftbmoney:money",
+		ftb_money: 250L
+	},
+	{
+		uid: "d1178525",
+		type: "xp_levels",
+		xp_levels: 20
+	},
+	{
+		uid: "9085ea40",
+		type: "random",
+		table: 54
+	},
+	{
+		uid: "9168b3ac",
+		type: "random",
+		table: 58
+	},
+	{
+		uid: "9bd8dfa5",
+		type: "random",
+		table: 38
+	},
+	{
+		uid: "61d40ecd",
+		type: "random",
+		table: 61
+	},
+	{
+		uid: "4bd82834",
+		type: "random",
+		table: 65
+	},
+	{
+		uid: "9e3d7914",
+		type: "random",
+		table: 67
+	},
+	{
+		uid: "d4c47898",
+		type: "random",
+		table: 68
+	}]
+}

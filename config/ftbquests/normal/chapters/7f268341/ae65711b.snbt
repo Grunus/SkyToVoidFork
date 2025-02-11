@@ -1,0 +1,29 @@
+{
+	title: "''Poof!''",
+	x: -11.5d,
+	y: 8.0d,
+	shape: "square",
+	text: [
+		""
+	],
+	dependencies: [
+		"c64fec9e"
+	],
+	hide: true,
+	tasks: [{
+		uid: "bbef2771",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "appliedenergistics2:tiny_tnt"
+		}],
+		count: 64L
+	}],
+	rewards: [{
+		uid: "dbca9637",
+		type: "loot",
+		table: 16
+	}]
+}

@@ -1,0 +1,56 @@
+{
+	title: "Fetid Pools",
+	x: 18.0d,
+	y: -4.5d,
+	description: "Reminiscent of a mysterious bayou. Only the strong mesh of thick roots holds these pools together.",
+	dependencies: [
+		"996ee067"
+	],
+	hide: true,
+	tasks: [{
+		uid: "b1170f7a",
+		type: "location",
+		title: "1365 166 -54",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "openblocks:tank",
+			tag: {
+				tank: {
+					FluidName: "poison",
+					Amount: 16000
+				}
+			}
+		},
+		location: [I;
+			0,
+			1365,
+			166,
+			-55,
+			5,
+			5,
+			5
+		]
+	}],
+	rewards: [{
+		uid: "03413b9d",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "thermaldynamics:cover",
+			tag: {
+				Meta: 1b,
+				Block: "biomesoplenty:flower_0"
+			}
+		},
+		count: 4
+	},
+	{
+		uid: "dbd99959",
+		type: "ftbmoney:money",
+		ftb_money: 150L
+	}]
+}

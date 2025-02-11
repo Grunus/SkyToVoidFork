@@ -1,0 +1,25 @@
+{
+	x: 1.0d,
+	y: 11.5d,
+	dependencies: [
+		"ec0c5b6a"
+	],
+	hide: true,
+	tasks: [{
+		uid: "e1bd192a",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "cyclicmagic:sword_slowness"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "2aaacc71",
+		type: "loot",
+		table: 53
+	}]
+}

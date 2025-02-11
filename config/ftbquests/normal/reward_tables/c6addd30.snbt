@@ -1,0 +1,614 @@
+{
+	title: "Drones ",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "thermalfoundation:material",
+		Damage: 290s
+	},
+	loot_size: 1,
+	hide_tooltip: true,
+	use_title: true,
+	rewards: [{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "cfm:item_flesh",
+			tag: {
+				ench: [{
+					lvl: 10s,
+					id: 10s
+				}],
+				display: {
+					Lore: [
+						"Holding it sobs with a greenish liquid.",
+						"Who knows what comes out if you squeeze it..."
+					],
+					Name: "Juicy Flesh"
+				}
+			}
+		},
+		count: 3
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "cfm:item_flesh",
+			tag: {
+				ench: [{
+					lvl: 10s,
+					id: 10s
+				}],
+				display: {
+					Lore: [
+						"Holding it sobs with a greenish liquid.",
+						"Who knows what comes out if you squeeze it..."
+					],
+					Name: "Juicy Flesh"
+				}
+			}
+		},
+		count: 4
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "cfm:item_flesh",
+			tag: {
+				ench: [{
+					lvl: 10s,
+					id: 10s
+				}],
+				display: {
+					Lore: [
+						"Holding it sobs with a greenish liquid.",
+						"Who knows what comes out if you squeeze it..."
+					],
+					Name: "Juicy Flesh"
+				}
+			}
+		},
+		count: 3
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:spawn_egg",
+			tag: {
+				EntityTag: {
+					id: "minecraft:ghast"
+				}
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "camscurrency:denarius"
+		},
+		count: 3
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "metallurgy:bronze_helmet"
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "metallurgy:bronze_leggings"
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "metallurgy:bronze_chestplate"
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:arrow"
+		},
+		count: 3
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:arrow"
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "extrautils2:compoundbow"
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "camscurrency:dupondius"
+		},
+		count: 5
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "cfm:item_knife",
+			tag: {
+				ench: [{
+					lvl: 1s,
+					id: 16s
+				}],
+				display: {
+					Name: "The Man Behind the Slaughter's Knife"
+				},
+				AttributeModifiers: [{
+					UUIDMost: -3801225194067177672L,
+					UUIDLeast: -6586624321849018929L,
+					Amount: 8.25d,
+					Slot: "mainhand",
+					AttributeName: "generic.attackDamage",
+					Operation: 0,
+					Name: "generic.attackDamage"
+				},
+				{
+					UUIDMost: -422425648963762075L,
+					UUIDLeast: -5756800103171642205L,
+					Amount: -2.4d,
+					Slot: "mainhand",
+					AttributeName: "generic.attackSpeed",
+					Operation: 0,
+					Name: "generic.attackSpeed"
+				},
+				{
+					UUIDMost: -8509588170060447373L,
+					UUIDLeast: -5535250684663157940L,
+					Amount: 2.0d,
+					Slot: "mainhand",
+					AttributeName: "generic.armorToughness",
+					Operation: 0,
+					Name: "generic.armorToughness"
+				},
+				{
+					UUIDMost: 878502233293603744L,
+					UUIDLeast: -4839320034137959425L,
+					Amount: 0.02d,
+					Slot: "mainhand",
+					AttributeName: "generic.movementSpeed",
+					Operation: 0,
+					Name: "generic.movementSpeed"
+				},
+				{
+					UUIDMost: -3127604484813273843L,
+					UUIDLeast: -7317692547964896200L,
+					Amount: -2.0d,
+					Slot: "mainhand",
+					AttributeName: "generic.reachDistance",
+					Operation: 0,
+					Name: "generic.reachDistance"
+				},
+				{
+					UUIDMost: 4763925204404749826L,
+					UUIDLeast: -5270652955110999257L,
+					Amount: 5.0d,
+					Slot: "mainhand",
+					AttributeName: "generic.luck",
+					Operation: 0,
+					Name: "generic.luck"
+				}]
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:ghast_tear"
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "weeeflowers:whiteflower"
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:ghast_tear"
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:feather"
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:arrow"
+		},
+		count: 4
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "cfm:item_flesh",
+			tag: {
+				ench: [{
+					lvl: 10s,
+					id: 10s
+				}],
+				display: {
+					Lore: [
+						"Holding it sobs with a greenish liquid.",
+						"Who knows what comes out if you squeeze it..."
+					],
+					Name: "Juicy Flesh"
+				}
+			}
+		},
+		count: 2
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "cfm:item_flesh",
+			tag: {
+				ench: [{
+					lvl: 10s,
+					id: 10s
+				}],
+				display: {
+					Lore: [
+						"Holding it sobs with a greenish liquid.",
+						"Who knows what comes out if you squeeze it..."
+					],
+					Name: "Juicy Flesh"
+				}
+			}
+		},
+		count: 4
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "tconstruct:cleaver",
+			tag: {
+				StatsOriginal: {
+					AttackSpeedMultiplier: 1.0f,
+					MiningSpeed: 8.25f,
+					FreeModifiers: 3,
+					Durability: 1248,
+					HarvestLevel: 7,
+					Attack: 12.23f
+				},
+				display: {
+					Name: "Night Terror"
+				},
+				Stats: {
+					AttackSpeedMultiplier: 1.0f,
+					MiningSpeed: 8.25f,
+					FreeModifiers: 0,
+					Durability: 1248,
+					HarvestLevel: 7,
+					Attack: 12.248884f
+				},
+				Special: {
+					Categories: [
+						"tool",
+						"weapon"
+					]
+				},
+				TinkerData: {
+					UsedModifiers: 4,
+					Materials: [
+						"shadow_iron",
+						"sanguinite",
+						"prismarine",
+						"ma.prosperity"
+					],
+					Modifiers: [
+						"beheading_cleaver",
+						"necrotic",
+						"sharpness",
+						"knockback"
+					]
+				},
+				Modifiers: [{
+					identifier: "obscure_trait",
+					color: -12108480,
+					level: 1
+				},
+				{
+					identifier: "life_steal_trait",
+					color: -11264739,
+					level: 1
+				},
+				{
+					identifier: "jagged",
+					color: -8462660,
+					level: 1
+				},
+				{
+					identifier: "aquadynamic",
+					color: -8462660,
+					level: 1
+				},
+				{
+					identifier: "writable",
+					color: -6044219,
+					level: 1,
+					writable1: 1b
+				},
+				{
+					identifier: "beheading_cleaver",
+					color: 1070923,
+					level: 2
+				},
+				{
+					identifier: "necrotic",
+					color: 6160384,
+					level: 2
+				},
+				{
+					identifier: "sharpness",
+					current: 1,
+					color: 16774902,
+					level: 1,
+					max: 72
+				},
+				{
+					identifier: "knockback",
+					current: 10,
+					color: 10461087,
+					level: 1,
+					max: 10,
+					extraInfo: "9 / 10"
+				}],
+				Traits: [
+					"obscure_trait",
+					"life_steal_trait",
+					"jagged",
+					"aquadynamic",
+					"writable1",
+					"necrotic",
+					"knockback"
+				]
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "minecraft:rotten_flesh"
+		},
+		count: 64
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "metallurgy:osmium_ingot"
+		},
+		count: 3
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "metallurgy:osmium_ingot"
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "metallurgy:osmium_ingot"
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "metallurgy:osmium_chestplate",
+			tag: {
+				ench: [{
+					lvl: 6s,
+					id: 3s
+				},
+				{
+					lvl: 1s,
+					id: 34s
+				},
+				{
+					lvl: 1s,
+					id: 10s
+				}],
+				display: {
+					Lore: [
+						"The mechanical armor of these drones shows",
+						"no mercy against an attack."
+					],
+					Name: "Drone Plate"
+				},
+				AttributeModifiers: [{
+					UUIDMost: -6972338111383059132L,
+					UUIDLeast: -8978659762232839026L,
+					Amount: 10.0d,
+					Slot: "chest",
+					AttributeName: "generic.armor",
+					Operation: 0,
+					Name: "generic.armor"
+				},
+				{
+					UUIDMost: -6972338111383059132L,
+					UUIDLeast: -8978659762232839026L,
+					Amount: 4.0d,
+					Slot: "chest",
+					AttributeName: "generic.armorToughness",
+					Operation: 0,
+					Name: "generic.armorToughness"
+				},
+				{
+					UUIDMost: 9163856427096293829L,
+					UUIDLeast: -5667712487040183840L,
+					Amount: -0.01d,
+					Slot: "chest",
+					AttributeName: "generic.movementSpeed",
+					Operation: 0,
+					Name: "generic.movementSpeed"
+				},
+				{
+					UUIDMost: 1381026400404261491L,
+					UUIDLeast: -6149346169785087189L,
+					Amount: 10.0d,
+					Slot: "chest",
+					AttributeName: "generic.followRange",
+					Operation: 0,
+					Name: "generic.followRange"
+				}]
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "totaltinkers:scimitar",
+			tag: {
+				StatsOriginal: {
+					AttackSpeedMultiplier: 1.0f,
+					MiningSpeed: 7.0f,
+					FreeModifiers: 3,
+					Durability: 1576,
+					HarvestLevel: 3,
+					Attack: 7.0f
+				},
+				display: {
+					Name: "DoT Slicer"
+				},
+				Stats: {
+					AttackSpeedMultiplier: 1.0f,
+					MiningSpeed: 7.0f,
+					FreeModifiers: 2,
+					Durability: 1576,
+					HarvestLevel: 3,
+					Attack: 11.277189f
+				},
+				Special: {
+					Categories: [
+						"weapon",
+						"tool"
+					]
+				},
+				TinkerData: {
+					UsedModifiers: 5,
+					Materials: [
+						"vyroxeres",
+						"steel",
+						"desichalkos"
+					],
+					Modifiers: [
+						"fiery",
+						"creative",
+						"sharpness"
+					]
+				},
+				Modifiers: [{
+					identifier: "poisonous",
+					color: -13893888,
+					level: 1
+				},
+				{
+					identifier: "sharp",
+					color: -5789785,
+					level: 1
+				},
+				{
+					identifier: "king_dice_trait",
+					color: -9938020,
+					level: 1
+				},
+				{
+					identifier: "fiery",
+					current: 75,
+					color: 15375922,
+					level: 3,
+					max: 75,
+					extraInfo: "74 / 75"
+				},
+				{
+					identifier: "creative",
+					color: 0,
+					level: 4
+				},
+				{
+					identifier: "sharpness",
+					current: 144,
+					color: 16774902,
+					level: 2,
+					max: 144,
+					extraInfo: "143 / 144"
+				}],
+				Traits: [
+					"poisonous",
+					"sharp",
+					"king_dice_trait",
+					"fiery"
+				]
+			}
+		}
+	}]
+}

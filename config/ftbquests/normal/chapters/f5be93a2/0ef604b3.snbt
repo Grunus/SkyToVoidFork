@@ -1,0 +1,68 @@
+{
+	title: "Inventory Pets III",
+	icon: {
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		},
+		id: "thermalfoundation:material",
+		Damage: 17s
+	},
+	x: 4.0d,
+	y: 6.0d,
+	description: "You've explored all islands of zone 3",
+	text: [
+		"The pets you will unlock...",
+		"",
+		"Purplicious Cow",
+		"Double Chest",
+		"Ender Chest",
+		"Loot",
+		"Magma Cube",
+		"Creeper",
+		"Ocelot",
+		"Cow",
+		"Squid",
+		"Heart",
+		"Sponge",
+		"Siamese"
+	],
+	dependencies: [
+		"452714e6",
+		"d5bb9b59",
+		"dd2ac9e8",
+		"35cce628",
+		"953154d4",
+		"ca4fc106",
+		"2b00bb4e",
+		"0e6623d4",
+		"4bce41dd",
+		"117838ad",
+		"a25f3563",
+		"84bb8bc6",
+		"375aa664",
+		"783ee9c0"
+	],
+	hide: true,
+	tasks: [{
+		uid: "5ae3011e",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "d107e00b",
+		type: "gamestage",
+		title: "Ametuer's Biology of Pets",
+		icon: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "inventorypets:nugget_emerald"
+		},
+		auto: "disabled",
+		stage: "ipets3_stage"
+	},
+	{
+		uid: "99b7ab70",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

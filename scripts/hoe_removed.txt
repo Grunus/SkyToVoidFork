@@ -49,6 +49,7 @@ var itemArray as IItemStack[] = [
 <metallurgy:steel_hoe>,
 <metallurgy:tartarite_hoe>,
 <metallurgy:vulcanite_hoe>,
+<metallurgy:vyroxeres_hoe>,
 <thermalfoundation:tool.hoe_lead>,
 <thermalfoundation:tool.hoe_aluminum>,
 <thermalfoundation:tool.hoe_nickel>,
@@ -58,7 +59,6 @@ var itemArray as IItemStack[] = [
 <thermalfoundation:tool.hoe_invar>,
 <thermalfoundation:tool.hoe_bronze>,
 <thermalfoundation:tool.hoe_constantan>,
-<metallurgy:vyroxeres_hoe>,
 <thermalfoundation:tool.hoe_copper>,
 <thermalfoundation:tool.hoe_tin>,
 <thermalfoundation:tool.hoe_silver>
